@@ -8,9 +8,7 @@
 
 Based on the official BAMF catalog (Stand: 07.05.2025).
 
-## ⚠️ Disclaimer
-
-For **educational purposes only**. Questions are based on the official BAMF catalog. Some questions reference images (maps, coats of arms) — descriptions are provided. Questions about current officeholders (Chancellor, Minister-Presidents) change with elections — always verify before your test.
+> ⚠️ **Important:** For educational purposes only. Questions about current officeholders (Chancellor, Minister-Presidents) change with elections — always verify on the [BAMF website](https://www.bamf.de) before your test.
 
 ## 🚀 Quick Start
 
