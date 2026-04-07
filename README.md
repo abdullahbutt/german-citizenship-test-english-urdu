@@ -133,3 +133,9 @@ For **educational purposes only**. Questions are based on the official BAMF cata
 ## 📄 License
 
 Based on publicly available German government examination material. Translations and explanations provided freely for educational use.
+
+## ☕ Support This Project
+
+This project is completely free and open source. If it helped you pass your test, you can optionally buy me a coffee — no obligation at all!
+
+[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://paypal.me/abdullahbuttde)
