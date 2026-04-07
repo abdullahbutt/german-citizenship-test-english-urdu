@@ -1,6 +1,6 @@
 # 🇩🇪 جرمن شہریت کا امتحان — اردو ترجمے کے ساتھ
 
-> ⭐ اگر اس نے آپ کے امتحان میں مدد کی تو [اس ریپو کو اسٹار کریں](https://github.com/abdullahbutt/german-citizenship-test-english-urdu/stargazers) — اس سے دوسروں کو تلاش میں مدد ملتی ہے!
+> ⭐ اگر اس نے آپ کے امتحان میں مدد کی تو [اس ریپو کو اسٹار کریں](https://github.com/abdullahbutt/german-citizenship-test-english-urdu) — اس سے دوسروں کو تلاش میں مدد ملتی ہے!
 
 > 🇬🇧 For English version — [English Branch](https://github.com/abdullahbutt/german-citizenship-test-english-urdu/blob/english/README.md)
 
