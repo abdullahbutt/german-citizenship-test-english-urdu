@@ -1,40 +1,40 @@
-# Mecklenburg-Vorpommern (Mecklenburg-Western Pomerania) — State Questions (301–310)
-[⬅ Back to Main README](README.md)
+# Mecklenburg-Vorpommern (میکلنبرگ) — ریاستی سوالات (301–310)
+[⬅ مرکزی صفحے پر واپس](README.md)
 
 ---
-### Question 301 — Coat of Arms
+### سوال 301 — ریاستی نشان
 **🇩🇪** Welches Wappen gehört zum Bundesland Mecklenburg-Vorpommern?
-**🇬🇧** Which coat of arms belongs to Mecklenburg-Vorpommern (Mecklenburg-Western Pomerania)?
-*🖼️ Bull head (Mecklenburg) and griffin (Pomerania)*
-> **📝** MV is in northeastern Germany along the Baltic Sea coast and was re-established in 1990 after reunification. Its coat of arms combines the Mecklenburg bull and the Pomeranian griffin. Known for its Baltic beaches, Rügen island (Germany's largest island), and historic Hanseatic cities.
+**🇵🇰** میکلنبرگ کا نشان کون سا ہے؟
+*🖼️ بیل کا سر (میکلنبرگ) اور گرفن (پومیرینیا)*
+> **📝** میکلنبرگ شمال مشرقی جرمنی میں بحر بالٹک کے ساحل پر ہے اور 1990 میں دوبارہ قائم ہوئی۔ بالٹک ساحل، ریوگن جزیرہ (جرمنی کا سب سے بڑا جزیرہ)، اور تاریخی ہانسیاتی شہروں کے لیے مشہور۔
 
-### Question 302 — Map Identification
+### سوال 302 — نقشے میں شناخت
 **🇩🇪** Welches ist ein Bundesland von Deutschland?
-**🇬🇧** Which is a federal state of Germany?
-*🖼️ Identify this state on a map of Germany.*
+**🇵🇰** جرمنی کی کون سی وفاقی ریاست ہے؟
+*🖼️ جرمنی کے نقشے پر اس ریاست کو پہچانیں۔*
 
-### Question 303 — Capital City
+### سوال 303 — دارالحکومت
 **🇩🇪** Wie heißt die Landeshauptstadt?
-**🇬🇧** What is the state capital?
-| | Deutsch | English |
+**🇵🇰** ریاستی دارالحکومت کا نام کیا ہے؟
+| | جرمن | اردو |
 |---|---|---|
-| ✅ | **Schwerin** | **Schwerin** |
-> **📝** Schwerin is the capital of Mecklenburg-Vorpommern.
+| ✅ | **Schwerin (شویرین)** | **Schwerin (شویرین)** |
+> **📝** Schwerin (شویرین) ریاست میکلنبرگ کا دارالحکومت ہے۔
 
-### Question 304 — Map Location
+### سوال 304 — نقشے میں مقام
 **🇩🇪** Welches Bundesland ist Mecklenburg-Vorpommern?
-**🇬🇧** Which one is Mecklenburg-Vorpommern (Mecklenburg-Western Pomerania)?
-*🖼️ Identify on numbered map.*
+**🇵🇰** میکلنبرگ کون سی ہے؟
+*🖼️ نمبر والے نقشے پر پہچانیں۔*
 
-### Question 305 — Minister-President
+### سوال 305 — وزیراعلیٰ
 **🇩🇪** Wie heißt der/die Ministerpräsident/in?
-**🇬🇧** Who is the Minister-President?
-*⚠️ Check current officeholder. As of 2025: Manuela Schwesig (SPD)*
+**🇵🇰** وزیراعلیٰ کا نام کیا ہے؟
+*⚠️ موجودہ عہدیدار چیک کریں۔ 2025 تک: Manuela Schwesig (SPD)*
 
-### Questions 306–310 — Additional State Facts
-Key facts for your preparation:
-- **Parliament:** Landtag
-- **Neighbors/Borders:** Poland, Baltic Sea; borders Schleswig-Holstein, Niedersachsen, Brandenburg
-- **Major cities:** Schwerin, Rostock, Stralsund, Wismar, Greifswald
+### سوالات 306–310 — اضافی ریاستی حقائق
+تیاری کے لیے اہم حقائق:
+- **پارلیمنٹ:** Landtag (لینڈٹاگ)
+- **پڑوسی/سرحدیں:** پولینڈ، بحر بالٹک؛ ریاستیں: شلیسوگ ہولسٹائن، نیڈرسیکسن، برانڈنبرگ
+- **بڑے شہر:** Schwerin, Rostock, Stralsund, Wismar
 
-[⬅ Back to Main README](README.md)
+[⬅ مرکزی صفحے پر واپس](README.md)

@@ -1,40 +1,40 @@
-# Brandenburg — State Questions (301–310)
-[⬅ Back to Main README](README.md)
+# Brandenburg (برانڈنبرگ) — ریاستی سوالات (301–310)
+[⬅ مرکزی صفحے پر واپس](README.md)
 
 ---
-### Question 301 — Coat of Arms
+### سوال 301 — ریاستی نشان
 **🇩🇪** Welches Wappen gehört zum Bundesland Brandenburg?
-**🇬🇧** Which coat of arms belongs to Brandenburg?
-*🖼️ Red eagle on white background*
-> **📝** Brandenburg surrounds Berlin and was re-established as a state after reunification in 1990. Its coat of arms shows the red Brandenburg eagle. Potsdam, the capital, is famous for Sanssouci Palace (Frederick the Great's summer residence) and the Potsdam Conference (1945).
+**🇵🇰** برانڈنبرگ کا نشان کون سا ہے؟
+*🖼️ سفید پس منظر پر سرخ عقاب*
+> **📝** برانڈنبرگ برلن کو چاروں طرف سے گھیرے ہوئے ہے اور 1990 میں دوبارہ اتحاد کے بعد ریاست کے طور پر قائم ہوئی۔ پوٹسڈام سانسوسی محل (فریڈرخ اعظم کی موسمی رہائش گاہ) اور 1945 کی پوٹسڈام کانفرنس کے لیے مشہور ہے۔
 
-### Question 302 — Map Identification
+### سوال 302 — نقشے میں شناخت
 **🇩🇪** Welches ist ein Bundesland von Deutschland?
-**🇬🇧** Which is a federal state of Germany?
-*🖼️ Identify this state on a map of Germany.*
+**🇵🇰** جرمنی کی کون سی وفاقی ریاست ہے؟
+*🖼️ جرمنی کے نقشے پر اس ریاست کو پہچانیں۔*
 
-### Question 303 — Capital City
+### سوال 303 — دارالحکومت
 **🇩🇪** Wie heißt die Landeshauptstadt?
-**🇬🇧** What is the state capital?
-| | Deutsch | English |
+**🇵🇰** ریاستی دارالحکومت کا نام کیا ہے؟
+| | جرمن | اردو |
 |---|---|---|
-| ✅ | **Potsdam** | **Potsdam** |
-> **📝** Potsdam is the capital of Brandenburg.
+| ✅ | **Potsdam (پوٹسڈام)** | **Potsdam (پوٹسڈام)** |
+> **📝** Potsdam (پوٹسڈام) ریاست برانڈنبرگ کا دارالحکومت ہے۔
 
-### Question 304 — Map Location
+### سوال 304 — نقشے میں مقام
 **🇩🇪** Welches Bundesland ist Brandenburg?
-**🇬🇧** Which one is Brandenburg?
-*🖼️ Identify on numbered map.*
+**🇵🇰** برانڈنبرگ کون سی ہے؟
+*🖼️ نمبر والے نقشے پر پہچانیں۔*
 
-### Question 305 — Minister-President
+### سوال 305 — وزیراعلیٰ
 **🇩🇪** Wie heißt der/die Ministerpräsident/in?
-**🇬🇧** Who is the Minister-President?
-*⚠️ Check current officeholder. As of 2025: Dietmar Woidke (SPD)*
+**🇵🇰** وزیراعلیٰ کا نام کیا ہے؟
+*⚠️ موجودہ عہدیدار چیک کریں۔ 2025 تک: Dietmar Woidke (SPD)*
 
-### Questions 306–310 — Additional State Facts
-Key facts for your preparation:
-- **Parliament:** Landtag
-- **Neighbors/Borders:** Poland, and the states of Mecklenburg-Vorpommern, Sachsen-Anhalt, Sachsen, Berlin
-- **Major cities:** Potsdam, Cottbus, Frankfurt (Oder), Brandenburg an der Havel
+### سوالات 306–310 — اضافی ریاستی حقائق
+تیاری کے لیے اہم حقائق:
+- **پارلیمنٹ:** Landtag (لینڈٹاگ)
+- **پڑوسی/سرحدیں:** پولینڈ؛ ریاستیں: میکلنبرگ، سیکسنی انہالٹ، سیکسنی، برلن
+- **بڑے شہر:** Potsdam, Cottbus, Frankfurt (Oder)
 
-[⬅ Back to Main README](README.md)
+[⬅ مرکزی صفحے پر واپس](README.md)

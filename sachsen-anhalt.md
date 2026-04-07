@@ -1,40 +1,40 @@
-# Sachsen-Anhalt (Saxony-Anhalt) — State Questions (301–310)
-[⬅ Back to Main README](README.md)
+# Sachsen-Anhalt (سیکسنی انہالٹ) — ریاستی سوالات (301–310)
+[⬅ مرکزی صفحے پر واپس](README.md)
 
 ---
-### Question 301 — Coat of Arms
+### سوال 301 — ریاستی نشان
 **🇩🇪** Welches Wappen gehört zum Bundesland Sachsen-Anhalt?
-**🇬🇧** Which coat of arms belongs to Sachsen-Anhalt (Saxony-Anhalt)?
-*🖼️ Black and gold eagle*
-> **📝** Sachsen-Anhalt was re-established in 1990. Wittenberg is where Martin Luther nailed his 95 Theses (1517), starting the Reformation. Dessau is home to the Bauhaus school of design. The state has several UNESCO World Heritage Sites.
+**🇵🇰** سیکسنی انہالٹ کا نشان کون سا ہے؟
+*🖼️ سیاہ اور سنہرا عقاب*
+> **📝** سیکسنی انہالٹ 1990 میں دوبارہ قائم ہوئی۔ وٹنبرگ وہ جگہ ہے جہاں مارٹن لوتھر نے 1517 میں اپنے 95 مقالات لگائے جو اصلاح مذہب کا آغاز تھا۔ ڈیساؤ باؤہاؤس ڈیزائن اسکول کا گھر ہے۔ کئی یونیسکو عالمی ثقافتی ورثے کے مقامات ہیں۔
 
-### Question 302 — Map Identification
+### سوال 302 — نقشے میں شناخت
 **🇩🇪** Welches ist ein Bundesland von Deutschland?
-**🇬🇧** Which is a federal state of Germany?
-*🖼️ Identify this state on a map of Germany.*
+**🇵🇰** جرمنی کی کون سی وفاقی ریاست ہے؟
+*🖼️ جرمنی کے نقشے پر اس ریاست کو پہچانیں۔*
 
-### Question 303 — Capital City
+### سوال 303 — دارالحکومت
 **🇩🇪** Wie heißt die Landeshauptstadt?
-**🇬🇧** What is the state capital?
-| | Deutsch | English |
+**🇵🇰** ریاستی دارالحکومت کا نام کیا ہے؟
+| | جرمن | اردو |
 |---|---|---|
-| ✅ | **Magdeburg** | **Magdeburg** |
-> **📝** Magdeburg is the capital of Sachsen-Anhalt.
+| ✅ | **Magdeburg (میگڈیبرگ)** | **Magdeburg (میگڈیبرگ)** |
+> **📝** Magdeburg (میگڈیبرگ) ریاست سیکسنی انہالٹ کا دارالحکومت ہے۔
 
-### Question 304 — Map Location
+### سوال 304 — نقشے میں مقام
 **🇩🇪** Welches Bundesland ist Sachsen-Anhalt?
-**🇬🇧** Which one is Sachsen-Anhalt (Saxony-Anhalt)?
-*🖼️ Identify on numbered map.*
+**🇵🇰** سیکسنی انہالٹ کون سی ہے؟
+*🖼️ نمبر والے نقشے پر پہچانیں۔*
 
-### Question 305 — Minister-President
+### سوال 305 — وزیراعلیٰ
 **🇩🇪** Wie heißt der/die Ministerpräsident/in?
-**🇬🇧** Who is the Minister-President?
-*⚠️ Check current officeholder. As of 2025: Reiner Haseloff (CDU)*
+**🇵🇰** وزیراعلیٰ کا نام کیا ہے؟
+*⚠️ موجودہ عہدیدار چیک کریں۔ 2025 تک: Reiner Haseloff (CDU)*
 
-### Questions 306–310 — Additional State Facts
-Key facts for your preparation:
-- **Parliament:** Landtag
-- **Neighbors/Borders:** No international borders; borders Niedersachsen, Brandenburg, Sachsen, Thüringen
-- **Major cities:** Magdeburg, Halle (Saale), Dessau-Roßlau, Wittenberg
+### سوالات 306–310 — اضافی ریاستی حقائق
+تیاری کے لیے اہم حقائق:
+- **پارلیمنٹ:** Landtag (لینڈٹاگ)
+- **پڑوسی/سرحدیں:** کوئی بین الاقوامی سرحد نہیں؛ ریاستیں: نیڈرسیکسن، برانڈنبرگ، سیکسنی، تھورنگیا
+- **بڑے شہر:** Magdeburg, Halle (Saale), Dessau-Roßlau, Wittenberg
 
-[⬅ Back to Main README](README.md)
+[⬅ مرکزی صفحے پر واپس](README.md)

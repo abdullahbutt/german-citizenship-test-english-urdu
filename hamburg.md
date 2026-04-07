@@ -1,40 +1,40 @@
-# Hamburg — State Questions (301–310)
-[⬅ Back to Main README](README.md)
+# Hamburg (ہیمبرگ) — ریاستی سوالات (301–310)
+[⬅ مرکزی صفحے پر واپس](README.md)
 
 ---
-### Question 301 — Coat of Arms
+### سوال 301 — ریاستی نشان
 **🇩🇪** Welches Wappen gehört zum Bundesland Hamburg?
-**🇬🇧** Which coat of arms belongs to Hamburg?
-*🖼️ White castle gate on red background*
-> **📝** Hamburg is Germany's second-largest city (~1.9 million) and a city-state. Its coat of arms shows a white castle gate. Head of government is 'Erste/r Bürgermeister/in' (First Mayor). Hamburg has Europe's third-largest port. Known for the Elbphilharmonie, Reeperbahn, and its role as a media hub.
+**🇵🇰** ہیمبرگ کا نشان کون سا ہے؟
+*🖼️ سرخ پس منظر پر سفید محل کا دروازہ*
+> **📝** ہیمبرگ جرمنی کا دوسرا بڑا شہر (~19 لاکھ) اور شہری ریاست ہے۔ سربراہ حکومت 'Erste/r Bürgermeister/in' (پہلا/پہلی میئر) کہلاتا ہے۔ یورپ کی تیسری بڑی بندرگاہ ہے۔ ایلب فلہارمونی اور ریپربان کے لیے مشہور۔
 
-### Question 302 — Map Identification
+### سوال 302 — نقشے میں شناخت
 **🇩🇪** Welches ist ein Bundesland von Deutschland?
-**🇬🇧** Which is a federal state of Germany?
-*🖼️ Identify this state on a map of Germany.*
+**🇵🇰** جرمنی کی کون سی وفاقی ریاست ہے؟
+*🖼️ جرمنی کے نقشے پر اس ریاست کو پہچانیں۔*
 
-### Question 303 — Capital City
+### سوال 303 — دارالحکومت
 **🇩🇪** Wie heißt die Landeshauptstadt?
-**🇬🇧** What is the state capital?
-| | Deutsch | English |
+**🇵🇰** ریاستی دارالحکومت کا نام کیا ہے؟
+| | جرمن | اردو |
 |---|---|---|
-| ✅ | **Hamburg (is both city and state)** | **Hamburg (is both city and state)** |
-> **📝** Hamburg (is both city and state) is the capital of Hamburg.
+| ✅ | **Hamburg (ہیمبرگ — شہر اور ریاست دونوں)** | **Hamburg (ہیمبرگ — شہر اور ریاست دونوں)** |
+> **📝** Hamburg (ہیمبرگ — شہر اور ریاست دونوں) ریاست ہیمبرگ کا دارالحکومت ہے۔
 
-### Question 304 — Map Location
+### سوال 304 — نقشے میں مقام
 **🇩🇪** Welches Bundesland ist Hamburg?
-**🇬🇧** Which one is Hamburg?
-*🖼️ Identify on numbered map.*
+**🇵🇰** ہیمبرگ کون سی ہے؟
+*🖼️ نمبر والے نقشے پر پہچانیں۔*
 
-### Question 305 — Minister-President
+### سوال 305 — وزیراعلیٰ
 **🇩🇪** Wie heißt der/die Ministerpräsident/in?
-**🇬🇧** Who is the Minister-President?
-*⚠️ Check current officeholder. As of 2025: Peter Tschentscher (SPD)*
+**🇵🇰** وزیراعلیٰ کا نام کیا ہے؟
+*⚠️ موجودہ عہدیدار چیک کریں۔ 2025 تک: Peter Tschentscher (SPD)*
 
-### Questions 306–310 — Additional State Facts
-Key facts for your preparation:
-- **Parliament:** Bürgerschaft
-- **Neighbors/Borders:** Surrounded by Schleswig-Holstein and Niedersachsen
-- **Major cities:** Hamburg is a single city-state
+### سوالات 306–310 — اضافی ریاستی حقائق
+تیاری کے لیے اہم حقائق:
+- **پارلیمنٹ:** Bürgerschaft (بُرگرشافٹ)
+- **پڑوسی/سرحدیں:** شلیسوگ ہولسٹائن اور نیڈرسیکسن سے گھری ہوئی
+- **بڑے شہر:** ہیمبرگ واحد شہری ریاست ہے
 
-[⬅ Back to Main README](README.md)
+[⬅ مرکزی صفحے پر واپس](README.md)

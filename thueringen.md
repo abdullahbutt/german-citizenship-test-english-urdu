@@ -1,40 +1,40 @@
-# Thüringen (Thuringia) — State Questions (301–310)
-[⬅ Back to Main README](README.md)
+# Thüringen (تھورنگیا) — ریاستی سوالات (301–310)
+[⬅ مرکزی صفحے پر واپس](README.md)
 
 ---
-### Question 301 — Coat of Arms
+### سوال 301 — ریاستی نشان
 **🇩🇪** Welches Wappen gehört zum Bundesland Thüringen?
-**🇬🇧** Which coat of arms belongs to Thüringen (Thuringia)?
-*🖼️ Red and white striped lion with blue claws on blue background*
-> **📝** Thuringia is called the 'green heart of Germany' due to the Thuringian Forest (Thüringer Wald). Weimar was home to Goethe and Schiller and the Weimar Republic. Eisenach has the Wartburg Castle where Luther translated the Bible. The state was re-established in 1990.
+**🇵🇰** تھورنگیا کا نشان کون سا ہے؟
+*🖼️ نیلے پنجوں والا سرخ اور سفید دھاری دار شیر — نیلے پس منظر پر*
+> **📝** تھورنگیا کو تھورنگین جنگل (Thüringer Wald) کی وجہ سے 'جرمنی کا سبز دل' کہا جاتا ہے۔ وائمر گوئٹے، شلر اور وائمر جمہوریہ کا گھر تھا۔ آئزناخ میں وارٹبرگ محل ہے جہاں لوتھر نے بائبل کا ترجمہ کیا۔ 1990 میں دوبارہ قائم ہوئی۔
 
-### Question 302 — Map Identification
+### سوال 302 — نقشے میں شناخت
 **🇩🇪** Welches ist ein Bundesland von Deutschland?
-**🇬🇧** Which is a federal state of Germany?
-*🖼️ Identify this state on a map of Germany.*
+**🇵🇰** جرمنی کی کون سی وفاقی ریاست ہے؟
+*🖼️ جرمنی کے نقشے پر اس ریاست کو پہچانیں۔*
 
-### Question 303 — Capital City
+### سوال 303 — دارالحکومت
 **🇩🇪** Wie heißt die Landeshauptstadt?
-**🇬🇧** What is the state capital?
-| | Deutsch | English |
+**🇵🇰** ریاستی دارالحکومت کا نام کیا ہے؟
+| | جرمن | اردو |
 |---|---|---|
-| ✅ | **Erfurt** | **Erfurt** |
-> **📝** Erfurt is the capital of Thüringen.
+| ✅ | **Erfurt (ایرفرٹ)** | **Erfurt (ایرفرٹ)** |
+> **📝** Erfurt (ایرفرٹ) ریاست تھورنگیا کا دارالحکومت ہے۔
 
-### Question 304 — Map Location
+### سوال 304 — نقشے میں مقام
 **🇩🇪** Welches Bundesland ist Thüringen?
-**🇬🇧** Which one is Thüringen (Thuringia)?
-*🖼️ Identify on numbered map.*
+**🇵🇰** تھورنگیا کون سی ہے؟
+*🖼️ نمبر والے نقشے پر پہچانیں۔*
 
-### Question 305 — Minister-President
+### سوال 305 — وزیراعلیٰ
 **🇩🇪** Wie heißt der/die Ministerpräsident/in?
-**🇬🇧** Who is the Minister-President?
-*⚠️ Check current officeholder. As of 2025: Mario Voigt (CDU)*
+**🇵🇰** وزیراعلیٰ کا نام کیا ہے؟
+*⚠️ موجودہ عہدیدار چیک کریں۔ 2025 تک: Mario Voigt (CDU)*
 
-### Questions 306–310 — Additional State Facts
-Key facts for your preparation:
-- **Parliament:** Landtag
-- **Neighbors/Borders:** No international borders; borders Niedersachsen, Hessen, Bayern, Sachsen, Sachsen-Anhalt
-- **Major cities:** Erfurt, Jena, Gera, Weimar, Eisenach
+### سوالات 306–310 — اضافی ریاستی حقائق
+تیاری کے لیے اہم حقائق:
+- **پارلیمنٹ:** Landtag (لینڈٹاگ)
+- **پڑوسی/سرحدیں:** کوئی بین الاقوامی سرحد نہیں؛ ریاستیں: نیڈرسیکسن، ہیسن، بویریا، سیکسنی، سیکسنی انہالٹ
+- **بڑے شہر:** Erfurt, Jena, Gera, Weimar, Eisenach
 
-[⬅ Back to Main README](README.md)
+[⬅ مرکزی صفحے پر واپس](README.md)

@@ -1,40 +1,40 @@
-# Bremen — State Questions (301–310)
-[⬅ Back to Main README](README.md)
+# Bremen (بریمن) — ریاستی سوالات (301–310)
+[⬅ مرکزی صفحے پر واپس](README.md)
 
 ---
-### Question 301 — Coat of Arms
+### سوال 301 — ریاستی نشان
 **🇩🇪** Welches Wappen gehört zum Bundesland Bremen?
-**🇬🇧** Which coat of arms belongs to Bremen?
-*🖼️ Key and coat of arms with the Bremen key*
-> **📝** Bremen is Germany's smallest state by area and consists of two non-contiguous cities: Bremen and Bremerhaven (60 km apart). Head of government is called 'Bürgermeister/Präsident des Senats.' The parliament is called 'Bürgerschaft.' Famous for the Bremen Town Musicians (fairy tale), and as a major port city.
+**🇵🇰** بریمن کا نشان کون سا ہے؟
+*🖼️ بریمن کی چابی کا نشان*
+> **📝** بریمن رقبے کے لحاظ سے جرمنی کی سب سے چھوٹی ریاست ہے اور دو غیر متصل شہروں پر مشتمل ہے: بریمن اور بریمرہیفن (60 کلومیٹر دور)۔ سربراہ حکومت 'Bürgermeister/Präsident des Senats' کہلاتا ہے۔ بریمن ٹاؤن میوزیشنز کی کہانی کے لیے مشہور ہے۔
 
-### Question 302 — Map Identification
+### سوال 302 — نقشے میں شناخت
 **🇩🇪** Welches ist ein Bundesland von Deutschland?
-**🇬🇧** Which is a federal state of Germany?
-*🖼️ Identify this state on a map of Germany.*
+**🇵🇰** جرمنی کی کون سی وفاقی ریاست ہے؟
+*🖼️ جرمنی کے نقشے پر اس ریاست کو پہچانیں۔*
 
-### Question 303 — Capital City
+### سوال 303 — دارالحکومت
 **🇩🇪** Wie heißt die Landeshauptstadt?
-**🇬🇧** What is the state capital?
-| | Deutsch | English |
+**🇵🇰** ریاستی دارالحکومت کا نام کیا ہے؟
+| | جرمن | اردو |
 |---|---|---|
-| ✅ | **Bremen** | **Bremen** |
-> **📝** Bremen is the capital of Bremen.
+| ✅ | **Bremen (بریمن)** | **Bremen (بریمن)** |
+> **📝** Bremen (بریمن) ریاست بریمن کا دارالحکومت ہے۔
 
-### Question 304 — Map Location
+### سوال 304 — نقشے میں مقام
 **🇩🇪** Welches Bundesland ist Bremen?
-**🇬🇧** Which one is Bremen?
-*🖼️ Identify on numbered map.*
+**🇵🇰** بریمن کون سی ہے؟
+*🖼️ نمبر والے نقشے پر پہچانیں۔*
 
-### Question 305 — Minister-President
+### سوال 305 — وزیراعلیٰ
 **🇩🇪** Wie heißt der/die Ministerpräsident/in?
-**🇬🇧** Who is the Minister-President?
-*⚠️ Check current officeholder. As of 2025: Andreas Bovenschulte (SPD)*
+**🇵🇰** وزیراعلیٰ کا نام کیا ہے؟
+*⚠️ موجودہ عہدیدار چیک کریں۔ 2025 تک: Andreas Bovenschulte (SPD)*
 
-### Questions 306–310 — Additional State Facts
-Key facts for your preparation:
-- **Parliament:** Bürgerschaft
-- **Neighbors/Borders:** Surrounded by Niedersachsen (Lower Saxony)
-- **Major cities:** Bremen and Bremerhaven (the state consists of two cities)
+### سوالات 306–310 — اضافی ریاستی حقائق
+تیاری کے لیے اہم حقائق:
+- **پارلیمنٹ:** Bürgerschaft (بُرگرشافٹ)
+- **پڑوسی/سرحدیں:** مکمل طور پر نیڈرسیکسن سے گھری ہوئی
+- **بڑے شہر:** Bremen اور Bremerhaven (دو شہروں پر مشتمل)
 
-[⬅ Back to Main README](README.md)
+[⬅ مرکزی صفحے پر واپس](README.md)

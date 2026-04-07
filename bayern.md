@@ -1,40 +1,40 @@
-# Bayern (Bavaria) — State Questions (301–310)
-[⬅ Back to Main README](README.md)
+# Bayern (بویریا) — ریاستی سوالات (301–310)
+[⬅ مرکزی صفحے پر واپس](README.md)
 
 ---
-### Question 301 — Coat of Arms
+### سوال 301 — ریاستی نشان
 **🇩🇪** Welches Wappen gehört zum Bundesland Bayern?
-**🇬🇧** Which coat of arms belongs to Bayern (Bavaria)?
-*🖼️ White and blue diamond pattern (Bavarian rhombi/lozenges)*
-> **📝** Bavaria is Germany's largest state by area (~70,550 km²). Its coat of arms features the iconic blue and white diamond pattern (Rauten). Founded as a duchy in the 6th century, it has a strong regional identity. Known for Oktoberfest, the Alps, Neuschwanstein Castle, BMW, and Audi.
+**🇵🇰** بویریا کا نشان کون سا ہے؟
+*🖼️ نیلے اور سفید ہیرے (بویریا کے مشہور نشان)*
+> **📝** بویریا رقبے کے لحاظ سے جرمنی کی سب سے بڑی ریاست ہے (~70,550 مربع کلومیٹر)۔ اوکٹوبر فیسٹ، الپس، نیوشوانشٹائن محل، BMW اور آوڈی کے لیے مشہور۔ مضبوط علاقائی شناخت اور CSU پارٹی صرف بویریا میں موجود ہے۔
 
-### Question 302 — Map Identification
+### سوال 302 — نقشے میں شناخت
 **🇩🇪** Welches ist ein Bundesland von Deutschland?
-**🇬🇧** Which is a federal state of Germany?
-*🖼️ Identify this state on a map of Germany.*
+**🇵🇰** جرمنی کی کون سی وفاقی ریاست ہے؟
+*🖼️ جرمنی کے نقشے پر اس ریاست کو پہچانیں۔*
 
-### Question 303 — Capital City
+### سوال 303 — دارالحکومت
 **🇩🇪** Wie heißt die Landeshauptstadt?
-**🇬🇧** What is the state capital?
-| | Deutsch | English |
+**🇵🇰** ریاستی دارالحکومت کا نام کیا ہے؟
+| | جرمن | اردو |
 |---|---|---|
-| ✅ | **München (Munich)** | **München (Munich)** |
-> **📝** München (Munich) is the capital of Bayern.
+| ✅ | **München (میونخ)** | **München (میونخ)** |
+> **📝** München (میونخ) ریاست بویریا کا دارالحکومت ہے۔
 
-### Question 304 — Map Location
+### سوال 304 — نقشے میں مقام
 **🇩🇪** Welches Bundesland ist Bayern?
-**🇬🇧** Which one is Bayern (Bavaria)?
-*🖼️ Identify on numbered map.*
+**🇵🇰** بویریا کون سی ہے؟
+*🖼️ نمبر والے نقشے پر پہچانیں۔*
 
-### Question 305 — Minister-President
+### سوال 305 — وزیراعلیٰ
 **🇩🇪** Wie heißt der/die Ministerpräsident/in?
-**🇬🇧** Who is the Minister-President?
-*⚠️ Check current officeholder. As of 2025: Markus Söder (CSU)*
+**🇵🇰** وزیراعلیٰ کا نام کیا ہے؟
+*⚠️ موجودہ عہدیدار چیک کریں۔ 2025 تک: Markus Söder (CSU)*
 
-### Questions 306–310 — Additional State Facts
-Key facts for your preparation:
-- **Parliament:** Landtag
-- **Neighbors/Borders:** Austria, Czech Republic, Switzerland (via Lake Constance)
-- **Major cities:** München, Nürnberg, Augsburg, Regensburg, Würzburg
+### سوالات 306–310 — اضافی ریاستی حقائق
+تیاری کے لیے اہم حقائق:
+- **پارلیمنٹ:** Landtag (لینڈٹاگ)
+- **پڑوسی/سرحدیں:** آسٹریا، چیک ریپبلک؛ ریاستیں: بادن ورٹمبرگ، ہیسن، تھورنگیا، سیکسنی
+- **بڑے شہر:** München, Nürnberg, Augsburg, Regensburg, Würzburg
 
-[⬅ Back to Main README](README.md)
+[⬅ مرکزی صفحے پر واپس](README.md)

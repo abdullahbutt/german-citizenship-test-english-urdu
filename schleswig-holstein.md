@@ -1,40 +1,40 @@
-# Schleswig-Holstein — State Questions (301–310)
-[⬅ Back to Main README](README.md)
+# Schleswig-Holstein (شلیسوگ ہولسٹائن) — ریاستی سوالات (301–310)
+[⬅ مرکزی صفحے پر واپس](README.md)
 
 ---
-### Question 301 — Coat of Arms
+### سوال 301 — ریاستی نشان
 **🇩🇪** Welches Wappen gehört zum Bundesland Schleswig-Holstein?
-**🇬🇧** Which coat of arms belongs to Schleswig-Holstein?
-*🖼️ Two lions on blue and red background*
-> **📝** Schleswig-Holstein is Germany's northernmost state, situated between the North Sea and Baltic Sea. Kiel is known for the Kiel Week sailing regatta. Lübeck (birthplace of Thomas Mann) was the 'Queen of the Hanseatic League.' The Kiel Canal (Nord-Ostsee-Kanal) is the world's busiest artificial waterway.
+**🇵🇰** شلیسوگ ہولسٹائن کا نشان کون سا ہے؟
+*🖼️ نیلے اور سرخ پس منظر پر دو شیر*
+> **📝** شلیسوگ ہولسٹائن جرمنی کی سب سے شمالی ریاست ہے، بحر شمالی اور بحر بالٹک کے درمیان واقع۔ کیل ہفتہ (Kieler Woche) کشتی رانی ریگاٹا کے لیے مشہور ہے۔ لوبیک ہانسیاتی لیگ کی 'ملکہ' تھی۔ کیل نہر (Nord-Ostsee-Kanal) دنیا کی مصروف ترین مصنوعی آبی گزرگاہ ہے۔
 
-### Question 302 — Map Identification
+### سوال 302 — نقشے میں شناخت
 **🇩🇪** Welches ist ein Bundesland von Deutschland?
-**🇬🇧** Which is a federal state of Germany?
-*🖼️ Identify this state on a map of Germany.*
+**🇵🇰** جرمنی کی کون سی وفاقی ریاست ہے؟
+*🖼️ جرمنی کے نقشے پر اس ریاست کو پہچانیں۔*
 
-### Question 303 — Capital City
+### سوال 303 — دارالحکومت
 **🇩🇪** Wie heißt die Landeshauptstadt?
-**🇬🇧** What is the state capital?
-| | Deutsch | English |
+**🇵🇰** ریاستی دارالحکومت کا نام کیا ہے؟
+| | جرمن | اردو |
 |---|---|---|
-| ✅ | **Kiel** | **Kiel** |
-> **📝** Kiel is the capital of Schleswig-Holstein.
+| ✅ | **Kiel (کیل)** | **Kiel (کیل)** |
+> **📝** Kiel (کیل) ریاست شلیسوگ ہولسٹائن کا دارالحکومت ہے۔
 
-### Question 304 — Map Location
+### سوال 304 — نقشے میں مقام
 **🇩🇪** Welches Bundesland ist Schleswig-Holstein?
-**🇬🇧** Which one is Schleswig-Holstein?
-*🖼️ Identify on numbered map.*
+**🇵🇰** شلیسوگ ہولسٹائن کون سی ہے؟
+*🖼️ نمبر والے نقشے پر پہچانیں۔*
 
-### Question 305 — Minister-President
+### سوال 305 — وزیراعلیٰ
 **🇩🇪** Wie heißt der/die Ministerpräsident/in?
-**🇬🇧** Who is the Minister-President?
-*⚠️ Check current officeholder. As of 2025: Daniel Günther (CDU)*
+**🇵🇰** وزیراعلیٰ کا نام کیا ہے؟
+*⚠️ موجودہ عہدیدار چیک کریں۔ 2025 تک: Daniel Günther (CDU)*
 
-### Questions 306–310 — Additional State Facts
-Key facts for your preparation:
-- **Parliament:** Landtag
-- **Neighbors/Borders:** Denmark, North Sea, Baltic Sea; borders Hamburg, Niedersachsen, MV
-- **Major cities:** Kiel, Lübeck, Flensburg, Neumünster
+### سوالات 306–310 — اضافی ریاستی حقائق
+تیاری کے لیے اہم حقائق:
+- **پارلیمنٹ:** Landtag (لینڈٹاگ)
+- **پڑوسی/سرحدیں:** ڈنمارک، بحر شمالی، بحر بالٹک؛ ریاستیں: ہیمبرگ، نیڈرسیکسن، میکلنبرگ
+- **بڑے شہر:** Kiel, Lübeck, Flensburg, Neumünster
 
-[⬅ Back to Main README](README.md)
+[⬅ مرکزی صفحے پر واپس](README.md)

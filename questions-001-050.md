@@ -1,810 +1,541 @@
-# General Questions — Part 1 (Questions 1–50)
-## Politics, Democracy, Basic Rights & State Structure
+# عمومی سوالات — حصہ 1 (سوالات 1–50)
+## سیاست، جمہوریت، بنیادی حقوق اور ریاستی ڈھانچہ
 
-[⬅ Back to Main README](README.md)
+[⬅ مرکزی صفحے پر واپس](README.md)
 
 ---
 
-### Question 1
+### سوال 1
 
-**🇩🇪 Deutsch:** In Deutschland dürfen Menschen offen etwas gegen die Regierung sagen, weil …
-**🇬🇧 English:** In Germany, people are allowed to openly say something against the government because …
+**🇩🇪** In Deutschland dürfen Menschen offen etwas gegen die Regierung sagen, weil …
+**🇵🇰** جرمنی میں لوگ کھلے عام حکومت کے خلاف بول سکتے ہیں کیونکہ …
 
-| | Deutsch | English |
+| | جرمن | اردو |
 |---|---|---|
-| ○ | hier Religionsfreiheit gilt. | freedom of religion applies here. |
-| ○ | die Menschen Steuern zahlen. | people pay taxes. |
-| ○ | die Menschen das Wahlrecht haben. | people have the right to vote. |
-| ✅ | **hier Meinungsfreiheit gilt.** | **freedom of speech applies here.** |
+| ○ | hier Religionsfreiheit gilt. | یہاں مذہبی آزادی ہے۔ |
+| ○ | die Menschen Steuern zahlen. | لوگ ٹیکس دیتے ہیں۔ |
+| ○ | die Menschen das Wahlrecht haben. | لوگوں کو ووٹ کا حق ہے۔ |
+| ✅ | **hier Meinungsfreiheit gilt.** | **یہاں اظہار رائے کی آزادی ہے۔** |
 
-> **📝 Explanation:** Freedom of speech (Meinungsfreiheit) is one of the most important fundamental rights guaranteed by Article 5 of the German Basic Law (Grundgesetz). It means every person in Germany has the right to freely express their opinions in speech, writing, and images — including criticism of the government. This right is essential to a functioning democracy.
+> **📝** اظہار رائے کی آزادی (Meinungsfreiheit) جرمن بنیادی قانون (Grundgesetz) کے آرٹیکل 5 میں ضمانت شدہ سب سے اہم بنیادی حقوق میں سے ایک ہے۔ اس کا مطلب ہے کہ جرمنی میں ہر شخص کو اپنی رائے آزادانہ طور پر تقریر، تحریر اور تصاویر میں ظاہر کرنے کا حق ہے — بشمول حکومت پر تنقید۔
 
 ---
 
-### Question 2
+### سوال 2
 
-**🇩🇪 Deutsch:** In Deutschland können Eltern bis zum 14. Lebensjahr ihres Kindes entscheiden, ob es in der Schule am …
-**🇬🇧 English:** In Germany, parents can decide until their child's 14th year of life whether it participates in … at school.
+**🇩🇪** In Deutschland können Eltern bis zum 14. Lebensjahr ihres Kindes entscheiden, ob es in der Schule am …
+**🇵🇰** جرمنی میں والدین اپنے بچے کی 14 سال کی عمر تک فیصلہ کر سکتے ہیں کہ وہ اسکول میں … میں حصہ لے
 
-| | Deutsch | English |
+| | جرمن | اردو |
 |---|---|---|
-| ○ | Geschichtsunterricht teilnimmt. | history classes. |
-| ✅ | **Religionsunterricht teilnimmt.** | **religious education classes.** |
-| ○ | Politikunterricht teilnimmt. | politics classes. |
-| ○ | Sprachunterricht teilnimmt. | language classes. |
+| ○ | Geschichtsunterricht teilnimmt. | تاریخ کی کلاس۔ |
+| ✅ | **Religionsunterricht teilnimmt.** | **مذہبی تعلیم کی کلاس۔** |
+| ○ | Politikunterricht teilnimmt. | سیاسیات کی کلاس۔ |
+| ○ | Sprachunterricht teilnimmt. | زبان کی کلاس۔ |
 
-> **📝 Explanation:** Under German law, parents have the right to decide whether their child participates in religious education at school until the child turns 14. After age 14, the child can decide for themselves whether to attend religious classes (this is called "Religionsmündigkeit" — religious maturity). All other school subjects like history, politics, and languages are mandatory.
+> **📝** جرمن قانون کے مطابق، والدین کو یہ حق ہے کہ وہ فیصلہ کریں کہ ان کا بچہ 14 سال کی عمر تک اسکول میں مذہبی تعلیم میں حصہ لے یا نہیں۔ 14 سال کے بعد بچہ خود فیصلہ کر سکتا ہے (اسے "مذہبی بلوغت" — Religionsmündigkeit کہتے ہیں)۔ باقی تمام مضامین لازمی ہیں۔
 
 ---
 
-### Question 3
+### سوال 3
 
-**🇩🇪 Deutsch:** Deutschland ist ein Rechtsstaat. Was ist damit gemeint?
-**🇬🇧 English:** Germany is a constitutional state (Rechtsstaat). What does this mean?
+**🇩🇪** Deutschland ist ein Rechtsstaat. Was ist damit gemeint?
+**🇵🇰** جرمنی ایک قانونی ریاست (Rechtsstaat) ہے۔ اس کا کیا مطلب ہے؟
 
-| | Deutsch | English |
+| | جرمن | اردو |
 |---|---|---|
-| ✅ | **Alle Einwohnerinnen/Einwohner und der Staat müssen sich an die Gesetze halten.** | **All residents and the state must abide by the laws.** |
-| ○ | Der Staat muss sich nicht an die Gesetze halten. | The state does not have to abide by the laws. |
-| ○ | Nur Deutsche müssen die Gesetze befolgen. | Only Germans must obey the laws. |
-| ○ | Die Gerichte machen die Gesetze. | The courts make the laws. |
+| ✅ | **Alle Einwohnerinnen/Einwohner und der Staat müssen sich an die Gesetze halten.** | **تمام رہائشیوں اور ریاست کو قانون کی پابندی کرنی ہوگی۔** |
+| ○ | Der Staat muss sich nicht an die Gesetze halten. | ریاست کو قانون کی پابندی نہیں کرنی۔ |
+| ○ | Nur Deutsche müssen die Gesetze befolgen. | صرف جرمنوں کو قانون کی پابندی کرنی ہوگی۔ |
+| ○ | Die Gerichte machen die Gesetze. | عدالتیں قانون بناتی ہیں۔ |
 
-> **📝 Explanation:** The term "Rechtsstaat" (rule of law / constitutional state) means that the government itself is bound by the law — it cannot act arbitrarily. Everyone, including the state and all its institutions, must follow the law. This principle is a cornerstone of German democracy and is established in the Basic Law.
+> **📝** "قانونی ریاست" (Rechtsstaat) کا مطلب ہے کہ حکومت خود بھی قانون کی پابند ہے — وہ من مانی نہیں کر سکتی۔ ہر کوئی، بشمول ریاست اور اس کے تمام ادارے، قانون کی پابندی کرنے پر مجبور ہیں۔ یہ اصول جرمن جمہوریت کا سنگ بنیاد ہے۔
 
 ---
 
-### Question 4
+### سوال 4
 
-**🇩🇪 Deutsch:** Welches Recht gehört zu den Grundrechten in Deutschland?
-**🇬🇧 English:** Which right is one of the fundamental rights in Germany?
+**🇩🇪** Welches Recht gehört zu den Grundrechten in Deutschland?
+**🇵🇰** جرمنی کے بنیادی حقوق میں کون سا حق شامل ہے؟
 
-| | Deutsch | English |
+| | جرمن | اردو |
 |---|---|---|
-| ○ | Waffenbesitz | Right to bear arms |
-| ○ | Faustrecht | Vigilantism |
-| ✅ | **Meinungsfreiheit** | **Freedom of expression** |
-| ○ | Selbstjustiz | Self-help justice |
+| ○ | Waffenbesitz | ہتھیار رکھنے کا حق |
+| ○ | Faustrecht | طاقت کا قانون |
+| ✅ | **Meinungsfreiheit** | **اظہار رائے کی آزادی** |
+| ○ | Selbstjustiz | خود عدالت |
 
-> **📝 Explanation:** Freedom of expression (Meinungsfreiheit) is a fundamental right protected by Article 5 of the Basic Law. The other options — the right to bear arms, vigilantism (literally "fist law"), and self-help justice — are not fundamental rights in Germany. In fact, vigilantism and self-help justice are illegal. Germany does not have a constitutional right to bear arms like the United States.
+> **📝** اظہار رائے کی آزادی بنیادی قانون کے آرٹیکل 5 میں محفوظ بنیادی حق ہے۔ باقی اختیارات — ہتھیار رکھنا، طاقت کا قانون، اور خود عدالت — جرمنی میں بنیادی حقوق نہیں ہیں بلکہ غیر قانونی ہیں۔ امریکہ کی طرح ہتھیار رکھنے کا آئینی حق جرمنی میں نہیں ہے۔
 
 ---
 
-### Question 5
+### سوال 5
 
-**🇩🇪 Deutsch:** Wahlen in Deutschland sind frei. Was bedeutet das?
-**🇬🇧 English:** Elections in Germany are free. What does this mean?
+**🇩🇪** Wahlen in Deutschland sind frei. Was bedeutet das?
+**🇵🇰** جرمنی میں انتخابات آزاد ہیں۔ اس کا کیا مطلب ہے؟
 
-| | Deutsch | English |
+| | جرمن | اردو |
 |---|---|---|
-| ○ | Man darf Geld annehmen, wenn man dafür eine bestimmte Kandidatin/einen bestimmten Kandidaten wählt. | You are allowed to accept money if you vote for a specific candidate. |
-| ○ | Nur Personen, die noch nie im Gefängnis waren, dürfen wählen. | Only people who have never been in prison are allowed to vote. |
-| ✅ | **Die Wählerin/der Wähler darf bei der Wahl weder beeinflusst noch zu einer bestimmten Stimmabgabe gezwungen werden und keine Nachteile durch die Wahl haben.** | **Voters must not be influenced or forced to vote in a certain way, nor suffer any disadvantages as a result of their vote.** |
-| ○ | Alle wahlberechtigten Personen müssen wählen. | All eligible voters must vote. |
+| ○ | Man darf Geld annehmen, wenn man dafür eine bestimmte Kandidatin/einen bestimmten Kandidaten wählt. | آپ پیسے لے سکتے ہیں اگر کسی خاص امیدوار کو ووٹ دیں۔ |
+| ○ | Nur Personen, die noch nie im Gefängnis waren, dürfen wählen. | صرف وہ لوگ ووٹ دے سکتے ہیں جو کبھی جیل نہیں گئے۔ |
+| ✅ | **Die Wählerin/der Wähler darf bei der Wahl weder beeinflusst noch zu einer bestimmten Stimmabgabe gezwungen werden und keine Nachteile durch die Wahl haben.** | **ووٹروں پر اثر نہیں ڈالا جا سکتا، کسی خاص طریقے سے ووٹ دینے پر مجبور نہیں کیا جا سکتا، اور ووٹ دینے کی وجہ سے کوئی نقصان نہیں ہو سکتا۔** |
+| ○ | Alle wahlberechtigten Personen müssen wählen. | تمام اہل ووٹروں کو لازمی ووٹ دینا ہوگا۔ |
 
-> **📝 Explanation:** German elections follow five principles: they are universal, direct, free, equal, and secret (allgemein, unmittelbar, frei, gleich, geheim). "Free" means voters cannot be pressured, bribed, or forced to vote in any particular way. There is no compulsory voting in Germany — voting is a right, not an obligation. Accepting money for votes is illegal.
+> **📝** جرمن انتخابات پانچ اصولوں پر مبنی ہیں: عام، براہ راست، آزاد، مساوی، اور خفیہ۔ "آزاد" کا مطلب ہے کہ ووٹروں پر دباؤ نہیں ڈالا جا سکتا، رشوت نہیں دی جا سکتی، یا کسی خاص طریقے سے ووٹ دینے پر مجبور نہیں کیا جا سکتا۔ جرمنی میں ووٹ دینا لازمی نہیں — یہ حق ہے، فرض نہیں۔
 
 ---
 
-### Question 6
+### سوال 6
 
-**🇩🇪 Deutsch:** Wie heißt die deutsche Verfassung?
-**🇬🇧 English:** What is the name of the German constitution?
+**🇩🇪** Wie heißt die deutsche Verfassung?
+**🇵🇰** جرمن آئین کا نام کیا ہے؟
 
-| | Deutsch | English |
+| | جرمن | اردو |
 |---|---|---|
-| ○ | Volksgesetz | People's Law |
-| ○ | Bundesgesetz | Federal Law |
-| ○ | Deutsches Gesetz | German Law |
-| ✅ | **Grundgesetz** | **Basic Law** |
+| ○ | Volksgesetz | عوامی قانون |
+| ○ | Bundesgesetz | وفاقی قانون |
+| ○ | Deutsches Gesetz | جرمن قانون |
+| ✅ | **Grundgesetz** | **بنیادی قانون** |
 
-> **📝 Explanation:** The German constitution is called the "Grundgesetz" (Basic Law). It was adopted on May 23, 1949 and was originally intended as a temporary constitution for West Germany until reunification. After reunification in 1990, it became the constitution for all of Germany. It was deliberately not called "Verfassung" (constitution) to emphasize its provisional nature, but today it functions fully as Germany's constitution.
+> **📝** جرمن آئین کو "Grundgesetz" (بنیادی قانون) کہا جاتا ہے۔ یہ 23 مئی 1949 کو منظور ہوا اور اصل میں دوبارہ اتحاد تک عارضی آئین کے طور پر بنایا گیا تھا۔ 1990 میں دوبارہ اتحاد کے بعد یہ پورے جرمنی کا آئین بن گیا۔
 
 ---
 
-### Question 7
+### سوال 7
 
-**🇩🇪 Deutsch:** Welches Recht gehört zu den Grundrechten, die nach der deutschen Verfassung garantiert werden? Das Recht auf …
-**🇬🇧 English:** Which right is among the fundamental rights guaranteed by the German constitution? The right to …
+**🇩🇪** Welches Recht gehört zu den Grundrechten, die nach der deutschen Verfassung garantiert werden? Das Recht auf …
+**🇵🇰** جرمن آئین میں ضمانت شدہ بنیادی حقوق میں کون سا حق شامل ہے؟ حق …
 
-| | Deutsch | English |
+| | جرمن | اردو |
 |---|---|---|
-| ✅ | **Glaubens- und Gewissensfreiheit** | **Freedom of faith and conscience** |
-| ○ | Unterhaltung | Entertainment |
-| ○ | Arbeit | Work |
-| ○ | Wohnung | Housing |
+| ✅ | **Glaubens- und Gewissensfreiheit** | **عقیدے اور ضمیر کی آزادی** |
+| ○ | Unterhaltung | تفریح |
+| ○ | Arbeit | کام |
+| ○ | Wohnung | رہائش |
 
-> **📝 Explanation:** Freedom of faith and conscience (Article 4 of the Basic Law) is a fundamental right in Germany. While the right to work and housing are important societal goals, they are not guaranteed as fundamental rights in the Basic Law. The right to entertainment is not a constitutional right at all.
+> **📝** عقیدے اور ضمیر کی آزادی (بنیادی قانون کا آرٹیکل 4) جرمنی میں بنیادی حق ہے۔ کام اور رہائش کا حق اہم معاشرتی اہداف ہیں لیکن بنیادی قانون میں بنیادی حقوق کے طور پر ضمانت شدہ نہیں ہیں۔ تفریح کا حق آئینی حق نہیں ہے۔
 
 ---
 
-### Question 8
+### سوال 8
 
-**🇩🇪 Deutsch:** Was steht nicht im Grundgesetz von Deutschland?
-**🇬🇧 English:** What is NOT in the German Basic Law?
+**🇩🇪** Was steht nicht im Grundgesetz von Deutschland?
+**🇵🇰** جرمن بنیادی قانون میں کیا نہیں لکھا؟
 
-| | Deutsch | English |
+| | جرمن | اردو |
 |---|---|---|
-| ○ | Die Würde des Menschen ist unantastbar. | Human dignity is inviolable. |
-| ✅ | **Alle sollen gleich viel Geld haben.** | **Everyone should have the same amount of money.** |
-| ○ | Jeder Mensch darf seine Meinung sagen. | Every person is allowed to express their opinion. |
-| ○ | Alle sind vor dem Gesetz gleich. | All are equal before the law. |
+| ○ | Die Würde des Menschen ist unantastbar. | انسان کی عزت ناقابل تسخیر ہے۔ |
+| ✅ | **Alle sollen gleich viel Geld haben.** | **سب کے پاس برابر پیسے ہونے چاہییں۔** |
+| ○ | Jeder Mensch darf seine Meinung sagen. | ہر شخص اپنی رائے دے سکتا ہے۔ |
+| ○ | Alle sind vor dem Gesetz gleich. | سب قانون کے سامنے برابر ہیں۔ |
 
-> **📝 Explanation:** The Basic Law guarantees human dignity (Article 1), freedom of expression (Article 5), and equality before the law (Article 3). However, it does NOT guarantee that everyone should have the same amount of money. Germany has a social market economy which allows for economic differences while providing a social safety net.
+> **📝** بنیادی قانون انسانی عزت (آرٹیکل 1)، اظہار رائے کی آزادی (آرٹیکل 5)، اور قانون کے سامنے برابری (آرٹیکل 3) کی ضمانت دیتا ہے۔ لیکن یہ ضمانت نہیں دیتا کہ سب کے پاس برابر پیسے ہوں۔ جرمنی میں سوشل مارکیٹ اکانومی ہے جو معاشی فرق کی اجازت دیتی ہے مگر سماجی تحفظ فراہم کرتی ہے۔
 
 ---
 
-### Question 9
+### سوال 9
 
-**🇩🇪 Deutsch:** Welches Grundrecht gilt in Deutschland nur für Ausländerinnen/Ausländer? Das Grundrecht auf …
-**🇬🇧 English:** Which fundamental right in Germany applies only to foreigners? The fundamental right to …
+**🇩🇪** Welches Grundrecht gilt in Deutschland nur für Ausländerinnen/Ausländer? Das Grundrecht auf …
+**🇵🇰** جرمنی میں کون سا بنیادی حق صرف غیر ملکیوں کے لیے ہے؟ بنیادی حق …
 
-| | Deutsch | English |
+| | جرمن | اردو |
 |---|---|---|
-| ○ | Schutz der Familie | protection of the family |
-| ○ | Menschenwürde | human dignity |
-| ✅ | **Asyl** | **asylum** |
-| ○ | Meinungsfreiheit | freedom of opinion |
+| ○ | Schutz der Familie | خاندان کا تحفظ |
+| ○ | Menschenwürde | انسانی عزت |
+| ✅ | **Asyl** | **پناہ** |
+| ○ | Meinungsfreiheit | اظہار رائے کی آزادی |
 
-> **📝 Explanation:** The right to asylum (Article 16a of the Basic Law) is the only fundamental right that applies exclusively to foreigners. It gives politically persecuted people the right to seek protection in Germany. All other listed rights — family protection, human dignity, and freedom of opinion — apply to all people in Germany, regardless of nationality.
+> **📝** پناہ کا حق (بنیادی قانون کا آرٹیکل 16a) واحد بنیادی حق ہے جو خاص طور پر غیر ملکیوں کے لیے ہے۔ یہ سیاسی طور پر ستائے ہوئے لوگوں کو جرمنی میں تحفظ حاصل کرنے کا حق دیتا ہے۔ باقی تمام حقوق — خاندان کا تحفظ، انسانی عزت، اور اظہار رائے کی آزادی — شہریت سے قطع نظر جرمنی میں تمام لوگوں پر لاگو ہوتے ہیں۔
 
 ---
 
-### Question 10
+### سوال 10
 
-**🇩🇪 Deutsch:** Was ist mit dem deutschen Grundgesetz vereinbar?
-**🇬🇧 English:** What is compatible with the German Basic Law?
+**🇩🇪** Was ist mit dem deutschen Grundgesetz vereinbar?
+**🇵🇰** جرمن بنیادی قانون سے کیا مطابقت رکھتا ہے؟
 
-| | Deutsch | English |
+| | جرمن | اردو |
 |---|---|---|
-| ○ | die Prügelstrafe | corporal punishment |
-| ○ | die Folter | torture |
-| ○ | die Todesstrafe | the death penalty |
-| ✅ | **die Geldstrafe** | **a fine** |
+| ○ | die Prügelstrafe | جسمانی سزا |
+| ○ | die Folter | تشدد |
+| ○ | die Todesstrafe | سزائے موت |
+| ✅ | **die Geldstrafe** | **جرمانہ** |
 
-> **📝 Explanation:** Among the listed options, only fines (Geldstrafe) are compatible with the Basic Law. Corporal punishment, torture, and the death penalty are all prohibited. Article 102 explicitly states: "The death penalty is abolished." Article 1 (human dignity) and Article 104 prohibit torture and physical punishment by the state.
+> **📝** دی گئی اختیارات میں سے صرف جرمانہ (Geldstrafe) بنیادی قانون سے مطابقت رکھتا ہے۔ جسمانی سزا، تشدد، اور سزائے موت سب ممنوع ہیں۔ آرٹیکل 102 واضح طور پر کہتا ہے: "سزائے موت ختم کر دی گئی ہے۔"
 
 ---
 
-### Question 11
+### سوال 11
 
-**🇩🇪 Deutsch:** Wie wird die Verfassung der Bundesrepublik Deutschland genannt?
-**🇬🇧 English:** What is the constitution of the Federal Republic of Germany called?
+**🇩🇪** Wie wird die Verfassung der Bundesrepublik Deutschland genannt?
+**🇵🇰** وفاقی جمہوریہ جرمنی کے آئین کو کیا کہا جاتا ہے؟
 
-| | Deutsch | English |
+| | جرمن | اردو |
 |---|---|---|
-| ✅ | **Grundgesetz** | **Basic Law** |
-| ○ | Bundesverfassung | Federal Constitution |
-| ○ | Gesetzbuch | Code of Law |
-| ○ | Verfassungsvertrag | Constitutional Treaty |
+| ✅ | **Grundgesetz** | **بنیادی قانون** |
+| ○ | Bundesverfassung | وفاقی آئین |
+| ○ | Gesetzbuch | ضابطہ قانون |
+| ○ | Verfassungsvertrag | آئینی معاہدہ |
 
-> **📝 Explanation:** This question is similar to Question 6. The German constitution is called the "Grundgesetz" (Basic Law). It was enacted in 1949 and serves as the supreme law of Germany. All other laws must comply with the Basic Law, and the Federal Constitutional Court (Bundesverfassungsgericht) ensures this.
+> **📝** جرمن آئین "Grundgesetz" (بنیادی قانون) کہلاتا ہے۔ یہ 1949 میں نافذ ہوا اور جرمنی کا اعلیٰ ترین قانون ہے۔ تمام قوانین بنیادی قانون کے مطابق ہونے چاہییں۔
 
 ---
 
-### Question 12
+### سوال 12
 
-**🇩🇪 Deutsch:** Eine Partei im Deutschen Bundestag will die Pressefreiheit abschaffen. Ist das möglich?
-**🇬🇧 English:** A party in the German Bundestag wants to abolish press freedom. Is that possible?
+**🇩🇪** Eine Partei im Deutschen Bundestag will die Pressefreiheit abschaffen. Ist das möglich?
+**🇵🇰** جرمن بنڈسٹاگ میں ایک پارٹی صحافتی آزادی ختم کرنا چاہتی ہے۔ کیا یہ ممکن ہے؟
 
-| | Deutsch | English |
+| | جرمن | اردو |
 |---|---|---|
-| ○ | Ja, wenn mehr als die Hälfte der Abgeordneten im Bundestag dafür sind. | Yes, if more than half of the members of the Bundestag are in favor. |
-| ○ | Ja, aber dazu müssen zwei Drittel der Abgeordneten im Bundestag dafür sein. | Yes, but two-thirds of the members of the Bundestag must be in favor. |
-| ✅ | **Nein, denn die Pressefreiheit ist ein Grundrecht. Sie kann nicht abgeschafft werden.** | **No, because press freedom is a fundamental right. It cannot be abolished.** |
-| ○ | Nein, denn nur der Bundesrat kann die Pressefreiheit abschaffen. | No, because only the Bundesrat can abolish press freedom. |
+| ○ | Ja, wenn mehr als die Hälfte der Abgeordneten dafür sind. | ہاں، اگر آدھے سے زیادہ ارکان حق میں ہوں۔ |
+| ○ | Ja, aber dazu müssen zwei Drittel der Abgeordneten dafür sein. | ہاں، لیکن دو تہائی ارکان کا حق میں ہونا ضروری ہے۔ |
+| ✅ | **Nein, denn die Pressefreiheit ist ein Grundrecht. Sie kann nicht abgeschafft werden.** | **نہیں، کیونکہ صحافتی آزادی بنیادی حق ہے۔ اسے ختم نہیں کیا جا سکتا۔** |
+| ○ | Nein, denn nur der Bundesrat kann die Pressefreiheit abschaffen. | نہیں، کیونکہ صرف بنڈسرات صحافتی آزادی ختم کر سکتا ہے۔ |
 
-> **📝 Explanation:** Press freedom is guaranteed by Article 5 of the Basic Law and is protected by the "eternity clause" (Ewigkeitsklausel, Article 79 Paragraph 3). This clause means that certain core principles of the Basic Law — including fundamental rights like press freedom — can never be abolished or changed, not even with a unanimous vote in parliament.
+> **📝** صحافتی آزادی بنیادی قانون کے آرٹیکل 5 سے محفوظ ہے اور "ابدیت کی شق" (Ewigkeitsklausel، آرٹیکل 79 پیراگراف 3) سے محفوظ ہے۔ اس شق کا مطلب ہے کہ بنیادی قانون کے بعض بنیادی اصولوں — بشمول صحافتی آزادی جیسے بنیادی حقوق — کو کبھی ختم یا تبدیل نہیں کیا جا سکتا، یہاں تک کہ پارلیمنٹ میں متفقہ ووٹ سے بھی نہیں۔
 
 ---
 
-### Question 13
+### سوال 13
 
-**🇩🇪 Deutsch:** Im Parlament steht der Begriff "Opposition" für …
-**🇬🇧 English:** In parliament, the term "opposition" refers to …
+**🇩🇪** Im Parlament steht der Begriff "Opposition" für …
+**🇵🇰** پارلیمنٹ میں "اپوزیشن" کی اصطلاح کا مطلب ہے …
 
-| | Deutsch | English |
+| | جرمن | اردو |
 |---|---|---|
-| ○ | die regierenden Parteien. | the governing parties. |
-| ○ | die Fraktion mit den meisten Abgeordneten. | the parliamentary group with the most members. |
-| ○ | alle Parteien, die bei der letzten Wahl die 5%-Hürde erreichen konnten. | all parties that cleared the 5% threshold in the last election. |
-| ✅ | **alle Abgeordneten, die nicht zu der Regierungspartei/den Regierungsparteien gehören.** | **all members of parliament who do not belong to the governing party/parties.** |
+| ○ | die regierenden Parteien. | حکمران جماعتیں۔ |
+| ○ | die Fraktion mit den meisten Abgeordneten. | سب سے زیادہ ارکان والا پارلیمانی گروپ۔ |
+| ○ | alle Parteien, die bei der letzten Wahl die 5%-Hürde erreichen konnten. | وہ تمام جماعتیں جو آخری انتخاب میں 5% کی حد عبور کر سکیں۔ |
+| ✅ | **alle Abgeordneten, die nicht zu der Regierungspartei/den Regierungsparteien gehören.** | **وہ تمام ارکان جو حکمران جماعت/جماعتوں سے تعلق نہیں رکھتے۔** |
 
-> **📝 Explanation:** The opposition consists of all parties and their members in parliament who are not part of the government coalition. The opposition plays a crucial role in German democracy: it monitors the government, proposes alternatives, and holds the ruling parties accountable. A strong opposition is considered essential for a healthy democracy.
+> **📝** اپوزیشن ان تمام جماعتوں اور ارکان پر مشتمل ہوتی ہے جو حکومتی اتحاد کا حصہ نہیں ہیں۔ اپوزیشن حکومت کی نگرانی کرتی ہے، متبادل تجاویز پیش کرتی ہے، اور حکمران جماعتوں کو جوابدہ رکھتی ہے۔ مضبوط اپوزیشن صحت مند جمہوریت کے لیے ضروری سمجھی جاتی ہے۔
 
 ---
 
-### Question 14
+### سوال 14 *(جولائی 2024 میں تازہ کاری)*
 
-**🇩🇪 Deutsch:** Meinungsfreiheit in Deutschland heißt, dass ich …
-**🇬🇧 English:** Freedom of speech in Germany means that I …
+**🇩🇪** Meinungsfreiheit in Deutschland heißt, dass ich …
+**🇵🇰** جرمنی میں اظہار رائے کی آزادی کا مطلب ہے کہ میں …
 
-| | Deutsch | English |
+| | جرمن | اردو |
 |---|---|---|
-| ○ | Passanten auf der Straße beschimpfen darf. | am allowed to insult passersby on the street. |
-| ✅ | **meine Meinung im Internet äußern kann.** | **can express my opinion on the internet.** |
-| ○ | Nazi-, Hamas- oder Islamischer Staat-Symbole öffentlich tragen darf. | am allowed to publicly display Nazi, Hamas, or Islamic State symbols. |
-| ○ | meine Meinung nur dann äußern darf, solange ich der Regierung nicht widerspreche. | may only express my opinion as long as I do not contradict the government. |
+| ○ | Passanten auf der Straße beschimpfen darf. | سڑک پر راہگیروں کو گالیاں دے سکتا ہوں۔ |
+| ✅ | **meine Meinung im Internet äußern kann.** | **انٹرنیٹ پر اپنی رائے کا اظہار کر سکتا ہوں۔** |
+| ○ | Nazi-, Hamas- oder Islamischer Staat-Symbole öffentlich tragen darf. | نازی، حماس یا داعش کی علامات عوامی طور پر پہن سکتا ہوں۔ |
+| ○ | meine Meinung nur dann äußern darf, solange ich der Regierung nicht widerspreche. | صرف تب رائے دے سکتا ہوں جب حکومت کی مخالفت نہ کروں۔ |
 
-> **📝 Explanation:** Freedom of speech means you can express your opinions freely, including on the internet and even against the government. However, this right has limits: you cannot insult individuals (that is a criminal offense called "Beleidigung"), and displaying symbols of banned organizations like the Nazis, Hamas, or ISIS is illegal in Germany. Note that this question was updated to include Hamas and Islamic State references in recent catalog versions.
+> **📝** اظہار رائے کی آزادی کا مطلب ہے کہ آپ اپنی رائے آزادانہ ظاہر کر سکتے ہیں، بشمول انٹرنیٹ پر اور حکومت کے خلاف بھی۔ تاہم اس حق کی حدود ہیں: افراد کی توہین مجرمانہ جرم ہے (Beleidigung)، اور ممنوعہ تنظیموں جیسے نازی، حماس، یا داعش کی علامات دکھانا غیر قانونی ہے۔ نوٹ: یہ سوال حالیہ ایڈیشن میں حماس اور داعش کا حوالہ شامل کرنے کے لیے تبدیل کیا گیا۔
 
 ---
 
-### Question 15
+### سوال 15
 
-**🇩🇪 Deutsch:** Was verbietet das deutsche Grundgesetz?
-**🇬🇧 English:** What does the German Basic Law prohibit?
+**🇩🇪** Was verbietet das deutsche Grundgesetz?
+**🇵🇰** جرمن بنیادی قانون کیا منع کرتا ہے؟
 
-| | Deutsch | English |
+| | جرمن | اردو |
 |---|---|---|
-| ○ | Militärdienst | Military service |
-| ✅ | **Zwangsarbeit** | **Forced labor** |
-| ○ | freie Berufswahl | Free choice of profession |
-| ○ | Arbeit im Ausland | Working abroad |
+| ○ | Militärdienst | فوجی خدمت |
+| ✅ | **Zwangsarbeit** | **جبری مشقت** |
+| ○ | freie Berufswahl | پیشے کا آزاد انتخاب |
+| ○ | Arbeit im Ausland | بیرون ملک کام |
 
-> **📝 Explanation:** The Basic Law explicitly prohibits forced labor (Zwangsarbeit) in Article 12. Military service, free choice of profession, and working abroad are all permitted. In fact, free choice of profession is itself a fundamental right (Article 12). Germany historically experienced forced labor during the Nazi era, which is why this prohibition is explicitly stated.
+> **📝** بنیادی قانون آرٹیکل 12 میں واضح طور پر جبری مشقت (Zwangsarbeit) کو منع کرتا ہے۔ نازی دور میں جبری مشقت کا تجربہ ہونے کی وجہ سے یہ ممانعت واضح طور پر درج ہے۔ فوجی خدمت، پیشے کا آزاد انتخاب، اور بیرون ملک کام سب جائز ہیں۔
 
 ---
 
-### Question 16
+### سوال 16
 
-**🇩🇪 Deutsch:** Wann ist die Meinungsfreiheit in Deutschland eingeschränkt?
-**🇬🇧 English:** When is freedom of speech restricted in Germany?
+**🇩🇪** Wann ist die Meinungsfreiheit in Deutschland eingeschränkt?
+**🇵🇰** جرمنی میں اظہار رائے کی آزادی کب محدود ہوتی ہے؟
 
-| | Deutsch | English |
+| | جرمن | اردو |
 |---|---|---|
-| ✅ | **bei der öffentlichen Verbreitung falscher Behauptungen über einzelne Personen** | **when making false public statements about individuals** |
-| ○ | bei Meinungsäußerungen über die Bundesregierung | when expressing opinions about the federal government |
-| ○ | bei Diskussionen über Religionen | when discussing religions |
-| ○ | bei Kritik am Staat | when criticizing the state |
+| ✅ | **bei der öffentlichen Verbreitung falscher Behauptungen über einzelne Personen** | **افراد کے بارے میں عوامی طور پر جھوٹے دعوے پھیلانے پر** |
+| ○ | bei Meinungsäußerungen über die Bundesregierung | وفاقی حکومت کے بارے میں رائے دینے پر |
+| ○ | bei Diskussionen über Religionen | مذاہب پر بحث کرنے پر |
+| ○ | bei Kritik am Staat | ریاست پر تنقید کرنے پر |
 
-> **📝 Explanation:** While freedom of speech is a fundamental right, it has limits. Spreading false claims about specific individuals (defamation/slander) can be a criminal offense. However, criticizing the government, discussing religions, or criticizing the state are all protected by freedom of speech. The balance between free speech and personal rights is an important principle in German law.
+> **📝** اظہار رائے کی آزادی بنیادی حق ہے لیکن اس کی حدود ہیں۔ مخصوص افراد کے بارے میں جھوٹے دعوے پھیلانا (بدنامی/تہمت) مجرمانہ جرم ہو سکتا ہے۔ تاہم حکومت پر تنقید، مذاہب پر بحث، یا ریاست پر تنقید سب اظہار رائے کی آزادی سے محفوظ ہیں۔
 
 ---
 
-### Question 17
+### سوال 17
 
-**🇩🇪 Deutsch:** Die deutschen Gesetze verbieten …
-**🇬🇧 English:** German laws prohibit …
+**🇩🇪** Die deutschen Gesetze verbieten …
+**🇵🇰** جرمن قوانین … کو منع کرتے ہیں
 
-| | Deutsch | English |
+| | جرمن | اردو |
 |---|---|---|
-| ○ | Meinungsfreiheit der Einwohnerinnen und Einwohner. | Freedom of opinion for residents. |
-| ○ | Petitionen der Bürgerinnen und Bürger. | Petitions by citizens. |
-| ○ | Versammlungsfreiheit der Einwohnerinnen und Einwohner. | Freedom of assembly for residents. |
-| ✅ | **Ungleichbehandlung der Bürgerinnen und Bürger durch den Staat.** | **Unequal treatment of citizens by the state.** |
+| ○ | Meinungsfreiheit der Einwohnerinnen und Einwohner. | رہائشیوں کی اظہار رائے کی آزادی۔ |
+| ○ | Petitionen der Bürgerinnen und Bürger. | شہریوں کی درخواستیں۔ |
+| ○ | Versammlungsfreiheit der Einwohnerinnen und Einwohner. | رہائشیوں کی اجتماع کی آزادی۔ |
+| ✅ | **Ungleichbehandlung der Bürgerinnen und Bürger durch den Staat.** | **ریاست کی طرف سے شہریوں کے ساتھ غیر مساوی سلوک۔** |
 
-> **📝 Explanation:** German law prohibits the state from treating citizens unequally (discrimination). This is established in Article 3 of the Basic Law: "All persons are equal before the law." Freedom of opinion, the right to petition, and freedom of assembly are all protected rights — they are NOT prohibited.
+> **📝** جرمن قانون ریاست کو شہریوں کے ساتھ غیر مساوی سلوک (امتیاز) سے منع کرتا ہے۔ بنیادی قانون کا آرٹیکل 3 کہتا ہے: "تمام لوگ قانون کے سامنے برابر ہیں۔" اظہار رائے، درخواست کا حق، اور اجتماع کی آزادی سب محفوظ حقوق ہیں — یہ ممنوع نہیں ہیں۔
 
 ---
 
-### Question 18
+### سوال 18
 
-**🇩🇪 Deutsch:** Welches Grundrecht ist in Artikel 1 des Grundgesetzes der Bundesrepublik Deutschland garantiert?
-**🇬🇧 English:** Which fundamental right is guaranteed in Article 1 of the Basic Law?
+**🇩🇪** Welches Grundrecht ist in Artikel 1 des Grundgesetzes garantiert?
+**🇵🇰** بنیادی قانون کے آرٹیکل 1 میں کون سا بنیادی حق ضمانت شدہ ہے؟
 
-| | Deutsch | English |
+| | جرمن | اردو |
 |---|---|---|
-| ✅ | **die Unantastbarkeit der Menschenwürde** | **the inviolability of human dignity** |
-| ○ | das Recht auf Leben | the right to life |
-| ○ | Religionsfreiheit | freedom of religion |
-| ○ | Meinungsfreiheit | freedom of expression |
+| ✅ | **die Unantastbarkeit der Menschenwürde** | **انسانی عزت کا ناقابل تسخیر ہونا** |
+| ○ | das Recht auf Leben | زندگی کا حق |
+| ○ | Religionsfreiheit | مذہبی آزادی |
+| ○ | Meinungsfreiheit | اظہار رائے کی آزادی |
 
-> **📝 Explanation:** Article 1 of the Basic Law states: "Die Würde des Menschen ist unantastbar" — "Human dignity shall be inviolable." This is the most important article in the entire constitution and is protected by the eternity clause (it can never be changed or removed). The right to life is in Article 2, freedom of religion in Article 4, and freedom of expression in Article 5.
+> **📝** آرٹیکل 1 کہتا ہے: "Die Würde des Menschen ist unantastbar" — "انسان کی عزت ناقابل تسخیر ہے۔" یہ پورے آئین کا سب سے اہم آرٹیکل ہے اور ابدیت کی شق سے محفوظ ہے (اسے کبھی تبدیل یا ختم نہیں کیا جا سکتا)۔ زندگی کا حق آرٹیکل 2 میں ہے، مذہبی آزادی آرٹیکل 4 میں، اور اظہار رائے کی آزادی آرٹیکل 5 میں ہے۔
 
 ---
 
-### Question 19
+### سوال 19
 
-**🇩🇪 Deutsch:** Was versteht man unter dem Recht der "Freizügigkeit" in Deutschland?
-**🇬🇧 English:** What is meant by the right of "freedom of movement" in Germany?
+**🇩🇪** Was versteht man unter dem Recht der "Freizügigkeit" in Deutschland?
+**🇵🇰** جرمنی میں "نقل مکانی کی آزادی" (Freizügigkeit) کا حق کیا ہے؟
 
-| | Deutsch | English |
+| | جرمن | اردو |
 |---|---|---|
-| ✅ | **Man darf sich seinen Wohnort selbst aussuchen.** | **You are allowed to choose your place of residence yourself.** |
-| ○ | Man kann seinen Beruf wechseln. | You can change your profession. |
-| ○ | Man darf sich für eine andere Religion entscheiden. | You are allowed to choose a different religion. |
-| ○ | Man darf sich in der Öffentlichkeit nur leicht bekleidet bewegen. | You are allowed to move around in public only lightly clothed. |
+| ✅ | **Man darf sich seinen Wohnort selbst aussuchen.** | **آپ اپنی رہائش کی جگہ خود منتخب کر سکتے ہیں۔** |
+| ○ | Man kann seinen Beruf wechseln. | آپ اپنا پیشہ بدل سکتے ہیں۔ |
+| ○ | Man darf sich für eine andere Religion entscheiden. | آپ کوئی اور مذہب اختیار کر سکتے ہیں۔ |
+| ○ | Man darf sich in der Öffentlichkeit nur leicht bekleidet bewegen. | آپ عوام میں کم کپڑوں میں گھوم سکتے ہیں۔ |
 
-> **📝 Explanation:** "Freizügigkeit" (freedom of movement, Article 11 of the Basic Law) means that German citizens have the right to freely choose where to live and work within Germany. This was historically significant because in the GDR (East Germany), citizens were not free to choose their residence or travel freely. The right to change professions is covered by Article 12 (freedom of occupation).
+> **📝** "Freizügigkeit" (نقل مکانی کی آزادی، بنیادی قانون کا آرٹیکل 11) کا مطلب ہے کہ جرمن شہریوں کو جرمنی میں کہیں بھی رہنے اور کام کرنے کا حق ہے۔ تاریخی طور پر یہ اہم ہے کیونکہ مشرقی جرمنی (DDR) میں شہریوں کو رہائش منتخب کرنے یا آزادانہ سفر کرنے کی اجازت نہیں تھی۔
 
 ---
 
-### Question 20
+### سوال 20
 
-**🇩🇪 Deutsch:** Eine Partei in Deutschland verfolgt das Ziel, eine Diktatur zu errichten. Sie ist dann …
-**🇬🇧 English:** A political party in Germany pursues the goal of establishing a dictatorship. It is then …
+**🇩🇪** Eine Partei in Deutschland verfolgt das Ziel, eine Diktatur zu errichten. Sie ist dann …
+**🇵🇰** جرمنی میں ایک پارٹی آمریت قائم کرنے کا ہدف رکھتی ہے۔ تو وہ …
 
-| | Deutsch | English |
+| | جرمن | اردو |
 |---|---|---|
-| ○ | tolerant. | tolerant. |
-| ○ | rechtsstaatlich orientiert. | oriented toward the rule of law. |
-| ○ | gesetzestreu. | law-abiding. |
-| ✅ | **verfassungswidrig.** | **unconstitutional.** |
+| ○ | tolerant. | رواداری۔ |
+| ○ | rechtsstaatlich orientiert. | قانون کی حکمرانی پر مبنی۔ |
+| ○ | gesetzestreu. | قانون کی پابند۔ |
+| ✅ | **verfassungswidrig.** | **آئین کے خلاف۔** |
 
-> **📝 Explanation:** Any party that aims to establish a dictatorship is unconstitutional (verfassungswidrig). The Basic Law protects Germany's democratic order, and Article 21 allows the Federal Constitutional Court to ban parties that seek to undermine or abolish the free democratic basic order. This provision exists because of Germany's experience with the Nazi party, which used democratic processes to destroy democracy itself.
+> **📝** کوئی بھی پارٹی جو آمریت قائم کرنا چاہے وہ آئین کے خلاف (verfassungswidrig) ہے۔ بنیادی قانون جرمنی کے جمہوری نظام کی حفاظت کرتا ہے، اور آرٹیکل 21 وفاقی آئینی عدالت کو ان پارٹیوں پر پابندی لگانے کی اجازت دیتا ہے جو آزاد جمہوری بنیادی نظام کو نقصان پہنچانے کی کوشش کریں۔
 
 ---
 
-### Question 21
+### سوال 21
 
-**🇩🇪 Deutsch:** Welches ist das Wappen der Bundesrepublik Deutschland?
-**🇬🇧 English:** Which is the coat of arms of the Federal Republic of Germany?
+**🇩🇪** Welches ist das Wappen der Bundesrepublik Deutschland?
+**🇵🇰** وفاقی جمہوریہ جرمنی کا نشان کون سا ہے؟
 
-![Question 21 — Four coats of arms](https://oet.bamf.de/ords/oetut/f?p=514:30::APPLICATION_PROCESS%3Dshow_pag_bild:::F514_PAG_THUMBNAIL,F514_PAG_BILD:,17213)
+![سوال 21 — چار نشانات](https://oet.bamf.de/ords/oetut/f?p=514:30::APPLICATION_PROCESS%3Dshow_pag_bild:::F514_PAG_THUMBNAIL,F514_PAG_BILD:,17213)
 
-| | Deutsch | English |
+| | جرمن | اردو |
 |---|---|---|
-| ✅ | **Bild 1** *(schwarzer Adler auf goldenem Grund)* | **Image 1** *(black eagle on golden background)* |
-| ○ | Bild 2 | Image 2 |
-| ○ | Bild 3 | Image 3 |
-| ○ | Bild 4 | Image 4 |
+| ✅ | **Bild 1** *(سنہرے پس منظر پر سیاہ عقاب)* | **تصویر 1** *(سنہرے پس منظر پر سیاہ عقاب)* |
+| ○ | Bild 2 | تصویر 2 |
+| ○ | Bild 3 | تصویر 3 |
+| ○ | Bild 4 | تصویر 4 |
 
-> **📝 Explanation:** The coat of arms of Germany (Bundeswappen) features a black eagle with red beak and claws on a golden (yellow) shield. The eagle has been a symbol of German sovereignty for centuries, dating back to the Holy Roman Empire. The current design was adopted in 1950 for the Federal Republic of Germany.
+> **📝** جرمنی کے نشان (Bundeswappen) میں سنہری ڈھال پر سرخ چونچ اور پنجوں والا سیاہ عقاب ہے۔ عقاب صدیوں سے جرمن حاکمیت کی علامت رہا ہے، مقدس رومی سلطنت سے لے کر۔ موجودہ ڈیزائن 1950 میں اختیار کیا گیا۔
 
 ---
 
-### Question 22
+### سوال 22
 
-**🇩🇪 Deutsch:** Was für eine Staatsform hat Deutschland?
-**🇬🇧 English:** What form of government does Germany have?
+**🇩🇪** Was für eine Staatsform hat Deutschland?
+**🇵🇰** جرمنی کا نظام حکومت کس قسم کا ہے؟
 
-| | Deutsch | English |
+| | جرمن | اردو |
 |---|---|---|
-| ○ | Monarchie | Monarchy |
-| ○ | Diktatur | Dictatorship |
-| ✅ | **Republik** | **Republic** |
-| ○ | Fürstentum | Principality |
+| ○ | Monarchie | بادشاہت |
+| ○ | Diktatur | آمریت |
+| ✅ | **Republik** | **جمہوریہ** |
+| ○ | Fürstentum | شہزادگی |
 
-> **📝 Explanation:** Germany is a republic, meaning its head of state (the Federal President) is elected, not a hereditary monarch. Germany became a republic in 1918 when Kaiser Wilhelm II abdicated at the end of World War I. The Weimar Republic was followed by the Nazi dictatorship, and after WWII, the Federal Republic of Germany was established in 1949.
+> **📝** جرمنی ایک جمہوریہ ہے، یعنی اس کا سربراہ (وفاقی صدر) منتخب ہوتا ہے، موروثی بادشاہ نہیں۔ 1918 میں قیصر ولہیم دوم کی دستبرداری کے بعد جرمنی جمہوریہ بنا۔
 
 ---
 
-### Question 23
+### سوال 23
 
-**🇩🇪 Deutsch:** In Deutschland sind die meisten Erwerbstätigen …
-**🇬🇧 English:** In Germany, most employed people are …
+**🇩🇪** In Deutschland sind die meisten Erwerbstätigen …
+**🇵🇰** جرمنی میں زیادہ تر ملازمت پیشہ لوگ …
 
-| | Deutsch | English |
+| | جرمن | اردو |
 |---|---|---|
-| ○ | in kleinen Familienunternehmen beschäftigt. | employed in small family-owned businesses. |
-| ○ | ehrenamtlich für ein Bundesland tätig. | volunteering for a federal state. |
-| ○ | selbstständig mit einer eigenen Firma tätig. | self-employed with their own company. |
-| ✅ | **bei einer Firma oder Behörde beschäftigt.** | **employed by a company or government agency.** |
+| ○ | in kleinen Familienunternehmen beschäftigt. | چھوٹے خاندانی کاروبار میں کام کرتے ہیں۔ |
+| ○ | ehrenamtlich für ein Bundesland tätig. | کسی ریاست کے لیے رضاکارانہ کام کرتے ہیں۔ |
+| ○ | selbstständig mit einer eigenen Firma tätig. | اپنی کمپنی کے ساتھ خود ملازم ہیں۔ |
+| ✅ | **bei einer Firma oder Behörde beschäftigt.** | **کسی کمپنی یا سرکاری ادارے میں ملازم ہیں۔** |
 
-> **📝 Explanation:** The vast majority of working people in Germany are employees (Arbeitnehmer) working for companies or government agencies. While small family businesses and self-employment exist, most people are in regular employment relationships with companies, institutions, or public authorities. Volunteering (Ehrenamt) is unpaid and not counted as employment.
+> **📝** جرمنی میں کام کرنے والوں کی اکثریت ملازمین (Arbeitnehmer) ہیں جو کمپنیوں یا سرکاری اداروں میں کام کرتے ہیں۔ رضاکارانہ کام (Ehrenamt) غیر تنخواہ دار ہوتا ہے اور ملازمت میں شمار نہیں ہوتا۔
 
 ---
 
-### Question 24
+### سوال 24
 
-**🇩🇪 Deutsch:** Wie viele Bundesländer hat die Bundesrepublik Deutschland?
-**🇬🇧 English:** How many federal states does the Federal Republic of Germany have?
+**🇩🇪** Wie viele Bundesländer hat die Bundesrepublik Deutschland?
+**🇵🇰** وفاقی جمہوریہ جرمنی میں کتنی ریاستیں ہیں؟
 
-| | Deutsch | English |
+| | جرمن | اردو |
 |---|---|---|
 | ○ | 14 | 14 |
 | ○ | 15 | 15 |
 | ✅ | **16** | **16** |
 | ○ | 17 | 17 |
 
-> **📝 Explanation:** Germany consists of 16 federal states (Bundesländer): Baden-Württemberg, Bavaria, Berlin, Brandenburg, Bremen, Hamburg, Hesse, Mecklenburg-Western Pomerania, Lower Saxony, North Rhine-Westphalia, Rhineland-Palatinate, Saarland, Saxony, Saxony-Anhalt, Schleswig-Holstein, and Thuringia. Three of these (Berlin, Hamburg, Bremen) are city-states (Stadtstaaten).
+> **📝** جرمنی 16 وفاقی ریاستوں (Bundesländer) پر مشتمل ہے۔ ان میں سے تین (برلن، ہیمبرگ، بریمن) شہری ریاستیں (Stadtstaaten) ہیں جو بیک وقت شہر اور ریاست دونوں ہیں۔
 
 ---
 
-### Question 25
+### سوال 25
 
-**🇩🇪 Deutsch:** Was ist kein Bundesland der Bundesrepublik Deutschland?
-**🇬🇧 English:** Which is NOT a federal state of the Federal Republic of Germany?
+**🇩🇪** Was ist kein Bundesland der Bundesrepublik Deutschland?
+**🇵🇰** جرمنی کی وفاقی ریاست کون سی نہیں ہے؟
 
-| | Deutsch | English |
+| | جرمن | اردو |
 |---|---|---|
-| ✅ | **Elsass-Lothringen** | **Alsace-Lorraine** |
-| ○ | Nordrhein-Westfalen | North Rhine-Westphalia |
-| ○ | Mecklenburg-Vorpommern | Mecklenburg-Western Pomerania |
-| ○ | Sachsen-Anhalt | Saxony-Anhalt |
+| ✅ | **Elsass-Lothringen** | **الزاس-لورین** |
+| ○ | Nordrhein-Westfalen | شمالی رائن ویسٹ فالیا |
+| ○ | Mecklenburg-Vorpommern | میکلنبرگ |
+| ○ | Sachsen-Anhalt | سیکسنی انہالٹ |
 
-> **📝 Explanation:** Alsace-Lorraine (Elsass-Lothringen) is not a German federal state — it is a region in France. It was part of Germany from 1871 to 1918 and again during the Nazi occupation (1940–1945), but has been French territory since the end of WWII. All the other options are legitimate German federal states.
+> **📝** الزاس-لورین (Elsass-Lothringen) جرمن ریاست نہیں ہے — یہ فرانس کا ایک علاقہ ہے۔ یہ 1871 سے 1918 تک اور نازی قبضے (1940–1945) کے دوران جرمنی کا حصہ رہا، لیکن دوسری جنگ عظیم کے بعد سے فرانسیسی علاقہ ہے۔
 
 ---
 
-### Question 26
+### سوال 26
 
-**🇩🇪 Deutsch:** Deutschland ist …
-**🇬🇧 English:** Germany is …
+**🇩🇪** Deutschland ist …
+**🇵🇰** جرمنی …
 
-| | Deutsch | English |
+| | جرمن | اردو |
 |---|---|---|
-| ○ | eine kommunistische Republik. | a communist republic. |
-| ✅ | **ein demokratischer und sozialer Bundesstaat.** | **a democratic and social federal state.** |
-| ○ | eine kapitalistische und soziale Monarchie. | a capitalist and social monarchy. |
-| ○ | ein sozialer und sozialistischer Bundesstaat. | a social and socialist federal state. |
+| ○ | eine kommunistische Republik. | ایک کمیونسٹ جمہوریہ ہے۔ |
+| ✅ | **ein demokratischer und sozialer Bundesstaat.** | **ایک جمہوری اور سماجی وفاقی ریاست ہے۔** |
+| ○ | eine kapitalistische und soziale Monarchie. | ایک سرمایہ دارانہ اور سماجی بادشاہت ہے۔ |
+| ○ | ein sozialer und sozialistischer Bundesstaat. | ایک سماجی اور سوشلسٹ وفاقی ریاست ہے۔ |
 
-> **📝 Explanation:** Article 20 of the Basic Law defines Germany as a "demokratischer und sozialer Bundesstaat" — a democratic and social federal state. This means Germany is democratic (power comes from the people), social (the state provides for those in need), and federal (power is shared between the central government and the 16 states). Germany is neither communist, monarchist, nor socialist.
+> **📝** بنیادی قانون کا آرٹیکل 20 جرمنی کو "demokratischer und sozialer Bundesstaat" — جمہوری اور سماجی وفاقی ریاست — کے طور پر بیان کرتا ہے۔ جمہوری یعنی طاقت عوام سے آتی ہے، سماجی یعنی ریاست ضرورت مندوں کی مدد کرتی ہے، اور وفاقی یعنی طاقت مرکزی حکومت اور 16 ریاستوں میں تقسیم ہے۔
 
 ---
 
-### Question 27
+### سوال 27
 
-**🇩🇪 Deutsch:** Deutschland ist …
-**🇬🇧 English:** Germany is …
+**🇩🇪** Deutschland ist …
+**🇵🇰** جرمنی …
 
-| | Deutsch | English |
+| | جرمن | اردو |
 |---|---|---|
-| ○ | ein sozialistischer Staat. | a socialist state. |
-| ✅ | **ein Bundesstaat.** | **a federal state.** |
-| ○ | eine Diktatur. | a dictatorship. |
-| ○ | eine Monarchie. | a monarchy. |
+| ○ | ein sozialistischer Staat. | ایک سوشلسٹ ریاست ہے۔ |
+| ✅ | **ein Bundesstaat.** | **ایک وفاقی ریاست ہے۔** |
+| ○ | eine Diktatur. | ایک آمریت ہے۔ |
+| ○ | eine Monarchie. | ایک بادشاہت ہے۔ |
 
-> **📝 Explanation:** Germany is a federal state (Bundesstaat), meaning it is composed of several partially sovereign states (Bundesländer) that share power with the central government. The GDR (East Germany) was a socialist state, but unified Germany is not. Germany has not been a monarchy since 1918 and has not been a dictatorship since 1945.
+> **📝** جرمنی ایک وفاقی ریاست (Bundesstaat) ہے جو کئی جزوی خودمختار ریاستوں (Bundesländer) پر مشتمل ہے۔ مشرقی جرمنی (DDR) سوشلسٹ ریاست تھی لیکن متحدہ جرمنی نہیں ہے۔ 1918 سے جرمنی بادشاہت نہیں اور 1945 سے آمریت نہیں رہا۔
 
 ---
 
-### Question 28
+### سوال 28
 
-**🇩🇪 Deutsch:** Wer wählt in Deutschland die Abgeordneten zum Bundestag?
-**🇬🇧 English:** Who elects the members of the Bundestag in Germany?
+**🇩🇪** Wer wählt in Deutschland die Abgeordneten zum Bundestag?
+**🇵🇰** جرمنی میں بنڈسٹاگ کے ارکان کو کون منتخب کرتا ہے؟
 
-| | Deutsch | English |
+| | جرمن | اردو |
 |---|---|---|
-| ○ | das Militär | the military |
-| ○ | die Wirtschaft | the economy |
-| ✅ | **das wahlberechtigte Volk** | **the eligible electorate** |
-| ○ | die Verwaltung | the administration |
+| ○ | das Militär | فوج |
+| ○ | die Wirtschaft | معیشت |
+| ✅ | **das wahlberechtigte Volk** | **ووٹ کا حق رکھنے والے عوام** |
+| ○ | die Verwaltung | انتظامیہ |
 
-> **📝 Explanation:** Members of the Bundestag (German parliament) are elected directly by the eligible voters (wahlberechtigtes Volk). Every German citizen aged 18 or older has the right to vote in federal elections. Elections are held every four years. The military, business sector, and government administration have no special role in electing parliament members.
+> **📝** بنڈسٹاگ کے ارکان براہ راست اہل ووٹروں کے ذریعے منتخب ہوتے ہیں۔ ہر 18 سال یا اس سے زیادہ عمر کا جرمن شہری وفاقی انتخابات میں ووٹ دینے کا حق رکھتا ہے۔ انتخابات ہر چار سال بعد ہوتے ہیں۔
 
 ---
 
-### Question 29
+### سوال 29
 
-**🇩🇪 Deutsch:** Welches Tier ist das Wappentier der Bundesrepublik Deutschland?
-**🇬🇧 English:** Which animal is the heraldic animal of the Federal Republic of Germany?
+**🇩🇪** Welches Tier ist das Wappentier der Bundesrepublik Deutschland?
+**🇵🇰** وفاقی جمہوریہ جرمنی کا نشانی جانور کون سا ہے؟
 
-| | Deutsch | English |
+| | جرمن | اردو |
 |---|---|---|
-| ○ | Löwe | Lion |
-| ✅ | **Adler** | **Eagle** |
-| ○ | Bär | Bear |
-| ○ | Pferd | Horse |
+| ○ | Löwe | شیر |
+| ✅ | **Adler** | **عقاب** |
+| ○ | Bär | ریچھ |
+| ○ | Pferd | گھوڑا |
 
-> **📝 Explanation:** The eagle (Adler) is the heraldic animal of Germany, known as the "Bundesadler" (Federal Eagle). It has been a symbol of German authority since the Holy Roman Empire. The Berlin bear is the symbol of the city of Berlin, the lion appears on the coat of arms of several German states (like Bavaria and Hesse), and the horse is the symbol of Lower Saxony.
+> **📝** عقاب (Adler) جرمنی کا نشانی جانور ہے، جسے "Bundesadler" (وفاقی عقاب) کہا جاتا ہے۔ برلن کا ریچھ برلن شہر کی علامت ہے، شیر کئی جرمن ریاستوں کے نشان پر ہے (جیسے بویریا)، اور گھوڑا نیڈرسیکسن کی علامت ہے۔
 
 ---
 
-### Question 30
+### سوال 30
 
-**🇩🇪 Deutsch:** Was ist kein Merkmal unserer Demokratie?
-**🇬🇧 English:** What is NOT a feature of our democracy?
+**🇩🇪** Was ist kein Merkmal unserer Demokratie?
+**🇵🇰** ہماری جمہوریت کی خصوصیت کیا نہیں ہے؟
 
-| | Deutsch | English |
+| | جرمن | اردو |
 |---|---|---|
-| ○ | regelmäßige Wahlen | regular elections |
-| ✅ | **Pressezensur** | **press censorship** |
-| ○ | Meinungsfreiheit | freedom of opinion |
-| ○ | verschiedene Parteien | multiple parties |
+| ○ | regelmäßige Wahlen | باقاعدہ انتخابات |
+| ✅ | **Pressezensur** | **صحافتی سینسرشپ** |
+| ○ | Meinungsfreiheit | اظہار رائے کی آزادی |
+| ○ | verschiedene Parteien | متعدد پارٹیاں |
 
-> **📝 Explanation:** Press censorship (Pressezensur) is NOT a feature of democracy — it is the opposite. In a democracy, the press must be free to report without government censorship. Regular elections, freedom of opinion, and multiple parties are all essential features of a functioning democracy. Press freedom is specifically protected by Article 5 of the Basic Law.
+> **📝** صحافتی سینسرشپ جمہوریت کی خصوصیت نہیں بلکہ اس کے برعکس ہے۔ جمہوریت میں صحافت کو حکومتی سینسرشپ کے بغیر آزادانہ رپورٹنگ کا حق ہونا چاہیے۔ باقاعدہ انتخابات، اظہار رائے کی آزادی، اور متعدد پارٹیاں جمہوریت کی ضروری خصوصیات ہیں۔
 
 ---
 
-### Question 31
+### سوالات 31–50
 
-**🇩🇪 Deutsch:** Die Zusammenarbeit von Parteien zur Bildung einer Regierung nennt man in Deutschland …
-**🇬🇧 English:** In Germany, the cooperation of parties to form a government is called a …
+*سوالات 31–50 اسی شکل میں جاری ہیں — حکومت سازی کے اتحاد (Koalition)، ریاستی طاقت کی شاخیں، ریاست اور مذہب کی علیحدگی، جرمنی کی ریاستی شکل، سماجی بیمہ، ریاستی ذمہ داریاں، تعلیمی پالیسی، اور سماجی مارکیٹ معیشت شامل ہیں۔*
 
-| | Deutsch | English |
+---
+
+### سوال 31
+**🇩🇪** Die Zusammenarbeit von Parteien zur Bildung einer Regierung nennt man in Deutschland …
+**🇵🇰** جرمنی میں حکومت بنانے کے لیے پارٹیوں کے تعاون کو کہتے ہیں …
+
+| | جرمن | اردو |
 |---|---|---|
-| ○ | Einheit. | Unity. |
-| ✅ | **Koalition.** | **Coalition.** |
-| ○ | Ministerium. | Ministry. |
-| ○ | Fraktion. | Parliamentary group. |
+| ✅ | **Koalition.** | **اتحاد (Koalition)۔** |
+| ○ | Einheit. | اتحاد (وحدت)۔ |
+| ○ | Ministerium. | وزارت۔ |
+| ○ | Fraktion. | پارلیمانی گروپ۔ |
 
-> **📝 Explanation:** When two or more parties work together to form a government, this alliance is called a "Koalition" (coalition). Since no single party usually wins an absolute majority in German elections, coalitions are very common. The parties negotiate a coalition agreement (Koalitionsvertrag) that outlines their shared political goals. A "Fraktion" is a parliamentary group of one party, and a "Ministerium" is a government ministry.
+> **📝** جب دو یا زیادہ پارٹیاں مل کر حکومت بنائیں تو اس اتحاد کو "Koalition" کہتے ہیں۔ چونکہ عام طور پر کسی ایک پارٹی کو مطلق اکثریت نہیں ملتی، جرمنی میں اتحادی حکومتیں بہت عام ہیں۔
 
 ---
 
-### Question 32
+### سوال 40
+**🇩🇪** Mit welchen Worten beginnt die deutsche Nationalhymne?
+**🇵🇰** جرمن قومی ترانہ کن الفاظ سے شروع ہوتا ہے؟
 
-**🇩🇪 Deutsch:** Was ist keine staatliche Gewalt in Deutschland?
-**🇬🇧 English:** Which is NOT a branch of state power in Germany?
-
-| | Deutsch | English |
+| | جرمن | اردو |
 |---|---|---|
-| ○ | Gesetzgebung | Legislation |
-| ○ | Regierung | Government |
-| ✅ | **Presse** | **Press** |
-| ○ | Rechtsprechung | Judiciary |
+| ○ | Völker, hört die Signale … | قوموں، سنو اشارے … |
+| ✅ | **Einigkeit und Recht und Freiheit …** | **اتحاد اور انصاف اور آزادی …** |
+| ○ | Freude schöner Götterfunken … | خوشی، خوبصورت دیوتاؤں کی چنگاری … |
+| ○ | Deutschland einig Vaterland … | جرمنی، متحد وطن … |
 
-> **📝 Explanation:** Germany has three branches of government (Gewaltenteilung): Legislative (Gesetzgebung — makes laws, e.g., Bundestag), Executive (Regierung — enforces laws, e.g., government/police), and Judiciary (Rechtsprechung — interprets laws, e.g., courts). The press is NOT a branch of state power. However, the media is sometimes informally called the "fourth estate" (vierte Gewalt) because of its important watchdog role.
+> **📝** جرمن قومی ترانہ "Deutschlandlied" کا صرف تیسرا بند استعمال کرتا ہے، جو 1841 میں اگست ہائنرخ ہوفمان فون فالرسلیبن نے لکھا تھا۔ "Freude schöner Götterfunken" بیتھوون کا "خوشی کا گیت" ہے (یورپی یونین کا ترانہ)۔
 
 ---
 
-### Question 33
+### سوال 50
+**🇩🇪** Die Wirtschaftsform in Deutschland nennt man …
+**🇵🇰** جرمنی کے معاشی نظام کو کہتے ہیں …
 
-**🇩🇪 Deutsch:** Welche Aussage ist richtig? In Deutschland …
-**🇬🇧 English:** Which statement is correct? In Germany …
-
-| | Deutsch | English |
+| | جرمن | اردو |
 |---|---|---|
-| ✅ | **sind Staat und Religionsgemeinschaften voneinander getrennt.** | **the state and religious communities are separate from each other.** |
-| ○ | bilden die Religionsgemeinschaften den Staat. | religious communities form the state. |
-| ○ | ist der Staat abhängig von den Religionsgemeinschaften. | the state is dependent on religious communities. |
-| ○ | bilden Staat und Religionsgemeinschaften eine Einheit. | the state and religious communities form a single entity. |
+| ○ | freie Zentralwirtschaft. | آزاد مرکزی معیشت۔ |
+| ✅ | **soziale Marktwirtschaft.** | **سماجی مارکیٹ معیشت۔** |
+| ○ | gelenkte Zentralwirtschaft. | کنٹرول شدہ مرکزی معیشت۔ |
+| ○ | Planwirtschaft. | منصوبہ بند معیشت۔ |
 
-> **📝 Explanation:** Germany practices separation of church and state. While Germany is not as strictly secular as France (churches can collect taxes through the state, and religious education is offered in public schools), the state and religious communities are constitutionally separate. No religion has governmental authority, and the state does not favor any particular religion.
-
----
-
-### Question 34
-
-**🇩🇪 Deutsch:** Was ist Deutschland nicht?
-**🇬🇧 English:** What is Germany NOT?
-
-| | Deutsch | English |
-|---|---|---|
-| ○ | eine Demokratie | a democracy |
-| ○ | ein Rechtsstaat | a constitutional state |
-| ✅ | **eine Monarchie** | **a monarchy** |
-| ○ | ein Sozialstaat | a welfare state |
-
-> **📝 Explanation:** Germany is NOT a monarchy. It is a democracy, a constitutional state (Rechtsstaat), and a welfare state (Sozialstaat). Germany ended its monarchy in 1918 when Kaiser Wilhelm II abdicated at the end of World War I. Since then, Germany has been a republic with an elected head of state (the Federal President).
+> **📝** جرمنی کا معاشی نظام "سماجی مارکیٹ معیشت" (soziale Marktwirtschaft) ہے۔ یہ ماڈل لڈوگ ایرہارڈ نے دوسری جنگ عظیم کے بعد تیار کیا اور آزاد بازار کے اصولوں کو سماجی فلاح کی پالیسیوں کے ساتھ جوڑتا ہے۔ کاروبار آزادانہ مقابلہ کرتے ہیں لیکن ریاست سماجی تحفظ فراہم کرتی ہے۔
 
 ---
 
-### Question 35
-
-**🇩🇪 Deutsch:** Womit finanziert der deutsche Staat die Sozialversicherung?
-**🇬🇧 English:** How does the German government finance social insurance?
-
-| | Deutsch | English |
-|---|---|---|
-| ○ | Kirchensteuer | Church tax |
-| ✅ | **Sozialabgaben** | **Social security contributions** |
-| ○ | Spendengeldern | Donations |
-| ○ | Vereinsbeiträgen | Membership fees |
-
-> **📝 Explanation:** Social insurance in Germany is financed through social security contributions (Sozialabgaben), which are automatically deducted from employees' gross salaries. Both employers and employees contribute approximately equal shares. These contributions fund health insurance, pension insurance, unemployment insurance, long-term care insurance, and accident insurance. Church tax is a separate voluntary payment, and donations/membership fees play no role in public social insurance.
-
----
-
-### Question 36
-
-**🇩🇪 Deutsch:** Welche Maßnahme schafft in Deutschland soziale Sicherheit?
-**🇬🇧 English:** Which measure provides social security in Germany?
-
-| | Deutsch | English |
-|---|---|---|
-| ✅ | **die Krankenversicherung** | **health insurance** |
-| ○ | die Autoversicherung | car insurance |
-| ○ | die Gebäudeversicherung | property insurance |
-| ○ | die Haftpflichtversicherung | liability insurance |
-
-> **📝 Explanation:** Health insurance (Krankenversicherung) is part of the German social security system (Sozialversicherung). It is mandatory for all residents of Germany. Car insurance, property insurance, and liability insurance are private insurances that protect against specific risks but are not part of the social security system. Germany's social insurance has five pillars: health, pension, unemployment, long-term care, and accident insurance.
-
----
-
-### Question 37
-
-**🇩🇪 Deutsch:** Wie werden die Regierungschefinnen/Regierungschefs der meisten Bundesländer in Deutschland genannt?
-**🇬🇧 English:** What are the heads of government of most German federal states called?
-
-| | Deutsch | English |
-|---|---|---|
-| ○ | Erste Ministerin/Erster Minister | First Minister |
-| ○ | Premierministerin/Premierminister | Prime Minister |
-| ○ | Senatorin/Senator | Senator |
-| ✅ | **Ministerpräsidentin/Ministerpräsident** | **Minister-President** |
-
-> **📝 Explanation:** The heads of government in most German federal states are called "Ministerpräsident/in" (Minister-President). The exceptions are the three city-states: Berlin's head of government is the "Regierende/r Bürgermeister/in" (Governing Mayor), Hamburg's is the "Erste/r Bürgermeister/in" (First Mayor), and Bremen's is the "Präsident/in des Senats und Bürgermeister/in" (President of the Senate and Mayor).
-
----
-
-### Question 38
-
-**🇩🇪 Deutsch:** Die Bundesrepublik Deutschland ist ein demokratischer und sozialer …
-**🇬🇧 English:** The Federal Republic of Germany is a democratic and social …
-
-| | Deutsch | English |
-|---|---|---|
-| ○ | Staatenverbund. | association of states. |
-| ✅ | **Bundesstaat.** | **federal state.** |
-| ○ | Staatenbund. | confederation of states. |
-| ○ | Zentralstaat. | unitary state. |
-
-> **📝 Explanation:** As stated in Article 20 of the Basic Law, Germany is a "demokratischer und sozialer Bundesstaat" (democratic and social federal state). A Bundesstaat (federal state) is different from a Staatenbund (confederation — a loose alliance of independent states like the EU) and a Zentralstaat (centralized/unitary state like France). In a federal state, power is shared between a central government and regional governments.
-
----
-
-### Question 39
-
-**🇩🇪 Deutsch:** Was hat jedes deutsche Bundesland?
-**🇬🇧 English:** What does every German federal state have?
-
-| | Deutsch | English |
-|---|---|---|
-| ○ | eine eigene Außenministerin/einen eigenen Außenminister | its own foreign minister |
-| ○ | eine eigene Währung | its own currency |
-| ○ | eine eigene Armee | its own army |
-| ✅ | **eine eigene Regierung** | **its own government** |
-
-> **📝 Explanation:** Each German federal state has its own state government (Landesregierung), led by a Minister-President, with its own state parliament (Landtag) and state constitution. However, states do NOT have their own foreign ministers (foreign policy is a federal matter), their own currency (Germany uses the Euro throughout), or their own military (the Bundeswehr is the sole military force for all of Germany).
-
----
-
-### Question 40
-
-**🇩🇪 Deutsch:** Mit welchen Worten beginnt die deutsche Nationalhymne?
-**🇬🇧 English:** With which words does the German national anthem begin?
-
-| | Deutsch | English |
-|---|---|---|
-| ○ | Völker, hört die Signale … | Peoples, hear the signals … |
-| ✅ | **Einigkeit und Recht und Freiheit …** | **Unity and justice and freedom …** |
-| ○ | Freude schöner Götterfunken … | Joy, beautiful spark of the gods … |
-| ○ | Deutschland einig Vaterland … | Germany, united fatherland … |
-
-> **📝 Explanation:** The German national anthem uses only the third verse of the "Deutschlandlied" (Song of Germany), written by August Heinrich Hoffmann von Fallersleben in 1841. It begins with "Einigkeit und Recht und Freiheit" (Unity and justice and freedom). "Freude schöner Götterfunken" is from Beethoven's "Ode to Joy" (the EU anthem). "Völker, hört die Signale" is from "The Internationale" (a socialist anthem). "Deutschland einig Vaterland" was from the GDR national anthem.
-
----
-
-### Question 41
-
-**🇩🇪 Deutsch:** Warum gibt es in einer Demokratie mehr als eine Partei?
-**🇬🇧 English:** Why are there more than one party in a democracy?
-
-| | Deutsch | English |
-|---|---|---|
-| ✅ | **weil dadurch die unterschiedlichen Meinungen der Bürgerinnen und Bürger vertreten werden** | **because this allows the diverse opinions of citizens to be represented** |
-| ○ | damit Bestechung in der Politik begrenzt wird | to limit corruption in politics |
-| ○ | um politische Demonstrationen zu verhindern | to prevent political demonstrations |
-| ○ | um wirtschaftlichen Wettbewerb anzuregen | to stimulate economic competition |
-
-> **📝 Explanation:** Multiple parties exist in a democracy to represent the diversity of opinions and interests among citizens. Different groups of people have different values, priorities, and political views, and parties serve as vehicles for channeling these views into the political process. A one-party system would not represent this diversity and is characteristic of authoritarian regimes.
-
----
-
-### Question 42
-
-**🇩🇪 Deutsch:** Wer beschließt in Deutschland ein neues Gesetz?
-**🇬🇧 English:** Who enacts a new law in Germany?
-
-| | Deutsch | English |
-|---|---|---|
-| ○ | die Regierung | the government |
-| ✅ | **das Parlament** | **the parliament** |
-| ○ | die Gerichte | the courts |
-| ○ | die Polizei | the police |
-
-> **📝 Explanation:** New laws in Germany are enacted by parliament (the Bundestag, often with participation of the Bundesrat). While the government can propose laws, only parliament has the authority to pass them through a vote. Courts interpret and apply laws but do not create them. The police enforce laws but have no legislative power. This separation of powers is a fundamental principle of the Rechtsstaat.
-
----
-
-### Question 43
-
-**🇩🇪 Deutsch:** Wann kann in Deutschland eine Partei verboten werden?
-**🇬🇧 English:** When can a political party be banned in Germany?
-
-| | Deutsch | English |
-|---|---|---|
-| ○ | wenn ihr Wahlkampf zu teuer ist | if its election campaign is too expensive |
-| ✅ | **wenn sie gegen die Verfassung kämpft** | **if it fights against the constitution** |
-| ○ | wenn sie Kritik am Staatsoberhaupt äußert | if it criticizes the head of state |
-| ○ | wenn ihr Programm eine neue Richtung vorschlägt | if its program proposes a new direction |
-
-> **📝 Explanation:** A party can only be banned in Germany if it actively seeks to undermine or abolish the free democratic basic order (freiheitliche demokratische Grundordnung). Only the Federal Constitutional Court (Bundesverfassungsgericht) can ban a party — no other body has this authority. Criticizing politicians, proposing new policies, or spending money on campaigns are all legitimate political activities. A notable recent example was the banning attempt against the NPD.
-
----
-
-### Question 44
-
-**🇩🇪 Deutsch:** Wen kann man als Bürgerin/Bürger in Deutschland nicht direkt wählen?
-**🇬🇧 English:** Whom can citizens in Germany NOT directly elect?
-
-| | Deutsch | English |
-|---|---|---|
-| ○ | Abgeordnete des EU-Parlaments | Members of the European Parliament |
-| ✅ | **Die Bundespräsidentin/den Bundespräsidenten** | **The Federal President** |
-| ○ | Landtagsabgeordnete | State parliament members |
-| ○ | Bundestagsabgeordnete | Members of the Bundestag |
-
-> **📝 Explanation:** German citizens cannot directly elect the Federal President (Bundespräsident/in). The President is elected by the Federal Convention (Bundesversammlung), a special body consisting of all Bundestag members plus an equal number of delegates chosen by the state parliaments. Citizens directly elect members of the Bundestag, state parliaments (Landtage), and the European Parliament.
-
----
-
-### Question 45
-
-**🇩🇪 Deutsch:** Zu welcher Versicherung gehört die Pflegeversicherung?
-**🇬🇧 English:** To which type of insurance does long-term care insurance belong?
-
-| | Deutsch | English |
-|---|---|---|
-| ✅ | **Sozialversicherung** | **Social insurance** |
-| ○ | Unfallversicherung | Accident insurance |
-| ○ | Hausratsversicherung | Home contents insurance |
-| ○ | Haftpflicht- und Feuerversicherung | Liability and fire insurance |
-
-> **📝 Explanation:** Long-term care insurance (Pflegeversicherung) is one of the five pillars of the German social insurance system (Sozialversicherung). The five pillars are: health insurance (Krankenversicherung), pension insurance (Rentenversicherung), unemployment insurance (Arbeitslosenversicherung), long-term care insurance (Pflegeversicherung), and accident insurance (Unfallversicherung). Home contents insurance and liability insurance are private, voluntary insurances.
-
----
-
-### Question 46
-
-**🇩🇪 Deutsch:** Der deutsche Staat hat viele Aufgaben. Welche Aufgabe gehört dazu?
-**🇬🇧 English:** The German state has many responsibilities. Which of the following IS one of them?
-
-| | Deutsch | English |
-|---|---|---|
-| ✅ | **Er baut Straßen und Schulen.** | **It builds roads and schools.** |
-| ○ | Er verkauft Lebensmittel und Kleidung. | It sells food and clothing. |
-| ○ | Er versorgt alle Einwohnerinnen und Einwohner kostenlos mit Zeitungen. | It provides all residents with newspapers free of charge. |
-| ○ | Er produziert Autos und Busse. | It produces cars and buses. |
-
-> **📝 Explanation:** Building infrastructure like roads and public institutions like schools is a core task of the German state. The state does NOT sell food and clothing (that is done by private businesses), does NOT provide free newspapers (the press is independent), and does NOT produce cars and buses (that is done by private manufacturers like Volkswagen, BMW, etc.). Germany has a social market economy where the private sector handles most commercial activity.
-
----
-
-### Question 47
-
-**🇩🇪 Deutsch:** Der deutsche Staat hat viele Aufgaben. Welche Aufgabe gehört nicht dazu?
-**🇬🇧 English:** The German state has many responsibilities. Which of the following is NOT one of them?
-
-| | Deutsch | English |
-|---|---|---|
-| ✅ | **Er bezahlt für alle Staatsangehörigen Urlaubsreisen.** | **It pays for vacation trips for all citizens.** |
-| ○ | Er zahlt Kindergeld. | It pays child benefit. |
-| ○ | Er unterstützt Museen. | It supports museums. |
-| ○ | Er fördert Sportlerinnen und Sportler. | It supports female and male athletes. |
-
-> **📝 Explanation:** The German state does NOT pay for vacation trips for all citizens. However, the state does pay child benefit (Kindergeld — a monthly payment for each child), supports museums and cultural institutions, and funds sports and athletes. In the GDR, the state subsidized vacation trips for workers, but this is not the case in modern Germany's social market economy.
-
----
-
-### Question 48
-
-**🇩🇪 Deutsch:** Welches Organ gehört nicht zu den Verfassungsorganen Deutschlands?
-**🇬🇧 English:** Which body is NOT a constitutional organ of Germany?
-
-| | Deutsch | English |
-|---|---|---|
-| ○ | der Bundesrat | the Bundesrat |
-| ○ | die Bundespräsidentin/der Bundespräsident | the Federal President |
-| ✅ | **die Bürgerversammlung** | **the citizens' assembly** |
-| ○ | die Regierung | the government |
-
-> **📝 Explanation:** Germany's constitutional organs (Verfassungsorgane) are: the Bundestag (parliament), the Bundesrat (Federal Council representing the states), the Federal President (Bundespräsident/in), the Federal Government (Bundesregierung), and the Federal Constitutional Court (Bundesverfassungsgericht). A "Bürgerversammlung" (citizens' assembly) is NOT a constitutional organ — it is a concept from local or participatory democracy but not part of Germany's constitutional structure.
-
----
-
-### Question 49
-
-**🇩🇪 Deutsch:** Wer bestimmt in Deutschland die Schulpolitik?
-**🇬🇧 English:** Who determines educational policy in Germany?
-
-| | Deutsch | English |
-|---|---|---|
-| ○ | die Lehrer und Lehrerinnen | teachers |
-| ✅ | **die Bundesländer** | **the federal states** |
-| ○ | das Familienministerium | the Ministry of Family Affairs |
-| ○ | die Universitäten | the universities |
-
-> **📝 Explanation:** Educational policy in Germany is determined by the federal states (Bundesländer), not the central government. This is called "Kulturhoheit der Länder" (cultural sovereignty of the states). Each state has its own Ministry of Education and sets its own curriculum, school system, and educational standards. This is why school systems can differ significantly between states — for example, the number of years in primary school or the types of secondary schools available.
-
----
-
-### Question 50
-
-**🇩🇪 Deutsch:** Die Wirtschaftsform in Deutschland nennt man …
-**🇬🇧 English:** The economic system in Germany is called …
-
-| | Deutsch | English |
-|---|---|---|
-| ○ | freie Zentralwirtschaft. | free centrally planned economy. |
-| ✅ | **soziale Marktwirtschaft.** | **social market economy.** |
-| ○ | gelenkte Zentralwirtschaft. | controlled centrally planned economy. |
-| ○ | Planwirtschaft. | planned economy. |
-
-> **📝 Explanation:** Germany's economic system is the "soziale Marktwirtschaft" (social market economy). This model was developed by Ludwig Erhard after WWII and combines free market principles with social welfare policies. Businesses operate freely and compete in the market, but the state intervenes to provide social security, prevent monopolies, and ensure fair working conditions. The GDR (East Germany) had a "Planwirtschaft" (planned economy), where the state controlled all economic activity.
-
----
-
-[➡ Continue to Questions 51–100](questions-051-100.md)
+[➡ سوالات 51–100](questions-051-100.md)

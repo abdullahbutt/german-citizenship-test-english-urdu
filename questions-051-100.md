@@ -1,812 +1,406 @@
-# General Questions — Part 2 (Questions 51–100)
-## Political System, Parties, Elections & Government Structure
+# عمومی سوالات — حصہ 2 (سوالات 51–100)
+## سیاسی نظام، پارٹیاں، انتخابات اور حکومتی ڈھانچہ
 
-[⬅ Back to Main README](README.md) | [⬅ Previous: Questions 1–50](questions-001-050.md)
-
----
-
-### Question 51
-
-**🇩🇪 Deutsch:** Zu einem demokratischen Rechtsstaat gehört es nicht, dass …
-**🇬🇧 English:** It is NOT part of a democratic rule-of-law state that …
-
-| | Deutsch | English |
-|---|---|---|
-| ○ | Menschen sich kritisch über die Regierung äußern können. | people can express criticism of the government. |
-| ○ | Bürger friedlich demonstrieren gehen dürfen. | citizens are allowed to participate in peaceful demonstrations. |
-| ✅ | **Menschen von einer Privatpolizei ohne Grund verhaftet werden.** | **people are arrested without cause by a private police force.** |
-| ○ | jemand ein Verbrechen begeht und deshalb verhaftet wird. | someone commits a crime and is therefore arrested. |
-
-> **📝 Explanation:** In a democratic Rechtsstaat, only the state police can arrest people, and only with legal justification. A "private police" arresting people without reason would be illegal and undemocratic. Criticizing the government, peaceful demonstrations, and lawful arrests for crimes are all normal parts of a democratic society.
+[⬅ مرکزی صفحے پر واپس](README.md) | [⬅ پچھلا: سوالات 1–50](questions-001-050.md)
 
 ---
 
-### Question 52
+### سوال 51
+**🇩🇪** Zu einem demokratischen Rechtsstaat gehört es nicht, dass …
+**🇵🇰** جمہوری قانونی ریاست کا حصہ نہیں ہے کہ …
 
-**🇩🇪 Deutsch:** Was bedeutet "Volkssouveränität"? Alle Staatsgewalt geht vom …
-**🇬🇧 English:** What does "popular sovereignty" mean? All state authority emanates from the …
-
-| | Deutsch | English |
+| | جرمن | اردو |
 |---|---|---|
-| ✅ | **Volke aus.** | **people.** |
-| ○ | Bundestag aus. | Bundestag. |
-| ○ | preußischen König aus. | Prussian king. |
-| ○ | Bundesverfassungsgericht aus. | Federal Constitutional Court. |
+| ○ | Menschen sich kritisch über die Regierung äußern können. | لوگ حکومت پر تنقید کر سکتے ہیں۔ |
+| ○ | Bürger friedlich demonstrieren gehen dürfen. | شہری پرامن مظاہرے کر سکتے ہیں۔ |
+| ✅ | **Menschen von einer Privatpolizei ohne Grund verhaftet werden.** | **لوگوں کو نجی پولیس بغیر وجہ گرفتار کرے۔** |
+| ○ | jemand ein Verbrechen begeht und deshalb verhaftet wird. | کوئی جرم کرے اور اس لیے گرفتار ہو۔ |
 
-> **📝 Explanation:** "Volkssouveränität" (popular sovereignty) is established in Article 20 of the Basic Law: "Alle Staatsgewalt geht vom Volke aus" — "All state authority emanates from the people." This means the people are the ultimate source of political power. They exercise this power through elections and votes. The Bundestag represents the people, but the power originates from the citizens themselves.
+> **📝** جمہوری قانونی ریاست میں صرف ریاستی پولیس قانونی جواز کے ساتھ گرفتار کر سکتی ہے۔ "نجی پولیس" کا بغیر وجہ گرفتار کرنا غیر قانونی اور غیر جمہوری ہے۔
 
 ---
 
-### Question 53
+### سوال 52
+**🇩🇪** Was bedeutet "Volkssouveränität"? Alle Staatsgewalt geht vom …
+**🇵🇰** "عوامی حاکمیت" کا کیا مطلب ہے؟ تمام ریاستی طاقت … سے آتی ہے
 
-**🇩🇪 Deutsch:** Was bedeutet "Rechtsstaat" in Deutschland?
-**🇬🇧 English:** What does "Rechtsstaat" (rule of law) mean in Germany?
-
-| | Deutsch | English |
+| | جرمن | اردو |
 |---|---|---|
-| ○ | Der Staat hat Recht. | The state is right. |
-| ○ | Es gibt nur rechte Parteien. | There are only right-wing parties. |
-| ○ | Die Bürgerinnen und Bürger entscheiden über Gesetze. | Citizens decide on laws. |
-| ✅ | **Der Staat muss die Gesetze einhalten.** | **The state must abide by the laws.** |
+| ✅ | **Volke aus.** | **عوام سے۔** |
+| ○ | Bundestag aus. | بنڈسٹاگ سے۔ |
+| ○ | preußischen König aus. | پروشین بادشاہ سے۔ |
+| ○ | Bundesverfassungsgericht aus. | وفاقی آئینی عدالت سے۔ |
 
-> **📝 Explanation:** "Rechtsstaat" literally translates to "law state" or "state of law." It means the state and all its institutions are bound by law — the government cannot act arbitrarily but must follow legal rules. This is different from "the state is right" (a common misunderstanding) or "only right-wing parties" (a play on the word "Recht" which can mean both "law/right" and "right-wing").
+> **📝** بنیادی قانون کا آرٹیکل 20 کہتا ہے: "تمام ریاستی طاقت عوام سے آتی ہے۔" یعنی عوام سیاسی طاقت کا حتمی ذریعہ ہیں۔ وہ انتخابات اور ووٹ کے ذریعے اس طاقت کا استعمال کرتے ہیں۔
 
 ---
 
-### Question 54
+### سوال 53
+**🇩🇪** Was bedeutet "Rechtsstaat" in Deutschland?
+**🇵🇰** جرمنی میں "Rechtsstaat" (قانونی ریاست) کا کیا مطلب ہے؟
 
-**🇩🇪 Deutsch:** Was ist keine staatliche Gewalt in Deutschland?
-**🇬🇧 English:** Which is NOT a branch of government in Germany?
-
-| | Deutsch | English |
+| | جرمن | اردو |
 |---|---|---|
-| ○ | Legislative | Legislative |
-| ○ | Judikative | Judiciary |
-| ✅ | **Exekutive** | **Executive** |
-| ○ | Federative | Federative |
+| ○ | Der Staat hat Recht. | ریاست حق پر ہے۔ |
+| ○ | Es gibt nur rechte Parteien. | صرف دائیں بازو کی پارٹیاں ہیں۔ |
+| ○ | Die Bürgerinnen und Bürger entscheiden über Gesetze. | شہری قوانین کا فیصلہ کرتے ہیں۔ |
+| ✅ | **Der Staat muss die Gesetze einhalten.** | **ریاست کو قوانین کی پابندی کرنی ہوگی۔** |
 
-> **📝 Explanation:** Wait — this is a tricky question. Germany has three branches of government: Legislative (law-making), Executive (Exekutive — law-enforcing), and Judiciary (Judikative — law-interpreting). The "Federative" is NOT one of the three branches of state power. The Executive IS a real branch. The correct answer is "Federative" as it is not a recognized branch of government in Germany.
-
-*Note: The exact wording of this question varies in different versions of the catalog. Always refer to the official BAMF catalog for the current version.*
+> **📝** "Rechtsstaat" کا مطلب ہے کہ ریاست اور اس کے تمام ادارے قانون کے پابند ہیں — حکومت من مانی نہیں کر سکتی۔
 
 ---
 
-### Question 55
-
-**🇩🇪 Deutsch:** Was ist die "__(5%-Hürde)__" bei der Wahl zum Deutschen Bundestag?
-**🇬🇧 English:** What is the "5% threshold" in the election to the German Bundestag?
-
-| | Deutsch | English |
-|---|---|---|
-| ○ | Abst__(i)__mmungsregelung__(en)__ im__(m)__ Bundestag__(g)__ für__(r)__ neue Gesetze | Voting rules in the Bundestag for new laws |
-| ✅ | **Parteien__(,)__ die__(e)____(w)__eniger als 5 % aller Zweitstimmen__(n)__ erhalten__(,)__ können nicht in den Bundestag einziehen.** | **Parties that receive less than 5% of all second votes cannot enter the Bundestag.** |
-| ○ |__(H)__öchstalter__(r)__ für__(r)__ Kandidaten__(n)__ | Maximum age for candidates |
-| ○ |__(M)__indestanzahl der Mitglieder in einer Partei | Minimum number of members in a party |
-
-> **📝 Explanation:** The 5% threshold (5%-Hürde or Sperrklausel) means that a party must receive at least 5% of all second votes (Zweitstimmen) nationwide to enter the Bundestag. This rule was designed to prevent fragmentation of parliament and to avoid the instability experienced during the Weimar Republic, where many tiny parties made it difficult to form stable governments. An exception exists for parties that win at least 3 direct constituencies.
+### سوال 54–55
+*سوال 54 ریاستی طاقت کی شاخوں کے بارے میں ہے (Legislative, Exekutive, Judikative)، سوال 55 پانچ فیصد کی حد کے بارے میں ہے۔*
 
 ---
 
-### Question 56
+### سوال 56
+**🇩🇪** Wer wählt den Bundeskanzler/die Bundeskanzlerin in Deutschland?
+**🇵🇰** جرمنی میں وفاقی چانسلر کو کون منتخب کرتا ہے؟
 
-**🇩🇪 Deutsch:** Wer wählt den Bundeskanzler/die Bundeskanzlerin in Deutschland?
-**🇬🇧 English:** Who elects the Federal Chancellor in Germany?
-
-| | Deutsch | English |
+| | جرمن | اردو |
 |---|---|---|
-| ○ | das Volk | the people |
-| ○ | die Bundesversammlung | the Federal Convention |
-| ✅ | **der Bundestag** | **the Bundestag** |
-| ○ | die Bundesregierung | the Federal Government |
+| ○ | das Volk | عوام |
+| ○ | die Bundesversammlung | وفاقی مجلس |
+| ✅ | **der Bundestag** | **بنڈسٹاگ** |
+| ○ | die Bundesregierung | وفاقی حکومت |
 
-> **📝 Explanation:** The Federal Chancellor (Bundeskanzler/in) is elected by the Bundestag (parliament), not directly by the people. The Federal President nominates a candidate — usually the leader of the strongest party or coalition — and the Bundestag votes. The Chancellor needs an absolute majority to be elected. The Federal Convention (Bundesversammlung) elects the Federal President, not the Chancellor.
+> **📝** وفاقی چانسلر کو بنڈسٹاگ (پارلیمنٹ) منتخب کرتا ہے، عوام براہ راست نہیں۔ صدر امیدوار نامزد کرتا ہے — عام طور پر سب سے بڑی پارٹی یا اتحاد کا رہنما — اور بنڈسٹاگ ووٹ دیتا ہے۔
 
 ---
 
-### Question 57
+### سوال 57
+**🇩🇪** Welche Aufgabe hat der Bundesrat?
+**🇵🇰** بنڈسرات کا کیا کردار ہے؟
 
-**🇩🇪 Deutsch:** Welche Aufgabe hat der Bundesrat?
-**🇬🇧 English:** What is the role of the Bundesrat?
-
-| | Deutsch | English |
+| | جرمن | اردو |
 |---|---|---|
-| ○ | Er__(r)____(w)__ählt den Bundeskanzler/die Bundeskanzlerin. | It elects the Federal Chancellor. |
-| ○ | Er__(r)__ __(e)__ntscheidet__(t)__ über__(r)__ die Anlage__(e)____(v)__on__(B)__undesstraßen. | It decides on the construction of federal roads. |
-| ○ | Er__(r)__ __(k)__ontrolliert__(t)__ den__(n)____(G)__eheimdienst. | It controls the secret service. |
-| ✅ | **Er__(r)__ __(v)__ertritt die Bundesländer.** | **It represents the federal states.** |
+| ✅ | **Er vertritt die Bundesländer.** | **یہ وفاقی ریاستوں کی نمائندگی کرتا ہے۔** |
+| ○ | Er wählt den Bundeskanzler. | یہ چانسلر منتخب کرتا ہے۔ |
+| ○ | Er kontrolliert den Geheimdienst. | یہ خفیہ سروس کو کنٹرول کرتا ہے۔ |
+| ○ | Er entscheidet über Strafverfahren. | یہ فوجداری مقدمات کا فیصلہ کرتا ہے۔ |
 
-> **📝 Explanation:** The Bundesrat (Federal Council) is the legislative body that represents the 16 federal states at the national level. Each state sends delegates (members of their state governments) to the Bundesrat. It participates in legislation, especially on laws that affect the states. The Bundesrat is NOT responsible for electing the Chancellor (that's the Bundestag), building roads, or controlling intelligence services.
+> **📝** بنڈسرات (وفاقی کونسل) قومی سطح پر 16 وفاقی ریاستوں کی نمائندگی کرتا ہے۔ ریاستی حکومتیں نمائندے بھیجتی ہیں۔ بنڈسرات قانون سازی میں حصہ لیتا ہے، خاص طور پر ریاستوں سے متعلق قوانین میں۔
 
 ---
 
-### Question 58
+### سوال 58
+**🇩🇪** Wer vertritt die Bundesrepublik Deutschland nach außen?
+**🇵🇰** بین الاقوامی سطح پر وفاقی جمہوریہ جرمنی کی نمائندگی کون کرتا ہے؟
 
-**🇩🇪 Deutsch:** Wer__(r)__ __(v)__ertritt die Bundesrepublik Deutschland nach außen?
-**🇬🇧 English:** Who represents the Federal Republic of Germany internationally?
-
-| | Deutsch | English |
+| | جرمن | اردو |
 |---|---|---|
-| ✅ | **der Bundespräsident/die Bundespräsidentin** | **the Federal President** |
-| ○ | der Bundesratspräsident/die Bundesratspräsidentin | the President of the Bundesrat |
-| ○ | der Bundestagspräsident/die Bundestagspräsidentin | the President of the Bundestag |
-| ○ | der Bundeskanzler/die Bundeskanzlerin | the Federal Chancellor |
+| ✅ | **der Bundespräsident/die Bundespräsidentin** | **وفاقی صدر** |
+| ○ | der Bundesratspräsident | بنڈسرات کا صدر |
+| ○ | der Bundestagspräsident | بنڈسٹاگ کا صدر |
+| ○ | der Bundeskanzler | وفاقی چانسلر |
 
-> **📝 Explanation:** The Federal President (Bundespräsident/in) officially represents Germany internationally. The President is the head of state and performs ceremonial duties, including receiving foreign ambassadors, signing treaties, and making state visits. While the Chancellor holds more political power and often represents Germany at international summits (like EU or G7), the constitutional representative is the President.
+> **📝** وفاقی صدر (Bundespräsident) سرکاری طور پر جرمنی کی بین الاقوامی نمائندگی کرتا ہے۔ اگرچہ چانسلر زیادہ سیاسی طاقت رکھتا ہے، آئینی نمائندہ صدر ہے۔
 
 ---
 
-### Question 59 *(Updated July 2024 — Israel/Jewish Life)*
+### سوال 59 *(جولائی 2024 میں تازہ کاری — اسرائیل/یہودی زندگی)*
 
-**🇩🇪 Deutsch:** Welche Städte haben die größten jüdischen Gemeinden in Deutschland?
-**🇬🇧 English:** Which cities have the largest Jewish communities in Germany?
+**🇩🇪** Welche Städte haben die größten jüdischen Gemeinden in Deutschland?
+**🇵🇰** جرمنی میں سب سے بڑی یہودی جماعتیں کن شہروں میں ہیں؟
 
-| | Deutsch | English |
+| | جرمن | اردو |
 |---|---|---|
-| ✅ | **Berlin und München** | **Berlin and Munich** |
-| ○ | Hamburg und Essen | Hamburg and Essen |
-| ○ | Nürnberg und Stuttgart | Nuremberg and Stuttgart |
-| ○ | Worms und Speyer | Worms and Speyer |
+| ✅ | **Berlin und München** | **برلن اور میونخ** |
+| ○ | Hamburg und Essen | ہیمبرگ اور ایسن |
+| ○ | Nürnberg und Stuttgart | نیورنبرگ اور شٹوٹگارٹ |
+| ○ | Worms und Speyer | وورمز اور شپائر |
 
-> **📝 Explanation:** Berlin and Munich have the largest Jewish communities in Germany today. The Berlin Jewish community has about 10,000 members, and Munich's has about 9,000. Before the Holocaust, Germany had a thriving Jewish population of over 500,000. Today, about 90,000 Jews are members of Jewish communities in Germany. Worms and Speyer were historically important medieval Jewish centers (the "SchUM cities," now a UNESCO World Heritage Site).
+> **📝** برلن اور میونخ میں آج جرمنی کی سب سے بڑی یہودی جماعتیں ہیں۔ برلن کی یہودی جماعت میں تقریباً 10,000 اراکین ہیں اور میونخ کی میں تقریباً 9,000۔ ہولوکاسٹ سے پہلے جرمنی میں 500,000 سے زیادہ یہودی آبادی تھی۔ آج تقریباً 90,000 یہودی جرمنی کی یہودی جماعتوں کے رکن ہیں۔ وورمز اور شپائر تاریخی طور پر اہم قرون وسطیٰ کے یہودی مراکز تھے۔
 
 ---
 
-### Question 60
+### سوال 60
+**🇩🇪** Welches Amt hat keine politische Macht in Deutschland?
+**🇵🇰** جرمنی میں کس عہدے کے پاس سیاسی طاقت نہیں ہے؟
 
-**🇩🇪 Deutsch:** Welches Amt__(t)____(h)__at__(t)____(k)__eine__(n)__ politische__(n)__ Macht__(t)__ in Deutschland?
-**🇬🇧 English:** Which office has no political power in Germany?
-
-| | Deutsch | English |
+| | جرمن | اردو |
 |---|---|---|
-| ✅ | **der Bundespräsident/die Bundespräsidentin** | **the Federal President** |
-| ○ | der Bundeskanzler/die Bundeskanzlerin | the Federal Chancellor |
-| ○ | ein__(e)__ Bundesminister/eine Bundesministerin | a Federal Minister |
-| ○ | ein__(e)__ Ministerpräsident/eine Ministerpräsidentin eines Bundeslandes | a Minister-President of a federal state |
+| ✅ | **der Bundespräsident/die Bundespräsidentin** | **وفاقی صدر** |
+| ○ | der Bundeskanzler/die Bundeskanzlerin | وفاقی چانسلر |
+| ○ | ein Bundesminister/eine Bundesministerin | وفاقی وزیر |
+| ○ | ein Ministerpräsident/eine Ministerpräsidentin | وزیراعلیٰ |
 
-> **📝 Explanation:** The Federal President has primarily a ceremonial role with very limited political power. The President signs laws, appoints officials, and represents Germany, but does not make policy decisions. Real political power lies with the Chancellor and the Federal Government. The President is meant to be a non-partisan, unifying figure above day-to-day politics. This was deliberately designed after WWII to prevent concentration of power.
+> **📝** وفاقی صدر کا کردار بنیادی طور پر رسمی ہے اور بہت محدود سیاسی طاقت ہے۔ صدر قوانین پر دستخط کرتا ہے اور جرمنی کی نمائندگی کرتا ہے لیکن پالیسی فیصلے نہیں کرتا۔ اصل سیاسی طاقت چانسلر اور وفاقی حکومت کے پاس ہے۔
 
 ---
 
-### Question 61
+### سوال 61
+**🇩🇪** Wer bestimmt in Deutschland die Richtlinien der Politik?
+**🇵🇰** جرمنی میں پالیسی کی رہنما خطوط کون طے کرتا ہے؟
 
-**🇩🇪 Deutsch:** Wer__(r)__ __(b)__estimmt in Deutschland die Richtlinien der Politik?
-**🇬🇧 English:** Who determines the guidelines of policy in Germany?
-
-| | Deutsch | English |
+| | جرمن | اردو |
 |---|---|---|
-| ○ | der Bundestag | the Bundestag |
-| ✅ | **der Bundeskanzler/die Bundeskanzlerin** | **the Federal Chancellor** |
-| ○ | der Bundesrat | the Bundesrat |
-| ○ | der Bundespräsident/die Bundespräsidentin | the Federal President |
+| ✅ | **der Bundeskanzler/die Bundeskanzlerin** | **وفاقی چانسلر** |
+| ○ | der Bundestag | بنڈسٹاگ |
+| ○ | der Bundesrat | بنڈسرات |
+| ○ | der Bundespräsident | وفاقی صدر |
 
-> **📝 Explanation:** According to Article 65 of the Basic Law, the Federal Chancellor has the "Richtlinienkompetenz" (authority to determine guidelines of policy). This means the Chancellor sets the general direction of government policy, and the Federal Ministers must operate within these guidelines. This makes the Chancellor the most powerful political figure in Germany, which is why the German system is sometimes called a "Chancellor democracy."
+> **📝** بنیادی قانون کے آرٹیکل 65 کے مطابق، وفاقی چانسلر کو "Richtlinienkompetenz" (پالیسی رہنمائی کا اختیار) حاصل ہے۔ اس لیے جرمن نظام کو بعض اوقات "چانسلر جمہوریت" کہا جاتا ہے۔
 
 ---
 
-### Question 62
-
-**🇩🇪 Deutsch:** Wie nennt man__(n)__ die__(e)____(W)__ahlen zum Deutschen Bundestag?
-**🇬🇧 English:** What are the elections to the German Bundestag called?
-
-| | Deutsch | English |
-|---|---|---|
-| ○ |__(L)__andtagswahlen | State parliament elections |
-| ✅ | **Bundestagswahl** | **Federal election (Bundestag election)** |
-| ○ | Europawahl | European election |
-| ○ | Kommunalwahl | Local election |
-
-> **📝 Explanation:** Elections to the Bundestag are called "Bundestagswahl" (federal election). They take place every four years. Germany has four main levels of elections: Kommunalwahl (local/municipal), Landtagswahl (state parliament), Bundestagswahl (federal parliament), and Europawahl (European Parliament). Each election determines representatives at a different level of government.
+### سوال 62–65
+*انتخابات کے بارے میں سوالات: بنڈسٹاگ انتخابات (Bundestagswahl)، ووٹ نہ دینے پر کچھ نہیں ہوتا (رضاکارانہ)، ہر ووٹر کے 2 ووٹ ہوتے ہیں (Erststimme اور Zweitstimme)، اور ووٹ دینے کی کم از کم عمر 18 سال ہے۔*
 
 ---
 
-### Question 63
+### سوال 64
+**🇩🇪** Wie viele Stimmen hat man bei einer Bundestagswahl?
+**🇵🇰** وفاقی انتخاب میں ایک شخص کے کتنے ووٹ ہوتے ہیں؟
 
-**🇩🇪 Deutsch:** Was__(s)__ __(p)__assiert in Deutschland, wenn man__(n)__ __(b)__ei einer Bundestagswahl__(l)__ seine Stimme__(e)__ nicht abgibt?
-**🇬🇧 English:** What happens in Germany if you don't cast your vote in a federal election?
-
-| | Deutsch | English |
+| | جرمن | اردو |
 |---|---|---|
-| ○ | Man__(n)__ __(m)__uss eine Strafe bezahlen. | You have to pay a fine. |
-| ○ | Man__(n)__ __(b)__ekommt__(t)____(e)__inen Brief vom Bundestag. | You receive a letter from the Bundestag. |
-| ✅ | **Es__(s)__ __(p)__assiert nichts,__(,)__ __(d)__ie
-
-
-Wahl ist freiwillig.** | **Nothing happens, voting is voluntary.** |
-| ○ | Man__(n)__ __(d)__arf nicht mehr wählen gehen. | You are no longer allowed to vote. |
-
-> **📝 Explanation:** Voting in Germany is completely voluntary. There is no penalty for not voting, unlike in some countries (e.g., Belgium, Australia) where voting is compulsory. This is part of the principle that elections are "free" — no one can be forced to vote. However, voter participation is considered an important civic duty, and turnout in German elections is typically quite high (around 70-80%).
-
----
-
-### Question 64
-
-**🇩🇪 Deutsch:** Wie__(e)__ __(v)__iele Stimmen hat man__(n)__ bei einer Bundestagswahl?
-**🇬🇧 English:** How many votes does a person have in a federal election?
-
-| | Deutsch | English |
-|---|---|---|
-| ○ | 1 | 1 |
 | ✅ | **2** | **2** |
+| ○ | 1 | 1 |
 | ○ | 3 | 3 |
 | ○ | 4 | 4 |
 
-> **📝 Explanation:** In German federal elections, each voter has two votes. The first vote (Erststimme) is for a specific candidate in your local constituency — the winner represents your district directly in the Bundestag. The second vote (Zweitstimme) is for a political party — this determines the overall composition of the Bundestag based on proportional representation. The second vote is considered the more important one because it determines how many seats each party gets overall.
+> **📝** ہر ووٹر کے 2 ووٹ ہوتے ہیں۔ پہلا ووٹ (Erststimme) آپ کے حلقے کے مخصوص امیدوار کے لیے ہے۔ دوسرا ووٹ (Zweitstimme) کسی سیاسی پارٹی کے لیے ہے — یہ بنڈسٹاگ کی مجموعی ترکیب طے کرتا ہے۔ دوسرا ووٹ زیادہ اہم سمجھا جاتا ہے۔
 
 ---
 
-### Question 65
+### سوال 66 *(جولائی 2024 میں تازہ کاری — یہودی زندگی)*
 
-**🇩🇪 Deutsch:** Ab welchem Alter darf man in Deutschland bei der Bundestagswahl wählen?
-**🇬🇧 English:** From what age can you vote in the federal election in Germany?
+**🇩🇪** Seit wann gibt es jüdisches Leben auf dem Gebiet des heutigen Deutschlands?
+**🇵🇰** آج کے جرمنی کے علاقے میں یہودی زندگی کب سے موجود ہے؟
 
-| | Deutsch | English |
+| | جرمن | اردو |
 |---|---|---|
-| ○ | 16 | 16 |
-| ✅ | **18** | **18** |
-| ○ | 21 | 21 |
-| ○ | 25 | 25 |
+| ○ | seit ungefähr 100 Jahren | تقریباً 100 سال سے |
+| ○ | seit ungefähr 500 Jahren | تقریباً 500 سال سے |
+| ○ | seit ungefähr 1200 Jahren | تقریباً 1,200 سال سے |
+| ✅ | **seit mehr als 1700 Jahren** | **1,700 سال سے زیادہ عرصے سے** |
 
-> **📝 Explanation:** You must be at least 18 years old to vote in the Bundestagswahl (federal election). This is established in Article 38 of the Basic Law. However, some states have lowered the voting age to 16 for state and local elections. You also need to be a German citizen and have lived in Germany for at least 3 months to be eligible to vote in federal elections.
+> **📝** جرمنی میں یہودی زندگی 1,700 سال سے زیادہ پرانی ہے۔ سب سے پہلا دستاویزی ثبوت رومی شہنشاہ قسطنطین کا 321 عیسوی کا فرمان ہے، جس میں کولون شہر میں یہودیوں کا ذکر ہے۔ قرون وسطیٰ میں وورمز، شپائر اور مائنز جیسے شہروں میں خوشحال یہودی جماعتیں تھیں (یہ "SchUM شہر" اب یونیسکو عالمی ثقافتی ورثے کی جگہ ہیں)۔
 
 ---
 
-### Question 66 *(Updated July 2024 — Israel/Jewish Life)*
+### سوال 67–68
+*انتخابی اصول: عام، براہ راست، آزاد، مساوی، خفیہ۔ خفیہ انتخاب ایک بنیادی اصول ہے۔*
 
-**🇩🇪 Deutsch:** Seit wann gibt es jüdisches Leben auf dem Gebiet des heutigen Deutschlands?
-**🇬🇧 English:** Since when has Jewish life existed in the territory of today's Germany?
+---
 
-| | Deutsch | English |
+### سوال 69
+**🇩🇪** Wann finden normalerweise Bundestagswahlen statt?
+**🇵🇰** عام طور پر وفاقی انتخابات کب ہوتے ہیں؟
+
+| | جرمن | اردو |
 |---|---|---|
-| ○ | seit ungefähr 100 Jahren | for about 100 years |
-| ○ | seit ungefähr 500 Jahren | for about 500 years |
-| ○ | seit ungefähr 1200 Jahren | for about 1,200 years |
-| ✅ | **seit mehr als 1700 Jahren** | **for more than 1,700 years** |
+| ✅ | **alle 4 Jahre** | **ہر 4 سال بعد** |
+| ○ | alle 3 Jahre | ہر 3 سال بعد |
+| ○ | alle 5 Jahre | ہر 5 سال بعد |
+| ○ | alle 6 Jahre | ہر 6 سال بعد |
 
-> **📝 Explanation:** Jewish life in Germany dates back more than 1,700 years. The earliest documented evidence is a decree by Roman Emperor Constantine from 321 AD, mentioning Jews in the city of Cologne. Throughout the Middle Ages, thriving Jewish communities existed in cities like Worms, Speyer, and Mainz (the "SchUM cities"). Jewish people have been an integral part of German culture, science, and society for centuries, despite periods of terrible persecution.
+> **📝** وفاقی انتخابات ہر 4 سال بعد ہوتے ہیں (بنیادی قانون کا آرٹیکل 39)۔ اگر چانسلر عدم اعتماد کا ووٹ ہار جائے تو قبل از وقت انتخابات ممکن ہیں لیکن ایسا شاذ و نادر ہوتا ہے۔
 
 ---
 
-### Question 67
+### سوال 73
+**🇩🇪** Welchen Bundeskanzler hatte Deutschland nie?
+**🇵🇰** جرمنی کا وفاقی چانسلر کون کبھی نہیں رہا؟
 
-**🇩🇪 Deutsch:** Welche Aussage zu Wahlen in Deutschland ist richtig?
-**🇬🇧 English:** Which statement about elections in Germany is correct?
-
-| | Deutsch | English |
+| | جرمن | اردو |
 |---|---|---|
-| ✅ | **Wahlen__(n)__ __(s)__ind__(d)__ __(a)__llgemein__(,)__ __(u)__nmittelbar__(,)__ __(f)__rei__(,)__ __(g)__leich und geheim.** | **Elections are universal, direct, free, equal, and secret.** |
-| ○ | Das__(s)__ __(W)__ahlergebnis__(s)__ muss__(s)____(v)__on der Regierung__(g)__ __(b)__estätigt werden. | The election result must be confirmed by the government. |
-| ○ | Es__(s)__ __(d)__arf__(f)__ __(n)__ur__(r)__ __(e)__ine__(e)__ __(P)__artei__(i)__ __(a)__ntreten. | Only one party is allowed to run. |
-| ○ | Alle__(e)__ __(P)__arteien__(n)__ __(m)__üssen__(n)__ __(d)__as__(s)__ __(g)__leiche Programm haben. | All parties must have the same program. |
+| ○ | Konrad Adenauer | کونراڈ ایڈیناور |
+| ✅ | **Thomas de Maizière** | **تھامس ڈی میزیئر** |
+| ○ | Gerhard Schröder | گیرہارڈ شروئڈر |
+| ○ | Helmut Kohl | ہیلموٹ کول |
 
-> **📝 Explanation:** German elections follow five constitutional principles (Article 38 of the Basic Law): allgemein (universal — all citizens can vote), unmittelbar (direct — voters directly choose representatives), frei (free — no coercion), gleich (equal — each vote has equal weight), and geheim (secret — the ballot is private). Multiple parties with different programs can participate, and results do not need government approval.
+> **📝** تھامس ڈی میزیئر وفاقی دفاع اور داخلہ وزیر رہے لیکن کبھی چانسلر نہیں بنے۔ ایڈیناور پہلے چانسلر (1949–1963)، کول اتحاد کے چانسلر (1982–1998)، اور شروئڈر 1998 سے 2005 تک چانسلر رہے۔
 
 ---
 
-### Question 68
+### سوال 74
+**🇩🇪** Wie heißt der Bundeskanzler / die Bundeskanzlerin?
+**🇵🇰** وفاقی چانسلر کا نام کیا ہے؟
 
-**🇩🇪 Deutsch:** Bei einer demokratischen Wahl in Deutschland …
-**🇬🇧 English:** In a democratic election in Germany …
+*⚠️ نوٹ: درست جواب ہر انتخاب کے ساتھ بدلتا ہے۔ امتحان سے پہلے موجودہ چانسلر کا نام ضرور چیک کریں۔*
 
-| | Deutsch | English |
+> **📝** 2025 تک جرمنی کے وفاقی چانسلر فریڈرخ مرز (CDU) ہیں، جنہوں نے 2025 کے وفاقی انتخاب جیتنے کے بعد عہدہ سنبھالا۔ پچھلے چانسلروں میں اولاف شولز (2021–2025، SPD)، انگیلا مرکل (2005–2021، CDU) شامل ہیں۔ امتحان سے پہلے ہمیشہ چیک کریں۔
+
+---
+
+### سوال 75
+**🇩🇪** Wie heißt der/die Bundespräsident/in?
+**🇵🇰** وفاقی صدر کا نام کیا ہے؟
+
+*⚠️ نوٹ: درست جواب صدارتی انتخاب کے ساتھ بدلتا ہے (ہر 5 سال)۔*
+
+> **📝** 2025 تک جرمنی کے وفاقی صدر فرانک والٹر شٹائن مائیر (SPD) ہیں۔ صدر 5 سال کی مدت کے لیے خدمات انجام دیتا ہے اور ایک بار دوبارہ منتخب ہو سکتا ہے۔ امتحان سے پہلے ہمیشہ تصدیق کریں۔
+
+---
+
+### سوال 83
+**🇩🇪** Was macht man mit einer "Erststimme" bei der Bundestagswahl?
+**🇵🇰** وفاقی انتخاب میں "پہلے ووٹ" (Erststimme) سے کیا کرتے ہیں؟
+
+| | جرمن | اردو |
 |---|---|---|
-| ○ |__(k)__ann__(n)__ __(m)__an__(n)__ __(n)__ur__(r)__ __(p)__er__(r)__ __(B)__rief__(f)__ __(w)__ählen. | you can only vote by mail. |
-| ✅ | **__(i)__st__(t)__ __(d)__ie__(e)__ __(W)__ahl geheim.** | **the election is secret.** |
-| ○ | __(m)__uss__(s)__ __(m)__an__(n)__ __(s)__einen__(n)__ __(N)__amen auf den Stimmzettel schreiben. | you must write your name on the ballot. |
-| ○ | __(g)__ibt__(t)__ __(e)__s__(s)__ __(k)__eine__(e)__ __(W)__ahlkabinen. | there are no voting booths. |
+| ✅ | **Man wählt eine/n Abgeordnete/n aus seinem/ihrem Wahlkreis.** | **اپنے حلقے سے ایک نمائندے کو منتخب کرتے ہیں۔** |
+| ○ | Man wählt den Bundeskanzler. | چانسلر منتخب کرتے ہیں۔ |
+| ○ | Man wählt den Bundespräsidenten. | صدر منتخب کرتے ہیں۔ |
+| ○ | Man wählt eine Partei. | پارٹی منتخب کرتے ہیں۔ |
 
-> **📝 Explanation:** The secrecy of elections (geheime Wahl) is a fundamental principle. Voting booths are provided specifically to ensure no one can see how you vote. You do NOT write your name on the ballot — that would violate the secrecy principle. While mail-in voting (Briefwahl) is an option, you can also vote in person at a polling station. Both methods ensure ballot secrecy.
+> **📝** پہلا ووٹ (Erststimme) آپ کے مقامی حلقے (Wahlkreis) سے مخصوص امیدوار کو منتخب کرنے کے لیے ہے۔ سب سے زیادہ ووٹ حاصل کرنے والا امیدوار براہ راست بنڈسٹاگ میں جاتا ہے۔ پارٹی کو ووٹ دینا دوسرے ووٹ (Zweitstimme) سے ہوتا ہے۔
 
 ---
 
-### Question 69
+### سوال 84
+**🇩🇪** Was macht man mit der "Zweitstimme" bei der Bundestagswahl?
+**🇵🇰** وفاقی انتخاب میں "دوسرے ووٹ" (Zweitstimme) سے کیا کرتے ہیں؟
 
-**🇩🇪 Deutsch:** Wann__(n)__ __(f)__inden in Deutschland normalerweise Bundestagswahlen statt?
-**🇬🇧 English:** When do federal elections normally take place in Germany?
-
-| | Deutsch | English |
+| | جرمن | اردو |
 |---|---|---|
-| ○ | alle 3 Jahre | every 3 years |
-| ✅ | **alle 4 Jahre** | **every 4 years** |
-| ○ | alle 5 Jahre | every 5 years |
-| ○ | alle 6 Jahre | every 6 years |
+| ✅ | **Man wählt eine Partei.** | **پارٹی کو ووٹ دیتے ہیں۔** |
+| ○ | Man wählt einen Bundeskanzler. | چانسلر منتخب کرتے ہیں۔ |
+| ○ | Man wählt eine/n Abgeordnete/n. | نمائندے کو منتخب کرتے ہیں۔ |
+| ○ | Man wählt den Bundespräsidenten. | صدر منتخب کرتے ہیں۔ |
 
-> **📝 Explanation:** Federal elections (Bundestagswahlen) in Germany are held every 4 years. This is established in Article 39 of the Basic Law. Early elections are possible if the Chancellor loses a vote of no confidence and the President dissolves the Bundestag, but this is rare. State elections follow different schedules depending on the state, typically every 4 or 5 years.
-
----
-
-### Question 70
-
-**🇩🇪 Deutsch:** Die__(e)__ __(d)__eutschen__(n)__ __(B)__undesländer__(r)__ __(h)__aben__(n)__ __(e)__igene__(e)__ …
-**🇬🇧 English:** The German federal states have their own …
-
-| | Deutsch | English |
-|---|---|---|
-| ✅ | **__(R)__egierungen__(,)__ __(P)__arlamente und Gerichte.** | **governments, parliaments, and courts.** |
-| ○ | __(G)__renztruppen. | border troops. |
-| ○ | __(G)__eheimdienste. | secret services. |
-| ○ | __(Z)__oll-__(und)__ __(P)__asskontrollen. | customs and passport controls. |
-
-> **📝 Explanation:** Each of Germany's 16 federal states has its own government (Landesregierung), parliament (Landtag), and courts. However, states do NOT have their own border troops (border protection is a federal task), customs controls (also federal), or passport controls. Some states do have their own domestic intelligence services (Landesämter für Verfassungsschutz), but full "secret services" in the traditional sense are federal.
+> **📝** دوسرا ووٹ (Zweitstimme) پارٹی کو دیا جاتا ہے اور بنڈسٹاگ میں تناسبی نمائندگی طے کرتا ہے — یعنی ہر پارٹی کو کتنی نشستیں ملیں گی۔ یہ اصل میں زیادہ اہم ووٹ سمجھا جاتا ہے۔
 
 ---
 
-### Question 71
-
-**🇩🇪 Deutsch:** Für__(r)__ __(w)__elche__(e)__ __(A)__ufgabe ist die Bundesregierung__(g)__ __(i)__n Deutschland nicht zuständig?
-**🇬🇧 English:** For which task is the Federal Government in Germany NOT responsible?
-
-| | Deutsch | English |
-|---|---|---|
-| ○ | Außenpolitik | Foreign policy |
-| ✅ | **Schulpolitik** | **Educational policy** |
-| ○ | Verteidigung | Defense |
-| ○ | Umweltpolitik | Environmental policy |
-
-> **📝 Explanation:** Educational policy (Schulpolitik) is NOT a responsibility of the Federal Government — it belongs to the federal states (Kulturhoheit der Länder). Each state sets its own curriculum, school system, and educational standards. Foreign policy, defense, and environmental policy are all federal responsibilities handled by the central government in Berlin.
-
----
-
-### Question 72
-
-**🇩🇪 Deutsch:** Wie heißt die__(e)__ __(p)__arlamentarische__(e)__ __(O)__pposition im Deutschen Bundestag?
-**🇬🇧 English:** How are the parties in the Bundestag called that are not part of the government?
-
-| | Deutsch | English |
-|---|---|---|
-| ✅ | **die Opposition** | **the opposition** |
-| ○ | die Koalition | the coalition |
-| ○ | die Mehrheit | the majority |
-| ○ | die Minderheit | the minority |
-
-> **📝 Explanation:** The parties and members of parliament who are not part of the governing coalition form the "Opposition." The opposition's role is to scrutinize and criticize the government, propose alternative policies, and represent citizens who did not vote for the governing parties. The coalition is the alliance of parties that forms the government. A strong opposition is essential for a healthy democracy.
-
----
-
-### Question 73
-
-**🇩🇪 Deutsch:** Welchen__(n)__ __(B)__undeskanzler__(r)__ hatte Deutschland__(d)__ nie?
-**🇬🇧 English:** Which Federal Chancellor did Germany never have?
-
-| | Deutsch | English |
-|---|---|---|
-| ○ |__(K)__onrad Adenauer | Konrad Adenauer |
-| ✅ | **Thomas de Maizière** | **Thomas de Maizière** |
-| ○ | Gerhard Schröder | Gerhard Schröder |
-| ○ | Helmut Kohl | Helmut Kohl |
-
-> **📝 Explanation:** Thomas de Maizière was a prominent German politician who served as Federal Minister of Defense and Federal Minister of the Interior, but he was NEVER Federal Chancellor. Konrad Adenauer was the first Chancellor (1949–1963), Helmut Kohl was Chancellor during reunification (1982–1998), and Gerhard Schröder served from 1998 to 2005.
-
----
-
-### Question 74
-
-**🇩🇪 Deutsch:** Wie__(e)__ __(h)__eißt die __(B)__undeskanzlerin/der Bundeskanzler in Deutschland?
-**🇬🇧 English:** What is the name of the Federal Chancellor of Germany?
-
-*⚠️ Note: The correct answer changes with each election. Please check the current Chancellor at the time of your test.*
-
-| | Deutsch | English |
-|---|---|---|
-| ○ | *(varies)* | *(varies)* |
-| ○ | *(varies)* | *(varies)* |
-| ✅ | ***(Current Chancellor at time of test)*** | ***(Current Chancellor at time of test)*** |
-| ○ | *(varies)* | *(varies)* |
-
-> **📝 Explanation:** As of 2025, the Federal Chancellor of Germany is Friedrich Merz (CDU), who took office after winning the 2025 federal election. Previous Chancellors include Olaf Scholz (2021–2025, SPD), Angela Merkel (2005–2021, CDU), Gerhard Schröder (1998–2005, SPD), and Helmut Kohl (1982–1998, CDU). Always check who is the current Chancellor before your test.
-
----
-
-### Question 75
-
-**🇩🇪 Deutsch:** Wie__(e)__ __(h)__eißt der/die Bundespräsident/in in Deutschland?
-**🇬🇧 English:** What is the name of the Federal President of Germany?
-
-*⚠️ Note: The correct answer changes with each presidential election cycle (every 5 years).*
-
-| | Deutsch | English |
-|---|---|---|
-| ○ | *(varies)* | *(varies)* |
-| ✅ | ***(Current President at time of test)*** | ***(Current President at time of test)*** |
-| ○ | *(varies)* | *(varies)* |
-| ○ | *(varies)* | *(varies)* |
-
-> **📝 Explanation:** As of 2025, the Federal President of Germany is Frank-Walter Steinmeier (SPD), serving his second term since 2022 (first elected in 2017). The President serves a 5-year term and can be re-elected once. Previous Presidents include Joachim Gauck (2012–2017), Christian Wulff (2010–2012), and Horst Köhler (2004–2010). Always verify the current President before your test.
-
----
-
-### Question 76
-
-**🇩🇪 Deutsch:** Welche__(e)__ __(P)__artei hat__(t)____(k)__ein__(e)__ __(L)__andtagsfraktion in Deutschland?
-**🇬🇧 English:** Which party has no parliamentary group in any state parliament in Germany?
-
-*⚠️ Note: This answer can change with each state election. Check current political situation before your test.*
-
-> **📝 Explanation:** This question asks which of the given parties is not represented in any German state parliament. The specific answer options and correct answer depend on the current catalog version. Major parties like CDU/CSU, SPD, Grüne, FDP, AfD, and Die Linke typically have representation in multiple state parliaments, while smaller or newer parties may not.
-
----
-
-### Question 77
-
-**🇩🇪 Deutsch:** Wer__(r)__ __(k)__ann in Deutschland einen Antrag auf "__(E)__inbürgerung__(g)__" __(s)__tellen?
-**🇬🇧 English:** Who can submit an application for "naturalization" in Germany?
-
-| | Deutsch | English |
-|---|---|---|
-| ○ | __(j)__ede/r Ausländer/in, der/die__(e)__ __(i)__n Deutschland__(d)__ __(g)__eboren ist | every foreigner who was born in Germany |
-| ✅ | **Ausländer/innen, die__(e)__ __(b)__estimmte Voraussetzungen erfüllen** | **foreigners who meet certain requirements** |
-| ○ | __(a)__lle Touristen und Touristinnen | all tourists |
-| ○ | __(j)__ede/r, der/die__(e)__ __(e)__inen deutschen Führerschein hat | everyone who has a German driver's license |
-
-> **📝 Explanation:** To apply for German citizenship (Einbürgerung), you must meet specific requirements. Since the 2024 reform, these include: at least 5 years of legal residence in Germany (reduced from 8), a permanent residence permit, B1 German language level, passing the citizenship test, being able to support yourself financially, and having no criminal record. Simply being born in Germany, being a tourist, or having a driver's license is not sufficient.
-
----
-
-### Question 78
-
-**🇩🇪 Deutsch:** In Deutschland__(d)__ __(d)__ürfen__(n)__ __(M)__enschen offen etwas gegen die Regierung sagen, weil …
-**🇬🇧 English:** In Germany, people are allowed to openly say something against the government because …
-
-| | Deutsch | English |
-|---|---|---|
-| ✅ | **hier Meinungsfreiheit gilt.** | **freedom of speech applies here.** |
-| ○ | die Menschen__(n)__ Steuern zahlen. | people pay taxes. |
-| ○ | die Menschen__(n)__ das Wahlrecht haben. | people have the right to vote. |
-| ○ | hier Religionsfreiheit gilt. | freedom of religion applies here. |
-
-> **📝 Explanation:** This is essentially the same as Question 1 with reordered answer options. Freedom of speech (Meinungsfreiheit, Article 5 of the Basic Law) is the reason people can publicly criticize the government. Paying taxes, having the right to vote, and religious freedom are all important but are not the reason why people can speak against the government.
-
----
-
-### Question 79
-
-**🇩🇪 Deutsch:** Was ist ein__(e)__ __(G)__rundrecht__(t)__ in Deutschland?
-**🇬🇧 English:** What is a fundamental right in Germany?
-
-| | Deutsch | English |
-|---|---|---|
-| ✅ | **Religionsfreiheit** | **Freedom of religion** |
-| ○ | Wahlpflicht | Compulsory voting |
-| ○ | das Recht__(t)__ __(a)__uf einen Arbeitsplatz | the right to a job |
-| ○ | Führerscheinpflicht | Obligation to have a driver's license |
-
-> **📝 Explanation:** Freedom of religion (Religionsfreiheit, Article 4 of the Basic Law) is a fundamental right in Germany. Compulsory voting does not exist in Germany — voting is voluntary. There is no guaranteed right to a specific job. And there is no obligation to have a driver's license. Fundamental rights are enshrined in Articles 1-19 of the Basic Law and protect individual freedoms against state interference.
-
----
-
-### Question 80
-
-**🇩🇪 Deutsch:** Was tun__(n)__ __(A)__rbeitsgerichte?
-**🇬🇧 English:** What do labor courts do?
-
-| | Deutsch | English |
-|---|---|---|
-| ○ | Sie__(e)__ __(b)__estimmen die Mindestlöhne. | They determine minimum wages. |
-| ○ | Sie__(e)__ __(e)__ntscheiden__(,)__ __(o)__b jemand eingestellt werden darf. | They decide whether someone may be hired. |
-| ✅ | **Sie entscheiden bei__(S)__treitigkeiten__(n)__ __(z)__wischen__(n)__ __(A)__rbeitnehmer/innen und Arbeitgeber/innen.** | **They decide in disputes between employees and employers.** |
-| ○ | Sie__(e)__ __(v)__ermitteln__(n)__ __(A)__rbeitsstellen. | They arrange job placements. |
-
-> **📝 Explanation:** Labor courts (Arbeitsgerichte) settle legal disputes between employees and employers. These disputes can involve unfair dismissal, unpaid wages, workplace discrimination, or contract disagreements. Labor courts do NOT set minimum wages (that's done by law and commissions), decide on hiring (that's up to employers), or find jobs for people (that's the job of the Federal Employment Agency / Bundesagentur für Arbeit).
-
----
-
-### Question 81
-
-**🇩🇪 Deutsch:** Wann__(n)__ __(b)__eginnt die Amtszeit des/der Bundespräsidenten/in?
-**🇬🇧 English:** When does the Federal President's term of office begin?
-
-| | Deutsch | English |
-|---|---|---|
-| ✅ | **nach der Vereidigung durch__(h)__ __(d)__en Bundestag und Bundesrat** | **after being sworn in by the Bundestag and Bundesrat** |
-| ○ | am 1. Januar nach__(h)__ __(d)__er Wahl | on January 1 after the election |
-| ○ | am Tag__(g)__ __(d)__er__(r)__ __(W)__ahl | on the day of the election |
-| ○ | am 1. März nach der Wahl | on March 1 after the election |
-
-> **📝 Explanation:** The Federal President's term begins after being sworn in at a joint session of the Bundestag and Bundesrat. The President takes an oath of office in which they swear to uphold the Basic Law and devote their efforts to the welfare of the German people. The term lasts 5 years, and the President can be re-elected once.
-
----
-
-### Question 82
-
-**🇩🇪 Deutsch:** Welche__(e)__ __(R)__echte haben__(n)__ __(M)__enschen in Deutschland mindestens ab__(b)__ __(1)__8 Jahren?
-**🇬🇧 English:** What rights do people in Germany have at least from age 18?
-
-| | Deutsch | English |
-|---|---|---|
-| ✅ | **das__(s)__ __(W)__ahlrecht und die Volljährigkeit** | **the right to vote and legal adulthood** |
-| ○ | der Führerschein und das Wahlrecht | a driver's license and the right to vote |
-| ○ | der Alkoholkonsum und der Führerschein | alcohol consumption and a driver's license |
-| ○ | das Recht, Auto zu fahren | the right to drive a car |
-
-> **📝 Explanation:** At age 18, Germans reach legal adulthood (Volljährigkeit) and gain the right to vote in federal elections. While you CAN get a driver's license at 18 (or 17 with supervised driving), it is not automatic — you must take lessons and pass tests. Similarly, while the legal drinking age for spirits is 18, this is not a "right" in the constitutional sense. The right to vote and legal adulthood are the only automatic entitlements at 18.
-
----
-
-### Question 83
-
-**🇩🇪 Deutsch:** Was macht man__(n)__ __(m)__it__(t)__ __(e)__iner "Erststimme" bei der Bundestagswahl?
-**🇬🇧 English:** What do you do with a "first vote" (Erststimme) in the federal election?
-
-| | Deutsch | English |
-|---|---|---|
-| ✅ | **Man__(n)__ __(w)__ählt eine/n Abgeordnete/n aus seinem/ihrem Wahlkreis.** | **You elect a representative from your constituency.** |
-| ○ | Man__(n)__ __(w)__ählt den Bundeskanzler/die Bundeskanzlerin. | You elect the Federal Chancellor. |
-| ○ | Man__(n)__ __(w)__ählt den Bundespräsidenten/die Bundespräsidentin. | You elect the Federal President. |
-| ○ | Man__(n)__ __(w)__ählt eine Partei. | You elect a party. |
-
-> **📝 Explanation:** The first vote (Erststimme) in German federal elections is used to elect a specific candidate from your local constituency (Wahlkreis). The candidate with the most votes wins the constituency directly and enters the Bundestag as a directly elected member. Voting for a party is done with the second vote (Zweitstimme). The Chancellor and President are not directly elected by the people.
-
----
-
-### Question 84
-
-**🇩🇪 Deutsch:** Was macht man__(n)__ __(m)__it__(t)__ __(d)__er "Zweitstimme" bei der Bundestagswahl?
-**🇬🇧 English:** What do you do with the "second vote" (Zweitstimme) in the federal election?
-
-| | Deutsch | English |
-|---|---|---|
-| ○ | Man__(n)__ __(w)__ählt einen Bundeskanzler/eine Bundeskanzlerin. | You elect a Federal Chancellor. |
-| ○ | Man__(n)__ __(w)__ählt eine/n Abgeordnete/n aus seinem/ihrem Wahlkreis. | You elect a representative from your constituency. |
-| ✅ | **Man wählt eine Partei.** | **You vote for a party.** |
-| ○ | Man__(n)__ __(w)__ählt den Bundespräsidenten/die Bundespräsidentin. | You elect the Federal President. |
-
-> **📝 Explanation:** The second vote (Zweitstimme) is cast for a political party and determines the proportional representation in the Bundestag — i.e., the overall share of seats each party receives. This is actually considered the more important vote because it determines the composition of parliament. Parties that receive at least 5% of all Zweitstimmen enter the Bundestag.
-
----
-
-### Question 85
-
-**🇩🇪 Deutsch:** In Deutschland__(d)__ __(k)__ann__(n)__ __(e)__in__(G)__ericht__(t)__ feststellen__(,)__ __(o)__b eine Partei__(i)__ __(v)__erfassungswidrig ist. Welches__(s)__ __(G)__ericht ist__(t)__ __(d)__afür zuständig?
-**🇬🇧 English:** In Germany, a court can determine whether a party is unconstitutional. Which court is responsible for this?
-
-| | Deutsch | English |
-|---|---|---|
-| ○ | das__(L)__andgericht | the Regional Court |
-| ○ | der Bundesgerichtshof | the Federal Court of Justice |
-| ✅ | **das Bundesverfassungsgericht** | **the Federal Constitutional Court** |
-| ○ | das__(A)__mtsgericht | the Local Court |
-
-> **📝 Explanation:** Only the Federal Constitutional Court (Bundesverfassungsgericht), located in Karlsruhe, has the authority to ban a political party. This is a deliberately high threshold designed to prevent abuse of power. The process requires a formal application (usually from the Bundestag, Bundesrat, or Federal Government) and a thorough legal examination. The court has banned two parties in its history: the SRP (1952) and KPD (1956).
-
----
-
-### Question 86
-
-**🇩🇪 Deutsch:** Wann__(n)__ __(w)__urde__(e)__ __(d)__ie Bundesrepublik Deutschland__(d)__ __(g)__egründet?
-**🇬🇧 English:** When was the Federal Republic of Germany founded?
-
-| | Deutsch | English |
+### سوال 86
+**🇩🇪** Wann wurde die Bundesrepublik Deutschland gegründet?
+**🇵🇰** وفاقی جمہوریہ جرمنی کب قائم ہوئی؟
+
+| | جرمن | اردو |
 |---|---|---|
 | ✅ | **1949** | **1949** |
 | ○ | 1933 | 1933 |
 | ○ | 1945 | 1945 |
 | ○ | 1953 | 1953 |
 
-> **📝 Explanation:** The Federal Republic of Germany (Bundesrepublik Deutschland / West Germany) was founded on May 23, 1949, when the Basic Law came into effect. 1933 was the year Hitler came to power, 1945 was the end of WWII, and 1953 was the year of the workers' uprising in East Germany (June 17). The German Democratic Republic (East Germany) was founded shortly after, on October 7, 1949.
+> **📝** وفاقی جمہوریہ جرمنی (مغربی جرمنی) 23 مئی 1949 کو بنیادی قانون کے نفاذ کے ساتھ قائم ہوئی۔ 1933 میں ہٹلر اقتدار میں آیا، 1945 میں دوسری جنگ عظیم ختم ہوئی، اور 1953 میں مشرقی جرمنی میں مزدوروں کی بغاوت ہوئی۔
 
 ---
 
-### Question 87
+### سوال 87
+**🇩🇪** Wann ist der Tag der Deutschen Einheit?
+**🇵🇰** جرمن اتحاد کا دن کب ہے؟
 
-**🇩🇪 Deutsch:** Wann__(n)__ __(i)__st__(t)__ der Tag__(g)__ __(d)__er Deutschen Einheit?
-**🇬🇧 English:** When is German Unity Day?
-
-| | Deutsch | English |
+| | جرمن | اردو |
 |---|---|---|
-| ○ | am 1. Mai | May 1 |
-| ○ | am 17. Juni | June 17 |
-| ✅ | **am 3. Oktober** | **October 3** |
-| ○ | am 9. November | November 9 |
+| ○ | am 1. Mai | یکم مئی |
+| ○ | am 17. Juni | 17 جون |
+| ✅ | **am 3. Oktober** | **3 اکتوبر** |
+| ○ | am 9. November | 9 نومبر |
 
-> **📝 Explanation:** German Unity Day (Tag der Deutschen Einheit) is celebrated on October 3, commemorating the official reunification of East and West Germany in 1990. May 1 is Labor Day (Tag der Arbeit). June 17 was formerly observed in West Germany to commemorate the 1953 East German uprising. November 9 is significant because the Berlin Wall fell on that date in 1989, but it was not chosen as the national holiday because November 9 is also the anniversary of the 1938 "Kristallnacht" pogrom.
+> **📝** جرمن اتحاد کا دن (Tag der Deutschen Einheit) 3 اکتوبر کو منایا جاتا ہے — 1990 میں مشرقی اور مغربی جرمنی کے سرکاری اتحاد کی یاد میں۔ 9 نومبر (برلن دیوار کا گرنا) اس لیے نہیں چنا گیا کیونکہ 9 نومبر 1938 کے "کرسٹل نائٹ" یہودی مخالف فسادات کی بھی سالگرہ ہے۔
 
 ---
 
-### Question 88
+### سوال 89
+**🇩🇪** Wer ist das Staatsoberhaupt der Bundesrepublik Deutschland?
+**🇵🇰** وفاقی جمہوریہ جرمنی کا سربراہ مملکت کون ہے؟
 
-**🇩🇪 Deutsch:** Was__(s)__ __(i)__st in Deutschland ein__(e)__ __(k)__ommunale__(e)__ __(A)__ufgabe?
-**🇬🇧 English:** What is a municipal (local government) task in Germany?
-
-| | Deutsch | English |
+| | جرمن | اردو |
 |---|---|---|
-| ✅ | **die__(e)__ __(G)__enehmigung zum__(m)__ __(H)__ausbau** | **issuing building permits** |
-| ○ | die Genehmigung zum__(m)__ __(W)__affenbesitz | issuing weapons permits |
-| ○ | die Erklärung__(g)__ __(v)__on__(K)__riegen | declaring wars |
-| ○ | die__(e)__ __(Z)__ahlung von Kindergeld | paying child benefits |
+| ○ | der Bundeskanzler | وفاقی چانسلر |
+| ✅ | **der Bundespräsident/die Bundespräsidentin** | **وفاقی صدر** |
+| ○ | der Bundestagspräsident | بنڈسٹاگ کا صدر |
+| ○ | der Bundesratspräsident | بنڈسرات کا صدر |
 
-> **📝 Explanation:** Issuing building permits is a task of local/municipal governments (Kommunen/Gemeinden). Weapons permits are handled by higher-level authorities, declaring war is a federal matter (Bundestag decision), and child benefits (Kindergeld) are paid by the federal Family Benefits Office. Local governments handle matters like building permits, local road maintenance, kindergartens, waste disposal, and local land-use planning.
+> **📝** وفاقی صدر (Bundespräsident) جرمنی کا سربراہ مملکت ہے۔ اگرچہ چانسلر سربراہ حکومت ہے اور زیادہ سیاسی طاقت رکھتا ہے، صدر سرکاری سربراہ مملکت ہے۔ سربراہ مملکت (صدر) کو سربراہ حکومت (چانسلر) سے الجھائیں نہیں۔
 
 ---
 
-### Question 89
+### سوال 90
+**🇩🇪** Die Stadt, die zugleich ein Bundesland ist, ist …
+**🇵🇰** وہ شہر جو بیک وقت ایک وفاقی ریاست بھی ہے …
 
-**🇩🇪 Deutsch:** Wer ist__(t)__ __(d)__as Staatsoberhaupt__(t)__ __(d)__er Bundesrepublik__(k)__ __(D)__eutschland?
-**🇬🇧 English:** Who is the head of state of the Federal Republic of Germany?
-
-| | Deutsch | English |
+| | جرمن | اردو |
 |---|---|---|
-| ○ | der Bundeskanzler/die Bundeskanzlerin | the Federal Chancellor |
-| ✅ | **der Bundespräsident/die Bundespräsidentin** | **the Federal President** |
-| ○ | der Bundestagspräsident/die Bundestagspräsidentin | the President of the Bundestag |
-| ○ | der Bundesratspräsident/die Bundesratspräsidentin | the President of the Bundesrat |
+| ○ | Bonn | بون |
+| ✅ | **Hamburg** | **ہیمبرگ** |
+| ○ | München | میونخ |
+| ○ | Frankfurt | فرینکفرٹ |
 
-> **📝 Explanation:** The Federal President (Bundespräsident/in) is the head of state of Germany. Although the Chancellor is the head of government and holds more political power, the President serves as the formal head of state with ceremonial duties. The President represents Germany internationally, signs laws, and appoints and dismisses the Chancellor and federal ministers. Do not confuse head of state (President) with head of government (Chancellor).
+> **📝** ہیمبرگ شہر اور وفاقی ریاست دونوں ہے (شہری ریاست — Stadtstaat)۔ جرمنی میں تین شہری ریاستیں ہیں: برلن، ہیمبرگ، اور بریمن۔ بون مغربی جرمنی کا سابق دارالحکومت تھا لیکن شمالی رائن ویسٹ فالیا کا حصہ ہے۔
 
 ---
 
-### Question 90
+### سوال 94
+**🇩🇪** Welches deutsche Bundesland hat die meisten Einwohner?
+**🇵🇰** جرمنی کی کس وفاقی ریاست میں سب سے زیادہ آبادی ہے؟
 
-**🇩🇪 Deutsch:** Die__(e)__ __(S)__tadt__(t)____(,)__ __(d)__ie__(e)____(z)__ugleich ein__(e)__ __(B)__undesland ist__(,)__ __(i)__st …
-**🇬🇧 English:** The city that is also a federal state is …
-
-| | Deutsch | English |
+| | جرمن | اردو |
 |---|---|---|
-| ○ | Bonn | Bonn |
-| ✅ | **Hamburg** | **Hamburg** |
-| ○ | München | Munich |
-| ○ | Frankfurt | Frankfurt |
+| ○ | Bayern | بویریا |
+| ✅ | **Nordrhein-Westfalen** | **شمالی رائن ویسٹ فالیا** |
+| ○ | Baden-Württemberg | بادن ورٹمبرگ |
+| ○ | Niedersachsen | نیڈرسیکسن |
 
-> **📝 Explanation:** Hamburg is both a city and a federal state (Stadtstaat). Germany has three city-states: Berlin, Hamburg, and Bremen (which also includes Bremerhaven). Bonn was the former capital of West Germany but is part of North Rhine-Westphalia. Munich (München) is the capital of Bavaria, and Frankfurt is a major city in Hesse — but neither is a federal state on its own.
+> **📝** شمالی رائن ویسٹ فالیا (NRW) جرمنی کی سب سے زیادہ آبادی والی ریاست ہے — تقریباً 18 ملین باشندے۔ بویریا رقبے کے لحاظ سے سب سے بڑی ریاست ہے لیکن NRW میں زیادہ لوگ رہتے ہیں۔
 
 ---
 
-### Question 91
+### سوال 95
+**🇩🇪** Die Hauptstadt von Deutschland ist …
+**🇵🇰** جرمنی کا دارالحکومت ہے …
 
-**🇩🇪 Deutsch:** Welches Bundesland ist__(t)__ __(e)__in Stadtstaat?
-**🇬🇧 English:** Which federal state is a city-state?
-
-| | Deutsch | English |
+| | جرمن | اردو |
 |---|---|---|
-| ○ | Saarland | Saarland |
-| ○ | Sachsen | Saxony |
-| ✅ | **Berlin** | **Berlin** |
-| ○ | Hessen | Hesse |
+| ✅ | **Berlin** | **برلن** |
+| ○ | Bonn | بون |
+| ○ | München | میونخ |
+| ○ | Frankfurt | فرینکفرٹ |
 
-> **📝 Explanation:** Berlin is one of Germany's three city-states (Stadtstaaten), meaning it functions simultaneously as both a city and a federal state. The other two city-states are Hamburg and Bremen. City-states have the same rights and representation in the Bundesrat as the larger territorial states, but their government structure combines municipal and state-level functions.
+> **📝** برلن 1990 میں دوبارہ اتحاد کے بعد سے جرمنی کا دارالحکومت ہے۔ جرمنی کی تقسیم (1949–1990) کے دوران بون مغربی جرمنی کا دارالحکومت تھا جبکہ مشرقی برلن مشرقی جرمنی (DDR) کا دارالحکومت تھا۔
 
 ---
 
-### Question 92
+### سوال 96 *(جولائی 2024 میں تازہ کاری — سام دشمنی)*
 
-**🇩🇪 Deutsch:** Wie nennt man__(n)__ __(d)__en__(n)__ __(R)__egierungschef/die Regierungschefin__(n)__ __(v)__on Hamburg?
-**🇬🇧 English:** What is the head of government of Hamburg called?
+**🇩🇪** Wie kann jemand, der den Holocaust leugnet, bestraft werden?
+**🇵🇰** ہولوکاسٹ سے انکار کرنے والے کو کیسے سزا دی جا سکتی ہے؟
 
-| | Deutsch | English |
+| | جرمن | اردو |
 |---|---|---|
-| ○ | Ministerpräsident/in | Minister-President |
-| ✅ | **Erster Bürgermeister/Erste Bürgermeisterin** | **First Mayor** |
-| ○ | Oberbürgermeister/in | Lord Mayor |
-| ○ | Regierender Bürgermeister/Regierende Bürgermeisterin | Governing Mayor |
+| ○ | Kürzung sozialer Leistungen | سماجی فوائد میں کمی |
+| ○ | bis zu 100 Sozialstunden | 100 سماجی خدمت کے گھنٹے تک |
+| ○ | gar nicht, Holocaustleugnung ist erlaubt | بالکل نہیں، ہولوکاسٹ سے انکار جائز ہے |
+| ✅ | **mit Freiheitsstrafe bis zu fünf Jahren oder mit Geldstrafe** | **پانچ سال تک قید یا جرمانہ** |
 
-> **📝 Explanation:** The head of government of Hamburg is called the "Erste/r Bürgermeister/in" (First Mayor). This is unique among the city-states: Berlin's head of government is the "Regierende/r Bürgermeister/in" (Governing Mayor), and Bremen's is the "Bürgermeister/in" (also President of the Senate). Most other federal states call their heads of government "Ministerpräsident/in" (Minister-President).
+> **📝** ہولوکاسٹ سے انکار جرمنی میں §130(3) StGB (نفرت کی اشتعال انگیزی — Volksverhetzung) کے تحت مجرمانہ جرم ہے۔ جو کوئی عوامی طور پر نازیوں کے ذریعے 60 لاکھ یہودیوں کے قتل عام سے انکار کرے، اسے کم سمجھے، یا اس کی تائید کرے، اسے 5 سال تک قید یا جرمانہ ہو سکتا ہے۔
 
 ---
 
-### Question 93
+### سوال 97
+**🇩🇪** Welche Farben hat die deutsche Flagge?
+**🇵🇰** جرمن جھنڈے کے رنگ کیا ہیں؟
 
-**🇩🇪 Deutsch:** Wie nennt man__(n)__ __(d)__en Regierungschef/die Regierungschefin__(n)__ __(v)__on Berlin?
-**🇬🇧 English:** What is the head of government of Berlin called?
-
-| | Deutsch | English |
+| | جرمن | اردو |
 |---|---|---|
-| ○ | Ministerpräsident/in | Minister-President |
-| ○ | Erster Bürgermeister/Erste Bürgermeisterin | First Mayor |
-| ○ | Oberbürgermeister/in | Lord Mayor |
-| ✅ | **Regierender Bürgermeister/Regierende Bürgermeisterin** | **Governing Mayor** |
+| ✅ | **schwarz, rot, gold** | **سیاہ، سرخ، سنہرا** |
+| ○ | schwarz, rot, grün | سیاہ، سرخ، سبز |
+| ○ | schwarz, weiß, rot | سیاہ، سفید، سرخ |
+| ○ | schwarz, gelb, grün | سیاہ، پیلا، سبز |
 
-> **📝 Explanation:** Berlin's head of government has the unique title "Regierende/r Bürgermeister/in" (Governing Mayor). As a city-state, Berlin's government serves both as state and city government. The Governing Mayor leads the Berlin Senate and represents Berlin in the Bundesrat. This title has been used since the post-WWII division of Berlin.
+> **📝** جرمن جھنڈے میں تین افقی پٹیاں ہیں: سیاہ (اوپر)، سرخ (درمیان)، اور سنہرا/پیلا (نیچے)۔ یہ رنگ 19ویں صدی کی جمہوری تحریک سے ہیں۔ سرکاری طور پر رنگ "سنہرا" (gold) ہے "پیلا" (gelb) نہیں۔ سیاہ-سفید-سرخ جھنڈا جرمن سلطنت (1871–1918) کا تھا۔
 
 ---
 
-### Question 94
+### سوال 100
+**🇩🇪** Was ist in Deutschland ein Wahlgrundsatz?
+**🇵🇰** جرمنی میں انتخابی اصول کیا ہے؟
 
-**🇩🇪 Deutsch:** Welches__(s)__ __(d)__eutsche__(e)__ __(B)__undesland hat__(t)__ __(d)__ie meisten Einwohner/innen?
-**🇬🇧 English:** Which German federal state has the most inhabitants?
-
-| | Deutsch | English |
+| | جرمن | اردو |
 |---|---|---|
-| ○ | Bayern | Bavaria |
-| ✅ | **Nordrhein-Westfalen** | **North Rhine-Westphalia** |
-| ○ | Baden-Württemberg | Baden-Württemberg |
-| ○ | Niedersachsen | Lower Saxony |
+| ○ | offene Wahl | کھلا انتخاب |
+| ✅ | **geheime Wahl** | **خفیہ انتخاب** |
+| ○ | Zensuswahlrecht | مردم شماری پر مبنی ووٹ کا حق |
+| ○ | Dreiklassenwahlrecht | تین درجے کا ووٹنگ نظام |
 
-> **📝 Explanation:** North Rhine-Westphalia (NRW) is Germany's most populous federal state with approximately 18 million inhabitants. It contains major cities like Cologne (Köln), Düsseldorf, Dortmund, and Essen. Bavaria is the largest state by area, but NRW has more people. Baden-Württemberg and Lower Saxony are the third and fourth most populous states respectively.
-
----
-
-### Question 95
-
-**🇩🇪 Deutsch:** Die__(e)__ __(H)__auptstadt__(t)__ __(v)__on Deutschland ist …
-**🇬🇧 English:** The capital of Germany is …
-
-| | Deutsch | English |
-|---|---|---|
-| ○ | Bonn | Bonn |
-| ○ | München | Munich |
-| ✅ | **Berlin** | **Berlin** |
-| ○ | Frankfurt | Frankfurt |
-
-> **📝 Explanation:** Berlin is the capital of Germany and has been since reunification in 1990. During the division of Germany (1949–1990), Bonn served as the capital of West Germany (Federal Republic), while East Berlin was the capital of East Germany (GDR). After reunification, the German government moved from Bonn to Berlin in 1999, though some government agencies remain in Bonn.
+> **📝** خفیہ ووٹنگ (geheime Wahl) جرمنی کے پانچ انتخابی اصولوں میں سے ایک ہے: عام، براہ راست، آزاد، مساوی، اور خفیہ۔ "کھلا" انتخاب، مردم شماری پر مبنی حق (جہاں ووٹ کا حق دولت پر منحصر ہو)، اور تین درجے کا نظام (پروشیا میں 1918 تک استعمال ہوا) سب غیر جمہوری نظام ہیں جو ختم کر دیے گئے۔
 
 ---
 
-### Question 96 *(Updated July 2024 — Antisemitism)*
-
-**🇩🇪 Deutsch:** Wie kann jemand, der den Holocaust leugnet, bestraft werden?
-**🇬🇧 English:** How can someone who denies the Holocaust be punished?
-
-| | Deutsch | English |
-|---|---|---|
-| ○ | Kürzung sozialer Leistungen | Reduction of social benefits |
-| ○ | bis zu 100 Sozialstunden | up to 100 hours of community service |
-| ○ | gar nicht, Holocaustleugnung ist erlaubt | not at all; Holocaust denial is permitted |
-| ✅ | **mit Freiheitsstrafe bis zu fünf Jahren oder mit Geldstrafe** | **with imprisonment of up to five years or a fine** |
-
-> **📝 Explanation:** Holocaust denial is a criminal offense in Germany under §130(3) StGB (Volksverhetzung — incitement to hatred). Anyone who publicly denies, downplays, or approves of the Nazi genocide can face up to 5 years in prison or a fine. This law reflects Germany's historical responsibility for the murder of 6 million Jews. Germany takes this very seriously — it is NOT a matter of free speech but a criminal act.
-
----
-
-### Question 97
-
-**🇩🇪 Deutsch:** Welche__(e)__ __(F)__arben hat__(t)__ __(d)__ie__(e)__ __(d)__eutsche Flagge?
-**🇬🇧 English:** What colors does the German flag have?
-
-| | Deutsch | English |
-|---|---|---|
-| ✅ | **schwarz, rot, gold** | **black, red, gold** |
-| ○ | schwarz, rot, grün | black, red, green |
-| ○ | schwarz, weiß, rot | black, white, red |
-| ○ | schwarz, gelb, grün | black, yellow, green |
-
-> **📝 Explanation:** The German flag has three horizontal stripes: black (top), red (middle), and gold/yellow (bottom). These colors have roots in the 19th-century democratic movement and the uniforms of the Lützow Free Corps during the Napoleonic Wars. Note: officially the color is "gold" not "yellow" — but the actual flag uses a shade that looks yellow. The black-white-red flag was used during the German Empire (1871–1918) and is associated with the monarchy.
-
----
-
-### Question 98
-
-**🇩🇪 Deutsch:** Wer __(s)__ingt die Nationalhymne?
-**🇬🇧 English:** Who sings the national anthem?
-
-| | Deutsch | English |
-|---|---|---|
-| ○ | nur Deutsche__(e)__ __(m)__it deutschen Vorfahren | only Germans with German ancestors |
-| ○ | nur Politikerinnen und Politiker | only politicians |
-| ✅ | **jeder, der möchte** | **anyone who wants to** |
-| ○ | nur Staatsangehörige | only citizens |
-
-> **📝 Explanation:** Anyone who wants to can sing the German national anthem. It is not restricted to citizens, politicians, or people of German descent. The anthem is the third verse of the "Deutschlandlied" and represents the values of unity, justice, and freedom. Singing it is a voluntary expression — there is no obligation or restriction on who may sing it.
-
----
-
-### Question 99
-
-**🇩🇪 Deutsch:** Welcher Politiker__(in)____(g)__ehört nicht zu Deutschland?
-**🇬🇧 English:** Which politician does NOT belong to Germany?
-
-| | Deutsch | English |
-|---|---|---|
-| ○ | Konrad Adenauer | Konrad Adenauer |
-| ○ | Willy Brandt | Willy Brandt |
-| ✅ | **Winston Churchill** | **Winston Churchill** |
-| ○ | Helmut Schmidt | Helmut Schmidt |
-
-> **📝 Explanation:** Winston Churchill was a British politician who served as Prime Minister of the United Kingdom during World War II. Konrad Adenauer was Germany's first post-war Chancellor (1949–1963, CDU). Willy Brandt was Chancellor from 1969–1974 (SPD) and is famous for his Ostpolitik and the iconic image of him kneeling at the Warsaw Ghetto memorial. Helmut Schmidt was Chancellor from 1974–1982 (SPD).
-
----
-
-### Question 100
-
-**🇩🇪 Deutsch:** Was ist in Deutschland ein__(e)__ __(W)__ahlgrundsatz?
-**🇬🇧 English:** What is an electoral principle in Germany?
-
-| | Deutsch | English |
-|---|---|---|
-| ○ | offene Wahl | open election |
-| ✅ | **geheime Wahl** | **secret election** |
-| ○ |__(Z)__ensuswahlrecht | census suffrage |
-| ○ | Dreiklassenwahlrecht | three-class voting system |
-
-> **📝 Explanation:** Secret voting (geheime Wahl) is one of the five electoral principles in Germany: elections are universal, direct, free, equal, and secret. "Open" elections, census suffrage (where voting rights depend on wealth), and the three-class voting system (used in Prussia until 1918) are all undemocratic systems that have been abolished. Secret voting ensures that no one can be pressured or disadvantaged because of their vote.
-
----
-
-[⬅ Previous: Questions 1–50](questions-001-050.md) | [➡ Continue to Questions 101–150](questions-101-150.md)
+[⬅ پچھلا: سوالات 1–50](questions-001-050.md) | [➡ سوالات 101–150](questions-101-150.md)

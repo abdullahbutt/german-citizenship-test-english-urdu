@@ -1,40 +1,40 @@
-# Sachsen (Saxony) — State Questions (301–310)
-[⬅ Back to Main README](README.md)
+# Sachsen (سیکسنی) — ریاستی سوالات (301–310)
+[⬅ مرکزی صفحے پر واپس](README.md)
 
 ---
-### Question 301 — Coat of Arms
+### سوال 301 — ریاستی نشان
 **🇩🇪** Welches Wappen gehört zum Bundesland Sachsen?
-**🇬🇧** Which coat of arms belongs to Sachsen (Saxony)?
-*🖼️ Green and white diagonal stripes with a crown of rue*
-> **📝** Saxony was re-established in 1990 after reunification. Dresden, the capital, is famous for the Frauenkirche (rebuilt after WWII destruction) and the Semperoper. Leipzig is known for Bach, the Gewandhaus Orchestra, and the 1989 Monday Demonstrations that helped bring down the GDR.
+**🇵🇰** سیکسنی کا نشان کون سا ہے؟
+*🖼️ سبز اور سفید ترچھی دھاریاں تاج کے ساتھ*
+> **📝** سیکسنی 1990 میں دوبارہ قائم ہوئی۔ ڈریسڈن فراؤن کرشے (دوسری جنگ عظیم کی تباہی کے بعد دوبارہ تعمیر) اور سیمپر اوپرا کے لیے مشہور ہے۔ لائپزگ باخ، گیوانڈ ہاؤس آرکسٹرا، اور 1989 کے پیر کے مظاہروں کے لیے مشہور ہے۔
 
-### Question 302 — Map Identification
+### سوال 302 — نقشے میں شناخت
 **🇩🇪** Welches ist ein Bundesland von Deutschland?
-**🇬🇧** Which is a federal state of Germany?
-*🖼️ Identify this state on a map of Germany.*
+**🇵🇰** جرمنی کی کون سی وفاقی ریاست ہے؟
+*🖼️ جرمنی کے نقشے پر اس ریاست کو پہچانیں۔*
 
-### Question 303 — Capital City
+### سوال 303 — دارالحکومت
 **🇩🇪** Wie heißt die Landeshauptstadt?
-**🇬🇧** What is the state capital?
-| | Deutsch | English |
+**🇵🇰** ریاستی دارالحکومت کا نام کیا ہے؟
+| | جرمن | اردو |
 |---|---|---|
-| ✅ | **Dresden** | **Dresden** |
-> **📝** Dresden is the capital of Sachsen.
+| ✅ | **Dresden (ڈریسڈن)** | **Dresden (ڈریسڈن)** |
+> **📝** Dresden (ڈریسڈن) ریاست سیکسنی کا دارالحکومت ہے۔
 
-### Question 304 — Map Location
+### سوال 304 — نقشے میں مقام
 **🇩🇪** Welches Bundesland ist Sachsen?
-**🇬🇧** Which one is Sachsen (Saxony)?
-*🖼️ Identify on numbered map.*
+**🇵🇰** سیکسنی کون سی ہے؟
+*🖼️ نمبر والے نقشے پر پہچانیں۔*
 
-### Question 305 — Minister-President
+### سوال 305 — وزیراعلیٰ
 **🇩🇪** Wie heißt der/die Ministerpräsident/in?
-**🇬🇧** Who is the Minister-President?
-*⚠️ Check current officeholder. As of 2025: Michael Kretschmer (CDU)*
+**🇵🇰** وزیراعلیٰ کا نام کیا ہے؟
+*⚠️ موجودہ عہدیدار چیک کریں۔ 2025 تک: Michael Kretschmer (CDU)*
 
-### Questions 306–310 — Additional State Facts
-Key facts for your preparation:
-- **Parliament:** Landtag
-- **Neighbors/Borders:** Poland, Czech Republic; borders Brandenburg, Sachsen-Anhalt, Thüringen, Bayern
-- **Major cities:** Dresden, Leipzig, Chemnitz, Zwickau
+### سوالات 306–310 — اضافی ریاستی حقائق
+تیاری کے لیے اہم حقائق:
+- **پارلیمنٹ:** Landtag (لینڈٹاگ)
+- **پڑوسی/سرحدیں:** پولینڈ، چیک ریپبلک؛ ریاستیں: برانڈنبرگ، سیکسنی انہالٹ، تھورنگیا، بویریا
+- **بڑے شہر:** Dresden, Leipzig, Chemnitz, Zwickau
 
-[⬅ Back to Main README](README.md)
+[⬅ مرکزی صفحے پر واپس](README.md)

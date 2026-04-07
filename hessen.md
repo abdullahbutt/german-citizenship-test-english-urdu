@@ -1,40 +1,40 @@
-# Hessen (Hesse) — State Questions (301–310)
-[⬅ Back to Main README](README.md)
+# Hessen (ہیسن) — ریاستی سوالات (301–310)
+[⬅ مرکزی صفحے پر واپس](README.md)
 
 ---
-### Question 301 — Coat of Arms
+### سوال 301 — ریاستی نشان
 **🇩🇪** Welches Wappen gehört zum Bundesland Hessen?
-**🇬🇧** Which coat of arms belongs to Hessen (Hesse)?
-*🖼️ Red and white striped lion on blue background*
-> **📝** Hesse is home to Frankfurt am Main, Germany's financial capital and seat of the European Central Bank (ECB). Despite Frankfurt's prominence, the state capital is Wiesbaden. The coat of arms shows a red-and-white striped lion. Known for its apple wine (Apfelwein) and the Brothers Grimm fairy tales (from Kassel).
+**🇵🇰** ہیسن کا نشان کون سا ہے؟
+*🖼️ نیلے پس منظر پر سرخ اور سفید دھاری دار شیر*
+> **📝** ہیسن فرینکفرٹ آم مائن کا گھر ہے — جرمنی کا مالیاتی دارالحکومت اور یورپی مرکزی بینک (ECB) کا مقام۔ فرینکفرٹ کی شہرت کے باوجود ریاستی دارالحکومت ویسبادن ہے۔ سیب کی شراب (Apfelwein) اور برادرز گرم کی کہانیوں (کاسل سے) کے لیے مشہور۔
 
-### Question 302 — Map Identification
+### سوال 302 — نقشے میں شناخت
 **🇩🇪** Welches ist ein Bundesland von Deutschland?
-**🇬🇧** Which is a federal state of Germany?
-*🖼️ Identify this state on a map of Germany.*
+**🇵🇰** جرمنی کی کون سی وفاقی ریاست ہے؟
+*🖼️ جرمنی کے نقشے پر اس ریاست کو پہچانیں۔*
 
-### Question 303 — Capital City
+### سوال 303 — دارالحکومت
 **🇩🇪** Wie heißt die Landeshauptstadt?
-**🇬🇧** What is the state capital?
-| | Deutsch | English |
+**🇵🇰** ریاستی دارالحکومت کا نام کیا ہے؟
+| | جرمن | اردو |
 |---|---|---|
-| ✅ | **Wiesbaden** | **Wiesbaden** |
-> **📝** Wiesbaden is the capital of Hessen.
+| ✅ | **Wiesbaden (ویسبادن)** | **Wiesbaden (ویسبادن)** |
+> **📝** Wiesbaden (ویسبادن) ریاست ہیسن کا دارالحکومت ہے۔
 
-### Question 304 — Map Location
+### سوال 304 — نقشے میں مقام
 **🇩🇪** Welches Bundesland ist Hessen?
-**🇬🇧** Which one is Hessen (Hesse)?
-*🖼️ Identify on numbered map.*
+**🇵🇰** ہیسن کون سی ہے؟
+*🖼️ نمبر والے نقشے پر پہچانیں۔*
 
-### Question 305 — Minister-President
+### سوال 305 — وزیراعلیٰ
 **🇩🇪** Wie heißt der/die Ministerpräsident/in?
-**🇬🇧** Who is the Minister-President?
-*⚠️ Check current officeholder. As of 2025: Boris Rhein (CDU)*
+**🇵🇰** وزیراعلیٰ کا نام کیا ہے؟
+*⚠️ موجودہ عہدیدار چیک کریں۔ 2025 تک: Boris Rhein (CDU)*
 
-### Questions 306–310 — Additional State Facts
-Key facts for your preparation:
-- **Parliament:** Landtag
-- **Neighbors/Borders:** No international borders. Borders: Niedersachsen, Thüringen, Bayern, Baden-Württemberg, Rheinland-Pfalz, NRW
-- **Major cities:** Frankfurt am Main, Wiesbaden, Kassel, Darmstadt, Offenbach
+### سوالات 306–310 — اضافی ریاستی حقائق
+تیاری کے لیے اہم حقائق:
+- **پارلیمنٹ:** Landtag (لینڈٹاگ)
+- **پڑوسی/سرحدیں:** کوئی بین الاقوامی سرحد نہیں۔ ریاستیں: نیڈرسیکسن، تھورنگیا، بویریا، بادن ورٹمبرگ، رائن لینڈ فالز، NRW
+- **بڑے شہر:** Frankfurt am Main, Wiesbaden, Kassel, Darmstadt
 
-[⬅ Back to Main README](README.md)
+[⬅ مرکزی صفحے پر واپس](README.md)

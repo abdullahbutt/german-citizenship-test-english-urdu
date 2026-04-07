@@ -1,40 +1,40 @@
-# Berlin — State Questions (301–310)
-[⬅ Back to Main README](README.md)
+# Berlin (برلن) — ریاستی سوالات (301–310)
+[⬅ مرکزی صفحے پر واپس](README.md)
 
 ---
-### Question 301 — Coat of Arms
+### سوال 301 — ریاستی نشان
 **🇩🇪** Welches Wappen gehört zum Bundesland Berlin?
-**🇬🇧** Which coat of arms belongs to Berlin?
-*🖼️ Bear on white background*
-> **📝** Berlin is both Germany's capital and a city-state. Its coat of arms features a black bear. Population: ~3.7 million. Head of government is called 'Regierender Bürgermeister' (Governing Mayor), not Minister-President. Berlin was divided 1961–1989 by the Wall. Famous landmarks: Brandenburg Gate, Reichstag, East Side Gallery.
+**🇵🇰** برلن کا نشان کون سا ہے؟
+*🖼️ سفید پس منظر پر ریچھ*
+> **📝** برلن جرمنی کا دارالحکومت اور شہری ریاست دونوں ہے۔ آبادی تقریباً 37 لاکھ۔ سربراہ حکومت کو 'Regierender Bürgermeister' (حکمران میئر) کہتے ہیں، وزیراعلیٰ نہیں۔ 1961–1989 تک دیوار سے تقسیم رہا۔ مشہور مقامات: برانڈنبرگ گیٹ، رائخسٹاگ۔
 
-### Question 302 — Map Identification
+### سوال 302 — نقشے میں شناخت
 **🇩🇪** Welches ist ein Bundesland von Deutschland?
-**🇬🇧** Which is a federal state of Germany?
-*🖼️ Identify this state on a map of Germany.*
+**🇵🇰** جرمنی کی کون سی وفاقی ریاست ہے؟
+*🖼️ جرمنی کے نقشے پر اس ریاست کو پہچانیں۔*
 
-### Question 303 — Capital City
+### سوال 303 — دارالحکومت
 **🇩🇪** Wie heißt die Landeshauptstadt?
-**🇬🇧** What is the state capital?
-| | Deutsch | English |
+**🇵🇰** ریاستی دارالحکومت کا نام کیا ہے؟
+| | جرمن | اردو |
 |---|---|---|
-| ✅ | **Berlin (is both capital and state)** | **Berlin (is both capital and state)** |
-> **📝** Berlin (is both capital and state) is the capital of Berlin.
+| ✅ | **Berlin (برلن — شہر اور ریاست دونوں)** | **Berlin (برلن — شہر اور ریاست دونوں)** |
+> **📝** Berlin (برلن — شہر اور ریاست دونوں) ریاست برلن کا دارالحکومت ہے۔
 
-### Question 304 — Map Location
+### سوال 304 — نقشے میں مقام
 **🇩🇪** Welches Bundesland ist Berlin?
-**🇬🇧** Which one is Berlin?
-*🖼️ Identify on numbered map.*
+**🇵🇰** برلن کون سی ہے؟
+*🖼️ نمبر والے نقشے پر پہچانیں۔*
 
-### Question 305 — Minister-President
+### سوال 305 — وزیراعلیٰ
 **🇩🇪** Wie heißt der/die Ministerpräsident/in?
-**🇬🇧** Who is the Minister-President?
-*⚠️ Check current officeholder. As of 2025: Kai Wegner (CDU)*
+**🇵🇰** وزیراعلیٰ کا نام کیا ہے؟
+*⚠️ موجودہ عہدیدار چیک کریں۔ 2025 تک: Kai Wegner (CDU)*
 
-### Questions 306–310 — Additional State Facts
-Key facts for your preparation:
-- **Parliament:** Abgeordnetenhaus (House of Representatives)
-- **Neighbors/Borders:** Surrounded entirely by Brandenburg
-- **Major cities:** Berlin is a single city-state with 12 districts (Bezirke)
+### سوالات 306–310 — اضافی ریاستی حقائق
+تیاری کے لیے اہم حقائق:
+- **پارلیمنٹ:** Abgeordnetenhaus (ایوان نمائندگان)
+- **پڑوسی/سرحدیں:** مکمل طور پر برانڈنبرگ سے گھری ہوئی
+- **بڑے شہر:** برلن واحد شہری ریاست ہے — 12 اضلاع (Bezirke)
 
-[⬅ Back to Main README](README.md)
+[⬅ مرکزی صفحے پر واپس](README.md)

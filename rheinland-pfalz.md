@@ -1,40 +1,40 @@
-# Rheinland-Pfalz (Rhineland-Palatinate) — State Questions (301–310)
-[⬅ Back to Main README](README.md)
+# Rheinland-Pfalz (رائن لینڈ فالز) — ریاستی سوالات (301–310)
+[⬅ مرکزی صفحے پر واپس](README.md)
 
 ---
-### Question 301 — Coat of Arms
+### سوال 301 — ریاستی نشان
 **🇩🇪** Welches Wappen gehört zum Bundesland Rheinland-Pfalz?
-**🇬🇧** Which coat of arms belongs to Rheinland-Pfalz (Rhineland-Palatinate)?
-*🖼️ Cross, wheel, and lion representing the three historical regions*
-> **📝** Rhineland-Palatinate is in western Germany, known for wine production (especially along the Mosel and Rhine). Mainz, the capital, is where Gutenberg invented the printing press. Trier is Germany's oldest city (founded by the Romans). The state borders three countries.
+**🇵🇰** رائن لینڈ فالز کا نشان کون سا ہے؟
+*🖼️ صلیب، پہیہ اور شیر — تین تاریخی علاقوں کی نمائندگی*
+> **📝** رائن لینڈ فالز مغربی جرمنی میں شراب کی پیداوار (خاص طور پر موزل اور رائن کے کنارے) کے لیے مشہور ہے۔ مائنز وہ شہر ہے جہاں گوٹنبرگ نے پرنٹنگ پریس ایجاد کیا۔ ٹریئر جرمنی کا قدیم ترین شہر ہے (رومیوں نے بنایا)۔ تین ممالک سے سرحد ملتی ہے۔
 
-### Question 302 — Map Identification
+### سوال 302 — نقشے میں شناخت
 **🇩🇪** Welches ist ein Bundesland von Deutschland?
-**🇬🇧** Which is a federal state of Germany?
-*🖼️ Identify this state on a map of Germany.*
+**🇵🇰** جرمنی کی کون سی وفاقی ریاست ہے؟
+*🖼️ جرمنی کے نقشے پر اس ریاست کو پہچانیں۔*
 
-### Question 303 — Capital City
+### سوال 303 — دارالحکومت
 **🇩🇪** Wie heißt die Landeshauptstadt?
-**🇬🇧** What is the state capital?
-| | Deutsch | English |
+**🇵🇰** ریاستی دارالحکومت کا نام کیا ہے؟
+| | جرمن | اردو |
 |---|---|---|
-| ✅ | **Mainz** | **Mainz** |
-> **📝** Mainz is the capital of Rheinland-Pfalz.
+| ✅ | **Mainz (مائنز)** | **Mainz (مائنز)** |
+> **📝** Mainz (مائنز) ریاست رائن لینڈ فالز کا دارالحکومت ہے۔
 
-### Question 304 — Map Location
+### سوال 304 — نقشے میں مقام
 **🇩🇪** Welches Bundesland ist Rheinland-Pfalz?
-**🇬🇧** Which one is Rheinland-Pfalz (Rhineland-Palatinate)?
-*🖼️ Identify on numbered map.*
+**🇵🇰** رائن لینڈ فالز کون سی ہے؟
+*🖼️ نمبر والے نقشے پر پہچانیں۔*
 
-### Question 305 — Minister-President
+### سوال 305 — وزیراعلیٰ
 **🇩🇪** Wie heißt der/die Ministerpräsident/in?
-**🇬🇧** Who is the Minister-President?
-*⚠️ Check current officeholder. As of 2025: Alexander Schweitzer (SPD)*
+**🇵🇰** وزیراعلیٰ کا نام کیا ہے؟
+*⚠️ موجودہ عہدیدار چیک کریں۔ 2025 تک: Alexander Schweitzer (SPD)*
 
-### Questions 306–310 — Additional State Facts
-Key facts for your preparation:
-- **Parliament:** Landtag
-- **Neighbors/Borders:** France, Luxembourg, Belgium; borders NRW, Hessen, Baden-Württemberg, Saarland
-- **Major cities:** Mainz, Ludwigshafen, Koblenz, Trier, Kaiserslautern
+### سوالات 306–310 — اضافی ریاستی حقائق
+تیاری کے لیے اہم حقائق:
+- **پارلیمنٹ:** Landtag (لینڈٹاگ)
+- **پڑوسی/سرحدیں:** فرانس، لکسمبرگ، بیلجیم؛ ریاستیں: NRW، ہیسن، بادن ورٹمبرگ، سارلینڈ
+- **بڑے شہر:** Mainz, Ludwigshafen, Koblenz, Trier, Kaiserslautern
 
-[⬅ Back to Main README](README.md)
+[⬅ مرکزی صفحے پر واپس](README.md)

@@ -1,40 +1,40 @@
-# Niedersachsen (Lower Saxony) — State Questions (301–310)
-[⬅ Back to Main README](README.md)
+# Niedersachsen (نیڈرسیکسن (زیریں سیکسنی)) — ریاستی سوالات (301–310)
+[⬅ مرکزی صفحے پر واپس](README.md)
 
 ---
-### Question 301 — Coat of Arms
+### سوال 301 — ریاستی نشان
 **🇩🇪** Welches Wappen gehört zum Bundesland Niedersachsen?
-**🇬🇧** Which coat of arms belongs to Niedersachsen (Lower Saxony)?
-*🖼️ White horse (Sachsenross) on red background*
-> **📝** Lower Saxony is Germany's second-largest state by area. Its coat of arms shows the famous white horse (Niedersachsenross). Hannover hosts major trade fairs (CeBIT, Hannover Messe). Wolfsburg is home to Volkswagen. The East Frisian Islands are popular tourist destinations.
+**🇵🇰** نیڈرسیکسن (زیریں سیکسنی) کا نشان کون سا ہے؟
+*🖼️ سرخ پس منظر پر سفید گھوڑا (نیڈرسیکسن کا گھوڑا)*
+> **📝** نیڈرسیکسن رقبے کے لحاظ سے جرمنی کی دوسری بڑی ریاست ہے۔ ہنوور بڑے تجارتی میلوں کی میزبانی کرتا ہے۔ وولفسبرگ فولکس ویگن کا گھر ہے۔ مشرقی فریزین جزائر مشہور سیاحتی مقامات ہیں۔
 
-### Question 302 — Map Identification
+### سوال 302 — نقشے میں شناخت
 **🇩🇪** Welches ist ein Bundesland von Deutschland?
-**🇬🇧** Which is a federal state of Germany?
-*🖼️ Identify this state on a map of Germany.*
+**🇵🇰** جرمنی کی کون سی وفاقی ریاست ہے؟
+*🖼️ جرمنی کے نقشے پر اس ریاست کو پہچانیں۔*
 
-### Question 303 — Capital City
+### سوال 303 — دارالحکومت
 **🇩🇪** Wie heißt die Landeshauptstadt?
-**🇬🇧** What is the state capital?
-| | Deutsch | English |
+**🇵🇰** ریاستی دارالحکومت کا نام کیا ہے؟
+| | جرمن | اردو |
 |---|---|---|
-| ✅ | **Hannover (Hanover)** | **Hannover (Hanover)** |
-> **📝** Hannover (Hanover) is the capital of Niedersachsen.
+| ✅ | **Hannover (ہنوور)** | **Hannover (ہنوور)** |
+> **📝** Hannover (ہنوور) ریاست نیڈرسیکسن (زیریں سیکسنی) کا دارالحکومت ہے۔
 
-### Question 304 — Map Location
+### سوال 304 — نقشے میں مقام
 **🇩🇪** Welches Bundesland ist Niedersachsen?
-**🇬🇧** Which one is Niedersachsen (Lower Saxony)?
-*🖼️ Identify on numbered map.*
+**🇵🇰** نیڈرسیکسن (زیریں سیکسنی) کون سی ہے؟
+*🖼️ نمبر والے نقشے پر پہچانیں۔*
 
-### Question 305 — Minister-President
+### سوال 305 — وزیراعلیٰ
 **🇩🇪** Wie heißt der/die Ministerpräsident/in?
-**🇬🇧** Who is the Minister-President?
-*⚠️ Check current officeholder. As of 2025: Stephan Weil (SPD)*
+**🇵🇰** وزیراعلیٰ کا نام کیا ہے؟
+*⚠️ موجودہ عہدیدار چیک کریں۔ 2025 تک: Stephan Weil (SPD)*
 
-### Questions 306–310 — Additional State Facts
-Key facts for your preparation:
-- **Parliament:** Landtag
-- **Neighbors/Borders:** Netherlands, North Sea; borders Schleswig-Holstein, Hamburg, Bremen, NRW, Hessen, Thüringen, Sachsen-Anhalt, Brandenburg, MV
-- **Major cities:** Hannover, Braunschweig, Oldenburg, Osnabrück, Göttingen, Wolfsburg
+### سوالات 306–310 — اضافی ریاستی حقائق
+تیاری کے لیے اہم حقائق:
+- **پارلیمنٹ:** Landtag (لینڈٹاگ)
+- **پڑوسی/سرحدیں:** نیدرلینڈز، بحر شمالی؛ ریاستیں: شلیسوگ ہولسٹائن، ہیمبرگ، بریمن، NRW، ہیسن، تھورنگیا، سیکسنی انہالٹ، برانڈنبرگ
+- **بڑے شہر:** Hannover, Braunschweig, Oldenburg, Osnabrück, Wolfsburg
 
-[⬅ Back to Main README](README.md)
+[⬅ مرکزی صفحے پر واپس](README.md)
