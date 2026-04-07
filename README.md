@@ -12,6 +12,9 @@ Based on the official BAMF catalog (Stand: 07.05.2025).
 
 For **educational purposes only**. Questions are based on the official BAMF catalog. Some questions reference images (maps, coats of arms) — descriptions are provided. Questions about current officeholders (Chancellor, Minister-Presidents) change with elections — always verify before your test.
 
+## 🚀 Quick Start
+
+New here? Start with [Questions 1–50](https://github.com/abdullahbutt/german-citizenship-test-english-urdu/blob/english/questions-001-050.md), then find your state in the table below.
 ---
 
 ## 📋 About the Test
