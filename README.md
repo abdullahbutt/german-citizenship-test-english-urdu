@@ -8,6 +8,10 @@
 
 Based on the official BAMF catalog (Stand: 07.05.2025).
 
+## ⚠️ Disclaimer
+
+For **educational purposes only**. Questions are based on the official BAMF catalog. Some questions reference images (maps, coats of arms) — descriptions are provided. Questions about current officeholders (Chancellor, Minister-Presidents) change with elections — always verify before your test.
+
 ---
 
 ## 📋 About the Test
@@ -129,10 +133,6 @@ Each question follows this format:
 - [BAMF Online Test Center](https://oet.bamf.de/ords/oetut/f?p=512:1::::::)
 
 ---
-
-## ⚠️ Disclaimer
-
-For **educational purposes only**. Questions are based on the official BAMF catalog. Some questions reference images (maps, coats of arms) — descriptions are provided. Questions about current officeholders (Chancellor, Minister-Presidents) change with elections — always verify before your test.
 
 ## 📄 License
 
