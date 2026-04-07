@@ -1,4 +1,4 @@
-> ⭐ If this helped you pass your test, please star the repo!
+> ⭐ If this helped you pass your test, [please star this repo](https://github.com/abdullahbutt/german-citizenship-test-english-urdu/stargazers) — it helps others find it!
 
 # 🇩🇪 German Citizenship Test — with English Translations
 
