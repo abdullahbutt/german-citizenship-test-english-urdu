@@ -1,4 +1,8 @@
+> ⭐ If this helped you pass your test, please star the repo!
+
 # 🇩🇪 German Citizenship Test — with English Translations
+
+> 🇵🇰 اردو ترجمہ کے لیے — [Urdu Branch](https://github.com/abdullahbutt/german-citizenship-test-english-urdu/tree/urdu)
 
 > All **300 general + 160 state-specific** questions from the official **BAMF Einbürgerungstest / Leben in Deutschland** test catalog, with English translations, correct answers highlighted in ✅, and explanations.
 
