@@ -1,5 +1,13 @@
 # 🇩🇪 جرمن شہریت کا امتحان — اردو ترجمے کے ساتھ
 
+<div align="center">
+
+[![GitHub Stars](https://img.shields.io/github/stars/abdullahbutt/german-citizenship-test-english-urdu?style=for-the-badge&logo=github&label=Star%20this%20Repo)](https://github.com/abdullahbutt/german-citizenship-test-english-urdu)
+&nbsp;&nbsp;
+[![View Website](https://img.shields.io/badge/🌐_ویب_سائٹ_دیکھیں-یہاں_کلک_کریں-blue?style=for-the-badge)](https://abdullahbutt.github.io/german-citizenship-test-english-urdu/)
+
+</div>
+
 > ⭐ اگر اس نے آپ کے امتحان میں مدد کی تو [اس ریپو کو اسٹار کریں](https://github.com/abdullahbutt/german-citizenship-test-english-urdu) — اس سے دوسروں کو تلاش میں مدد ملتی ہے!
 
 > 🇬🇧 For English version — [English Branch](https://github.com/abdullahbutt/german-citizenship-test-english-urdu/blob/english/README.md)
