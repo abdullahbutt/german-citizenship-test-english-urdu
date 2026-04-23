@@ -118,10 +118,61 @@
             color: var(--muted-text);
         }
         footer {
-            text-align: center;
-            padding: 2rem 1rem;
+            margin-top: 3rem;
+            padding: 2.5rem 1rem 2rem;
+            background: var(--card-bg);
+            border-top: 1px solid var(--border);
             color: var(--muted-text);
-            font-size: 0.875rem;
+            font-size: 0.95rem;
+        }
+        footer .support-box {
+            max-width: 640px;
+            margin: 0 auto 1.5rem;
+            padding: 1.5rem;
+            background: linear-gradient(135deg, #fef3c7, #fde68a);
+            border: 1px solid #f59e0b;
+            border-radius: 0.75rem;
+            text-align: center;
+            color: #1f2937;
+        }
+        [data-bs-theme="dark"] footer .support-box {
+            background: linear-gradient(135deg, #78350f, #92400e);
+            border-color: #b45309;
+            color: #fef3c7;
+        }
+        footer .support-box h3 {
+            margin-top: 0;
+            margin-bottom: 0.5rem;
+            font-size: 1.15rem;
+            font-weight: 700;
+        }
+        footer .support-box p {
+            margin-bottom: 1rem;
+            font-size: 0.95rem;
+        }
+        footer .btn-pill {
+            display: inline-block;
+            padding: 0.5rem 1.25rem;
+            border-radius: 999px;
+            font-weight: 600;
+            text-decoration: none;
+            margin: 0.25rem;
+            border: 1px solid transparent;
+            font-size: 0.9rem;
+        }
+        footer .btn-paypal {
+            background: #0070ba;
+            color: #fff;
+        }
+        footer .btn-paypal:hover { background: #005a96; color: #fff; }
+        footer .btn-github {
+            background: transparent;
+            color: var(--page-text);
+            border-color: var(--border);
+        }
+        footer .btn-github:hover {
+            background: var(--page-text);
+            color: var(--page-bg);
         }
         footer a { text-decoration: none; }
         .back-to-top {
@@ -1976,7 +2027,12 @@
     </main>
 
     <footer>
-        <a href="https://github.com/abdullahbutt/german-citizenship-test-english-urdu" target="_blank" rel="noopener">View on GitHub</a>
+        <div class="support-box">
+            <h3>☕ Support This Project</h3>
+            <p>This project is completely free and open source. If it helped you pass your test, you can optionally buy me a coffee — no obligation at all!</p>
+            <a class="btn-pill btn-paypal" href="https://paypal.me/abdullahbuttde" target="_blank" rel="noopener">Donate via PayPal</a>
+            <a class="btn-pill btn-github" href="https://github.com/abdullahbutt/german-citizenship-test-english-urdu" target="_blank" rel="noopener">⭐ Star on GitHub</a>
+        </div>
     </footer>
 
     <button class="back-to-top" id="backToTop" aria-label="Back to top" title="Back to top">↑</button>

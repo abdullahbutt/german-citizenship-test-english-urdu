@@ -118,10 +118,61 @@
             color: var(--muted-text);
         }
         footer {
-            text-align: center;
-            padding: 2rem 1rem;
+            margin-top: 3rem;
+            padding: 2.5rem 1rem 2rem;
+            background: var(--card-bg);
+            border-top: 1px solid var(--border);
             color: var(--muted-text);
-            font-size: 0.875rem;
+            font-size: 0.95rem;
+        }
+        footer .support-box {
+            max-width: 640px;
+            margin: 0 auto 1.5rem;
+            padding: 1.5rem;
+            background: linear-gradient(135deg, #fef3c7, #fde68a);
+            border: 1px solid #f59e0b;
+            border-radius: 0.75rem;
+            text-align: center;
+            color: #1f2937;
+        }
+        [data-bs-theme="dark"] footer .support-box {
+            background: linear-gradient(135deg, #78350f, #92400e);
+            border-color: #b45309;
+            color: #fef3c7;
+        }
+        footer .support-box h3 {
+            margin-top: 0;
+            margin-bottom: 0.5rem;
+            font-size: 1.15rem;
+            font-weight: 700;
+        }
+        footer .support-box p {
+            margin-bottom: 1rem;
+            font-size: 0.95rem;
+        }
+        footer .btn-pill {
+            display: inline-block;
+            padding: 0.5rem 1.25rem;
+            border-radius: 999px;
+            font-weight: 600;
+            text-decoration: none;
+            margin: 0.25rem;
+            border: 1px solid transparent;
+            font-size: 0.9rem;
+        }
+        footer .btn-paypal {
+            background: #0070ba;
+            color: #fff;
+        }
+        footer .btn-paypal:hover { background: #005a96; color: #fff; }
+        footer .btn-github {
+            background: transparent;
+            color: var(--page-text);
+            border-color: var(--border);
+        }
+        footer .btn-github:hover {
+            background: var(--page-text);
+            color: var(--page-bg);
         }
         footer a { text-decoration: none; }
         .back-to-top {
@@ -165,45 +216,371 @@
     <main>
         <p><a href="../index.html?stay">← Change language</a></p>
         <article class="content-card">
-            
-        <h1>German Citizenship Test</h1>
-        <p class="lead" style="color: var(--muted-text);">All 300 questions for the Einbürgerungstest</p>
+            <blockquote>
+<p>⭐ If this helped you pass your test, <a href="https://github.com/abdullahbutt/german-citizenship-test-english-urdu">please star this repo</a> — it helps others find it!</p>
+</blockquote>
+<h1>🇩🇪 German Citizenship Test — with English Translations</h1>
+<blockquote>
+<p>🇵🇰 اردو ترجمہ کے لیے — <a href="../ur/index.html">Urdu Branch</a></p>
+</blockquote>
+<blockquote>
+<p>All <strong>300 general + 160 state-specific</strong> questions from the official <strong>BAMF Einbürgerungstest / Leben in Deutschland</strong> test catalog, with English translations, correct answers highlighted in ✅, and explanations.</p>
+</blockquote>
+<p>Based on the official BAMF catalog (Stand: 07.05.2025).</p>
+<blockquote>
+<p>⚠️ <strong>Important:</strong> For educational purposes only. Questions about current officeholders (Chancellor, Minister-Presidents) change with elections — always verify on the <a href="https://www.bamf.de">BAMF website</a> before your test.</p>
+</blockquote>
+<h2>🚀 Quick Start</h2>
+<p>New here? Start with <a href="./questions-001-050.html">Questions 1–50</a>, then find your state in the table below.</p>
+<hr>
+<h2>📋 About the Test</h2>
+<table>
+<thead>
+<tr>
+<th>Detail</th>
+<th>Info</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Official Name</strong></td>
+<td>Test &quot;Leben in Deutschland&quot; / Einbürgerungstest</td>
+</tr>
+<tr>
+<td><strong>Questions in Exam</strong></td>
+<td>33 (from the pool of 460)</td>
+</tr>
+<tr>
+<td><strong>Time</strong></td>
+<td>60 minutes</td>
+</tr>
+<tr>
+<td><strong>Pass</strong></td>
+<td>17 correct out of 33</td>
+</tr>
+<tr>
+<td><strong>Fee</strong></td>
+<td>€25 per attempt</td>
+</tr>
+<tr>
+<td><strong>Format</strong></td>
+<td>Multiple choice — 4 options, 1 correct</td>
+</tr>
+<tr>
+<td><strong>State Questions</strong></td>
+<td>3 of the 33 are specific to your Bundesland</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>📑 General Questions (1–300)</h2>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Questions</th>
+<th>Topics</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="questions-001-050.html">Questions 1–50</a></td>
+<td>1–50</td>
+<td>Basic Rights, Democracy, State Structure</td>
+</tr>
+<tr>
+<td><a href="questions-051-100.html">Questions 51–100</a></td>
+<td>51–100</td>
+<td>Political System, Parties, Elections</td>
+</tr>
+<tr>
+<td><a href="questions-101-150.html">Questions 101–150</a></td>
+<td>101–150</td>
+<td>Legal System, Government, EU, Civic Life</td>
+</tr>
+<tr>
+<td><a href="questions-151-200.html">Questions 151–200</a></td>
+<td>151–200</td>
+<td>History: Nazi Era, WWII, Cold War</td>
+</tr>
+<tr>
+<td><a href="questions-201-250.html">Questions 201–250</a></td>
+<td>201–250</td>
+<td>Reunification, Culture, Geography</td>
+</tr>
+<tr>
+<td><a href="questions-251-300.html">Questions 251–300</a></td>
+<td>251–300</td>
+<td>Society, Religion, Daily Life</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>🗺️ State Questions (301–310)</h2>
+<p>Pick your Bundesland — each has 10 additional questions about its capital, coat of arms, Minister-President, geography, and history.</p>
+<table>
+<thead>
+<tr>
+<th>State</th>
+<th>English Name</th>
+<th>Capital</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="baden-wuerttemberg.html">Baden-Württemberg</a></td>
+<td>Baden-Württemberg</td>
+<td>Stuttgart</td>
+</tr>
+<tr>
+<td><a href="bayern.html">Bayern</a></td>
+<td>Bavaria</td>
+<td>München (Munich)</td>
+</tr>
+<tr>
+<td><a href="berlin.html">Berlin</a></td>
+<td>Berlin</td>
+<td>Berlin</td>
+</tr>
+<tr>
+<td><a href="brandenburg.html">Brandenburg</a></td>
+<td>Brandenburg</td>
+<td>Potsdam</td>
+</tr>
+<tr>
+<td><a href="bremen.html">Bremen</a></td>
+<td>Bremen</td>
+<td>Bremen</td>
+</tr>
+<tr>
+<td><a href="hamburg.html">Hamburg</a></td>
+<td>Hamburg</td>
+<td>Hamburg</td>
+</tr>
+<tr>
+<td><a href="hessen.html">Hessen</a></td>
+<td>Hesse</td>
+<td>Wiesbaden</td>
+</tr>
+<tr>
+<td><a href="mecklenburg-vorpommern.html">Mecklenburg-Vorpommern</a></td>
+<td>Mecklenburg-W. Pomerania</td>
+<td>Schwerin</td>
+</tr>
+<tr>
+<td><a href="niedersachsen.html">Niedersachsen</a></td>
+<td>Lower Saxony</td>
+<td>Hannover</td>
+</tr>
+<tr>
+<td><a href="nordrhein-westfalen.html">Nordrhein-Westfalen</a></td>
+<td>North Rhine-Westphalia</td>
+<td>Düsseldorf</td>
+</tr>
+<tr>
+<td><a href="rheinland-pfalz.html">Rheinland-Pfalz</a></td>
+<td>Rhineland-Palatinate</td>
+<td>Mainz</td>
+</tr>
+<tr>
+<td><a href="saarland.html">Saarland</a></td>
+<td>Saarland</td>
+<td>Saarbrücken</td>
+</tr>
+<tr>
+<td><a href="sachsen.html">Sachsen</a></td>
+<td>Saxony</td>
+<td>Dresden</td>
+</tr>
+<tr>
+<td><a href="sachsen-anhalt.html">Sachsen-Anhalt</a></td>
+<td>Saxony-Anhalt</td>
+<td>Magdeburg</td>
+</tr>
+<tr>
+<td><a href="schleswig-holstein.html">Schleswig-Holstein</a></td>
+<td>Schleswig-Holstein</td>
+<td>Kiel</td>
+</tr>
+<tr>
+<td><a href="thueringen.html">Thüringen</a></td>
+<td>Thuringia</td>
+<td>Erfurt</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>🖼️ Questions with Images</h2>
+<p>Some questions include images (coats of arms, maps, flags). These are marked with 🖼️ in the files. To see the actual images, use the <a href="https://oet.bamf.de/ords/oetut/f?p=514:1:0">BAMF Interactive Test Center</a> — select your state and navigate to the question number.</p>
+<p><strong>General questions with images:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Question</th>
+<th>Image Shows</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Q21</td>
+<td>4 coats of arms — identify Germany&#39;s (black eagle on gold)</td>
+</tr>
+<tr>
+<td>Q160</td>
+<td>Map of Germany showing BRD/DDR division</td>
+</tr>
+<tr>
+<td>Q163</td>
+<td>Map of Germany&#39;s borders</td>
+</tr>
+<tr>
+<td>Q177</td>
+<td>Map of Berlin divided into 4 Allied sectors</td>
+</tr>
+<tr>
+<td>Q195</td>
+<td>Map showing divided Germany / occupation zones</td>
+</tr>
+</tbody></table>
+<p><strong>State questions with images (every state):</strong></p>
+<table>
+<thead>
+<tr>
+<th>Question</th>
+<th>Image Shows</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Q301</td>
+<td>4 coats of arms — identify your state&#39;s</td>
+</tr>
+<tr>
+<td>Q302</td>
+<td>Map of Germany — identify which state is highlighted</td>
+</tr>
+<tr>
+<td>Q304</td>
+<td>Numbered map — identify which number is your state</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>🆕 Updated Questions (July 2024)</h2>
+<p>10 questions were replaced with new ones about <strong>Jewish life in Germany, Israel&#39;s right to exist, and antisemitism</strong> (in response to the October 7, 2023 events). These are marked with <em>(Updated July 2024)</em> in the files:</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>New Topic</th>
+<th>Correct Answer</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Q14</td>
+<td>Freedom of speech limits (now mentions Hamas/IS symbols)</td>
+<td>can express opinion on internet</td>
+</tr>
+<tr>
+<td>Q59</td>
+<td>Largest Jewish communities in Germany</td>
+<td>Berlin and Munich</td>
+</tr>
+<tr>
+<td>Q66</td>
+<td>How long has Jewish life existed in Germany?</td>
+<td>more than 1,700 years</td>
+</tr>
+<tr>
+<td>Q96</td>
+<td>Punishment for Holocaust denial</td>
+<td>up to 5 years prison or fine</td>
+</tr>
+<tr>
+<td>Q111</td>
+<td>Prohibited actions regarding Israel</td>
+<td>calling for Israel&#39;s destruction</td>
+</tr>
+<tr>
+<td>Q118</td>
+<td>Who can join Makkabi sports clubs?</td>
+<td>all people</td>
+</tr>
+<tr>
+<td>Q149</td>
+<td>Example of antisemitic behavior</td>
+<td>denying the Holocaust</td>
+</tr>
+<tr>
+<td>Q182</td>
+<td>Jewish house of worship</td>
+<td>Synagogue</td>
+</tr>
+<tr>
+<td>Q184</td>
+<td>Legal basis for Israel&#39;s founding</td>
+<td>UN resolution</td>
+</tr>
+<tr>
+<td>Q206</td>
+<td>What do &quot;Stolpersteine&quot; commemorate?</td>
+<td>victims of Nazism</td>
+</tr>
+<tr>
+<td>Q288</td>
+<td>Germany&#39;s special responsibility for Israel</td>
+<td>Nazi crimes</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>📖 How to Read This Guide</h2>
+<p>Each question follows this format:</p>
+<blockquote>
+<h3>Question X</h3>
+<p><strong>🇩🇪</strong> German question
+<strong>🇬🇧</strong> English translation</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Deutsch</th>
+<th>English</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>○</td>
+<td>Wrong answer</td>
+<td>English</td>
+</tr>
+<tr>
+<td>✅</td>
+<td><strong>Correct answer</strong></td>
+<td><strong>English</strong></td>
+</tr>
+<tr>
+<td>○</td>
+<td>Wrong answer</td>
+<td>English</td>
+</tr>
+<tr>
+<td>○</td>
+<td>Wrong answer</td>
+<td>English</td>
+</tr>
+</tbody></table>
+<p><strong>📝</strong> Explanation with background context.</p>
+</blockquote>
+<hr>
+<h2>🔗 Official Resources</h2>
+<ul>
+<li><a href="https://www.bamf.de/SharedDocs/Anlagen/DE/Integration/Einbuergerung/gesamtfragenkatalog-lebenindeutschland.pdf">BAMF Official Question Catalog (PDF)</a></li>
+<li><a href="https://oet.bamf.de/ords/oetut/f?p=512:1::::::">BAMF Online Test Center</a></li>
+</ul>
+<hr>
+<h2>📄 License</h2>
+<p>Based on publicly available German government examination material. Translations and explanations provided freely for educational use.</p>
 
-        <h2>Questions</h2>
-        <ul>
-        <li><a href="./questions-001-050.html">Questions 1–50</a></li>
-        <li><a href="./questions-051-100.html">Questions 51–100</a></li>
-        <li><a href="./questions-101-150.html">Questions 101–150</a></li>
-        <li><a href="./questions-151-200.html">Questions 151–200</a></li>
-        <li><a href="./questions-201-250.html">Questions 201–250</a></li>
-        <li><a href="./questions-251-300.html">Questions 251–300</a></li>
-        </ul>
-
-        <h2>Federal state questions</h2>
-        <ul>
-        <li><a href="./baden-wuerttemberg.html">Baden-Württemberg</a></li>
-        <li><a href="./bayern.html">Bavaria (Bayern)</a></li>
-        <li><a href="./berlin.html">Berlin</a></li>
-        <li><a href="./brandenburg.html">Brandenburg</a></li>
-        <li><a href="./bremen.html">Bremen</a></li>
-        <li><a href="./hamburg.html">Hamburg</a></li>
-        <li><a href="./hessen.html">Hesse (Hessen)</a></li>
-        <li><a href="./mecklenburg-vorpommern.html">Mecklenburg-Vorpommern</a></li>
-        <li><a href="./niedersachsen.html">Lower Saxony (Niedersachsen)</a></li>
-        <li><a href="./nordrhein-westfalen.html">North Rhine-Westphalia</a></li>
-        <li><a href="./rheinland-pfalz.html">Rhineland-Palatinate</a></li>
-        <li><a href="./saarland.html">Saarland</a></li>
-        <li><a href="./sachsen.html">Saxony (Sachsen)</a></li>
-        <li><a href="./sachsen-anhalt.html">Saxony-Anhalt</a></li>
-        <li><a href="./schleswig-holstein.html">Schleswig-Holstein</a></li>
-        <li><a href="./thueringen.html">Thuringia (Thüringen)</a></li>
-        </ul>
-    
         </article>
     </main>
 
     <footer>
-        <a href="https://github.com/abdullahbutt/german-citizenship-test-english-urdu" target="_blank" rel="noopener">View on GitHub</a>
+        <div class="support-box">
+            <h3>☕ Support This Project</h3>
+            <p>This project is completely free and open source. If it helped you pass your test, you can optionally buy me a coffee — no obligation at all!</p>
+            <a class="btn-pill btn-paypal" href="https://paypal.me/abdullahbuttde" target="_blank" rel="noopener">Donate via PayPal</a>
+            <a class="btn-pill btn-github" href="https://github.com/abdullahbutt/german-citizenship-test-english-urdu" target="_blank" rel="noopener">⭐ Star on GitHub</a>
+        </div>
     </footer>
 
     <button class="back-to-top" id="backToTop" aria-label="Back to top" title="Back to top">↑</button>

@@ -32,7 +32,8 @@ const OUTPUTS = {
 };
 
 // Files we never want to convert (branch metadata, not content)
-const EXCLUDE = new Set(['README.md', 'CONTRIBUTING.md']);
+// Note: README.md IS processed — its content becomes index.html
+const EXCLUDE = new Set(['CONTRIBUTING.md']);
 
 // Human-readable titles for known slugs. Add more as needed.
 const TITLES = {
@@ -99,6 +100,10 @@ const UI = {
         statesHeading: 'Federal state questions',
         tagline: 'All 300 questions for the Einbürgerungstest',
         sourceOnGithub: 'View on GitHub',
+        supportHeading: '☕ Support This Project',
+        supportText: 'This project is completely free and open source. If it helped you pass your test, you can optionally buy me a coffee — no obligation at all!',
+        donateLabel: 'Donate via PayPal',
+        starLabel: '⭐ Star on GitHub',
     },
     ur: {
         siteTitle: 'جرمن شہریت کا امتحان',
@@ -112,10 +117,15 @@ const UI = {
         statesHeading: 'ریاستی سوالات',
         tagline: 'انبیورگرونگس ٹیسٹ کے تمام 300 سوالات',
         sourceOnGithub: 'GitHub پر دیکھیں',
+        supportHeading: '☕ اس پروجیکٹ کی مدد کریں',
+        supportText: 'یہ پروجیکٹ مکمل طور پر مفت اور اوپن سورس ہے۔ اگر اس نے آپ کو امتحان پاس کرنے میں مدد کی، تو آپ مجھے ایک کافی خرید سکتے ہیں — کوئی ذمہ داری نہیں!',
+        donateLabel: 'PayPal کے ذریعے عطیہ',
+        starLabel: '⭐ GitHub پر اسٹار کریں',
     },
 };
 
 const GITHUB_URL = 'https://github.com/abdullahbutt/german-citizenship-test-english-urdu';
+const PAYPAL_URL = 'https://paypal.me/abdullahbuttde';
 
 // ---------- HTML template ----------
 function renderPage({ lang, title, bodyHtml, slug }) {
@@ -249,10 +259,61 @@ function renderPage({ lang, title, bodyHtml, slug }) {
             color: var(--muted-text);
         }
         footer {
-            text-align: center;
-            padding: 2rem 1rem;
+            margin-top: 3rem;
+            padding: 2.5rem 1rem 2rem;
+            background: var(--card-bg);
+            border-top: 1px solid var(--border);
             color: var(--muted-text);
-            font-size: 0.875rem;
+            font-size: 0.95rem;
+        }
+        footer .support-box {
+            max-width: 640px;
+            margin: 0 auto 1.5rem;
+            padding: 1.5rem;
+            background: linear-gradient(135deg, #fef3c7, #fde68a);
+            border: 1px solid #f59e0b;
+            border-radius: 0.75rem;
+            text-align: center;
+            color: #1f2937;
+        }
+        [data-bs-theme="dark"] footer .support-box {
+            background: linear-gradient(135deg, #78350f, #92400e);
+            border-color: #b45309;
+            color: #fef3c7;
+        }
+        footer .support-box h3 {
+            margin-top: 0;
+            margin-bottom: 0.5rem;
+            font-size: 1.15rem;
+            font-weight: 700;
+        }
+        footer .support-box p {
+            margin-bottom: 1rem;
+            font-size: 0.95rem;
+        }
+        footer .btn-pill {
+            display: inline-block;
+            padding: 0.5rem 1.25rem;
+            border-radius: 999px;
+            font-weight: 600;
+            text-decoration: none;
+            margin: 0.25rem;
+            border: 1px solid transparent;
+            font-size: 0.9rem;
+        }
+        footer .btn-paypal {
+            background: #0070ba;
+            color: #fff;
+        }
+        footer .btn-paypal:hover { background: #005a96; color: #fff; }
+        footer .btn-github {
+            background: transparent;
+            color: var(--page-text);
+            border-color: var(--border);
+        }
+        footer .btn-github:hover {
+            background: var(--page-text);
+            color: var(--page-bg);
         }
         footer a { text-decoration: none; }
         .back-to-top {
@@ -301,7 +362,12 @@ function renderPage({ lang, title, bodyHtml, slug }) {
     </main>
 
     <footer>
-        <a href="${GITHUB_URL}" target="_blank" rel="noopener">${escapeHtml(ui.sourceOnGithub)}</a>
+        <div class="support-box">
+            <h3>${escapeHtml(ui.supportHeading)}</h3>
+            <p>${escapeHtml(ui.supportText)}</p>
+            <a class="btn-pill btn-paypal" href="${PAYPAL_URL}" target="_blank" rel="noopener">${escapeHtml(ui.donateLabel)}</a>
+            <a class="btn-pill btn-github" href="${GITHUB_URL}" target="_blank" rel="noopener">${escapeHtml(ui.starLabel)}</a>
+        </div>
     </footer>
 
     <button class="back-to-top" id="backToTop" aria-label="${escapeHtml(ui.backToTop)}" title="${escapeHtml(ui.backToTop)}">↑</button>
@@ -396,14 +462,19 @@ function buildLang(lang) {
         .filter(f => f.endsWith('.md') && !EXCLUDE.has(f));
 
     const slugs = [];
+    let readmeHtml = null;
 
     for (const file of mdFiles) {
         const slug = slugFromFile(file);
-        const title = (TITLES[lang][slug]) || slug;
+        const isReadme = /^README$/i.test(slug);
         const md = fs.readFileSync(path.join(srcDir, file), 'utf8');
-        let bodyHtml = marked.parse(md);
+        // Ensure a blank line before `---` separators so they render as
+        // horizontal rules, not as setext-style h2 underlines.
+        const preprocessed = md.replace(/([^\n])\n---\s*$/gm, '$1\n\n---');
+        let bodyHtml = marked.parse(preprocessed);
+
         // Rewrite internal .md links for the static site:
-        //   README.md   → index.html  (our per-language home)
+        //   README.md   → index.html  (per-language home)
         //   anything.md → anything.html
         bodyHtml = bodyHtml.replace(
             /href="(?!https?:\/\/|mailto:|#)([^"#]+)\.md(#[^"]*)?"/g,
@@ -412,14 +483,44 @@ function buildLang(lang) {
                 return `href="${target}.html${anchor || ''}"`;
             }
         );
+
+        // Rewrite GitHub "blob" links to local site paths:
+        //   .../blob/english/questions-001-050.md → ./questions-001-050.html (same lang)
+        //                                       or → ../en/... (cross lang)
+        //   .../blob/urdu/README.md              → ../ur/index.html   etc.
+        bodyHtml = bodyHtml.replace(
+            /href="https?:\/\/github\.com\/[^/]+\/[^/"]+\/blob\/(english|urdu)\/([^"#]+)\.md(#[^"]*)?"/g,
+            (match, branch, name, anchor) => {
+                const branchCode = branch === 'english' ? 'en' : 'ur';
+                const target = /^README$/i.test(name) ? 'index' : name;
+                const path = branchCode === lang
+                    ? `./${target}.html`
+                    : `../${branchCode}/${target}.html`;
+                return `href="${path}${anchor || ''}"`;
+            }
+        );
+
+        if (isReadme) {
+            // Strip the "Support This Project" section from the README — our footer
+            // adds its own support CTA on every page, so we avoid duplication here.
+            bodyHtml = bodyHtml.replace(/<h2[^>]*>[^<]*Support[^<]*<\/h2>[\s\S]*$/i, '');
+            // README content becomes the index page body — don't emit README.html
+            readmeHtml = bodyHtml;
+            continue;
+        }
+
+        const title = (TITLES[lang][slug]) || slug;
         const html = renderPage({ lang, title, bodyHtml, slug });
         fs.writeFileSync(path.join(outDir, `${slug}.html`), html);
         slugs.push(slug);
         console.log(`  ✓ ${lang}/${slug}.html`);
     }
 
-    // Write per-language index
-    fs.writeFileSync(path.join(outDir, 'index.html'), renderIndex({ lang, slugs }));
+    // Per-language index: prefer README content, fall back to auto-generated list
+    const indexHtml = readmeHtml
+        ? renderPage({ lang, title: UI[lang].siteTitle, bodyHtml: readmeHtml, slug: 'index' })
+        : renderIndex({ lang, slugs });
+    fs.writeFileSync(path.join(outDir, 'index.html'), indexHtml);
     console.log(`  ✓ ${lang}/index.html`);
 }
 

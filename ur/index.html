@@ -118,10 +118,61 @@
             color: var(--muted-text);
         }
         footer {
-            text-align: center;
-            padding: 2rem 1rem;
+            margin-top: 3rem;
+            padding: 2.5rem 1rem 2rem;
+            background: var(--card-bg);
+            border-top: 1px solid var(--border);
             color: var(--muted-text);
-            font-size: 0.875rem;
+            font-size: 0.95rem;
+        }
+        footer .support-box {
+            max-width: 640px;
+            margin: 0 auto 1.5rem;
+            padding: 1.5rem;
+            background: linear-gradient(135deg, #fef3c7, #fde68a);
+            border: 1px solid #f59e0b;
+            border-radius: 0.75rem;
+            text-align: center;
+            color: #1f2937;
+        }
+        [data-bs-theme="dark"] footer .support-box {
+            background: linear-gradient(135deg, #78350f, #92400e);
+            border-color: #b45309;
+            color: #fef3c7;
+        }
+        footer .support-box h3 {
+            margin-top: 0;
+            margin-bottom: 0.5rem;
+            font-size: 1.15rem;
+            font-weight: 700;
+        }
+        footer .support-box p {
+            margin-bottom: 1rem;
+            font-size: 0.95rem;
+        }
+        footer .btn-pill {
+            display: inline-block;
+            padding: 0.5rem 1.25rem;
+            border-radius: 999px;
+            font-weight: 600;
+            text-decoration: none;
+            margin: 0.25rem;
+            border: 1px solid transparent;
+            font-size: 0.9rem;
+        }
+        footer .btn-paypal {
+            background: #0070ba;
+            color: #fff;
+        }
+        footer .btn-paypal:hover { background: #005a96; color: #fff; }
+        footer .btn-github {
+            background: transparent;
+            color: var(--page-text);
+            border-color: var(--border);
+        }
+        footer .btn-github:hover {
+            background: var(--page-text);
+            color: var(--page-bg);
         }
         footer a { text-decoration: none; }
         .back-to-top {
@@ -165,45 +216,376 @@
     <main>
         <p><a href="../index.html?stay">زبان تبدیل کریں →</a></p>
         <article class="content-card">
-            
-        <h1>جرمن شہریت کا امتحان</h1>
-        <p class="lead" style="color: var(--muted-text);">انبیورگرونگس ٹیسٹ کے تمام 300 سوالات</p>
+            <h1>🇩🇪 جرمن شہریت کا امتحان — اردو ترجمے کے ساتھ</h1>
+<blockquote>
+<p>⭐ اگر اس نے آپ کے امتحان میں مدد کی تو <a href="https://github.com/abdullahbutt/german-citizenship-test-english-urdu">اس ریپو کو اسٹار کریں</a> — اس سے دوسروں کو تلاش میں مدد ملتی ہے!</p>
+</blockquote>
+<blockquote>
+<p>🇬🇧 For English version — <a href="../en/index.html">English Branch</a></p>
+</blockquote>
+<blockquote>
+<p><strong>Leben in Deutschland / Einbürgerungstest</strong> کے تمام <strong>300 عمومی + 160 ریاستی سوالات</strong> سرکاری <strong>BAMF</strong> کے سوالات کے مجموعے سے، اردو ترجمے، ✅ درست جوابات، اور تفصیلی وضاحت کے ساتھ۔</p>
+</blockquote>
+<p>سرکاری BAMF کیٹلاگ (مورخہ: 07.05.2025) پر مبنی۔</p>
+<blockquote>
+<p>⚠️ <strong>اہم:</strong> موجودہ عہدیداروں (چانسلر، وزرائے اعلیٰ) کے بارے میں سوالات انتخابات کے ساتھ بدلتے ہیں — امتحان سے پہلے ہمیشہ <a href="https://www.bamf.de">BAMF ویب سائٹ</a> پر تصدیق کریں۔</p>
+</blockquote>
+<hr>
+<h2>🚀 شروع کہاں سے کریں؟</h2>
+<p>نئے ہیں؟ پہلے <a href="questions-001-050.html">سوالات 1–50</a> سے شروع کریں، پھر نیچے اپنی ریاست کی فائل منتخب کریں۔</p>
+<hr>
+<h2>📋 امتحان کے بارے میں</h2>
+<table>
+<thead>
+<tr>
+<th>تفصیل</th>
+<th>معلومات</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>سرکاری نام</strong></td>
+<td>Test &quot;Leben in Deutschland&quot; / Einbürgerungstest</td>
+</tr>
+<tr>
+<td><strong>امتحان میں سوالات</strong></td>
+<td>33 (کل 460 میں سے)</td>
+</tr>
+<tr>
+<td><strong>وقت</strong></td>
+<td>60 منٹ</td>
+</tr>
+<tr>
+<td><strong>کامیابی</strong></td>
+<td>33 میں سے 17 درست</td>
+</tr>
+<tr>
+<td><strong>فیس</strong></td>
+<td>€25 فی کوشش</td>
+</tr>
+<tr>
+<td><strong>شکل</strong></td>
+<td>ایک سے زیادہ انتخاب — 4 اختیارات، 1 درست</td>
+</tr>
+<tr>
+<td><strong>ریاستی سوالات</strong></td>
+<td>33 میں سے 3 آپ کی ریاست (Bundesland) سے متعلق ہوتے ہیں</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>📑 عمومی سوالات (1–300)</h2>
+<table>
+<thead>
+<tr>
+<th>فائل</th>
+<th>سوالات</th>
+<th>موضوعات</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="questions-001-050.html">سوالات 1–50</a></td>
+<td>1–50</td>
+<td>بنیادی حقوق، جمہوریت، ریاستی ڈھانچہ</td>
+</tr>
+<tr>
+<td><a href="questions-051-100.html">سوالات 51–100</a></td>
+<td>51–100</td>
+<td>سیاسی نظام، پارٹیاں، انتخابات</td>
+</tr>
+<tr>
+<td><a href="questions-101-150.html">سوالات 101–150</a></td>
+<td>101–150</td>
+<td>قانونی نظام، حکومت، یورپی یونین</td>
+</tr>
+<tr>
+<td><a href="questions-151-200.html">سوالات 151–200</a></td>
+<td>151–200</td>
+<td>تاریخ: نازی دور، دوسری جنگ عظیم، سرد جنگ</td>
+</tr>
+<tr>
+<td><a href="questions-201-250.html">سوالات 201–250</a></td>
+<td>201–250</td>
+<td>دوبارہ اتحاد، ثقافت، جغرافیہ</td>
+</tr>
+<tr>
+<td><a href="questions-251-300.html">سوالات 251–300</a></td>
+<td>251–300</td>
+<td>معاشرہ، مذہب، روزمرہ زندگی</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>🗺️ ریاستی سوالات (301–310)</h2>
+<p>اپنی ریاست (Bundesland) منتخب کریں — ہر ایک میں دارالحکومت، نشان، وزیراعلیٰ، جغرافیہ اور تاریخ کے بارے میں 10 اضافی سوالات ہیں۔</p>
+<table>
+<thead>
+<tr>
+<th>ریاست</th>
+<th>انگریزی نام</th>
+<th>دارالحکومت</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="baden-wuerttemberg.html">Baden-Württemberg</a></td>
+<td>بادن ورٹمبرگ</td>
+<td>Stuttgart</td>
+</tr>
+<tr>
+<td><a href="bayern.html">Bayern</a></td>
+<td>بویریا</td>
+<td>München</td>
+</tr>
+<tr>
+<td><a href="berlin.html">Berlin</a></td>
+<td>برلن</td>
+<td>Berlin</td>
+</tr>
+<tr>
+<td><a href="brandenburg.html">Brandenburg</a></td>
+<td>برانڈنبرگ</td>
+<td>Potsdam</td>
+</tr>
+<tr>
+<td><a href="bremen.html">Bremen</a></td>
+<td>بریمن</td>
+<td>Bremen</td>
+</tr>
+<tr>
+<td><a href="hamburg.html">Hamburg</a></td>
+<td>ہیمبرگ</td>
+<td>Hamburg</td>
+</tr>
+<tr>
+<td><a href="hessen.html">Hessen</a></td>
+<td>ہیسن</td>
+<td>Wiesbaden</td>
+</tr>
+<tr>
+<td><a href="mecklenburg-vorpommern.html">Mecklenburg-Vorpommern</a></td>
+<td>میکلنبرگ</td>
+<td>Schwerin</td>
+</tr>
+<tr>
+<td><a href="niedersachsen.html">Niedersachsen</a></td>
+<td>زیریں سیکسنی</td>
+<td>Hannover</td>
+</tr>
+<tr>
+<td><a href="nordrhein-westfalen.html">Nordrhein-Westfalen</a></td>
+<td>شمالی رائن ویسٹ فالیا</td>
+<td>Düsseldorf</td>
+</tr>
+<tr>
+<td><a href="rheinland-pfalz.html">Rheinland-Pfalz</a></td>
+<td>رائن لینڈ فالز</td>
+<td>Mainz</td>
+</tr>
+<tr>
+<td><a href="saarland.html">Saarland</a></td>
+<td>سارلینڈ</td>
+<td>Saarbrücken</td>
+</tr>
+<tr>
+<td><a href="sachsen.html">Sachsen</a></td>
+<td>سیکسنی</td>
+<td>Dresden</td>
+</tr>
+<tr>
+<td><a href="sachsen-anhalt.html">Sachsen-Anhalt</a></td>
+<td>سیکسنی انہالٹ</td>
+<td>Magdeburg</td>
+</tr>
+<tr>
+<td><a href="schleswig-holstein.html">Schleswig-Holstein</a></td>
+<td>شلیسوگ ہولسٹائن</td>
+<td>Kiel</td>
+</tr>
+<tr>
+<td><a href="thueringen.html">Thüringen</a></td>
+<td>تھورنگیا</td>
+<td>Erfurt</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>🖼️ تصاویر والے سوالات</h2>
+<p>کچھ سوالات میں تصاویر شامل ہیں (نشانات، نقشے، جھنڈے)۔ اصل تصاویر دیکھنے کے لیے <a href="https://oet.bamf.de/ords/oetut/f?p=514:1:0">BAMF انٹرایکٹو ٹیسٹ سینٹر</a> استعمال کریں۔</p>
+<p><strong>تصاویر والے عمومی سوالات:</strong></p>
+<table>
+<thead>
+<tr>
+<th>سوال</th>
+<th>تصویر میں</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>سوال 21</td>
+<td>4 نشانات — جرمنی کا نشان پہچانیں (سنہرے پس منظر پر سیاہ عقاب)</td>
+</tr>
+<tr>
+<td>سوال 160</td>
+<td>جرمنی کا نقشہ — مشرقی/مغربی تقسیم</td>
+</tr>
+<tr>
+<td>سوال 163</td>
+<td>جرمنی کی سرحدوں کا نقشہ</td>
+</tr>
+<tr>
+<td>سوال 177</td>
+<td>برلن کا نقشہ — 4 اتحادی علاقوں میں تقسیم</td>
+</tr>
+<tr>
+<td>سوال 195</td>
+<td>تقسیم شدہ جرمنی / قبضے کے علاقوں کا نقشہ</td>
+</tr>
+</tbody></table>
+<p><strong>ریاستی تصاویر والے سوالات (ہر ریاست):</strong></p>
+<table>
+<thead>
+<tr>
+<th>سوال</th>
+<th>تصویر میں</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>سوال 301</td>
+<td>4 نشانات — اپنی ریاست کا نشان پہچانیں</td>
+</tr>
+<tr>
+<td>سوال 302</td>
+<td>جرمنی کا نقشہ — کون سی ریاست نمایاں ہے</td>
+</tr>
+<tr>
+<td>سوال 304</td>
+<td>نمبر والا نقشہ — اپنی ریاست کا نمبر پہچانیں</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>🆕 تازہ ترین سوالات (جولائی 2024)</h2>
+<p>10 سوالات کو نئے سوالات سے بدل دیا گیا جو <strong>جرمنی میں یہودی زندگی، اسرائیل کے وجود کا حق، اور سام دشمنی</strong> سے متعلق ہیں (7 اکتوبر 2023 کے واقعات کے جواب میں)۔ ان پر فائلوں میں <em>(جولائی 2024 میں تازہ کاری)</em> کا نشان لگا ہے:</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>نیا موضوع</th>
+<th>درست جواب</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>سوال 14</td>
+<td>اظہار رائے کی حدود (اب حماس/داعش کی علامات کا ذکر)</td>
+<td>انٹرنیٹ پر رائے کا اظہار کر سکتے ہیں</td>
+</tr>
+<tr>
+<td>سوال 59</td>
+<td>جرمنی کی سب سے بڑی یہودی جماعتیں</td>
+<td>برلن اور میونخ</td>
+</tr>
+<tr>
+<td>سوال 66</td>
+<td>جرمنی میں یہودی زندگی کب سے ہے؟</td>
+<td>1,700 سال سے زیادہ</td>
+</tr>
+<tr>
+<td>سوال 96</td>
+<td>ہولوکاسٹ سے انکار کی سزا</td>
+<td>5 سال تک قید یا جرمانہ</td>
+</tr>
+<tr>
+<td>سوال 111</td>
+<td>اسرائیل کے حوالے سے ممنوعہ اعمال</td>
+<td>اسرائیل کی تباہی کا عوامی مطالبہ</td>
+</tr>
+<tr>
+<td>سوال 118</td>
+<td>مکابی کھیل کلبوں کا رکن کون بن سکتا ہے؟</td>
+<td>تمام لوگ</td>
+</tr>
+<tr>
+<td>سوال 149</td>
+<td>سام دشمنی کی مثال</td>
+<td>ہولوکاسٹ سے انکار</td>
+</tr>
+<tr>
+<td>سوال 182</td>
+<td>یہودی عبادت گاہ کا نام</td>
+<td>عبادت خانہ (Synagoge)</td>
+</tr>
+<tr>
+<td>سوال 184</td>
+<td>اسرائیل کی قانونی بنیاد</td>
+<td>اقوام متحدہ کی قرارداد</td>
+</tr>
+<tr>
+<td>سوال 206</td>
+<td>&quot;Stolpersteine&quot; کس کی یاد میں ہیں؟</td>
+<td>نازی دور کے متاثرین</td>
+</tr>
+<tr>
+<td>سوال 288</td>
+<td>جرمنی کی اسرائیل کے لیے خاص ذمہ داری</td>
+<td>نازی جرائم</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>📖 یہ رہنما کیسے پڑھیں</h2>
+<p>ہر سوال اس شکل میں ہے:</p>
+<blockquote>
+<h3>سوال X</h3>
+<p><strong>🇩🇪</strong> جرمن سوال
+<strong>🇵🇰</strong> اردو ترجمہ</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>جرمن</th>
+<th>اردو</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>○</td>
+<td>غلط جواب</td>
+<td>اردو</td>
+</tr>
+<tr>
+<td>✅</td>
+<td><strong>درست جواب</strong></td>
+<td><strong>اردو</strong></td>
+</tr>
+<tr>
+<td>○</td>
+<td>غلط جواب</td>
+<td>اردو</td>
+</tr>
+<tr>
+<td>○</td>
+<td>غلط جواب</td>
+<td>اردو</td>
+</tr>
+</tbody></table>
+<p><strong>📝</strong> تاریخی پس منظر کے ساتھ وضاحت۔</p>
+</blockquote>
+<hr>
+<h2>🔗 سرکاری وسائل</h2>
+<ul>
+<li><a href="https://www.bamf.de/SharedDocs/Anlagen/DE/Integration/Einbuergerung/gesamtfragenkatalog-lebenindeutschland.pdf">BAMF سرکاری سوالات (PDF)</a></li>
+<li><a href="https://oet.bamf.de/ords/oetut/f?p=512:1::::::">BAMF آن لائن ٹیسٹ سینٹر</a></li>
+</ul>
+<hr>
+<h2>📄 لائسنس</h2>
+<p>عوامی طور پر دستیاب جرمن حکومتی امتحانی مواد پر مبنی۔ ترجمے اور وضاحتیں تعلیمی استعمال کے لیے آزادانہ فراہم کی گئی ہیں۔</p>
+<hr>
+<h2>☕ اس پروجیکٹ کی مدد کریں</h2>
+<p>یہ پروجیکٹ مکمل طور پر مفت اور اوپن سورس ہے۔ اگر اس نے آپ کے امتحان میں مدد کی تو آپ چاہیں تو مجھے ایک کافی پلا سکتے ہیں — کوئی مجبوری نہیں! ☕</p>
+<p><a href="https://paypal.me/abdullahbuttde"><img src="https://img.shields.io/badge/Donate-PayPal-blue.svg" alt="عطیہ"></a></p>
 
-        <h2>سوالات</h2>
-        <ul>
-        <li><a href="./questions-001-050.html">سوالات 1–50</a></li>
-        <li><a href="./questions-051-100.html">سوالات 51–100</a></li>
-        <li><a href="./questions-101-150.html">سوالات 101–150</a></li>
-        <li><a href="./questions-151-200.html">سوالات 151–200</a></li>
-        <li><a href="./questions-201-250.html">سوالات 201–250</a></li>
-        <li><a href="./questions-251-300.html">سوالات 251–300</a></li>
-        </ul>
-
-        <h2>ریاستی سوالات</h2>
-        <ul>
-        <li><a href="./baden-wuerttemberg.html">باڈن ورٹمبرگ</a></li>
-        <li><a href="./bayern.html">باویریا</a></li>
-        <li><a href="./berlin.html">برلن</a></li>
-        <li><a href="./brandenburg.html">برانڈنبرگ</a></li>
-        <li><a href="./bremen.html">بریمن</a></li>
-        <li><a href="./hamburg.html">ہیمبرگ</a></li>
-        <li><a href="./hessen.html">ہیسن</a></li>
-        <li><a href="./mecklenburg-vorpommern.html">میکلنبرگ-فورپومرن</a></li>
-        <li><a href="./niedersachsen.html">نیڈرزاخسن</a></li>
-        <li><a href="./nordrhein-westfalen.html">نارڈرائن ویسٹ فالن</a></li>
-        <li><a href="./rheinland-pfalz.html">رائن لینڈ-فالز</a></li>
-        <li><a href="./saarland.html">زارلینڈ</a></li>
-        <li><a href="./sachsen.html">زاخسن</a></li>
-        <li><a href="./sachsen-anhalt.html">زاخسن-انہالٹ</a></li>
-        <li><a href="./schleswig-holstein.html">شلیسوگ-ہولسٹائن</a></li>
-        <li><a href="./thueringen.html">تھیورنگن</a></li>
-        </ul>
-    
         </article>
     </main>
 
     <footer>
-        <a href="https://github.com/abdullahbutt/german-citizenship-test-english-urdu" target="_blank" rel="noopener">GitHub پر دیکھیں</a>
+        <div class="support-box">
+            <h3>☕ اس پروجیکٹ کی مدد کریں</h3>
+            <p>یہ پروجیکٹ مکمل طور پر مفت اور اوپن سورس ہے۔ اگر اس نے آپ کو امتحان پاس کرنے میں مدد کی، تو آپ مجھے ایک کافی خرید سکتے ہیں — کوئی ذمہ داری نہیں!</p>
+            <a class="btn-pill btn-paypal" href="https://paypal.me/abdullahbuttde" target="_blank" rel="noopener">PayPal کے ذریعے عطیہ</a>
+            <a class="btn-pill btn-github" href="https://github.com/abdullahbutt/german-citizenship-test-english-urdu" target="_blank" rel="noopener">⭐ GitHub پر اسٹار کریں</a>
+        </div>
     </footer>
 
     <button class="back-to-top" id="backToTop" aria-label="اوپر جائیں" title="اوپر جائیں">↑</button>
