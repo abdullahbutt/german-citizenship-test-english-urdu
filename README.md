@@ -1,3 +1,11 @@
+> <div align="center">
+
+[![GitHub Stars](https://img.shields.io/github/stars/abdullahbutt/german-citizenship-test-english-urdu?style=for-the-badge&logo=github&label=Star%20this%20Repo)](https://github.com/abdullahbutt/german-citizenship-test-english-urdu)
+&nbsp;&nbsp;
+[![View Website](https://img.shields.io/badge/🌐_View_as_Website-Click_Here-blue?style=for-the-badge)](https://abdullahbutt.github.io/german-citizenship-test-english-urdu/)
+
+</div>
+
 > ⭐ If this helped you pass your test, [please star this repo](https://github.com/abdullahbutt/german-citizenship-test-english-urdu) — it helps others find it!
 
 # 🇩🇪 German Citizenship Test — with English Translations
