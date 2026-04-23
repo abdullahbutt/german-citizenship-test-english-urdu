@@ -1,0 +1,12 @@
+{
+  "name": "german-citizenship-test-site-builder",
+  "version": "1.0.0",
+  "description": "Builds the bilingual static site from English and Urdu markdown branches.",
+  "private": true,
+  "scripts": {
+    "build": "node build.js"
+  },
+  "dependencies": {
+    "marked": "^12.0.2"
+  }
+}
