@@ -361,7 +361,14 @@ function buildLang(lang) {
         const slug = slugFromFile(file);
         const title = (TITLES[lang][slug]) || slug;
         const md = fs.readFileSync(path.join(srcDir, file), 'utf8');
-        const bodyHtml = marked.parse(md);
+        let bodyHtml = marked.parse(md);
+        bodyHtml = bodyHtml.replace(
+            /href="(?!https?:\/\/|mailto:|#)([^"#]+)\.md(#[^"]*)?"/g,
+            (match, name, anchor) => {
+                const target = /^README$/i.test(name) ? 'index' : name;
+                return `href="${target}.html${anchor || ''}"`;
+            }
+        );
         const html = renderPage({ lang, title, bodyHtml, slug });
         fs.writeFileSync(path.join(outDir, `${slug}.html`), html);
         slugs.push(slug);
