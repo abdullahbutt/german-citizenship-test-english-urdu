@@ -92,6 +92,8 @@ const UI = {
         home: 'Home',
         switchTo: 'اردو',
         back: '← Back to home',
+        changeLang: '← Change language',
+        backToTop: 'Back to top',
         pickerHint: 'Change language',
         questionsHeading: 'Questions',
         statesHeading: 'Federal state questions',
@@ -103,6 +105,8 @@ const UI = {
         home: 'ہوم',
         switchTo: 'English',
         back: 'ہوم پر واپس →',
+        changeLang: 'زبان تبدیل کریں →',
+        backToTop: 'اوپر جائیں',
         pickerHint: 'زبان تبدیل کریں',
         questionsHeading: 'سوالات',
         statesHeading: 'ریاستی سوالات',
@@ -251,6 +255,31 @@ function renderPage({ lang, title, bodyHtml, slug }) {
             font-size: 0.875rem;
         }
         footer a { text-decoration: none; }
+        .back-to-top {
+            position: fixed;
+            bottom: 1.5rem;
+            ${dir === 'rtl' ? 'left' : 'right'}: 1.5rem;
+            width: 3rem;
+            height: 3rem;
+            border-radius: 50%;
+            background: var(--primary);
+            color: #fff;
+            border: 0;
+            font-size: 1.25rem;
+            box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+            opacity: 0;
+            pointer-events: none;
+            transform: translateY(0.5rem);
+            transition: opacity 0.2s ease, transform 0.2s ease, background 0.2s ease;
+            z-index: 1040;
+        }
+        .back-to-top.visible {
+            opacity: 1;
+            pointer-events: auto;
+            transform: translateY(0);
+        }
+        .back-to-top:hover { background: var(--primary-hover); }
     </style>
 </head>
 <body>
@@ -265,7 +294,7 @@ function renderPage({ lang, title, bodyHtml, slug }) {
     </nav>
 
     <main>
-        <p><a href="./index.html">${escapeHtml(ui.back)}</a></p>
+        <p><a href="${slug === 'index' ? '../index.html?stay' : './index.html'}">${escapeHtml(slug === 'index' ? ui.changeLang : ui.back)}</a></p>
         <article class="content-card">
             ${bodyHtml}
         </article>
@@ -274,6 +303,8 @@ function renderPage({ lang, title, bodyHtml, slug }) {
     <footer>
         <a href="${GITHUB_URL}" target="_blank" rel="noopener">${escapeHtml(ui.sourceOnGithub)}</a>
     </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="${escapeHtml(ui.backToTop)}" title="${escapeHtml(ui.backToTop)}">↑</button>
 
     <script>
         const root = document.documentElement;
@@ -285,6 +316,15 @@ function renderPage({ lang, title, bodyHtml, slug }) {
             const next = root.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
             root.setAttribute('data-bs-theme', next);
             try { localStorage.setItem('theme', next); } catch (e) {}
+        });
+
+        // Back-to-top button
+        const btt = document.getElementById('backToTop');
+        const toggleBtt = () => btt.classList.toggle('visible', window.scrollY > 300);
+        window.addEventListener('scroll', toggleBtt, { passive: true });
+        toggleBtt();
+        btt.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
         });
     </script>
 </body>
@@ -362,6 +402,9 @@ function buildLang(lang) {
         const title = (TITLES[lang][slug]) || slug;
         const md = fs.readFileSync(path.join(srcDir, file), 'utf8');
         let bodyHtml = marked.parse(md);
+        // Rewrite internal .md links for the static site:
+        //   README.md   → index.html  (our per-language home)
+        //   anything.md → anything.html
         bodyHtml = bodyHtml.replace(
             /href="(?!https?:\/\/|mailto:|#)([^"#]+)\.md(#[^"]*)?"/g,
             (match, name, anchor) => {
