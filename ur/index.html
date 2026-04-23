@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>جرمن شہریت کا امتحان · جرمن شہریت کا امتحان</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --page-bg: #f5f7fb;
+            --page-text: #1f2937;
+            --muted-text: #475569;
+            --card-bg: #ffffff;
+            --card-shadow: 0 0.5rem 1.5rem rgba(15, 23, 42, 0.08);
+            --primary: #1d4ed8;
+            --primary-hover: #1e40af;
+            --border: #e5e7eb;
+            --table-stripe: #f8fafc;
+            --table-hover: #eaf3ff;
+        }
+        [data-bs-theme="dark"] {
+            --page-bg: #0b1121;
+            --page-text: #e2e8f0;
+            --muted-text: #94a3b8;
+            --card-bg: #111827;
+            --card-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.45);
+            --primary: #3b82f6;
+            --primary-hover: #2563eb;
+            --border: #1f2937;
+            --table-stripe: #172033;
+            --table-hover: #1f2a44;
+        }
+        body {
+            background: var(--page-bg);
+            color: var(--page-text);
+            font-family: 'Noto Nastaliq Urdu', 'Inter', serif; line-height: 2;
+        }
+        .site-nav {
+            background: var(--card-bg);
+            border-bottom: 1px solid var(--border);
+            padding: 0.75rem 1rem;
+            position: sticky;
+            top: 0;
+            z-index: 1030;
+        }
+        .site-nav .brand {
+            font-weight: 800;
+            color: var(--page-text);
+            text-decoration: none;
+        }
+        .nav-actions { display: flex; gap: 0.5rem; align-items: center; }
+        .nav-actions .btn-lang, .nav-actions .btn-theme {
+            background: transparent;
+            border: 1px solid var(--border);
+            color: var(--page-text);
+            border-radius: 999px;
+            padding: 0.35rem 0.9rem;
+            font-size: 0.875rem;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .nav-actions .btn-lang:hover, .nav-actions .btn-theme:hover {
+            background: var(--primary);
+            color: #fff;
+            border-color: var(--primary);
+        }
+        main {
+            max-width: 960px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .content-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 1rem;
+            box-shadow: var(--card-shadow);
+            padding: clamp(1.25rem, 3vw, 2.5rem);
+        }
+        h1, h2, h3, h4 {
+            color: var(--page-text);
+            font-weight: 700;
+        }
+        h1 { margin-bottom: 1.25rem; }
+        h2 { margin-top: 2rem; margin-bottom: 1rem; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0 1.5rem;
+            background: var(--card-bg);
+        }
+        table th, table td {
+            padding: 0.75rem 1rem;
+            border: 1px solid var(--border);
+            vertical-align: top;
+        }
+        table th {
+            background: var(--primary);
+            color: #fff;
+            text-align: right;
+        }
+        table tr:nth-child(even) td { background: var(--table-stripe); }
+        table tr:hover td { background: var(--table-hover); }
+        code {
+            background: var(--table-stripe);
+            padding: 0.15rem 0.4rem;
+            border-radius: 0.25rem;
+            color: var(--primary);
+        }
+        a { color: var(--primary); }
+        a:hover { color: var(--primary-hover); }
+        blockquote {
+            border-right: 4px solid var(--primary);
+            margin: 1rem 0;
+            padding: 0.5rem 1rem;
+            background: var(--table-stripe);
+            color: var(--muted-text);
+        }
+        footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            color: var(--muted-text);
+            font-size: 0.875rem;
+        }
+        footer a { text-decoration: none; }
+    </style>
+</head>
+<body>
+    <nav class="site-nav">
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+            <a class="brand" href="./index.html">جرمن شہریت کا امتحان</a>
+            <div class="nav-actions">
+                <a class="btn-lang" href="../en/index.html" title="زبان تبدیل کریں">English</a>
+                <button class="btn-theme" id="themeToggle" aria-label="Toggle theme">🌓</button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <p><a href="./index.html">ہوم پر واپس →</a></p>
+        <article class="content-card">
+            
+        <h1>جرمن شہریت کا امتحان</h1>
+        <p class="lead" style="color: var(--muted-text);">انبیورگرونگس ٹیسٹ کے تمام 300 سوالات</p>
+
+        <h2>سوالات</h2>
+        <ul>
+        <li><a href="./questions-001-050.html">سوالات 1–50</a></li>
+        <li><a href="./questions-051-100.html">سوالات 51–100</a></li>
+        <li><a href="./questions-101-150.html">سوالات 101–150</a></li>
+        <li><a href="./questions-151-200.html">سوالات 151–200</a></li>
+        <li><a href="./questions-201-250.html">سوالات 201–250</a></li>
+        <li><a href="./questions-251-300.html">سوالات 251–300</a></li>
+        </ul>
+
+        <h2>ریاستی سوالات</h2>
+        <ul>
+        <li><a href="./baden-wuerttemberg.html">باڈن ورٹمبرگ</a></li>
+        <li><a href="./bayern.html">باویریا</a></li>
+        <li><a href="./berlin.html">برلن</a></li>
+        <li><a href="./brandenburg.html">برانڈنبرگ</a></li>
+        <li><a href="./bremen.html">بریمن</a></li>
+        <li><a href="./hamburg.html">ہیمبرگ</a></li>
+        <li><a href="./hessen.html">ہیسن</a></li>
+        <li><a href="./mecklenburg-vorpommern.html">میکلنبرگ-فورپومرن</a></li>
+        <li><a href="./niedersachsen.html">نیڈرزاخسن</a></li>
+        <li><a href="./nordrhein-westfalen.html">نارڈرائن ویسٹ فالن</a></li>
+        <li><a href="./rheinland-pfalz.html">رائن لینڈ-فالز</a></li>
+        <li><a href="./saarland.html">زارلینڈ</a></li>
+        <li><a href="./sachsen.html">زاخسن</a></li>
+        <li><a href="./sachsen-anhalt.html">زاخسن-انہالٹ</a></li>
+        <li><a href="./schleswig-holstein.html">شلیسوگ-ہولسٹائن</a></li>
+        <li><a href="./thueringen.html">تھیورنگن</a></li>
+        </ul>
+    
+        </article>
+    </main>
+
+    <footer>
+        <a href="https://github.com/abdullahbutt/german-citizenship-test-english-urdu" target="_blank" rel="noopener">GitHub پر دیکھیں</a>
+    </footer>
+
+    <script>
+        const root = document.documentElement;
+        try {
+            const saved = localStorage.getItem('theme');
+            if (saved) root.setAttribute('data-bs-theme', saved);
+        } catch (e) {}
+        document.getElementById('themeToggle').addEventListener('click', () => {
+            const next = root.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+            root.setAttribute('data-bs-theme', next);
+            try { localStorage.setItem('theme', next); } catch (e) {}
+        });
+    </script>
+</body>
+</html>
