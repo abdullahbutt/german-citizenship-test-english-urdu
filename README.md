@@ -4,7 +4,7 @@
 
 [![GitHub Stars](https://img.shields.io/github/stars/abdullahbutt/german-citizenship-test-english-urdu?style=for-the-badge&logo=github&label=Star%20this%20Repo)](https://github.com/abdullahbutt/german-citizenship-test-english-urdu)
 &nbsp;&nbsp;
-[![View Website](https://img.shields.io/badge/🌐_ویب_سائٹ_دیکھیں-یہاں_کلک_کریں-blue?style=for-the-badge)](https://abdullahbutt.github.io/german-citizenship-test-english-urdu/)
+[![ویب سائٹ دیکھیں](https://img.shields.io/badge/%F0%9F%8C%90-Visit%20Website-blue?style=for-the-badge)](https://abdullahbutt.github.io/german-citizenship-test-english-urdu/)
 
 </div>
 
