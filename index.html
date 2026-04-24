@@ -109,13 +109,35 @@
             color: var(--text);
         }
         footer {
-            text-align: center;
-            padding: 1.5rem;
+            margin-top: auto;
+            padding: 1.5rem 1rem;
+            background: var(--card-bg);
+            border-top: 1px solid var(--border);
             color: var(--muted);
-            font-size: 0.875rem;
+            font-size: 0.85rem;
         }
-        footer a { color: var(--primary); text-decoration: none; }
-        footer a:hover { text-decoration: underline; }
+        .foot-inner {
+            max-width: 720px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem 1rem;
+            align-items: center;
+            justify-content: center;
+        }
+        .foot-inner a {
+            color: var(--muted);
+            text-decoration: none;
+            border: 1px solid var(--border);
+            padding: 0.3rem 0.75rem;
+            border-radius: 0.4rem;
+            font-size: 0.82rem;
+        }
+        .foot-inner a:hover {
+            background: var(--primary);
+            color: #fff;
+            border-color: var(--primary);
+        }
     </style>
 </head>
 <body>
@@ -144,7 +166,12 @@
     </main>
 
     <footer>
-        <a href="https://github.com/abdullahbutt/german-citizenship-test-english-urdu" target="_blank" rel="noopener">View on GitHub</a>
+        <div class="foot-inner">
+            <a href="https://www.bamf.de/SharedDocs/Anlagen/DE/Integration/Einbuergerung/gesamtfragenkatalog-lebenindeutschland.html" target="_blank" rel="noopener">BAMF Question Catalog ↗</a>
+            <a href="https://oet.bamf.de/ords/oetut/f?p=514:1::::::" target="_blank" rel="noopener">BAMF Test Center ↗</a>
+            <a href="https://github.com/abdullahbutt/german-citizenship-test-english-urdu" target="_blank" rel="noopener">⭐ Star on GitHub</a>
+            <a href="https://paypal.me/abdullahbuttde" target="_blank" rel="noopener">☕ Support</a>
+        </div>
     </footer>
 
     <script>

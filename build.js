@@ -100,10 +100,13 @@ const UI = {
         statesHeading: 'Federal state questions',
         tagline: 'All 300 questions for the Einbürgerungstest',
         sourceOnGithub: 'View on GitHub',
-        supportHeading: '☕ Support This Project',
-        supportText: 'This project is completely free and open source. If it helped you pass your test, you can optionally buy me a coffee — no obligation at all!',
-        donateLabel: 'Donate via PayPal',
+        footerTagline: '🇩🇪 German Citizenship Test — with English & Urdu',
+        footerSubtag: 'Prepare for the Einbürgerungstest / Leben in Deutschland',
+        bamfCatalog: 'BAMF Question Catalog ↗',
+        bamfTestCenter: 'BAMF Test Center ↗',
         starLabel: '⭐ Star on GitHub',
+        supportBtn: '☕ Support',
+        lastUpdated: 'Last updated',
     },
     ur: {
         siteTitle: 'جرمن شہریت کا امتحان',
@@ -117,15 +120,21 @@ const UI = {
         statesHeading: 'ریاستی سوالات',
         tagline: 'انبیورگرونگس ٹیسٹ کے تمام 300 سوالات',
         sourceOnGithub: 'GitHub پر دیکھیں',
-        supportHeading: '☕ اس پروجیکٹ کی مدد کریں',
-        supportText: 'یہ پروجیکٹ مکمل طور پر مفت اور اوپن سورس ہے۔ اگر اس نے آپ کو امتحان پاس کرنے میں مدد کی، تو آپ مجھے ایک کافی خرید سکتے ہیں — کوئی ذمہ داری نہیں!',
-        donateLabel: 'PayPal کے ذریعے عطیہ',
+        footerTagline: '🇩🇪 جرمن شہریت کا امتحان — انگریزی اور اردو کے ساتھ',
+        footerSubtag: 'انبیورگرونگس ٹیسٹ / لیبن اِن ڈوئچ لینڈ کی تیاری',
+        bamfCatalog: 'BAMF سوالات ↗',
+        bamfTestCenter: 'BAMF ٹیسٹ سینٹر ↗',
         starLabel: '⭐ GitHub پر اسٹار کریں',
+        supportBtn: '☕ عطیہ',
+        lastUpdated: 'آخری اپڈیٹ',
     },
 };
 
 const GITHUB_URL = 'https://github.com/abdullahbutt/german-citizenship-test-english-urdu';
 const PAYPAL_URL = 'https://paypal.me/abdullahbuttde';
+const BAMF_CATALOG_URL = 'https://www.bamf.de/SharedDocs/Anlagen/DE/Integration/Einbuergerung/gesamtfragenkatalog-lebenindeutschland.html';
+const BAMF_TEST_CENTER_URL = 'https://oet.bamf.de/ords/oetut/f?p=514:1::::::';
+const BUILD_DATE = new Date().toISOString().slice(0, 10);
 
 // ---------- HTML template ----------
 function renderPage({ lang, title, bodyHtml, slug }) {
@@ -260,60 +269,60 @@ function renderPage({ lang, title, bodyHtml, slug }) {
         }
         footer {
             margin-top: 3rem;
-            padding: 2.5rem 1rem 2rem;
+            padding: 1.75rem 1rem 1.5rem;
             background: var(--card-bg);
             border-top: 1px solid var(--border);
             color: var(--muted-text);
-            font-size: 0.95rem;
-        }
-        footer .support-box {
-            max-width: 640px;
-            margin: 0 auto 1.5rem;
-            padding: 1.5rem;
-            background: linear-gradient(135deg, #fef3c7, #fde68a);
-            border: 1px solid #f59e0b;
-            border-radius: 0.75rem;
-            text-align: center;
-            color: #1f2937;
-        }
-        [data-bs-theme="dark"] footer .support-box {
-            background: linear-gradient(135deg, #78350f, #92400e);
-            border-color: #b45309;
-            color: #fef3c7;
-        }
-        footer .support-box h3 {
-            margin-top: 0;
-            margin-bottom: 0.5rem;
-            font-size: 1.15rem;
-            font-weight: 700;
-        }
-        footer .support-box p {
-            margin-bottom: 1rem;
-            font-size: 0.95rem;
-        }
-        footer .btn-pill {
-            display: inline-block;
-            padding: 0.5rem 1.25rem;
-            border-radius: 999px;
-            font-weight: 600;
-            text-decoration: none;
-            margin: 0.25rem;
-            border: 1px solid transparent;
             font-size: 0.9rem;
         }
-        footer .btn-paypal {
-            background: #0070ba;
-            color: #fff;
+        footer .foot-row {
+            max-width: 960px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            align-items: center;
+            justify-content: space-between;
         }
-        footer .btn-paypal:hover { background: #005a96; color: #fff; }
-        footer .btn-github {
-            background: transparent;
+        footer .foot-brand .title {
+            font-weight: 600;
             color: var(--page-text);
-            border-color: var(--border);
+            margin-bottom: 0.15rem;
         }
-        footer .btn-github:hover {
-            background: var(--page-text);
-            color: var(--page-bg);
+        footer .foot-brand .sub {
+            font-size: 0.85rem;
+        }
+        footer .foot-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            justify-content: ${dir === 'rtl' ? 'flex-start' : 'flex-end'};
+        }
+        footer .btn-foot {
+            display: inline-block;
+            padding: 0.35rem 0.85rem;
+            border-radius: 0.4rem;
+            border: 1px solid var(--border);
+            color: var(--muted-text);
+            text-decoration: none;
+            font-size: 0.85rem;
+            background: transparent;
+        }
+        footer .btn-foot:hover {
+            background: var(--primary);
+            color: #fff;
+            border-color: var(--primary);
+        }
+        footer .foot-meta {
+            max-width: 960px;
+            margin: 1rem auto 0;
+            text-align: center;
+            font-size: 0.8rem;
+            color: var(--muted-text);
+        }
+        @media (max-width: 600px) {
+            footer .foot-row { flex-direction: column; text-align: center; gap: 0.75rem; }
+            footer .foot-links { justify-content: center; }
         }
         footer a { text-decoration: none; }
         .back-to-top {
@@ -362,12 +371,19 @@ function renderPage({ lang, title, bodyHtml, slug }) {
     </main>
 
     <footer>
-        <div class="support-box">
-            <h3>${escapeHtml(ui.supportHeading)}</h3>
-            <p>${escapeHtml(ui.supportText)}</p>
-            <a class="btn-pill btn-paypal" href="${PAYPAL_URL}" target="_blank" rel="noopener">${escapeHtml(ui.donateLabel)}</a>
-            <a class="btn-pill btn-github" href="${GITHUB_URL}" target="_blank" rel="noopener">${escapeHtml(ui.starLabel)}</a>
+        <div class="foot-row">
+            <div class="foot-brand">
+                <div class="title">${escapeHtml(ui.footerTagline)}</div>
+                <div class="sub">${escapeHtml(ui.footerSubtag)}</div>
+            </div>
+            <div class="foot-links">
+                <a class="btn-foot" href="${BAMF_CATALOG_URL}" target="_blank" rel="noopener">${escapeHtml(ui.bamfCatalog)}</a>
+                <a class="btn-foot" href="${BAMF_TEST_CENTER_URL}" target="_blank" rel="noopener">${escapeHtml(ui.bamfTestCenter)}</a>
+                <a class="btn-foot" href="${GITHUB_URL}" target="_blank" rel="noopener">${escapeHtml(ui.starLabel)}</a>
+                <a class="btn-foot" href="${PAYPAL_URL}" target="_blank" rel="noopener">${escapeHtml(ui.supportBtn)}</a>
+            </div>
         </div>
+        <div class="foot-meta">${escapeHtml(ui.lastUpdated)}: ${BUILD_DATE}</div>
     </footer>
 
     <button class="back-to-top" id="backToTop" aria-label="${escapeHtml(ui.backToTop)}" title="${escapeHtml(ui.backToTop)}">↑</button>

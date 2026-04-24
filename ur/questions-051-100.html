@@ -119,60 +119,60 @@
         }
         footer {
             margin-top: 3rem;
-            padding: 2.5rem 1rem 2rem;
+            padding: 1.75rem 1rem 1.5rem;
             background: var(--card-bg);
             border-top: 1px solid var(--border);
             color: var(--muted-text);
-            font-size: 0.95rem;
-        }
-        footer .support-box {
-            max-width: 640px;
-            margin: 0 auto 1.5rem;
-            padding: 1.5rem;
-            background: linear-gradient(135deg, #fef3c7, #fde68a);
-            border: 1px solid #f59e0b;
-            border-radius: 0.75rem;
-            text-align: center;
-            color: #1f2937;
-        }
-        [data-bs-theme="dark"] footer .support-box {
-            background: linear-gradient(135deg, #78350f, #92400e);
-            border-color: #b45309;
-            color: #fef3c7;
-        }
-        footer .support-box h3 {
-            margin-top: 0;
-            margin-bottom: 0.5rem;
-            font-size: 1.15rem;
-            font-weight: 700;
-        }
-        footer .support-box p {
-            margin-bottom: 1rem;
-            font-size: 0.95rem;
-        }
-        footer .btn-pill {
-            display: inline-block;
-            padding: 0.5rem 1.25rem;
-            border-radius: 999px;
-            font-weight: 600;
-            text-decoration: none;
-            margin: 0.25rem;
-            border: 1px solid transparent;
             font-size: 0.9rem;
         }
-        footer .btn-paypal {
-            background: #0070ba;
-            color: #fff;
+        footer .foot-row {
+            max-width: 960px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            align-items: center;
+            justify-content: space-between;
         }
-        footer .btn-paypal:hover { background: #005a96; color: #fff; }
-        footer .btn-github {
-            background: transparent;
+        footer .foot-brand .title {
+            font-weight: 600;
             color: var(--page-text);
-            border-color: var(--border);
+            margin-bottom: 0.15rem;
         }
-        footer .btn-github:hover {
-            background: var(--page-text);
-            color: var(--page-bg);
+        footer .foot-brand .sub {
+            font-size: 0.85rem;
+        }
+        footer .foot-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            justify-content: flex-start;
+        }
+        footer .btn-foot {
+            display: inline-block;
+            padding: 0.35rem 0.85rem;
+            border-radius: 0.4rem;
+            border: 1px solid var(--border);
+            color: var(--muted-text);
+            text-decoration: none;
+            font-size: 0.85rem;
+            background: transparent;
+        }
+        footer .btn-foot:hover {
+            background: var(--primary);
+            color: #fff;
+            border-color: var(--primary);
+        }
+        footer .foot-meta {
+            max-width: 960px;
+            margin: 1rem auto 0;
+            text-align: center;
+            font-size: 0.8rem;
+            color: var(--muted-text);
+        }
+        @media (max-width: 600px) {
+            footer .foot-row { flex-direction: column; text-align: center; gap: 0.75rem; }
+            footer .foot-links { justify-content: center; }
         }
         footer a { text-decoration: none; }
         .back-to-top {
@@ -1115,12 +1115,19 @@
     </main>
 
     <footer>
-        <div class="support-box">
-            <h3>☕ اس پروجیکٹ کی مدد کریں</h3>
-            <p>یہ پروجیکٹ مکمل طور پر مفت اور اوپن سورس ہے۔ اگر اس نے آپ کو امتحان پاس کرنے میں مدد کی، تو آپ مجھے ایک کافی خرید سکتے ہیں — کوئی ذمہ داری نہیں!</p>
-            <a class="btn-pill btn-paypal" href="https://paypal.me/abdullahbuttde" target="_blank" rel="noopener">PayPal کے ذریعے عطیہ</a>
-            <a class="btn-pill btn-github" href="https://github.com/abdullahbutt/german-citizenship-test-english-urdu" target="_blank" rel="noopener">⭐ GitHub پر اسٹار کریں</a>
+        <div class="foot-row">
+            <div class="foot-brand">
+                <div class="title">🇩🇪 جرمن شہریت کا امتحان — انگریزی اور اردو کے ساتھ</div>
+                <div class="sub">انبیورگرونگس ٹیسٹ / لیبن اِن ڈوئچ لینڈ کی تیاری</div>
+            </div>
+            <div class="foot-links">
+                <a class="btn-foot" href="https://www.bamf.de/SharedDocs/Anlagen/DE/Integration/Einbuergerung/gesamtfragenkatalog-lebenindeutschland.html" target="_blank" rel="noopener">BAMF سوالات ↗</a>
+                <a class="btn-foot" href="https://oet.bamf.de/ords/oetut/f?p=514:1::::::" target="_blank" rel="noopener">BAMF ٹیسٹ سینٹر ↗</a>
+                <a class="btn-foot" href="https://github.com/abdullahbutt/german-citizenship-test-english-urdu" target="_blank" rel="noopener">⭐ GitHub پر اسٹار کریں</a>
+                <a class="btn-foot" href="https://paypal.me/abdullahbuttde" target="_blank" rel="noopener">☕ عطیہ</a>
+            </div>
         </div>
+        <div class="foot-meta">آخری اپڈیٹ: 2026-04-24</div>
     </footer>
 
     <button class="back-to-top" id="backToTop" aria-label="اوپر جائیں" title="اوپر جائیں">↑</button>
