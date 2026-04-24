@@ -135,6 +135,8 @@ const PAYPAL_URL = 'https://paypal.me/abdullahbuttde';
 const BAMF_CATALOG_URL = 'https://www.bamf.de/SharedDocs/Anlagen/DE/Integration/Einbuergerung/gesamtfragenkatalog-lebenindeutschland.html';
 const BAMF_TEST_CENTER_URL = 'https://oet.bamf.de/ords/oetut/f?p=514:1::::::';
 const BUILD_DATE = new Date().toISOString().slice(0, 10);
+const SITE_BASE_URL = 'https://abdullahbutt.github.io/german-citizenship-test-english-urdu';
+const OG_IMAGE_URL = `${SITE_BASE_URL}/og-image.png`;
 
 // ---------- HTML template ----------
 function renderPage({ lang, title, bodyHtml, slug }) {
@@ -154,6 +156,25 @@ function renderPage({ lang, title, bodyHtml, slug }) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>${escapeHtml(title)} · ${ui.siteTitle}</title>
+    <meta name="description" content="${escapeHtml(ui.tagline)} — ${escapeHtml(title)}. ${lang === 'en' ? 'Free German citizenship test prep with English & Urdu translations.' : 'انگریزی اور اردو ترجمے کے ساتھ مفت جرمن شہریت کے امتحان کی تیاری۔'}">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="${SITE_BASE_URL}/${lang}/${slug}.html">
+    <meta property="og:title" content="${escapeHtml(title)} · ${escapeHtml(ui.siteTitle)}">
+    <meta property="og:description" content="${escapeHtml(ui.tagline)}">
+    <meta property="og:image" content="${OG_IMAGE_URL}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="${lang === 'en' ? 'en_US' : 'ur_PK'}">
+    <meta property="og:site_name" content="${escapeHtml(ui.siteTitle)}">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="${escapeHtml(title)} · ${escapeHtml(ui.siteTitle)}">
+    <meta name="twitter:description" content="${escapeHtml(ui.tagline)}">
+    <meta name="twitter:image" content="${OG_IMAGE_URL}">
+
     <script>
         // Anti-flash: apply saved theme before any paint happens
         (function () {
