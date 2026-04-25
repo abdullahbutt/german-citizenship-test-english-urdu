@@ -23,6 +23,18 @@
     <meta name="twitter:description" content="انبیورگرونگس ٹیسٹ کے تمام 300 سوالات">
     <meta name="twitter:image" content="https://abdullahbutt.github.io/german-citizenship-test-english-urdu/og-image.png">
 
+    <!-- PWA -->
+    <link rel="manifest" href="../manifest.webmanifest">
+    <meta name="theme-color" content="#1d4ed8">
+    <meta name="application-name" content="DE Test">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="DE Test">
+    <link rel="apple-touch-icon" href="../icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../icons/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../icons/favicon-16.png">
+    <link rel="shortcut icon" href="../favicon.ico">
+
     <script>
         // Anti-flash: apply saved theme before any paint happens
         (function () {
@@ -211,20 +223,25 @@
             position: fixed;
             bottom: 1.5rem;
             left: 1.5rem;
-            width: 3rem;
-            height: 3rem;
+            width: 3.25rem;
+            height: 3.25rem;
             border-radius: 50%;
             background: var(--primary);
             color: #fff;
-            border: 0;
-            font-size: 1.25rem;
-            box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.2);
+            border: 2px solid var(--card-bg);
+            font-size: 1.5rem;
+            font-weight: 700;
+            box-shadow: 0 0.5rem 1.25rem rgba(0, 0, 0, 0.35);
             cursor: pointer;
             opacity: 0;
             pointer-events: none;
             transform: translateY(0.5rem);
             transition: opacity 0.2s ease, transform 0.2s ease, background 0.2s ease;
-            z-index: 1040;
+            z-index: 1050;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            line-height: 1;
         }
         .back-to-top.visible {
             opacity: 1;
@@ -1462,7 +1479,7 @@
                 <a class="btn-foot" href="https://paypal.me/abdullahbuttde" target="_blank" rel="noopener">☕ عطیہ</a>
             </div>
         </div>
-        <div class="foot-meta">آخری اپڈیٹ: 2026-04-24</div>
+        <div class="foot-meta">آخری اپڈیٹ: 2026-04-25</div>
     </footer>
 
     <button class="back-to-top" id="backToTop" aria-label="اوپر جائیں" title="اوپر جائیں">↑</button>
@@ -1476,14 +1493,21 @@
             try { localStorage.setItem('theme', next); } catch (e) {}
         });
 
-        // Back-to-top button
+        // Back-to-top button — appears once user scrolls a bit
         const btt = document.getElementById('backToTop');
-        const toggleBtt = () => btt.classList.toggle('visible', window.scrollY > 300);
+        const toggleBtt = () => btt.classList.toggle('visible', window.scrollY > 120);
         window.addEventListener('scroll', toggleBtt, { passive: true });
         toggleBtt();
         btt.addEventListener('click', () => {
             window.scrollTo({ top: 0, behavior: 'smooth' });
         });
+
+        // Register PWA service worker — enables offline study mode
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('../sw.js').catch(() => {});
+            });
+        }
     </script>
 </body>
 </html>
