@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy &amp; Impressum · German Citizenship Test</title>
+    <meta name="description" content="Privacy policy, data protection notice, and Impressum for the free German Citizenship Test study site.">
+    <meta name="robots" content="noindex">
+    <script>
+        (function () {
+            try {
+                var t = localStorage.getItem('theme');
+                if (t === 'dark' || t === 'light') {
+                    document.documentElement.setAttribute('data-bs-theme', t);
+                }
+            } catch (e) {}
+        })();
+    </script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Noto+Nastaliq+Urdu:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="manifest" href="manifest.webmanifest">
+    <meta name="theme-color" content="#1d4ed8">
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16.png">
+
+    <style>
+        :root {
+            --page-bg: #f5f7fb;
+            --page-text: #1f2937;
+            --muted-text: #475569;
+            --card-bg: #ffffff;
+            --card-shadow: 0 0.5rem 1.5rem rgba(15, 23, 42, 0.08);
+            --primary: #1d4ed8;
+            --primary-hover: #1e40af;
+            --border: #e5e7eb;
+        }
+        [data-bs-theme="dark"] {
+            --page-bg: #0b1121;
+            --page-text: #e2e8f0;
+            --muted-text: #94a3b8;
+            --card-bg: #111827;
+            --card-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.45);
+            --primary: #3b82f6;
+            --primary-hover: #2563eb;
+            --border: #1f2937;
+        }
+        body {
+            background: var(--page-bg);
+            color: var(--page-text);
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            line-height: 1.7;
+        }
+        main {
+            max-width: 820px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .lang-tabs {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 1.5rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .lang-tabs button {
+            padding: 0.5rem 1.1rem;
+            background: var(--card-bg);
+            color: var(--page-text);
+            border: 1px solid var(--border);
+            border-radius: 999px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        .lang-tabs button.active {
+            background: var(--primary);
+            color: #fff;
+            border-color: var(--primary);
+        }
+        .doc {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 0.75rem;
+            box-shadow: var(--card-shadow);
+            padding: clamp(1.25rem, 3vw, 2.25rem);
+        }
+        .doc h1 {
+            font-size: 1.6rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+        }
+        .doc h2 {
+            font-size: 1.15rem;
+            font-weight: 700;
+            margin-top: 1.75rem;
+            margin-bottom: 0.6rem;
+        }
+        .doc[lang="ur"] {
+            font-family: 'Noto Nastaliq Urdu', 'Inter', serif;
+            line-height: 2.2;
+            direction: rtl;
+            text-align: right;
+        }
+        .doc[lang="ur"] h1, .doc[lang="ur"] h2 { font-weight: 700; }
+        .doc a { color: var(--primary); }
+        .doc a:hover { color: var(--primary-hover); }
+        .doc.hidden { display: none; }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 1rem;
+            color: var(--muted-text);
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+        .back-link:hover { color: var(--primary); }
+        .updated {
+            margin-top: 2rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border);
+            color: var(--muted-text);
+            font-size: 0.85rem;
+        }
+        .theme-toggle {
+            position: fixed;
+            top: 1rem;
+            right: 1rem;
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 999px;
+            width: 2.5rem;
+            height: 2.5rem;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            color: var(--page-text);
+            z-index: 1030;
+        }
+    </style>
+</head>
+<body>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme" title="Toggle theme">🌓</button>
+
+    <main>
+        <a class="back-link" href="index.html?stay">← Home</a>
+
+        <div class="lang-tabs" role="tablist">
+            <button class="active" data-lang="en" role="tab" aria-selected="true">English</button>
+            <button data-lang="ur" role="tab" aria-selected="false" lang="ur" dir="rtl" style="font-family:'Noto Nastaliq Urdu',serif;">اردو</button>
+            <button data-lang="de" role="tab" aria-selected="false">Deutsch</button>
+        </div>
+
+        <!-- ENGLISH -->
+        <section class="doc" id="doc-en" lang="en">
+            <h1>Privacy &amp; Impressum</h1>
+            <p>This page provides transparency about who runs this website, what data is processed, and how to get in touch.</p>
+
+            <h2>About this site</h2>
+            <p>This is a free, non-commercial, open-source educational resource for people preparing for the German citizenship test (<em>Einbürgerungstest</em> / <em>Leben in Deutschland</em>). It is hosted on GitHub Pages.</p>
+            <p>The site does not sell anything, does not run advertising, does not require registration, and does not store any personal user data.</p>
+
+            <h2>Operator / Impressum</h2>
+            <p>This site is operated as a personal hobby project by an individual based in Germany.</p>
+            <p>For any questions, corrections, takedown requests, or legal notices, please open an issue on the project's GitHub repository:<br>
+            <a href="https://github.com/abdullahbutt/german-citizenship-test-english-urdu/issues" target="_blank" rel="noopener">github.com/abdullahbutt/german-citizenship-test-english-urdu/issues</a></p>
+            <p>Issues are publicly visible by default. If you need a private channel, please mention this in your issue and a private email will be exchanged.</p>
+
+            <h2>Data we process</h2>
+            <p>We use <strong>Cloudflare Web Analytics</strong>, which is a privacy-respecting analytics service:</p>
+            <ul>
+                <li>It does <strong>not</strong> use cookies or any other client-side storage.</li>
+                <li>It does <strong>not</strong> track users across sites.</li>
+                <li>It does <strong>not</strong> fingerprint browsers or build user profiles.</li>
+                <li>It collects only aggregated, anonymous metrics: page URL, country, referrer, browser, device type, and timing.</li>
+                <li>IP addresses are processed transiently and not stored.</li>
+            </ul>
+            <p>Because no personal data is collected, no consent banner is required under the EU GDPR (Art. 6) or the German TTDSG (§ 25). Cloudflare's analytics privacy details: <a href="https://www.cloudflare.com/web-analytics/" target="_blank" rel="noopener">cloudflare.com/web-analytics</a>.</p>
+
+            <h2>Local browser storage</h2>
+            <p>The site uses your browser's <strong>localStorage</strong> only to remember your preferences:</p>
+            <ul>
+                <li>Your chosen language (English or Urdu)</li>
+                <li>Your chosen theme (light or dark mode)</li>
+                <li>Whether you've dismissed the "Install as app" hint</li>
+            </ul>
+            <p>This data stays on your device and is never sent to any server. You can clear it any time via your browser settings.</p>
+
+            <h2>Service Worker (offline mode)</h2>
+            <p>If your browser supports it, the site installs a service worker that caches pages on your device so you can read them without an internet connection. Cached files stay on your device only and are never transmitted elsewhere.</p>
+
+            <h2>External links and resources</h2>
+            <p>The site links to and embeds resources from:</p>
+            <ul>
+                <li><a href="https://www.bamf.de/" target="_blank" rel="noopener">bamf.de</a> — official BAMF question catalog and online test center</li>
+                <li><a href="https://cdn.jsdelivr.net/" target="_blank" rel="noopener">jsDelivr CDN</a> — Bootstrap CSS framework</li>
+                <li><a href="https://fonts.googleapis.com/" target="_blank" rel="noopener">Google Fonts</a> — Inter and Noto Nastaliq Urdu fonts</li>
+                <li><a href="https://github.com/" target="_blank" rel="noopener">GitHub Pages</a> — hosting infrastructure</li>
+                <li><a href="https://www.cloudflare.com/" target="_blank" rel="noopener">Cloudflare</a> — anonymous analytics</li>
+            </ul>
+            <p>These third parties may receive standard technical information from your browser (such as your IP address) when their resources are loaded. Each operates under its own privacy policy.</p>
+
+            <h2>Source content and copyright</h2>
+            <p>The German question text is taken from the official BAMF question catalog for the <em>Leben in Deutschland</em> / <em>Einbürgerungstest</em>, which is publicly available material. The English and Urdu translations and explanations are original contributions provided freely for educational use.</p>
+            <p>This site is not affiliated with, endorsed by, or connected to BAMF, the German government, or any official authority.</p>
+
+            <h2>Your rights</h2>
+            <p>Because no personally identifiable data is stored, there is no personal record to access, rectify, or delete. If you believe data about you is being processed in error, please open a GitHub issue and it will be addressed.</p>
+
+            <h2>Changes to this notice</h2>
+            <p>If anything material changes (for example, if a new analytics tool is added), this page will be updated and the date below will reflect the change.</p>
+
+            <p class="updated">Last updated: 2026-04-26</p>
+        </section>
+
+        <!-- URDU -->
+        <section class="doc hidden" id="doc-ur" lang="ur" dir="rtl">
+            <h1>پرائیویسی اور اظہاریہ (Impressum)</h1>
+            <p>یہ صفحہ شفافیت فراہم کرتا ہے کہ یہ ویب سائٹ کون چلاتا ہے، کون سا ڈیٹا استعمال ہوتا ہے، اور رابطہ کیسے کیا جا سکتا ہے۔</p>
+
+            <h2>اس سائٹ کے بارے میں</h2>
+            <p>یہ ایک مفت، غیر تجارتی، اوپن سورس تعلیمی وسیلہ ہے جو ان لوگوں کے لیے بنایا گیا ہے جو جرمن شہریت کے امتحان (<em>Einbürgerungstest / Leben in Deutschland</em>) کی تیاری کر رہے ہیں۔ یہ سائٹ GitHub Pages پر میزبان ہے۔</p>
+            <p>اس سائٹ پر کچھ فروخت نہیں ہوتا، کوئی اشتہار نہیں چلایا جاتا، کسی رجسٹریشن کی ضرورت نہیں، اور کوئی ذاتی صارف معلومات محفوظ نہیں کی جاتیں۔</p>
+
+            <h2>آپریٹر / Impressum</h2>
+            <p>یہ سائٹ جرمنی میں مقیم ایک فرد کا ذاتی شوقیہ منصوبہ ہے۔</p>
+            <p>کسی بھی سوال، اصلاح، شکایت یا قانونی نوٹس کے لیے براہِ کرم پروجیکٹ کے GitHub repository پر ایک issue کھولیں:<br>
+            <a href="https://github.com/abdullahbutt/german-citizenship-test-english-urdu/issues" target="_blank" rel="noopener">github.com/abdullahbutt/german-citizenship-test-english-urdu/issues</a></p>
+            <p>Issues عام طور پر سب کو نظر آتے ہیں۔ اگر آپ کو نجی رابطہ درکار ہو تو issue میں اس کا ذکر کیجیے، نجی ای میل کے ذریعے رابطہ ممکن ہو جائے گا۔</p>
+
+            <h2>کون سا ڈیٹا استعمال ہوتا ہے</h2>
+            <p>ہم <strong>Cloudflare Web Analytics</strong> استعمال کرتے ہیں، جو ایک پرائیویسی کا احترام کرنے والی سروس ہے:</p>
+            <ul>
+                <li>یہ کوئی <strong>cookies</strong> یا کلائنٹ سائڈ اسٹوریج استعمال نہیں کرتی۔</li>
+                <li>یہ ویب سائٹس کے درمیان صارفین کا تعاقب نہیں کرتی۔</li>
+                <li>یہ براؤزر فنگرپرنٹنگ یا صارف پروفائلنگ نہیں کرتی۔</li>
+                <li>صرف مجموعی، گمنام معلومات اکٹھی کرتی ہے: صفحہ URL، ملک، referrer، براؤزر، آلہ کی قسم، اور وقت۔</li>
+                <li>IP ایڈریس وقتی طور پر استعمال ہوتا ہے، محفوظ نہیں کیا جاتا۔</li>
+            </ul>
+            <p>چونکہ کوئی ذاتی ڈیٹا اکٹھا نہیں ہوتا، اس لیے EU GDPR (Art. 6) یا جرمن TTDSG (§ 25) کے تحت کسی consent banner کی ضرورت نہیں۔ تفصیل: <a href="https://www.cloudflare.com/web-analytics/" target="_blank" rel="noopener">cloudflare.com/web-analytics</a></p>
+
+            <h2>براؤزر کا مقامی اسٹوریج</h2>
+            <p>سائٹ صرف آپ کی ترجیحات یاد رکھنے کے لیے <strong>localStorage</strong> استعمال کرتی ہے:</p>
+            <ul>
+                <li>منتخب کی گئی زبان (انگریزی یا اردو)</li>
+                <li>منتخب کیا گیا تھیم (روشن یا تاریک)</li>
+                <li>کیا آپ نے "ایپ کے طور پر انسٹال کریں" والا اشارہ بند کیا ہے</li>
+            </ul>
+            <p>یہ معلومات آپ کے آلے پر ہی رہتی ہیں اور کبھی کسی سرور کو نہیں بھیجی جاتیں۔ آپ کسی بھی وقت اپنی براؤزر سیٹنگز سے یہ صاف کر سکتے ہیں۔</p>
+
+            <h2>سروس ورکر (آف لائن موڈ)</h2>
+            <p>اگر آپ کا براؤزر اجازت دے تو سائٹ ایک service worker انسٹال کرتی ہے جو صفحات کو آپ کے آلے پر محفوظ کر دیتا ہے، تاکہ آپ انٹرنیٹ کے بغیر بھی پڑھ سکیں۔ یہ محفوظ شدہ فائلیں آپ کے آلے پر رہتی ہیں اور کہیں منتقل نہیں کی جاتیں۔</p>
+
+            <h2>بیرونی روابط اور وسائل</h2>
+            <p>سائٹ ان وسائل سے روابط رکھتی ہے یا انہیں استعمال کرتی ہے:</p>
+            <ul>
+                <li><a href="https://www.bamf.de/" target="_blank" rel="noopener">bamf.de</a> — سرکاری BAMF سوالات اور آن لائن ٹیسٹ سینٹر</li>
+                <li><a href="https://cdn.jsdelivr.net/" target="_blank" rel="noopener">jsDelivr CDN</a> — Bootstrap CSS</li>
+                <li><a href="https://fonts.googleapis.com/" target="_blank" rel="noopener">Google Fonts</a> — Inter اور Noto Nastaliq Urdu فونٹس</li>
+                <li><a href="https://github.com/" target="_blank" rel="noopener">GitHub Pages</a> — میزبانی</li>
+                <li><a href="https://www.cloudflare.com/" target="_blank" rel="noopener">Cloudflare</a> — گمنام analytics</li>
+            </ul>
+            <p>جب ان وسائل کو لوڈ کیا جاتا ہے تو یہ تیسرے فریق آپ کے براؤزر سے کچھ تکنیکی معلومات (جیسے IP) وصول کر سکتے ہیں۔ ہر ایک کی اپنی پرائیویسی پالیسی ہے۔</p>
+
+            <h2>متن کا ماخذ اور حقوقِ اشاعت</h2>
+            <p>جرمن سوالات BAMF کے سرکاری سوالات کے کیٹلاگ سے لیے گئے ہیں جو عوامی طور پر دستیاب ہے۔ انگریزی اور اردو ترجمے اور وضاحتیں اصل ہیں اور تعلیمی مقاصد کے لیے مفت فراہم کی گئی ہیں۔</p>
+            <p>یہ سائٹ BAMF، جرمن حکومت، یا کسی سرکاری ادارے سے وابستہ، توثیق شدہ، یا منسلک نہیں ہے۔</p>
+
+            <h2>آپ کے حقوق</h2>
+            <p>چونکہ کوئی ذاتی شناختی معلومات محفوظ نہیں کی جاتیں، کوئی ذاتی ریکارڈ موجود نہیں جسے دیکھا، درست کیا یا حذف کیا جا سکے۔ اگر آپ کو لگتا ہے کہ غلطی سے آپ کے بارے میں ڈیٹا استعمال ہو رہا ہے، تو GitHub پر ایک issue کھولیں۔</p>
+
+            <h2>اس نوٹس میں تبدیلیاں</h2>
+            <p>اگر کوئی اہم تبدیلی ہو (مثلاً نیا analytics ٹول شامل کیا جائے) تو یہ صفحہ اپڈیٹ کر دیا جائے گا اور نیچے دی گئی تاریخ بدل دی جائے گی۔</p>
+
+            <p class="updated">آخری اپڈیٹ: 2026-04-26</p>
+        </section>
+
+        <!-- DEUTSCH -->
+        <section class="doc hidden" id="doc-de" lang="de">
+            <h1>Datenschutz &amp; Impressum</h1>
+            <p>Diese Seite informiert transparent darüber, wer diese Website betreibt, welche Daten verarbeitet werden und wie eine Kontaktaufnahme möglich ist.</p>
+
+            <h2>Über diese Website</h2>
+            <p>Dies ist ein kostenloses, nicht-kommerzielles Open-Source-Lernangebot für Personen, die sich auf den deutschen Einbürgerungstest bzw. den Test <em>Leben in Deutschland</em> vorbereiten. Die Seite wird über GitHub Pages bereitgestellt.</p>
+            <p>Auf der Seite werden keine Produkte verkauft, keine Werbung geschaltet, keine Registrierung verlangt und keine personenbezogenen Nutzerdaten gespeichert.</p>
+
+            <h2>Betreiber / Impressum</h2>
+            <p>Diese Seite ist ein privates, nicht-kommerzielles Hobbyprojekt einer in Deutschland ansässigen Privatperson.</p>
+            <p>Anfragen, Korrekturen, Beschwerden oder rechtliche Hinweise bitte über das GitHub-Issue-System des Projekts einreichen:<br>
+            <a href="https://github.com/abdullahbutt/german-citizenship-test-english-urdu/issues" target="_blank" rel="noopener">github.com/abdullahbutt/german-citizenship-test-english-urdu/issues</a></p>
+            <p>Issues sind standardmäßig öffentlich sichtbar. Wird ein vertraulicher Kanal benötigt, bitte dies im Issue erwähnen — eine private E-Mail-Korrespondenz kann dann eingerichtet werden.</p>
+
+            <h2>Verarbeitete Daten</h2>
+            <p>Die Seite nutzt <strong>Cloudflare Web Analytics</strong>, einen datenschutzfreundlichen Analysedienst:</p>
+            <ul>
+                <li>Es werden <strong>keine</strong> Cookies und keine clientseitigen Speichermechanismen verwendet.</li>
+                <li>Es findet <strong>kein</strong> seitenübergreifendes Nutzer-Tracking statt.</li>
+                <li>Es werden <strong>keine</strong> Browser-Fingerabdrücke erstellt und keine Nutzerprofile gebildet.</li>
+                <li>Erfasst werden nur aggregierte, anonyme Metriken: Seiten-URL, Land, Referrer, Browser, Gerätetyp, Ladezeit.</li>
+                <li>IP-Adressen werden nur kurz transient verarbeitet und nicht gespeichert.</li>
+            </ul>
+            <p>Da keine personenbezogenen Daten erhoben werden, ist gemäß DSGVO Art. 6 und TTDSG § 25 keine Einwilligung (Cookie-Banner) erforderlich. Details: <a href="https://www.cloudflare.com/web-analytics/" target="_blank" rel="noopener">cloudflare.com/web-analytics</a>.</p>
+
+            <h2>Lokaler Browser-Speicher</h2>
+            <p>Die Seite nutzt <strong>localStorage</strong> ausschließlich, um Ihre Einstellungen zu merken:</p>
+            <ul>
+                <li>Gewählte Sprache (Englisch oder Urdu)</li>
+                <li>Gewähltes Farbschema (hell oder dunkel)</li>
+                <li>Ob der Hinweis „Als App installieren" geschlossen wurde</li>
+            </ul>
+            <p>Diese Daten verbleiben ausschließlich auf Ihrem Gerät und werden zu keinem Zeitpunkt an einen Server übertragen. Sie können sie jederzeit über die Einstellungen Ihres Browsers löschen.</p>
+
+            <h2>Service Worker (Offline-Modus)</h2>
+            <p>Sofern der Browser dies unterstützt, registriert die Seite einen Service Worker, der Inhalte lokal zwischenspeichert. So sind die Inhalte auch ohne Internetverbindung lesbar. Die zwischengespeicherten Dateien verbleiben auf Ihrem Gerät und werden nicht weitergegeben.</p>
+
+            <h2>Externe Verlinkungen und Ressourcen</h2>
+            <p>Die Seite verlinkt auf bzw. lädt Ressourcen von:</p>
+            <ul>
+                <li><a href="https://www.bamf.de/" target="_blank" rel="noopener">bamf.de</a> — offizieller BAMF-Fragenkatalog und Online-Testcenter</li>
+                <li><a href="https://cdn.jsdelivr.net/" target="_blank" rel="noopener">jsDelivr CDN</a> — Bootstrap CSS</li>
+                <li><a href="https://fonts.googleapis.com/" target="_blank" rel="noopener">Google Fonts</a> — Inter und Noto Nastaliq Urdu</li>
+                <li><a href="https://github.com/" target="_blank" rel="noopener">GitHub Pages</a> — Hosting</li>
+                <li><a href="https://www.cloudflare.com/" target="_blank" rel="noopener">Cloudflare</a> — anonymes Analytics</li>
+            </ul>
+            <p>Beim Laden dieser Ressourcen erhalten die jeweiligen Drittanbieter technische Informationen vom Browser (z. B. die IP-Adresse). Es gelten jeweils deren eigene Datenschutzbestimmungen.</p>
+
+            <h2>Quelle der Inhalte und Urheberrecht</h2>
+            <p>Die deutschen Originalfragen stammen aus dem öffentlich verfügbaren BAMF-Fragenkatalog für den Test <em>Leben in Deutschland</em> bzw. den Einbürgerungstest. Die englischen und Urdu-Übersetzungen sowie die Erläuterungen sind eigenständige, kostenlos für Bildungszwecke bereitgestellte Beiträge.</p>
+            <p>Diese Seite steht in keiner Verbindung zum BAMF, zur deutschen Bundesregierung oder zu einer anderen offiziellen Stelle und wird von diesen weder unterstützt noch unterhalten.</p>
+
+            <h2>Ihre Rechte</h2>
+            <p>Da keine personenbezogenen Daten gespeichert werden, gibt es keine personenbezogenen Datensätze, auf die Sie Auskunft, Berichtigung oder Löschung beanspruchen könnten. Falls Sie Anlass zu der Annahme haben, dass dennoch Daten von Ihnen verarbeitet wurden, eröffnen Sie bitte ein GitHub-Issue.</p>
+
+            <h2>Änderungen dieser Erklärung</h2>
+            <p>Bei wesentlichen Änderungen (z. B. Einbindung eines neuen Analyse-Tools) wird diese Seite aktualisiert; das Datum unten ändert sich entsprechend.</p>
+
+            <p class="updated">Stand: 2026-04-26</p>
+        </section>
+    </main>
+
+    <script>
+        // Theme toggle
+        const root = document.documentElement;
+        document.getElementById('themeToggle').addEventListener('click', () => {
+            const next = root.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+            root.setAttribute('data-bs-theme', next);
+            try { localStorage.setItem('theme', next); } catch (e) {}
+        });
+
+        // Language tabs
+        const tabs = document.querySelectorAll('.lang-tabs button');
+        const docs = {
+            en: document.getElementById('doc-en'),
+            ur: document.getElementById('doc-ur'),
+            de: document.getElementById('doc-de'),
+        };
+        function showLang(code) {
+            Object.keys(docs).forEach(k => {
+                docs[k].classList.toggle('hidden', k !== code);
+            });
+            tabs.forEach(b => {
+                const active = b.dataset.lang === code;
+                b.classList.toggle('active', active);
+                b.setAttribute('aria-selected', String(active));
+            });
+            document.documentElement.lang = code;
+            try { localStorage.setItem('privacyLang', code); } catch (e) {}
+        }
+        tabs.forEach(b => b.addEventListener('click', () => showLang(b.dataset.lang)));
+
+        // Default to user's preferred language if known, else English
+        let pref = 'en';
+        try {
+            const stored = localStorage.getItem('preferredLang');
+            if (stored === 'ur') pref = 'ur';
+            const privacyPref = localStorage.getItem('privacyLang');
+            if (privacyPref === 'en' || privacyPref === 'ur' || privacyPref === 'de') pref = privacyPref;
+        } catch (e) {}
+        showLang(pref);
+    </script>
+
+    <!-- Cloudflare Web Analytics (privacy-friendly, no cookies, GDPR-compliant) -->
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "d435b2572b82459cb083e37f7c734b75"}'></script>
+</body>
+</html>

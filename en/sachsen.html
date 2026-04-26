@@ -219,6 +219,65 @@
             footer .foot-links { justify-content: center; }
         }
         footer a { text-decoration: none; }
+        .nav-pager {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.6rem;
+            align-items: center;
+            justify-content: space-between;
+            margin: 1.25rem 0;
+            padding: 0.85rem 1rem;
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 0.65rem;
+        }
+        .nav-pager .pager-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            padding: 0.5rem 0.9rem;
+            background: transparent;
+            color: var(--page-text);
+            border: 1px solid var(--border);
+            border-radius: 0.45rem;
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: background 0.15s ease, border-color 0.15s ease;
+        }
+        .nav-pager .pager-btn:hover:not(.disabled) {
+            background: var(--primary);
+            color: #fff;
+            border-color: var(--primary);
+        }
+        .nav-pager .pager-btn.disabled {
+            opacity: 0.4;
+            pointer-events: none;
+            cursor: not-allowed;
+        }
+        .nav-pager .pager-jump {
+            flex: 1 1 200px;
+            min-width: 0;
+        }
+        .nav-pager .pager-jump select {
+            width: 100%;
+            padding: 0.5rem 0.75rem;
+            background: var(--card-bg);
+            color: var(--page-text);
+            border: 1px solid var(--border);
+            border-radius: 0.45rem;
+            font-size: 0.9rem;
+            font-family: inherit;
+            cursor: pointer;
+        }
+        .nav-pager .pager-jump select:focus {
+            outline: 2px solid var(--primary);
+            outline-offset: 1px;
+        }
+        @media (max-width: 600px) {
+            .nav-pager { gap: 0.5rem; }
+            .nav-pager .pager-btn { font-size: 0.85rem; padding: 0.45rem 0.7rem; }
+        }
         .back-to-top {
             position: fixed;
             bottom: 1.5rem;
@@ -264,6 +323,18 @@
 
     <main>
         <p><a href="./index.html">← Back to home</a></p>
+        
+        <nav class="nav-pager" aria-label="Page navigation">
+            <a class="pager-btn" href="./saarland.html" rel="prev">← Previous Saarland</a>
+            <div class="pager-jump">
+            <select onchange="if(this.value)window.location.href=this.value" aria-label="Jump to:">
+                <option value="">Jump to:</option>
+                <optgroup label="Questions"><option value="./questions-001-050.html">Questions 1–50</option><option value="./questions-051-100.html">Questions 51–100</option><option value="./questions-101-150.html">Questions 101–150</option><option value="./questions-151-200.html">Questions 151–200</option><option value="./questions-201-250.html">Questions 201–250</option><option value="./questions-251-300.html">Questions 251–300</option></optgroup>
+                <optgroup label="States"><option value="./baden-wuerttemberg.html">Baden-Württemberg</option><option value="./bayern.html">Bavaria (Bayern)</option><option value="./berlin.html">Berlin</option><option value="./brandenburg.html">Brandenburg</option><option value="./bremen.html">Bremen</option><option value="./hamburg.html">Hamburg</option><option value="./hessen.html">Hesse (Hessen)</option><option value="./mecklenburg-vorpommern.html">Mecklenburg-Vorpommern</option><option value="./niedersachsen.html">Lower Saxony (Niedersachsen)</option><option value="./nordrhein-westfalen.html">North Rhine-Westphalia</option><option value="./rheinland-pfalz.html">Rhineland-Palatinate</option><option value="./saarland.html">Saarland</option><option value="./sachsen.html" selected>Saxony (Sachsen)</option><option value="./sachsen-anhalt.html">Saxony-Anhalt</option><option value="./schleswig-holstein.html">Schleswig-Holstein</option><option value="./thueringen.html">Thuringia (Thüringen)</option></optgroup>
+            </select>
+        </div>
+            <a class="pager-btn" href="./sachsen-anhalt.html" rel="next">Saxony-Anhalt Next →</a>
+        </nav>
         <article class="content-card">
             <h1>Sachsen (Saxony) — State Questions (301–310)</h1>
 <p><a href="index.html">⬅ Back to Main README</a></p>
@@ -317,6 +388,18 @@
 <p><a href="index.html">⬅ Back to Main README</a></p>
 
         </article>
+        
+        <nav class="nav-pager" aria-label="Page navigation">
+            <a class="pager-btn" href="./saarland.html" rel="prev">← Previous Saarland</a>
+            <div class="pager-jump">
+            <select onchange="if(this.value)window.location.href=this.value" aria-label="Jump to:">
+                <option value="">Jump to:</option>
+                <optgroup label="Questions"><option value="./questions-001-050.html">Questions 1–50</option><option value="./questions-051-100.html">Questions 51–100</option><option value="./questions-101-150.html">Questions 101–150</option><option value="./questions-151-200.html">Questions 151–200</option><option value="./questions-201-250.html">Questions 201–250</option><option value="./questions-251-300.html">Questions 251–300</option></optgroup>
+                <optgroup label="States"><option value="./baden-wuerttemberg.html">Baden-Württemberg</option><option value="./bayern.html">Bavaria (Bayern)</option><option value="./berlin.html">Berlin</option><option value="./brandenburg.html">Brandenburg</option><option value="./bremen.html">Bremen</option><option value="./hamburg.html">Hamburg</option><option value="./hessen.html">Hesse (Hessen)</option><option value="./mecklenburg-vorpommern.html">Mecklenburg-Vorpommern</option><option value="./niedersachsen.html">Lower Saxony (Niedersachsen)</option><option value="./nordrhein-westfalen.html">North Rhine-Westphalia</option><option value="./rheinland-pfalz.html">Rhineland-Palatinate</option><option value="./saarland.html">Saarland</option><option value="./sachsen.html" selected>Saxony (Sachsen)</option><option value="./sachsen-anhalt.html">Saxony-Anhalt</option><option value="./schleswig-holstein.html">Schleswig-Holstein</option><option value="./thueringen.html">Thuringia (Thüringen)</option></optgroup>
+            </select>
+        </div>
+            <a class="pager-btn" href="./sachsen-anhalt.html" rel="next">Saxony-Anhalt Next →</a>
+        </nav>
     </main>
 
     <footer>
@@ -330,9 +413,10 @@
                 <a class="btn-foot" href="https://oet.bamf.de/ords/oetut/f?p=514:1::::::" target="_blank" rel="noopener">BAMF Test Center ↗</a>
                 <a class="btn-foot" href="https://github.com/abdullahbutt/german-citizenship-test-english-urdu" target="_blank" rel="noopener">⭐ Star on GitHub</a>
                 <a class="btn-foot" href="https://paypal.me/abdullahbuttde" target="_blank" rel="noopener">☕ Support</a>
+                <a class="btn-foot" href="../privacy.html">Privacy &amp; Impressum</a>
             </div>
         </div>
-        <div class="foot-meta">Last updated: 2026-04-25</div>
+        <div class="foot-meta">Last updated: 2026-04-26</div>
     </footer>
 
     <button class="back-to-top" id="backToTop" aria-label="Back to top" title="Back to top">↑</button>
@@ -362,5 +446,8 @@
             });
         }
     </script>
+
+    <!-- Cloudflare Web Analytics (privacy-friendly, no cookies, GDPR-compliant) -->
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "d435b2572b82459cb083e37f7c734b75"}'></script>
 </body>
 </html>

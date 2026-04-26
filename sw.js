@@ -11,13 +11,14 @@
  * you ship significant changes.
  */
 
-const CACHE_VERSION = 'v1';
+const CACHE_VERSION = 'v2';
 const CACHE_NAME = `gct-cache-${CACHE_VERSION}`;
 
 // All same-origin pages to pre-cache on install
 const PRECACHE_URLS = [
   './',
   './index.html',
+  './privacy.html',
   './manifest.webmanifest',
   './og-image.png',
   './icons/icon-192.png',

@@ -107,6 +107,12 @@ const UI = {
         starLabel: '⭐ Star on GitHub',
         supportBtn: '☕ Support',
         lastUpdated: 'Last updated',
+        navPrev: '← Previous',
+        navNext: 'Next →',
+        navJump: 'Jump to:',
+        navQuestions: 'Questions',
+        navStates: 'States',
+        privacyLink: 'Privacy & Impressum',
     },
     ur: {
         siteTitle: 'جرمن شہریت کا امتحان',
@@ -127,6 +133,12 @@ const UI = {
         starLabel: '⭐ GitHub پر اسٹار کریں',
         supportBtn: '☕ عطیہ',
         lastUpdated: 'آخری اپڈیٹ',
+        navPrev: 'پچھلا →',
+        navNext: '← اگلا',
+        navJump: 'جائیں:',
+        navQuestions: 'سوالات',
+        navStates: 'ریاستیں',
+        privacyLink: 'پرائیویسی و اظہاریہ',
     },
 };
 
@@ -137,6 +149,80 @@ const BAMF_TEST_CENTER_URL = 'https://oet.bamf.de/ords/oetut/f?p=514:1::::::';
 const BUILD_DATE = new Date().toISOString().slice(0, 10);
 const SITE_BASE_URL = 'https://abdullahbutt.github.io/german-citizenship-test-english-urdu';
 const OG_IMAGE_URL = `${SITE_BASE_URL}/og-image.png`;
+const CLOUDFLARE_ANALYTICS_TOKEN = 'd435b2572b82459cb083e37f7c734b75';
+
+// Canonical ordering for navigation (prev/next + jump menu).
+// Question sets in numeric order; states alphabetical.
+const ORDERED_QUESTIONS = [
+    'questions-001-050',
+    'questions-051-100',
+    'questions-101-150',
+    'questions-151-200',
+    'questions-201-250',
+    'questions-251-300',
+];
+const ORDERED_STATES = [
+    'baden-wuerttemberg',
+    'bayern',
+    'berlin',
+    'brandenburg',
+    'bremen',
+    'hamburg',
+    'hessen',
+    'mecklenburg-vorpommern',
+    'niedersachsen',
+    'nordrhein-westfalen',
+    'rheinland-pfalz',
+    'saarland',
+    'sachsen',
+    'sachsen-anhalt',
+    'schleswig-holstein',
+    'thueringen',
+];
+const ORDERED_ALL = [...ORDERED_QUESTIONS, ...ORDERED_STATES];
+
+// ---------- Navigation pager ----------
+function renderNavPager({ lang, slug }) {
+    // Only render on real content pages, not on the index
+    if (slug === 'index') return '';
+    const idx = ORDERED_ALL.indexOf(slug);
+    if (idx === -1) return '';
+
+    const ui = UI[lang];
+    const titles = TITLES[lang];
+    const prev = idx > 0 ? ORDERED_ALL[idx - 1] : null;
+    const next = idx < ORDERED_ALL.length - 1 ? ORDERED_ALL[idx + 1] : null;
+
+    const prevBtn = prev
+        ? `<a class="pager-btn" href="./${prev}.html" rel="prev">${escapeHtml(ui.navPrev)} ${escapeHtml(titles[prev] || prev)}</a>`
+        : `<span class="pager-btn disabled">${escapeHtml(ui.navPrev)}</span>`;
+    const nextBtn = next
+        ? `<a class="pager-btn" href="./${next}.html" rel="next">${escapeHtml(titles[next] || next)} ${escapeHtml(ui.navNext)}</a>`
+        : `<span class="pager-btn disabled">${escapeHtml(ui.navNext)}</span>`;
+
+    const optgroup = (label, items) =>
+        `<optgroup label="${escapeHtml(label)}">${
+            items.map(s =>
+                `<option value="./${s}.html"${s === slug ? ' selected' : ''}>${escapeHtml(titles[s] || s)}</option>`
+            ).join('')
+        }</optgroup>`;
+
+    const jumpSelect =
+        `<div class="pager-jump">
+            <select onchange="if(this.value)window.location.href=this.value" aria-label="${escapeHtml(ui.navJump)}">
+                <option value="">${escapeHtml(ui.navJump)}</option>
+                ${optgroup(ui.navQuestions, ORDERED_QUESTIONS)}
+                ${optgroup(ui.navStates, ORDERED_STATES)}
+            </select>
+        </div>`;
+
+    return `
+        <nav class="nav-pager" aria-label="Page navigation">
+            ${prevBtn}
+            ${jumpSelect}
+            ${nextBtn}
+        </nav>`;
+}
 
 // ---------- HTML template ----------
 function renderPage({ lang, title, bodyHtml, slug }) {
@@ -371,6 +457,65 @@ function renderPage({ lang, title, bodyHtml, slug }) {
             footer .foot-links { justify-content: center; }
         }
         footer a { text-decoration: none; }
+        .nav-pager {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.6rem;
+            align-items: center;
+            justify-content: space-between;
+            margin: 1.25rem 0;
+            padding: 0.85rem 1rem;
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 0.65rem;
+        }
+        .nav-pager .pager-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            padding: 0.5rem 0.9rem;
+            background: transparent;
+            color: var(--page-text);
+            border: 1px solid var(--border);
+            border-radius: 0.45rem;
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: background 0.15s ease, border-color 0.15s ease;
+        }
+        .nav-pager .pager-btn:hover:not(.disabled) {
+            background: var(--primary);
+            color: #fff;
+            border-color: var(--primary);
+        }
+        .nav-pager .pager-btn.disabled {
+            opacity: 0.4;
+            pointer-events: none;
+            cursor: not-allowed;
+        }
+        .nav-pager .pager-jump {
+            flex: 1 1 200px;
+            min-width: 0;
+        }
+        .nav-pager .pager-jump select {
+            width: 100%;
+            padding: 0.5rem 0.75rem;
+            background: var(--card-bg);
+            color: var(--page-text);
+            border: 1px solid var(--border);
+            border-radius: 0.45rem;
+            font-size: 0.9rem;
+            font-family: inherit;
+            cursor: pointer;
+        }
+        .nav-pager .pager-jump select:focus {
+            outline: 2px solid var(--primary);
+            outline-offset: 1px;
+        }
+        @media (max-width: 600px) {
+            .nav-pager { gap: 0.5rem; }
+            .nav-pager .pager-btn { font-size: 0.85rem; padding: 0.45rem 0.7rem; }
+        }
         .back-to-top {
             position: fixed;
             bottom: 1.5rem;
@@ -416,9 +561,11 @@ function renderPage({ lang, title, bodyHtml, slug }) {
 
     <main>
         <p><a href="${slug === 'index' ? '../index.html?stay' : './index.html'}">${escapeHtml(slug === 'index' ? ui.changeLang : ui.back)}</a></p>
+        ${renderNavPager({ lang, slug })}
         <article class="content-card">
             ${bodyHtml}
         </article>
+        ${renderNavPager({ lang, slug })}
     </main>
 
     <footer>
@@ -432,6 +579,7 @@ function renderPage({ lang, title, bodyHtml, slug }) {
                 <a class="btn-foot" href="${BAMF_TEST_CENTER_URL}" target="_blank" rel="noopener">${escapeHtml(ui.bamfTestCenter)}</a>
                 <a class="btn-foot" href="${GITHUB_URL}" target="_blank" rel="noopener">${escapeHtml(ui.starLabel)}</a>
                 <a class="btn-foot" href="${PAYPAL_URL}" target="_blank" rel="noopener">${escapeHtml(ui.supportBtn)}</a>
+                <a class="btn-foot" href="../privacy.html">${escapeHtml(ui.privacyLink)}</a>
             </div>
         </div>
         <div class="foot-meta">${escapeHtml(ui.lastUpdated)}: ${BUILD_DATE}</div>
@@ -464,6 +612,9 @@ function renderPage({ lang, title, bodyHtml, slug }) {
             });
         }
     </script>
+
+    <!-- Cloudflare Web Analytics (privacy-friendly, no cookies, GDPR-compliant) -->
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "${CLOUDFLARE_ANALYTICS_TOKEN}"}'></script>
 </body>
 </html>`;
 }

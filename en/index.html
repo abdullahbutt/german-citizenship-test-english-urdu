@@ -219,6 +219,65 @@
             footer .foot-links { justify-content: center; }
         }
         footer a { text-decoration: none; }
+        .nav-pager {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.6rem;
+            align-items: center;
+            justify-content: space-between;
+            margin: 1.25rem 0;
+            padding: 0.85rem 1rem;
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 0.65rem;
+        }
+        .nav-pager .pager-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            padding: 0.5rem 0.9rem;
+            background: transparent;
+            color: var(--page-text);
+            border: 1px solid var(--border);
+            border-radius: 0.45rem;
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: background 0.15s ease, border-color 0.15s ease;
+        }
+        .nav-pager .pager-btn:hover:not(.disabled) {
+            background: var(--primary);
+            color: #fff;
+            border-color: var(--primary);
+        }
+        .nav-pager .pager-btn.disabled {
+            opacity: 0.4;
+            pointer-events: none;
+            cursor: not-allowed;
+        }
+        .nav-pager .pager-jump {
+            flex: 1 1 200px;
+            min-width: 0;
+        }
+        .nav-pager .pager-jump select {
+            width: 100%;
+            padding: 0.5rem 0.75rem;
+            background: var(--card-bg);
+            color: var(--page-text);
+            border: 1px solid var(--border);
+            border-radius: 0.45rem;
+            font-size: 0.9rem;
+            font-family: inherit;
+            cursor: pointer;
+        }
+        .nav-pager .pager-jump select:focus {
+            outline: 2px solid var(--primary);
+            outline-offset: 1px;
+        }
+        @media (max-width: 600px) {
+            .nav-pager { gap: 0.5rem; }
+            .nav-pager .pager-btn { font-size: 0.85rem; padding: 0.45rem 0.7rem; }
+        }
         .back-to-top {
             position: fixed;
             bottom: 1.5rem;
@@ -264,6 +323,7 @@
 
     <main>
         <p><a href="../index.html?stay">← Change language</a></p>
+        
         <article class="content-card">
             <blockquote>
 <p>⭐ If this helped you pass your test, <a href="https://github.com/abdullahbutt/german-citizenship-test-english-urdu">please star this repo</a> — it helps others find it!</p>
@@ -621,6 +681,7 @@
 <p>Based on publicly available German government examination material. Translations and explanations provided freely for educational use.</p>
 
         </article>
+        
     </main>
 
     <footer>
@@ -634,9 +695,10 @@
                 <a class="btn-foot" href="https://oet.bamf.de/ords/oetut/f?p=514:1::::::" target="_blank" rel="noopener">BAMF Test Center ↗</a>
                 <a class="btn-foot" href="https://github.com/abdullahbutt/german-citizenship-test-english-urdu" target="_blank" rel="noopener">⭐ Star on GitHub</a>
                 <a class="btn-foot" href="https://paypal.me/abdullahbuttde" target="_blank" rel="noopener">☕ Support</a>
+                <a class="btn-foot" href="../privacy.html">Privacy &amp; Impressum</a>
             </div>
         </div>
-        <div class="foot-meta">Last updated: 2026-04-25</div>
+        <div class="foot-meta">Last updated: 2026-04-26</div>
     </footer>
 
     <button class="back-to-top" id="backToTop" aria-label="Back to top" title="Back to top">↑</button>
@@ -666,5 +728,8 @@
             });
         }
     </script>
+
+    <!-- Cloudflare Web Analytics (privacy-friendly, no cookies, GDPR-compliant) -->
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "d435b2572b82459cb083e37f7c734b75"}'></script>
 </body>
 </html>
