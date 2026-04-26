@@ -183,22 +183,8 @@ const ORDERED_ALL = [...ORDERED_QUESTIONS, ...ORDERED_STATES];
 
 // ---------- Navigation pager ----------
 function renderNavPager({ lang, slug }) {
-    // Only render on real content pages, not on the index
-    if (slug === 'index') return '';
-    const idx = ORDERED_ALL.indexOf(slug);
-    if (idx === -1) return '';
-
     const ui = UI[lang];
     const titles = TITLES[lang];
-    const prev = idx > 0 ? ORDERED_ALL[idx - 1] : null;
-    const next = idx < ORDERED_ALL.length - 1 ? ORDERED_ALL[idx + 1] : null;
-
-    const prevBtn = prev
-        ? `<a class="pager-btn" href="./${prev}.html" rel="prev">${escapeHtml(ui.navPrev)} ${escapeHtml(titles[prev] || prev)}</a>`
-        : `<span class="pager-btn disabled">${escapeHtml(ui.navPrev)}</span>`;
-    const nextBtn = next
-        ? `<a class="pager-btn" href="./${next}.html" rel="next">${escapeHtml(titles[next] || next)} ${escapeHtml(ui.navNext)}</a>`
-        : `<span class="pager-btn disabled">${escapeHtml(ui.navNext)}</span>`;
 
     const optgroup = (label, items) =>
         `<optgroup label="${escapeHtml(label)}">${
@@ -215,6 +201,27 @@ function renderNavPager({ lang, slug }) {
                 ${optgroup(ui.navStates, ORDERED_STATES)}
             </select>
         </div>`;
+
+    // Index page: jump-only variant, no prev/next arrows (no sequence applies)
+    if (slug === 'index') {
+        return `
+        <nav class="nav-pager nav-pager--jump-only" aria-label="Quick jump">
+            ${jumpSelect}
+        </nav>`;
+    }
+
+    const idx = ORDERED_ALL.indexOf(slug);
+    if (idx === -1) return '';
+
+    const prev = idx > 0 ? ORDERED_ALL[idx - 1] : null;
+    const next = idx < ORDERED_ALL.length - 1 ? ORDERED_ALL[idx + 1] : null;
+
+    const prevBtn = prev
+        ? `<a class="pager-btn" href="./${prev}.html" rel="prev">${escapeHtml(ui.navPrev)} ${escapeHtml(titles[prev] || prev)}</a>`
+        : `<span class="pager-btn disabled">${escapeHtml(ui.navPrev)}</span>`;
+    const nextBtn = next
+        ? `<a class="pager-btn" href="./${next}.html" rel="next">${escapeHtml(titles[next] || next)} ${escapeHtml(ui.navNext)}</a>`
+        : `<span class="pager-btn disabled">${escapeHtml(ui.navNext)}</span>`;
 
     return `
         <nav class="nav-pager" aria-label="Page navigation">
@@ -496,6 +503,10 @@ function renderPage({ lang, title, bodyHtml, slug }) {
         .nav-pager .pager-jump {
             flex: 1 1 200px;
             min-width: 0;
+        }
+        .nav-pager--jump-only .pager-jump {
+            flex: 1 1 auto;
+            width: 100%;
         }
         .nav-pager .pager-jump select {
             width: 100%;

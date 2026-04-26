@@ -259,6 +259,10 @@
             flex: 1 1 200px;
             min-width: 0;
         }
+        .nav-pager--jump-only .pager-jump {
+            flex: 1 1 auto;
+            width: 100%;
+        }
         .nav-pager .pager-jump select {
             width: 100%;
             padding: 0.5rem 0.75rem;
@@ -324,6 +328,15 @@
     <main>
         <p><a href="../index.html?stay">← Change language</a></p>
         
+        <nav class="nav-pager nav-pager--jump-only" aria-label="Quick jump">
+            <div class="pager-jump">
+            <select onchange="if(this.value)window.location.href=this.value" aria-label="Jump to:">
+                <option value="">Jump to:</option>
+                <optgroup label="Questions"><option value="./questions-001-050.html">Questions 1–50</option><option value="./questions-051-100.html">Questions 51–100</option><option value="./questions-101-150.html">Questions 101–150</option><option value="./questions-151-200.html">Questions 151–200</option><option value="./questions-201-250.html">Questions 201–250</option><option value="./questions-251-300.html">Questions 251–300</option></optgroup>
+                <optgroup label="States"><option value="./baden-wuerttemberg.html">Baden-Württemberg</option><option value="./bayern.html">Bavaria (Bayern)</option><option value="./berlin.html">Berlin</option><option value="./brandenburg.html">Brandenburg</option><option value="./bremen.html">Bremen</option><option value="./hamburg.html">Hamburg</option><option value="./hessen.html">Hesse (Hessen)</option><option value="./mecklenburg-vorpommern.html">Mecklenburg-Vorpommern</option><option value="./niedersachsen.html">Lower Saxony (Niedersachsen)</option><option value="./nordrhein-westfalen.html">North Rhine-Westphalia</option><option value="./rheinland-pfalz.html">Rhineland-Palatinate</option><option value="./saarland.html">Saarland</option><option value="./sachsen.html">Saxony (Sachsen)</option><option value="./sachsen-anhalt.html">Saxony-Anhalt</option><option value="./schleswig-holstein.html">Schleswig-Holstein</option><option value="./thueringen.html">Thuringia (Thüringen)</option></optgroup>
+            </select>
+        </div>
+        </nav>
         <article class="content-card">
             <blockquote>
 <p>⭐ If this helped you pass your test, <a href="https://github.com/abdullahbutt/german-citizenship-test-english-urdu">please star this repo</a> — it helps others find it!</p>
@@ -682,6 +695,15 @@
 
         </article>
         
+        <nav class="nav-pager nav-pager--jump-only" aria-label="Quick jump">
+            <div class="pager-jump">
+            <select onchange="if(this.value)window.location.href=this.value" aria-label="Jump to:">
+                <option value="">Jump to:</option>
+                <optgroup label="Questions"><option value="./questions-001-050.html">Questions 1–50</option><option value="./questions-051-100.html">Questions 51–100</option><option value="./questions-101-150.html">Questions 101–150</option><option value="./questions-151-200.html">Questions 151–200</option><option value="./questions-201-250.html">Questions 201–250</option><option value="./questions-251-300.html">Questions 251–300</option></optgroup>
+                <optgroup label="States"><option value="./baden-wuerttemberg.html">Baden-Württemberg</option><option value="./bayern.html">Bavaria (Bayern)</option><option value="./berlin.html">Berlin</option><option value="./brandenburg.html">Brandenburg</option><option value="./bremen.html">Bremen</option><option value="./hamburg.html">Hamburg</option><option value="./hessen.html">Hesse (Hessen)</option><option value="./mecklenburg-vorpommern.html">Mecklenburg-Vorpommern</option><option value="./niedersachsen.html">Lower Saxony (Niedersachsen)</option><option value="./nordrhein-westfalen.html">North Rhine-Westphalia</option><option value="./rheinland-pfalz.html">Rhineland-Palatinate</option><option value="./saarland.html">Saarland</option><option value="./sachsen.html">Saxony (Sachsen)</option><option value="./sachsen-anhalt.html">Saxony-Anhalt</option><option value="./schleswig-holstein.html">Schleswig-Holstein</option><option value="./thueringen.html">Thuringia (Thüringen)</option></optgroup>
+            </select>
+        </div>
+        </nav>
     </main>
 
     <footer>
