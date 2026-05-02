@@ -616,11 +616,57 @@ function renderPage({ lang, title, bodyHtml, slug }) {
             window.scrollTo({ top: 0, behavior: 'smooth' });
         });
 
-        // Register PWA service worker — enables offline study mode
+        // Register PWA service worker — enables offline study mode + auto-update
         if ('serviceWorker' in navigator) {
-            window.addEventListener('load', () => {
-                navigator.serviceWorker.register('../sw.js').catch(() => {});
+            window.addEventListener('load', async () => {
+                try {
+                    const reg = await navigator.serviceWorker.register('../sw.js');
+                    // Force an immediate update check on every page load
+                    reg.update().catch(() => {});
+                    // Re-check periodically while page is open
+                    setInterval(() => reg.update().catch(() => {}), 60 * 60 * 1000);
+
+                    // When SW broadcasts that an update is live, show a banner
+                    navigator.serviceWorker.addEventListener('message', (e) => {
+                        if (e.data && e.data.type === 'SW_UPDATED') showUpdateBanner();
+                    });
+
+                    // Also detect updates the standard way (waiting worker)
+                    reg.addEventListener('updatefound', () => {
+                        const nw = reg.installing;
+                        if (!nw) return;
+                        nw.addEventListener('statechange', () => {
+                            if (nw.state === 'installed' && navigator.serviceWorker.controller) {
+                                // A new SW is installed alongside the active one
+                                showUpdateBanner(nw);
+                            }
+                        });
+                    });
+
+                    // Auto-reload when the controlling SW changes (after user taps "Refresh")
+                    let reloading = false;
+                    navigator.serviceWorker.addEventListener('controllerchange', () => {
+                        if (reloading) return;
+                        reloading = true;
+                        window.location.reload();
+                    });
+                } catch (e) { /* SW unavailable, no problem */ }
             });
+
+            function showUpdateBanner(waitingWorker) {
+                if (document.getElementById('updateBanner')) return;
+                const bar = document.createElement('div');
+                bar.id = 'updateBanner';
+                bar.setAttribute('role', 'status');
+                bar.innerHTML = '🔄 New version available — <button id="updateBtn">Refresh</button>';
+                bar.style.cssText = 'position:fixed;left:50%;bottom:1rem;transform:translateX(-50%);background:#1d4ed8;color:#fff;padding:0.6rem 1rem;border-radius:0.5rem;font-size:0.9rem;box-shadow:0 0.5rem 1.25rem rgba(0,0,0,0.3);z-index:1060;display:flex;gap:0.6rem;align-items:center';
+                document.body.appendChild(bar);
+                document.getElementById('updateBtn').style.cssText = 'background:#fff;color:#1d4ed8;border:0;padding:0.3rem 0.75rem;border-radius:0.35rem;font-weight:600;cursor:pointer;font-size:0.85rem';
+                document.getElementById('updateBtn').addEventListener('click', () => {
+                    if (waitingWorker) waitingWorker.postMessage({ type: 'SKIP_WAITING' });
+                    else window.location.reload();
+                });
+            }
         }
     </script>
 
@@ -757,6 +803,22 @@ function buildLang(lang) {
     console.log(`  ✓ ${lang}/index.html`);
 }
 
+// Build a unique build ID — current ISO timestamp, sanitized for cache key use
+const BUILD_ID = new Date().toISOString().replace(/[:.]/g, '-');
+
+function stampServiceWorker() {
+    const srcPath = path.join(ROOT, 'sw.template.js');
+    const outPath = path.join(ROOT, 'sw.js');
+    // If a template file exists, prefer that. Otherwise read sw.js itself
+    // (which has __BUILD_ID__ as a placeholder) and stamp it.
+    const source = fs.existsSync(srcPath)
+        ? fs.readFileSync(srcPath, 'utf8')
+        : fs.readFileSync(outPath, 'utf8');
+    const stamped = source.replace(/__BUILD_ID__/g, BUILD_ID);
+    fs.writeFileSync(outPath, stamped);
+    console.log(`✓ sw.js stamped with build ID: ${BUILD_ID}`);
+}
+
 function main() {
     console.log('Building bilingual site...\n');
     for (const lang of ['en', 'ur']) {
@@ -766,6 +828,7 @@ function main() {
     // Make sure GitHub Pages doesn't treat this as Jekyll
     fs.writeFileSync(path.join(ROOT, '.nojekyll'), '');
     console.log('\n✓ .nojekyll written');
+    stampServiceWorker();
     console.log('\nDone. Commit and push the `html` branch, then enable GitHub Pages.');
 }
 
