@@ -126,24 +126,52 @@
         }
         h1 { margin-bottom: 1.25rem; }
         h2 { margin-top: 2rem; margin-bottom: 1rem; }
+        .table-wrap {
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            margin: 1rem 0 1.5rem;
+            border: 1px solid var(--border);
+            border-radius: 0.5rem;
+            background: var(--card-bg);
+        }
+        .table-wrap table {
+            margin: 0;
+            border: 0;
+        }
         table {
             width: 100%;
             border-collapse: collapse;
             margin: 1rem 0 1.5rem;
             background: var(--card-bg);
+            table-layout: auto;
         }
         table th, table td {
             padding: 0.75rem 1rem;
             border: 1px solid var(--border);
             vertical-align: top;
+            overflow-wrap: anywhere;
+            word-break: normal;
+            hyphens: auto;
+            min-width: 0;
         }
         table th {
             background: var(--primary);
             color: #fff;
             text-align: right;
+            white-space: nowrap;
         }
         table tr:nth-child(even) td { background: var(--table-stripe); }
         table tr:hover td { background: var(--table-hover); }
+
+        @media (max-width: 720px) {
+            .table-wrap table {
+                min-width: 540px;
+            }
+            table th, table td {
+                padding: 0.6rem 0.75rem;
+                font-size: 0.92rem;
+            }
+        }
         code {
             background: var(--table-stripe);
             padding: 0.15rem 0.4rem;
@@ -347,7 +375,7 @@
 <h3>سوال 251</h3>
 <p><strong>🇩🇪</strong> Was ist eine Aufgabe der Vereinten Nationen (UNO)?
 <strong>🇵🇰</strong> اقوام متحدہ (UNO) کا کام کیا ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -375,7 +403,7 @@
 <td>den Euro einzuführen</td>
 <td>یورو متعارف کروانا</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> اقوام متحدہ کا بنیادی مقصد بین الاقوامی امن اور سلامتی کا تحفظ ہے۔ 1945 میں دوسری جنگ عظیم کے بعد قائم ہوئی، اس کے 193 رکن ممالک ہیں۔ جرمنی 1973 میں رکن بنا (مشرقی اور مغربی دونوں بیک وقت)۔</p>
 </blockquote>
@@ -383,7 +411,7 @@
 <h3>سوال 255</h3>
 <p><strong>🇩🇪</strong> Welches Fest feiern die Christen an Ostern?
 <strong>🇵🇰</strong> عیسائی ایسٹر پر کیا مناتے ہیں؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -411,7 +439,7 @@
 <td>den Tag der Deutschen Einheit</td>
 <td>جرمن اتحاد کا دن</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> ایسٹر (Ostern) حضرت عیسیٰ کے جی اٹھنے کا جشن ہے اور عیسائیوں کا سب سے اہم تہوار ہے۔ گُڈ فرائیڈے (Karfreitag) مصلوب ہونے کی یاد ہے۔ کرسمس حضرت عیسیٰ کی پیدائش کا جشن ہے۔ ایسٹر پورے جرمنی میں عام تعطیل ہے۔</p>
 </blockquote>
@@ -419,7 +447,7 @@
 <h3>سوال 256</h3>
 <p><strong>🇩🇪</strong> Welches Fest feiern Christen an Weihnachten?
 <strong>🇵🇰</strong> عیسائی کرسمس پر کیا مناتے ہیں؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -447,7 +475,7 @@
 <td>den Beginn des Ramadan</td>
 <td>رمضان کا آغاز</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> کرسمس (Weihnachten) حضرت عیسیٰ کی پیدائش کا جشن ہے۔ جرمنی میں اصل جشن کرسمس کی شام (Heiligabend، 24 دسمبر) کو ہوتا ہے — خاندانی اجتماعات، تحائف، اور چرچ کی عبادت کے ساتھ۔ 25 اور 26 دسمبر دونوں عام تعطیل ہیں۔ کرسمس ٹری (Weihnachtsbaum) کی روایت جرمنی سے شروع ہوئی۔</p>
 </blockquote>
@@ -455,7 +483,7 @@
 <h3>سوال 257</h3>
 <p><strong>🇩🇪</strong> Was ist der Ramadan?
 <strong>🇵🇰</strong> رمضان کیا ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -483,7 +511,7 @@
 <td>ein hinduistisches Fest</td>
 <td>ہندو تہوار</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> رمضان اسلامی تقویم کا نواں مہینہ ہے جس میں مسلمان صبح سے غروب آفتاب تک روزہ رکھتے ہیں (کھانا، پینا اور سگریٹ نوشی نہیں)۔ یہ اسلام کے پانچ ارکان میں سے ایک ہے۔ روزے عید الفطر (جرمن میں Zuckerfest) کے جشن سے ختم ہوتے ہیں۔ جرمنی میں تقریباً 55 لاکھ مسلمان رہتے ہیں جو اسلام کو ملک کا دوسرا بڑا مذہب بناتے ہیں۔</p>
 </blockquote>
@@ -491,7 +519,7 @@
 <h3>سوال 258</h3>
 <p><strong>🇩🇪</strong> Was ist Chanukka?
 <strong>🇵🇰</strong> حنوکا کیا ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -519,7 +547,7 @@
 <td>ein buddhistisches Fest</td>
 <td>بدھسٹ تہوار</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> حنوکا (Chanukka) یہودیوں کا روشنیوں کا تہوار ہے جو آٹھ دن تک منایا جاتا ہے۔ یروشلم کی دوسری عبادت گاہ کی دوبارہ تقدیس کی یاد میں ہے۔ نو شمعوں والا شمعدان (Chanukkia) روشن کیا جاتا ہے — ہر رات ایک اضافی شمع۔ جرمنی کے کئی شہروں میں حنوکا کے دوران عوامی شمعدان روشنی کی تقریبات ہوتی ہیں۔</p>
 </blockquote>
@@ -527,7 +555,7 @@
 <h3>سوال 259</h3>
 <p><strong>🇩🇪</strong> Welche Religionsgemeinschaft feiert das Zuckerfest?
 <strong>🇵🇰</strong> عید الفطر (Zuckerfest) کون سی مذہبی جماعت مناتی ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -555,7 +583,7 @@
 <td>Hindus</td>
 <td>ہندو</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> Zuckerfest (عید الفطر) رمضان کے اختتام کا جشن ہے۔ مسلمان نماز، دعوتوں، اور تحائف دینے سے مناتے ہیں — خاص طور پر بچوں کو مٹھائیاں اور کینڈی (اسی لیے جرمن میں &quot;Zuckerfest&quot; یعنی &quot;مٹھائی کا تہوار&quot;)۔ یہ اسلام کے دو سب سے اہم تہواروں میں سے ایک ہے، دوسرا عید الاضحیٰ (Opferfest) ہے۔</p>
 </blockquote>
@@ -563,7 +591,7 @@
 <h3>سوال 260</h3>
 <p><strong>🇩🇪</strong> Wann feiert man den Tag der Arbeit?
 <strong>🇵🇰</strong> یوم مزدور کب منایا جاتا ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -591,7 +619,7 @@
 <td>am 1. Januar</td>
 <td>یکم جنوری</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> یوم مزدور (Tag der Arbeit) یکم مئی کو 1933 سے عام تعطیل ہے۔ مزدور یونینیں مظاہرے اور ریلیاں منظم کرتی ہیں۔ 3 اکتوبر جرمن اتحاد کا دن، 24 دسمبر کرسمس کی شام، اور یکم جنوری نیا سال ہے۔</p>
 </blockquote>
@@ -599,7 +627,7 @@
 <h3>سوال 263</h3>
 <p><strong>🇩🇪</strong> Was bedeutet &quot;Pressefreiheit&quot;?
 <strong>🇵🇰</strong> &quot;صحافتی آزادی&quot; کا کیا مطلب ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -627,7 +655,7 @@
 <td>Nur die Regierung darf Nachrichten verbreiten.</td>
 <td>صرف حکومت خبریں پھیلا سکتی ہے۔</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> صحافتی آزادی (بنیادی قانون کا آرٹیکل 5) کا مطلب ہے کہ میڈیا حکومتی سینسرشپ یا کنٹرول کے بغیر آزادانہ رپورٹ کر سکتا ہے۔ &quot;آزاد صحافت&quot; کا مطلب مفت اخبارات نہیں ہے۔ صحافت حکومتی اقدامات کی نگرانی کا &quot;واچ ڈاگ&quot; کردار ادا کرتی ہے۔</p>
 </blockquote>
@@ -635,7 +663,7 @@
 <h3>سوال 267</h3>
 <p><strong>🇩🇪</strong> Was ist Deutschlands nationaler Feiertag?
 <strong>🇵🇰</strong> جرمنی کی قومی تعطیل کیا ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -663,7 +691,7 @@
 <td>9. November</td>
 <td>9 نومبر</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> 3 اکتوبر — جرمن اتحاد کا دن (Tag der Deutschen Einheit) — جرمنی کی قومی تعطیل ہے۔ 9 نومبر (برلن دیوار گرنے کا دن) 1938 کے نومبر فسادات کی وجہ سے نہیں چنا گیا۔ ہر سال جشن کی میزبانی ایک مختلف ریاست کرتی ہے۔</p>
 </blockquote>
@@ -671,7 +699,7 @@
 <h3>سوال 268</h3>
 <p><strong>🇩🇪</strong> Welches ist das flächenmäßig größte Bundesland?
 <strong>🇵🇰</strong> رقبے کے لحاظ سے سب سے بڑی ریاست کون سی ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -699,7 +727,7 @@
 <td>Baden-Württemberg</td>
 <td>بادن ورٹمبرگ</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> بویریا (Bayern) رقبے کے لحاظ سے جرمنی کی سب سے بڑی ریاست ہے — تقریباً 70,550 مربع کلومیٹر۔ اوکٹوبر فیسٹ، الپس، اور BMW اور آوڈی کے لیے مشہور ہے۔ NRW آبادی کے لحاظ سے سب سے بڑی ہے۔</p>
 </blockquote>
@@ -707,7 +735,7 @@
 <h3>سوال 273</h3>
 <p><strong>🇩🇪</strong> Was muss man bei einer Eheschließung beachten?
 <strong>🇵🇰</strong> شادی کے وقت کیا خیال رکھنا ضروری ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -735,7 +763,7 @@
 <td>Man muss vorher eine Prüfung ablegen.</td>
 <td>پہلے امتحان دینا ہوگا۔</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> جرمنی میں صرف سول رجسٹری آفس (Standesamt) میں شادی قانونی طور پر جائز ہے۔ چرچ کی شادی اختیاری ہے اور اس کی اپنی کوئی قانونی حیثیت نہیں۔ دونوں شریک حیات کو ذاتی طور پر جائز شناخت کے ساتھ حاضر ہونا ضروری ہے۔</p>
 </blockquote>
@@ -743,7 +771,7 @@
 <h3>سوال 274</h3>
 <p><strong>🇩🇪</strong> Wer darf in Deutschland heiraten?
 <strong>🇵🇰</strong> جرمنی میں کون شادی کر سکتا ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -771,7 +799,7 @@
 <td>nur Deutsche</td>
 <td>صرف جرمن</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> جرمنی میں شادی کی کم از کم عمر 18 سال ہے۔ 2017 سے 18 سال سے کم عمر کی تمام شادیاں کالعدم ہیں۔ مختلف مذاہب، قومیتوں، اور ہم جنس جوڑے سب شادی کر سکتے ہیں۔ جبری شادی مجرمانہ جرم ہے۔</p>
 </blockquote>
@@ -779,7 +807,7 @@
 <h3>سوال 288 <em>(جولائی 2024 میں تازہ کاری — اسرائیل کا حق وجود)</em></h3>
 <p><strong>🇩🇪</strong> Woraus begründet sich Deutschlands besondere Verantwortung für Israel?
 <strong>🇵🇰</strong> جرمنی کی اسرائیل کے لیے خاص ذمہ داری کی بنیاد کیا ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -807,7 +835,7 @@
 <td>aus der christlichen Tradition</td>
 <td>عیسائی روایت سے</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> جرمنی کی اسرائیل کے لیے خاص ذمہ داری نازی جرائم — سب سے بڑھ کر ہولوکاسٹ جس میں 60 لاکھ یہودی منظم طریقے سے قتل کیے گئے — سے پیدا ہوتی ہے۔ اس ذمہ داری کو جرمنی کی &quot;Staatsräson&quot; (وجہ ریاست) کا حصہ سمجھا جاتا ہے۔ اس کا مطلب ہے جرمنی اسرائیل کے حق وجود کی حمایت کرتا ہے، سام دشمنی سے لڑتا ہے، اور اسرائیل کے ساتھ خصوصی سفارتی تعلقات رکھتا ہے۔</p>
 </blockquote>
@@ -815,7 +843,7 @@
 <h3>سوال 291</h3>
 <p><strong>🇩🇪</strong> Was muss man in Deutschland haben, um Auto fahren zu dürfen?
 <strong>🇵🇰</strong> جرمنی میں گاڑی چلانے کے لیے کیا ہونا ضروری ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -843,7 +871,7 @@
 <td>eine Parteimitgliedschaft</td>
 <td>پارٹی رکنیت</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> جرمنی میں گاڑی چلانے کے لیے جائز ڈرائیونگ لائسنس اور لازمی بیمہ (Kfz-Haftpflichtversicherung) ضروری ہے۔ گاڑی کا رجسٹریشن (Zulassung) بھی ہونا چاہیے اور باقاعدہ معائنہ (TÜV) بھی۔ بغیر بیمہ گاڑی چلانا مجرمانہ جرم ہے۔</p>
 </blockquote>
@@ -851,7 +879,7 @@
 <h3>سوال 292</h3>
 <p><strong>🇩🇪</strong> Was ist die Schulpflicht?
 <strong>🇵🇰</strong> لازمی تعلیم (Schulpflicht) کیا ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -879,7 +907,7 @@
 <td>Kinder dürfen zu Hause unterrichtet werden.</td>
 <td>بچوں کو گھر پر پڑھایا جا سکتا ہے۔</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> جرمنی میں تمام بچوں کو اسکول جانا لازمی ہے (Schulpflicht) — جنس، خاندانی آمدنی، مذہب، یا قومیت سے قطع نظر — بشمول پناہ گزینوں اور تارکین وطن کے بچے۔ جرمنی میں گھریلو تعلیم (homeschooling) عام طور پر اجازت یافتہ نہیں ہے۔</p>
 </blockquote>
@@ -887,7 +915,7 @@
 <h3>سوال 293</h3>
 <p><strong>🇩🇪</strong> Was bedeutet &quot;Integration&quot; in Deutschland?
 <strong>🇵🇰</strong> جرمنی میں &quot;انضمام&quot; (Integration) کا کیا مطلب ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -915,7 +943,7 @@
 <td>nur unter Landsleuten leben</td>
 <td>صرف اپنے ہم وطنوں کے ساتھ رہنا</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> جرمنی میں انضمام کا مطلب ہے معاشرے میں فعال طور پر حصہ لینا: جرمن سیکھنا، جرمن قوانین اور اقدار سمجھنا، کام کرنا، اور برادری سے جڑنا۔ اس کا مطلب اپنی ثقافت چھوڑنا نہیں ہے — جرمنی مشترکہ جمہوری اقدار کے فریم ورک میں ثقافتی تنوع کی حمایت کرتا ہے۔ انضمام کے کورسز (Integrationskurse) نئے آنے والوں کی مدد کے لیے پیش کیے جاتے ہیں۔</p>
 </blockquote>
@@ -923,7 +951,7 @@
 <h3>سوال 300</h3>
 <p><strong>🇩🇪</strong> Was sind die fünf Säulen der deutschen Sozialversicherung?
 <strong>🇵🇰</strong> جرمن سماجی بیمے کے پانچ ستون کیا ہیں؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -951,7 +979,7 @@
 <td>Feuer-, Hagel-, Haftpflicht-, Rechtsschutz- und Glasversicherung</td>
 <td>آگ، اولے، ذمہ داری، قانونی، اور شیشے کا بیمہ</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> جرمنی کے سماجی بیمے کے پانچ لازمی ستون: صحت کا بیمہ (Krankenversicherung)، پنشن بیمہ (Rentenversicherung)، بے روزگاری بیمہ (Arbeitslosenversicherung)، نگہداشت بیمہ (Pflegeversicherung، 1995 میں شامل)، اور حادثے کا بیمہ (Unfallversicherung، صرف مالک ادا کرتا ہے)۔ یہ نظام اوٹو فون بسمارک نے 1880 کی دہائی میں شروع کیا اور دنیا بھر کے سماجی تحفظ کے نظاموں کا نمونہ ہے۔</p>
 </blockquote>
@@ -989,7 +1017,7 @@
                 <a class="btn-foot" href="../privacy.html">پرائیویسی و اظہاریہ</a>
             </div>
         </div>
-        <div class="foot-meta">آخری اپڈیٹ: 2026-05-03</div>
+        <div class="foot-meta">آخری اپڈیٹ: 2026-05-10</div>
     </footer>
 
     <button class="back-to-top" id="backToTop" aria-label="اوپر جائیں" title="اوپر جائیں">↑</button>

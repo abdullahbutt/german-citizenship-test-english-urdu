@@ -126,24 +126,52 @@
         }
         h1 { margin-bottom: 1.25rem; }
         h2 { margin-top: 2rem; margin-bottom: 1rem; }
+        .table-wrap {
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            margin: 1rem 0 1.5rem;
+            border: 1px solid var(--border);
+            border-radius: 0.5rem;
+            background: var(--card-bg);
+        }
+        .table-wrap table {
+            margin: 0;
+            border: 0;
+        }
         table {
             width: 100%;
             border-collapse: collapse;
             margin: 1rem 0 1.5rem;
             background: var(--card-bg);
+            table-layout: auto;
         }
         table th, table td {
             padding: 0.75rem 1rem;
             border: 1px solid var(--border);
             vertical-align: top;
+            overflow-wrap: anywhere;
+            word-break: normal;
+            hyphens: auto;
+            min-width: 0;
         }
         table th {
             background: var(--primary);
             color: #fff;
             text-align: right;
+            white-space: nowrap;
         }
         table tr:nth-child(even) td { background: var(--table-stripe); }
         table tr:hover td { background: var(--table-hover); }
+
+        @media (max-width: 720px) {
+            .table-wrap table {
+                min-width: 540px;
+            }
+            table th, table td {
+                padding: 0.6rem 0.75rem;
+                font-size: 0.92rem;
+            }
+        }
         code {
             background: var(--table-stripe);
             padding: 0.15rem 0.4rem;
@@ -347,7 +375,7 @@
 <h3>سوال 151</h3>
 <p><strong>🇩🇪</strong> Welche Nummer hat der Notruf für Feuerwehr und Rettungsdienst?
 <strong>🇵🇰</strong> فائر بریگیڈ اور ایمبولینس کا ایمرجنسی نمبر کیا ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -375,7 +403,7 @@
 <td>122</td>
 <td>122</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> 112 فائر اور ایمبولینس کے لیے ہے اور EU کا عالمی ایمرجنسی نمبر بھی ہے — تمام EU ممالک میں کام کرتا ہے۔ 110 جرمن پولیس کا نمبر ہے۔</p>
 </blockquote>
@@ -383,7 +411,7 @@
 <h3>سوال 152</h3>
 <p><strong>🇩🇪</strong> Was ist verboten in Deutschland?
 <strong>🇵🇰</strong> جرمنی میں کیا ممنوع ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -411,7 +439,7 @@
 <td>Demonstrieren</td>
 <td>مظاہرہ کرنا</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> ازدواجی تشدد مجرمانہ جرم ہے۔ 1997 سے ازدواجی زنا بالجبر بھی قابل سزا ہے۔ شراب پینا، سگریٹ نوشی (پابندیوں کے ساتھ)، اور مظاہرہ کرنا سب جائز ہیں۔</p>
 </blockquote>
@@ -419,7 +447,7 @@
 <h3>سوال 155</h3>
 <p><strong>🇩🇪</strong> Was passierte am 20. Juli 1944?
 <strong>🇵🇰</strong> 20 جولائی 1944 کو کیا ہوا؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -447,7 +475,7 @@
 <td>Gründung der Bundesrepublik</td>
 <td>وفاقی جمہوریہ کا قیام</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> 20 جولائی 1944 کو کرنل کلاؤس شینک گراف فون شٹاؤفنبرگ نے ہٹلر کے ہیڈ کوارٹر میں بم رکھا۔ ہٹلر دھماکے سے بچ گیا۔ شٹاؤفنبرگ اور دیگر سازشیوں کو پھانسی دی گئی۔ یہ واقعہ نازی حکومت کے خلاف جرمن مزاحمت کی علامت کے طور پر یاد کیا جاتا ہے۔</p>
 </blockquote>
@@ -455,7 +483,7 @@
 <h3>سوال 156</h3>
 <p><strong>🇩🇪</strong> Was passierte am 8. Mai 1945?
 <strong>🇵🇰</strong> 8 مئی 1945 کو کیا ہوا؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -483,7 +511,7 @@
 <td>Wiedervereinigung Deutschlands</td>
 <td>جرمنی کا دوبارہ اتحاد</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> 8 مئی 1945 نازی جرمنی کی غیر مشروط ہتھیار ڈالنے کا دن ہے۔ اس تاریخ کو &quot;یوم آزادی&quot; (Tag der Befreiung) کے نام سے بھی جانا جاتا ہے۔ جنگ یکم ستمبر 1939 سے جاری تھی۔</p>
 </blockquote>
@@ -491,7 +519,7 @@
 <h3>سوال 157</h3>
 <p><strong>🇩🇪</strong> Was passierte am 17. Juni 1953 in der DDR?
 <strong>🇵🇰</strong> 17 جون 1953 کو مشرقی جرمنی میں کیا ہوا؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -519,7 +547,7 @@
 <td>Wiedervereinigung</td>
 <td>دوبارہ اتحاد</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> 17 جون 1953 کو مشرقی برلن اور پوری DDR میں مزدوروں نے کمیونسٹ حکومت کے خلاف بغاوت کی — بڑھتے ہوئے کام کے اہداف کی مخالفت اور آزاد انتخابات کا مطالبہ۔ سوویت ٹینکوں نے بغاوت کچل دی۔ 1990 تک مغربی جرمنی میں 17 جون &quot;جرمن اتحاد کا دن&quot; کے طور پر منایا جاتا تھا۔</p>
 </blockquote>
@@ -527,7 +555,7 @@
 <h3>سوال 158</h3>
 <p><strong>🇩🇪</strong> Wann wurde die Berliner Mauer gebaut?
 <strong>🇵🇰</strong> برلن دیوار کب بنائی گئی؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -555,7 +583,7 @@
 <td>1971</td>
 <td>1971</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> برلن دیوار 13 اگست 1961 کو مشرقی جرمن حکومت نے شہریوں کی مغرب کی طرف بھاگنے کی لہر روکنے کے لیے بنائی۔ دیوار سے پہلے تقریباً 35 لاکھ مشرقی جرمن مغرب کی طرف بھاگ چکے تھے۔ دیوار نے 28 سال تک برلن کو تقسیم کیا یہاں تک کہ 9 نومبر 1989 کو گر گئی۔</p>
 </blockquote>
@@ -563,7 +591,7 @@
 <h3>سوال 159</h3>
 <p><strong>🇩🇪</strong> Wann fiel die Berliner Mauer?
 <strong>🇵🇰</strong> برلن دیوار کب گری؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -591,7 +619,7 @@
 <td>1990</td>
 <td>1990</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> برلن دیوار 9 نومبر 1989 کو 28 سال بعد گری جب مشرقی جرمن حکومت نے اعلان کیا کہ شہری آزادانہ سرحد عبور کر سکتے ہیں۔ ہزاروں مشرقی برلن والے چیک پوائنٹس پر امڈ آئے۔ دوبارہ اتحاد 3 اکتوبر 1990 کو ہوا۔</p>
 </blockquote>
@@ -599,7 +627,7 @@
 <h3>سوال 160</h3>
 <p><strong>🇩🇪</strong> Wann war der Zweite Weltkrieg?
 <strong>🇵🇰</strong> دوسری جنگ عظیم کب ہوئی؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -627,7 +655,7 @@
 <td>1949–1990</td>
 <td>1949–1990</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> دوسری جنگ عظیم یکم ستمبر 1939 (جرمنی کا پولینڈ پر حملہ) سے 8 مئی 1945 (یورپ میں ہتھیار ڈالنا) تک جاری رہی۔ پہلی جنگ عظیم 1914–1918 تھی۔ 1945–1989 سرد جنگ کا دور تھا۔ 1949–1990 جرمنی کی تقسیم کا دور تھا۔</p>
 </blockquote>
@@ -635,7 +663,7 @@
 <h3>سوال 161</h3>
 <p><strong>🇩🇪</strong> Was war der Holocaust / die Shoah?
 <strong>🇵🇰</strong> ہولوکاسٹ / شوآ کیا تھا؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -663,7 +691,7 @@
 <td>ein Bürgerkrieg</td>
 <td>خانہ جنگی</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> ہولوکاسٹ (عبرانی میں شوآ) 1941 سے 1945 کے دوران نازی جرمنی کے ذریعے تقریباً 60 لاکھ یورپی یہودیوں کی منظم، ریاستی سطح پر قتل عام تھی۔ نازیوں نے روما، معذور افراد، سیاسی مخالفین، اور ہم جنس پسندوں سمیت لاکھوں دیگر لوگوں کو بھی قتل کیا۔ جرمنی ان جرائم کی خصوصی تاریخی ذمہ داری اٹھاتا ہے۔</p>
 </blockquote>
@@ -671,7 +699,7 @@
 <h3>سوال 164</h3>
 <p><strong>🇩🇪</strong> Wie hieß der erste Bundeskanzler?
 <strong>🇵🇰</strong> پہلے وفاقی چانسلر کا نام کیا تھا؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -699,7 +727,7 @@
 <td>Helmut Kohl</td>
 <td>ہیلموٹ کول</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> کونراڈ ایڈیناور (CDU) جرمنی کے پہلے چانسلر تھے (1949–1963)۔ انہوں نے مغربی جرمنی کو مغربی اتحاد میں مضبوطی سے شامل کیا، فرانس سے مصالحت کی، اور &quot;Wirtschaftswunder&quot; (معاشی معجزے) کی نگرانی کی۔</p>
 </blockquote>
@@ -707,7 +735,7 @@
 <h3>سوال 165</h3>
 <p><strong>🇩🇪</strong> Wann war die &quot;Weimarer Republik&quot;?
 <strong>🇵🇰</strong> &quot;وائمر جمہوریہ&quot; کب تھی؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -735,7 +763,7 @@
 <td>1949–1990</td>
 <td>1949–1990</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> وائمر جمہوریہ جرمنی کی پہلی جمہوری حکومت تھی، پہلی جنگ عظیم کے خاتمے (1918/1919) سے ہٹلر کے اقتدار میں آنے (1933) تک۔ اس کا نام وائمر شہر سے پڑا جہاں اس کا آئین بنایا گیا۔</p>
 </blockquote>
@@ -743,7 +771,7 @@
 <h3>سوال 167</h3>
 <p><strong>🇩🇪</strong> Wie kam Adolf Hitler 1933 an die Macht?
 <strong>🇵🇰</strong> ایڈولف ہٹلر 1933 میں اقتدار میں کیسے آیا؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -771,7 +799,7 @@
 <td>durch eine Volksabstimmung</td>
 <td>عوامی ریفرنڈم سے</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> 30 جنوری 1933 کو صدر پاؤل فون ہنڈنبرگ نے ہٹلر کو چانسلر مقرر کیا۔ ہٹلر عوام نے براہ راست منتخب نہیں کیا تھا بلکہ قانونی سیاسی عمل سے مقرر ہوا۔ پھر رائخسٹاگ میں آگ (فروری 1933) اور اختیارات کا قانون (مارچ 1933) استعمال کر کے جمہوریت کو ختم کیا اور آمریت قائم کی۔ اسی لیے جدید جرمنی میں مضبوط آئینی تحفظات ہیں۔</p>
 </blockquote>
@@ -779,7 +807,7 @@
 <h3>سوال 169</h3>
 <p><strong>🇩🇪</strong> Was passierte am 9. November 1938?
 <strong>🇵🇰</strong> 9 نومبر 1938 کو کیا ہوا؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -807,7 +835,7 @@
 <td>Gründung der Bundesrepublik</td>
 <td>وفاقی جمہوریہ کا قیام</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> 9 نومبر 1938 کو نازیوں نے جرمنی اور آسٹریا بھر میں یہودیوں کے خلاف پرتشدد فسادات منظم کیے۔ عبادت خانے جلائے گئے، یہودی کاروبار تباہ کیے گئے، اور ہزاروں یہودی گرفتار، مارے پیٹے، یا قتل کیے گئے۔ 9 نومبر وہ تاریخ بھی ہے جب برلن دیوار گری (1989) — اسی دوہری اہمیت کی وجہ سے 3 اکتوبر اتحاد کے دن کے طور پر چنا گیا۔</p>
 </blockquote>
@@ -815,7 +843,7 @@
 <h3>سوال 170</h3>
 <p><strong>🇩🇪</strong> Wer musste im Nationalsozialismus den &quot;Judenstern&quot; tragen?
 <strong>🇵🇰</strong> نازی دور میں &quot;یہودی ستارہ&quot; کسے پہننا پڑتا تھا؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -843,7 +871,7 @@
 <td>Sozialdemokraten</td>
 <td>سوشل ڈیموکریٹ</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> ستمبر 1941 سے جرمنی میں 6 سال اور اس سے زیادہ عمر کے تمام یہودیوں کو &quot;Jude&quot; لکھا ہوا پیلا داؤد کا ستارہ اپنے کپڑوں پر لگانا پڑتا تھا۔ یہ یہودیوں کی منظم شناخت، بدنامی، اور ایذا رسانی کا حصہ تھا جو بالآخر ہولوکاسٹ تک لے گیا۔</p>
 </blockquote>
@@ -851,7 +879,7 @@
 <h3>سوال 171</h3>
 <p><strong>🇩🇪</strong> Was war der &quot;Marshallplan&quot;?
 <strong>🇵🇰</strong> &quot;مارشل پلان&quot; کیا تھا؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -879,7 +907,7 @@
 <td>eine Verfassung</td>
 <td>آئین</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> مارشل پلان (سرکاری طور پر یورپی بحالی پروگرام) 1948 سے امریکی اقدام تھا جو جنگ کے بعد مغربی یورپی معیشتوں کی تعمیر نو کے لیے مالی امداد فراہم کرتا تھا۔ مغربی جرمنی نے اہم فنڈز حاصل کیے جو &quot;Wirtschaftswunder&quot; (معاشی معجزے) میں اہم کردار ادا کیا۔</p>
 </blockquote>
@@ -887,7 +915,7 @@
 <h3>سوال 173</h3>
 <p><strong>🇩🇪</strong> Wie hieß die herrschende Partei in der DDR?
 <strong>🇵🇰</strong> مشرقی جرمنی (DDR) میں حکمران پارٹی کا نام کیا تھا؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -915,7 +943,7 @@
 <td>NSDAP</td>
 <td>NSDAP</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> SED (سوشلسٹ اتحادی جماعت) DDR کی حکمران پارٹی تھی۔ یہ 1946 میں سوویت مقبوضہ علاقے میں SPD اور KPD (کمیونسٹ پارٹی) کو زبردستی ملا کر بنائی گئی۔ 1989 کے پرامن انقلاب تک SED نے مشرقی جرمنی کے ہر پہلو پر کنٹرول رکھا۔ بعد میں یہ PDS اور پھر Die Linke بن گئی۔</p>
 </blockquote>
@@ -923,7 +951,7 @@
 <h3>سوال 175</h3>
 <p><strong>🇩🇪</strong> Welcher Bundeskanzler bekam den Friedensnobelpreis?
 <strong>🇵🇰</strong> کون سے جرمن چانسلر کو نوبل امن انعام ملا؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -951,7 +979,7 @@
 <td>Gerhard Schröder</td>
 <td>گیرہارڈ شروئڈر</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> ولی برانٹ (SPD، چانسلر 1969–1974) کو 1971 میں مشرقی پالیسی (Ostpolitik) کے لیے نوبل امن انعام ملا۔ وہ &quot;وارسا میں گھٹنے ٹیکنے&quot; (Kniefall von Warschau) کے لیے بھی مشہور ہیں — 1970 میں وارسا یہودی بستی کی یادگار پر خود بخود گھٹنے ٹیک کر دوسری جنگ عظیم کے جرائم پر جرمن توبہ کی علامت بنی۔</p>
 </blockquote>
@@ -959,7 +987,7 @@
 <h3>سوال 176</h3>
 <p><strong>🇩🇪</strong> Welcher Bundeskanzler wird als &quot;Kanzler der Einheit&quot; bezeichnet?
 <strong>🇵🇰</strong> کون سے چانسلر کو &quot;اتحاد کا چانسلر&quot; کہا جاتا ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -987,7 +1015,7 @@
 <td>Gerhard Schröder</td>
 <td>گیرہارڈ شروئڈر</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> ہیلموٹ کول (CDU، چانسلر 1982–1998) کو &quot;Kanzler der Einheit&quot; (اتحاد کا چانسلر) کہا جاتا ہے کیونکہ انہوں نے 1990 میں جرمنی کے دوبارہ اتحاد کی صدارت کی۔ 1989 میں برلن دیوار گرنے کے تاریخی موقع کو سنبھالا اور سوویت یونین، امریکہ، فرانس اور برطانیہ کے ساتھ بات چیت سے جرمن اتحاد حاصل کیا۔</p>
 </blockquote>
@@ -995,7 +1023,7 @@
 <h3>سوال 180</h3>
 <p><strong>🇩🇪</strong> Wer war Martin Luther?
 <strong>🇵🇰</strong> مارٹن لوتھر کون تھے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1023,7 +1051,7 @@
 <td>ein Wissenschaftler</td>
 <td>ایک سائنسدان</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> مارٹن لوتھر (1483–1546) ایک آگسٹینی راہب اور الہیات کے پروفیسر تھے جنہوں نے 1517 میں کیتھولک چرچ کی رعایت ناموں کی فروخت پر تنقید کرتے ہوئے 95 مقالات شائع کیے۔ اس عمل نے پروٹسٹنٹ اصلاح مذہب کا آغاز کیا۔ لوتھر نے بائبل کا جرمن میں ترجمہ کیا جس سے جرمن زبان بھی بہت متاثر ہوئی۔ انہیں امریکی شہری حقوق کے رہنما مارٹن لوتھر کنگ جونیئر سے نہ ملائیں۔</p>
 </blockquote>
@@ -1031,7 +1059,7 @@
 <h3>سوال 182 <em>(جولائی 2024 میں تازہ کاری — جرمنی میں یہودی زندگی)</em></h3>
 <p><strong>🇩🇪</strong> Wie heißt das jüdische Gebetshaus?
 <strong>🇵🇰</strong> یہودی عبادت گاہ کو کیا کہتے ہیں؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1059,7 +1087,7 @@
 <td>Kirche</td>
 <td>گرجا</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> یہودی عبادت گاہ کو سیناگاگ (Synagoge) کہتے ہیں۔ نازی دور سے پہلے جرمنی میں 2,000 سے زیادہ سیناگاگ تھے۔ 1938 کے نومبر فسادات میں 1,400 سے زیادہ تباہ کیے گئے۔ آج جرمنی بھر میں نئے سیناگاگ بنائے گئے ہیں بشمول میونخ (Ohel Jakob، 2006) اور ڈریسڈن (2001)۔ باسیلیکا اور گرجا عیسائی ہیں، مسجد اسلامی ہے۔</p>
 </blockquote>
@@ -1067,7 +1095,7 @@
 <h3>سوال 183</h3>
 <p><strong>🇩🇪</strong> Wann begann der Zweite Weltkrieg mit dem deutschen Überfall auf Polen?
 <strong>🇵🇰</strong> جرمنی کے پولینڈ پر حملے سے دوسری جنگ عظیم کب شروع ہوئی؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1095,7 +1123,7 @@
 <td>am 1. Juni 1941</td>
 <td>یکم جون 1941</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> دوسری جنگ عظیم یکم ستمبر 1939 کو جرمنی کے پولینڈ پر حملے سے شروع ہوئی۔ برطانیہ اور فرانس نے دو دن بعد جرمنی کے خلاف اعلان جنگ کیا۔ سوویت یونین پر حملہ 22 جون 1941 کو شروع ہوا (آپریشن باربروسا)۔</p>
 </blockquote>
@@ -1103,7 +1131,7 @@
 <h3>سوال 184 <em>(جولائی 2024 میں تازہ کاری — اسرائیل کا حق وجود)</em></h3>
 <p><strong>🇩🇪</strong> Auf welcher rechtlichen Grundlage wurde der Staat Israel gegründet?
 <strong>🇵🇰</strong> ریاست اسرائیل کس قانونی بنیاد پر قائم ہوئی؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1131,7 +1159,7 @@
 <td>ein Vorschlag der UdSSR</td>
 <td>سوویت یونین کی تجویز</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> اسرائیل 14 مئی 1948 کو اقوام متحدہ جنرل اسمبلی کی قرارداد 181 (29 نومبر 1947) کی بنیاد پر قائم ہوا، جس نے برطانوی مینڈیٹ فلسطین کو یہودی اور عرب ریاستوں میں تقسیم کا مطالبہ کیا۔ جرمنی اسرائیل کے حق وجود کو اپنی &quot;Staatsräson&quot; (وجہ ریاست) کے طور پر تسلیم کرتا ہے، جو ہولوکاسٹ کی تاریخی ذمہ داری سے جڑا ہے۔</p>
 </blockquote>
@@ -1139,7 +1167,7 @@
 <h3>سوال 188</h3>
 <p><strong>🇩🇪</strong> Was war die &quot;Stasi&quot;?
 <strong>🇵🇰</strong> &quot;شٹازی&quot; کیا تھی؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1167,7 +1195,7 @@
 <td>eine Partei</td>
 <td>پارٹی</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> &quot;شٹازی&quot; (ریاستی سلامتی کی وزارت) مشرقی جرمنی کی خفیہ پولیس اور انٹیلی جنس سروس تھی۔ یہ تاریخ کی سب سے جابرانہ سیکیورٹی تنظیموں میں سے ایک تھی — تقریباً 91,000 سرکاری عملہ اور 170,000 سے زیادہ غیر سرکاری معاونین (Inoffizielle Mitarbeiter) آبادی کی جاسوسی کے لیے۔ دوبارہ اتحاد کے بعد شٹازی فائلیں عوام کے لیے کھول دی گئیں۔</p>
 </blockquote>
@@ -1175,7 +1203,7 @@
 <h3>سوال 190</h3>
 <p><strong>🇩🇪</strong> Wann fand die Deutsche Wiedervereinigung statt?
 <strong>🇵🇰</strong> جرمن دوبارہ اتحاد کب ہوا؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1203,7 +1231,7 @@
 <td>1995</td>
 <td>1995</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> جرمن دوبارہ اتحاد 3 اکتوبر 1990 کو ہوا۔ اگرچہ برلن دیوار 9 نومبر 1989 کو گری، قانونی اور سیاسی عمل میں تقریباً ایک سال لگا۔ &quot;دو جمع چار معاہدے&quot; (ستمبر 1990) نے دو جرمنیوں اور چار اتحادی طاقتوں کے درمیان اتحاد کا بین الاقوامی راستہ صاف کیا۔</p>
 </blockquote>
@@ -1211,7 +1239,7 @@
 <h3>سوال 192</h3>
 <p><strong>🇩🇪</strong> Wann wurde das Deutsche Reich gegründet?
 <strong>🇵🇰</strong> جرمن سلطنت کب قائم ہوئی؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1239,7 +1267,7 @@
 <td>1933</td>
 <td>1933</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> جرمن سلطنت (Deutsches Kaiserreich) 18 جنوری 1871 کو فرانس کے ورسائی محل میں قائم ہوئی۔ اوٹو فون بسمارک نے ڈنمارک (1864)، آسٹریا (1866)، اور فرانس (1870–71) کے خلاف جنگوں کے بعد جرمن ریاستوں کو پروشیا کی قیادت میں متحد کیا۔ سلطنت 1918 تک قائم رہی۔</p>
 </blockquote>
@@ -1247,7 +1275,7 @@
 <h3>سوال 193</h3>
 <p><strong>🇩🇪</strong> Wer war Otto von Bismarck?
 <strong>🇵🇰</strong> اوٹو فون بسمارک کون تھے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1275,7 +1303,7 @@
 <td>ein Komponist</td>
 <td>موسیقار</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> بسمارک (1815–1898) متحدہ جرمن سلطنت کے پہلے چانسلر تھے (1871–1890)۔ &quot;آہنی چانسلر&quot; کے نام سے مشہور، انہوں نے اہم سماجی قانون سازی کی بنیاد رکھی — صحت کا بیمہ (1883)، حادثے کا بیمہ (1884)، اور پنشن بیمہ (1889) — جو جرمنی کی جدید فلاحی ریاست کی بنیاد ہے۔</p>
 </blockquote>
@@ -1283,7 +1311,7 @@
 <h3>سوال 196</h3>
 <p><strong>🇩🇪</strong> Was war die &quot;Friedliche Revolution&quot;?
 <strong>🇵🇰</strong> &quot;پرامن انقلاب&quot; کیا تھا؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1311,7 +1339,7 @@
 <td>eine Wirtschaftsreform</td>
 <td>معاشی اصلاحات</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> 1989 کا پرامن انقلاب (Friedliche Revolution) مشرقی جرمن شہریوں کے بڑے پیمانے پر احتجاج تھا، خاص طور پر لائپزگ میں &quot;پیر کے مظاہرے&quot; (Montagsdemonstrationen)، جنہوں نے پرامن طریقے سے SED آمریت کا خاتمہ کیا۔ مشہور نعرہ تھا &quot;ہم عوام ہیں!&quot; (Wir sind das Volk!)۔ یہ 9 نومبر 1989 کو برلن دیوار کے کھلنے پر منتج ہوا — بغیر ایک بھی گولی چلائے۔</p>
 </blockquote>
@@ -1319,7 +1347,7 @@
 <h3>سوال 200</h3>
 <p><strong>🇩🇪</strong> Wer hat den Buchdruck erfunden?
 <strong>🇵🇰</strong> پرنٹنگ پریس کس نے ایجاد کیا؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1347,7 +1375,7 @@
 <td>Albert Einstein</td>
 <td>البرٹ آئن سٹائن</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> یوہانس گوٹنبرگ (تقریباً 1400–1468) مائنز کے رہنے والے تھے جنہوں نے 1450 کے قریب متحرک قسم کا پرنٹنگ پریس ایجاد کیا۔ یہ انسانی تاریخ کی سب سے اہم ایجادات میں سے ایک ہے۔ گوٹنبرگ بائبل (1455) متحرک قسم سے چھپی پہلی بڑی کتاب تھی۔</p>
 </blockquote>
@@ -1383,7 +1411,7 @@
                 <a class="btn-foot" href="../privacy.html">پرائیویسی و اظہاریہ</a>
             </div>
         </div>
-        <div class="foot-meta">آخری اپڈیٹ: 2026-05-03</div>
+        <div class="foot-meta">آخری اپڈیٹ: 2026-05-10</div>
     </footer>
 
     <button class="back-to-top" id="backToTop" aria-label="اوپر جائیں" title="اوپر جائیں">↑</button>

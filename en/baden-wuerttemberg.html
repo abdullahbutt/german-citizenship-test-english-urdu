@@ -126,24 +126,52 @@
         }
         h1 { margin-bottom: 1.25rem; }
         h2 { margin-top: 2rem; margin-bottom: 1rem; }
+        .table-wrap {
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            margin: 1rem 0 1.5rem;
+            border: 1px solid var(--border);
+            border-radius: 0.5rem;
+            background: var(--card-bg);
+        }
+        .table-wrap table {
+            margin: 0;
+            border: 0;
+        }
         table {
             width: 100%;
             border-collapse: collapse;
             margin: 1rem 0 1.5rem;
             background: var(--card-bg);
+            table-layout: auto;
         }
         table th, table td {
             padding: 0.75rem 1rem;
             border: 1px solid var(--border);
             vertical-align: top;
+            overflow-wrap: anywhere;
+            word-break: normal;
+            hyphens: auto;
+            min-width: 0;
         }
         table th {
             background: var(--primary);
             color: #fff;
             text-align: left;
+            white-space: nowrap;
         }
         table tr:nth-child(even) td { background: var(--table-stripe); }
         table tr:hover td { background: var(--table-hover); }
+
+        @media (max-width: 720px) {
+            .table-wrap table {
+                min-width: 540px;
+            }
+            table th, table td {
+                padding: 0.6rem 0.75rem;
+                font-size: 0.92rem;
+            }
+        }
         code {
             background: var(--table-stripe);
             padding: 0.15rem 0.4rem;
@@ -347,7 +375,7 @@
 <p><strong>🇩🇪</strong> Welches Wappen gehört zum Bundesland Baden-Württemberg?
 <strong>🇬🇧</strong> Which coat of arms belongs to Baden-Württemberg?
 <em>🖼️ Select the image showing three black lions on a golden shield with deer and griffin supporters.</em></p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -360,7 +388,7 @@
 <td><strong>Bild mit drei schwarzen Löwen</strong></td>
 <td><strong>Image with three black lions</strong></td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> Baden-Württemberg&#39;s coat of arms features three black lions (Staufer lions) on a golden shield, supported by a deer (Baden) and a griffin (Württemberg). The state was formed in 1952 by merging Baden, Württemberg-Baden, and Württemberg-Hohenzollern.</p>
 </blockquote>
@@ -374,7 +402,7 @@
 <h3>Question 303</h3>
 <p><strong>🇩🇪</strong> Wie heißt die Landeshauptstadt von Baden-Württemberg?
 <strong>🇬🇧</strong> What is the state capital of Baden-Württemberg?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -402,7 +430,7 @@
 <td>Heidelberg</td>
 <td>Heidelberg</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> Stuttgart is the capital and largest city (~630,000 people). It&#39;s home to Mercedes-Benz and Porsche headquarters. Karlsruhe hosts the Federal Constitutional Court. Heidelberg is famous for its university (Germany&#39;s oldest, founded 1386).</p>
 </blockquote>
@@ -456,7 +484,7 @@
                 <a class="btn-foot" href="../privacy.html">Privacy &amp; Impressum</a>
             </div>
         </div>
-        <div class="foot-meta">Last updated: 2026-05-03</div>
+        <div class="foot-meta">Last updated: 2026-05-10</div>
     </footer>
 
     <button class="back-to-top" id="backToTop" aria-label="Back to top" title="Back to top">↑</button>

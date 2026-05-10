@@ -126,24 +126,52 @@
         }
         h1 { margin-bottom: 1.25rem; }
         h2 { margin-top: 2rem; margin-bottom: 1rem; }
+        .table-wrap {
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            margin: 1rem 0 1.5rem;
+            border: 1px solid var(--border);
+            border-radius: 0.5rem;
+            background: var(--card-bg);
+        }
+        .table-wrap table {
+            margin: 0;
+            border: 0;
+        }
         table {
             width: 100%;
             border-collapse: collapse;
             margin: 1rem 0 1.5rem;
             background: var(--card-bg);
+            table-layout: auto;
         }
         table th, table td {
             padding: 0.75rem 1rem;
             border: 1px solid var(--border);
             vertical-align: top;
+            overflow-wrap: anywhere;
+            word-break: normal;
+            hyphens: auto;
+            min-width: 0;
         }
         table th {
             background: var(--primary);
             color: #fff;
             text-align: left;
+            white-space: nowrap;
         }
         table tr:nth-child(even) td { background: var(--table-stripe); }
         table tr:hover td { background: var(--table-hover); }
+
+        @media (max-width: 720px) {
+            .table-wrap table {
+                min-width: 540px;
+            }
+            table th, table td {
+                padding: 0.6rem 0.75rem;
+                font-size: 0.92rem;
+            }
+        }
         code {
             background: var(--table-stripe);
             padding: 0.15rem 0.4rem;
@@ -347,7 +375,7 @@
 <h3>Question 251</h3>
 <p><strong>🇩🇪</strong> Was ist eine Aufgabe der Vereinten Nationen (UNO)?
 <strong>🇬🇧</strong> What is a task of the United Nations (UN)?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -375,7 +403,7 @@
 <td>den Euro einzuführen</td>
 <td>Introducing the Euro</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> The UN&#39;s primary mission is maintaining international peace and security. Founded in 1945 after WWII, it has 193 member states. Germany became a UN member in 1973 (both East and West Germany joined simultaneously). The UN also works on human rights, development, and humanitarian aid.</p>
 </blockquote>
@@ -383,7 +411,7 @@
 <h3>Question 252</h3>
 <p><strong>🇩🇪</strong> Welche Organisation__(n)__ist für den Schutz der Menschenrechte zuständig?
 <strong>🇬🇧</strong> Which organization is responsible for protecting human rights?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -411,7 +439,7 @@
 <td>die FIFA</td>
 <td>FIFA</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> Amnesty International is the world&#39;s largest human rights organization, monitoring governments and advocating for the release of political prisoners. The ADAC is Germany&#39;s automobile association, Greenpeace focuses on environmental issues, and FIFA governs football/soccer. Germany has a strong tradition of supporting human rights organizations.</p>
 </blockquote>
@@ -420,7 +448,7 @@
 <p><strong>🇩🇪</strong> Was__(s)__ist der Mindestlohn in Deutschland?
 <strong>🇬🇧</strong> What is the minimum wage in Germany?</p>
 <p><em>⚠️ Note: The minimum wage amount changes periodically. Check the current rate before your test.</em></p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -433,7 +461,7 @@
 <td><strong>ein__(e)__ gesetzlich festgelegter Stundenlohn, den Arbeitgeber mindestens zahlen müssen</strong></td>
 <td><strong>a legally mandated hourly wage that employers must pay at minimum</strong></td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> Germany introduced a statutory minimum wage (Mindestlohn) on January 1, 2015. The rate is periodically adjusted. It applies to most employees. There are some exceptions, e.g., for certain apprentices and long-term unemployed in their first 6 months of new employment. Always check the current rate before your test.</p>
 </blockquote>
@@ -441,7 +469,7 @@
 <h3>Question 254</h3>
 <p><strong>🇩🇪</strong> Was__(s)<strong>ist &quot;</strong>(A)__rbeitslosengeld&quot;?
 <strong>🇬🇧</strong> What is &quot;unemployment benefit&quot;?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -469,7 +497,7 @@
 <td>Urlaubsgeld</td>
 <td>vacation pay</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> Arbeitslosengeld (ALG I) is unemployment insurance paid to people who lose their job, funded through social insurance contributions. To qualify, you must have been employed for at least 12 months in the previous 30 months. ALG I is typically 60% of previous net income (67% with children). If it runs out, Bürgergeld (formerly ALG II/Hartz IV) provides basic support.</p>
 </blockquote>
@@ -477,7 +505,7 @@
 <h3>Question 255</h3>
 <p><strong>🇩🇪</strong> Welches__(s)<strong>Fest</strong>(e)<strong>feiern</strong>(n)__die Christen an Ostern?
 <strong>🇬🇧</strong> What do Christians celebrate at Easter?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -505,7 +533,7 @@
 <td>den Tag der Deutschen Einheit</td>
 <td>German Unity Day</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> Easter (Ostern) celebrates the resurrection of Jesus Christ, making it the most important Christian holiday. Good Friday (Karfreitag) commemorates the crucifixion. Christmas celebrates the birth of Jesus. Easter is a public holiday across Germany — both Good Friday and Easter Monday are days off. The date changes yearly (between March 22 and April 25).</p>
 </blockquote>
@@ -513,7 +541,7 @@
 <h3>Question 256</h3>
 <p><strong>🇩🇪</strong> Welches Fest feiern Christen an Weihnachten?
 <strong>🇬🇧</strong> What do Christians celebrate at Christmas?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -541,7 +569,7 @@
 <td>den Beginn des Ramadan</td>
 <td>the beginning of Ramadan</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> Christmas (Weihnachten) celebrates the birth of Jesus Christ. In Germany, the main celebration is on Christmas Eve (Heiligabend, December 24), with family gatherings, gift-giving, and church services. December 25 and 26 are both public holidays. German Christmas traditions include Advent calendars, Christmas markets (Weihnachtsmärkte), and the Christmas tree (Weihnachtsbaum — a tradition that originated in Germany).</p>
 </blockquote>
@@ -549,7 +577,7 @@
 <h3>Question 257</h3>
 <p><strong>🇩🇪</strong> Was__(s)__ist der Ramadan?
 <strong>🇬🇧</strong> What is Ramadan?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -577,7 +605,7 @@
 <td>ein hinduistisches Fest</td>
 <td>a Hindu holiday</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> Ramadan is the ninth month of the Islamic calendar during which Muslims fast from dawn to sunset (no food, drink, or smoking). It is one of the Five Pillars of Islam. The fasting ends with the celebration of Eid al-Fitr (Zuckerfest in German). About 5.5 million Muslims live in Germany, making Islam the second-largest religion in the country.</p>
 </blockquote>
@@ -585,7 +613,7 @@
 <h3>Question 258</h3>
 <p><strong>🇩🇪</strong> Was__(s)__ist Chanukka?
 <strong>🇬🇧</strong> What is Hanukkah?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -613,7 +641,7 @@
 <td>ein buddhistisches Fest</td>
 <td>a Buddhist holiday</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> Chanukka (Hanukkah) is the Jewish festival of lights, lasting eight days. It commemorates the rededication of the Second Temple in Jerusalem. A menorah (Chanukkia) with nine candles is lit — one additional candle each night. Germany has a significant Jewish community, and public menorah lightings take place in many German cities during Chanukka.</p>
 </blockquote>
@@ -621,7 +649,7 @@
 <h3>Question 259</h3>
 <p><strong>🇩🇪</strong> Welche__(e)<strong>Religionsgemeinschaft feiert das</strong>(d)__Zuckerfest?
 <strong>🇬🇧</strong> Which religious community celebrates the &quot;Sugar Festival&quot; (Eid)?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -649,7 +677,7 @@
 <td>Hindus</td>
 <td>Hindus</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> The Zuckerfest (Sugar Festival) is the German name for Eid al-Fitr, the celebration marking the end of Ramadan. Muslims celebrate with prayers, feasts, and giving gifts — especially sweets and candy to children (hence &quot;Sugar Festival&quot;). It is one of the two most important Islamic holidays, the other being Eid al-Adha (Opferfest / Festival of Sacrifice).</p>
 </blockquote>
@@ -657,7 +685,7 @@
 <h3>Question 260</h3>
 <p><strong>🇩🇪</strong> Wann__(n)__feiert man in Deutschland den Tag der Arbeit?
 <strong>🇬🇧</strong> When is Labor Day celebrated in Germany?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -685,7 +713,7 @@
 <td>am 1. Januar</td>
 <td>January 1</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> Labor Day (Tag der Arbeit) on May 1 has been a public holiday in Germany since 1933. Workers&#39; unions organize rallies and demonstrations. The tradition of May Day as a workers&#39; holiday dates back to the international labor movement of the 19th century. October 3 is German Unity Day, December 24 is Christmas Eve, and January 1 is New Year&#39;s Day.</p>
 </blockquote>
@@ -693,7 +721,7 @@
 <h3>Question 261</h3>
 <p><strong>🇩🇪</strong> Welche__(e)__Maßnahme gehört zur Fürsorgepflicht des Arbeitgebers?
 <strong>🇬🇧</strong> Which measure is part of an employer&#39;s duty of care?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -721,7 +749,7 @@
 <td>Kinderbetreuung organisieren</td>
 <td>Organizing childcare</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> Employers in Germany have a legal duty of care (Fürsorgepflicht) that includes ensuring workplace safety, providing safe equipment, protecting employees from hazards, and following occupational health regulations. While some employers voluntarily offer housing or childcare, these are not legally required duties. Paid vacation (minimum 20 days/year) IS a legal requirement but falls under labor law, not duty of care.</p>
 </blockquote>
@@ -729,7 +757,7 @@
 <h3>Question 262</h3>
 <p><strong>🇩🇪</strong> Wer__(r)____(z)<strong>ahlt</strong>(t)<strong>in Deutschland</strong>(d)__die Sozialversicherungsbeiträge?
 <strong>🇬🇧</strong> Who pays social insurance contributions in Germany?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -757,7 +785,7 @@
 <td>nur der Staat</td>
 <td>only the state</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> Social insurance contributions in Germany are split roughly 50/50 between employer and employee. This covers health insurance, pension, unemployment insurance, long-term care, and accident insurance (accident insurance is paid solely by the employer). The contributions are automatically deducted from gross salary — the employee never sees this money in their paycheck.</p>
 </blockquote>
@@ -765,7 +793,7 @@
 <h3>Question 263</h3>
 <p><strong>🇩🇪</strong> Was__(s)<strong>bedeutet &quot;</strong>(P)__ressefreiheit&quot;?
 <strong>🇬🇧</strong> What does &quot;freedom of the press&quot; mean?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -793,7 +821,7 @@
 <td>Nur die Regierung darf Nachrichten verbreiten.</td>
 <td>Only the government may spread news.</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> Press freedom (Article 5 of the Basic Law) means the media can report freely without government censorship or control. &quot;Free press&quot; does not mean newspapers are free of charge. The press serves as a &quot;watchdog&quot; monitoring government actions. Germany ranks well internationally for press freedom, though the BAMF notes it is not unlimited — defamation and hate speech laws still apply.</p>
 </blockquote>
@@ -801,7 +829,7 @@
 <h3>Question 264</h3>
 <p><strong>🇩🇪</strong> Was__(s)<strong>ist die &quot;</strong>(V)__ersammlungsfreiheit&quot;?
 <strong>🇬🇧</strong> What is &quot;freedom of assembly&quot;?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -829,7 +857,7 @@
 <td>das Recht, Versammlungen zu verbieten</td>
 <td>the right to ban assemblies</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> Freedom of assembly (Article 8 of the Basic Law) gives all Germans the right to gather peacefully and without weapons, without prior registration or permission. For outdoor assemblies in public places, organizers must notify the authorities in advance but do NOT need permission. The right can be restricted by law for outdoor assemblies to maintain public safety.</p>
 </blockquote>
@@ -837,7 +865,7 @@
 <h3>Question 265</h3>
 <p><strong>🇩🇪</strong> Was__(s)<strong>bedeutet &quot;</strong>(B)__riefgeheimnis&quot;?
 <strong>🇬🇧</strong> What does &quot;privacy of correspondence&quot; mean?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -865,7 +893,7 @@
 <td>Alle Briefe werden von der Polizei gelesen.</td>
 <td>All letters are read by the police.</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> The privacy of correspondence (Brief- und Postgeheimnis, Article 10 of the Basic Law) protects letters, emails, phone calls, and other private communications from being accessed without legal authorization. Even the government can only intercept communications with a court order in specific circumstances. This right was especially important given Germany&#39;s experience with Stasi surveillance in the GDR.</p>
 </blockquote>
@@ -873,7 +901,7 @@
 <h3>Question 266</h3>
 <p><strong>🇩🇪</strong> Was__(s)<strong>ist die &quot;</strong>(U)__nverletzlichkeit der Wohnung&quot;?
 <strong>🇬🇧</strong> What is the &quot;inviolability of the home&quot;?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -901,7 +929,7 @@
 <td>Der Vermieter darf jederzeit in die Wohnung.</td>
 <td>The landlord may enter the apartment at any time.</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> Article 13 of the Basic Law protects the home from unauthorized entry. Police can only search a home with a court order (Durchsuchungsbefehl), except in emergencies (&quot;Gefahr im Verzug&quot;). Even landlords need tenants&#39; permission to enter. This right was vital given the GDR&#39;s Stasi practices of entering homes to spy on citizens.</p>
 </blockquote>
@@ -909,7 +937,7 @@
 <h3>Question 267</h3>
 <p><strong>🇩🇪</strong> Was__(s)<strong>ist Deutschland</strong>(s)__nationaler Feiertag?
 <strong>🇬🇧</strong> What is Germany&#39;s national holiday?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -937,7 +965,7 @@
 <td>9. November</td>
 <td>November 9</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> October 3 — German Unity Day (Tag der Deutschen Einheit) — is Germany&#39;s national holiday, commemorating reunification in 1990. November 9 (Berlin Wall fall) was considered but rejected due to its association with the 1938 November Pogrom. Each year, the celebrations are hosted by a different federal state.</p>
 </blockquote>
@@ -945,7 +973,7 @@
 <h3>Question 268</h3>
 <p><strong>🇩🇪</strong> Welches ist das__(d)____(f)__lächenmäßig größte Bundesland?
 <strong>🇬🇧</strong> Which is the largest federal state by area?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -973,7 +1001,7 @@
 <td>Baden-Württemberg</td>
 <td>Baden-Württemberg</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> Bavaria (Bayern) is the largest German state by area at about 70,550 km² — nearly one-fifth of Germany&#39;s total area. It is also the second-most populous state after NRW. Bavaria is known for its Alps, beer culture, Oktoberfest, and strong regional identity. Its capital Munich (München) is Germany&#39;s third-largest city.</p>
 </blockquote>
@@ -981,7 +1009,7 @@
 <h3>Question 269</h3>
 <p><strong>🇩🇪</strong> Nennen Sie drei Flüsse in Deutschland.
 <strong>🇬🇧</strong> Name three rivers in Germany.</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1009,7 +1037,7 @@
 <td>Rhône, Loire, Po</td>
 <td>Rhône, Loire, Po</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> Germany&#39;s major rivers include: the Rhine (Rhein — 1,233 km, flows through western Germany to the Netherlands), the Elbe (1,091 km, flows through eastern Germany to the North Sea at Hamburg), and the Danube (Donau — 2,857 km total, begins in the Black Forest, flows east through Bavaria toward the Black Sea). Others include the Weser, Main, Oder, Neckar, and Mosel.</p>
 </blockquote>
@@ -1017,7 +1045,7 @@
 <h3>Question 270</h3>
 <p><strong>🇩🇪</strong> Nennen Sie drei deutsche Mittelgebirge.
 <strong>🇬🇧</strong> Name three German low mountain ranges.</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1045,7 +1073,7 @@
 <td>Pyrenäen, Karpaten, Ural</td>
 <td>Pyrenees, Carpathians, Urals</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> Germany has many &quot;Mittelgebirge&quot; (low/medium mountain ranges): the Harz (highest: Brocken, 1,141m), the Schwarzwald/Black Forest (highest: Feldberg, 1,493m), and the Erzgebirge/Ore Mountains (highest: Fichtelberg, 1,215m). Others include the Bayerischer Wald, Thüringer Wald, Eifel, and Rhön. The high Alps are only in Bavaria&#39;s southern tip.</p>
 </blockquote>
@@ -1053,7 +1081,7 @@
 <h3>Question 271</h3>
 <p><strong>🇩🇪</strong> Nennen Sie drei Nachbarländer von Deutschland.
 <strong>🇬🇧</strong> Name three neighboring countries of Germany.</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1066,7 +1094,7 @@
 <td><strong>Frankreich, Polen, Österreich</strong></td>
 <td><strong>France, Poland, Austria</strong></td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> Germany&#39;s nine neighbors (the most in Europe): Denmark (north), Poland (east), Czech Republic (east), Austria (south), Switzerland (south), France (west), Luxembourg (west), Belgium (west), Netherlands (west/north). Any three of these is a correct answer.</p>
 </blockquote>
@@ -1074,7 +1102,7 @@
 <h3>Question 272</h3>
 <p><strong>🇩🇪</strong> Was__(s)__ist an deutschen Schulen verboten?
 <strong>🇬🇧</strong> What is forbidden in German schools?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1102,7 +1130,7 @@
 <td>Klassenfahrten</td>
 <td>School trips</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> Corporal punishment in schools has been banned in Germany since the 1970s (and since 2000, parents are also prohibited from hitting children). Teachers may not physically discipline students under any circumstances. Homework, sports, and school trips are all normal parts of German school life.</p>
 </blockquote>
@@ -1113,7 +1141,7 @@
 <h3>Question 273</h3>
 <p><strong>🇩🇪</strong> Was__(s)__muss man bei einer Eheschließung in Deutschland beachten?
 <strong>🇬🇧</strong> What must one observe when getting married in Germany?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1141,7 +1169,7 @@
 <td>Man muss vorher eine Prüfung ablegen.</td>
 <td>You must pass an exam first.</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> In Germany, only a civil marriage at the Standesamt (registry office) is legally valid. A church wedding is optional and has no legal standing on its own. Both partners must appear in person with valid identification. Since 2009, couples can have a church wedding before or without a civil ceremony, but only the civil ceremony creates legal marriage.</p>
 </blockquote>
@@ -1149,7 +1177,7 @@
 <h3>Question 274</h3>
 <p><strong>🇩🇪</strong> Wer__(r)<strong>darf in Deutschland</strong>(d)__heiraten?
 <strong>🇬🇧</strong> Who may marry in Germany?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1177,7 +1205,7 @@
 <td>nur Deutsche</td>
 <td>only Germans</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> In Germany, you must be at least 18 to marry. Since 2017, all marriages of persons under 18 are void (previously, exceptions were possible from age 16 with court approval). People of different religions, nationalities, and same-sex couples can all marry. Forced marriage is a criminal offense.</p>
 </blockquote>
@@ -1188,7 +1216,7 @@
 <h3>Question 275</h3>
 <p><strong>🇩🇪</strong> Was__(s)<strong>ist</strong>(t)__eine Aufgabe der Bundeswehr?
 <strong>🇬🇧</strong> What is a task of the Bundeswehr?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1216,7 +1244,7 @@
 <td>Wahlen organisieren</td>
 <td>Organizing elections</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> The Bundeswehr (German Federal Armed Forces) was founded in 1955. Its primary mission is national defense. Since 1994, the Bundeswehr also participates in international peacekeeping missions (with Bundestag approval). Conscription was suspended in 2011. The Bundeswehr is under civilian control — the Defense Minister (a civilian) commands it during peacetime, and the Chancellor takes command in wartime.</p>
 </blockquote>
@@ -1224,7 +1252,7 @@
 <h3>Question 276</h3>
 <p><strong>🇩🇪</strong> Was__(s)<strong>ist der &quot;</strong>(S)__olidaritätszuschlag&quot;?
 <strong>🇬🇧</strong> What is the &quot;solidarity surcharge&quot;?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1252,7 +1280,7 @@
 <td>eine Parkgebühr</td>
 <td>a parking fee</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> The Solidaritätszuschlag (&quot;Soli&quot;) was introduced in 1991 to fund German reunification — specifically, the massive costs of rebuilding eastern German infrastructure, economy, and social systems. It was 5.5% of income tax. Since 2021, the Soli has been abolished for approximately 90% of taxpayers; only high earners still pay it.</p>
 </blockquote>
@@ -1263,7 +1291,7 @@
 <h3>Question 288 <em>(Updated July 2024 — Israel&#39;s Right to Exist)</em></h3>
 <p><strong>🇩🇪</strong> Woraus begründet sich Deutschlands besondere Verantwortung für Israel?
 <strong>🇬🇧</strong> What is the basis for Germany&#39;s special responsibility toward Israel?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1291,7 +1319,7 @@
 <td>aus der christlichen Tradition</td>
 <td>from the Christian tradition</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> Germany&#39;s special responsibility for Israel stems from the Nazi crimes — above all the Holocaust, in which 6 million Jews were systematically murdered. This responsibility is considered part of Germany&#39;s &quot;Staatsräson&quot; (reason of state). It means Germany supports Israel&#39;s right to exist, combats antisemitism, and maintains a special diplomatic relationship with Israel. This commitment is not based on EU membership, the Basic Law text, or religious tradition, but directly on the historical guilt of the Nazi era.</p>
 </blockquote>
@@ -1302,7 +1330,7 @@
 <h3>Question 291</h3>
 <p><strong>🇩🇪</strong> Was muss man in Deutschland haben, um Auto fahren zu dürfen?
 <strong>🇬🇧</strong> What must you have in Germany to be allowed to drive?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1330,7 +1358,7 @@
 <td>eine Parteimitgliedschaft</td>
 <td>a party membership</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> To drive in Germany, you need a valid driver&#39;s license (Führerschein) and your car must have liability insurance (Kfz-Haftpflichtversicherung — mandatory). You must also have your vehicle registered (Zulassung) and it must pass regular inspections (TÜV/HU). Driving without insurance is a criminal offense. International licenses are valid for up to 6 months, after which you must obtain a German license.</p>
 </blockquote>
@@ -1338,7 +1366,7 @@
 <h3>Question 292</h3>
 <p><strong>🇩🇪</strong> Was ist die Schulpflicht in Deutschland?
 <strong>🇬🇧</strong> What is compulsory education in Germany?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1366,7 +1394,7 @@
 <td>Kinder dürfen zu Hause unterrichtet werden.</td>
 <td>Children may be homeschooled.</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> All children in Germany must attend school (Schulpflicht). This applies to all children regardless of gender, family income, religion, or nationality — including children of refugees and immigrants. Homeschooling is generally not permitted in Germany (unlike in the US or UK). Parents who don&#39;t send their children to school face fines.</p>
 </blockquote>
@@ -1374,7 +1402,7 @@
 <h3>Question 293</h3>
 <p><strong>🇩🇪</strong> Was__(s)<strong>bedeutet &quot;</strong>(I)__ntegration&quot; in Deutschland?
 <strong>🇬🇧</strong> What does &quot;integration&quot; mean in Germany?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1402,7 +1430,7 @@
 <td>nur unter Landsleuten leben</td>
 <td>only living among compatriots</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> Integration in Germany means actively participating in society: learning German, understanding German laws and values, working, and engaging with the community. It does NOT mean giving up your own culture — Germany supports cultural diversity within a framework of shared democratic values. Integration courses (Integrationskurse) are offered to help newcomers learn German and understand German society.</p>
 </blockquote>
@@ -1410,7 +1438,7 @@
 <h3>Question 294</h3>
 <p><strong>🇩🇪</strong> Welcher__(r)<strong>deutsche</strong>(e)<strong>Staat</strong>(t)____(e)<strong>xistierte von 1</strong>(9)__49 bis 1990?
 <strong>🇬🇧</strong> Which German state existed from 1949 to 1990?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1438,7 +1466,7 @@
 <td>das Dritte Reich</td>
 <td>the Third Reich</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> The GDR (East Germany) existed from October 7, 1949 to October 3, 1990. Despite calling itself &quot;democratic,&quot; it was a one-party communist dictatorship run by the SED. The German Empire ended in 1918, the Weimar Republic existed 1918–1933, and the &quot;Third Reich&quot; (Nazi Germany) lasted from 1933 to 1945.</p>
 </blockquote>
@@ -1446,7 +1474,7 @@
 <h3>Question 295</h3>
 <p><strong>🇩🇪</strong> Was__(s)__war die deutsche Teilung?
 <strong>🇬🇧</strong> What was the German division?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1474,7 +1502,7 @@
 <td>die Teilung Berlins in 10 Bezirke</td>
 <td>the division of Berlin into 10 districts</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> After WWII, Germany was divided into four occupation zones (American, British, French, Soviet). The Western zones became the Federal Republic of Germany (BRD/West Germany) and the Soviet zone became the GDR (DDR/East Germany) — both in 1949. This division lasted 41 years until reunification on October 3, 1990. Berlin was similarly divided, with the Berlin Wall (1961–1989) as its most visible symbol.</p>
 </blockquote>
@@ -1482,7 +1510,7 @@
 <h3>Question 296</h3>
 <p><strong>🇩🇪</strong> Was versteht man unter &quot;__(B)__ürgerrechten&quot;?
 <strong>🇬🇧</strong> What is meant by &quot;civil rights&quot;?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1510,7 +1538,7 @@
 <td>Rechte von Politikern</td>
 <td>Rights of politicians</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> &quot;Bürgerrechte&quot; (civil/citizen rights) are fundamental rights that apply specifically to German citizens. These include: freedom of assembly (Art. 8), freedom of association (Art. 9), freedom of movement within Germany (Art. 11), and the right to choose one&#39;s occupation (Art. 12). &quot;Menschenrechte&quot; (human rights) like human dignity and freedom of expression apply to ALL people in Germany, regardless of citizenship.</p>
 </blockquote>
@@ -1518,7 +1546,7 @@
 <h3>Question 297</h3>
 <p><strong>🇩🇪</strong> Was__(s)____(i)<strong>st</strong>(t)__das Existenzminimum?
 <strong>🇬🇧</strong> What is the subsistence minimum?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1546,7 +1574,7 @@
 <td>das Durchschnittsgehalt</td>
 <td>the average salary</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> The Existenzminimum is the constitutionally guaranteed minimum standard of living. The state must ensure that everyone in Germany — including those who cannot work — has enough to cover basic needs (food, housing, clothing, healthcare). This is derived from Article 1 (human dignity) and Article 20 (social state). Social benefits like Bürgergeld are designed to meet this minimum.</p>
 </blockquote>
@@ -1554,7 +1582,7 @@
 <h3>Question 298</h3>
 <p><strong>🇩🇪</strong> Was__(s)<strong>ist die Aufgabe des</strong>(d)__Verfassungsschutzes?
 <strong>🇬🇧</strong> What is the task of the Office for the Protection of the Constitution?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1582,7 +1610,7 @@
 <td>Gebäude schützen</td>
 <td>Protecting buildings</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> The Verfassungsschutz (Office for the Protection of the Constitution) is Germany&#39;s domestic intelligence service. Its mission is to monitor and protect against threats to the democratic order — including extremism (right-wing, left-wing, Islamist), espionage, and terrorism. It exists at both federal (BfV) and state levels. Unlike police, it has no arrest powers.</p>
 </blockquote>
@@ -1591,7 +1619,7 @@
 <p><strong>🇩🇪</strong> Was__(s)__ist das</p>
 <p>__(R)__echt auf informationelle Selbstbestimmung?
 <strong>🇬🇧</strong> What is the right to informational self-determination?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1619,7 +1647,7 @@
 <td>Unternehmen dürfen Daten frei verkaufen.</td>
 <td>Companies may sell data freely.</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> The right to informational self-determination was established by the Federal Constitutional Court in 1983 (Census Ruling). It means you control your personal data — the government and companies cannot collect, store, or share your data without legal basis. This right is derived from Article 1 (human dignity) and Article 2 (personal freedom). Germany&#39;s strict data protection laws (DSGVO/GDPR) build on this principle.</p>
 </blockquote>
@@ -1627,7 +1655,7 @@
 <h3>Question 300</h3>
 <p><strong>🇩🇪</strong> Was__(s)__sind die fünf Säulen der deutschen Sozialversicherung?
 <strong>🇬🇧</strong> What are the five pillars of German social insurance?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1655,7 +1683,7 @@
 <td>Feuer-, Hagel-, Haftpflicht-, Rechtsschutz- und Glasversicherung</td>
 <td>Fire, hail, liability, legal, and glass insurance</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> Germany&#39;s social insurance system has five mandatory pillars: Krankenversicherung (health), Rentenversicherung (pension), Arbeitslosenversicherung (unemployment), Pflegeversicherung (long-term care, added in 1995), and Unfallversicherung (accident, paid solely by employers). This system was pioneered by Otto von Bismarck in the 1880s and is a model for social security systems worldwide.</p>
 </blockquote>
@@ -1693,7 +1721,7 @@
                 <a class="btn-foot" href="../privacy.html">Privacy &amp; Impressum</a>
             </div>
         </div>
-        <div class="foot-meta">Last updated: 2026-05-03</div>
+        <div class="foot-meta">Last updated: 2026-05-10</div>
     </footer>
 
     <button class="back-to-top" id="backToTop" aria-label="Back to top" title="Back to top">↑</button>

@@ -126,24 +126,52 @@
         }
         h1 { margin-bottom: 1.25rem; }
         h2 { margin-top: 2rem; margin-bottom: 1rem; }
+        .table-wrap {
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            margin: 1rem 0 1.5rem;
+            border: 1px solid var(--border);
+            border-radius: 0.5rem;
+            background: var(--card-bg);
+        }
+        .table-wrap table {
+            margin: 0;
+            border: 0;
+        }
         table {
             width: 100%;
             border-collapse: collapse;
             margin: 1rem 0 1.5rem;
             background: var(--card-bg);
+            table-layout: auto;
         }
         table th, table td {
             padding: 0.75rem 1rem;
             border: 1px solid var(--border);
             vertical-align: top;
+            overflow-wrap: anywhere;
+            word-break: normal;
+            hyphens: auto;
+            min-width: 0;
         }
         table th {
             background: var(--primary);
             color: #fff;
             text-align: right;
+            white-space: nowrap;
         }
         table tr:nth-child(even) td { background: var(--table-stripe); }
         table tr:hover td { background: var(--table-hover); }
+
+        @media (max-width: 720px) {
+            .table-wrap table {
+                min-width: 540px;
+            }
+            table th, table td {
+                padding: 0.6rem 0.75rem;
+                font-size: 0.92rem;
+            }
+        }
         code {
             background: var(--table-stripe);
             padding: 0.15rem 0.4rem;
@@ -347,7 +375,7 @@
 <h3>سوال 51</h3>
 <p><strong>🇩🇪</strong> Zu einem demokratischen Rechtsstaat gehört es nicht, dass …
 <strong>🇵🇰</strong> جمہوری قانونی ریاست کا حصہ نہیں ہے کہ …</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -375,7 +403,7 @@
 <td>jemand ein Verbrechen begeht und deshalb verhaftet wird.</td>
 <td>کوئی جرم کرے اور اس لیے گرفتار ہو۔</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> جمہوری قانونی ریاست میں صرف ریاستی پولیس قانونی جواز کے ساتھ گرفتار کر سکتی ہے۔ &quot;نجی پولیس&quot; کا بغیر وجہ گرفتار کرنا غیر قانونی اور غیر جمہوری ہے۔</p>
 </blockquote>
@@ -383,7 +411,7 @@
 <h3>سوال 52</h3>
 <p><strong>🇩🇪</strong> Was bedeutet &quot;Volkssouveränität&quot;? Alle Staatsgewalt geht vom …
 <strong>🇵🇰</strong> &quot;عوامی حاکمیت&quot; کا کیا مطلب ہے؟ تمام ریاستی طاقت … سے آتی ہے</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -411,7 +439,7 @@
 <td>Bundesverfassungsgericht aus.</td>
 <td>وفاقی آئینی عدالت سے۔</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> بنیادی قانون کا آرٹیکل 20 کہتا ہے: &quot;تمام ریاستی طاقت عوام سے آتی ہے۔&quot; یعنی عوام سیاسی طاقت کا حتمی ذریعہ ہیں۔ وہ انتخابات اور ووٹ کے ذریعے اس طاقت کا استعمال کرتے ہیں۔</p>
 </blockquote>
@@ -419,7 +447,7 @@
 <h3>سوال 53</h3>
 <p><strong>🇩🇪</strong> Was bedeutet &quot;Rechtsstaat&quot; in Deutschland?
 <strong>🇵🇰</strong> جرمنی میں &quot;Rechtsstaat&quot; (قانونی ریاست) کا کیا مطلب ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -447,7 +475,7 @@
 <td><strong>Der Staat muss die Gesetze einhalten.</strong></td>
 <td><strong>ریاست کو قوانین کی پابندی کرنی ہوگی۔</strong></td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> &quot;Rechtsstaat&quot; کا مطلب ہے کہ ریاست اور اس کے تمام ادارے قانون کے پابند ہیں — حکومت من مانی نہیں کر سکتی۔</p>
 </blockquote>
@@ -458,7 +486,7 @@
 <h3>سوال 56</h3>
 <p><strong>🇩🇪</strong> Wer wählt den Bundeskanzler/die Bundeskanzlerin in Deutschland?
 <strong>🇵🇰</strong> جرمنی میں وفاقی چانسلر کو کون منتخب کرتا ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -486,7 +514,7 @@
 <td>die Bundesregierung</td>
 <td>وفاقی حکومت</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> وفاقی چانسلر کو بنڈسٹاگ (پارلیمنٹ) منتخب کرتا ہے، عوام براہ راست نہیں۔ صدر امیدوار نامزد کرتا ہے — عام طور پر سب سے بڑی پارٹی یا اتحاد کا رہنما — اور بنڈسٹاگ ووٹ دیتا ہے۔</p>
 </blockquote>
@@ -494,7 +522,7 @@
 <h3>سوال 57</h3>
 <p><strong>🇩🇪</strong> Welche Aufgabe hat der Bundesrat?
 <strong>🇵🇰</strong> بنڈسرات کا کیا کردار ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -522,7 +550,7 @@
 <td>Er entscheidet über Strafverfahren.</td>
 <td>یہ فوجداری مقدمات کا فیصلہ کرتا ہے۔</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> بنڈسرات (وفاقی کونسل) قومی سطح پر 16 وفاقی ریاستوں کی نمائندگی کرتا ہے۔ ریاستی حکومتیں نمائندے بھیجتی ہیں۔ بنڈسرات قانون سازی میں حصہ لیتا ہے، خاص طور پر ریاستوں سے متعلق قوانین میں۔</p>
 </blockquote>
@@ -530,7 +558,7 @@
 <h3>سوال 58</h3>
 <p><strong>🇩🇪</strong> Wer vertritt die Bundesrepublik Deutschland nach außen?
 <strong>🇵🇰</strong> بین الاقوامی سطح پر وفاقی جمہوریہ جرمنی کی نمائندگی کون کرتا ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -558,7 +586,7 @@
 <td>der Bundeskanzler</td>
 <td>وفاقی چانسلر</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> وفاقی صدر (Bundespräsident) سرکاری طور پر جرمنی کی بین الاقوامی نمائندگی کرتا ہے۔ اگرچہ چانسلر زیادہ سیاسی طاقت رکھتا ہے، آئینی نمائندہ صدر ہے۔</p>
 </blockquote>
@@ -566,7 +594,7 @@
 <h3>سوال 59 <em>(جولائی 2024 میں تازہ کاری — اسرائیل/یہودی زندگی)</em></h3>
 <p><strong>🇩🇪</strong> Welche Städte haben die größten jüdischen Gemeinden in Deutschland?
 <strong>🇵🇰</strong> جرمنی میں سب سے بڑی یہودی جماعتیں کن شہروں میں ہیں؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -594,7 +622,7 @@
 <td>Worms und Speyer</td>
 <td>وورمز اور شپائر</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> برلن اور میونخ میں آج جرمنی کی سب سے بڑی یہودی جماعتیں ہیں۔ برلن کی یہودی جماعت میں تقریباً 10,000 اراکین ہیں اور میونخ کی میں تقریباً 9,000۔ ہولوکاسٹ سے پہلے جرمنی میں 500,000 سے زیادہ یہودی آبادی تھی۔ آج تقریباً 90,000 یہودی جرمنی کی یہودی جماعتوں کے رکن ہیں۔ وورمز اور شپائر تاریخی طور پر اہم قرون وسطیٰ کے یہودی مراکز تھے۔</p>
 </blockquote>
@@ -602,7 +630,7 @@
 <h3>سوال 60</h3>
 <p><strong>🇩🇪</strong> Welches Amt hat keine politische Macht in Deutschland?
 <strong>🇵🇰</strong> جرمنی میں کس عہدے کے پاس سیاسی طاقت نہیں ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -630,7 +658,7 @@
 <td>ein Ministerpräsident/eine Ministerpräsidentin</td>
 <td>وزیراعلیٰ</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> وفاقی صدر کا کردار بنیادی طور پر رسمی ہے اور بہت محدود سیاسی طاقت ہے۔ صدر قوانین پر دستخط کرتا ہے اور جرمنی کی نمائندگی کرتا ہے لیکن پالیسی فیصلے نہیں کرتا۔ اصل سیاسی طاقت چانسلر اور وفاقی حکومت کے پاس ہے۔</p>
 </blockquote>
@@ -638,7 +666,7 @@
 <h3>سوال 61</h3>
 <p><strong>🇩🇪</strong> Wer bestimmt in Deutschland die Richtlinien der Politik?
 <strong>🇵🇰</strong> جرمنی میں پالیسی کی رہنما خطوط کون طے کرتا ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -666,7 +694,7 @@
 <td>der Bundespräsident</td>
 <td>وفاقی صدر</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> بنیادی قانون کے آرٹیکل 65 کے مطابق، وفاقی چانسلر کو &quot;Richtlinienkompetenz&quot; (پالیسی رہنمائی کا اختیار) حاصل ہے۔ اس لیے جرمن نظام کو بعض اوقات &quot;چانسلر جمہوریت&quot; کہا جاتا ہے۔</p>
 </blockquote>
@@ -677,7 +705,7 @@
 <h3>سوال 64</h3>
 <p><strong>🇩🇪</strong> Wie viele Stimmen hat man bei einer Bundestagswahl?
 <strong>🇵🇰</strong> وفاقی انتخاب میں ایک شخص کے کتنے ووٹ ہوتے ہیں؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -705,7 +733,7 @@
 <td>4</td>
 <td>4</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> ہر ووٹر کے 2 ووٹ ہوتے ہیں۔ پہلا ووٹ (Erststimme) آپ کے حلقے کے مخصوص امیدوار کے لیے ہے۔ دوسرا ووٹ (Zweitstimme) کسی سیاسی پارٹی کے لیے ہے — یہ بنڈسٹاگ کی مجموعی ترکیب طے کرتا ہے۔ دوسرا ووٹ زیادہ اہم سمجھا جاتا ہے۔</p>
 </blockquote>
@@ -713,7 +741,7 @@
 <h3>سوال 66 <em>(جولائی 2024 میں تازہ کاری — یہودی زندگی)</em></h3>
 <p><strong>🇩🇪</strong> Seit wann gibt es jüdisches Leben auf dem Gebiet des heutigen Deutschlands?
 <strong>🇵🇰</strong> آج کے جرمنی کے علاقے میں یہودی زندگی کب سے موجود ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -741,7 +769,7 @@
 <td><strong>seit mehr als 1700 Jahren</strong></td>
 <td><strong>1,700 سال سے زیادہ عرصے سے</strong></td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> جرمنی میں یہودی زندگی 1,700 سال سے زیادہ پرانی ہے۔ سب سے پہلا دستاویزی ثبوت رومی شہنشاہ قسطنطین کا 321 عیسوی کا فرمان ہے، جس میں کولون شہر میں یہودیوں کا ذکر ہے۔ قرون وسطیٰ میں وورمز، شپائر اور مائنز جیسے شہروں میں خوشحال یہودی جماعتیں تھیں (یہ &quot;SchUM شہر&quot; اب یونیسکو عالمی ثقافتی ورثے کی جگہ ہیں)۔</p>
 </blockquote>
@@ -752,7 +780,7 @@
 <h3>سوال 69</h3>
 <p><strong>🇩🇪</strong> Wann finden normalerweise Bundestagswahlen statt?
 <strong>🇵🇰</strong> عام طور پر وفاقی انتخابات کب ہوتے ہیں؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -780,7 +808,7 @@
 <td>alle 6 Jahre</td>
 <td>ہر 6 سال بعد</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> وفاقی انتخابات ہر 4 سال بعد ہوتے ہیں (بنیادی قانون کا آرٹیکل 39)۔ اگر چانسلر عدم اعتماد کا ووٹ ہار جائے تو قبل از وقت انتخابات ممکن ہیں لیکن ایسا شاذ و نادر ہوتا ہے۔</p>
 </blockquote>
@@ -788,7 +816,7 @@
 <h3>سوال 73</h3>
 <p><strong>🇩🇪</strong> Welchen Bundeskanzler hatte Deutschland nie?
 <strong>🇵🇰</strong> جرمنی کا وفاقی چانسلر کون کبھی نہیں رہا؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -816,7 +844,7 @@
 <td>Helmut Kohl</td>
 <td>ہیلموٹ کول</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> تھامس ڈی میزیئر وفاقی دفاع اور داخلہ وزیر رہے لیکن کبھی چانسلر نہیں بنے۔ ایڈیناور پہلے چانسلر (1949–1963)، کول اتحاد کے چانسلر (1982–1998)، اور شروئڈر 1998 سے 2005 تک چانسلر رہے۔</p>
 </blockquote>
@@ -840,7 +868,7 @@
 <h3>سوال 83</h3>
 <p><strong>🇩🇪</strong> Was macht man mit einer &quot;Erststimme&quot; bei der Bundestagswahl?
 <strong>🇵🇰</strong> وفاقی انتخاب میں &quot;پہلے ووٹ&quot; (Erststimme) سے کیا کرتے ہیں؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -868,7 +896,7 @@
 <td>Man wählt eine Partei.</td>
 <td>پارٹی منتخب کرتے ہیں۔</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> پہلا ووٹ (Erststimme) آپ کے مقامی حلقے (Wahlkreis) سے مخصوص امیدوار کو منتخب کرنے کے لیے ہے۔ سب سے زیادہ ووٹ حاصل کرنے والا امیدوار براہ راست بنڈسٹاگ میں جاتا ہے۔ پارٹی کو ووٹ دینا دوسرے ووٹ (Zweitstimme) سے ہوتا ہے۔</p>
 </blockquote>
@@ -876,7 +904,7 @@
 <h3>سوال 84</h3>
 <p><strong>🇩🇪</strong> Was macht man mit der &quot;Zweitstimme&quot; bei der Bundestagswahl?
 <strong>🇵🇰</strong> وفاقی انتخاب میں &quot;دوسرے ووٹ&quot; (Zweitstimme) سے کیا کرتے ہیں؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -904,7 +932,7 @@
 <td>Man wählt den Bundespräsidenten.</td>
 <td>صدر منتخب کرتے ہیں۔</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> دوسرا ووٹ (Zweitstimme) پارٹی کو دیا جاتا ہے اور بنڈسٹاگ میں تناسبی نمائندگی طے کرتا ہے — یعنی ہر پارٹی کو کتنی نشستیں ملیں گی۔ یہ اصل میں زیادہ اہم ووٹ سمجھا جاتا ہے۔</p>
 </blockquote>
@@ -912,7 +940,7 @@
 <h3>سوال 86</h3>
 <p><strong>🇩🇪</strong> Wann wurde die Bundesrepublik Deutschland gegründet?
 <strong>🇵🇰</strong> وفاقی جمہوریہ جرمنی کب قائم ہوئی؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -940,7 +968,7 @@
 <td>1953</td>
 <td>1953</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> وفاقی جمہوریہ جرمنی (مغربی جرمنی) 23 مئی 1949 کو بنیادی قانون کے نفاذ کے ساتھ قائم ہوئی۔ 1933 میں ہٹلر اقتدار میں آیا، 1945 میں دوسری جنگ عظیم ختم ہوئی، اور 1953 میں مشرقی جرمنی میں مزدوروں کی بغاوت ہوئی۔</p>
 </blockquote>
@@ -948,7 +976,7 @@
 <h3>سوال 87</h3>
 <p><strong>🇩🇪</strong> Wann ist der Tag der Deutschen Einheit?
 <strong>🇵🇰</strong> جرمن اتحاد کا دن کب ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -976,7 +1004,7 @@
 <td>am 9. November</td>
 <td>9 نومبر</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> جرمن اتحاد کا دن (Tag der Deutschen Einheit) 3 اکتوبر کو منایا جاتا ہے — 1990 میں مشرقی اور مغربی جرمنی کے سرکاری اتحاد کی یاد میں۔ 9 نومبر (برلن دیوار کا گرنا) اس لیے نہیں چنا گیا کیونکہ 9 نومبر 1938 کے &quot;کرسٹل نائٹ&quot; یہودی مخالف فسادات کی بھی سالگرہ ہے۔</p>
 </blockquote>
@@ -984,7 +1012,7 @@
 <h3>سوال 89</h3>
 <p><strong>🇩🇪</strong> Wer ist das Staatsoberhaupt der Bundesrepublik Deutschland?
 <strong>🇵🇰</strong> وفاقی جمہوریہ جرمنی کا سربراہ مملکت کون ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1012,7 +1040,7 @@
 <td>der Bundesratspräsident</td>
 <td>بنڈسرات کا صدر</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> وفاقی صدر (Bundespräsident) جرمنی کا سربراہ مملکت ہے۔ اگرچہ چانسلر سربراہ حکومت ہے اور زیادہ سیاسی طاقت رکھتا ہے، صدر سرکاری سربراہ مملکت ہے۔ سربراہ مملکت (صدر) کو سربراہ حکومت (چانسلر) سے الجھائیں نہیں۔</p>
 </blockquote>
@@ -1020,7 +1048,7 @@
 <h3>سوال 90</h3>
 <p><strong>🇩🇪</strong> Die Stadt, die zugleich ein Bundesland ist, ist …
 <strong>🇵🇰</strong> وہ شہر جو بیک وقت ایک وفاقی ریاست بھی ہے …</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1048,7 +1076,7 @@
 <td>Frankfurt</td>
 <td>فرینکفرٹ</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> ہیمبرگ شہر اور وفاقی ریاست دونوں ہے (شہری ریاست — Stadtstaat)۔ جرمنی میں تین شہری ریاستیں ہیں: برلن، ہیمبرگ، اور بریمن۔ بون مغربی جرمنی کا سابق دارالحکومت تھا لیکن شمالی رائن ویسٹ فالیا کا حصہ ہے۔</p>
 </blockquote>
@@ -1056,7 +1084,7 @@
 <h3>سوال 94</h3>
 <p><strong>🇩🇪</strong> Welches deutsche Bundesland hat die meisten Einwohner?
 <strong>🇵🇰</strong> جرمنی کی کس وفاقی ریاست میں سب سے زیادہ آبادی ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1084,7 +1112,7 @@
 <td>Niedersachsen</td>
 <td>نیڈرسیکسن</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> شمالی رائن ویسٹ فالیا (NRW) جرمنی کی سب سے زیادہ آبادی والی ریاست ہے — تقریباً 18 ملین باشندے۔ بویریا رقبے کے لحاظ سے سب سے بڑی ریاست ہے لیکن NRW میں زیادہ لوگ رہتے ہیں۔</p>
 </blockquote>
@@ -1092,7 +1120,7 @@
 <h3>سوال 95</h3>
 <p><strong>🇩🇪</strong> Die Hauptstadt von Deutschland ist …
 <strong>🇵🇰</strong> جرمنی کا دارالحکومت ہے …</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1120,7 +1148,7 @@
 <td>Frankfurt</td>
 <td>فرینکفرٹ</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> برلن 1990 میں دوبارہ اتحاد کے بعد سے جرمنی کا دارالحکومت ہے۔ جرمنی کی تقسیم (1949–1990) کے دوران بون مغربی جرمنی کا دارالحکومت تھا جبکہ مشرقی برلن مشرقی جرمنی (DDR) کا دارالحکومت تھا۔</p>
 </blockquote>
@@ -1128,7 +1156,7 @@
 <h3>سوال 96 <em>(جولائی 2024 میں تازہ کاری — سام دشمنی)</em></h3>
 <p><strong>🇩🇪</strong> Wie kann jemand, der den Holocaust leugnet, bestraft werden?
 <strong>🇵🇰</strong> ہولوکاسٹ سے انکار کرنے والے کو کیسے سزا دی جا سکتی ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1156,7 +1184,7 @@
 <td><strong>mit Freiheitsstrafe bis zu fünf Jahren oder mit Geldstrafe</strong></td>
 <td><strong>پانچ سال تک قید یا جرمانہ</strong></td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> ہولوکاسٹ سے انکار جرمنی میں §130(3) StGB (نفرت کی اشتعال انگیزی — Volksverhetzung) کے تحت مجرمانہ جرم ہے۔ جو کوئی عوامی طور پر نازیوں کے ذریعے 60 لاکھ یہودیوں کے قتل عام سے انکار کرے، اسے کم سمجھے، یا اس کی تائید کرے، اسے 5 سال تک قید یا جرمانہ ہو سکتا ہے۔</p>
 </blockquote>
@@ -1164,7 +1192,7 @@
 <h3>سوال 97</h3>
 <p><strong>🇩🇪</strong> Welche Farben hat die deutsche Flagge?
 <strong>🇵🇰</strong> جرمن جھنڈے کے رنگ کیا ہیں؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1192,7 +1220,7 @@
 <td>schwarz, gelb, grün</td>
 <td>سیاہ، پیلا، سبز</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> جرمن جھنڈے میں تین افقی پٹیاں ہیں: سیاہ (اوپر)، سرخ (درمیان)، اور سنہرا/پیلا (نیچے)۔ یہ رنگ 19ویں صدی کی جمہوری تحریک سے ہیں۔ سرکاری طور پر رنگ &quot;سنہرا&quot; (gold) ہے &quot;پیلا&quot; (gelb) نہیں۔ سیاہ-سفید-سرخ جھنڈا جرمن سلطنت (1871–1918) کا تھا۔</p>
 </blockquote>
@@ -1200,7 +1228,7 @@
 <h3>سوال 100</h3>
 <p><strong>🇩🇪</strong> Was ist in Deutschland ein Wahlgrundsatz?
 <strong>🇵🇰</strong> جرمنی میں انتخابی اصول کیا ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1228,7 +1256,7 @@
 <td>Dreiklassenwahlrecht</td>
 <td>تین درجے کا ووٹنگ نظام</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> خفیہ ووٹنگ (geheime Wahl) جرمنی کے پانچ انتخابی اصولوں میں سے ایک ہے: عام، براہ راست، آزاد، مساوی، اور خفیہ۔ &quot;کھلا&quot; انتخاب، مردم شماری پر مبنی حق (جہاں ووٹ کا حق دولت پر منحصر ہو)، اور تین درجے کا نظام (پروشیا میں 1918 تک استعمال ہوا) سب غیر جمہوری نظام ہیں جو ختم کر دیے گئے۔</p>
 </blockquote>
@@ -1264,7 +1292,7 @@
                 <a class="btn-foot" href="../privacy.html">پرائیویسی و اظہاریہ</a>
             </div>
         </div>
-        <div class="foot-meta">آخری اپڈیٹ: 2026-05-03</div>
+        <div class="foot-meta">آخری اپڈیٹ: 2026-05-10</div>
     </footer>
 
     <button class="back-to-top" id="backToTop" aria-label="اوپر جائیں" title="اوپر جائیں">↑</button>

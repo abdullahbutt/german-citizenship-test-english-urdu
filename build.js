@@ -371,24 +371,52 @@ function renderPage({ lang, title, bodyHtml, slug }) {
         }
         h1 { margin-bottom: 1.25rem; }
         h2 { margin-top: 2rem; margin-bottom: 1rem; }
+        .table-wrap {
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            margin: 1rem 0 1.5rem;
+            border: 1px solid var(--border);
+            border-radius: 0.5rem;
+            background: var(--card-bg);
+        }
+        .table-wrap table {
+            margin: 0;
+            border: 0;
+        }
         table {
             width: 100%;
             border-collapse: collapse;
             margin: 1rem 0 1.5rem;
             background: var(--card-bg);
+            table-layout: auto;
         }
         table th, table td {
             padding: 0.75rem 1rem;
             border: 1px solid var(--border);
             vertical-align: top;
+            overflow-wrap: anywhere;
+            word-break: normal;
+            hyphens: auto;
+            min-width: 0;
         }
         table th {
             background: var(--primary);
             color: #fff;
             text-align: ${dir === 'rtl' ? 'right' : 'left'};
+            white-space: nowrap;
         }
         table tr:nth-child(even) td { background: var(--table-stripe); }
         table tr:hover td { background: var(--table-hover); }
+
+        @media (max-width: 720px) {
+            .table-wrap table {
+                min-width: 540px;
+            }
+            table th, table td {
+                padding: 0.6rem 0.75rem;
+                font-size: 0.92rem;
+            }
+        }
         code {
             background: var(--table-stripe);
             padding: 0.15rem 0.4rem;
@@ -751,7 +779,10 @@ function buildLang(lang) {
         // horizontal rules, not as setext-style h2 underlines.
         const preprocessed = md.replace(/([^\n])\n---\s*$/gm, '$1\n\n---');
         let bodyHtml = marked.parse(preprocessed);
-
+        bodyHtml = bodyHtml.replace(
+            /<table([^>]*)>([\s\S]*?)<\/table>/g,
+            '<div class="table-wrap"><table$1>$2</table></div>'
+        );
         // Rewrite internal .md links for the static site:
         //   README.md   → index.html  (per-language home)
         //   anything.md → anything.html

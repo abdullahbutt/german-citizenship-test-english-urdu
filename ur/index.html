@@ -126,24 +126,52 @@
         }
         h1 { margin-bottom: 1.25rem; }
         h2 { margin-top: 2rem; margin-bottom: 1rem; }
+        .table-wrap {
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            margin: 1rem 0 1.5rem;
+            border: 1px solid var(--border);
+            border-radius: 0.5rem;
+            background: var(--card-bg);
+        }
+        .table-wrap table {
+            margin: 0;
+            border: 0;
+        }
         table {
             width: 100%;
             border-collapse: collapse;
             margin: 1rem 0 1.5rem;
             background: var(--card-bg);
+            table-layout: auto;
         }
         table th, table td {
             padding: 0.75rem 1rem;
             border: 1px solid var(--border);
             vertical-align: top;
+            overflow-wrap: anywhere;
+            word-break: normal;
+            hyphens: auto;
+            min-width: 0;
         }
         table th {
             background: var(--primary);
             color: #fff;
             text-align: right;
+            white-space: nowrap;
         }
         table tr:nth-child(even) td { background: var(--table-stripe); }
         table tr:hover td { background: var(--table-hover); }
+
+        @media (max-width: 720px) {
+            .table-wrap table {
+                min-width: 540px;
+            }
+            table th, table td {
+                padding: 0.6rem 0.75rem;
+                font-size: 0.92rem;
+            }
+        }
         code {
             background: var(--table-stripe);
             padding: 0.15rem 0.4rem;
@@ -357,7 +385,7 @@
 <p>نئے ہیں؟ پہلے <a href="questions-001-050.html">سوالات 1–50</a> سے شروع کریں، پھر نیچے اپنی ریاست کی فائل منتخب کریں۔</p>
 <hr>
 <h2>📋 امتحان کے بارے میں</h2>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th>تفصیل</th>
@@ -392,10 +420,10 @@
 <td><strong>ریاستی سوالات</strong></td>
 <td>33 میں سے 3 آپ کی ریاست (Bundesland) سے متعلق ہوتے ہیں</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <hr>
 <h2>📑 عمومی سوالات (1–300)</h2>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th>فائل</th>
@@ -433,11 +461,11 @@
 <td>251–300</td>
 <td>معاشرہ، مذہب، روزمرہ زندگی</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <hr>
 <h2>🗺️ ریاستی سوالات (301–310)</h2>
 <p>اپنی ریاست (Bundesland) منتخب کریں — ہر ایک میں دارالحکومت، نشان، وزیراعلیٰ، جغرافیہ اور تاریخ کے بارے میں 10 اضافی سوالات ہیں۔</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th>ریاست</th>
@@ -525,12 +553,12 @@
 <td>تھورنگیا</td>
 <td>Erfurt</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <hr>
 <h2>🖼️ تصاویر والے سوالات</h2>
 <p>کچھ سوالات میں تصاویر شامل ہیں (نشانات، نقشے، جھنڈے)۔ اصل تصاویر دیکھنے کے لیے <a href="https://oet.bamf.de/ords/oetut/f?p=514:1:0">BAMF انٹرایکٹو ٹیسٹ سینٹر</a> استعمال کریں۔</p>
 <p><strong>تصاویر والے عمومی سوالات:</strong></p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th>سوال</th>
@@ -557,9 +585,9 @@
 <td>سوال 195</td>
 <td>تقسیم شدہ جرمنی / قبضے کے علاقوں کا نقشہ</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <p><strong>ریاستی تصاویر والے سوالات (ہر ریاست):</strong></p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th>سوال</th>
@@ -578,11 +606,11 @@
 <td>سوال 304</td>
 <td>نمبر والا نقشہ — اپنی ریاست کا نمبر پہچانیں</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <hr>
 <h2>🆕 تازہ ترین سوالات (جولائی 2024)</h2>
 <p>10 سوالات کو نئے سوالات سے بدل دیا گیا جو <strong>جرمنی میں یہودی زندگی، اسرائیل کے وجود کا حق، اور سام دشمنی</strong> سے متعلق ہیں (7 اکتوبر 2023 کے واقعات کے جواب میں)۔ ان پر فائلوں میں <em>(جولائی 2024 میں تازہ کاری)</em> کا نشان لگا ہے:</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th>#</th>
@@ -645,7 +673,7 @@
 <td>جرمنی کی اسرائیل کے لیے خاص ذمہ داری</td>
 <td>نازی جرائم</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <hr>
 <h2>📖 یہ رہنما کیسے پڑھیں</h2>
 <p>ہر سوال اس شکل میں ہے:</p>
@@ -653,7 +681,7 @@
 <h3>سوال X</h3>
 <p><strong>🇩🇪</strong> جرمن سوال
 <strong>🇵🇰</strong> اردو ترجمہ</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -681,7 +709,7 @@
 <td>غلط جواب</td>
 <td>اردو</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <p><strong>📝</strong> تاریخی پس منظر کے ساتھ وضاحت۔</p>
 </blockquote>
 <hr>
@@ -725,7 +753,7 @@
                 <a class="btn-foot" href="../privacy.html">پرائیویسی و اظہاریہ</a>
             </div>
         </div>
-        <div class="foot-meta">آخری اپڈیٹ: 2026-05-03</div>
+        <div class="foot-meta">آخری اپڈیٹ: 2026-05-10</div>
     </footer>
 
     <button class="back-to-top" id="backToTop" aria-label="اوپر جائیں" title="اوپر جائیں">↑</button>

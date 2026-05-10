@@ -126,24 +126,52 @@
         }
         h1 { margin-bottom: 1.25rem; }
         h2 { margin-top: 2rem; margin-bottom: 1rem; }
+        .table-wrap {
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            margin: 1rem 0 1.5rem;
+            border: 1px solid var(--border);
+            border-radius: 0.5rem;
+            background: var(--card-bg);
+        }
+        .table-wrap table {
+            margin: 0;
+            border: 0;
+        }
         table {
             width: 100%;
             border-collapse: collapse;
             margin: 1rem 0 1.5rem;
             background: var(--card-bg);
+            table-layout: auto;
         }
         table th, table td {
             padding: 0.75rem 1rem;
             border: 1px solid var(--border);
             vertical-align: top;
+            overflow-wrap: anywhere;
+            word-break: normal;
+            hyphens: auto;
+            min-width: 0;
         }
         table th {
             background: var(--primary);
             color: #fff;
             text-align: right;
+            white-space: nowrap;
         }
         table tr:nth-child(even) td { background: var(--table-stripe); }
         table tr:hover td { background: var(--table-hover); }
+
+        @media (max-width: 720px) {
+            .table-wrap table {
+                min-width: 540px;
+            }
+            table th, table td {
+                padding: 0.6rem 0.75rem;
+                font-size: 0.92rem;
+            }
+        }
         code {
             background: var(--table-stripe);
             padding: 0.15rem 0.4rem;
@@ -347,7 +375,7 @@
 <h3>سوال 101</h3>
 <p><strong>🇩🇪</strong> Was ist eine kommunale Aufgabe in Deutschland?
 <strong>🇵🇰</strong> جرمنی میں بلدیاتی ذمہ داری کیا ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -375,7 +403,7 @@
 <td>Polizeirecht</td>
 <td>پولیس قانون</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> پینے کے پانی کی فراہمی مقامی بلدیات (Kommunen) کی ذمہ داری ہے۔ دفاع اور خارجہ پالیسی وفاقی ذمہ داریاں ہیں، اور پولیس قانون ریاستی (Länder) ذمہ داری ہے۔</p>
 </blockquote>
@@ -383,7 +411,7 @@
 <h3>سوال 102</h3>
 <p><strong>🇩🇪</strong> Wer wird bei den Kommunalwahlen gewählt?
 <strong>🇵🇰</strong> بلدیاتی انتخابات میں کون منتخب ہوتا ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -411,7 +439,7 @@
 <td>der Ministerpräsident</td>
 <td>وزیراعلیٰ</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> بلدیاتی انتخابات (Kommunalwahlen) میں میئر (Bürgermeister) اور مقامی کونسل منتخب ہوتی ہے۔ جرمنی میں رہنے والے یورپی یونین کے شہری بھی ان انتخابات میں ووٹ دے سکتے ہیں۔</p>
 </blockquote>
@@ -419,7 +447,7 @@
 <h3>سوال 103</h3>
 <p><strong>🇩🇪</strong> Wie viel Prozent der Zweitstimmen muss eine Partei mindestens bekommen?
 <strong>🇵🇰</strong> بنڈسٹاگ میں داخل ہونے کے لیے پارٹی کو کم از کم کتنے فیصد دوسرے ووٹ چاہییں؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -447,7 +475,7 @@
 <td>15 %</td>
 <td>15%</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> 5% کی حد (Sperrklausel) پارلیمنٹ کو ٹکڑوں میں بٹنے سے روکتی ہے — یہ وائمر جمہوریہ کا سبق ہے جہاں بہت سی چھوٹی پارٹیوں نے مستحکم حکومت بنانا ناممکن کر دیا تھا۔ استثناء: اگر پارٹی 3 یا اس سے زیادہ براہ راست حلقے جیت لے۔</p>
 </blockquote>
@@ -455,7 +483,7 @@
 <h3>سوال 104</h3>
 <p><strong>🇩🇪</strong> Was passiert, wenn man gegen ein Gesetz verstößt?
 <strong>🇵🇰</strong> قانون کی خلاف ورزی کرنے پر کیا ہوتا ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -483,7 +511,7 @@
 <td>Man muss das Land verlassen.</td>
 <td>ملک چھوڑنا ہوگا۔</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> قانون توڑنے پر نتائج بھگتنے ہوتے ہیں لیکن ہمیشہ جیل نہیں ہوتی۔ سزائیں جرمانے سے لے کر پروبیشن سے لے کر قید تک ہو سکتی ہیں۔</p>
 </blockquote>
@@ -491,7 +519,7 @@
 <h3>سوال 105</h3>
 <p><strong>🇩🇪</strong> Was ist eine Aufgabe der Polizei in Deutschland?
 <strong>🇵🇰</strong> جرمنی میں پولیس کا کام کیا ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -519,7 +547,7 @@
 <td>Steuern erheben</td>
 <td>ٹیکس وصول کرنا</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> پولیس انتظامی شاخ (Exekutive) کا حصہ ہے اور عوامی سلامتی کی ذمہ دار ہے — قانون نہیں بناتی (یہ پارلیمنٹ کا کام ہے)، جج مقرر نہیں کرتی، اور ٹیکس نہیں وصول کرتی (یہ ٹیکس آفس — Finanzamt کا کام ہے)۔</p>
 </blockquote>
@@ -527,7 +555,7 @@
 <h3>سوال 107</h3>
 <p><strong>🇩🇪</strong> Was ist die &quot;Ewigkeitsklausel&quot; des Grundgesetzes?
 <strong>🇵🇰</strong> بنیادی قانون کی &quot;ابدیت کی شق&quot; کیا ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -555,7 +583,7 @@
 <td>Deutschland darf nie eine neue Verfassung bekommen.</td>
 <td>جرمنی کو کبھی نیا آئین نہیں مل سکتا۔</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> آرٹیکل 79(3) &quot;ابدیت کی شق&quot; (Ewigkeitsklausel) کے نام سے جانا جاتا ہے۔ یہ انسانی عزت (آرٹیکل 1) اور جمہوریت/وفاقیت (آرٹیکل 20) جیسے بنیادی اصولوں کو کبھی ختم ہونے سے بچاتا ہے۔ بنیادی قانون کے باقی حصے دو تہائی اکثریت سے ترمیم ہو سکتے ہیں۔</p>
 </blockquote>
@@ -563,7 +591,7 @@
 <h3>سوال 108</h3>
 <p><strong>🇩🇪</strong> Was bedeutet &quot;Gewaltenteilung&quot;?
 <strong>🇵🇰</strong> &quot;اختیارات کی تقسیم&quot; کا کیا مطلب ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -591,7 +619,7 @@
 <td>Die Richter regieren das Land.</td>
 <td>جج ملک پر حکمرانی کرتے ہیں۔</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> اختیارات کی تقسیم (Gewaltenteilung) طاقت کو تین آزاد شاخوں میں تقسیم کرتی ہے: مقننہ (Legislative — پارلیمنٹ قانون بناتی ہے)، انتظامیہ (Exekutive — حکومت قانون نافذ کرتی ہے)، اور عدلیہ (Judikative — عدالتیں قانون کی تشریح کرتی ہیں)۔ ہر شاخ دوسری کی نگرانی کرتی ہے۔</p>
 </blockquote>
@@ -599,7 +627,7 @@
 <h3>سوال 111 <em>(جولائی 2024 میں تازہ کاری — اسرائیل کا حق وجود)</em></h3>
 <p><strong>🇩🇪</strong> Welche Handlungen mit Bezug auf den Staat Israel sind in Deutschland verboten?
 <strong>🇵🇰</strong> جرمنی میں ریاست اسرائیل کے حوالے سے کون سے اعمال ممنوع ہیں؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -627,7 +655,7 @@
 <td><strong>der öffentliche Aufruf zur Vernichtung Israels</strong></td>
 <td><strong>اسرائیل کی تباہی کا عوامی مطالبہ</strong></td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> اسرائیل کی تباہی کا عوامی مطالبہ جرمنی میں مجرمانہ جرم ہے۔ تاہم اسرائیلی حکومتی پالیسیوں پر تنقید، اسرائیلی جھنڈے لگانا، اور اسرائیلی سیاست پر بحث سب مکمل طور پر قانونی اور اظہار رائے کی آزادی سے محفوظ ہیں۔ اہم فرق: سیاسی تنقید جائز ہے؛ کسی ریاست کو ختم کرنے کا مطالبہ اشتعال انگیزی ہے۔</p>
 </blockquote>
@@ -635,7 +663,7 @@
 <h3>سوال 117</h3>
 <p><strong>🇩🇪</strong> Wo sitzt das Bundesverfassungsgericht?
 <strong>🇵🇰</strong> وفاقی آئینی عدالت کہاں واقع ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -663,7 +691,7 @@
 <td>München</td>
 <td>میونخ</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> وفاقی آئینی عدالت (Bundesverfassungsgericht) بادن ورٹمبرگ کے شہر کارلسروئے میں ہے — جان بوجھ کر دارالحکومت سے دور رکھا گیا تاکہ عدلیہ کی آزادی پر زور دیا جا سکے۔ یہ آئینی معاملات پر اعلیٰ ترین اتھارٹی ہے۔</p>
 </blockquote>
@@ -671,7 +699,7 @@
 <h3>سوال 118 <em>(جولائی 2024 میں تازہ کاری — جرمنی میں یہودی زندگی)</em></h3>
 <p><strong>🇩🇪</strong> Wer darf bei den rund 40 jüdischen Makkabi-Sportvereinen Mitglied werden?
 <strong>🇵🇰</strong> تقریباً 40 یہودی مکابی کھیل کلبوں کا رکن کون بن سکتا ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -699,7 +727,7 @@
 <td><strong>alle Menschen</strong></td>
 <td><strong>تمام لوگ</strong></td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> مکابی کھیل کلب (قدیم یہودی مکابیوں کے نام پر) سب کے لیے کھلے ہیں، قطع نظر مذہب، قومیت، یا پس منظر۔ جرمنی میں تقریباً 40 مکابی کلب ہیں۔ یہ سوال اس بات پر زور دیتا ہے کہ جرمنی میں یہودی ادارے شامل کرنے والے ہیں اور وسیع تر جرمن معاشرے کا حصہ ہیں۔</p>
 </blockquote>
@@ -707,7 +735,7 @@
 <h3>سوال 120</h3>
 <p><strong>🇩🇪</strong> Wann wurde die Europäische Wirtschaftsgemeinschaft (EWG) gegründet?
 <strong>🇵🇰</strong> یورپی اقتصادی برادری (EWG) کب قائم ہوئی؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -735,7 +763,7 @@
 <td>1972</td>
 <td>1972</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> یورپی اقتصادی برادری 1957 میں روم کے معاہدے سے قائم ہوئی۔ چھ بانی رکن جرمنی، فرانس، اٹلی، بیلجیم، نیدرلینڈز، اور لکسمبرگ تھے۔ بعد میں یہ ماسٹرخٹ معاہدے (1992/93) سے یورپی یونین بن گئی۔</p>
 </blockquote>
@@ -743,7 +771,7 @@
 <h3>سوال 122</h3>
 <p><strong>🇩🇪</strong> Was ist kein EU-Mitgliedsstaat?
 <strong>🇵🇰</strong> یورپی یونین کا رکن نہیں ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -771,7 +799,7 @@
 <td>Spanien</td>
 <td>اسپین</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> ترکی یورپی یونین کا رکن نہیں ہے حالانکہ 1987 میں درخواست دی اور 2005 میں مذاکرات شروع ہوئے۔ فرانس، اٹلی، اور اسپین طویل عرصے سے EU رکن ہیں۔ دیگر غیر EU یورپی ممالک میں سوئٹزرلینڈ، ناروے، اور (2020 سے) برطانیہ شامل ہیں۔</p>
 </blockquote>
@@ -779,7 +807,7 @@
 <h3>سوال 123</h3>
 <p><strong>🇩🇪</strong> Wer darf bei Kommunalwahlen in Deutschland wählen?
 <strong>🇵🇰</strong> جرمنی میں بلدیاتی انتخابات میں کون ووٹ دے سکتا ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -807,7 +835,7 @@
 <td>nur Männer</td>
 <td>صرف مرد</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> بلدیاتی انتخابات میں جرمن شہریوں اور جرمنی میں رہنے والے EU رکن ممالک کے شہریوں دونوں کو ووٹ دینے کا حق ہے۔ غیر EU شہری (مثلاً ترکی، شام، یا امریکہ سے) کسی بھی جرمن انتخاب میں ووٹ نہیں دے سکتے۔</p>
 </blockquote>
@@ -815,7 +843,7 @@
 <h3>سوال 124</h3>
 <p><strong>🇩🇪</strong> Man darf in Deutschland nicht …
 <strong>🇵🇰</strong> جرمنی میں … کی اجازت نہیں ہے</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -843,7 +871,7 @@
 <td>die Regierung kritisieren</td>
 <td>حکومت پر تنقید کرنا</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> ہولوکاسٹ سے انکار جرمنی میں §130 StGB کے تحت مجرمانہ جرم ہے۔ 60 لاکھ یہودیوں کے قتل عام کی تاریخی ذمہ داری کی وجہ سے جرمنی اسے بہت سنجیدگی سے لیتا ہے۔ تنظیمیں اور پارٹیاں بنانا اور حکومت پر تنقید کرنا سب محفوظ حقوق ہیں۔</p>
 </blockquote>
@@ -851,7 +879,7 @@
 <h3>سوال 125</h3>
 <p><strong>🇩🇪</strong> Welches Land ist ein Nachbarland von Deutschland?
 <strong>🇵🇰</strong> جرمنی کا پڑوسی ملک کون سا ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -879,7 +907,7 @@
 <td>Großbritannien</td>
 <td>برطانیہ</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> پولینڈ جرمنی کے مشرق میں سرحد رکھتا ہے۔ جرمنی کے 9 پڑوسی ممالک ہیں — یورپ میں سب سے زیادہ: ڈنمارک (شمال)، پولینڈ اور چیک ریپبلک (مشرق)، آسٹریا اور سوئٹزرلینڈ (جنوب)، فرانس، لکسمبرگ، بیلجیم، اور نیدرلینڈز (مغرب)۔</p>
 </blockquote>
@@ -887,7 +915,7 @@
 <h3>سوال 128</h3>
 <p><strong>🇩🇪</strong> In Deutschland gilt Religionsfreiheit. Was bedeutet das?
 <strong>🇵🇰</strong> جرمنی میں مذہبی آزادی لاگو ہے۔ اس کا کیا مطلب ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -915,7 +943,7 @@
 <td>Alle müssen an Gott glauben.</td>
 <td>سب کو خدا پر یقین رکھنا ہوگا۔</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> مذہبی آزادی (بنیادی قانون کا آرٹیکل 4) کا مطلب ہے کہ ہر شخص جرمنی میں آزادانہ طور پر اپنا مذہب اختیار اور اس پر عمل کر سکتا ہے — یا بالکل بھی کوئی مذہب نہ رکھے۔ ریاست کوئی مذہب لازمی نہیں کر سکتی اور کسی کو خدا پر یقین رکھنے پر مجبور نہیں کیا جا سکتا۔ الحاد اور لاادریت بھی یکساں طور پر محفوظ ہیں۔</p>
 </blockquote>
@@ -923,7 +951,7 @@
 <h3>سوال 130</h3>
 <p><strong>🇩🇪</strong> Was ist die deutsche Währung?
 <strong>🇵🇰</strong> جرمن کرنسی کیا ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -951,7 +979,7 @@
 <td>Pfund</td>
 <td>پاؤنڈ</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> جرمنی کی کرنسی یورو (€) ہے جو 2002 میں ڈوئچ مارک کی جگہ آئی۔ جرمنی یوروزون کے بانی ارکان میں سے ہے۔ ڈی مارک ابھی بھی بنڈس بینک سے تبدیل ہو سکتی ہے۔ تبادلے کی شرح مقرر تھی: 1€ = 1.95583 DM۔</p>
 </blockquote>
@@ -959,7 +987,7 @@
 <h3>سوال 145</h3>
 <p><strong>🇩🇪</strong> Was ist ein deutsches Gesetz zum Schutz der Kinder?
 <strong>🇵🇰</strong> بچوں کے تحفظ کا جرمن قانون کیا ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -987,7 +1015,7 @@
 <td>Kinder dürfen nicht allein spielen.</td>
 <td>بچے اکیلے نہیں کھیل سکتے۔</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> 2000 سے، §1631 BGB بچوں کو تشدد سے پاک پرورش کا حق دیتا ہے: &quot;بچوں کو تشدد سے پاک پرورش کا حق ہے۔ جسمانی سزا، نفسیاتی نقصان، اور دیگر تذلیل آمیز اقدامات ناقابل قبول ہیں۔&quot; والدین کا بچوں کو مارنا غیر قانونی ہے۔</p>
 </blockquote>
@@ -995,7 +1023,7 @@
 <h3>سوال 147</h3>
 <p><strong>🇩🇪</strong> Zwei Frauen möchten heiraten. Was gilt in Deutschland?
 <strong>🇵🇰</strong> دو خواتین شادی کرنا چاہتی ہیں۔ جرمنی میں کیا لاگو ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1023,7 +1051,7 @@
 <td>Nur in einer Kirche.</td>
 <td>صرف گرجا میں۔</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> ہم جنس شادی (&quot;Ehe für alle&quot; — سب کے لیے شادی) جرمنی میں یکم اکتوبر 2017 سے قانونی ہے۔ ہم جنس جوڑوں کو شادی شدہ مخالف جنس جوڑوں کے برابر حقوق حاصل ہیں، بشمول مشترکہ بچے گود لینے کا حق۔</p>
 </blockquote>
@@ -1031,7 +1059,7 @@
 <h3>سوال 149 <em>(جولائی 2024 میں تازہ کاری — سام دشمنی)</em></h3>
 <p><strong>🇩🇪</strong> Was ist ein Beispiel für antisemitisches Verhalten?
 <strong>🇵🇰</strong> سام دشمنی (یہود دشمنی) کے رویے کی مثال کیا ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1059,7 +1087,7 @@
 <td>gegen Juden Fußball spielen</td>
 <td>یہودیوں کے خلاف فٹبال کھیلنا</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> ہولوکاسٹ سے انکار سام دشمنی کی واضح مثال ہے اور جرمنی میں مجرمانہ جرم ہے۔ اہم فرق: یہودی تہواروں میں شرکت، اسرائیلی حکومتی پالیسیوں پر تنقید، اور یہودیوں کے ساتھ کھیلنا سب عام اور قابل قبول سرگرمیاں ہیں۔ اسرائیلی حکومت کی پالیسی پر تنقید سام دشمنی نہیں ہے۔</p>
 </blockquote>
@@ -1067,7 +1095,7 @@
 <h3>سوال 150</h3>
 <p><strong>🇩🇪</strong> Welche Nummer hat der polizeiliche Notruf in Deutschland?
 <strong>🇵🇰</strong> جرمنی میں پولیس ایمرجنسی نمبر کیا ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1095,7 +1123,7 @@
 <td>999</td>
 <td>999</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> پولیس: 110۔ فائر/ایمبولینس: 112 (EU کا عالمی ایمرجنسی نمبر بھی)۔ 911 امریکی نمبر ہے، 999 برطانوی ہے۔ 110 اور 112 دونوں مفت ہیں، یہاں تک کہ بغیر بیلنس یا سم کارڈ والے فون سے بھی۔</p>
 </blockquote>
@@ -1131,7 +1159,7 @@
                 <a class="btn-foot" href="../privacy.html">پرائیویسی و اظہاریہ</a>
             </div>
         </div>
-        <div class="foot-meta">آخری اپڈیٹ: 2026-05-03</div>
+        <div class="foot-meta">آخری اپڈیٹ: 2026-05-10</div>
     </footer>
 
     <button class="back-to-top" id="backToTop" aria-label="اوپر جائیں" title="اوپر جائیں">↑</button>

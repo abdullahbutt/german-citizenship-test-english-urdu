@@ -126,24 +126,52 @@
         }
         h1 { margin-bottom: 1.25rem; }
         h2 { margin-top: 2rem; margin-bottom: 1rem; }
+        .table-wrap {
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            margin: 1rem 0 1.5rem;
+            border: 1px solid var(--border);
+            border-radius: 0.5rem;
+            background: var(--card-bg);
+        }
+        .table-wrap table {
+            margin: 0;
+            border: 0;
+        }
         table {
             width: 100%;
             border-collapse: collapse;
             margin: 1rem 0 1.5rem;
             background: var(--card-bg);
+            table-layout: auto;
         }
         table th, table td {
             padding: 0.75rem 1rem;
             border: 1px solid var(--border);
             vertical-align: top;
+            overflow-wrap: anywhere;
+            word-break: normal;
+            hyphens: auto;
+            min-width: 0;
         }
         table th {
             background: var(--primary);
             color: #fff;
             text-align: right;
+            white-space: nowrap;
         }
         table tr:nth-child(even) td { background: var(--table-stripe); }
         table tr:hover td { background: var(--table-hover); }
+
+        @media (max-width: 720px) {
+            .table-wrap table {
+                min-width: 540px;
+            }
+            table th, table td {
+                padding: 0.6rem 0.75rem;
+                font-size: 0.92rem;
+            }
+        }
         code {
             background: var(--table-stripe);
             padding: 0.15rem 0.4rem;
@@ -347,7 +375,7 @@
 <h3>سوال 201</h3>
 <p><strong>🇩🇪</strong> Wer hat die Relativitätstheorie aufgestellt?
 <strong>🇵🇰</strong> نظریہ اضافیت کس نے پیش کیا؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -375,7 +403,7 @@
 <td>Max Planck</td>
 <td>میکس پلانک</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> البرٹ آئن سٹائن (1879–1955) نے نظریہ اضافیت پیش کیا۔ اُلم، جرمنی میں پیدا ہوئے، 1933 میں نازیوں کے اقتدار میں آنے پر امریکہ چلے گئے۔ 1921 میں طبیعیات کا نوبل انعام ملا۔</p>
 </blockquote>
@@ -383,7 +411,7 @@
 <h3>سوال 202</h3>
 <p><strong>🇩🇪</strong> Welches Land gehört nicht zu den Nachbarländern Deutschlands?
 <strong>🇵🇰</strong> کون سا ملک جرمنی کا پڑوسی نہیں ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -411,7 +439,7 @@
 <td>Dänemark</td>
 <td>ڈنمارک</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> پرتگال جنوب مغربی یورپ میں ہے اور جرمنی کی سرحد سے نہیں لگتا۔ جرمنی کے 9 پڑوسی ممالک: ڈنمارک، پولینڈ، چیک ریپبلک، آسٹریا، سوئٹزرلینڈ، فرانس، لکسمبرگ، بیلجیم، نیدرلینڈز۔</p>
 </blockquote>
@@ -419,7 +447,7 @@
 <h3>سوال 203</h3>
 <p><strong>🇩🇪</strong> In welcher Stadt befindet sich das Brandenburger Tor?
 <strong>🇵🇰</strong> برانڈنبرگ گیٹ کس شہر میں ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -447,7 +475,7 @@
 <td>Dresden</td>
 <td>ڈریسڈن</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> برانڈنبرگ گیٹ برلن کا سب سے مشہور نشان ہے، 1791 میں بنایا گیا۔ سرد جنگ کے دوران یہ مشرقی اور مغربی برلن کے درمیان &quot;موت کی پٹی&quot; میں کھڑا تھا۔ دیوار گرنے کے بعد یہ جرمن اتحاد کی علامت بن گیا۔</p>
 </blockquote>
@@ -455,7 +483,7 @@
 <h3>سوال 204</h3>
 <p><strong>🇩🇪</strong> Welcher Fluss fließt durch Deutschland?
 <strong>🇵🇰</strong> جرمنی سے کون سا دریا بہتا ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -483,7 +511,7 @@
 <td>Wolga</td>
 <td>وولگا</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> رائن (Rhein) جرمنی کے سب سے اہم دریاؤں میں سے ایک ہے۔ دیگر بڑے جرمن دریا: ایلب، ڈینیوب (Donau)، ویزر، مائن، اوڈر۔ ٹیمز انگلینڈ میں، سین فرانس میں، وولگا روس میں ہے۔</p>
 </blockquote>
@@ -491,7 +519,7 @@
 <h3>سوال 205</h3>
 <p><strong>🇩🇪</strong> Welcher Berg ist der höchste Berg Deutschlands?
 <strong>🇵🇰</strong> جرمنی کا بلند ترین پہاڑ کون سا ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -519,7 +547,7 @@
 <td>der Großglockner</td>
 <td>گروس گلاکنر</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> زگ شپٹزے (2,962 میٹر) بویریا کے الپس میں جرمنی کا بلند ترین پہاڑ ہے۔ فیلڈ برگ بلیک فاریسٹ کی بلند ترین چوٹی ہے۔ بروکن ہارز پہاڑوں میں ہے۔ گروس گلاکنر آسٹریا کا بلند ترین پہاڑ ہے۔</p>
 </blockquote>
@@ -527,7 +555,7 @@
 <h3>سوال 206 <em>(جولائی 2024 میں تازہ کاری — یہودی زندگی / ہولوکاسٹ یادگار)</em></h3>
 <p><strong>🇩🇪</strong> Woran erinnern die sogenannten &quot;Stolpersteine&quot; in Deutschland?
 <strong>🇵🇰</strong> جرمنی میں نام نہاد &quot;Stolpersteine&quot; (ٹھوکر کے پتھر) کس کی یاد میں ہیں؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -555,7 +583,7 @@
 <td>an bekannte jüdische Musiker</td>
 <td>مشہور یہودی موسیقاروں کی</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> Stolpersteine (&quot;ٹھوکر کے پتھر&quot;) چھوٹی پیتل کی تختیاں ہیں جو فٹ پاتھ میں نازی حکومت کے متاثرین کی آخری آزادانہ رہائش گاہ کے سامنے لگائی جاتی ہیں۔ فنکار گنٹر ڈیمنگ نے 1992 سے یہ بنائے — ہر پتھر پر متاثر کا نام، پیدائش کا سال، اور انجام لکھا ہوتا ہے۔ 30 سے زیادہ ممالک میں 100,000 سے زیادہ پتھروں کے ساتھ یہ دنیا کی سب سے بڑی غیر مرکزی یادگار ہے۔</p>
 </blockquote>
@@ -563,7 +591,7 @@
 <h3>سوال 207</h3>
 <p><strong>🇩🇪</strong> Welche Stadt war von 1949 bis 1990 die Hauptstadt der Bundesrepublik?
 <strong>🇵🇰</strong> 1949 سے 1990 تک وفاقی جمہوریہ کا دارالحکومت کون سا شہر تھا؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -591,7 +619,7 @@
 <td>Frankfurt</td>
 <td>فرینکفرٹ</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> بون نے 1949 سے 1990 تک مغربی جرمنی کے دارالحکومت کے طور پر خدمات انجام دیں۔ دوبارہ اتحاد کے بعد حکومت 1999 میں برلن منتقل ہوئی، لیکن کئی وزارتیں اور وفاقی ایجنسیاں ابھی بھی بون میں ہیں۔</p>
 </blockquote>
@@ -599,7 +627,7 @@
 <h3>سوال 208</h3>
 <p><strong>🇩🇪</strong> Wo tagt der Deutsche Bundestag?
 <strong>🇵🇰</strong> جرمن بنڈسٹاگ کہاں اجلاس کرتا ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -627,7 +655,7 @@
 <td>im Bundeshaus in Bonn</td>
 <td>بون کے بنڈس ہاؤس میں</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> بنڈسٹاگ برلن کی رائخسٹاگ عمارت میں اجلاس کرتا ہے جسے دوبارہ اتحاد کے بعد شیشے کے گنبد کے ساتھ تزئین نو کیا گیا۔ بیلیو محل وفاقی صدر کی سرکاری رہائش گاہ ہے۔</p>
 </blockquote>
@@ -635,7 +663,7 @@
 <h3>سوال 210</h3>
 <p><strong>🇩🇪</strong> Welches deutsche Fest ist weltweit berühmt?
 <strong>🇵🇰</strong> جرمنی کا کون سا تہوار دنیا بھر میں مشہور ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -663,7 +691,7 @@
 <td>Thanksgiving</td>
 <td>تھینکس گیونگ</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> میونخ (München) کا اوکٹوبر فیسٹ دنیا کا سب سے بڑا عوامی تہوار ہے — سالانہ 60 لاکھ سے زیادہ زائرین آتے ہیں۔ ستمبر کے وسط سے اکتوبر کے پہلے اتوار تک تقریباً 16 دن چلتا ہے۔ 1810 میں بویریا کے ولی عہد شہزادے کی شادی کی تقریب سے شروع ہوا۔</p>
 </blockquote>
@@ -671,7 +699,7 @@
 <h3>سوال 211</h3>
 <p><strong>🇩🇪</strong> Welche Sportart ist in Deutschland besonders beliebt?
 <strong>🇵🇰</strong> جرمنی میں کون سا کھیل خاص طور پر مقبول ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -699,7 +727,7 @@
 <td>Rugby</td>
 <td>رگبی</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> فٹ بال جرمنی کا سب سے مقبول کھیل ہے۔ جرمن فٹ بال ایسوسی ایشن (DFB) دنیا کی سب سے بڑی واحد کھیل فیڈریشن ہے — 70 لاکھ سے زیادہ اراکین۔ جرمنی نے فیفا ورلڈ کپ چار بار جیتا ہے (1954، 1974، 1990، 2014)۔</p>
 </blockquote>
@@ -707,7 +735,7 @@
 <h3>سوال 212</h3>
 <p><strong>🇩🇪</strong> Wer komponierte die Musik zu &quot;Lied der Deutschen&quot;?
 <strong>🇵🇰</strong> &quot;جرمنوں کا گیت&quot; کی موسیقی کس نے بنائی؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -735,7 +763,7 @@
 <td>Wolfgang Amadeus Mozart</td>
 <td>موزارٹ</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> جوزف ہائڈن (1732–1809) نے 1797 میں آسٹرین شہنشاہ کے لیے یہ دھن بنائی۔ 1841 میں ہوفمان فون فالرسلیبن نے جرمن الفاظ لکھے۔ آج صرف تیسرا بند (&quot;Einigkeit und Recht und Freiheit&quot;) قومی ترانے کے طور پر استعمال ہوتا ہے۔</p>
 </blockquote>
@@ -743,7 +771,7 @@
 <h3>سوال 214</h3>
 <p><strong>🇩🇪</strong> Welches Recht haben Arbeitnehmer in Deutschland?
 <strong>🇵🇰</strong> جرمنی میں ملازمین کو کون سا حق حاصل ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -771,7 +799,7 @@
 <td>das Recht, den Chef zu entlassen</td>
 <td>باس کو نکالنے کا حق</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> بنیادی قانون کا آرٹیکل 9(3) مزدور یونین (Gewerkschaft) میں شامل ہونے کا حق دیتا ہے۔ ہڑتال کا حق محدود ہے — صرف یونین قانونی ہڑتال کا اعلان کر سکتی ہے۔ جرمنی میں سالانہ کم از کم 20 تنخواہ دار چھٹیوں کا حق ہے (5 دن کے ہفتے کے لیے)۔</p>
 </blockquote>
@@ -779,7 +807,7 @@
 <h3>سوال 227</h3>
 <p><strong>🇩🇪</strong> Welche deutschen Persönlichkeiten sind berühmt?
 <strong>🇵🇰</strong> کون سی جرمن شخصیات مشہور ہیں؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -807,7 +835,7 @@
 <td>Leo Tolstoi und Fjodor Dostojewski</td>
 <td>ٹالسٹائی اور دوستوفسکی</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> گوئٹے (1749–1832) اور شلر (1759–1805) جرمنی کے سب سے مشہور ادبی شخصیات ہیں۔ گوئٹے نے &quot;فاؤسٹ&quot; لکھا۔ شلر نے &quot;ولیم ٹیل&quot; اور &quot;خوشی کا گیت&quot; لکھا (جو بیتھوون کی 9ویں سمفنی / EU ترانے میں استعمال ہوا)۔ ڈکنز اور شیکسپیئر برطانوی ہیں، ہیوگو فرانسیسی، ٹالسٹائی اور دوستوفسکی روسی ہیں۔</p>
 </blockquote>
@@ -815,7 +843,7 @@
 <h3>سوال 230</h3>
 <p><strong>🇩🇪</strong> Welche Staatsform hatte Deutschland zwischen 1933 und 1945?
 <strong>🇵🇰</strong> 1933 اور 1945 کے درمیان جرمنی کا نظام حکومت کیا تھا؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -843,7 +871,7 @@
 <td>Republik</td>
 <td>جمہوریہ</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> 1933 سے 1945 تک جرمنی ایڈولف ہٹلر اور نازی پارٹی کے تحت آمریت تھا۔ ہٹلر کا لقب &quot;فیورر&quot; تھا اور مطلق اختیار رکھتا تھا۔ اس دور میں جرمن تاریخ کے بدترین جرائم ہوئے بشمول ہولوکاسٹ اور دوسری جنگ عظیم۔</p>
 </blockquote>
@@ -851,7 +879,7 @@
 <h3>سوال 239</h3>
 <p><strong>🇩🇪</strong> Welche Schulformen gibt es in Deutschland?
 <strong>🇵🇰</strong> جرمنی میں کون سی اسکول کی اقسام ہیں؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -879,7 +907,7 @@
 <td>Grundschule und Universität</td>
 <td>ابتدائی اسکول اور یونیورسٹی</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> جرمنی کے روایتی اسکول نظام میں متعدد سلسلے ہیں: Grundschule (ابتدائی، کلاس 1–4)، پھر Hauptschule (بنیادی ثانوی)، Realschule (درمیانی ثانوی)، یا Gymnasium (تعلیمی ثانوی، Abitur / یونیورسٹی داخلے تک)۔ صحیح نظام ہر ریاست میں مختلف ہے۔</p>
 </blockquote>
@@ -887,7 +915,7 @@
 <h3>سوال 240</h3>
 <p><strong>🇩🇪</strong> Was ist das &quot;Abitur&quot;?
 <strong>🇵🇰</strong> &quot;Abitur&quot; کیا ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -915,7 +943,7 @@
 <td>eine Ausbildungsstelle</td>
 <td>اپرنٹس شپ کی جگہ</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> Abitur گمنازیم (12 یا 13 سال کی تعلیم کے بعد) کا حتمی امتحان ہے — جرمن یونیورسٹیوں میں داخلے کا &quot;ٹکٹ&quot;۔</p>
 </blockquote>
@@ -923,7 +951,7 @@
 <h3>سوال 245</h3>
 <p><strong>🇩🇪</strong> Was ist Artikel 1 des Grundgesetzes?
 <strong>🇵🇰</strong> بنیادی قانون کا آرٹیکل 1 کیا ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -951,7 +979,7 @@
 <td>&quot;Alle Deutschen müssen Steuern zahlen.&quot;</td>
 <td>&quot;تمام جرمنوں کو ٹیکس دینا ہوگا۔&quot;</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> آرٹیکل 1(1) کہتا ہے: &quot;Die Würde des Menschen ist unantastbar.&quot; (انسان کی عزت ناقابل تسخیر ہے)۔ یہ پورے جرمن آئین کا سب سے بنیادی اصول ہے اور ابدیت کی شق سے محفوظ ہے — اسے کبھی تبدیل نہیں کیا جا سکتا۔ نازی دور کے غیر انسانی جرائم کے بعد بنیادی قانون کے بانیوں نے انسانی عزت کو پہلے آرٹیکل کے طور پر رکھا۔</p>
 </blockquote>
@@ -959,7 +987,7 @@
 <h3>سوال 247</h3>
 <p><strong>🇩🇪</strong> Was ist das &quot;Existenzrecht Israels&quot;?
 <strong>🇵🇰</strong> &quot;اسرائیل کا حق وجود&quot; کیا ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -987,7 +1015,7 @@
 <td>Israel ist ein deutsches Bundesland.</td>
 <td>اسرائیل جرمن ریاست ہے۔</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> ہولوکاسٹ کی تاریخی ذمہ داری کی وجہ سے جرمنی کا اسرائیل کے ساتھ خصوصی تعلق ہے اور وہ اس کے حق وجود کی مضبوطی سے حمایت کرتا ہے۔ اسرائیل کے حق وجود کو تسلیم کرنا شہریت کے امتحان میں جانچے جانے والے اقدار کا حصہ ہے۔</p>
 </blockquote>
@@ -995,7 +1023,7 @@
 <h3>سوال 250</h3>
 <p><strong>🇩🇪</strong> Was ist ein Ergebnis der Deutschen Wiedervereinigung?
 <strong>🇵🇰</strong> جرمن دوبارہ اتحاد کا نتیجہ کیا ہے؟</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1023,7 +1051,7 @@
 <td>Die DDR existiert noch.</td>
 <td>DDR ابھی بھی موجود ہے۔</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝</strong> اتحاد سے پہلے مغربی جرمنی میں 11 ریاستیں تھیں۔ 1990 میں اتحاد کے بعد مشرقی جرمنی میں 5 &quot;نئی&quot; ریاستیں دوبارہ قائم ہوئیں اور مشرقی/مغربی برلن متحد ہوا — نتیجے میں آج کی 16 وفاقی ریاستیں ہیں۔</p>
 </blockquote>
@@ -1059,7 +1087,7 @@
                 <a class="btn-foot" href="../privacy.html">پرائیویسی و اظہاریہ</a>
             </div>
         </div>
-        <div class="foot-meta">آخری اپڈیٹ: 2026-05-03</div>
+        <div class="foot-meta">آخری اپڈیٹ: 2026-05-10</div>
     </footer>
 
     <button class="back-to-top" id="backToTop" aria-label="اوپر جائیں" title="اوپر جائیں">↑</button>

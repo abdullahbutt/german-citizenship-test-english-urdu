@@ -126,24 +126,52 @@
         }
         h1 { margin-bottom: 1.25rem; }
         h2 { margin-top: 2rem; margin-bottom: 1rem; }
+        .table-wrap {
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            margin: 1rem 0 1.5rem;
+            border: 1px solid var(--border);
+            border-radius: 0.5rem;
+            background: var(--card-bg);
+        }
+        .table-wrap table {
+            margin: 0;
+            border: 0;
+        }
         table {
             width: 100%;
             border-collapse: collapse;
             margin: 1rem 0 1.5rem;
             background: var(--card-bg);
+            table-layout: auto;
         }
         table th, table td {
             padding: 0.75rem 1rem;
             border: 1px solid var(--border);
             vertical-align: top;
+            overflow-wrap: anywhere;
+            word-break: normal;
+            hyphens: auto;
+            min-width: 0;
         }
         table th {
             background: var(--primary);
             color: #fff;
             text-align: left;
+            white-space: nowrap;
         }
         table tr:nth-child(even) td { background: var(--table-stripe); }
         table tr:hover td { background: var(--table-hover); }
+
+        @media (max-width: 720px) {
+            .table-wrap table {
+                min-width: 540px;
+            }
+            table th, table td {
+                padding: 0.6rem 0.75rem;
+                font-size: 0.92rem;
+            }
+        }
         code {
             background: var(--table-stripe);
             padding: 0.15rem 0.4rem;
@@ -347,7 +375,7 @@
 <h3>Question 51</h3>
 <p><strong>🇩🇪 Deutsch:</strong> Zu einem demokratischen Rechtsstaat gehört es nicht, dass …
 <strong>🇬🇧 English:</strong> It is NOT part of a democratic rule-of-law state that …</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -375,7 +403,7 @@
 <td>jemand ein Verbrechen begeht und deshalb verhaftet wird.</td>
 <td>someone commits a crime and is therefore arrested.</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝 Explanation:</strong> In a democratic Rechtsstaat, only the state police can arrest people, and only with legal justification. A &quot;private police&quot; arresting people without reason would be illegal and undemocratic. Criticizing the government, peaceful demonstrations, and lawful arrests for crimes are all normal parts of a democratic society.</p>
 </blockquote>
@@ -383,7 +411,7 @@
 <h3>Question 52</h3>
 <p><strong>🇩🇪 Deutsch:</strong> Was bedeutet &quot;Volkssouveränität&quot;? Alle Staatsgewalt geht vom …
 <strong>🇬🇧 English:</strong> What does &quot;popular sovereignty&quot; mean? All state authority emanates from the …</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -411,7 +439,7 @@
 <td>Bundesverfassungsgericht aus.</td>
 <td>Federal Constitutional Court.</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝 Explanation:</strong> &quot;Volkssouveränität&quot; (popular sovereignty) is established in Article 20 of the Basic Law: &quot;Alle Staatsgewalt geht vom Volke aus&quot; — &quot;All state authority emanates from the people.&quot; This means the people are the ultimate source of political power. They exercise this power through elections and votes. The Bundestag represents the people, but the power originates from the citizens themselves.</p>
 </blockquote>
@@ -419,7 +447,7 @@
 <h3>Question 53</h3>
 <p><strong>🇩🇪 Deutsch:</strong> Was bedeutet &quot;Rechtsstaat&quot; in Deutschland?
 <strong>🇬🇧 English:</strong> What does &quot;Rechtsstaat&quot; (rule of law) mean in Germany?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -447,7 +475,7 @@
 <td><strong>Der Staat muss die Gesetze einhalten.</strong></td>
 <td><strong>The state must abide by the laws.</strong></td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝 Explanation:</strong> &quot;Rechtsstaat&quot; literally translates to &quot;law state&quot; or &quot;state of law.&quot; It means the state and all its institutions are bound by law — the government cannot act arbitrarily but must follow legal rules. This is different from &quot;the state is right&quot; (a common misunderstanding) or &quot;only right-wing parties&quot; (a play on the word &quot;Recht&quot; which can mean both &quot;law/right&quot; and &quot;right-wing&quot;).</p>
 </blockquote>
@@ -455,7 +483,7 @@
 <h3>Question 54</h3>
 <p><strong>🇩🇪 Deutsch:</strong> Was ist keine staatliche Gewalt in Deutschland?
 <strong>🇬🇧 English:</strong> Which is NOT a branch of government in Germany?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -483,7 +511,7 @@
 <td>Federative</td>
 <td>Federative</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝 Explanation:</strong> Wait — this is a tricky question. Germany has three branches of government: Legislative (law-making), Executive (Exekutive — law-enforcing), and Judiciary (Judikative — law-interpreting). The &quot;Federative&quot; is NOT one of the three branches of state power. The Executive IS a real branch. The correct answer is &quot;Federative&quot; as it is not a recognized branch of government in Germany.</p>
 </blockquote>
@@ -492,7 +520,7 @@
 <h3>Question 55</h3>
 <p><strong>🇩🇪 Deutsch:</strong> Was ist die &quot;<strong>(5%-Hürde)</strong>&quot; bei der Wahl zum Deutschen Bundestag?
 <strong>🇬🇧 English:</strong> What is the &quot;5% threshold&quot; in the election to the German Bundestag?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -520,7 +548,7 @@
 <td>__(M)__indestanzahl der Mitglieder in einer Partei</td>
 <td>Minimum number of members in a party</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝 Explanation:</strong> The 5% threshold (5%-Hürde or Sperrklausel) means that a party must receive at least 5% of all second votes (Zweitstimmen) nationwide to enter the Bundestag. This rule was designed to prevent fragmentation of parliament and to avoid the instability experienced during the Weimar Republic, where many tiny parties made it difficult to form stable governments. An exception exists for parties that win at least 3 direct constituencies.</p>
 </blockquote>
@@ -528,7 +556,7 @@
 <h3>Question 56</h3>
 <p><strong>🇩🇪 Deutsch:</strong> Wer wählt den Bundeskanzler/die Bundeskanzlerin in Deutschland?
 <strong>🇬🇧 English:</strong> Who elects the Federal Chancellor in Germany?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -556,7 +584,7 @@
 <td>die Bundesregierung</td>
 <td>the Federal Government</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝 Explanation:</strong> The Federal Chancellor (Bundeskanzler/in) is elected by the Bundestag (parliament), not directly by the people. The Federal President nominates a candidate — usually the leader of the strongest party or coalition — and the Bundestag votes. The Chancellor needs an absolute majority to be elected. The Federal Convention (Bundesversammlung) elects the Federal President, not the Chancellor.</p>
 </blockquote>
@@ -564,7 +592,7 @@
 <h3>Question 57</h3>
 <p><strong>🇩🇪 Deutsch:</strong> Welche Aufgabe hat der Bundesrat?
 <strong>🇬🇧 English:</strong> What is the role of the Bundesrat?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -592,7 +620,7 @@
 <td><strong>Er__(r)__ __(v)__ertritt die Bundesländer.</strong></td>
 <td><strong>It represents the federal states.</strong></td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝 Explanation:</strong> The Bundesrat (Federal Council) is the legislative body that represents the 16 federal states at the national level. Each state sends delegates (members of their state governments) to the Bundesrat. It participates in legislation, especially on laws that affect the states. The Bundesrat is NOT responsible for electing the Chancellor (that&#39;s the Bundestag), building roads, or controlling intelligence services.</p>
 </blockquote>
@@ -600,7 +628,7 @@
 <h3>Question 58</h3>
 <p><strong>🇩🇪 Deutsch:</strong> Wer__(r)__ __(v)__ertritt die Bundesrepublik Deutschland nach außen?
 <strong>🇬🇧 English:</strong> Who represents the Federal Republic of Germany internationally?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -628,7 +656,7 @@
 <td>der Bundeskanzler/die Bundeskanzlerin</td>
 <td>the Federal Chancellor</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝 Explanation:</strong> The Federal President (Bundespräsident/in) officially represents Germany internationally. The President is the head of state and performs ceremonial duties, including receiving foreign ambassadors, signing treaties, and making state visits. While the Chancellor holds more political power and often represents Germany at international summits (like EU or G7), the constitutional representative is the President.</p>
 </blockquote>
@@ -636,7 +664,7 @@
 <h3>Question 59 <em>(Updated July 2024 — Israel/Jewish Life)</em></h3>
 <p><strong>🇩🇪 Deutsch:</strong> Welche Städte haben die größten jüdischen Gemeinden in Deutschland?
 <strong>🇬🇧 English:</strong> Which cities have the largest Jewish communities in Germany?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -664,7 +692,7 @@
 <td>Worms und Speyer</td>
 <td>Worms and Speyer</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝 Explanation:</strong> Berlin and Munich have the largest Jewish communities in Germany today. The Berlin Jewish community has about 10,000 members, and Munich&#39;s has about 9,000. Before the Holocaust, Germany had a thriving Jewish population of over 500,000. Today, about 90,000 Jews are members of Jewish communities in Germany. Worms and Speyer were historically important medieval Jewish centers (the &quot;SchUM cities,&quot; now a UNESCO World Heritage Site).</p>
 </blockquote>
@@ -672,7 +700,7 @@
 <h3>Question 60</h3>
 <p><strong>🇩🇪 Deutsch:</strong> Welches Amt__(t)<strong><strong>(h)<strong>at</strong>(t)</strong></strong>(k)<strong>eine</strong>(n)__ politische__(n)__ Macht__(t)__ in Deutschland?
 <strong>🇬🇧 English:</strong> Which office has no political power in Germany?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -700,7 +728,7 @@
 <td>ein__(e)__ Ministerpräsident/eine Ministerpräsidentin eines Bundeslandes</td>
 <td>a Minister-President of a federal state</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝 Explanation:</strong> The Federal President has primarily a ceremonial role with very limited political power. The President signs laws, appoints officials, and represents Germany, but does not make policy decisions. Real political power lies with the Chancellor and the Federal Government. The President is meant to be a non-partisan, unifying figure above day-to-day politics. This was deliberately designed after WWII to prevent concentration of power.</p>
 </blockquote>
@@ -708,7 +736,7 @@
 <h3>Question 61</h3>
 <p><strong>🇩🇪 Deutsch:</strong> Wer__(r)__ __(b)__estimmt in Deutschland die Richtlinien der Politik?
 <strong>🇬🇧 English:</strong> Who determines the guidelines of policy in Germany?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -736,7 +764,7 @@
 <td>der Bundespräsident/die Bundespräsidentin</td>
 <td>the Federal President</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝 Explanation:</strong> According to Article 65 of the Basic Law, the Federal Chancellor has the &quot;Richtlinienkompetenz&quot; (authority to determine guidelines of policy). This means the Chancellor sets the general direction of government policy, and the Federal Ministers must operate within these guidelines. This makes the Chancellor the most powerful political figure in Germany, which is why the German system is sometimes called a &quot;Chancellor democracy.&quot;</p>
 </blockquote>
@@ -744,7 +772,7 @@
 <h3>Question 62</h3>
 <p><strong>🇩🇪 Deutsch:</strong> Wie nennt man__(n)__ die__(e)____(W)__ahlen zum Deutschen Bundestag?
 <strong>🇬🇧 English:</strong> What are the elections to the German Bundestag called?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -772,7 +800,7 @@
 <td>Kommunalwahl</td>
 <td>Local election</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝 Explanation:</strong> Elections to the Bundestag are called &quot;Bundestagswahl&quot; (federal election). They take place every four years. Germany has four main levels of elections: Kommunalwahl (local/municipal), Landtagswahl (state parliament), Bundestagswahl (federal parliament), and Europawahl (European Parliament). Each election determines representatives at a different level of government.</p>
 </blockquote>
@@ -780,7 +808,7 @@
 <h3>Question 63</h3>
 <p><strong>🇩🇪 Deutsch:</strong> Was__(s)__ <strong>(p)<strong>assiert in Deutschland, wenn man</strong>(n)</strong> <strong>(b)<strong>ei einer Bundestagswahl</strong>(l)</strong> seine Stimme__(e)__ nicht abgibt?
 <strong>🇬🇧 English:</strong> What happens in Germany if you don&#39;t cast your vote in a federal election?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -803,7 +831,7 @@
 <td>**Es__(s)__ <strong>(p)<strong>assiert nichts,</strong>(,)</strong> __(d)__ie</td>
 <td></td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <p>Wahl ist freiwillig.** | <strong>Nothing happens, voting is voluntary.</strong> |
 | ○ | Man__(n)__ __(d)__arf nicht mehr wählen gehen. | You are no longer allowed to vote. |</p>
 <blockquote>
@@ -813,7 +841,7 @@
 <h3>Question 64</h3>
 <p><strong>🇩🇪 Deutsch:</strong> Wie__(e)__ <strong>(v)<strong>iele Stimmen hat man</strong>(n)</strong> bei einer Bundestagswahl?
 <strong>🇬🇧 English:</strong> How many votes does a person have in a federal election?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -841,7 +869,7 @@
 <td>4</td>
 <td>4</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝 Explanation:</strong> In German federal elections, each voter has two votes. The first vote (Erststimme) is for a specific candidate in your local constituency — the winner represents your district directly in the Bundestag. The second vote (Zweitstimme) is for a political party — this determines the overall composition of the Bundestag based on proportional representation. The second vote is considered the more important one because it determines how many seats each party gets overall.</p>
 </blockquote>
@@ -849,7 +877,7 @@
 <h3>Question 65</h3>
 <p><strong>🇩🇪 Deutsch:</strong> Ab welchem Alter darf man in Deutschland bei der Bundestagswahl wählen?
 <strong>🇬🇧 English:</strong> From what age can you vote in the federal election in Germany?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -877,7 +905,7 @@
 <td>25</td>
 <td>25</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝 Explanation:</strong> You must be at least 18 years old to vote in the Bundestagswahl (federal election). This is established in Article 38 of the Basic Law. However, some states have lowered the voting age to 16 for state and local elections. You also need to be a German citizen and have lived in Germany for at least 3 months to be eligible to vote in federal elections.</p>
 </blockquote>
@@ -885,7 +913,7 @@
 <h3>Question 66 <em>(Updated July 2024 — Israel/Jewish Life)</em></h3>
 <p><strong>🇩🇪 Deutsch:</strong> Seit wann gibt es jüdisches Leben auf dem Gebiet des heutigen Deutschlands?
 <strong>🇬🇧 English:</strong> Since when has Jewish life existed in the territory of today&#39;s Germany?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -913,7 +941,7 @@
 <td><strong>seit mehr als 1700 Jahren</strong></td>
 <td><strong>for more than 1,700 years</strong></td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝 Explanation:</strong> Jewish life in Germany dates back more than 1,700 years. The earliest documented evidence is a decree by Roman Emperor Constantine from 321 AD, mentioning Jews in the city of Cologne. Throughout the Middle Ages, thriving Jewish communities existed in cities like Worms, Speyer, and Mainz (the &quot;SchUM cities&quot;). Jewish people have been an integral part of German culture, science, and society for centuries, despite periods of terrible persecution.</p>
 </blockquote>
@@ -921,7 +949,7 @@
 <h3>Question 67</h3>
 <p><strong>🇩🇪 Deutsch:</strong> Welche Aussage zu Wahlen in Deutschland ist richtig?
 <strong>🇬🇧 English:</strong> Which statement about elections in Germany is correct?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -949,7 +977,7 @@
 <td>Alle__(e)__ <strong>(P)<strong>arteien</strong>(n)</strong> <strong>(m)<strong>üssen</strong>(n)</strong> <strong>(d)<strong>as</strong>(s)</strong> __(g)__leiche Programm haben.</td>
 <td>All parties must have the same program.</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝 Explanation:</strong> German elections follow five constitutional principles (Article 38 of the Basic Law): allgemein (universal — all citizens can vote), unmittelbar (direct — voters directly choose representatives), frei (free — no coercion), gleich (equal — each vote has equal weight), and geheim (secret — the ballot is private). Multiple parties with different programs can participate, and results do not need government approval.</p>
 </blockquote>
@@ -957,7 +985,7 @@
 <h3>Question 68</h3>
 <p><strong>🇩🇪 Deutsch:</strong> Bei einer demokratischen Wahl in Deutschland …
 <strong>🇬🇧 English:</strong> In a democratic election in Germany …</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -985,7 +1013,7 @@
 <td><strong>(g)<strong>ibt</strong>(t)</strong> <strong>(e)<strong>s</strong>(s)</strong> <strong>(k)<strong>eine</strong>(e)</strong> __(W)__ahlkabinen.</td>
 <td>there are no voting booths.</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝 Explanation:</strong> The secrecy of elections (geheime Wahl) is a fundamental principle. Voting booths are provided specifically to ensure no one can see how you vote. You do NOT write your name on the ballot — that would violate the secrecy principle. While mail-in voting (Briefwahl) is an option, you can also vote in person at a polling station. Both methods ensure ballot secrecy.</p>
 </blockquote>
@@ -993,7 +1021,7 @@
 <h3>Question 69</h3>
 <p><strong>🇩🇪 Deutsch:</strong> Wann__(n)__ __(f)__inden in Deutschland normalerweise Bundestagswahlen statt?
 <strong>🇬🇧 English:</strong> When do federal elections normally take place in Germany?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1021,7 +1049,7 @@
 <td>alle 6 Jahre</td>
 <td>every 6 years</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝 Explanation:</strong> Federal elections (Bundestagswahlen) in Germany are held every 4 years. This is established in Article 39 of the Basic Law. Early elections are possible if the Chancellor loses a vote of no confidence and the President dissolves the Bundestag, but this is rare. State elections follow different schedules depending on the state, typically every 4 or 5 years.</p>
 </blockquote>
@@ -1029,7 +1057,7 @@
 <h3>Question 70</h3>
 <p><strong>🇩🇪 Deutsch:</strong> Die__(e)__ <strong>(d)<strong>eutschen</strong>(n)</strong> <strong>(B)<strong>undesländer</strong>(r)</strong> <strong>(h)<strong>aben</strong>(n)</strong> <strong>(e)<strong>igene</strong>(e)</strong> …
 <strong>🇬🇧 English:</strong> The German federal states have their own …</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1057,7 +1085,7 @@
 <td><strong>(Z)<strong>oll-</strong>(und)</strong> __(P)__asskontrollen.</td>
 <td>customs and passport controls.</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝 Explanation:</strong> Each of Germany&#39;s 16 federal states has its own government (Landesregierung), parliament (Landtag), and courts. However, states do NOT have their own border troops (border protection is a federal task), customs controls (also federal), or passport controls. Some states do have their own domestic intelligence services (Landesämter für Verfassungsschutz), but full &quot;secret services&quot; in the traditional sense are federal.</p>
 </blockquote>
@@ -1065,7 +1093,7 @@
 <h3>Question 71</h3>
 <p><strong>🇩🇪 Deutsch:</strong> Für__(r)__ <strong>(w)<strong>elche</strong>(e)</strong> <strong>(A)<strong>ufgabe ist die Bundesregierung</strong>(g)</strong> __(i)__n Deutschland nicht zuständig?
 <strong>🇬🇧 English:</strong> For which task is the Federal Government in Germany NOT responsible?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1093,7 +1121,7 @@
 <td>Umweltpolitik</td>
 <td>Environmental policy</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝 Explanation:</strong> Educational policy (Schulpolitik) is NOT a responsibility of the Federal Government — it belongs to the federal states (Kulturhoheit der Länder). Each state sets its own curriculum, school system, and educational standards. Foreign policy, defense, and environmental policy are all federal responsibilities handled by the central government in Berlin.</p>
 </blockquote>
@@ -1101,7 +1129,7 @@
 <h3>Question 72</h3>
 <p><strong>🇩🇪 Deutsch:</strong> Wie heißt die__(e)__ <strong>(p)<strong>arlamentarische</strong>(e)</strong> __(O)__pposition im Deutschen Bundestag?
 <strong>🇬🇧 English:</strong> How are the parties in the Bundestag called that are not part of the government?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1129,7 +1157,7 @@
 <td>die Minderheit</td>
 <td>the minority</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝 Explanation:</strong> The parties and members of parliament who are not part of the governing coalition form the &quot;Opposition.&quot; The opposition&#39;s role is to scrutinize and criticize the government, propose alternative policies, and represent citizens who did not vote for the governing parties. The coalition is the alliance of parties that forms the government. A strong opposition is essential for a healthy democracy.</p>
 </blockquote>
@@ -1137,7 +1165,7 @@
 <h3>Question 73</h3>
 <p><strong>🇩🇪 Deutsch:</strong> Welchen__(n)__ <strong>(B)<strong>undeskanzler</strong>(r)</strong> hatte Deutschland__(d)__ nie?
 <strong>🇬🇧 English:</strong> Which Federal Chancellor did Germany never have?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1165,7 +1193,7 @@
 <td>Helmut Kohl</td>
 <td>Helmut Kohl</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝 Explanation:</strong> Thomas de Maizière was a prominent German politician who served as Federal Minister of Defense and Federal Minister of the Interior, but he was NEVER Federal Chancellor. Konrad Adenauer was the first Chancellor (1949–1963), Helmut Kohl was Chancellor during reunification (1982–1998), and Gerhard Schröder served from 1998 to 2005.</p>
 </blockquote>
@@ -1174,7 +1202,7 @@
 <p><strong>🇩🇪 Deutsch:</strong> Wie__(e)__ __(h)__eißt die __(B)__undeskanzlerin/der Bundeskanzler in Deutschland?
 <strong>🇬🇧 English:</strong> What is the name of the Federal Chancellor of Germany?</p>
 <p><em>⚠️ Note: The correct answer changes with each election. Please check the current Chancellor at the time of your test.</em></p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1202,7 +1230,7 @@
 <td><em>(varies)</em></td>
 <td><em>(varies)</em></td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝 Explanation:</strong> As of 2025, the Federal Chancellor of Germany is Friedrich Merz (CDU), who took office after winning the 2025 federal election. Previous Chancellors include Olaf Scholz (2021–2025, SPD), Angela Merkel (2005–2021, CDU), Gerhard Schröder (1998–2005, SPD), and Helmut Kohl (1982–1998, CDU). Always check who is the current Chancellor before your test.</p>
 </blockquote>
@@ -1211,7 +1239,7 @@
 <p><strong>🇩🇪 Deutsch:</strong> Wie__(e)__ __(h)__eißt der/die Bundespräsident/in in Deutschland?
 <strong>🇬🇧 English:</strong> What is the name of the Federal President of Germany?</p>
 <p><em>⚠️ Note: The correct answer changes with each presidential election cycle (every 5 years).</em></p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1239,7 +1267,7 @@
 <td><em>(varies)</em></td>
 <td><em>(varies)</em></td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝 Explanation:</strong> As of 2025, the Federal President of Germany is Frank-Walter Steinmeier (SPD), serving his second term since 2022 (first elected in 2017). The President serves a 5-year term and can be re-elected once. Previous Presidents include Joachim Gauck (2012–2017), Christian Wulff (2010–2012), and Horst Köhler (2004–2010). Always verify the current President before your test.</p>
 </blockquote>
@@ -1255,7 +1283,7 @@
 <h3>Question 77</h3>
 <p><strong>🇩🇪 Deutsch:</strong> Wer__(r)__ <strong>(k)<strong>ann in Deutschland einen Antrag auf &quot;</strong>(E)<strong>inbürgerung</strong>(g)</strong>&quot; __(s)__tellen?
 <strong>🇬🇧 English:</strong> Who can submit an application for &quot;naturalization&quot; in Germany?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1283,7 +1311,7 @@
 <td><strong>(j)<strong>ede/r, der/die</strong>(e)</strong> __(e)__inen deutschen Führerschein hat</td>
 <td>everyone who has a German driver&#39;s license</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝 Explanation:</strong> To apply for German citizenship (Einbürgerung), you must meet specific requirements. Since the 2024 reform, these include: at least 5 years of legal residence in Germany (reduced from 8), a permanent residence permit, B1 German language level, passing the citizenship test, being able to support yourself financially, and having no criminal record. Simply being born in Germany, being a tourist, or having a driver&#39;s license is not sufficient.</p>
 </blockquote>
@@ -1291,7 +1319,7 @@
 <h3>Question 78</h3>
 <p><strong>🇩🇪 Deutsch:</strong> In Deutschland__(d)__ <strong>(d)<strong>ürfen</strong>(n)</strong> __(M)__enschen offen etwas gegen die Regierung sagen, weil …
 <strong>🇬🇧 English:</strong> In Germany, people are allowed to openly say something against the government because …</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1319,7 +1347,7 @@
 <td>hier Religionsfreiheit gilt.</td>
 <td>freedom of religion applies here.</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝 Explanation:</strong> This is essentially the same as Question 1 with reordered answer options. Freedom of speech (Meinungsfreiheit, Article 5 of the Basic Law) is the reason people can publicly criticize the government. Paying taxes, having the right to vote, and religious freedom are all important but are not the reason why people can speak against the government.</p>
 </blockquote>
@@ -1327,7 +1355,7 @@
 <h3>Question 79</h3>
 <p><strong>🇩🇪 Deutsch:</strong> Was ist ein__(e)__ <strong>(G)<strong>rundrecht</strong>(t)</strong> in Deutschland?
 <strong>🇬🇧 English:</strong> What is a fundamental right in Germany?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1355,7 +1383,7 @@
 <td>Führerscheinpflicht</td>
 <td>Obligation to have a driver&#39;s license</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝 Explanation:</strong> Freedom of religion (Religionsfreiheit, Article 4 of the Basic Law) is a fundamental right in Germany. Compulsory voting does not exist in Germany — voting is voluntary. There is no guaranteed right to a specific job. And there is no obligation to have a driver&#39;s license. Fundamental rights are enshrined in Articles 1-19 of the Basic Law and protect individual freedoms against state interference.</p>
 </blockquote>
@@ -1363,7 +1391,7 @@
 <h3>Question 80</h3>
 <p><strong>🇩🇪 Deutsch:</strong> Was tun__(n)__ __(A)__rbeitsgerichte?
 <strong>🇬🇧 English:</strong> What do labor courts do?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1391,7 +1419,7 @@
 <td>Sie__(e)__ <strong>(v)<strong>ermitteln</strong>(n)</strong> __(A)__rbeitsstellen.</td>
 <td>They arrange job placements.</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝 Explanation:</strong> Labor courts (Arbeitsgerichte) settle legal disputes between employees and employers. These disputes can involve unfair dismissal, unpaid wages, workplace discrimination, or contract disagreements. Labor courts do NOT set minimum wages (that&#39;s done by law and commissions), decide on hiring (that&#39;s up to employers), or find jobs for people (that&#39;s the job of the Federal Employment Agency / Bundesagentur für Arbeit).</p>
 </blockquote>
@@ -1399,7 +1427,7 @@
 <h3>Question 81</h3>
 <p><strong>🇩🇪 Deutsch:</strong> Wann__(n)__ __(b)__eginnt die Amtszeit des/der Bundespräsidenten/in?
 <strong>🇬🇧 English:</strong> When does the Federal President&#39;s term of office begin?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1427,7 +1455,7 @@
 <td>am 1. März nach der Wahl</td>
 <td>on March 1 after the election</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝 Explanation:</strong> The Federal President&#39;s term begins after being sworn in at a joint session of the Bundestag and Bundesrat. The President takes an oath of office in which they swear to uphold the Basic Law and devote their efforts to the welfare of the German people. The term lasts 5 years, and the President can be re-elected once.</p>
 </blockquote>
@@ -1435,7 +1463,7 @@
 <h3>Question 82</h3>
 <p><strong>🇩🇪 Deutsch:</strong> Welche__(e)__ <strong>(R)<strong>echte haben</strong>(n)</strong> <strong>(M)<strong>enschen in Deutschland mindestens ab</strong>(b)</strong> __(1)__8 Jahren?
 <strong>🇬🇧 English:</strong> What rights do people in Germany have at least from age 18?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1463,7 +1491,7 @@
 <td>das Recht, Auto zu fahren</td>
 <td>the right to drive a car</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝 Explanation:</strong> At age 18, Germans reach legal adulthood (Volljährigkeit) and gain the right to vote in federal elections. While you CAN get a driver&#39;s license at 18 (or 17 with supervised driving), it is not automatic — you must take lessons and pass tests. Similarly, while the legal drinking age for spirits is 18, this is not a &quot;right&quot; in the constitutional sense. The right to vote and legal adulthood are the only automatic entitlements at 18.</p>
 </blockquote>
@@ -1471,7 +1499,7 @@
 <h3>Question 83</h3>
 <p><strong>🇩🇪 Deutsch:</strong> Was macht man__(n)__ <strong>(m)<strong>it</strong>(t)</strong> __(e)__iner &quot;Erststimme&quot; bei der Bundestagswahl?
 <strong>🇬🇧 English:</strong> What do you do with a &quot;first vote&quot; (Erststimme) in the federal election?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1499,7 +1527,7 @@
 <td>Man__(n)__ __(w)__ählt eine Partei.</td>
 <td>You elect a party.</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝 Explanation:</strong> The first vote (Erststimme) in German federal elections is used to elect a specific candidate from your local constituency (Wahlkreis). The candidate with the most votes wins the constituency directly and enters the Bundestag as a directly elected member. Voting for a party is done with the second vote (Zweitstimme). The Chancellor and President are not directly elected by the people.</p>
 </blockquote>
@@ -1507,7 +1535,7 @@
 <h3>Question 84</h3>
 <p><strong>🇩🇪 Deutsch:</strong> Was macht man__(n)__ <strong>(m)<strong>it</strong>(t)</strong> __(d)__er &quot;Zweitstimme&quot; bei der Bundestagswahl?
 <strong>🇬🇧 English:</strong> What do you do with the &quot;second vote&quot; (Zweitstimme) in the federal election?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1535,7 +1563,7 @@
 <td>Man__(n)__ __(w)__ählt den Bundespräsidenten/die Bundespräsidentin.</td>
 <td>You elect the Federal President.</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝 Explanation:</strong> The second vote (Zweitstimme) is cast for a political party and determines the proportional representation in the Bundestag — i.e., the overall share of seats each party receives. This is actually considered the more important vote because it determines the composition of parliament. Parties that receive at least 5% of all Zweitstimmen enter the Bundestag.</p>
 </blockquote>
@@ -1543,7 +1571,7 @@
 <h3>Question 85</h3>
 <p><strong>🇩🇪 Deutsch:</strong> In Deutschland__(d)__ <strong>(k)<strong>ann</strong>(n)</strong> <strong>(e)<strong>in</strong>(G)<strong>ericht</strong>(t)</strong> feststellen__(,)__ <strong>(o)<strong>b eine Partei</strong>(i)</strong> <strong>(v)<strong>erfassungswidrig ist. Welches</strong>(s)</strong> <strong>(G)<strong>ericht ist</strong>(t)</strong> __(d)__afür zuständig?
 <strong>🇬🇧 English:</strong> In Germany, a court can determine whether a party is unconstitutional. Which court is responsible for this?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1571,7 +1599,7 @@
 <td>das__(A)__mtsgericht</td>
 <td>the Local Court</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝 Explanation:</strong> Only the Federal Constitutional Court (Bundesverfassungsgericht), located in Karlsruhe, has the authority to ban a political party. This is a deliberately high threshold designed to prevent abuse of power. The process requires a formal application (usually from the Bundestag, Bundesrat, or Federal Government) and a thorough legal examination. The court has banned two parties in its history: the SRP (1952) and KPD (1956).</p>
 </blockquote>
@@ -1579,7 +1607,7 @@
 <h3>Question 86</h3>
 <p><strong>🇩🇪 Deutsch:</strong> Wann__(n)__ <strong>(w)<strong>urde</strong>(e)</strong> <strong>(d)<strong>ie Bundesrepublik Deutschland</strong>(d)</strong> __(g)__egründet?
 <strong>🇬🇧 English:</strong> When was the Federal Republic of Germany founded?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1607,7 +1635,7 @@
 <td>1953</td>
 <td>1953</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝 Explanation:</strong> The Federal Republic of Germany (Bundesrepublik Deutschland / West Germany) was founded on May 23, 1949, when the Basic Law came into effect. 1933 was the year Hitler came to power, 1945 was the end of WWII, and 1953 was the year of the workers&#39; uprising in East Germany (June 17). The German Democratic Republic (East Germany) was founded shortly after, on October 7, 1949.</p>
 </blockquote>
@@ -1615,7 +1643,7 @@
 <h3>Question 87</h3>
 <p><strong>🇩🇪 Deutsch:</strong> Wann__(n)__ <strong>(i)<strong>st</strong>(t)</strong> der Tag__(g)__ __(d)__er Deutschen Einheit?
 <strong>🇬🇧 English:</strong> When is German Unity Day?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1643,7 +1671,7 @@
 <td>am 9. November</td>
 <td>November 9</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝 Explanation:</strong> German Unity Day (Tag der Deutschen Einheit) is celebrated on October 3, commemorating the official reunification of East and West Germany in 1990. May 1 is Labor Day (Tag der Arbeit). June 17 was formerly observed in West Germany to commemorate the 1953 East German uprising. November 9 is significant because the Berlin Wall fell on that date in 1989, but it was not chosen as the national holiday because November 9 is also the anniversary of the 1938 &quot;Kristallnacht&quot; pogrom.</p>
 </blockquote>
@@ -1651,7 +1679,7 @@
 <h3>Question 88</h3>
 <p><strong>🇩🇪 Deutsch:</strong> Was__(s)__ <strong>(i)<strong>st in Deutschland ein</strong>(e)</strong> <strong>(k)<strong>ommunale</strong>(e)</strong> __(A)__ufgabe?
 <strong>🇬🇧 English:</strong> What is a municipal (local government) task in Germany?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1679,7 +1707,7 @@
 <td>die__(e)__ __(Z)__ahlung von Kindergeld</td>
 <td>paying child benefits</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝 Explanation:</strong> Issuing building permits is a task of local/municipal governments (Kommunen/Gemeinden). Weapons permits are handled by higher-level authorities, declaring war is a federal matter (Bundestag decision), and child benefits (Kindergeld) are paid by the federal Family Benefits Office. Local governments handle matters like building permits, local road maintenance, kindergartens, waste disposal, and local land-use planning.</p>
 </blockquote>
@@ -1687,7 +1715,7 @@
 <h3>Question 89</h3>
 <p><strong>🇩🇪 Deutsch:</strong> Wer ist__(t)__ <strong>(d)<strong>as Staatsoberhaupt</strong>(t)</strong> <strong>(d)<strong>er Bundesrepublik</strong>(k)</strong> __(D)__eutschland?
 <strong>🇬🇧 English:</strong> Who is the head of state of the Federal Republic of Germany?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1715,7 +1743,7 @@
 <td>der Bundesratspräsident/die Bundesratspräsidentin</td>
 <td>the President of the Bundesrat</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝 Explanation:</strong> The Federal President (Bundespräsident/in) is the head of state of Germany. Although the Chancellor is the head of government and holds more political power, the President serves as the formal head of state with ceremonial duties. The President represents Germany internationally, signs laws, and appoints and dismisses the Chancellor and federal ministers. Do not confuse head of state (President) with head of government (Chancellor).</p>
 </blockquote>
@@ -1723,7 +1751,7 @@
 <h3>Question 90</h3>
 <p><strong>🇩🇪 Deutsch:</strong> Die__(e)__ <strong>(S)<strong>tadt</strong>(t)____(,)</strong> <strong>(d)<strong>ie</strong>(e)____(z)<strong>ugleich ein</strong>(e)</strong> <strong>(B)<strong>undesland ist</strong>(,)</strong> __(i)__st …
 <strong>🇬🇧 English:</strong> The city that is also a federal state is …</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1751,7 +1779,7 @@
 <td>Frankfurt</td>
 <td>Frankfurt</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝 Explanation:</strong> Hamburg is both a city and a federal state (Stadtstaat). Germany has three city-states: Berlin, Hamburg, and Bremen (which also includes Bremerhaven). Bonn was the former capital of West Germany but is part of North Rhine-Westphalia. Munich (München) is the capital of Bavaria, and Frankfurt is a major city in Hesse — but neither is a federal state on its own.</p>
 </blockquote>
@@ -1759,7 +1787,7 @@
 <h3>Question 91</h3>
 <p><strong>🇩🇪 Deutsch:</strong> Welches Bundesland ist__(t)__ __(e)__in Stadtstaat?
 <strong>🇬🇧 English:</strong> Which federal state is a city-state?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1787,7 +1815,7 @@
 <td>Hessen</td>
 <td>Hesse</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝 Explanation:</strong> Berlin is one of Germany&#39;s three city-states (Stadtstaaten), meaning it functions simultaneously as both a city and a federal state. The other two city-states are Hamburg and Bremen. City-states have the same rights and representation in the Bundesrat as the larger territorial states, but their government structure combines municipal and state-level functions.</p>
 </blockquote>
@@ -1795,7 +1823,7 @@
 <h3>Question 92</h3>
 <p><strong>🇩🇪 Deutsch:</strong> Wie nennt man__(n)__ <strong>(d)<strong>en</strong>(n)</strong> <strong>(R)<strong>egierungschef/die Regierungschefin</strong>(n)</strong> __(v)__on Hamburg?
 <strong>🇬🇧 English:</strong> What is the head of government of Hamburg called?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1823,7 +1851,7 @@
 <td>Regierender Bürgermeister/Regierende Bürgermeisterin</td>
 <td>Governing Mayor</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝 Explanation:</strong> The head of government of Hamburg is called the &quot;Erste/r Bürgermeister/in&quot; (First Mayor). This is unique among the city-states: Berlin&#39;s head of government is the &quot;Regierende/r Bürgermeister/in&quot; (Governing Mayor), and Bremen&#39;s is the &quot;Bürgermeister/in&quot; (also President of the Senate). Most other federal states call their heads of government &quot;Ministerpräsident/in&quot; (Minister-President).</p>
 </blockquote>
@@ -1831,7 +1859,7 @@
 <h3>Question 93</h3>
 <p><strong>🇩🇪 Deutsch:</strong> Wie nennt man__(n)__ <strong>(d)<strong>en Regierungschef/die Regierungschefin</strong>(n)</strong> __(v)__on Berlin?
 <strong>🇬🇧 English:</strong> What is the head of government of Berlin called?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1859,7 +1887,7 @@
 <td><strong>Regierender Bürgermeister/Regierende Bürgermeisterin</strong></td>
 <td><strong>Governing Mayor</strong></td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝 Explanation:</strong> Berlin&#39;s head of government has the unique title &quot;Regierende/r Bürgermeister/in&quot; (Governing Mayor). As a city-state, Berlin&#39;s government serves both as state and city government. The Governing Mayor leads the Berlin Senate and represents Berlin in the Bundesrat. This title has been used since the post-WWII division of Berlin.</p>
 </blockquote>
@@ -1867,7 +1895,7 @@
 <h3>Question 94</h3>
 <p><strong>🇩🇪 Deutsch:</strong> Welches__(s)__ <strong>(d)<strong>eutsche</strong>(e)</strong> <strong>(B)<strong>undesland hat</strong>(t)</strong> __(d)__ie meisten Einwohner/innen?
 <strong>🇬🇧 English:</strong> Which German federal state has the most inhabitants?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1895,7 +1923,7 @@
 <td>Niedersachsen</td>
 <td>Lower Saxony</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝 Explanation:</strong> North Rhine-Westphalia (NRW) is Germany&#39;s most populous federal state with approximately 18 million inhabitants. It contains major cities like Cologne (Köln), Düsseldorf, Dortmund, and Essen. Bavaria is the largest state by area, but NRW has more people. Baden-Württemberg and Lower Saxony are the third and fourth most populous states respectively.</p>
 </blockquote>
@@ -1903,7 +1931,7 @@
 <h3>Question 95</h3>
 <p><strong>🇩🇪 Deutsch:</strong> Die__(e)__ <strong>(H)<strong>auptstadt</strong>(t)</strong> __(v)__on Deutschland ist …
 <strong>🇬🇧 English:</strong> The capital of Germany is …</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1931,7 +1959,7 @@
 <td>Frankfurt</td>
 <td>Frankfurt</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝 Explanation:</strong> Berlin is the capital of Germany and has been since reunification in 1990. During the division of Germany (1949–1990), Bonn served as the capital of West Germany (Federal Republic), while East Berlin was the capital of East Germany (GDR). After reunification, the German government moved from Bonn to Berlin in 1999, though some government agencies remain in Bonn.</p>
 </blockquote>
@@ -1939,7 +1967,7 @@
 <h3>Question 96 <em>(Updated July 2024 — Antisemitism)</em></h3>
 <p><strong>🇩🇪 Deutsch:</strong> Wie kann jemand, der den Holocaust leugnet, bestraft werden?
 <strong>🇬🇧 English:</strong> How can someone who denies the Holocaust be punished?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -1967,7 +1995,7 @@
 <td><strong>mit Freiheitsstrafe bis zu fünf Jahren oder mit Geldstrafe</strong></td>
 <td><strong>with imprisonment of up to five years or a fine</strong></td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝 Explanation:</strong> Holocaust denial is a criminal offense in Germany under §130(3) StGB (Volksverhetzung — incitement to hatred). Anyone who publicly denies, downplays, or approves of the Nazi genocide can face up to 5 years in prison or a fine. This law reflects Germany&#39;s historical responsibility for the murder of 6 million Jews. Germany takes this very seriously — it is NOT a matter of free speech but a criminal act.</p>
 </blockquote>
@@ -1975,7 +2003,7 @@
 <h3>Question 97</h3>
 <p><strong>🇩🇪 Deutsch:</strong> Welche__(e)__ <strong>(F)<strong>arben hat</strong>(t)</strong> <strong>(d)<strong>ie</strong>(e)</strong> __(d)__eutsche Flagge?
 <strong>🇬🇧 English:</strong> What colors does the German flag have?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -2003,7 +2031,7 @@
 <td>schwarz, gelb, grün</td>
 <td>black, yellow, green</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝 Explanation:</strong> The German flag has three horizontal stripes: black (top), red (middle), and gold/yellow (bottom). These colors have roots in the 19th-century democratic movement and the uniforms of the Lützow Free Corps during the Napoleonic Wars. Note: officially the color is &quot;gold&quot; not &quot;yellow&quot; — but the actual flag uses a shade that looks yellow. The black-white-red flag was used during the German Empire (1871–1918) and is associated with the monarchy.</p>
 </blockquote>
@@ -2011,7 +2039,7 @@
 <h3>Question 98</h3>
 <p><strong>🇩🇪 Deutsch:</strong> Wer __(s)__ingt die Nationalhymne?
 <strong>🇬🇧 English:</strong> Who sings the national anthem?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -2039,7 +2067,7 @@
 <td>nur Staatsangehörige</td>
 <td>only citizens</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝 Explanation:</strong> Anyone who wants to can sing the German national anthem. It is not restricted to citizens, politicians, or people of German descent. The anthem is the third verse of the &quot;Deutschlandlied&quot; and represents the values of unity, justice, and freedom. Singing it is a voluntary expression — there is no obligation or restriction on who may sing it.</p>
 </blockquote>
@@ -2047,7 +2075,7 @@
 <h3>Question 99</h3>
 <p><strong>🇩🇪 Deutsch:</strong> Welcher Politiker__(in)____(g)__ehört nicht zu Deutschland?
 <strong>🇬🇧 English:</strong> Which politician does NOT belong to Germany?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -2075,7 +2103,7 @@
 <td>Helmut Schmidt</td>
 <td>Helmut Schmidt</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝 Explanation:</strong> Winston Churchill was a British politician who served as Prime Minister of the United Kingdom during World War II. Konrad Adenauer was Germany&#39;s first post-war Chancellor (1949–1963, CDU). Willy Brandt was Chancellor from 1969–1974 (SPD) and is famous for his Ostpolitik and the iconic image of him kneeling at the Warsaw Ghetto memorial. Helmut Schmidt was Chancellor from 1974–1982 (SPD).</p>
 </blockquote>
@@ -2083,7 +2111,7 @@
 <h3>Question 100</h3>
 <p><strong>🇩🇪 Deutsch:</strong> Was ist in Deutschland ein__(e)__ __(W)__ahlgrundsatz?
 <strong>🇬🇧 English:</strong> What is an electoral principle in Germany?</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -2111,7 +2139,7 @@
 <td>Dreiklassenwahlrecht</td>
 <td>three-class voting system</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <blockquote>
 <p><strong>📝 Explanation:</strong> Secret voting (geheime Wahl) is one of the five electoral principles in Germany: elections are universal, direct, free, equal, and secret. &quot;Open&quot; elections, census suffrage (where voting rights depend on wealth), and the three-class voting system (used in Prussia until 1918) are all undemocratic systems that have been abolished. Secret voting ensures that no one can be pressured or disadvantaged because of their vote.</p>
 </blockquote>
@@ -2147,7 +2175,7 @@
                 <a class="btn-foot" href="../privacy.html">Privacy &amp; Impressum</a>
             </div>
         </div>
-        <div class="foot-meta">Last updated: 2026-05-03</div>
+        <div class="foot-meta">Last updated: 2026-05-10</div>
     </footer>
 
     <button class="back-to-top" id="backToTop" aria-label="Back to top" title="Back to top">↑</button>

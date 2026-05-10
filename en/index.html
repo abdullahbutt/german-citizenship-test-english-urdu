@@ -126,24 +126,52 @@
         }
         h1 { margin-bottom: 1.25rem; }
         h2 { margin-top: 2rem; margin-bottom: 1rem; }
+        .table-wrap {
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            margin: 1rem 0 1.5rem;
+            border: 1px solid var(--border);
+            border-radius: 0.5rem;
+            background: var(--card-bg);
+        }
+        .table-wrap table {
+            margin: 0;
+            border: 0;
+        }
         table {
             width: 100%;
             border-collapse: collapse;
             margin: 1rem 0 1.5rem;
             background: var(--card-bg);
+            table-layout: auto;
         }
         table th, table td {
             padding: 0.75rem 1rem;
             border: 1px solid var(--border);
             vertical-align: top;
+            overflow-wrap: anywhere;
+            word-break: normal;
+            hyphens: auto;
+            min-width: 0;
         }
         table th {
             background: var(--primary);
             color: #fff;
             text-align: left;
+            white-space: nowrap;
         }
         table tr:nth-child(even) td { background: var(--table-stripe); }
         table tr:hover td { background: var(--table-hover); }
+
+        @media (max-width: 720px) {
+            .table-wrap table {
+                min-width: 540px;
+            }
+            table th, table td {
+                padding: 0.6rem 0.75rem;
+                font-size: 0.92rem;
+            }
+        }
         code {
             background: var(--table-stripe);
             padding: 0.15rem 0.4rem;
@@ -356,7 +384,7 @@
 <p>New here? Start with <a href="./questions-001-050.html">Questions 1–50</a>, then find your state in the table below.</p>
 <hr>
 <h2>📋 About the Test</h2>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th>Detail</th>
@@ -391,10 +419,10 @@
 <td><strong>State Questions</strong></td>
 <td>3 of the 33 are specific to your Bundesland</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <hr>
 <h2>📑 General Questions (1–300)</h2>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th>File</th>
@@ -432,11 +460,11 @@
 <td>251–300</td>
 <td>Society, Religion, Daily Life</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <hr>
 <h2>🗺️ State Questions (301–310)</h2>
 <p>Pick your Bundesland — each has 10 additional questions about its capital, coat of arms, Minister-President, geography, and history.</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th>State</th>
@@ -524,12 +552,12 @@
 <td>Thuringia</td>
 <td>Erfurt</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <hr>
 <h2>🖼️ Questions with Images</h2>
 <p>Some questions include images (coats of arms, maps, flags). These are marked with 🖼️ in the files. To see the actual images, use the <a href="https://oet.bamf.de/ords/oetut/f?p=514:1:0">BAMF Interactive Test Center</a> — select your state and navigate to the question number.</p>
 <p><strong>General questions with images:</strong></p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th>Question</th>
@@ -556,9 +584,9 @@
 <td>Q195</td>
 <td>Map showing divided Germany / occupation zones</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <p><strong>State questions with images (every state):</strong></p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th>Question</th>
@@ -577,11 +605,11 @@
 <td>Q304</td>
 <td>Numbered map — identify which number is your state</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <hr>
 <h2>🆕 Updated Questions (July 2024)</h2>
 <p>10 questions were replaced with new ones about <strong>Jewish life in Germany, Israel&#39;s right to exist, and antisemitism</strong> (in response to the October 7, 2023 events). These are marked with <em>(Updated July 2024)</em> in the files:</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th>#</th>
@@ -644,7 +672,7 @@
 <td>Germany&#39;s special responsibility for Israel</td>
 <td>Nazi crimes</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <hr>
 <h2>📖 How to Read This Guide</h2>
 <p>Each question follows this format:</p>
@@ -652,7 +680,7 @@
 <h3>Question X</h3>
 <p><strong>🇩🇪</strong> German question
 <strong>🇬🇧</strong> English translation</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th></th>
@@ -680,7 +708,7 @@
 <td>Wrong answer</td>
 <td>English</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <p><strong>📝</strong> Explanation with background context.</p>
 </blockquote>
 <hr>
@@ -720,7 +748,7 @@
                 <a class="btn-foot" href="../privacy.html">Privacy &amp; Impressum</a>
             </div>
         </div>
-        <div class="foot-meta">Last updated: 2026-05-03</div>
+        <div class="foot-meta">Last updated: 2026-05-10</div>
     </footer>
 
     <button class="back-to-top" id="backToTop" aria-label="Back to top" title="Back to top">↑</button>
