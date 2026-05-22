@@ -113,6 +113,9 @@ const UI = {
         navQuestions: 'Questions',
         navStates: 'States',
         privacyLink: 'Privacy & Impressum',
+        randomBtn: '🎲 Random Question',
+        printBtn: '🖨️ Print / Save PDF',
+        reportBtn: '⚠️ Report an error',
     },
     ur: {
         siteTitle: 'جرمن شہریت کا امتحان',
@@ -139,6 +142,9 @@ const UI = {
         navQuestions: 'سوالات',
         navStates: 'ریاستیں',
         privacyLink: 'پرائیویسی و اظہاریہ',
+        randomBtn: '🎲 بے ترتیب سوال',
+        printBtn: '🖨️ پرنٹ / PDF محفوظ کریں',
+        reportBtn: '⚠️ غلطی کی اطلاع دیں',
     },
 };
 
@@ -149,6 +155,7 @@ const BAMF_TEST_CENTER_URL = 'https://oet.bamf.de/ords/oetut/f?p=514:1::::::';
 const BUILD_DATE = new Date().toISOString().slice(0, 10);
 const SITE_BASE_URL = 'https://abdullahbutt.github.io/german-citizenship-test-english-urdu';
 const OG_IMAGE_URL = `${SITE_BASE_URL}/og-image.png`;
+const OG_IMAGE_DARK_URL = `${SITE_BASE_URL}/og-image-dark.png`;
 const CLOUDFLARE_ANALYTICS_TOKEN = 'd435b2572b82459cb083e37f7c734b75';
 
 // Canonical ordering for navigation (prev/next + jump menu).
@@ -202,11 +209,12 @@ function renderNavPager({ lang, slug }) {
             </select>
         </div>`;
 
-    // Index page: jump-only variant, no prev/next arrows (no sequence applies)
+    // Index page: jump-only variant + random button
     if (slug === 'index') {
         return `
         <nav class="nav-pager nav-pager--jump-only" aria-label="Quick jump">
             ${jumpSelect}
+            <button class="pager-btn" onclick="goRandom()" style="white-space:nowrap;">${escapeHtml(ui.randomBtn)}</button>
         </nav>`;
     }
 
@@ -227,6 +235,7 @@ function renderNavPager({ lang, slug }) {
         <nav class="nav-pager" aria-label="Page navigation">
             ${prevBtn}
             ${jumpSelect}
+            <button class="pager-btn" onclick="goRandom()" style="white-space:nowrap;">${escapeHtml(ui.randomBtn)}</button>
             ${nextBtn}
         </nav>`;
 }
@@ -267,6 +276,10 @@ function renderPage({ lang, title, bodyHtml, slug }) {
     <meta name="twitter:title" content="${escapeHtml(title)} · ${escapeHtml(ui.siteTitle)}">
     <meta name="twitter:description" content="${escapeHtml(ui.tagline)}">
     <meta name="twitter:image" content="${OG_IMAGE_URL}">
+
+    <!-- Feature 13: dark-mode OG image variant for platforms that support it -->
+    <meta media="(prefers-color-scheme: dark)" property="og:image" content="${OG_IMAGE_DARK_URL}">
+    <meta media="(prefers-color-scheme: dark)" name="twitter:image" content="${OG_IMAGE_DARK_URL}">
 
     <!-- PWA -->
     <link rel="manifest" href="../manifest.webmanifest">
@@ -585,6 +598,45 @@ function renderPage({ lang, title, bodyHtml, slug }) {
             transform: translateY(0);
         }
         .back-to-top:hover { background: var(--primary-hover); }
+
+        /* Feature 9 — Report error button */
+        .report-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            margin-top: 2rem;
+            padding: 0.45rem 0.9rem;
+            font-size: 0.85rem;
+            color: var(--muted-text);
+            border: 1px solid var(--border);
+            border-radius: 0.4rem;
+            text-decoration: none;
+            background: transparent;
+        }
+        .report-btn:hover {
+            color: #dc2626;
+            border-color: #dc2626;
+        }
+
+        /* Feature 8 — Print / Save as PDF styles */
+        @media print {
+            .site-nav, .nav-pager, .back-to-top, footer,
+            .report-btn, #updateBanner, #installHint { display: none !important; }
+            body { background: #fff; color: #000; font-size: 11pt; }
+            .content-card {
+                box-shadow: none;
+                border: none;
+                padding: 0;
+            }
+            main { max-width: 100%; margin: 0; padding: 0; }
+            table th { background: #1d4ed8 !important; color: #fff !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+            table tr:nth-child(even) td { background: #f8fafc !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+            a { color: #000; text-decoration: none; }
+            a[href]::after { content: ''; } /* suppress URL printing */
+            h1, h2, h3 { page-break-after: avoid; }
+            table { page-break-inside: avoid; }
+            .table-wrap { overflow: visible; }
+        }
     </style>
 </head>
 <body>
@@ -605,6 +657,11 @@ function renderPage({ lang, title, bodyHtml, slug }) {
             ${bodyHtml}
         </article>
         ${renderNavPager({ lang, slug })}
+        ${slug !== 'index' ? `
+        <div style="display:flex;flex-wrap:wrap;gap:0.5rem;margin-top:0.75rem;">
+            <a class="report-btn" href="${GITHUB_URL}/issues/new?title=${encodeURIComponent(`Correction: ${title}`)}&body=${encodeURIComponent(`**Page:** ${SITE_BASE_URL}/${lang}/${slug}.html\n\n**Issue:**\n\n`)}" target="_blank" rel="noopener">${escapeHtml(ui.reportBtn)}</a>
+            <button class="report-btn" onclick="window.print()" style="cursor:pointer;border:1px solid var(--border);">${escapeHtml(ui.printBtn)}</button>
+        </div>` : ''}
     </main>
 
     <footer>
@@ -627,6 +684,15 @@ function renderPage({ lang, title, bodyHtml, slug }) {
     <button class="back-to-top" id="backToTop" aria-label="${escapeHtml(ui.backToTop)}" title="${escapeHtml(ui.backToTop)}">↑</button>
 
     <script>
+        // Feature 7 — Random question navigation
+        window.goRandom = function() {
+            const all = ${JSON.stringify(ORDERED_ALL)};
+            const current = '${slug}';
+            const choices = all.filter(s => s !== current);
+            const pick = choices[Math.floor(Math.random() * choices.length)];
+            window.location.href = './' + pick + '.html';
+        };
+
         // Theme already applied by inline script in <head> — this handles the toggle click
         const root = document.documentElement;
         document.getElementById('themeToggle').addEventListener('click', () => {

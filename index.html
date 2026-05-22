@@ -24,6 +24,10 @@
     <meta name="twitter:description" content="All 300 questions with English & Urdu translations. Free, mobile-friendly, no signup.">
     <meta name="twitter:image" content="https://abdullahbutt.github.io/german-citizenship-test-english-urdu/og-image.png">
 
+    <!-- Feature 13: dark-mode OG image variant -->
+    <meta media="(prefers-color-scheme: dark)" property="og:image" content="https://abdullahbutt.github.io/german-citizenship-test-english-urdu/og-image-dark.png">
+    <meta media="(prefers-color-scheme: dark)" name="twitter:image" content="https://abdullahbutt.github.io/german-citizenship-test-english-urdu/og-image-dark.png">
+
     <!-- PWA -->
     <link rel="manifest" href="manifest.webmanifest">
     <meta name="theme-color" content="#1d4ed8">
@@ -220,6 +224,23 @@
         }
         .install-btn.show { display: inline-block; }
         .install-btn:hover { background: var(--primary-hover); }
+
+        /* Feature 10 — Social proof counters */
+        .social-proof {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.5rem 1.25rem;
+            margin-top: 1.25rem;
+            font-size: 0.82rem;
+            color: var(--muted);
+        }
+        .social-proof span {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.3rem;
+            white-space: nowrap;
+        }
     </style>
 </head>
 <body>
@@ -245,6 +266,15 @@
                 All 300 questions · 16 states · free &amp; open source
             </p>
 
+            <!-- Feature 10 — Social proof counters (update manually each month) -->
+            <div class="social-proof">
+                <span>📖 300+ questions</span>
+                <span>🗺️ 16 Bundesländer</span>
+                <span>🌐 English &amp; اردو</span>
+                <span>⭐ <a href="https://github.com/abdullahbutt/german-citizenship-test-english-urdu" target="_blank" rel="noopener" style="color:var(--muted);text-decoration:none;" id="starCount">GitHub stars</a></span>
+                <span>📱 Works offline</span>
+            </div>
+
             <div class="install-hint" id="installHint">
                 <button class="close" id="installHintClose" aria-label="Close">×</button>
                 📱 <b>Install as App</b> — works offline, lives on your home screen.<br>
@@ -266,6 +296,19 @@
     </footer>
 
     <script>
+        // Feature 10 — Live GitHub star count
+        (function () {
+            fetch('https://api.github.com/repos/abdullahbutt/german-citizenship-test-english-urdu')
+                .then(r => r.json())
+                .then(d => {
+                    if (d && d.stargazers_count !== undefined) {
+                        const el = document.getElementById('starCount');
+                        if (el) el.textContent = '⭐ ' + d.stargazers_count + ' stars';
+                    }
+                })
+                .catch(() => {}); // Fail silently — static fallback text already in place
+        })();
+
         // Remember language choice
         document.querySelectorAll('.lang-btn').forEach(btn => {
             btn.addEventListener('click', () => {
