@@ -240,6 +240,109 @@ function renderNavPager({ lang, slug }) {
         </nav>`;
 }
 
+// ---------- SEO helpers ----------
+
+// Per-page meta description optimised for search snippets in all 3 languages.
+const META_DESCS = {
+    en: {
+        'index':               'Free study guide for the German citizenship test (Einbürgerungstest / Leben in Deutschland). All 300+ official questions with English & Urdu translations, correct answers highlighted, and explanations for every question.',
+        'questions-001-050':   'Einbürgerungstest questions 1–50 with English translations and explanations. Topics: democracy, fundamental rights, rule of law. Free prep guide.',
+        'questions-051-100':   'Einbürgerungstest questions 51–100 with English translations. Topics: German history, Nazi era, East/West Germany. Free prep guide.',
+        'questions-101-150':   'Einbürgerungstest questions 101–150 with English translations. Topics: German federal system, Bundesrat, Bundestag. Free prep guide.',
+        'questions-151-200':   'Einbürgerungstest questions 151–200 with English translations. Topics: social welfare, health insurance, education. Free prep guide.',
+        'questions-201-250':   'Einbürgerungstest questions 201–250 with English translations. Topics: culture, religion, society in Germany. Free prep guide.',
+        'questions-251-300':   'Einbürgerungstest questions 251–300 with English translations. Topics: geography, economy, state-specific transition. Free prep guide.',
+        'baden-wuerttemberg':  'State-specific Einbürgerungstest questions for Baden-Württemberg (questions 301–310) with English translations. Capital: Stuttgart.',
+        'bayern':              'State-specific Einbürgerungstest questions for Bavaria (Bayern, questions 301–310) with English translations. Capital: Munich.',
+        'berlin':              'State-specific Einbürgerungstest questions for Berlin (questions 301–310) with English translations. Berlin is Germany\'s capital and a city-state.',
+        'brandenburg':         'State-specific Einbürgerungstest questions for Brandenburg (questions 301–310) with English translations. Capital: Potsdam.',
+        'bremen':              'State-specific Einbürgerungstest questions for Bremen (questions 301–310) with English translations. Germany\'s smallest state by population.',
+        'hamburg':             'State-specific Einbürgerungstest questions for Hamburg (questions 301–310) with English translations. Germany\'s second-largest city.',
+        'hessen':              'State-specific Einbürgerungstest questions for Hesse (Hessen, questions 301–310) with English translations. Capital: Wiesbaden.',
+        'mecklenburg-vorpommern': 'State-specific Einbürgerungstest questions for Mecklenburg-Vorpommern (questions 301–310) with English translations. Capital: Schwerin.',
+        'niedersachsen':       'State-specific Einbürgerungstest questions for Lower Saxony (Niedersachsen, questions 301–310) with English translations. Capital: Hanover.',
+        'nordrhein-westfalen': 'State-specific Einbürgerungstest questions for North Rhine-Westphalia (questions 301–310) with English translations. Capital: Düsseldorf.',
+        'rheinland-pfalz':     'State-specific Einbürgerungstest questions for Rhineland-Palatinate (questions 301–310) with English translations. Capital: Mainz.',
+        'saarland':            'State-specific Einbürgerungstest questions for Saarland (questions 301–310) with English translations. Capital: Saarbrücken.',
+        'sachsen':             'State-specific Einbürgerungstest questions for Saxony (Sachsen, questions 301–310) with English translations. Capital: Dresden.',
+        'sachsen-anhalt':      'State-specific Einbürgerungstest questions for Saxony-Anhalt (questions 301–310) with English translations. Capital: Magdeburg.',
+        'schleswig-holstein':  'State-specific Einbürgerungstest questions for Schleswig-Holstein (questions 301–310) with English translations. Capital: Kiel.',
+        'thueringen':          'State-specific Einbürgerungstest questions for Thuringia (Thüringen, questions 301–310) with English translations. Capital: Erfurt.',
+    },
+    ur: {
+        'index':               'جرمن شہریت کے امتحان (Einbürgerungstest / Leben in Deutschland) کے لیے مفت گائیڈ۔ تمام 300 سرکاری سوالات اردو اور انگریزی ترجمے، درست جوابات، اور ہر سوال کی وضاحت کے ساتھ۔',
+        'questions-001-050':   'Einbürgerungstest کے سوالات 1–50 اردو ترجمے اور وضاحت کے ساتھ۔ موضوعات: جمہوریت، بنیادی حقوق، قانون کی حکمرانی۔',
+        'questions-051-100':   'Einbürgerungstest کے سوالات 51–100 اردو ترجمے کے ساتھ۔ موضوعات: جرمن تاریخ، نازی دور، مشرقی/مغربی جرمنی۔',
+        'questions-101-150':   'Einbürgerungstest کے سوالات 101–150 اردو ترجمے کے ساتھ۔ موضوعات: جرمن وفاقی نظام، Bundesrat، Bundestag۔',
+        'questions-151-200':   'Einbürgerungstest کے سوالات 151–200 اردو ترجمے کے ساتھ۔ موضوعات: سماجی فلاح، صحت، تعلیم۔',
+        'questions-201-250':   'Einbürgerungstest کے سوالات 201–250 اردو ترجمے کے ساتھ۔ موضوعات: ثقافت، مذہب، جرمن معاشرہ۔',
+        'questions-251-300':   'Einbürgerungstest کے سوالات 251–300 اردو ترجمے کے ساتھ۔ موضوعات: جغرافیہ، معیشت۔',
+    },
+};
+
+function buildMetaDesc(lang, title, slug) {
+    const descs = META_DESCS[lang] || META_DESCS.en;
+    if (descs[slug]) return descs[slug];
+    // Fallback for state pages not in ur map
+    const enDesc = META_DESCS.en[slug];
+    if (lang === 'ur' && enDesc) {
+        return `${title} — Einbürgerungstest کے ریاستی سوالات اردو ترجمے کے ساتھ۔ مفت تیاری گائیڈ۔`;
+    }
+    return `${UI[lang].tagline} — ${title}. ${lang === 'en' ? 'Free German citizenship test prep.' : 'مفت تیاری گائیڈ۔'}`;
+}
+
+// Extract FAQ structured data from generated HTML.
+// Matches the actual rendered structure: h3 "Question N" → p with English question → table with ✅ → blockquote explanation.
+function buildFaqSchema(bodyHtml, lang) {
+    // Only generate FAQPage for question-set pages, not state or index pages
+    if (!bodyHtml.includes('Question ') && !bodyHtml.includes('سوال ')) return '';
+    const questions = [];
+
+    // Split into per-question blocks at each h3
+    const blocks = bodyHtml.split(/<h3[^>]*>/);
+    for (const block of blocks) {
+        if (questions.length >= 8) break; // cap at 8 to keep structured data lean
+
+        // Find English question text from the paragraph (🇬🇧 English: ... part)
+        const enMatch = block.match(/English:<\/strong>\s*([\s\S]*?)(?:<\/p>|<br>)/);
+        if (!enMatch) continue;
+        const questionText = enMatch[1].replace(/<[^>]+>/g, '').trim();
+        if (!questionText) continue;
+
+        // Find the correct answer — cell after ✅ cell contains <strong>answer</strong>
+        // Pattern: <td>✅</td>\n<td><strong>ANSWER</strong></td>
+        const correctMatch = block.match(/<td>✅<\/td>\s*<td><strong>([\s\S]*?)<\/strong><\/td>/);
+        if (!correctMatch) continue;
+        const correctAnswer = correctMatch[1].replace(/<[^>]+>/g, '').trim();
+
+        // Find explanation from blockquote
+        const explMatch = block.match(/<blockquote>\s*<p>([\s\S]*?)<\/p>/);
+        const explanation = explMatch
+            ? explMatch[1].replace(/<[^>]+>/g, '').replace(/📝\s*(?:Explanation:?\s*)?/g, '').trim()
+            : correctAnswer;
+
+        if (questionText && correctAnswer) {
+            questions.push({ q: questionText, a: explanation || correctAnswer });
+        }
+    }
+    if (questions.length === 0) return '';
+
+    const faqItems = questions.map(q =>
+        `{ "@type": "Question", "name": ${JSON.stringify(q.q)}, "acceptedAnswer": { "@type": "Answer", "text": ${JSON.stringify(q.a)} } }`
+    ).join(',\n        ');
+
+    return `
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        ${faqItems}
+      ]
+    }
+    </script>`;
+}
+
 // ---------- HTML template ----------
 function renderPage({ lang, title, bodyHtml, slug }) {
     const dir = lang === 'ur' ? 'rtl' : 'ltr';
@@ -257,8 +360,14 @@ function renderPage({ lang, title, bodyHtml, slug }) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>${escapeHtml(title)} · ${ui.siteTitle}</title>
-    <meta name="description" content="${escapeHtml(ui.tagline)} — ${escapeHtml(title)}. ${lang === 'en' ? 'Free German citizenship test prep with English & Urdu translations.' : 'انگریزی اور اردو ترجمے کے ساتھ مفت جرمن شہریت کے امتحان کی تیاری۔'}">
+    <title>${escapeHtml(title)} · ${escapeHtml(ui.siteTitle)}</title>
+    <meta name="description" content="${escapeHtml(buildMetaDesc(lang, title, slug))}">
+    <link rel="canonical" href="${SITE_BASE_URL}/${lang}/${slug}.html">
+
+    <!-- hreflang: tell Google these are the same page in different languages -->
+    <link rel="alternate" hreflang="en" href="${SITE_BASE_URL}/en/${slug}.html">
+    <link rel="alternate" hreflang="ur" href="${SITE_BASE_URL}/ur/${slug}.html">
+    <link rel="alternate" hreflang="x-default" href="${SITE_BASE_URL}/en/${slug}.html">
 
     <!-- Open Graph -->
     <meta property="og:type" content="article">
@@ -292,6 +401,37 @@ function renderPage({ lang, title, bodyHtml, slug }) {
     <link rel="icon" type="image/png" sizes="32x32" href="../icons/favicon-32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../icons/favicon-16.png">
     <link rel="shortcut icon" href="../favicon.ico">
+
+    <!-- Structured Data: BreadcrumbList + WebPage -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "${escapeHtml(ui.siteTitle)}", "item": "${SITE_BASE_URL}/" },
+            { "@type": "ListItem", "position": 2, "name": "${escapeHtml(title)}", "item": "${SITE_BASE_URL}/${lang}/${slug}.html" }
+          ]
+        },
+        {
+          "@type": "WebPage",
+          "@id": "${SITE_BASE_URL}/${lang}/${slug}.html",
+          "url": "${SITE_BASE_URL}/${lang}/${slug}.html",
+          "name": "${escapeHtml(title)} · ${escapeHtml(ui.siteTitle)}",
+          "description": "${escapeHtml(buildMetaDesc(lang, title, slug))}",
+          "inLanguage": "${lang === 'en' ? 'en-GB' : 'ur-PK'}",
+          "isPartOf": { "@id": "${SITE_BASE_URL}/" },
+          "publisher": {
+            "@type": "Person",
+            "name": "Abdullah Butt",
+            "url": "${GITHUB_URL}"
+          }
+        }
+      ]
+    }
+    </script>
+    ${buildFaqSchema(bodyHtml, lang)}
 
     <script>
         // Anti-flash: apply saved theme before any paint happens
@@ -916,6 +1056,91 @@ function stampServiceWorker() {
     console.log(`✓ sw.js stamped with build ID: ${BUILD_ID}`);
 }
 
+// ---------- Sitemap & robots.txt ----------
+function buildSitemap() {
+    const allSlugs = [...ORDERED_QUESTIONS, ...ORDERED_STATES];
+    const today = BUILD_DATE;
+
+    // Priority map: index and question sets are most important
+    const priority = (slug) => {
+        if (slug === 'index') return '1.0';
+        if (slug.startsWith('questions-')) return '0.9';
+        return '0.7'; // state pages
+    };
+    const changefreq = (slug) => slug.startsWith('questions-') ? 'monthly' : 'yearly';
+
+    let urls = '';
+
+    // Landing page
+    urls += `
+  <url>
+    <loc>${SITE_BASE_URL}/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="${SITE_BASE_URL}/en/index.html"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="${SITE_BASE_URL}/ur/index.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="${SITE_BASE_URL}/en/index.html"/>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>`;
+
+    // Per-language index pages
+    for (const lang of ['en', 'ur']) {
+        urls += `
+  <url>
+    <loc>${SITE_BASE_URL}/${lang}/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="${SITE_BASE_URL}/en/index.html"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="${SITE_BASE_URL}/ur/index.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="${SITE_BASE_URL}/en/index.html"/>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>`;
+    }
+
+    // Content pages
+    for (const slug of allSlugs) {
+        const p = priority(slug);
+        const cf = changefreq(slug);
+        urls += `
+  <url>
+    <loc>${SITE_BASE_URL}/en/${slug}.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="${SITE_BASE_URL}/en/${slug}.html"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="${SITE_BASE_URL}/ur/${slug}.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="${SITE_BASE_URL}/en/${slug}.html"/>
+    <lastmod>${today}</lastmod>
+    <changefreq>${cf}</changefreq>
+    <priority>${p}</priority>
+  </url>
+  <url>
+    <loc>${SITE_BASE_URL}/ur/${slug}.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="${SITE_BASE_URL}/en/${slug}.html"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="${SITE_BASE_URL}/ur/${slug}.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="${SITE_BASE_URL}/en/${slug}.html"/>
+    <lastmod>${today}</lastmod>
+    <changefreq>${cf}</changefreq>
+    <priority>${p}</priority>
+  </url>`;
+    }
+
+    const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+${urls}
+</urlset>`;
+
+    fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), sitemap);
+    console.log('✓ sitemap.xml written');
+
+    // robots.txt
+    const robots = `User-agent: *
+Allow: /
+
+Sitemap: ${SITE_BASE_URL}/sitemap.xml
+`;
+    fs.writeFileSync(path.join(ROOT, 'robots.txt'), robots);
+    console.log('✓ robots.txt written');
+}
+
 function main() {
     console.log('Building bilingual site...\n');
     for (const lang of ['en', 'ur']) {
@@ -925,6 +1150,7 @@ function main() {
     // Make sure GitHub Pages doesn't treat this as Jekyll
     fs.writeFileSync(path.join(ROOT, '.nojekyll'), '');
     console.log('\n✓ .nojekyll written');
+    buildSitemap();
     stampServiceWorker();
     console.log('\nDone. Commit and push the `html` branch, then enable GitHub Pages.');
 }

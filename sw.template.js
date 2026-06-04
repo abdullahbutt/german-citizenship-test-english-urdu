@@ -21,6 +21,8 @@ const PRECACHE_URLS = [
   './',
   './index.html',
   './privacy.html',
+  './sitemap.xml',
+  './robots.txt',
   './manifest.webmanifest',
   './og-image.png',
   './icons/icon-192.png',
