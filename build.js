@@ -20,6 +20,7 @@
 const fs = require('fs');
 const path = require('path');
 const { marked } = require('marked');
+const { generateQuizData } = require('./generate-quiz');
 
 const ROOT = __dirname;
 const SOURCES = {
@@ -784,6 +785,7 @@ function renderPage({ lang, title, bodyHtml, slug }) {
         <div class="container-fluid d-flex justify-content-between align-items-center">
             <a class="brand" href="./index.html">${escapeHtml(ui.siteTitle)}</a>
             <div class="nav-actions">
+                <a class="btn-lang" href="../quiz.html" title="Practice Quiz" style="font-weight:700;">🎯 Quiz</a>
                 <a class="btn-lang" href="../${otherLang}/${slug}.html" title="${escapeHtml(ui.pickerHint)}">${escapeHtml(ui.switchTo)}</a>
                 <button class="btn-theme" id="themeToggle" aria-label="Toggle theme">🌓</button>
             </div>
@@ -1083,6 +1085,15 @@ function buildSitemap() {
     <priority>1.0</priority>
   </url>`;
 
+    // Quiz page — high priority, it's a key feature page
+    urls += `
+  <url>
+    <loc>${SITE_BASE_URL}/quiz.html</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>`;
+
     // Per-language index pages
     for (const lang of ['en', 'ur']) {
         urls += `
@@ -1151,6 +1162,7 @@ function main() {
     fs.writeFileSync(path.join(ROOT, '.nojekyll'), '');
     console.log('\n✓ .nojekyll written');
     buildSitemap();
+    generateQuizData();
     stampServiceWorker();
     console.log('\nDone. Commit and push the `html` branch, then enable GitHub Pages.');
 }

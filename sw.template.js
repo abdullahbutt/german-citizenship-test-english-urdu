@@ -20,6 +20,8 @@ const CACHE_NAME = `gct-cache-${CACHE_VERSION}`;
 const PRECACHE_URLS = [
   './',
   './index.html',
+  './quiz.html',
+  './quiz-data.json',
   './privacy.html',
   './sitemap.xml',
   './robots.txt',

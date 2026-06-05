@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz — German Citizenship Test</title>
+    <meta name="description" content="Practice the Einbürgerungstest with our free interactive quiz. Choose a state, answer 33 questions, and see your results — just like the real test.">
+    <link rel="manifest" href="manifest.webmanifest">
+    <meta name="theme-color" content="#1d4ed8">
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <script>
+        (function(){try{var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-bs-theme',t);}catch(e){}}());
+    </script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Noto+Nastaliq+Urdu:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #f0f4ff;
+            --text: #1e293b;
+            --muted: #475569;
+            --card: #fff;
+            --border: #e2e8f0;
+            --primary: #1d4ed8;
+            --primary-h: #1e40af;
+            --success: #059669;
+            --error: #dc2626;
+            --shadow: 0 1rem 3rem rgba(15,23,42,.09);
+        }
+        [data-bs-theme="dark"] {
+            --bg: #0b1121;
+            --text: #e2e8f0;
+            --muted: #94a3b8;
+            --card: #111827;
+            --border: #1f2937;
+            --primary: #3b82f6;
+            --primary-h: #2563eb;
+            --shadow: 0 1rem 3rem rgba(0,0,0,.45);
+        }
+        * { box-sizing: border-box; }
+        body {
+            background: var(--bg);
+            color: var(--text);
+            font-family: 'Inter', system-ui, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        /* Nav */
+        .q-nav {
+            background: var(--card);
+            border-bottom: 1px solid var(--border);
+            padding: .7rem 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .q-nav a { color: var(--text); text-decoration: none; font-weight: 700; font-size: .95rem; }
+        .q-nav-actions { display: flex; gap: .5rem; }
+        .btn-pill {
+            background: transparent;
+            border: 1px solid var(--border);
+            border-radius: 999px;
+            padding: .3rem .85rem;
+            font-size: .85rem;
+            color: var(--text);
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .btn-pill:hover { background: var(--primary); color: #fff; border-color: var(--primary); }
+        /* Screens */
+        .screen { display: none; flex: 1; }
+        .screen.active { display: flex; flex-direction: column; }
+        /* Mode selector */
+        .mode-wrap {
+            max-width: 680px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            width: 100%;
+        }
+        .mode-title { font-size: 1.75rem; font-weight: 800; margin-bottom: .5rem; }
+        .mode-sub   { color: var(--muted); margin-bottom: 2rem; }
+        .mode-card {
+            background: var(--card);
+            border: 1.5px solid var(--border);
+            border-radius: 1rem;
+            padding: 1.5rem 1.75rem;
+            margin-bottom: 1rem;
+            cursor: pointer;
+            transition: border-color .15s, box-shadow .15s, transform .1s;
+            display: flex;
+            align-items: flex-start;
+            gap: 1.1rem;
+        }
+        .mode-card:hover { border-color: var(--primary); box-shadow: var(--shadow); transform: translateY(-2px); }
+        .mode-icon { font-size: 2rem; flex-shrink: 0; }
+        .mode-card h3 { font-size: 1.1rem; font-weight: 700; margin: 0 0 .3rem; }
+        .mode-card p  { font-size: .9rem; color: var(--muted); margin: 0; }
+        /* Language toggle */
+        .lang-toggle {
+            display: flex;
+            gap: .4rem;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+        }
+        .lang-toggle button {
+            padding: .35rem .85rem;
+            border-radius: 999px;
+            border: 1px solid var(--border);
+            background: transparent;
+            color: var(--text);
+            font-size: .85rem;
+            cursor: pointer;
+        }
+        .lang-toggle button.active { background: var(--primary); color: #fff; border-color: var(--primary); }
+        /* State selector */
+        .state-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: .6rem;
+        }
+        .state-btn {
+            background: var(--card);
+            border: 1.5px solid var(--border);
+            border-radius: .6rem;
+            padding: .7rem .9rem;
+            text-align: start;
+            cursor: pointer;
+            font-size: .9rem;
+            font-weight: 600;
+            color: var(--text);
+            transition: background .15s, border-color .15s;
+        }
+        .state-btn:hover { border-color: var(--primary); background: color-mix(in srgb, var(--primary) 8%, transparent); }
+        /* Quiz session */
+        .quiz-wrap {
+            max-width: 760px;
+            margin: 0 auto;
+            padding: 1.25rem 1rem 3rem;
+            width: 100%;
+            flex: 1;
+        }
+        /* Header bar: progress + timer */
+        .quiz-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: .75rem;
+            font-size: .9rem;
+            font-weight: 600;
+            color: var(--muted);
+        }
+        .timer {
+            font-variant-numeric: tabular-nums;
+            font-size: 1.05rem;
+            color: var(--text);
+        }
+        .timer.urgent { color: var(--error); }
+        .progress-bar {
+            background: var(--border);
+            border-radius: 999px;
+            height: 6px;
+            overflow: hidden;
+            margin-bottom: 1.25rem;
+        }
+        .progress-fill {
+            height: 100%;
+            background: var(--primary);
+            border-radius: 999px;
+            transition: width .3s ease;
+        }
+        /* Question card */
+        .q-card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 1rem;
+            padding: clamp(1.25rem, 3vw, 2rem);
+            margin-bottom: 1rem;
+            box-shadow: var(--shadow);
+        }
+        .q-num {
+            font-size: .8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: .05em;
+            color: var(--primary);
+            margin-bottom: .65rem;
+        }
+        .q-de {
+            font-size: 1.2rem;
+            font-weight: 700;
+            line-height: 1.45;
+            margin-bottom: .6rem;
+        }
+        .q-translation {
+            font-size: .95rem;
+            color: var(--muted);
+            margin-bottom: .25rem;
+            line-height: 1.6;
+        }
+        .q-translation.ur-text {
+            font-family: 'Noto Nastaliq Urdu', serif;
+            font-size: 1.05rem;
+            direction: rtl;
+            text-align: right;
+            line-height: 2;
+        }
+        /* Answer options */
+        .options-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: .6rem;
+            margin-top: 1rem;
+        }
+        @media (max-width: 540px) { .options-grid { grid-template-columns: 1fr; } }
+        .opt-btn {
+            background: var(--card);
+            border: 1.5px solid var(--border);
+            border-radius: .65rem;
+            padding: .8rem 1rem;
+            text-align: start;
+            cursor: pointer;
+            font-size: .92rem;
+            color: var(--text);
+            display: flex;
+            align-items: flex-start;
+            gap: .65rem;
+            line-height: 1.4;
+            transition: background .1s, border-color .1s;
+        }
+        .opt-btn:hover:not(:disabled) { border-color: var(--primary); background: color-mix(in srgb, var(--primary) 8%, transparent); }
+        .opt-btn:disabled { cursor: default; }
+        .opt-label {
+            flex-shrink: 0;
+            width: 1.7rem;
+            height: 1.7rem;
+            border-radius: 50%;
+            background: var(--border);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: .8rem;
+        }
+        .opt-btn.correct { border-color: var(--success); background: color-mix(in srgb, var(--success) 12%, var(--card)); }
+        .opt-btn.correct .opt-label { background: var(--success); color: #fff; }
+        .opt-btn.wrong   { border-color: var(--error);   background: color-mix(in srgb, var(--error)   12%, var(--card)); }
+        .opt-btn.wrong   .opt-label { background: var(--error);   color: #fff; }
+        .opt-btn.ur-text { font-family: 'Noto Nastaliq Urdu', serif; direction: rtl; font-size: 1rem; }
+        /* Explanation */
+        .explanation-box {
+            background: color-mix(in srgb, var(--primary) 7%, var(--card));
+            border: 1px solid color-mix(in srgb, var(--primary) 20%, var(--border));
+            border-radius: .65rem;
+            padding: 1rem 1.1rem;
+            font-size: .9rem;
+            color: var(--text);
+            margin-top: .8rem;
+            line-height: 1.6;
+            display: none;
+        }
+        .explanation-box.ur-text {
+            font-family: 'Noto Nastaliq Urdu', serif;
+            font-size: 1rem;
+            direction: rtl;
+            text-align: right;
+            line-height: 2;
+        }
+        .explanation-box.show { display: block; }
+        /* Next button */
+        .btn-next {
+            width: 100%;
+            margin-top: 1rem;
+            padding: .85rem;
+            border-radius: .65rem;
+            background: var(--primary);
+            color: #fff;
+            border: 0;
+            font-size: 1rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: background .15s;
+        }
+        .btn-next:hover { background: var(--primary-h); }
+        .btn-next { display: none; }
+        .btn-next.show { display: block; }
+        /* Results */
+        .results-wrap {
+            max-width: 680px;
+            margin: 2rem auto;
+            padding: 0 1rem 4rem;
+            width: 100%;
+        }
+        .verdict {
+            border-radius: 1rem;
+            padding: 2rem;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .verdict.pass { background: color-mix(in srgb, var(--success) 12%, var(--card)); border: 2px solid var(--success); }
+        .verdict.fail { background: color-mix(in srgb, var(--error)   12%, var(--card)); border: 2px solid var(--error); }
+        .verdict-word { font-size: 2.2rem; font-weight: 800; margin-bottom: .3rem; }
+        .verdict.pass .verdict-word { color: var(--success); }
+        .verdict.fail .verdict-word { color: var(--error); }
+        .score-num { font-size: 3.5rem; font-weight: 800; line-height: 1; }
+        .score-sub { color: var(--muted); font-size: .95rem; margin-top: .4rem; }
+        /* Wrong questions review */
+        .review-title { font-weight: 700; font-size: 1.1rem; margin: 1.5rem 0 .75rem; }
+        .review-item {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: .65rem;
+            padding: 1rem;
+            margin-bottom: .75rem;
+            font-size: .9rem;
+        }
+        .review-q  { font-weight: 600; margin-bottom: .4rem; }
+        .review-your   { color: var(--error);   }
+        .review-correct{ color: var(--success); font-weight: 600; }
+        .btn-restart {
+            width: 100%;
+            padding: .85rem;
+            border-radius: .65rem;
+            background: var(--primary);
+            color: #fff;
+            border: 0;
+            font-size: 1rem;
+            font-weight: 700;
+            cursor: pointer;
+            margin-top: 1.5rem;
+        }
+        .btn-restart:hover { background: var(--primary-h); }
+        /* Misc */
+        .section-title { font-weight: 800; font-size: 1.3rem; margin-bottom: .4rem; }
+        .section-sub   { color: var(--muted); margin-bottom: 1.5rem; font-size: .9rem; }
+        .back-link { color: var(--muted); font-size: .9rem; cursor: pointer; border: 0; background: transparent; margin-bottom: 1.25rem; display: inline-block; }
+        .back-link:hover { color: var(--primary); }
+        .info-badge {
+            display: inline-block;
+            background: color-mix(in srgb, var(--primary) 12%, transparent);
+            color: var(--primary);
+            border-radius: .4rem;
+            padding: .15rem .6rem;
+            font-size: .78rem;
+            font-weight: 700;
+        }
+        .image-note {
+            font-size: .8rem;
+            color: var(--muted);
+            font-style: italic;
+            margin-top: 1.5rem;
+            padding: .65rem .9rem;
+            border: 1px solid var(--border);
+            border-radius: .5rem;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Nav -->
+<nav class="q-nav">
+    <a href="index.html?stay">🇩🇪 German Citizenship Test</a>
+    <div class="q-nav-actions">
+        <select id="langSel" class="btn-pill" style="padding:.3rem .7rem;" aria-label="Language">
+            <option value="en">English</option>
+            <option value="ur">اردو</option>
+            <option value="de">Deutsch</option>
+        </select>
+        <button class="btn-pill" id="themeBtn" aria-label="Toggle theme">🌓</button>
+    </div>
+</nav>
+
+<!-- ══ SCREEN 1: Mode selection ════════════════════════════════════════════ -->
+<div class="screen active" id="screenMode">
+    <div class="mode-wrap">
+        <p class="mode-title" id="txt-quizTitle">🎯 Practice Quiz</p>
+        <p class="mode-sub" id="txt-quizSub">Choose how you want to practise. All questions from the official BAMF catalogue.</p>
+
+        <div class="mode-card" onclick="startMode('full')" role="button" tabindex="0">
+            <span class="mode-icon">🎯</span>
+            <div>
+                <h3 id="txt-mode1title">Simulate the Real Test</h3>
+                <p id="txt-mode1sub">33 questions · 60-minute timer · Pass = 17/33 — exactly like the Einbürgerungstest</p>
+            </div>
+        </div>
+
+        <div class="mode-card" onclick="startMode('state')" role="button" tabindex="0">
+            <span class="mode-icon">🗺️</span>
+            <div>
+                <h3 id="txt-mode2title">State Questions Practice</h3>
+                <p id="txt-mode2sub">Select your Bundesland. Answer the 3 state-specific questions.</p>
+            </div>
+        </div>
+
+        <div class="mode-card" onclick="startMode('general')" role="button" tabindex="0">
+            <span class="mode-icon">📚</span>
+            <div>
+                <h3 id="txt-mode3title">General Questions Practice</h3>
+                <p id="txt-mode3sub">50 questions at a time from the 300 general questions — no timer, pure practice.</p>
+            </div>
+        </div>
+
+        <p class="image-note" id="txt-imageNote">ℹ️ Note: Questions 301 (coat of arms) and 302 / 304 (map identification) require images and cannot be included in this online quiz. They will appear in the real printed test. All text-based questions are included.</p>
+    </div>
+</div>
+
+<!-- ══ SCREEN 2: State selector ════════════════════════════════════════════ -->
+<div class="screen" id="screenState">
+    <div class="mode-wrap">
+        <button class="back-link" onclick="showScreen('screenMode')">← <span id="txt-back">Back</span></button>
+        <p class="section-title" id="txt-stateTitle">Select your Bundesland</p>
+        <p class="section-sub" id="txt-stateSub">Your state determines which 3 regional questions are included in the test.</p>
+        <div class="state-grid" id="stateGrid"></div>
+    </div>
+</div>
+
+<!-- ══ SCREEN 3: General set selector ══════════════════════════════════════ -->
+<div class="screen" id="screenGeneral">
+    <div class="mode-wrap">
+        <button class="back-link" onclick="showScreen('screenMode')">← <span class="txt-back2">Back</span></button>
+        <p class="section-title" id="txt-genTitle">Choose a Question Set</p>
+        <p class="section-sub" id="txt-genSub">50 questions per set. No timer — learn at your own pace.</p>
+        <div class="state-grid" id="genGrid"></div>
+    </div>
+</div>
+
+<!-- ══ SCREEN 4: Quiz session ═══════════════════════════════════════════════ -->
+<div class="screen" id="screenQuiz">
+    <div class="quiz-wrap">
+        <div class="quiz-header">
+            <span id="qProgress">Question 1 of 33</span>
+            <span class="timer" id="timer" style="display:none">60:00</span>
+        </div>
+        <div class="progress-bar"><div class="progress-fill" id="progressFill" style="width:0%"></div></div>
+
+        <div class="q-card">
+            <div class="q-num" id="qNum">QUESTION 1</div>
+            <div class="q-de" id="qDe"></div>
+            <div class="q-translation" id="qTrans"></div>
+        </div>
+
+        <div class="options-grid" id="optionsGrid"></div>
+        <div class="explanation-box" id="explBox"></div>
+        <button class="btn-next" id="btnNext">Next →</button>
+    </div>
+</div>
+
+<!-- ══ SCREEN 5: Results ════════════════════════════════════════════════════ -->
+<div class="screen" id="screenResults">
+    <div class="results-wrap">
+        <div class="verdict" id="verdictBox">
+            <div class="verdict-word" id="verdictWord">BESTANDEN</div>
+            <div class="score-num" id="scoreNum">24 / 33</div>
+            <div class="score-sub" id="scoreSub">Pass mark: 17 / 33</div>
+        </div>
+        <div id="wrongReview"></div>
+        <button class="btn-restart" id="btnRestart">🔄 Try Again</button>
+    </div>
+</div>
+
+<script>
+// ── Data & state ──────────────────────────────────────────────────────────────
+let DATA = null;         // quiz-data.json
+let LANG = 'en';        // 'en' | 'ur' | 'de'
+let quiz = {            // active quiz session
+    questions: [],      // array of {q, shuffledOptions, correctIndex, yourAnswer}
+    current:   0,
+    timer:     null,
+    seconds:   0,
+    mode:      'full',  // 'full' | 'state' | 'general'
+    answered:  false,
+};
+
+// Translations for quiz UI labels
+const UI = {
+    en: {
+        quizTitle: '🎯 Practice Quiz',
+        quizSub: 'Choose how you want to practise. All questions from the official BAMF catalogue.',
+        mode1title: 'Simulate the Real Test',
+        mode1sub: '33 questions · 60-minute timer · Pass = 17/33 — exactly like the Einbürgerungstest',
+        mode2title: 'State Questions Practice',
+        mode2sub: 'Select your Bundesland. Answer the 3 state-specific questions.',
+        mode3title: 'General Questions Practice',
+        mode3sub: '50 questions at a time from the 300 general questions — no timer, pure practice.',
+        imageNote: 'ℹ️ Note: Questions 301 (coat of arms) and 302/304 (map identification) require images and cannot be included in this online quiz. They will appear in the real printed test.',
+        back: 'Back',
+        stateTitle: 'Select your Bundesland',
+        stateSub: 'Your state determines which 3 regional questions are included in the test.',
+        genTitle: 'Choose a Question Set',
+        genSub: '50 questions per set. No timer — learn at your own pace.',
+        question: 'QUESTION',
+        of: 'of',
+        next: 'Next →',
+        finish: 'See Results →',
+        bestanden: 'BESTANDEN ✅',
+        nichtBestanden: 'NICHT BESTANDEN ❌',
+        passedSub: 'Passed! You scored above the required 17 correct answers.',
+        failedSub: (score, total) => `Failed. You need 17/${total} to pass — you got ${score}/${total}.`,
+        passMark: 'Pass mark: 17 / 33',
+        reviewTitle: '📋 Questions you got wrong:',
+        yourAnswer: 'Your answer:',
+        correctAnswer: 'Correct:',
+        tryAgain: '🔄 Try Again',
+        correctLabel: '✓ Correct!',
+        wrongLabel: '✗ Wrong',
+    },
+    ur: {
+        quizTitle: '🎯 مشق کوئز',
+        quizSub: 'آپ کس طرح مشق کرنا چاہتے ہیں؟ تمام سوالات BAMF کے سرکاری کیٹلاگ سے ہیں۔',
+        mode1title: 'اصل امتحان کی مشق',
+        mode1sub: '33 سوالات · 60 منٹ ٹائمر · پاس = 17/33 — بالکل Einbürgerungstest کی طرح',
+        mode2title: 'ریاستی سوالات کی مشق',
+        mode2sub: 'اپنی وفاقی ریاست منتخب کریں۔ 3 ریاستی سوالات کے جوابات دیں۔',
+        mode3title: 'عمومی سوالات کی مشق',
+        mode3sub: '300 عمومی سوالات میں سے 50 سوالات — بغیر ٹائمر کے مشق۔',
+        imageNote: 'ℹ️ نوٹ: سوالات 301 (ریاستی نشان) اور 302/304 (نقشے میں شناخت) تصاویر کے بغیر ممکن نہیں اور آن لائن کوئز میں شامل نہیں ہیں۔ یہ اصل امتحان میں آتے ہیں۔',
+        back: 'واپس',
+        stateTitle: 'اپنی وفاقی ریاست منتخب کریں',
+        stateSub: 'آپ کی ریاست سے 3 علاقائی سوالات امتحان میں شامل ہوں گے۔',
+        genTitle: 'سوالات کا سیٹ منتخب کریں',
+        genSub: 'ہر سیٹ میں 50 سوالات — بغیر ٹائمر، اپنی رفتار سے سیکھیں۔',
+        question: 'سوال',
+        of: 'از',
+        next: 'اگلا →',
+        finish: 'نتائج دیکھیں →',
+        bestanden: 'کامیاب ✅',
+        nichtBestanden: 'ناکام ❌',
+        passedSub: 'مبارک ہو! آپ نے 17 درست جوابات کی حد پار کر لی۔',
+        failedSub: (score, total) => `ناکام۔ پاس کرنے کے لیے ${total}/${total} میں سے 17 درکار ہیں — آپ نے ${score} درست جوابات دیے۔`,
+        passMark: 'پاس نمبر: 17 / 33',
+        reviewTitle: '📋 غلط سوالات:',
+        yourAnswer: 'آپ کا جواب:',
+        correctAnswer: 'درست جواب:',
+        tryAgain: '🔄 دوبارہ کوشش کریں',
+        correctLabel: '✓ درست!',
+        wrongLabel: '✗ غلط',
+    },
+    de: {
+        quizTitle: '🎯 Übungsquiz',
+        quizSub: 'Wählen Sie eine Übungsform. Alle Fragen aus dem offiziellen BAMF-Fragenkatalog.',
+        mode1title: 'Echten Test simulieren',
+        mode1sub: '33 Fragen · 60-Minuten-Timer · Bestanden = 17/33 — wie der echte Einbürgerungstest',
+        mode2title: 'Bundesland-Fragen üben',
+        mode2sub: 'Wählen Sie Ihr Bundesland. Beantworten Sie 3 länderspezifische Fragen.',
+        mode3title: 'Allgemeine Fragen üben',
+        mode3sub: 'Je 50 Fragen aus den 300 allgemeinen Fragen — kein Timer, reines Üben.',
+        imageNote: 'ℹ️ Hinweis: Fragen 301 (Wappen) und 302/304 (Karte) erfordern Bilder und können nicht im Online-Quiz enthalten sein. Sie erscheinen im echten Test.',
+        back: 'Zurück',
+        stateTitle: 'Wählen Sie Ihr Bundesland',
+        stateSub: 'Ihr Bundesland bestimmt, welche 3 Landesfragen im Test enthalten sind.',
+        genTitle: 'Fragensatz wählen',
+        genSub: '50 Fragen pro Satz, kein Timer — in Ihrem Tempo lernen.',
+        question: 'FRAGE',
+        of: 'von',
+        next: 'Weiter →',
+        finish: 'Ergebnisse →',
+        bestanden: 'BESTANDEN ✅',
+        nichtBestanden: 'NICHT BESTANDEN ❌',
+        passedSub: 'Bestanden! Sie haben die erforderlichen 17 richtigen Antworten erreicht.',
+        failedSub: (score, total) => `Nicht bestanden. Sie benötigen 17/${total} — Sie hatten ${score}/${total}.`,
+        passMark: 'Bestehensgrenze: 17 / 33',
+        reviewTitle: '📋 Falsch beantwortete Fragen:',
+        yourAnswer: 'Ihre Antwort:',
+        correctAnswer: 'Richtige Antwort:',
+        tryAgain: '🔄 Erneut versuchen',
+        correctLabel: '✓ Richtig!',
+        wrongLabel: '✗ Falsch',
+    },
+};
+
+// ── Init ──────────────────────────────────────────────────────────────────────
+async function init() {
+    // Language from site preference
+    try { LANG = localStorage.getItem('preferredLang') || 'en'; } catch(e){}
+    if (!['en','ur','de'].includes(LANG)) LANG = 'en';
+    document.getElementById('langSel').value = LANG;
+
+    // Load quiz data
+    try {
+        const r = await fetch('quiz-data.json');
+        DATA = await r.json();
+    } catch(e) {
+        alert('Could not load quiz data. Please check your connection and reload.');
+        return;
+    }
+
+    applyUiLang();
+    buildStateGrid();
+    buildGenGrid();
+}
+
+// ── Language ──────────────────────────────────────────────────────────────────
+function applyUiLang() {
+    const u = UI[LANG] || UI.en;
+    const set = (id, val) => { const el = document.getElementById(id); if(el) el.textContent = val; };
+    set('txt-quizTitle',  u.quizTitle);
+    set('txt-quizSub',    u.quizSub);
+    set('txt-mode1title', u.mode1title);
+    set('txt-mode1sub',   u.mode1sub);
+    set('txt-mode2title', u.mode2title);
+    set('txt-mode2sub',   u.mode2sub);
+    set('txt-mode3title', u.mode3title);
+    set('txt-mode3sub',   u.mode3sub);
+    set('txt-imageNote',  u.imageNote);
+    set('txt-back',       u.back);
+    set('txt-stateTitle', u.stateTitle);
+    set('txt-stateSub',   u.stateSub);
+    set('txt-genTitle',   u.genTitle);
+    set('txt-genSub',     u.genSub);
+    // Apply RTL for Urdu
+    document.body.style.direction = LANG === 'ur' ? 'rtl' : 'ltr';
+    if (LANG === 'ur') {
+        document.body.style.fontFamily = "'Noto Nastaliq Urdu', Inter, serif";
+    } else {
+        document.body.style.fontFamily = "Inter, system-ui, sans-serif";
+    }
+}
+
+document.getElementById('langSel').addEventListener('change', (e) => {
+    LANG = e.target.value;
+    try { localStorage.setItem('preferredLang', LANG); } catch(e){}
+    applyUiLang();
+    buildStateGrid();
+    buildGenGrid();
+});
+
+// ── Theme toggle ──────────────────────────────────────────────────────────────
+document.getElementById('themeBtn').addEventListener('click', () => {
+    const next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-bs-theme', next);
+    try { localStorage.setItem('theme', next); } catch(e) {}
+});
+
+// ── Screen management ─────────────────────────────────────────────────────────
+function showScreen(id) {
+    document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+    document.getElementById(id).classList.add('active');
+    window.scrollTo(0, 0);
+}
+
+// ── Mode selection ────────────────────────────────────────────────────────────
+function startMode(mode) {
+    quiz.mode = mode;
+    if (mode === 'full')    showScreen('screenState');
+    if (mode === 'state')   showScreen('screenState');
+    if (mode === 'general') showScreen('screenGeneral');
+}
+
+// ── State grid ────────────────────────────────────────────────────────────────
+function buildStateGrid() {
+    if (!DATA) return;
+    const grid = document.getElementById('stateGrid');
+    grid.innerHTML = '';
+    const nameKey = LANG === 'de' ? 'name_de' : LANG === 'ur' ? 'name_ur' : 'name_en';
+    Object.values(DATA.states).forEach(state => {
+        const btn = document.createElement('button');
+        btn.className = 'state-btn';
+        if (LANG === 'ur') { btn.style.fontFamily = "'Noto Nastaliq Urdu', serif"; btn.style.direction = 'rtl'; btn.style.lineHeight = '2'; }
+        btn.textContent = state[nameKey];
+        btn.addEventListener('click', () => launchStateQuiz(state.slug));
+        grid.appendChild(btn);
+    });
+}
+
+function launchStateQuiz(slug) {
+    const state = DATA.states[slug];
+    if (quiz.mode === 'full') {
+        // Real test: 30 random general + 3 state
+        const shuffled = shuffle([...DATA.general]);
+        const general30 = shuffled.slice(0, 30);
+        const stateQs   = state.questions; // all 3
+        startQuiz([...general30, ...stateQs], true);
+    } else {
+        // State practice: just 3 state questions, no timer
+        startQuiz([...state.questions], false);
+    }
+}
+
+// ── General set grid ──────────────────────────────────────────────────────────
+function buildGenGrid() {
+    if (!DATA) return;
+    const grid = document.getElementById('genGrid');
+    grid.innerHTML = '';
+    const sets = [
+        {label:{en:'Questions 1–50',   ur:'سوالات 1–50',   de:'Fragen 1–50'},   range:[1,50]},
+        {label:{en:'Questions 51–100', ur:'سوالات 51–100', de:'Fragen 51–100'}, range:[51,100]},
+        {label:{en:'Questions 101–150',ur:'سوالات 101–150',de:'Fragen 101–150'},range:[101,150]},
+        {label:{en:'Questions 151–200',ur:'سوالات 151–200',de:'Fragen 151–200'},range:[151,200]},
+        {label:{en:'Questions 201–250',ur:'سوالات 201–250',de:'Fragen 201–250'},range:[201,250]},
+        {label:{en:'Questions 251–300',ur:'سوالات 251–300',de:'Fragen 251–300'},range:[251,300]},
+    ];
+    sets.forEach(set => {
+        const btn = document.createElement('button');
+        btn.className = 'state-btn';
+        if (LANG === 'ur') { btn.style.fontFamily = "'Noto Nastaliq Urdu', serif"; btn.style.direction = 'rtl'; btn.style.lineHeight = '2'; }
+        btn.textContent = set.label[LANG] || set.label.en;
+        btn.addEventListener('click', () => {
+            const qs = DATA.general.filter(q => q.id >= set.range[0] && q.id <= set.range[1]);
+            startQuiz(qs, false);
+        });
+        grid.appendChild(btn);
+    });
+}
+
+// ── Quiz engine ───────────────────────────────────────────────────────────────
+function shuffle(arr) {
+    for (let i = arr.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
+}
+
+function startQuiz(questions, withTimer) {
+    clearInterval(quiz.timer);
+    quiz.questions = questions.map(q => ({
+        q,
+        shuffledOptions: shuffleOptions(q),
+        yourAnswer: -1,
+    }));
+    quiz.current  = 0;
+    quiz.answered = false;
+
+    if (withTimer) {
+        quiz.seconds = 60 * 60; // 60 minutes
+        startTimer();
+    } else {
+        document.getElementById('timer').style.display = 'none';
+        quiz.seconds = -1;
+    }
+
+    showScreen('screenQuiz');
+    renderQuestion();
+}
+
+function shuffleOptions(q) {
+    // Return shuffled indices so options appear in random order
+    const indices = q.options.map((_, i) => i);
+    for (let i = indices.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [indices[i], indices[j]] = [indices[j], indices[i]];
+    }
+    // correctIndex in shuffled array
+    const correctAtShuffled = indices.indexOf(q.correct);
+    return { indices, correctAtShuffled };
+}
+
+function renderQuestion() {
+    const u = UI[LANG] || UI.en;
+    const item = quiz.questions[quiz.current];
+    const q    = item.q;
+    const total = quiz.questions.length;
+    const cur   = quiz.current + 1;
+
+    // Progress
+    document.getElementById('qProgress').textContent =
+        `${u.question} ${cur} ${u.of} ${total}`;
+    document.getElementById('qNum').textContent =
+        `${u.question} ${q.id || cur}`;
+    document.getElementById('progressFill').style.width =
+        `${((cur - 1) / total) * 100}%`;
+
+    // Question text
+    document.getElementById('qDe').textContent = q.de || '';
+    const transEl = document.getElementById('qTrans');
+    const transText = LANG === 'ur' ? q.ur : LANG === 'de' ? q.de : q.en;
+    transEl.textContent = LANG === 'de' ? '' : transText;
+    transEl.className = LANG === 'ur' ? 'q-translation ur-text' : 'q-translation';
+
+    // Options
+    const grid = document.getElementById('optionsGrid');
+    grid.innerHTML = '';
+    const labels = ['A', 'B', 'C', 'D'];
+    const { indices } = item.shuffledOptions;
+
+    indices.forEach((originalIdx, shufflePos) => {
+        const opt = q.options[originalIdx];
+        const btn = document.createElement('button');
+        btn.className = 'opt-btn';
+        const isUrdu = LANG === 'ur';
+        if (isUrdu) btn.classList.add('ur-text');
+        const optText = isUrdu ? opt.ur : LANG === 'de' ? opt.de : opt.en;
+        btn.innerHTML = `<span class="opt-label">${labels[shufflePos]}</span><span>${optText || opt.en}</span>`;
+        btn.addEventListener('click', () => answerQuestion(shufflePos));
+        grid.appendChild(btn);
+    });
+
+    // Hide explanation + next
+    document.getElementById('explBox').classList.remove('show');
+    document.getElementById('btnNext').classList.remove('show');
+    quiz.answered = false;
+}
+
+function answerQuestion(shufflePos) {
+    if (quiz.answered) return;
+    quiz.answered = true;
+    const u = UI[LANG] || UI.en;
+    const item = quiz.questions[quiz.current];
+    const { indices, correctAtShuffled } = item.shuffledOptions;
+    item.yourAnswer = shufflePos;
+
+    // Disable all buttons and highlight
+    const btns = document.querySelectorAll('.opt-btn');
+    btns.forEach((btn, i) => {
+        btn.disabled = true;
+        if (i === correctAtShuffled) btn.classList.add('correct');
+        else if (i === shufflePos)   btn.classList.add('wrong');
+    });
+
+    // Explanation
+    const q = item.q;
+    const explText = LANG === 'ur' ? q.exp_ur : q.exp_en;
+    const explEl = document.getElementById('explBox');
+    explEl.textContent = explText || '';
+    explEl.className = LANG === 'ur' ? 'explanation-box ur-text show' : 'explanation-box show';
+
+    // Next / Finish button
+    const btnNext = document.getElementById('btnNext');
+    const isLast = quiz.current === quiz.questions.length - 1;
+    btnNext.textContent = isLast ? u.finish : u.next;
+    btnNext.classList.add('show');
+}
+
+document.getElementById('btnNext').addEventListener('click', () => {
+    quiz.current++;
+    if (quiz.current >= quiz.questions.length) {
+        finishQuiz();
+    } else {
+        renderQuestion();
+    }
+});
+
+// ── Timer ─────────────────────────────────────────────────────────────────────
+function startTimer() {
+    const el = document.getElementById('timer');
+    el.style.display = 'block';
+    quiz.timer = setInterval(() => {
+        quiz.seconds--;
+        const m = Math.floor(quiz.seconds / 60);
+        const s = quiz.seconds % 60;
+        el.textContent = `${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;
+        el.className = quiz.seconds < 300 ? 'timer urgent' : 'timer';
+        if (quiz.seconds <= 0) { clearInterval(quiz.timer); finishQuiz(); }
+    }, 1000);
+}
+
+// ── Results ───────────────────────────────────────────────────────────────────
+function finishQuiz() {
+    clearInterval(quiz.timer);
+    const u = UI[LANG] || UI.en;
+    const total = quiz.questions.length;
+    const isPracticeMode = total !== 33; // state-only or general set = practice
+
+    // Count correct answers
+    let correct = 0;
+    const wrong = [];
+
+    quiz.questions.forEach((item, i) => {
+        const { indices, correctAtShuffled } = item.shuffledOptions;
+        if (item.yourAnswer === correctAtShuffled) {
+            correct++;
+        } else if (item.yourAnswer !== -1) {
+            wrong.push(item);
+        } else {
+            // Unanswered (timer ran out) = wrong
+            wrong.push(item);
+        }
+    });
+
+    const passThreshold = 17; // Real Einbürgerungstest pass mark
+    const passed = correct >= passThreshold && total >= 33;
+
+    // Verdict
+    const verdictBox = document.getElementById('verdictBox');
+    verdictBox.className = `verdict ${passed || isPracticeMode ? 'pass' : 'fail'}`;
+    document.getElementById('verdictWord').textContent = isPracticeMode
+        ? `${correct}/${total} ${u.correctLabel.replace('✓ ', '')}`
+        : passed ? u.bestanden : u.nichtBestanden;
+    document.getElementById('scoreNum').textContent = `${correct} / ${total}`;
+    document.getElementById('scoreSub').textContent = isPracticeMode
+        ? (LANG === 'ur' ? `آپ نے ${correct} سوالات درست حل کیے۔` : LANG === 'de' ? `Sie haben ${correct} Fragen richtig beantwortet.` : `You answered ${correct} questions correctly.`)
+        : u.passMark;
+
+    // Wrong answers review
+    const reviewEl = document.getElementById('wrongReview');
+    reviewEl.innerHTML = '';
+    if (wrong.length > 0) {
+        const title = document.createElement('p');
+        title.className = 'review-title';
+        title.textContent = u.reviewTitle;
+        reviewEl.appendChild(title);
+
+        wrong.forEach(item => {
+            const q = item.q;
+            const { indices, correctAtShuffled } = item.shuffledOptions;
+            const correctOrigIdx = indices[correctAtShuffled];
+            const correctOpt     = q.options[correctOrigIdx];
+
+            let yourOptText = '—';
+            if (item.yourAnswer >= 0) {
+                const yourOrigIdx = indices[item.yourAnswer];
+                const yourOpt     = q.options[yourOrigIdx];
+                yourOptText = LANG === 'ur' ? yourOpt.ur : LANG === 'de' ? yourOpt.de : yourOpt.en;
+            }
+            const correctText = LANG === 'ur' ? correctOpt.ur : LANG === 'de' ? correctOpt.de : correctOpt.en;
+            const qText       = LANG === 'ur' ? q.ur : LANG === 'de' ? q.de : q.en;
+
+            const div = document.createElement('div');
+            div.className = 'review-item';
+            div.style.direction = LANG === 'ur' ? 'rtl' : 'ltr';
+            if (LANG === 'ur') div.style.fontFamily = "'Noto Nastaliq Urdu', serif";
+            div.innerHTML = `
+                <div class="review-q">${escHtml(qText || q.de)}</div>
+                <div class="review-your">✗ ${escHtml(u.yourAnswer)} ${escHtml(yourOptText)}</div>
+                <div class="review-correct">✓ ${escHtml(u.correctAnswer)} ${escHtml(correctText)}</div>
+            `;
+            reviewEl.appendChild(div);
+        });
+    }
+
+    document.getElementById('btnRestart').textContent = u.tryAgain;
+    showScreen('screenResults');
+}
+
+document.getElementById('btnRestart').addEventListener('click', () => {
+    clearInterval(quiz.timer);
+    showScreen('screenMode');
+});
+
+// ── Helpers ───────────────────────────────────────────────────────────────────
+function escHtml(s) {
+    return String(s||'')
+        .replace(/&/g,'&amp;').replace(/</g,'&lt;')
+        .replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+// Keyboard navigation for mode cards
+document.querySelectorAll('.mode-card').forEach(card => {
+    card.addEventListener('keydown', e => {
+        if (e.key === 'Enter' || e.key === ' ') card.click();
+    });
+});
+
+// Start
+init();
+</script>
+
+<!-- Cloudflare Web Analytics -->
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "d435b2572b82459cb083e37f7c734b75"}'></script>
+</body>
+</html>
