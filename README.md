@@ -1,3 +1,13 @@
+> <div align="center">
+
+[![GitHub Stars](https://img.shields.io/github/stars/abdullahbutt/german-citizenship-test-english-urdu?style=for-the-badge&logo=github&label=Star%20this%20Repo)](https://github.com/abdullahbutt/german-citizenship-test-english-urdu)
+&nbsp;&nbsp;
+[![View Website](https://img.shields.io/badge/🌐_View_as_Website-Click_Here-blue?style=for-the-badge)](https://abdullahbutt.github.io/german-citizenship-test-english-urdu/)
+&nbsp;&nbsp;
+[![CC BY-NC 4.0](https://img.shields.io/badge/Content-CC%20BY--NC%204.0-lightgrey?style=for-the-badge&logo=creative-commons)](LICENSE-CONTENT.md)
+
+</div>
+
 > ⭐ If this helped you pass your test, [please star this repo](https://github.com/abdullahbutt/german-citizenship-test-english-urdu) — it helps others find it!
 
 # 🇩🇪 German Citizenship Test — with English Translations
@@ -135,9 +145,15 @@ Each question follows this format:
 
 ---
 
-## 📄 License
+## ⚖️ License
 
-Based on publicly available German government examination material. Translations and explanations provided freely for educational use.
+**Code** (`build.js`, `quiz.html`, `sw.js`, HTML/CSS/JS): [MIT License](LICENSE) — free to use, modify, and learn from.
+
+**Content** (question translations, explanations, Urdu/English text): [CC BY-NC 4.0](LICENSE-CONTENT.md) — free for personal and educational use. Commercial use or redistribution for profit is **not permitted** without explicit written permission.
+
+> This project is open source for personal and educational use.
+> The translations and explanations represent significant original work.
+> If you find this useful, please [support the project](https://paypal.me/abdullahbuttde) or share it — don't sell it.
 
 ## ☕ Support This Project
 
