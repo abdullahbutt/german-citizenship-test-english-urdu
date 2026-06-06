@@ -149,6 +149,23 @@
             color: #fff;
             border-color: var(--primary);
         }
+        /* Quiz button — solid accent so it stands out from the other nav items */
+        .nav-actions .btn-quiz {
+            background: var(--primary);
+            color: #fff;
+            border: 1px solid var(--primary);
+            border-radius: 999px;
+            padding: 0.35rem 0.9rem;
+            font-size: 0.875rem;
+            font-weight: 700;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .nav-actions .btn-quiz:hover {
+            background: var(--primary-hover);
+            border-color: var(--primary-hover);
+            color: #fff;
+        }
         main {
             max-width: 960px;
             margin: 2rem auto;
@@ -427,7 +444,7 @@
         <div class="container-fluid d-flex justify-content-between align-items-center">
             <a class="brand" href="./index.html">جرمن شہریت کا امتحان</a>
             <div class="nav-actions">
-                <a class="btn-lang" href="../quiz.html" title="Practice Quiz" style="font-weight:700;">🎯 Quiz</a>
+                <a class="btn-quiz" href="../quiz.html" title="Practice Quiz">🎯 Quiz</a>
                 <a class="btn-lang" href="../en/sachsen-anhalt.html" title="زبان تبدیل کریں">English</a>
                 <button class="btn-theme" id="themeToggle" aria-label="Toggle theme">🌓</button>
             </div>
@@ -442,6 +459,7 @@
             <div class="pager-jump">
             <select onchange="if(this.value)window.location.href=this.value" aria-label="جائیں:">
                 <option value="">جائیں:</option>
+                <option value="../quiz.html">🎯 کوئز / مشق</option>
                 <optgroup label="سوالات"><option value="./questions-001-050.html">سوالات 1–50</option><option value="./questions-051-100.html">سوالات 51–100</option><option value="./questions-101-150.html">سوالات 101–150</option><option value="./questions-151-200.html">سوالات 151–200</option><option value="./questions-201-250.html">سوالات 201–250</option><option value="./questions-251-300.html">سوالات 251–300</option></optgroup>
                 <optgroup label="ریاستیں"><option value="./baden-wuerttemberg.html">باڈن ورٹمبرگ</option><option value="./bayern.html">باویریا</option><option value="./berlin.html">برلن</option><option value="./brandenburg.html">برانڈنبرگ</option><option value="./bremen.html">بریمن</option><option value="./hamburg.html">ہیمبرگ</option><option value="./hessen.html">ہیسن</option><option value="./mecklenburg-vorpommern.html">میکلنبرگ-فورپومرن</option><option value="./niedersachsen.html">نیڈرزاخسن</option><option value="./nordrhein-westfalen.html">نارڈرائن ویسٹ فالن</option><option value="./rheinland-pfalz.html">رائن لینڈ-فالز</option><option value="./saarland.html">زارلینڈ</option><option value="./sachsen.html">زاخسن</option><option value="./sachsen-anhalt.html" selected>زاخسن-انہالٹ</option><option value="./schleswig-holstein.html">شلیسوگ-ہولسٹائن</option><option value="./thueringen.html">تھیورنگن</option></optgroup>
             </select>
@@ -508,6 +526,7 @@
             <div class="pager-jump">
             <select onchange="if(this.value)window.location.href=this.value" aria-label="جائیں:">
                 <option value="">جائیں:</option>
+                <option value="../quiz.html">🎯 کوئز / مشق</option>
                 <optgroup label="سوالات"><option value="./questions-001-050.html">سوالات 1–50</option><option value="./questions-051-100.html">سوالات 51–100</option><option value="./questions-101-150.html">سوالات 101–150</option><option value="./questions-151-200.html">سوالات 151–200</option><option value="./questions-201-250.html">سوالات 201–250</option><option value="./questions-251-300.html">سوالات 251–300</option></optgroup>
                 <optgroup label="ریاستیں"><option value="./baden-wuerttemberg.html">باڈن ورٹمبرگ</option><option value="./bayern.html">باویریا</option><option value="./berlin.html">برلن</option><option value="./brandenburg.html">برانڈنبرگ</option><option value="./bremen.html">بریمن</option><option value="./hamburg.html">ہیمبرگ</option><option value="./hessen.html">ہیسن</option><option value="./mecklenburg-vorpommern.html">میکلنبرگ-فورپومرن</option><option value="./niedersachsen.html">نیڈرزاخسن</option><option value="./nordrhein-westfalen.html">نارڈرائن ویسٹ فالن</option><option value="./rheinland-pfalz.html">رائن لینڈ-فالز</option><option value="./saarland.html">زارلینڈ</option><option value="./sachsen.html">زاخسن</option><option value="./sachsen-anhalt.html" selected>زاخسن-انہالٹ</option><option value="./schleswig-holstein.html">شلیسوگ-ہولسٹائن</option><option value="./thueringen.html">تھیورنگن</option></optgroup>
             </select>
@@ -536,7 +555,7 @@
                 <a class="btn-foot" href="../privacy.html">پرائیویسی و اظہاریہ</a>
             </div>
         </div>
-        <div class="foot-meta">آخری اپڈیٹ: 2026-06-05</div>
+        <div class="foot-meta">آخری اپڈیٹ: 2026-06-06</div>
     </footer>
 
     <button class="back-to-top" id="backToTop" aria-label="اوپر جائیں" title="اوپر جائیں">↑</button>

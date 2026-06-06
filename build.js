@@ -205,6 +205,7 @@ function renderNavPager({ lang, slug }) {
         `<div class="pager-jump">
             <select onchange="if(this.value)window.location.href=this.value" aria-label="${escapeHtml(ui.navJump)}">
                 <option value="">${escapeHtml(ui.navJump)}</option>
+                <option value="../quiz.html">🎯 ${lang === 'ur' ? 'کوئز / مشق' : lang === 'de' ? 'Quiz / Üben' : 'Practice Quiz'}</option>
                 ${optgroup(ui.navQuestions, ORDERED_QUESTIONS)}
                 ${optgroup(ui.navStates, ORDERED_STATES)}
             </select>
@@ -507,6 +508,23 @@ function renderPage({ lang, title, bodyHtml, slug }) {
             color: #fff;
             border-color: var(--primary);
         }
+        /* Quiz button — solid accent so it stands out from the other nav items */
+        .nav-actions .btn-quiz {
+            background: var(--primary);
+            color: #fff;
+            border: 1px solid var(--primary);
+            border-radius: 999px;
+            padding: 0.35rem 0.9rem;
+            font-size: 0.875rem;
+            font-weight: 700;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .nav-actions .btn-quiz:hover {
+            background: var(--primary-hover);
+            border-color: var(--primary-hover);
+            color: #fff;
+        }
         main {
             max-width: 960px;
             margin: 2rem auto;
@@ -785,7 +803,7 @@ function renderPage({ lang, title, bodyHtml, slug }) {
         <div class="container-fluid d-flex justify-content-between align-items-center">
             <a class="brand" href="./index.html">${escapeHtml(ui.siteTitle)}</a>
             <div class="nav-actions">
-                <a class="btn-lang" href="../quiz.html" title="Practice Quiz" style="font-weight:700;">🎯 Quiz</a>
+                <a class="btn-quiz" href="../quiz.html" title="Practice Quiz">🎯 Quiz</a>
                 <a class="btn-lang" href="../${otherLang}/${slug}.html" title="${escapeHtml(ui.pickerHint)}">${escapeHtml(ui.switchTo)}</a>
                 <button class="btn-theme" id="themeToggle" aria-label="Toggle theme">🌓</button>
             </div>
