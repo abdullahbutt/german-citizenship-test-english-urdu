@@ -1,5 +1,15 @@
 # 🇩🇪 جرمن شہریت کا امتحان — اردو ترجمے کے ساتھ
 
+<div align="center">
+
+[![GitHub Stars](https://img.shields.io/github/stars/abdullahbutt/german-citizenship-test-english-urdu?style=for-the-badge&logo=github&label=Star%20this%20Repo)](https://github.com/abdullahbutt/german-citizenship-test-english-urdu)
+&nbsp;&nbsp;
+[![ویب سائٹ دیکھیں](https://img.shields.io/badge/%F0%9F%8C%90-Visit%20Website-blue?style=for-the-badge)](https://abdullahbutt.github.io/german-citizenship-test-english-urdu/)
+&nbsp;&nbsp;
+[![CC BY-NC 4.0](https://img.shields.io/badge/Content-CC%20BY--NC%204.0-lightgrey?style=for-the-badge&logo=creative-commons)](LICENSE-CONTENT.md)
+
+</div>
+
 > ⭐ اگر اس نے آپ کے امتحان میں مدد کی تو [اس ریپو کو اسٹار کریں](https://github.com/abdullahbutt/german-citizenship-test-english-urdu) — اس سے دوسروں کو تلاش میں مدد ملتی ہے!
 
 > 🇬🇧 For English version — [English Branch](https://github.com/abdullahbutt/german-citizenship-test-english-urdu/blob/english/README.md)
@@ -140,9 +150,15 @@
 
 ---
 
-## 📄 لائسنس
+## ⚖️ لائسنس
 
-عوامی طور پر دستیاب جرمن حکومتی امتحانی مواد پر مبنی۔ ترجمے اور وضاحتیں تعلیمی استعمال کے لیے آزادانہ فراہم کی گئی ہیں۔
+**کوڈ** (`build.js`، `quiz.html`، `sw.js`، HTML/CSS/JS): [MIT لائسنس](LICENSE) — مفت استعمال، تبدیلی اور سیکھنے کے لیے۔
+
+**مواد** (سوالوں کے ترجمے، وضاحتیں، اردو/انگریزی متن): [CC BY-NC 4.0](LICENSE-CONTENT.md) — ذاتی اور تعلیمی استعمال کے لیے مفت۔ تجارتی استعمال یا منافع کے لیے تقسیم مصنف کی تحریری اجازت کے **بغیر ممکن نہیں**۔
+
+> یہ پروجیکٹ ذاتی اور تعلیمی مقاصد کے لیے اوپن سورس ہے۔
+> ترجمے اور وضاحتیں اصل محنت کا نتیجہ ہیں۔
+> اگر یہ کارآمد ہو تو [پروجیکٹ کی مدد کریں](https://paypal.me/abdullahbuttde) یا آگے شیئر کریں — فروخت نہ کریں۔
 
 ---
 
