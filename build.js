@@ -279,18 +279,136 @@ const META_DESCS = {
         'questions-151-200':   'Einbürgerungstest کے سوالات 151–200 اردو ترجمے کے ساتھ۔ موضوعات: سماجی فلاح، صحت، تعلیم۔',
         'questions-201-250':   'Einbürgerungstest کے سوالات 201–250 اردو ترجمے کے ساتھ۔ موضوعات: ثقافت، مذہب، جرمن معاشرہ۔',
         'questions-251-300':   'Einbürgerungstest کے سوالات 251–300 اردو ترجمے کے ساتھ۔ موضوعات: جغرافیہ، معیشت۔',
+        'berlin':              'برلن کے لیے مخصوص Einbürgerungstest سوالات (301–310) اردو ترجمے کے ساتھ۔ دارالحکومت: برلن۔',
+        'hessen':              'ہیسن کے لیے مخصوص Einbürgerungstest سوالات (301–310) اردو ترجمے کے ساتھ۔ دارالحکومت: وِسبادن۔',
+        'hamburg':             'ہیمبرگ کے لیے مخصوص Einbürgerungstest سوالات (301–310) اردو ترجمے کے ساتھ۔',
+        'nordrhein-westfalen': 'نارڈرائن ویسٹ فالن کے لیے مخصوص Einbürgerungstest سوالات (301–310) اردو ترجمے کے ساتھ۔ دارالحکومت: ڈوسلڈورف۔',
+    },
+    de: {
+        'index':               'Kostenloser Lernführer für den Einbürgerungstest / Leben in Deutschland. Alle 300+ offiziellen Fragen mit Übersetzungen auf Englisch und Urdu, Antworten markiert und Erklärungen zu jeder Frage.',
+        'questions-001-050':   'Einbürgerungstest Fragen 1–50 mit Erklärungen. Themen: Demokratie, Grundrechte, Rechtsstaat. Kostenlose Prüfungsvorbereitung mit englischer und Urdu-Übersetzung.',
+        'questions-051-100':   'Einbürgerungstest Fragen 51–100. Themen: deutsche Geschichte, NS-Zeit, DDR und BRD. Kostenlose Prüfungsvorbereitung mit Übersetzungen.',
+        'questions-101-150':   'Einbürgerungstest Fragen 101–150. Themen: Bundesrat, Bundestag, föderales System. Kostenlose Vorbereitung auf den Leben-in-Deutschland-Test.',
+        'questions-151-200':   'Einbürgerungstest Fragen 151–200. Themen: Sozialversicherung, Krankenversicherung, Bildungssystem. Kostenlose Prüfungsvorbereitung.',
+        'questions-201-250':   'Einbürgerungstest Fragen 201–250. Themen: Kultur, Religion, Gesellschaft in Deutschland. Kostenlose Vorbereitung mit englischer Übersetzung.',
+        'questions-251-300':   'Einbürgerungstest Fragen 251–300. Themen: Geographie, Wirtschaft, Staatsbürgerschaftspflichten. Kostenlose Prüfungsvorbereitung.',
+        'baden-wuerttemberg':  'Einbürgerungstest Fragen für Baden-Württemberg (Fragen 301–310). Landeshauptstadt Stuttgart. Kostenlose Vorbereitung mit englischer und Urdu-Übersetzung.',
+        'bayern':              'Einbürgerungstest Fragen für Bayern (Fragen 301–310). Landeshauptstadt München. Kostenlose Vorbereitung auf den Leben-in-Deutschland-Test.',
+        'berlin':              'Einbürgerungstest Fragen für Berlin (Fragen 301–310). Berlin ist Bundeshauptstadt und Stadtstaat zugleich. Kostenlose Prüfungsvorbereitung.',
+        'brandenburg':         'Einbürgerungstest Fragen für Brandenburg (Fragen 301–310). Landeshauptstadt Potsdam. Kostenlose Vorbereitung mit Übersetzungen.',
+        'bremen':              'Einbürgerungstest Fragen für Bremen (Fragen 301–310). Kleinstes Bundesland nach Einwohnerzahl. Kostenlose Prüfungsvorbereitung.',
+        'hamburg':             'Einbürgerungstest Fragen für Hamburg (Fragen 301–310). Größter Hafen Deutschlands, Stadtstaat. Kostenlose Prüfungsvorbereitung.',
+        'hessen':              'Einbürgerungstest Fragen für Hessen (Fragen 301–310). Landeshauptstadt Wiesbaden, Finanzmetropole Frankfurt. Kostenlose Prüfungsvorbereitung.',
+        'mecklenburg-vorpommern': 'Einbürgerungstest Fragen für Mecklenburg-Vorpommern (Fragen 301–310). Landeshauptstadt Schwerin. Kostenlose Prüfungsvorbereitung.',
+        'niedersachsen':       'Einbürgerungstest Fragen für Niedersachsen (Fragen 301–310). Landeshauptstadt Hannover. Zweitgrößtes Bundesland. Kostenlose Prüfungsvorbereitung.',
+        'nordrhein-westfalen': 'Einbürgerungstest Fragen für Nordrhein-Westfalen (Fragen 301–310). Bevölkerungsreichstes Bundesland, Landeshauptstadt Düsseldorf. Kostenlose Vorbereitung.',
+        'rheinland-pfalz':     'Einbürgerungstest Fragen für Rheinland-Pfalz (Fragen 301–310). Landeshauptstadt Mainz, bekannt für Weinanbau. Kostenlose Prüfungsvorbereitung.',
+        'saarland':            'Einbürgerungstest Fragen für das Saarland (Fragen 301–310). Landeshauptstadt Saarbrücken, grenzt an Frankreich und Luxemburg. Kostenlose Vorbereitung.',
+        'sachsen':             'Einbürgerungstest Fragen für Sachsen (Fragen 301–310). Landeshauptstadt Dresden. Bekannt für Barockarchitektur. Kostenlose Prüfungsvorbereitung.',
+        'sachsen-anhalt':      'Einbürgerungstest Fragen für Sachsen-Anhalt (Fragen 301–310). Landeshauptstadt Magdeburg. Reformationsland Martin Luthers. Kostenlose Vorbereitung.',
+        'schleswig-holstein':  'Einbürgerungstest Fragen für Schleswig-Holstein (Fragen 301–310). Landeshauptstadt Kiel, zwischen Nord- und Ostsee. Kostenlose Prüfungsvorbereitung.',
+        'thueringen':          'Einbürgerungstest Fragen für Thüringen (Fragen 301–310). Landeshauptstadt Erfurt. Grünes Herz Deutschlands, Heimat von Goethe und Schiller. Kostenlose Vorbereitung.',
+    },
+};
+
+// State intro paragraphs — shown above the question table on each state page.
+// Provides context for visitors and unique text content for SEO.
+const STATE_INTROS = {
+    'baden-wuerttemberg': {
+        en: 'Baden-Württemberg is located in the southwest of Germany, bordering France and Switzerland. Its capital is <strong>Stuttgart</strong>, home to the Landtag (state parliament). The state is known as an industrial powerhouse — headquarters of Mercedes-Benz, Porsche, Bosch, and SAP are all here. The Black Forest (Schwarzwald) and Lake Constance (Bodensee) are among its most famous natural landmarks. The head of government holds the title of <strong>Ministerpräsident/in</strong>.',
+        ur: 'باڈن ورٹمبرگ جنوب مغربی جرمنی میں واقع ہے اور فرانس و سوئٹزرلینڈ سے ملتا ہے۔ اس کا دارالحکومت <strong>اسٹوٹگارٹ</strong> ہے جہاں ریاستی پارلیمان (Landtag) موجود ہے۔ یہ ریاست صنعتی اعتبار سے بہت اہم ہے — Mercedes-Benz، Porsche، Bosch اور SAP کے صدر دفاتر یہاں ہیں۔ سیاہ جنگل (Schwarzwald) اور باڈن سی (Bodensee) مشہور قدرتی مقامات ہیں۔ حکومت کا سربراہ <strong>Ministerpräsident/in</strong> کہلاتا ہے۔',
+        de: 'Baden-Württemberg liegt im Südwesten Deutschlands und grenzt an Frankreich und die Schweiz. Die Landeshauptstadt ist <strong>Stuttgart</strong>, Sitz des Landtags. Das Land ist bekannt für seine Industrie — hier haben Mercedes-Benz, Porsche, Bosch und SAP ihren Hauptsitz. Der Schwarzwald und der Bodensee gehören zu den bekanntesten Naturlandschaften. Das Staatsoberhaupt trägt den Titel <strong>Ministerpräsident/in</strong>.',
+    },
+    'bayern': {
+        en: 'Bavaria (Bayern) is the largest German state by area, located in the southeast and bordering Austria and the Czech Republic. The capital is <strong>Munich (München)</strong>, home to the Bayerischer Landtag. Bavaria is known for the Alps, Oktoberfest, BMW, and a strong tradition of arts and culture. The head of government is the <strong>Ministerpräsident/in</strong>. Bavaria has its own strong regional identity and the Bavarian dialect is widely spoken.',
+        ur: 'باویریا (Bayern) رقبے کے لحاظ سے جرمنی کی سب سے بڑی ریاست ہے، جنوب مشرق میں واقع ہے اور آسٹریا و چیک ریپبلک سے ملتی ہے۔ دارالحکومت <strong>میونخ (München)</strong> ہے جہاں Bayerischer Landtag قائم ہے۔ باویریا آلپس پہاڑوں، Oktoberfest، BMW اور فنون و ثقافت کے لیے مشہور ہے۔ سربراہ حکومت کا عہدہ <strong>Ministerpräsident/in</strong> ہے۔ باویریا کی اپنی مضبوط علاقائی شناخت اور زبان (Bavarian) ہے۔',
+        de: 'Bayern ist das flächenmäßig größte Bundesland Deutschlands im Südosten, das an Österreich und Tschechien grenzt. Die Landeshauptstadt ist <strong>München</strong>, Sitz des Bayerischen Landtags. Bayern ist bekannt für die Alpen, das Oktoberfest, BMW und eine starke Kulturlandschaft. Das Staatsoberhaupt ist der <strong>Ministerpräsident/in</strong>. Bayern pflegt eine ausgeprägte regionale Identität.',
+    },
+    'berlin': {
+        en: 'Berlin is Germany\'s <strong>capital city</strong> and simultaneously a federal state (city-state). Its parliament is called the <strong>Abgeordnetenhaus</strong> and the head of government is the <strong>Regierender Bürgermeister/in</strong>. Berlin was divided by the Berlin Wall from 1961 until 1989. After reunification in 1990 it became the capital of reunified Germany. It is home to the Bundestag, Brandenburg Gate, and numerous world-class museums and cultural institutions.',
+        ur: 'برلن جرمنی کا <strong>دارالحکومت</strong> اور بیک وقت ایک وفاقی ریاست (شہری ریاست) بھی ہے۔ اس کی پارلیمان <strong>Abgeordnetenhaus</strong> کہلاتی ہے اور حکومت کا سربراہ <strong>Regierender Bürgermeister/in</strong> ہوتا ہے۔ برلن 1961 سے 1989 تک دیوارِ برلن سے تقسیم رہا۔ 1990 میں جرمنی کے اتحاد کے بعد یہ متحدہ جرمنی کا دارالحکومت بنا۔ یہاں Bundestag، برانڈنبرگ گیٹ اور عالمی سطح کے عجائب گھر موجود ہیں۔',
+        de: 'Berlin ist gleichzeitig <strong>Bundeshauptstadt</strong> und Bundesland (Stadtstaat). Das Landesparlament heißt <strong>Abgeordnetenhaus</strong>, das Staatsoberhaupt ist der/die <strong>Regierende Bürgermeister/in</strong>. Von 1961 bis 1989 war Berlin durch die Berliner Mauer geteilt. Nach der Wiedervereinigung 1990 wurde es wieder Hauptstadt Gesamtdeutschlands. Hier befinden sich der Bundestag, das Brandenburger Tor und viele weltbekannte Museen.',
+    },
+    'brandenburg': {
+        en: 'Brandenburg surrounds the city-state of Berlin and is located in northeastern Germany. Its capital is <strong>Potsdam</strong>, famous for the Sanssouci Palace (UNESCO World Heritage Site) and the <strong>Landtag</strong>. The state is characterised by vast forests, more than 3,000 lakes, and the Spreewald biosphere reserve. The head of government holds the title of <strong>Ministerpräsident/in</strong>. Brandenburg was part of East Germany (GDR) before reunification in 1990.',
+        ur: 'برانڈنبرگ شہری ریاست برلن کو چاروں طرف سے گھیرے ہوئے ہے اور شمال مشرقی جرمنی میں واقع ہے۔ اس کا دارالحکومت <strong>پوٹسڈام</strong> ہے جو Sanssouci محل (یونیسکو عالمی ورثہ) اور <strong>Landtag</strong> کے لیے مشہور ہے۔ یہ ریاست وسیع جنگلات، 3000 سے زیادہ جھیلوں اور Spreewald کے لیے جانی جاتی ہے۔ حکومت کا سربراہ <strong>Ministerpräsident/in</strong> ہے۔ برانڈنبرگ 1990 کے اتحاد سے پہلے مشرقی جرمنی (GDR) کا حصہ تھا۔',
+        de: 'Brandenburg umschließt den Stadtstaat Berlin und liegt in Nordostdeutschland. Die Landeshauptstadt ist <strong>Potsdam</strong>, bekannt für Schloss Sanssouci (UNESCO-Welterbe) und den <strong>Landtag</strong>. Das Land zeichnet sich durch weite Wälder, über 3.000 Seen und den Spreewald aus. Das Staatsoberhaupt trägt den Titel <strong>Ministerpräsident/in</strong>. Brandenburg gehörte vor der Wiedervereinigung 1990 zur DDR.',
+    },
+    'bremen': {
+        en: 'Bremen is Germany\'s <strong>smallest state by population</strong> and consists of two cities: Bremen and Bremerhaven. It is a city-state and one of the oldest trading cities in Germany. Its parliament is called the <strong>Bremische Bürgerschaft</strong> and the head of government is the <strong>Bürgermeister/in (Senatspräsident/in)</strong>. The port of Bremen and Bremerhaven handles a significant share of German foreign trade. The Bremen Town Musicians statue is one of Germany\'s most photographed sculptures.',
+        ur: 'بریمن آبادی کے لحاظ سے جرمنی کی <strong>سب سے چھوٹی ریاست</strong> ہے اور دو شہروں پر مشتمل ہے: بریمن اور بریمرہافن۔ یہ ایک شہری ریاست اور جرمنی کے قدیم ترین تجارتی شہروں میں سے ایک ہے۔ اس کی پارلیمان <strong>Bremische Bürgerschaft</strong> کہلاتی ہے اور حکومت کا سربراہ <strong>Bürgermeister/in (Senatspräsident/in)</strong> ہوتا ہے۔ بریمن بندرگاہ جرمن تجارت میں اہم کردار ادا کرتی ہے۔',
+        de: 'Bremen ist Deutschlands <strong>kleinstes Bundesland nach Einwohnerzahl</strong> und besteht aus zwei Städten: Bremen und Bremerhaven. Als Stadtstaat ist es eine der ältesten Handelsstädte Deutschlands. Das Landesparlament heißt <strong>Bremische Bürgerschaft</strong>, das Staatsoberhaupt ist der/die <strong>Bürgermeister/in (Senatspräsident/in)</strong>. Die Häfen Bremen und Bremerhaven wickeln bedeutende Teile des deutschen Außenhandels ab.',
+    },
+    'hamburg': {
+        en: 'Hamburg is Germany\'s <strong>second-largest city</strong> and a city-state. It is home to Germany\'s largest port and is one of the most important trading hubs in Europe. Its parliament is called the <strong>Bürgerschaft</strong> and the head of government is the <strong>Erster Bürgermeister/in (Senatspräsident/in)</strong>. Hamburg has a rich maritime history and is known for the Speicherstadt warehouse district (UNESCO World Heritage Site), the Elbphilharmonie concert hall, and the Reeperbahn entertainment quarter.',
+        ur: 'ہیمبرگ جرمنی کا <strong>دوسرا سب سے بڑا شہر</strong> اور ایک شہری ریاست ہے۔ یہ جرمنی کی سب سے بڑی بندرگاہ کا گھر ہے اور یورپ کے اہم ترین تجارتی مراکز میں سے ایک ہے۔ اس کی پارلیمان <strong>Bürgerschaft</strong> ہے اور حکومت کا سربراہ <strong>Erster Bürgermeister/in (Senatspräsident/in)</strong> ہے۔ Speicherstadt (یونیسکو ورثہ)، Elbphilharmonie اور Reeperbahn مشہور مقامات ہیں۔',
+        de: 'Hamburg ist Deutschlands <strong>zweitgrößte Stadt</strong> und ein Stadtstaat. Es beherbergt den größten deutschen Hafen und ist eines der wichtigsten Handelszentren Europas. Das Landesparlament heißt <strong>Bürgerschaft</strong>, das Staatsoberhaupt ist der/die <strong>Erste Bürgermeister/in (Senatspräsident/in)</strong>. Die Speicherstadt (UNESCO-Welterbe), die Elbphilharmonie und die Reeperbahn sind bekannte Wahrzeichen.',
+    },
+    'hessen': {
+        en: 'Hesse (Hessen) is located in central Germany. Its capital is <strong>Wiesbaden</strong>, seat of the <strong>Landtag</strong>, while Frankfurt am Main — though not the capital — is Germany\'s financial centre and home to the European Central Bank (ECB) and Frankfurt Stock Exchange (Deutsche Börse). The head of government holds the title of <strong>Ministerpräsident/in</strong>. Hesse is one of Germany\'s most economically important states and Frankfurt Airport is a major European hub.',
+        ur: 'ہیسن وسطی جرمنی میں واقع ہے۔ اس کا دارالحکومت <strong>وِسبادن</strong> ہے جہاں <strong>Landtag</strong> قائم ہے، جبکہ فرینکفرٹ — جو دارالحکومت نہیں — جرمنی کا مالیاتی مرکز اور یورپی مرکزی بینک (ECB) اور Frankfurt Stock Exchange کا گھر ہے۔ سربراہ حکومت کا عہدہ <strong>Ministerpräsident/in</strong> ہے۔ ہیسن جرمنی کی اقتصادی اعتبار سے اہم ترین ریاستوں میں سے ایک ہے۔',
+        de: 'Hessen liegt in Mitteldeutschland. Die Landeshauptstadt ist <strong>Wiesbaden</strong>, Sitz des <strong>Landtags</strong>. Frankfurt am Main — obwohl nicht Landeshauptstadt — ist Deutschlands Finanzzentrum und Sitz der Europäischen Zentralbank (EZB) und der Deutschen Börse. Das Staatsoberhaupt ist der/die <strong>Ministerpräsident/in</strong>. Der Flughafen Frankfurt ist einer der wichtigsten Drehkreuze Europas.',
+    },
+    'mecklenburg-vorpommern': {
+        en: 'Mecklenburg-Vorpommern is located in northeastern Germany along the Baltic Sea coast. Its capital is <strong>Schwerin</strong>, home to the <strong>Landtag</strong> and the beautiful Schwerin Palace. The state is characterised by its long coastline, thousands of lakes, and the islands of Rügen and Usedom — popular holiday destinations. The head of government holds the title of <strong>Ministerpräsident/in</strong>. Tourism and agriculture are among the key economic sectors.',
+        ur: 'میکلنبرگ-فورپومرن شمال مشرقی جرمنی میں بالٹک سمندر کے ساحل پر واقع ہے۔ اس کا دارالحکومت <strong>شوَرین</strong> ہے جہاں <strong>Landtag</strong> اور خوبصورت Schwerin محل ہے۔ یہ ریاست لمبے ساحل، ہزاروں جھیلوں اور جزائر Rügen و Usedom کی وجہ سے مشہور ہے۔ حکومت کا سربراہ <strong>Ministerpräsident/in</strong> ہے۔ سیاحت اور زراعت اہم اقتصادی شعبے ہیں۔',
+        de: 'Mecklenburg-Vorpommern liegt im Nordosten Deutschlands an der Ostseeküste. Die Landeshauptstadt ist <strong>Schwerin</strong>, Sitz des <strong>Landtags</strong> und des prächtigen Schweriner Schlosses. Das Land ist bekannt für seine lange Küstenlinie, tausende Seen und die Inseln Rügen und Usedom. Das Staatsoberhaupt ist der/die <strong>Ministerpräsident/in</strong>. Tourismus und Landwirtschaft sind wichtige Wirtschaftszweige.',
+    },
+    'niedersachsen': {
+        en: 'Lower Saxony (Niedersachsen) is Germany\'s <strong>second-largest state by area</strong>, located in northwestern Germany. Its capital is <strong>Hanover (Hannover)</strong>, seat of the <strong>Landtag</strong>. Volkswagen is headquartered in Wolfsburg, making the automotive industry central to the state\'s economy. Lower Saxony also has important agricultural land and North Sea coastline. The head of government is the <strong>Ministerpräsident/in</strong>. The Hanover Messe is the world\'s largest industrial trade fair.',
+        ur: 'نیڈرزاخسن رقبے کے لحاظ سے جرمنی کی <strong>دوسری سب سے بڑی ریاست</strong> ہے اور شمال مغربی جرمنی میں واقع ہے۔ اس کا دارالحکومت <strong>ہینووَر (Hannover)</strong> ہے جہاں <strong>Landtag</strong> قائم ہے۔ Volkswagen کا صدر دفتر ولفسبرگ میں ہے جو آٹوموبائل صنعت کو مرکزی حیثیت دیتا ہے۔ ریاست کا شمالی سمندری ساحل اور زرعی اراضی بھی اہم ہیں۔ سربراہ حکومت <strong>Ministerpräsident/in</strong> ہے۔',
+        de: 'Niedersachsen ist das <strong>flächenmäßig zweitgrößte Bundesland</strong> Deutschlands im Nordwesten. Die Landeshauptstadt ist <strong>Hannover</strong>, Sitz des <strong>Landtags</strong>. Volkswagen hat seinen Hauptsitz in Wolfsburg, was die Automobilindustrie zu einem zentralen Wirtschaftszweig macht. Das Land hat zudem bedeutende Landwirtschaftsflächen und Nordseeküste. Das Staatsoberhaupt ist der/die <strong>Ministerpräsident/in</strong>.',
+    },
+    'nordrhein-westfalen': {
+        en: 'North Rhine-Westphalia (Nordrhein-Westfalen) is Germany\'s <strong>most populous state</strong> with about 18 million inhabitants. Its capital is <strong>Düsseldorf</strong>, home to the <strong>Landtag</strong>. The Rhine-Ruhr metropolitan area is one of the largest urban agglomerations in Europe. Cologne (Köln), Bonn (former West German capital), Dortmund, and Essen are among its major cities. The head of government is the <strong>Ministerpräsident/in</strong>. The state has transitioned from heavy industry to a diverse, modern economy.',
+        ur: 'نارڈرائن ویسٹ فالن جرمنی کی <strong>سب سے زیادہ آبادی والی ریاست</strong> ہے جس میں تقریباً 18 ملین افراد رہتے ہیں۔ اس کا دارالحکومت <strong>ڈوسلڈورف</strong> ہے جہاں <strong>Landtag</strong> ہے۔ Rhine-Ruhr میگاسٹی یورپ کی بڑی شہری مجموعات میں سے ایک ہے۔ کولون، بون (سابق مغربی جرمن دارالحکومت)، ڈورٹمنڈ اور ایسن بڑے شہر ہیں۔ سربراہ حکومت <strong>Ministerpräsident/in</strong> ہے۔',
+        de: 'Nordrhein-Westfalen ist Deutschlands <strong>bevölkerungsreichstes Bundesland</strong> mit rund 18 Millionen Einwohnern. Die Landeshauptstadt ist <strong>Düsseldorf</strong>, Sitz des <strong>Landtags</strong>. Die Metropolregion Rhein-Ruhr ist eine der größten städtischen Ballungsräume Europas. Köln, Bonn (ehemalige Hauptstadt der BRD), Dortmund und Essen sind bedeutende Städte. Das Staatsoberhaupt ist der/die <strong>Ministerpräsident/in</strong>.',
+    },
+    'rheinland-pfalz': {
+        en: 'Rhineland-Palatinate (Rheinland-Pfalz) is located in southwestern Germany. Its capital is <strong>Mainz</strong>, home to the <strong>Landtag</strong> and the famous Gutenberg Museum (Johannes Gutenberg invented movable-type printing here). The Rhine, Moselle, and Nahe rivers run through the state, creating renowned wine-growing regions — Rheinland-Pfalz produces more wine than any other German state. The head of government is the <strong>Ministerpräsident/in</strong>.',
+        ur: 'رائن لینڈ-فالز جنوب مغربی جرمنی میں واقع ہے۔ اس کا دارالحکومت <strong>مائنز</strong> ہے جہاں <strong>Landtag</strong> اور مشہور گوٹنبرگ میوزیم ہے (یوہانس گوٹنبرگ نے یہیں حرکی طباعت ایجاد کی)۔ رائن، موزیل اور ناہے دریا اس ریاست سے گزرتے ہیں اور مشہور انگور کے باغات تشکیل دیتے ہیں — رائن لینڈ-فالز کسی بھی دوسری جرمن ریاست سے زیادہ شراب پیدا کرتی ہے۔ سربراہ حکومت <strong>Ministerpräsident/in</strong> ہے۔',
+        de: 'Rheinland-Pfalz liegt im Südwesten Deutschlands. Die Landeshauptstadt ist <strong>Mainz</strong>, Sitz des <strong>Landtags</strong> und des berühmten Gutenberg-Museums (Johannes Gutenberg erfand hier den Buchdruck). Rhein, Mosel und Nahe prägen die Landschaft und schaffen renommierte Weinbaugebiete — kein anderes Bundesland produziert mehr Wein. Das Staatsoberhaupt ist der/die <strong>Ministerpräsident/in</strong>.',
+    },
+    'saarland': {
+        en: 'Saarland is Germany\'s <strong>smallest non-city-state</strong>, located in the far southwest and bordering both France and Luxembourg. Its capital is <strong>Saarbrücken</strong>, home to the <strong>Landtag</strong>. The state has a strong French cultural influence due to its border location and was under French administration after World War II before joining West Germany in 1957. Its economy has shifted from coal and steel to modern industries. The head of government is the <strong>Ministerpräsident/in</strong>.',
+        ur: 'زارلینڈ جرمنی کی <strong>سب سے چھوٹی غیر شہری ریاست</strong> ہے جو انتہائی جنوب مغرب میں واقع ہے اور فرانس و لکسمبرگ دونوں سے ملتی ہے۔ اس کا دارالحکومت <strong>زاربروکن</strong> ہے جہاں <strong>Landtag</strong> ہے۔ سرحدی مقام کی وجہ سے اس پر فرانسیسی ثقافت کا گہرا اثر ہے۔ یہ دوسری جنگ عظیم کے بعد فرانسیسی انتظام میں رہا اور 1957 میں مغربی جرمنی میں شامل ہوا۔ سربراہ حکومت <strong>Ministerpräsident/in</strong> ہے۔',
+        de: 'Das Saarland ist Deutschlands <strong>kleinstes Flächenland</strong> im äußersten Südwesten und grenzt an Frankreich und Luxemburg. Die Landeshauptstadt ist <strong>Saarbrücken</strong>, Sitz des <strong>Landtags</strong>. Die Grenznähe zu Frankreich prägt die Kultur stark. Nach dem Zweiten Weltkrieg stand das Saarland unter französischer Verwaltung und trat 1957 der Bundesrepublik bei. Das Staatsoberhaupt ist der/die <strong>Ministerpräsident/in</strong>.',
+    },
+    'sachsen': {
+        en: 'Saxony (Sachsen) is located in eastern Germany, bordering Poland and the Czech Republic. Its capital is <strong>Dresden</strong>, home to the <strong>Landtag</strong> and renowned for its Baroque architecture and world-class art collections (Zwinger, Semperoper). Leipzig is another major city, famous as the home of Bach and the site of the 1989 Monday demonstrations that helped bring down the Berlin Wall. The head of government is the <strong>Ministerpräsident/in</strong>.',
+        ur: 'زاخسن مشرقی جرمنی میں واقع ہے اور پولینڈ و چیک ریپبلک سے ملتا ہے۔ اس کا دارالحکومت <strong>ڈریزڈن</strong> ہے جہاں <strong>Landtag</strong> اور بارک فن تعمیر و آرٹ کے عالمی مجموعے (Zwinger، Semperoper) موجود ہیں۔ لائپزگ ایک اور بڑا شہر ہے جو باخ کے گھر اور 1989 کے پیر کے جلوسوں کی وجہ سے مشہور ہے جنہوں نے برلن دیوار گرانے میں مدد کی۔ سربراہ حکومت <strong>Ministerpräsident/in</strong> ہے۔',
+        de: 'Sachsen liegt in Ostdeutschland und grenzt an Polen und Tschechien. Die Landeshauptstadt ist <strong>Dresden</strong>, Sitz des <strong>Landtags</strong>, bekannt für Barockarchitektur und weltberühmte Kunstsammlungen (Zwinger, Semperoper). Leipzig ist eine weitere Großstadt, bekannt als Heimat von Bach und als Ort der Montagsdemonstrationen 1989. Das Staatsoberhaupt ist der/die <strong>Ministerpräsident/in</strong>.',
+    },
+    'sachsen-anhalt': {
+        en: 'Saxony-Anhalt (Sachsen-Anhalt) is located in central-eastern Germany. Its capital is <strong>Magdeburg</strong>, home to the <strong>Landtag</strong> and one of Germany\'s oldest cathedrals. The state is historically significant as the heartland of the Protestant Reformation — Martin Luther was born in Eisleben and posted his 95 Theses in Wittenberg, both in Sachsen-Anhalt. The Bauhaus art movement was also founded in Dessau. The head of government is the <strong>Ministerpräsident/in</strong>.',
+        ur: 'زاخسن-انہالٹ وسطی مشرقی جرمنی میں واقع ہے۔ اس کا دارالحکومت <strong>ماگڈبرگ</strong> ہے جہاں <strong>Landtag</strong> اور جرمنی کے قدیم ترین گرجا گھروں میں سے ایک ہے۔ یہ ریاست پروٹسٹنٹ اصلاح کے مرکز کے طور پر تاریخی اہمیت رکھتی ہے — مارٹن لوتھر آئسلیبن میں پیدا ہوئے اور وِٹنبرگ میں اپنے 95 مقالے لگائے، دونوں جگہیں زاخسن-انہالٹ میں ہیں۔ Bauhaus فن تحریک بھی ڈیساؤ میں قائم ہوئی۔ سربراہ حکومت <strong>Ministerpräsident/in</strong> ہے۔',
+        de: 'Sachsen-Anhalt liegt in Mitteldeutschland. Die Landeshauptstadt ist <strong>Magdeburg</strong>, Sitz des <strong>Landtags</strong> und Heimat eines der ältesten Dome Deutschlands. Das Land ist historisch bedeutsam als Kernland der Reformation — Martin Luther wurde in Eisleben geboren und schlug in Wittenberg seine 95 Thesen an. Das Bauhaus wurde in Dessau gegründet. Das Staatsoberhaupt ist der/die <strong>Ministerpräsident/in</strong>.',
+    },
+    'schleswig-holstein': {
+        en: 'Schleswig-Holstein is Germany\'s northernmost state, located between the North Sea and the Baltic Sea. Its capital is <strong>Kiel</strong>, home to the <strong>Landtag</strong> and one of Germany\'s major naval bases and the start of the Kiel Canal (Nord-Ostsee-Kanal), the world\'s busiest artificial waterway. The state borders Denmark to the north. Flensburg and Lübeck (a UNESCO World Heritage city and birthplace of Thomas Mann) are other important cities. The head of government is the <strong>Ministerpräsident/in</strong>.',
+        ur: 'شلیسوگ-ہولسٹائن جرمنی کی سب سے شمالی ریاست ہے جو شمالی سمندر اور بالٹک سمندر کے درمیان واقع ہے۔ اس کا دارالحکومت <strong>کیل</strong> ہے جہاں <strong>Landtag</strong> اور Kiel نہر (Nord-Ostsee-Kanal) کا آغاز ہوتا ہے — دنیا کی مصروف ترین مصنوعی آبگزر۔ شمال میں ڈنمارک کی سرحد ہے۔ فلنسبرگ اور لوبیک (یونیسکو ورثہ) اہم شہر ہیں۔ سربراہ حکومت <strong>Ministerpräsident/in</strong> ہے۔',
+        de: 'Schleswig-Holstein ist das nördlichste Bundesland Deutschlands, zwischen Nord- und Ostsee gelegen. Die Landeshauptstadt ist <strong>Kiel</strong>, Sitz des <strong>Landtags</strong> und Ausgangspunkt des Nord-Ostsee-Kanals, der meistbefahrenen künstlichen Wasserstraße der Welt. Im Norden grenzt das Land an Dänemark. Flensburg und Lübeck (UNESCO-Welterbe) sind weitere bedeutende Städte. Das Staatsoberhaupt ist der/die <strong>Ministerpräsident/in</strong>.',
+    },
+    'thueringen': {
+        en: 'Thuringia (Thüringen) is located in central Germany and is often called the <strong>"Green Heart of Germany"</strong> for its dense forests, including the Thuringian Forest (Thüringer Wald). Its capital is <strong>Erfurt</strong>, home to the <strong>Landtag</strong>. The state has exceptional cultural heritage — Weimar was the home of Goethe and Schiller, Eisenach is the birthplace of Johann Sebastian Bach, and Luther translated the New Testament in Wartburg Castle. The head of government is the <strong>Ministerpräsident/in</strong>.',
+        ur: 'تھیورنگن وسطی جرمنی میں واقع ہے اور اپنے گھنے جنگلات کی وجہ سے <strong>"جرمنی کا سبز دل"</strong> کہلاتا ہے۔ اس کا دارالحکومت <strong>ایرفرٹ</strong> ہے جہاں <strong>Landtag</strong> قائم ہے۔ اس ریاست کا غیر معمولی ثقافتی ورثہ ہے — وائمار گوئٹے اور شِلر کا گھر تھا، ایزناخ یوہان سیباسٹین باخ کی جائے پیدائش ہے، اور لوتھر نے وارٹبرگ قلعے میں نئے عہد نامے کا ترجمہ کیا۔ سربراہ حکومت <strong>Ministerpräsident/in</strong> ہے۔',
+        de: 'Thüringen liegt in Mitteldeutschland und wird wegen seiner dichten Wälder oft als <strong>„Grünes Herz Deutschlands"</strong> bezeichnet. Die Landeshauptstadt ist <strong>Erfurt</strong>, Sitz des <strong>Landtags</strong>. Das Land besitzt ein außergewöhnliches Kulturerbe — Weimar war die Heimat von Goethe und Schiller, Eisenach ist der Geburtsort Johann Sebastian Bachs, und Luther übersetzte das Neue Testament auf der Wartburg. Das Staatsoberhaupt ist der/die <strong>Ministerpräsident/in</strong>.',
     },
 };
 
 function buildMetaDesc(lang, title, slug) {
     const descs = META_DESCS[lang] || META_DESCS.en;
     if (descs[slug]) return descs[slug];
-    // Fallback for state pages not in ur map
+    // Fallback for state pages not in ur/de map
     const enDesc = META_DESCS.en[slug];
     if (lang === 'ur' && enDesc) {
         return `${title} — Einbürgerungstest کے ریاستی سوالات اردو ترجمے کے ساتھ۔ مفت تیاری گائیڈ۔`;
     }
-    return `${UI[lang].tagline} — ${title}. ${lang === 'en' ? 'Free German citizenship test prep.' : 'مفت تیاری گائیڈ۔'}`;
+    if (lang === 'de' && enDesc) {
+        return `${title} — Einbürgerungstest Länderfragen mit Erklärungen. Kostenlose Prüfungsvorbereitung.`;
+    }
+    const tagline = (UI[lang] || UI.en).tagline;
+    return `${tagline} — ${title}. ${lang === 'en' ? 'Free German citizenship test prep.' : lang === 'de' ? 'Kostenlose Prüfungsvorbereitung.' : 'مفت تیاری گائیڈ۔'}`;
 }
 
 // Extract FAQ structured data from generated HTML.
@@ -377,8 +495,9 @@ function renderPage({ lang, title, bodyHtml, slug }) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>${escapeHtml(title)} · ${escapeHtml(ui.siteTitle)}</title>
+    <title>${slug === 'index' ? escapeHtml(ui.siteTitle) : `${escapeHtml(title)} · ${escapeHtml(ui.siteTitle)}`}</title>
     <meta name="description" content="${escapeHtml(buildMetaDesc(lang, title, slug))}">
+    <meta name="description" lang="de" content="${escapeHtml(buildMetaDesc('de', TITLES.en[slug] || title, slug))}">
     <link rel="canonical" href="${SITE_BASE_URL}/${lang}/${slug}.html">
 
     <!-- hreflang: tell Google these are the same page in different languages -->
@@ -1204,6 +1323,17 @@ function buildLang(lang) {
         }
 
         const title = (TITLES[lang][slug]) || slug;
+
+        // Inject state intro paragraph above the question content for state pages
+        const isStatePage = ORDERED_STATES.includes(slug);
+        if (isStatePage && STATE_INTROS[slug]) {
+            const intro = STATE_INTROS[slug][lang] || STATE_INTROS[slug].en;
+            const dir = lang === 'ur' ? 'rtl' : 'ltr';
+            const fontStyle = lang === 'ur' ? "font-family:'Noto Nastaliq Urdu',serif;line-height:2.1;" : '';
+            const introHtml = `<div class="state-intro" dir="${dir}" style="background:color-mix(in srgb,var(--primary) 7%,var(--card-bg));border:1px solid color-mix(in srgb,var(--primary) 20%,var(--border));border-radius:.75rem;padding:1rem 1.25rem;margin-bottom:1.5rem;font-size:.96rem;line-height:1.75;${fontStyle}">${intro}</div>`;
+            bodyHtml = introHtml + bodyHtml;
+        }
+
         const html = renderPage({ lang, title, bodyHtml, slug });
         fs.writeFileSync(path.join(outDir, `${slug}.html`), html);
         slugs.push(slug);
