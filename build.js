@@ -952,27 +952,167 @@ function renderPage({ lang, title, bodyHtml, slug }) {
 function renderIndex({ lang, slugs }) {
     const ui = UI[lang];
     const titles = TITLES[lang];
-    const questionSlugs = slugs.filter(s => s.startsWith('questions-')).sort();
-    const stateSlugs = slugs.filter(s => !s.startsWith('questions-')).sort();
+    const dir = lang === 'ur' ? 'rtl' : 'ltr';
+    const isUr = lang === 'ur';
 
-    const listItems = arr => arr.map(s => {
-        const t = titles[s] || s;
-        return `<li><a href="./${s}.html">${escapeHtml(t)}</a></li>`;
-    }).join('\n        ');
+    // Question set cards — 6 sets with range labels
+    const qSets = [
+        { slug: 'questions-001-050', range: '1–50'   },
+        { slug: 'questions-051-100', range: '51–100'  },
+        { slug: 'questions-101-150', range: '101–150' },
+        { slug: 'questions-151-200', range: '151–200' },
+        { slug: 'questions-201-250', range: '201–250' },
+        { slug: 'questions-251-300', range: '251–300' },
+    ];
+
+    // State slugs sorted
+    const stateSlugs = ORDERED_STATES;
+
+    // Intro text per language
+    const intro = {
+        en: 'The <strong>Einbürgerungstest</strong> (Leben in Deutschland test) is required for German Permanent Residence and Citizenship. The test is in German — use this free guide to study every official question with English translation and clear explanation.',
+        ur: 'جرمن مستقل اقامت (Niederlassungserlaubnis) اور شہریت کے لیے <strong>Einbürgerungstest</strong> پاس کرنا ضروری ہے۔ یہ امتحان جرمن زبان میں ہوتا ہے — اس مفت گائیڈ میں ہر سرکاری سوال کا اردو ترجمہ اور آسان وضاحت موجود ہے۔',
+    };
+
+    const headings = {
+        en: { qs: '📖 General Questions', states: '🗺️ State Questions', howLabel: '❓ How it works', howText: 'The test has <strong>33 questions</strong> — 30 from the general pool and 3 from your state. You need <strong>17 correct</strong> to pass. <a href="../quiz.html">Take the practice quiz →</a>', statsLabel: '' },
+        ur: { qs: '📖 عمومی سوالات', states: '🗺️ ریاستی سوالات', howLabel: '❓ امتحان کیسے ہوتا ہے؟', howText: 'امتحان میں <strong>33 سوالات</strong> ہوتے ہیں — 30 عمومی اور 3 آپ کی ریاست کے۔ پاس کرنے کے لیے <strong>17 درست</strong> جوابات ضروری ہیں۔ <a href="../quiz.html">مشق کوئز دیں ←</a>' },
+    };
+
+    const h = headings[lang] || headings.en;
+
+    // Stats bar
+    const stats = lang === 'ur'
+        ? `<div class="idx-stats"><span>📋 300+ سوالات</span><span>🗺️ 16 ریاستیں</span><span>✅ درست جوابات</span><span>💡 ہر سوال کی وضاحت</span></div>`
+        : `<div class="idx-stats"><span>📋 300+ questions</span><span>🗺️ 16 Bundesländer</span><span>✅ Answers highlighted</span><span>💡 Explanation per question</span></div>`;
+
+    // Question set cards
+    const qCards = qSets.map(({ slug, range }) => {
+        const label = isUr ? `سوالات ${range}` : `Questions ${range}`;
+        return `<a class="idx-card" href="./${slug}.html">
+            <span class="idx-card-icon">📝</span>
+            <span class="idx-card-label">${label}</span>
+        </a>`;
+    }).join('');
+
+    // State cards
+    const stateCards = stateSlugs.map(slug => {
+        const t = titles[slug] || slug;
+        return `<a class="idx-card idx-card--state" href="./${slug}.html">
+            <span class="idx-card-label">${escapeHtml(t)}</span>
+        </a>`;
+    }).join('');
+
+    // Quiz CTA
+    const quizCta = lang === 'ur'
+        ? `<a class="idx-quiz-cta" href="../quiz.html">🎯 مشق کوئز شروع کریں — اصل Einbürgerungstest کی طرح</a>`
+        : `<a class="idx-quiz-cta" href="../quiz.html">🎯 Start Practice Quiz — simulates the real Einbürgerungstest</a>`;
 
     const body = `
-        <h1>${escapeHtml(ui.siteTitle)}</h1>
-        <p class="lead" style="color: var(--muted-text);">${escapeHtml(ui.tagline)}</p>
+        <style>
+        .idx-intro {
+            background: color-mix(in srgb, var(--primary) 7%, var(--card-bg));
+            border: 1px solid color-mix(in srgb, var(--primary) 20%, var(--border));
+            border-radius: .75rem;
+            padding: 1.1rem 1.25rem;
+            font-size: .97rem;
+            line-height: 1.7;
+            margin-bottom: 1.25rem;
+        }
+        .idx-stats {
+            display: flex;
+            flex-wrap: wrap;
+            gap: .4rem .9rem;
+            font-size: .85rem;
+            color: var(--muted-text);
+            margin-bottom: 1.5rem;
+        }
+        .idx-how {
+            background: color-mix(in srgb, var(--success, #059669) 8%, var(--card-bg));
+            border: 1px solid color-mix(in srgb, var(--success, #059669) 20%, var(--border));
+            border-radius: .75rem;
+            padding: 1rem 1.25rem;
+            font-size: .92rem;
+            line-height: 1.7;
+            margin-bottom: 1.75rem;
+        }
+        .idx-how strong { color: var(--page-text); }
+        .idx-how a { color: var(--primary); font-weight: 600; }
+        .idx-section-title {
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin: 1.75rem 0 .75rem;
+        }
+        .idx-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(145px, 1fr));
+            gap: .55rem;
+            margin-bottom: .5rem;
+        }
+        .idx-grid--states {
+            grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+        }
+        .idx-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: .3rem;
+            padding: .85rem .6rem;
+            background: var(--card-bg);
+            border: 1.5px solid var(--border);
+            border-radius: .65rem;
+            text-decoration: none;
+            color: var(--page-text);
+            font-size: .88rem;
+            font-weight: 600;
+            text-align: center;
+            transition: border-color .15s, background .15s, transform .1s;
+            line-height: 1.4;
+        }
+        .idx-card:hover {
+            border-color: var(--primary);
+            background: color-mix(in srgb, var(--primary) 8%, var(--card-bg));
+            transform: translateY(-1px);
+            color: var(--page-text);
+        }
+        .idx-card-icon { font-size: 1.4rem; }
+        .idx-card--state { flex-direction: row; justify-content: start; gap: .5rem; font-size: .85rem; padding: .7rem .85rem; }
+        .idx-quiz-cta {
+            display: block;
+            margin: 1.75rem 0 .5rem;
+            padding: 1rem 1.25rem;
+            background: var(--primary);
+            color: #fff;
+            font-weight: 700;
+            font-size: 1rem;
+            text-align: center;
+            border-radius: .75rem;
+            text-decoration: none;
+            transition: background .15s;
+        }
+        .idx-quiz-cta:hover { background: var(--primary-hover, #1e40af); color: #fff; }
+        @media (max-width: 480px) {
+            .idx-grid { grid-template-columns: 1fr 1fr; }
+            .idx-grid--states { grid-template-columns: 1fr 1fr; }
+        }
+        </style>
 
-        <h2>${escapeHtml(ui.questionsHeading)}</h2>
-        <ul>
-        ${listItems(questionSlugs)}
-        </ul>
+        <h1 style="margin-bottom:.75rem;">${escapeHtml(ui.siteTitle)}</h1>
 
-        <h2>${escapeHtml(ui.statesHeading)}</h2>
-        <ul>
-        ${listItems(stateSlugs)}
-        </ul>
+        <div class="idx-intro">${intro[lang] || intro.en}</div>
+
+        ${stats}
+
+        <div class="idx-how"><strong>${escapeHtml(h.howLabel)}</strong><br>${h.howText}</div>
+
+        ${quizCta}
+
+        <p class="idx-section-title">${escapeHtml(h.qs)}</p>
+        <div class="idx-grid">${qCards}</div>
+
+        <p class="idx-section-title">${escapeHtml(h.states)}</p>
+        <div class="idx-grid idx-grid--states">${stateCards}</div>
     `;
 
     return renderPage({ lang, title: ui.siteTitle, bodyHtml: body, slug: 'index' });
@@ -1070,10 +1210,10 @@ function buildLang(lang) {
         console.log(`  ✓ ${lang}/${slug}.html`);
     }
 
-    // Per-language index: prefer README content, fall back to auto-generated list
-    const indexHtml = readmeHtml
-        ? renderPage({ lang, title: UI[lang].siteTitle, bodyHtml: readmeHtml, slug: 'index' })
-        : renderIndex({ lang, slugs });
+    // Per-language index: always use the purpose-built renderIndex homepage.
+    // We no longer use README.md content as the index — it was designed for
+    // GitHub readers, not website visitors, and was inconsistent between languages.
+    const indexHtml = renderIndex({ lang, slugs });
     fs.writeFileSync(path.join(outDir, 'index.html'), indexHtml);
     console.log(`  ✓ ${lang}/index.html`);
 }

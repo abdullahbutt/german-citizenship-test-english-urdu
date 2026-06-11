@@ -467,376 +467,162 @@
             <button class="pager-btn" onclick="goRandom()" style="white-space:nowrap;">🎲 Random Question</button>
         </nav>
         <article class="content-card">
-            <blockquote>
-<div align="center"></blockquote>
-<p><a href="https://github.com/abdullahbutt/german-citizenship-test-english-urdu"><img src="https://img.shields.io/github/stars/abdullahbutt/german-citizenship-test-english-urdu?style=for-the-badge&logo=github&label=Star%20this%20Repo" alt="GitHub Stars"></a>
-&nbsp;&nbsp;
-<a href="https://abdullahbutt.github.io/german-citizenship-test-english-urdu/"><img src="https://img.shields.io/badge/%F0%9F%8C%90_View_as_Website-Click_Here-blue?style=for-the-badge" alt="View Website"></a>
-&nbsp;&nbsp;
-<a href="LICENSE-CONTENT.html"><img src="https://img.shields.io/badge/Content-CC%20BY--NC%204.0-lightgrey?style=for-the-badge&logo=creative-commons" alt="CC BY-NC 4.0"></a></p>
-</div>
+            
+        <style>
+        .idx-intro {
+            background: color-mix(in srgb, var(--primary) 7%, var(--card-bg));
+            border: 1px solid color-mix(in srgb, var(--primary) 20%, var(--border));
+            border-radius: .75rem;
+            padding: 1.1rem 1.25rem;
+            font-size: .97rem;
+            line-height: 1.7;
+            margin-bottom: 1.25rem;
+        }
+        .idx-stats {
+            display: flex;
+            flex-wrap: wrap;
+            gap: .4rem .9rem;
+            font-size: .85rem;
+            color: var(--muted-text);
+            margin-bottom: 1.5rem;
+        }
+        .idx-how {
+            background: color-mix(in srgb, var(--success, #059669) 8%, var(--card-bg));
+            border: 1px solid color-mix(in srgb, var(--success, #059669) 20%, var(--border));
+            border-radius: .75rem;
+            padding: 1rem 1.25rem;
+            font-size: .92rem;
+            line-height: 1.7;
+            margin-bottom: 1.75rem;
+        }
+        .idx-how strong { color: var(--page-text); }
+        .idx-how a { color: var(--primary); font-weight: 600; }
+        .idx-section-title {
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin: 1.75rem 0 .75rem;
+        }
+        .idx-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(145px, 1fr));
+            gap: .55rem;
+            margin-bottom: .5rem;
+        }
+        .idx-grid--states {
+            grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+        }
+        .idx-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: .3rem;
+            padding: .85rem .6rem;
+            background: var(--card-bg);
+            border: 1.5px solid var(--border);
+            border-radius: .65rem;
+            text-decoration: none;
+            color: var(--page-text);
+            font-size: .88rem;
+            font-weight: 600;
+            text-align: center;
+            transition: border-color .15s, background .15s, transform .1s;
+            line-height: 1.4;
+        }
+        .idx-card:hover {
+            border-color: var(--primary);
+            background: color-mix(in srgb, var(--primary) 8%, var(--card-bg));
+            transform: translateY(-1px);
+            color: var(--page-text);
+        }
+        .idx-card-icon { font-size: 1.4rem; }
+        .idx-card--state { flex-direction: row; justify-content: start; gap: .5rem; font-size: .85rem; padding: .7rem .85rem; }
+        .idx-quiz-cta {
+            display: block;
+            margin: 1.75rem 0 .5rem;
+            padding: 1rem 1.25rem;
+            background: var(--primary);
+            color: #fff;
+            font-weight: 700;
+            font-size: 1rem;
+            text-align: center;
+            border-radius: .75rem;
+            text-decoration: none;
+            transition: background .15s;
+        }
+        .idx-quiz-cta:hover { background: var(--primary-hover, #1e40af); color: #fff; }
+        @media (max-width: 480px) {
+            .idx-grid { grid-template-columns: 1fr 1fr; }
+            .idx-grid--states { grid-template-columns: 1fr 1fr; }
+        }
+        </style>
 
-<blockquote>
-<p>⭐ If this helped you pass your test, <a href="https://github.com/abdullahbutt/german-citizenship-test-english-urdu">please star this repo</a> — it helps others find it!</p>
-</blockquote>
-<h1><span class="fi fi-de" role="img" aria-label="Germany" title="Germany"></span> German Citizenship Test — with English Translations</h1>
-<blockquote>
-<p><span class="fi fi-pk" role="img" aria-label="Pakistan" title="Pakistan"></span> اردو ترجمہ کے لیے — <a href="../ur/index.html">Urdu Branch</a></p>
-</blockquote>
-<blockquote>
-<p>All <strong>300 general + 160 state-specific</strong> questions from the official <strong>BAMF Einbürgerungstest / Leben in Deutschland</strong> test catalog, with English translations, correct answers highlighted in ✅, and explanations.</p>
-</blockquote>
-<p>Based on the official BAMF catalog (Stand: 07.05.2025).</p>
-<blockquote>
-<p>⚠️ <strong>Important:</strong> For educational purposes only. Questions about current officeholders (Chancellor, Minister-Presidents) change with elections — always verify on the <a href="https://www.bamf.de">BAMF website</a> before your test.</p>
-</blockquote>
-<h2>🚀 Quick Start</h2>
-<p>New here? Start with <a href="./questions-001-050.html">Questions 1–50</a>, then find your state in the table below.</p>
-<hr>
-<h2>📋 About the Test</h2>
-<div class="table-wrap"><table>
-<thead>
-<tr>
-<th>Detail</th>
-<th>Info</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>Official Name</strong></td>
-<td>Test &quot;Leben in Deutschland&quot; / Einbürgerungstest</td>
-</tr>
-<tr>
-<td><strong>Questions in Exam</strong></td>
-<td>33 (from the pool of 460)</td>
-</tr>
-<tr>
-<td><strong>Time</strong></td>
-<td>60 minutes</td>
-</tr>
-<tr>
-<td><strong>Pass</strong></td>
-<td>17 correct out of 33</td>
-</tr>
-<tr>
-<td><strong>Fee</strong></td>
-<td>€25 per attempt</td>
-</tr>
-<tr>
-<td><strong>Format</strong></td>
-<td>Multiple choice — 4 options, 1 correct</td>
-</tr>
-<tr>
-<td><strong>State Questions</strong></td>
-<td>3 of the 33 are specific to your Bundesland</td>
-</tr>
-</tbody></table></div>
-<hr>
-<h2>📑 General Questions (1–300)</h2>
-<div class="table-wrap"><table>
-<thead>
-<tr>
-<th>File</th>
-<th>Questions</th>
-<th>Topics</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="questions-001-050.html">Questions 1–50</a></td>
-<td>1–50</td>
-<td>Basic Rights, Democracy, State Structure</td>
-</tr>
-<tr>
-<td><a href="questions-051-100.html">Questions 51–100</a></td>
-<td>51–100</td>
-<td>Political System, Parties, Elections</td>
-</tr>
-<tr>
-<td><a href="questions-101-150.html">Questions 101–150</a></td>
-<td>101–150</td>
-<td>Legal System, Government, EU, Civic Life</td>
-</tr>
-<tr>
-<td><a href="questions-151-200.html">Questions 151–200</a></td>
-<td>151–200</td>
-<td>History: Nazi Era, WWII, Cold War</td>
-</tr>
-<tr>
-<td><a href="questions-201-250.html">Questions 201–250</a></td>
-<td>201–250</td>
-<td>Reunification, Culture, Geography</td>
-</tr>
-<tr>
-<td><a href="questions-251-300.html">Questions 251–300</a></td>
-<td>251–300</td>
-<td>Society, Religion, Daily Life</td>
-</tr>
-</tbody></table></div>
-<hr>
-<h2>🗺️ State Questions (301–310)</h2>
-<p>Pick your Bundesland — each has 10 additional questions about its capital, coat of arms, Minister-President, geography, and history.</p>
-<div class="table-wrap"><table>
-<thead>
-<tr>
-<th>State</th>
-<th>English Name</th>
-<th>Capital</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="baden-wuerttemberg.html">Baden-Württemberg</a></td>
-<td>Baden-Württemberg</td>
-<td>Stuttgart</td>
-</tr>
-<tr>
-<td><a href="bayern.html">Bayern</a></td>
-<td>Bavaria</td>
-<td>München (Munich)</td>
-</tr>
-<tr>
-<td><a href="berlin.html">Berlin</a></td>
-<td>Berlin</td>
-<td>Berlin</td>
-</tr>
-<tr>
-<td><a href="brandenburg.html">Brandenburg</a></td>
-<td>Brandenburg</td>
-<td>Potsdam</td>
-</tr>
-<tr>
-<td><a href="bremen.html">Bremen</a></td>
-<td>Bremen</td>
-<td>Bremen</td>
-</tr>
-<tr>
-<td><a href="hamburg.html">Hamburg</a></td>
-<td>Hamburg</td>
-<td>Hamburg</td>
-</tr>
-<tr>
-<td><a href="hessen.html">Hessen</a></td>
-<td>Hesse</td>
-<td>Wiesbaden</td>
-</tr>
-<tr>
-<td><a href="mecklenburg-vorpommern.html">Mecklenburg-Vorpommern</a></td>
-<td>Mecklenburg-W. Pomerania</td>
-<td>Schwerin</td>
-</tr>
-<tr>
-<td><a href="niedersachsen.html">Niedersachsen</a></td>
-<td>Lower Saxony</td>
-<td>Hannover</td>
-</tr>
-<tr>
-<td><a href="nordrhein-westfalen.html">Nordrhein-Westfalen</a></td>
-<td>North Rhine-Westphalia</td>
-<td>Düsseldorf</td>
-</tr>
-<tr>
-<td><a href="rheinland-pfalz.html">Rheinland-Pfalz</a></td>
-<td>Rhineland-Palatinate</td>
-<td>Mainz</td>
-</tr>
-<tr>
-<td><a href="saarland.html">Saarland</a></td>
-<td>Saarland</td>
-<td>Saarbrücken</td>
-</tr>
-<tr>
-<td><a href="sachsen.html">Sachsen</a></td>
-<td>Saxony</td>
-<td>Dresden</td>
-</tr>
-<tr>
-<td><a href="sachsen-anhalt.html">Sachsen-Anhalt</a></td>
-<td>Saxony-Anhalt</td>
-<td>Magdeburg</td>
-</tr>
-<tr>
-<td><a href="schleswig-holstein.html">Schleswig-Holstein</a></td>
-<td>Schleswig-Holstein</td>
-<td>Kiel</td>
-</tr>
-<tr>
-<td><a href="thueringen.html">Thüringen</a></td>
-<td>Thuringia</td>
-<td>Erfurt</td>
-</tr>
-</tbody></table></div>
-<hr>
-<h2>🖼️ Questions with Images</h2>
-<p>Some questions include images (coats of arms, maps, flags). These are marked with 🖼️ in the files. To see the actual images, use the <a href="https://oet.bamf.de/ords/oetut/f?p=514:1:0">BAMF Interactive Test Center</a> — select your state and navigate to the question number.</p>
-<p><strong>General questions with images:</strong></p>
-<div class="table-wrap"><table>
-<thead>
-<tr>
-<th>Question</th>
-<th>Image Shows</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Q21</td>
-<td>4 coats of arms — identify Germany&#39;s (black eagle on gold)</td>
-</tr>
-<tr>
-<td>Q160</td>
-<td>Map of Germany showing BRD/DDR division</td>
-</tr>
-<tr>
-<td>Q163</td>
-<td>Map of Germany&#39;s borders</td>
-</tr>
-<tr>
-<td>Q177</td>
-<td>Map of Berlin divided into 4 Allied sectors</td>
-</tr>
-<tr>
-<td>Q195</td>
-<td>Map showing divided Germany / occupation zones</td>
-</tr>
-</tbody></table></div>
-<p><strong>State questions with images (every state):</strong></p>
-<div class="table-wrap"><table>
-<thead>
-<tr>
-<th>Question</th>
-<th>Image Shows</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Q301</td>
-<td>4 coats of arms — identify your state&#39;s</td>
-</tr>
-<tr>
-<td>Q302</td>
-<td>Map of Germany — identify which state is highlighted</td>
-</tr>
-<tr>
-<td>Q304</td>
-<td>Numbered map — identify which number is your state</td>
-</tr>
-</tbody></table></div>
-<hr>
-<h2>🆕 Updated Questions (July 2024)</h2>
-<p>10 questions were replaced with new ones about <strong>Jewish life in Germany, Israel&#39;s right to exist, and antisemitism</strong> (in response to the October 7, 2023 events). These are marked with <em>(Updated July 2024)</em> in the files:</p>
-<div class="table-wrap"><table>
-<thead>
-<tr>
-<th>#</th>
-<th>New Topic</th>
-<th>Correct Answer</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Q14</td>
-<td>Freedom of speech limits (now mentions Hamas/IS symbols)</td>
-<td>can express opinion on internet</td>
-</tr>
-<tr>
-<td>Q59</td>
-<td>Largest Jewish communities in Germany</td>
-<td>Berlin and Munich</td>
-</tr>
-<tr>
-<td>Q66</td>
-<td>How long has Jewish life existed in Germany?</td>
-<td>more than 1,700 years</td>
-</tr>
-<tr>
-<td>Q96</td>
-<td>Punishment for Holocaust denial</td>
-<td>up to 5 years prison or fine</td>
-</tr>
-<tr>
-<td>Q111</td>
-<td>Prohibited actions regarding Israel</td>
-<td>calling for Israel&#39;s destruction</td>
-</tr>
-<tr>
-<td>Q118</td>
-<td>Who can join Makkabi sports clubs?</td>
-<td>all people</td>
-</tr>
-<tr>
-<td>Q149</td>
-<td>Example of antisemitic behavior</td>
-<td>denying the Holocaust</td>
-</tr>
-<tr>
-<td>Q182</td>
-<td>Jewish house of worship</td>
-<td>Synagogue</td>
-</tr>
-<tr>
-<td>Q184</td>
-<td>Legal basis for Israel&#39;s founding</td>
-<td>UN resolution</td>
-</tr>
-<tr>
-<td>Q206</td>
-<td>What do &quot;Stolpersteine&quot; commemorate?</td>
-<td>victims of Nazism</td>
-</tr>
-<tr>
-<td>Q288</td>
-<td>Germany&#39;s special responsibility for Israel</td>
-<td>Nazi crimes</td>
-</tr>
-</tbody></table></div>
-<hr>
-<h2>📖 How to Read This Guide</h2>
-<p>Each question follows this format:</p>
-<blockquote>
-<h3>Question X</h3>
-<p><strong><span class="fi fi-de" role="img" aria-label="Germany" title="Germany"></span></strong> German question
-<strong><span class="fi fi-gb" role="img" aria-label="United Kingdom" title="UK"></span></strong> English translation</p>
-<div class="table-wrap"><table>
-<thead>
-<tr>
-<th></th>
-<th>Deutsch</th>
-<th>English</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>○</td>
-<td>Wrong answer</td>
-<td>English</td>
-</tr>
-<tr>
-<td>✅</td>
-<td><strong>Correct answer</strong></td>
-<td><strong>English</strong></td>
-</tr>
-<tr>
-<td>○</td>
-<td>Wrong answer</td>
-<td>English</td>
-</tr>
-<tr>
-<td>○</td>
-<td>Wrong answer</td>
-<td>English</td>
-</tr>
-</tbody></table></div>
-<p><strong>📝</strong> Explanation with background context.</p>
-</blockquote>
-<hr>
-<h2>🔗 Official Resources</h2>
-<ul>
-<li><a href="https://www.bamf.de/SharedDocs/Anlagen/DE/Integration/Einbuergerung/gesamtfragenkatalog-lebenindeutschland.pdf">BAMF Official Question Catalog (PDF)</a></li>
-<li><a href="https://oet.bamf.de/ords/oetut/f?p=512:1::::::">BAMF Online Test Center</a></li>
-</ul>
-<hr>
-<h2>⚖️ License</h2>
-<p><strong>Code</strong> (<code>build.js</code>, <code>quiz.html</code>, <code>sw.js</code>, HTML/CSS/JS): <a href="LICENSE">MIT License</a> — free to use, modify, and learn from.</p>
-<p><strong>Content</strong> (question translations, explanations, Urdu/English text): <a href="LICENSE-CONTENT.html">CC BY-NC 4.0</a> — free for personal and educational use. Commercial use or redistribution for profit is <strong>not permitted</strong> without explicit written permission.</p>
-<blockquote>
-<p>This project is open source for personal and educational use.
-The translations and explanations represent significant original work.
-If you find this useful, please <a href="https://paypal.me/abdullahbuttde">support the project</a> or share it — don&#39;t sell it.</p>
-</blockquote>
+        <h1 style="margin-bottom:.75rem;">German Citizenship Test</h1>
 
+        <div class="idx-intro">The <strong>Einbürgerungstest</strong> (Leben in Deutschland test) is required for German Permanent Residence and Citizenship. The test is in German — use this free guide to study every official question with English translation and clear explanation.</div>
+
+        <div class="idx-stats"><span>📋 300+ questions</span><span>🗺️ 16 Bundesländer</span><span>✅ Answers highlighted</span><span>💡 Explanation per question</span></div>
+
+        <div class="idx-how"><strong>❓ How it works</strong><br>The test has <strong>33 questions</strong> — 30 from the general pool and 3 from your state. You need <strong>17 correct</strong> to pass. <a href="../quiz.html">Take the practice quiz →</a></div>
+
+        <a class="idx-quiz-cta" href="../quiz.html">🎯 Start Practice Quiz — simulates the real Einbürgerungstest</a>
+
+        <p class="idx-section-title">📖 General Questions</p>
+        <div class="idx-grid"><a class="idx-card" href="./questions-001-050.html">
+            <span class="idx-card-icon">📝</span>
+            <span class="idx-card-label">Questions 1–50</span>
+        </a><a class="idx-card" href="./questions-051-100.html">
+            <span class="idx-card-icon">📝</span>
+            <span class="idx-card-label">Questions 51–100</span>
+        </a><a class="idx-card" href="./questions-101-150.html">
+            <span class="idx-card-icon">📝</span>
+            <span class="idx-card-label">Questions 101–150</span>
+        </a><a class="idx-card" href="./questions-151-200.html">
+            <span class="idx-card-icon">📝</span>
+            <span class="idx-card-label">Questions 151–200</span>
+        </a><a class="idx-card" href="./questions-201-250.html">
+            <span class="idx-card-icon">📝</span>
+            <span class="idx-card-label">Questions 201–250</span>
+        </a><a class="idx-card" href="./questions-251-300.html">
+            <span class="idx-card-icon">📝</span>
+            <span class="idx-card-label">Questions 251–300</span>
+        </a></div>
+
+        <p class="idx-section-title">🗺️ State Questions</p>
+        <div class="idx-grid idx-grid--states"><a class="idx-card idx-card--state" href="./baden-wuerttemberg.html">
+            <span class="idx-card-label">Baden-Württemberg</span>
+        </a><a class="idx-card idx-card--state" href="./bayern.html">
+            <span class="idx-card-label">Bavaria (Bayern)</span>
+        </a><a class="idx-card idx-card--state" href="./berlin.html">
+            <span class="idx-card-label">Berlin</span>
+        </a><a class="idx-card idx-card--state" href="./brandenburg.html">
+            <span class="idx-card-label">Brandenburg</span>
+        </a><a class="idx-card idx-card--state" href="./bremen.html">
+            <span class="idx-card-label">Bremen</span>
+        </a><a class="idx-card idx-card--state" href="./hamburg.html">
+            <span class="idx-card-label">Hamburg</span>
+        </a><a class="idx-card idx-card--state" href="./hessen.html">
+            <span class="idx-card-label">Hesse (Hessen)</span>
+        </a><a class="idx-card idx-card--state" href="./mecklenburg-vorpommern.html">
+            <span class="idx-card-label">Mecklenburg-Vorpommern</span>
+        </a><a class="idx-card idx-card--state" href="./niedersachsen.html">
+            <span class="idx-card-label">Lower Saxony (Niedersachsen)</span>
+        </a><a class="idx-card idx-card--state" href="./nordrhein-westfalen.html">
+            <span class="idx-card-label">North Rhine-Westphalia</span>
+        </a><a class="idx-card idx-card--state" href="./rheinland-pfalz.html">
+            <span class="idx-card-label">Rhineland-Palatinate</span>
+        </a><a class="idx-card idx-card--state" href="./saarland.html">
+            <span class="idx-card-label">Saarland</span>
+        </a><a class="idx-card idx-card--state" href="./sachsen.html">
+            <span class="idx-card-label">Saxony (Sachsen)</span>
+        </a><a class="idx-card idx-card--state" href="./sachsen-anhalt.html">
+            <span class="idx-card-label">Saxony-Anhalt</span>
+        </a><a class="idx-card idx-card--state" href="./schleswig-holstein.html">
+            <span class="idx-card-label">Schleswig-Holstein</span>
+        </a><a class="idx-card idx-card--state" href="./thueringen.html">
+            <span class="idx-card-label">Thuringia (Thüringen)</span>
+        </a></div>
+    
         </article>
         
         <nav class="nav-pager nav-pager--jump-only" aria-label="Quick jump">

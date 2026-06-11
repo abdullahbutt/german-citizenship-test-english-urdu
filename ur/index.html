@@ -468,40 +468,160 @@
         </nav>
         <article class="content-card">
             
-        <h1>جرمن شہریت کا امتحان</h1>
-        <p class="lead" style="color: var(--muted-text);">انبیورگرونگس ٹیسٹ کے تمام 300 سوالات</p>
+        <style>
+        .idx-intro {
+            background: color-mix(in srgb, var(--primary) 7%, var(--card-bg));
+            border: 1px solid color-mix(in srgb, var(--primary) 20%, var(--border));
+            border-radius: .75rem;
+            padding: 1.1rem 1.25rem;
+            font-size: .97rem;
+            line-height: 1.7;
+            margin-bottom: 1.25rem;
+        }
+        .idx-stats {
+            display: flex;
+            flex-wrap: wrap;
+            gap: .4rem .9rem;
+            font-size: .85rem;
+            color: var(--muted-text);
+            margin-bottom: 1.5rem;
+        }
+        .idx-how {
+            background: color-mix(in srgb, var(--success, #059669) 8%, var(--card-bg));
+            border: 1px solid color-mix(in srgb, var(--success, #059669) 20%, var(--border));
+            border-radius: .75rem;
+            padding: 1rem 1.25rem;
+            font-size: .92rem;
+            line-height: 1.7;
+            margin-bottom: 1.75rem;
+        }
+        .idx-how strong { color: var(--page-text); }
+        .idx-how a { color: var(--primary); font-weight: 600; }
+        .idx-section-title {
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin: 1.75rem 0 .75rem;
+        }
+        .idx-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(145px, 1fr));
+            gap: .55rem;
+            margin-bottom: .5rem;
+        }
+        .idx-grid--states {
+            grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+        }
+        .idx-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: .3rem;
+            padding: .85rem .6rem;
+            background: var(--card-bg);
+            border: 1.5px solid var(--border);
+            border-radius: .65rem;
+            text-decoration: none;
+            color: var(--page-text);
+            font-size: .88rem;
+            font-weight: 600;
+            text-align: center;
+            transition: border-color .15s, background .15s, transform .1s;
+            line-height: 1.4;
+        }
+        .idx-card:hover {
+            border-color: var(--primary);
+            background: color-mix(in srgb, var(--primary) 8%, var(--card-bg));
+            transform: translateY(-1px);
+            color: var(--page-text);
+        }
+        .idx-card-icon { font-size: 1.4rem; }
+        .idx-card--state { flex-direction: row; justify-content: start; gap: .5rem; font-size: .85rem; padding: .7rem .85rem; }
+        .idx-quiz-cta {
+            display: block;
+            margin: 1.75rem 0 .5rem;
+            padding: 1rem 1.25rem;
+            background: var(--primary);
+            color: #fff;
+            font-weight: 700;
+            font-size: 1rem;
+            text-align: center;
+            border-radius: .75rem;
+            text-decoration: none;
+            transition: background .15s;
+        }
+        .idx-quiz-cta:hover { background: var(--primary-hover, #1e40af); color: #fff; }
+        @media (max-width: 480px) {
+            .idx-grid { grid-template-columns: 1fr 1fr; }
+            .idx-grid--states { grid-template-columns: 1fr 1fr; }
+        }
+        </style>
 
-        <h2>سوالات</h2>
-        <ul>
-        <li><a href="./questions-001-050.html">سوالات 1–50</a></li>
-        <li><a href="./questions-051-100.html">سوالات 51–100</a></li>
-        <li><a href="./questions-101-150.html">سوالات 101–150</a></li>
-        <li><a href="./questions-151-200.html">سوالات 151–200</a></li>
-        <li><a href="./questions-201-250.html">سوالات 201–250</a></li>
-        <li><a href="./questions-251-300.html">سوالات 251–300</a></li>
-        </ul>
+        <h1 style="margin-bottom:.75rem;">جرمن شہریت کا امتحان</h1>
 
-        <h2>ریاستی سوالات</h2>
-        <ul>
-        <li><a href="./LICENSE-CONTENT.html">LICENSE-CONTENT</a></li>
-        <li><a href="./README-urdu.html">README-urdu</a></li>
-        <li><a href="./baden-wuerttemberg.html">باڈن ورٹمبرگ</a></li>
-        <li><a href="./bayern.html">باویریا</a></li>
-        <li><a href="./berlin.html">برلن</a></li>
-        <li><a href="./brandenburg.html">برانڈنبرگ</a></li>
-        <li><a href="./bremen.html">بریمن</a></li>
-        <li><a href="./hamburg.html">ہیمبرگ</a></li>
-        <li><a href="./hessen.html">ہیسن</a></li>
-        <li><a href="./mecklenburg-vorpommern.html">میکلنبرگ-فورپومرن</a></li>
-        <li><a href="./niedersachsen.html">نیڈرزاخسن</a></li>
-        <li><a href="./nordrhein-westfalen.html">نارڈرائن ویسٹ فالن</a></li>
-        <li><a href="./rheinland-pfalz.html">رائن لینڈ-فالز</a></li>
-        <li><a href="./saarland.html">زارلینڈ</a></li>
-        <li><a href="./sachsen.html">زاخسن</a></li>
-        <li><a href="./sachsen-anhalt.html">زاخسن-انہالٹ</a></li>
-        <li><a href="./schleswig-holstein.html">شلیسوگ-ہولسٹائن</a></li>
-        <li><a href="./thueringen.html">تھیورنگن</a></li>
-        </ul>
+        <div class="idx-intro">جرمن مستقل اقامت (Niederlassungserlaubnis) اور شہریت کے لیے <strong>Einbürgerungstest</strong> پاس کرنا ضروری ہے۔ یہ امتحان جرمن زبان میں ہوتا ہے — اس مفت گائیڈ میں ہر سرکاری سوال کا اردو ترجمہ اور آسان وضاحت موجود ہے۔</div>
+
+        <div class="idx-stats"><span>📋 300+ سوالات</span><span>🗺️ 16 ریاستیں</span><span>✅ درست جوابات</span><span>💡 ہر سوال کی وضاحت</span></div>
+
+        <div class="idx-how"><strong>❓ امتحان کیسے ہوتا ہے؟</strong><br>امتحان میں <strong>33 سوالات</strong> ہوتے ہیں — 30 عمومی اور 3 آپ کی ریاست کے۔ پاس کرنے کے لیے <strong>17 درست</strong> جوابات ضروری ہیں۔ <a href="../quiz.html">مشق کوئز دیں ←</a></div>
+
+        <a class="idx-quiz-cta" href="../quiz.html">🎯 مشق کوئز شروع کریں — اصل Einbürgerungstest کی طرح</a>
+
+        <p class="idx-section-title">📖 عمومی سوالات</p>
+        <div class="idx-grid"><a class="idx-card" href="./questions-001-050.html">
+            <span class="idx-card-icon">📝</span>
+            <span class="idx-card-label">سوالات 1–50</span>
+        </a><a class="idx-card" href="./questions-051-100.html">
+            <span class="idx-card-icon">📝</span>
+            <span class="idx-card-label">سوالات 51–100</span>
+        </a><a class="idx-card" href="./questions-101-150.html">
+            <span class="idx-card-icon">📝</span>
+            <span class="idx-card-label">سوالات 101–150</span>
+        </a><a class="idx-card" href="./questions-151-200.html">
+            <span class="idx-card-icon">📝</span>
+            <span class="idx-card-label">سوالات 151–200</span>
+        </a><a class="idx-card" href="./questions-201-250.html">
+            <span class="idx-card-icon">📝</span>
+            <span class="idx-card-label">سوالات 201–250</span>
+        </a><a class="idx-card" href="./questions-251-300.html">
+            <span class="idx-card-icon">📝</span>
+            <span class="idx-card-label">سوالات 251–300</span>
+        </a></div>
+
+        <p class="idx-section-title">🗺️ ریاستی سوالات</p>
+        <div class="idx-grid idx-grid--states"><a class="idx-card idx-card--state" href="./baden-wuerttemberg.html">
+            <span class="idx-card-label">باڈن ورٹمبرگ</span>
+        </a><a class="idx-card idx-card--state" href="./bayern.html">
+            <span class="idx-card-label">باویریا</span>
+        </a><a class="idx-card idx-card--state" href="./berlin.html">
+            <span class="idx-card-label">برلن</span>
+        </a><a class="idx-card idx-card--state" href="./brandenburg.html">
+            <span class="idx-card-label">برانڈنبرگ</span>
+        </a><a class="idx-card idx-card--state" href="./bremen.html">
+            <span class="idx-card-label">بریمن</span>
+        </a><a class="idx-card idx-card--state" href="./hamburg.html">
+            <span class="idx-card-label">ہیمبرگ</span>
+        </a><a class="idx-card idx-card--state" href="./hessen.html">
+            <span class="idx-card-label">ہیسن</span>
+        </a><a class="idx-card idx-card--state" href="./mecklenburg-vorpommern.html">
+            <span class="idx-card-label">میکلنبرگ-فورپومرن</span>
+        </a><a class="idx-card idx-card--state" href="./niedersachsen.html">
+            <span class="idx-card-label">نیڈرزاخسن</span>
+        </a><a class="idx-card idx-card--state" href="./nordrhein-westfalen.html">
+            <span class="idx-card-label">نارڈرائن ویسٹ فالن</span>
+        </a><a class="idx-card idx-card--state" href="./rheinland-pfalz.html">
+            <span class="idx-card-label">رائن لینڈ-فالز</span>
+        </a><a class="idx-card idx-card--state" href="./saarland.html">
+            <span class="idx-card-label">زارلینڈ</span>
+        </a><a class="idx-card idx-card--state" href="./sachsen.html">
+            <span class="idx-card-label">زاخسن</span>
+        </a><a class="idx-card idx-card--state" href="./sachsen-anhalt.html">
+            <span class="idx-card-label">زاخسن-انہالٹ</span>
+        </a><a class="idx-card idx-card--state" href="./schleswig-holstein.html">
+            <span class="idx-card-label">شلیسوگ-ہولسٹائن</span>
+        </a><a class="idx-card idx-card--state" href="./thueringen.html">
+            <span class="idx-card-label">تھیورنگن</span>
+        </a></div>
     
         </article>
         
