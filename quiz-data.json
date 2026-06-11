@@ -1,5 +1,5 @@
 {
-  "version": "2026-06-06",
+  "version": "2026-06-11",
   "general": [
     {
       "id": 1,
@@ -7690,6 +7690,37 @@
       "exp_ur": "Amnesty International is the world's largest human rights organization, monitoring governments and advocating for the release of political prisoners. The ADAC is Germany's automobile association, Greenpeace focuses on environmental issues, and FIFA governs football/soccer. Germany has a strong tradition of supporting human rights organizations."
     },
     {
+      "id": 253,
+      "de": "Was ist der Mindestlohn in Deutschland?",
+      "en": "What is the minimum wage (Mindestlohn) in Germany?",
+      "ur": "جرمنی میں کم از کم اجرت (Mindestlohn) کیا ہے؟",
+      "options": [
+        {
+          "de": "ein freiwillig vereinbarter Stundenlohn zwischen Arbeitgeber und Arbeitnehmer",
+          "en": "a voluntarily agreed hourly wage between employer and employee",
+          "ur": "آجر اور ملازم کے درمیان رضاکارانہ طور پر طے شدہ فی گھنٹہ اجرت"
+        },
+        {
+          "de": "ein einheitlicher Monatslohn für alle Berufe",
+          "en": "a uniform monthly salary for all professions",
+          "ur": "تمام پیشوں کے لیے یکساں ماہانہ تنخواہ"
+        },
+        {
+          "de": "eine staatliche Sozialleistung für Arbeitslose",
+          "en": "a state benefit for unemployed people",
+          "ur": "بے روزگاروں کے لیے سرکاری سماجی امداد"
+        },
+        {
+          "de": "ein gesetzlich festgelegter Stundenlohn, den Arbeitgeber mindestens zahlen müssen",
+          "en": "a legally mandated hourly wage that employers must pay at minimum",
+          "ur": "قانونی طور پر مقرر کردہ کم از کم فی گھنٹہ اجرت جو آجر کو ادا کرنی ہوگی"
+        }
+      ],
+      "correct": 3,
+      "exp_en": "Germany introduced a statutory minimum wage (Mindestlohn) on 1 January 2015. It is a legally fixed minimum hourly rate that all employers must pay. The rate is periodically adjusted by the Minimum Wage Commission (Mindestlohnkommission).",
+      "exp_ur": "جرمنی نے 1 جنوری 2015 کو قانونی کم از کم اجرت (Mindestlohn) متعارف کرائی۔ یہ ایک قانونی طور پر مقرر کردہ کم از کم فی گھنٹہ شرح ہے جو تمام آجروں کو ادا کرنی ہوگی۔"
+    },
+    {
       "id": 254,
       "de": "Was__(s)__ist \"__(A)__rbeitslosengeld\"?",
       "en": "What is \"unemployment benefit\"?",
@@ -8215,6 +8246,37 @@
       "correct": 0,
       "exp_en": "Germany has many \"Mittelgebirge\" (low/medium mountain ranges): the Harz (highest: Brocken, 1,141m), the Schwarzwald/Black Forest (highest: Feldberg, 1,493m), and the Erzgebirge/Ore Mountains (highest: Fichtelberg, 1,215m). Others include the Bayerischer Wald, Thüringer Wald, Eifel, and Rhön. The high Alps are only in Bavaria's southern tip.",
       "exp_ur": "Germany has many \"Mittelgebirge\" (low/medium mountain ranges): the Harz (highest: Brocken, 1,141m), the Schwarzwald/Black Forest (highest: Feldberg, 1,493m), and the Erzgebirge/Ore Mountains (highest: Fichtelberg, 1,215m). Others include the Bayerischer Wald, Thüringer Wald, Eifel, and Rhön. The high Alps are only in Bavaria's southern tip."
+    },
+    {
+      "id": 271,
+      "de": "Welche dieser Ländergruppen sind ausschließlich Nachbarländer von Deutschland?",
+      "en": "Which of these groups of countries are ALL neighboring countries of Germany?",
+      "ur": "ان گروہوں میں سے کون سے ممالک سبھی جرمنی کے ہمسایہ ممالک ہیں؟",
+      "options": [
+        {
+          "de": "Spanien, Italien, Ungarn",
+          "en": "Spain, Italy, Hungary",
+          "ur": "اسپین، اٹلی، ہنگری"
+        },
+        {
+          "de": "Schweden, Griechenland, Portugal",
+          "en": "Sweden, Greece, Portugal",
+          "ur": "سویڈن، یونان، پرتگال"
+        },
+        {
+          "de": "Frankreich, Polen, Österreich",
+          "en": "France, Poland, Austria",
+          "ur": "فرانس، پولینڈ، آسٹریا"
+        },
+        {
+          "de": "Finnland, Slowakei, Kroatien",
+          "en": "Finland, Slovakia, Croatia",
+          "ur": "فن لینڈ، سلوواکیہ، کروشیا"
+        }
+      ],
+      "correct": 2,
+      "exp_en": "Germany has nine neighboring countries: Denmark, Poland, Czech Republic, Austria, Switzerland, France, Luxembourg, Belgium, and the Netherlands. France, Poland, and Austria are all in this list. Spain, Italy, Hungary, Sweden, Greece, Portugal, Finland, Slovakia, and Croatia do not share a border with Germany.",
+      "exp_ur": "جرمنی کے نو ہمسایہ ممالک ہیں: ڈنمارک، پولینڈ، چیک ریپبلک، آسٹریا، سوئٹزرلینڈ، فرانس، لکسمبرگ، بیلجیم، اور نیدرلینڈز۔ فرانس، پولینڈ اور آسٹریا اس فہرست میں شامل ہیں۔"
     },
     {
       "id": 272,

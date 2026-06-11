@@ -20,12 +20,42 @@ const SRC_UR     = path.join(ROOT, 'sources', 'urdu');
 // ─── Markdown parser ─────────────────────────────────────────────────────────
 
 /**
+ * Pre-process markdown to join table rows that span multiple lines.
+ * Some questions in the source have a blank line inside a | ... | cell
+ * (e.g. Q63's correct answer spans 3 lines). This collapses them into
+ * single lines before the regex parser runs.
+ */
+function normalizeTableRows(content) {
+    const lines = content.split('\n');
+    const result = [];
+    for (let i = 0; i < lines.length; i++) {
+        const line = lines[i];
+        // A table row starts with | but an incomplete one doesn't end with |
+        if (line.startsWith('|') && !line.trimEnd().endsWith('|')) {
+            let combined = line;
+            while (i + 1 < lines.length) {
+                i++;
+                const next = lines[i].trim();
+                if (next === '') continue; // skip blank lines inside the cell
+                combined += ' ' + next;
+                if (combined.trimEnd().endsWith('|')) break;
+            }
+            result.push(combined);
+        } else {
+            result.push(line);
+        }
+    }
+    return result.join('\n');
+}
+
+/**
  * Parse questions from a markdown file.
  * Returns: [{ id, de, translated, options: [{de,translated}], correct, explanation }]
  *   `translated` is English or Urdu depending on which file is parsed.
  */
 function parseMd(filePath) {
-    const content = fs.readFileSync(filePath, 'utf8');
+    const raw     = fs.readFileSync(filePath, 'utf8');
+    const content = normalizeTableRows(raw);  // fix multi-line table rows first
     const questions = [];
 
     // Split on question headers so each block starts with "### Question N" or "### سوال N"
@@ -74,6 +104,72 @@ function parseMd(filePath) {
     return questions;
 }
 
+/**
+ * Questions that can't be parsed from the source (only 1 option, or
+ * free-form answers) but can be converted to valid 4-option MCQ with
+ * added distractors.  These are hardcoded here so the quiz data is
+ * correct and stable.
+ */
+const HARDCODED_EN = [
+    // Q253 — Mindestlohn (source has only the correct option listed)
+    {
+        id: 253,
+        de: 'Was ist der Mindestlohn in Deutschland?',
+        translated: 'What is the minimum wage (Mindestlohn) in Germany?',
+        options: [
+            { de: 'ein freiwillig vereinbarter Stundenlohn zwischen Arbeitgeber und Arbeitnehmer', translated: 'a voluntarily agreed hourly wage between employer and employee' },
+            { de: 'ein einheitlicher Monatslohn für alle Berufe', translated: 'a uniform monthly salary for all professions' },
+            { de: 'eine staatliche Sozialleistung für Arbeitslose', translated: 'a state benefit for unemployed people' },
+            { de: 'ein gesetzlich festgelegter Stundenlohn, den Arbeitgeber mindestens zahlen müssen', translated: 'a legally mandated hourly wage that employers must pay at minimum' },
+        ],
+        correct: 3,
+        explanation: 'Germany introduced a statutory minimum wage (Mindestlohn) on 1 January 2015. It is a legally fixed minimum hourly rate that all employers must pay. The rate is periodically adjusted by the Minimum Wage Commission (Mindestlohnkommission).',
+    },
+    // Q271 — Name three neighboring countries (source lists only the correct trio)
+    {
+        id: 271,
+        de: 'Welche dieser Ländergruppen sind ausschließlich Nachbarländer von Deutschland?',
+        translated: 'Which of these groups of countries are ALL neighboring countries of Germany?',
+        options: [
+            { de: 'Spanien, Italien, Ungarn', translated: 'Spain, Italy, Hungary' },
+            { de: 'Schweden, Griechenland, Portugal', translated: 'Sweden, Greece, Portugal' },
+            { de: 'Frankreich, Polen, Österreich', translated: 'France, Poland, Austria' },
+            { de: 'Finnland, Slowakei, Kroatien', translated: 'Finland, Slovakia, Croatia' },
+        ],
+        correct: 2,
+        explanation: 'Germany has nine neighboring countries: Denmark, Poland, Czech Republic, Austria, Switzerland, France, Luxembourg, Belgium, and the Netherlands. France, Poland, and Austria are all in this list. Spain, Italy, Hungary, Sweden, Greece, Portugal, Finland, Slovakia, and Croatia do not share a border with Germany.',
+    },
+];
+
+const HARDCODED_UR = [
+    {
+        id: 253,
+        de: 'Was ist der Mindestlohn in Deutschland?',
+        translated: 'جرمنی میں کم از کم اجرت (Mindestlohn) کیا ہے؟',
+        options: [
+            { de: 'ein freiwillig vereinbarter Stundenlohn zwischen Arbeitgeber und Arbeitnehmer', translated: 'آجر اور ملازم کے درمیان رضاکارانہ طور پر طے شدہ فی گھنٹہ اجرت' },
+            { de: 'ein einheitlicher Monatslohn für alle Berufe', translated: 'تمام پیشوں کے لیے یکساں ماہانہ تنخواہ' },
+            { de: 'eine staatliche Sozialleistung für Arbeitslose', translated: 'بے روزگاروں کے لیے سرکاری سماجی امداد' },
+            { de: 'ein gesetzlich festgelegter Stundenlohn, den Arbeitgeber mindestens zahlen müssen', translated: 'قانونی طور پر مقرر کردہ کم از کم فی گھنٹہ اجرت جو آجر کو ادا کرنی ہوگی' },
+        ],
+        correct: 3,
+        explanation: 'جرمنی نے 1 جنوری 2015 کو قانونی کم از کم اجرت (Mindestlohn) متعارف کرائی۔ یہ ایک قانونی طور پر مقرر کردہ کم از کم فی گھنٹہ شرح ہے جو تمام آجروں کو ادا کرنی ہوگی۔',
+    },
+    {
+        id: 271,
+        de: 'Welche dieser Ländergruppen sind ausschließlich Nachbarländer von Deutschland?',
+        translated: 'ان گروہوں میں سے کون سے ممالک سبھی جرمنی کے ہمسایہ ممالک ہیں؟',
+        options: [
+            { de: 'Spanien, Italien, Ungarn', translated: 'اسپین، اٹلی، ہنگری' },
+            { de: 'Schweden, Griechenland, Portugal', translated: 'سویڈن، یونان، پرتگال' },
+            { de: 'Frankreich, Polen, Österreich', translated: 'فرانس، پولینڈ، آسٹریا' },
+            { de: 'Finnland, Slowakei, Kroatien', translated: 'فن لینڈ، سلوواکیہ، کروشیا' },
+        ],
+        correct: 2,
+        explanation: 'جرمنی کے نو ہمسایہ ممالک ہیں: ڈنمارک، پولینڈ، چیک ریپبلک، آسٹریا، سوئٹزرلینڈ، فرانس، لکسمبرگ، بیلجیم، اور نیدرلینڈز۔ فرانس، پولینڈ اور آسٹریا اس فہرست میں شامل ہیں۔',
+    },
+];
+
 // ─── General questions (merge en + ur by id) ─────────────────────────────────
 
 function buildGeneral() {
@@ -92,6 +188,14 @@ function buildGeneral() {
     for (const f of files) {
         allEn.push(...parseMd(path.join(SRC_EN, f)));
         allUr.push(...parseMd(path.join(SRC_UR, f)));
+    }
+
+    // Inject hardcoded questions that couldn't be parsed from source
+    for (const hq of HARDCODED_EN) {
+        if (!allEn.find(q => q.id === hq.id)) allEn.push(hq);
+    }
+    for (const hq of HARDCODED_UR) {
+        if (!allUr.find(q => q.id === hq.id)) allUr.push(hq);
     }
 
     const urMap = new Map(allUr.map(q => [q.id, q]));

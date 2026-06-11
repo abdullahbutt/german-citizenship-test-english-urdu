@@ -334,6 +334,41 @@
             margin-top: 1.5rem;
         }
         .btn-restart:hover { background: var(--primary-h); }
+        /* Secondary action button (outline style) */
+        .btn-secondary {
+            width: 100%;
+            padding: .75rem;
+            border-radius: .65rem;
+            background: transparent;
+            color: var(--primary);
+            border: 2px solid var(--primary);
+            font-size: 1rem;
+            font-weight: 700;
+            cursor: pointer;
+            margin-top: .75rem;
+        }
+        .btn-secondary:hover { background: var(--primary); color: #fff; }
+        .btn-secondary:disabled { opacity: .4; cursor: not-allowed; }
+        /* Score history */
+        .history-section {
+            margin-top: 2rem;
+        }
+        .history-title { font-weight: 700; font-size: 1rem; margin-bottom: .6rem; color: var(--muted); }
+        .history-list { display: flex; flex-direction: column; gap: .4rem; }
+        .history-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: .5rem;
+            padding: .55rem .85rem;
+            font-size: .85rem;
+        }
+        .history-item .h-score { font-weight: 700; }
+        .history-item .h-pass  { color: var(--success); font-weight: 700; }
+        .history-item .h-fail  { color: var(--error);   font-weight: 700; }
+        .history-item .h-date  { color: var(--muted); font-size: .8rem; }
         /* Misc */
         .section-title { font-weight: 800; font-size: 1.3rem; margin-bottom: .4rem; }
         .section-sub   { color: var(--muted); margin-bottom: 1.5rem; font-size: .9rem; }
@@ -458,7 +493,9 @@
             <div class="score-sub" id="scoreSub">Pass mark: 17 / 33</div>
         </div>
         <div id="wrongReview"></div>
+        <button class="btn-secondary" id="btnPracticeWeak" style="display:none">📌 Practice wrong answers</button>
         <button class="btn-restart" id="btnRestart">🔄 Try Again</button>
+        <div class="history-section" id="historySection"></div>
     </div>
 </div>
 
@@ -507,6 +544,12 @@ const UI = {
         tryAgain: '🔄 Try Again',
         correctLabel: '✓ Correct!',
         wrongLabel: '✗ Wrong',
+        practiceWeak: '📌 Practice wrong answers',
+        historyTitle: '📊 Your recent scores',
+        historyEmpty: 'No history yet — complete a quiz to see your scores here.',
+        historyPass: 'PASS',
+        historyFail: 'FAIL',
+        historyPractice: 'Practice',
     },
     ur: {
         quizTitle: '🎯 مشق کوئز',
@@ -538,6 +581,12 @@ const UI = {
         tryAgain: '🔄 دوبارہ کوشش کریں',
         correctLabel: '✓ درست!',
         wrongLabel: '✗ غلط',
+        practiceWeak: '📌 غلط سوالات کی مشق',
+        historyTitle: '📊 آپ کے حالیہ نتائج',
+        historyEmpty: 'ابھی کوئی تاریخ نہیں — کوئز مکمل کریں تاکہ نتائج یہاں نظر آئیں۔',
+        historyPass: 'کامیاب',
+        historyFail: 'ناکام',
+        historyPractice: 'مشق',
     },
     de: {
         quizTitle: '🎯 Übungsquiz',
@@ -569,6 +618,12 @@ const UI = {
         tryAgain: '🔄 Erneut versuchen',
         correctLabel: '✓ Richtig!',
         wrongLabel: '✗ Falsch',
+        practiceWeak: '📌 Falsche Fragen üben',
+        historyTitle: '📊 Ihre letzten Ergebnisse',
+        historyEmpty: 'Noch kein Verlauf — beenden Sie ein Quiz, um Ihre Ergebnisse zu sehen.',
+        historyPass: 'BESTANDEN',
+        historyFail: 'NICHT BEST.',
+        historyPractice: 'Übung',
     },
 };
 
@@ -591,9 +646,9 @@ async function init() {
     applyUiLang();
     buildStateGrid();
     buildGenGrid();
+    quiz.weakQuestions = [];
+    renderHistory(); // pre-render history on results screen
 }
-
-// ── Language ──────────────────────────────────────────────────────────────────
 function applyUiLang() {
     const u = UI[LANG] || UI.en;
     const set = (id, val) => { const el = document.getElementById(id); if(el) el.textContent = val; };
@@ -848,31 +903,77 @@ function startTimer() {
     }, 1000);
 }
 
+// ── Score history (localStorage) ─────────────────────────────────────────────
+const HISTORY_KEY = 'quizHistory';
+const MAX_HISTORY = 5;
+
+function saveScore(score, total, mode, passed) {
+    try {
+        const history = getHistory();
+        history.unshift({
+            score, total, mode, passed,
+            date: new Date().toLocaleDateString(),
+        });
+        localStorage.setItem(HISTORY_KEY, JSON.stringify(history.slice(0, MAX_HISTORY)));
+    } catch(e) {}
+}
+
+function getHistory() {
+    try {
+        return JSON.parse(localStorage.getItem(HISTORY_KEY) || '[]');
+    } catch(e) { return []; }
+}
+
+function renderHistory() {
+    const u = UI[LANG] || UI.en;
+    const section = document.getElementById('historySection');
+    const history = getHistory();
+    if (history.length === 0) {
+        section.innerHTML = `<div class="history-section"><p class="history-title">${escHtml(u.historyTitle)}</p><p style="color:var(--muted);font-size:.85rem;">${escHtml(u.historyEmpty)}</p></div>`;
+        return;
+    }
+    const items = history.map(h => {
+        const modeLabel = h.mode === 'full'
+            ? (LANG === 'ur' ? 'اصل امتحان' : LANG === 'de' ? 'Volltest' : 'Full Test')
+            : h.mode === 'state'
+            ? (LANG === 'ur' ? 'ریاستی' : LANG === 'de' ? 'Bundesland' : 'State')
+            : u.historyPractice;
+        const verdict = h.mode === 'full'
+            ? `<span class="${h.passed ? 'h-pass' : 'h-fail'}">${h.passed ? u.historyPass : u.historyFail}</span>`
+            : '';
+        return `<div class="history-item">
+            <span class="h-score">${h.score}/${h.total}</span>
+            <span style="color:var(--muted);font-size:.82rem;">${modeLabel}</span>
+            ${verdict}
+            <span class="h-date">${h.date}</span>
+        </div>`;
+    }).join('');
+    section.innerHTML = `<div class="history-section"><p class="history-title">${escHtml(u.historyTitle)}</p><div class="history-list">${items}</div></div>`;
+}
+
 // ── Results ───────────────────────────────────────────────────────────────────
 function finishQuiz() {
     clearInterval(quiz.timer);
     const u = UI[LANG] || UI.en;
     const total = quiz.questions.length;
-    const isPracticeMode = total !== 33; // state-only or general set = practice
+    const isPracticeMode = total !== 33;
 
-    // Count correct answers
     let correct = 0;
     const wrong = [];
 
-    quiz.questions.forEach((item, i) => {
-        const { indices, correctAtShuffled } = item.shuffledOptions;
+    quiz.questions.forEach(item => {
+        const { correctAtShuffled } = item.shuffledOptions;
         if (item.yourAnswer === correctAtShuffled) {
             correct++;
-        } else if (item.yourAnswer !== -1) {
-            wrong.push(item);
         } else {
-            // Unanswered (timer ran out) = wrong
             wrong.push(item);
         }
     });
 
-    const passThreshold = 17; // Real Einbürgerungstest pass mark
-    const passed = correct >= passThreshold && total >= 33;
+    const passed = correct >= 17 && total >= 33;
+
+    // Save to history
+    saveScore(correct, total, quiz.mode, passed);
 
     // Verdict
     const verdictBox = document.getElementById('verdictBox');
@@ -882,7 +983,7 @@ function finishQuiz() {
         : passed ? u.bestanden : u.nichtBestanden;
     document.getElementById('scoreNum').textContent = `${correct} / ${total}`;
     document.getElementById('scoreSub').textContent = isPracticeMode
-        ? (LANG === 'ur' ? `آپ نے ${correct} سوالات درست حل کیے۔` : LANG === 'de' ? `Sie haben ${correct} Fragen richtig beantwortet.` : `You answered ${correct} questions correctly.`)
+        ? (LANG === 'ur' ? `آپ نے ${correct} سوالات درست حل کیے۔` : LANG === 'de' ? `Sie haben ${correct} Fragen richtig beantwortet.` : `You answered ${correct} correctly.`)
         : u.passMark;
 
     // Wrong answers review
@@ -899,7 +1000,6 @@ function finishQuiz() {
             const { indices, correctAtShuffled } = item.shuffledOptions;
             const correctOrigIdx = indices[correctAtShuffled];
             const correctOpt     = q.options[correctOrigIdx];
-
             let yourOptText = '—';
             if (item.yourAnswer >= 0) {
                 const yourOrigIdx = indices[item.yourAnswer];
@@ -908,7 +1008,6 @@ function finishQuiz() {
             }
             const correctText = LANG === 'ur' ? correctOpt.ur : LANG === 'de' ? correctOpt.de : correctOpt.en;
             const qText       = LANG === 'ur' ? q.ur : LANG === 'de' ? q.de : q.en;
-
             const div = document.createElement('div');
             div.className = 'review-item';
             div.style.direction = LANG === 'ur' ? 'rtl' : 'ltr';
@@ -922,9 +1021,28 @@ function finishQuiz() {
         });
     }
 
+    // "Practice wrong answers" button — only show if there are wrong answers
+    const weakBtn = document.getElementById('btnPracticeWeak');
+    if (wrong.length > 0) {
+        weakBtn.textContent = `📌 ${u.practiceWeak} (${wrong.length})`;
+        weakBtn.style.display = 'block';
+        // Store weak question IDs for use when button is clicked
+        quiz.weakQuestions = wrong.map(item => item.q);
+    } else {
+        weakBtn.style.display = 'none';
+        quiz.weakQuestions = [];
+    }
+
     document.getElementById('btnRestart').textContent = u.tryAgain;
+    renderHistory();
     showScreen('screenResults');
 }
+
+document.getElementById('btnPracticeWeak').addEventListener('click', () => {
+    if (quiz.weakQuestions && quiz.weakQuestions.length > 0) {
+        startQuiz([...quiz.weakQuestions], false);
+    }
+});
 
 document.getElementById('btnRestart').addEventListener('click', () => {
     clearInterval(quiz.timer);
