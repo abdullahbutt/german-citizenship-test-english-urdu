@@ -345,6 +345,21 @@ function buildFaqSchema(bodyHtml, lang) {
     </script>`;
 }
 
+// ---------- Flag emoji → flag-icons CSS spans ----------
+// Chrome on Windows deliberately omits country flag emojis (🇩🇪 🇬🇧 🇵🇰).
+// We replace them with spans from the flag-icons library which works in all browsers.
+const FLAG_SPANS = {
+    '🇩🇪': '<span class="fi fi-de" role="img" aria-label="Germany" title="Germany"></span>',
+    '🇬🇧': '<span class="fi fi-gb" role="img" aria-label="United Kingdom" title="UK"></span>',
+    '🇵🇰': '<span class="fi fi-pk" role="img" aria-label="Pakistan" title="Pakistan"></span>',
+};
+function applyFlagIcons(html) {
+    return html
+        .replace(/🇩🇪/g, FLAG_SPANS['🇩🇪'])
+        .replace(/🇬🇧/g, FLAG_SPANS['🇬🇧'])
+        .replace(/🇵🇰/g, FLAG_SPANS['🇵🇰']);
+}
+
 // ---------- HTML template ----------
 function renderPage({ lang, title, bodyHtml, slug }) {
     const dir = lang === 'ur' ? 'rtl' : 'ltr';
@@ -357,7 +372,7 @@ function renderPage({ lang, title, bodyHtml, slug }) {
         ? `font-family: 'Noto Nastaliq Urdu', 'Inter', serif; line-height: 2;`
         : `font-family: 'Inter', system-ui, -apple-system, sans-serif; line-height: 1.7;`;
 
-    return `<!DOCTYPE html>
+    const html = `<!DOCTYPE html>
 <html lang="${lang}" dir="${dir}">
 <head>
     <meta charset="UTF-8">
@@ -447,6 +462,7 @@ function renderPage({ lang, title, bodyHtml, slug }) {
         })();
     </script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/flag-icons@7.2.3/css/flag-icons.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
     ${urduFont}
     <style>
@@ -928,6 +944,8 @@ function renderPage({ lang, title, bodyHtml, slug }) {
     <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "${CLOUDFLARE_ANALYTICS_TOKEN}"}'></script>
 </body>
 </html>`;
+    // Replace flag emoji with flag-icons CSS spans (fixes Chrome on Windows)
+    return applyFlagIcons(html);
 }
 
 // ---------- Per-language index page ----------
