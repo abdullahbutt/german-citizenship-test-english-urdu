@@ -1,0 +1,74 @@
+name: 🔄 Auto-build site
+
+# Triggers whenever english or urdu source branches are updated.
+# Rebuilds the html branch (the one served by GitHub Pages).
+on:
+  push:
+    branches:
+      - english
+      - urdu
+
+# Queue concurrent builds rather than cancelling — both branches might
+# push at the same time and we want both changes included.
+concurrency:
+  group: build-html
+  cancel-in-progress: false
+
+# Allow the workflow to push the built files back to the html branch.
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # ── 1. Check out the html branch (destination) ────────────────────────
+      - name: Checkout html branch
+        uses: actions/checkout@v4
+        with:
+          ref: html
+          fetch-depth: 1
+
+      # ── 2. Fetch the source branches so we can mount them ─────────────────
+      - name: Fetch source branches
+        run: git fetch origin english urdu
+
+      # ── 3. Set up Node.js ──────────────────────────────────────────────────
+      - name: Set up Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      # ── 4. Install exact dependencies from package-lock.json ──────────────
+      - name: Install dependencies
+        run: npm ci
+
+      # ── 5. Mount source branches as worktrees (mirrors local dev setup) ───
+      - name: Mount source branches
+        run: |
+          mkdir -p sources
+          git worktree add sources/english origin/english
+          git worktree add sources/urdu    origin/urdu
+
+      # ── 6. Build the site ─────────────────────────────────────────────────
+      - name: Build site
+        run: npm run build
+
+      # ── 7. Commit and push only if files changed ──────────────────────────
+      - name: Commit and push built files
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Stage all generated output files
+          git add en/ ur/ sitemap.xml robots.txt sw.js quiz-data.json .nojekyll
+
+          if git diff --staged --quiet; then
+            echo "✓ No output changes — skipping commit"
+          else
+            git commit -m "build: auto-rebuild from ${GITHUB_REF_NAME} [skip ci]"
+            git push origin html
+            echo "✓ Built and pushed to html branch"
+          fi
