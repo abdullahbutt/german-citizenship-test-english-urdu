@@ -1,5 +1,5 @@
 {
-  "version": "2026-06-11",
+  "version": "2026-06-12",
   "general": [
     {
       "id": 1,
@@ -1922,6 +1922,37 @@
       "correct": 1,
       "exp_en": "Elections to the Bundestag are called \"Bundestagswahl\" (federal election). They take place every four years. Germany has four main levels of elections: Kommunalwahl (local/municipal), Landtagswahl (state parliament), Bundestagswahl (federal parliament), and Europawahl (European Parliament). Each election determines representatives at a different level of government.",
       "exp_ur": "Elections to the Bundestag are called \"Bundestagswahl\" (federal election). They take place every four years. Germany has four main levels of elections: Kommunalwahl (local/municipal), Landtagswahl (state parliament), Bundestagswahl (federal parliament), and Europawahl (European Parliament). Each election determines representatives at a different level of government."
+    },
+    {
+      "id": 63,
+      "de": "Was__(s)__ __(p)__assiert in Deutschland, wenn man__(n)__ __(b)__ei einer Bundestagswahl__(l)__ seine Stimme__(e)__ nicht abgibt?",
+      "en": "What happens in Germany if you don't cast your vote in a federal election?",
+      "ur": "What happens in Germany if you don't cast your vote in a federal election?",
+      "options": [
+        {
+          "de": "Man__(n)__ __(m)__uss eine Strafe bezahlen.",
+          "en": "You have to pay a fine.",
+          "ur": "You have to pay a fine."
+        },
+        {
+          "de": "Man__(n)__ __(b)__ekommt__(t)____(e)__inen Brief vom Bundestag.",
+          "en": "You receive a letter from the Bundestag.",
+          "ur": "You receive a letter from the Bundestag."
+        },
+        {
+          "de": "Es__(s)__ __(p)__assiert nichts,__(,)__ __(d)__ie Wahl ist freiwillig.",
+          "en": "Nothing happens, voting is voluntary.",
+          "ur": "Nothing happens, voting is voluntary."
+        },
+        {
+          "de": "Man__(n)__ __(d)__arf nicht mehr wählen gehen.",
+          "en": "You are no longer allowed to vote.",
+          "ur": "You are no longer allowed to vote."
+        }
+      ],
+      "correct": 2,
+      "exp_en": "Voting in Germany is completely voluntary. There is no penalty for not voting, unlike in some countries (e.g., Belgium, Australia) where voting is compulsory. This is part of the principle that elections are \"free\" — no one can be forced to vote. However, voter participation is considered an important civic duty, and turnout in German elections is typically quite high (around 70-80%).",
+      "exp_ur": "Voting in Germany is completely voluntary. There is no penalty for not voting, unlike in some countries (e.g., Belgium, Australia) where voting is compulsory. This is part of the principle that elections are \"free\" — no one can be forced to vote. However, voter participation is considered an important civic duty, and turnout in German elections is typically quite high (around 70-80%)."
     },
     {
       "id": 64,
