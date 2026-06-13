@@ -403,7 +403,171 @@
 ---
 
 ### Questions 277–287
-*Questions covering insurance systems, right to demonstrate, religious freedom in practice, equality laws, environmental protection, and European integration.*
+
+---
+
+### Question 277
+**🇩🇪** Eine Frau, die ein zweijähriges Kind hat, bewirbt sich in Deutschland um eine Stelle. Was ist ein Beispiel für Diskriminierung? Sie bekommt die Stelle nur deshalb nicht, weil sie …
+**🇬🇧** A woman with a two-year-old child applies for a job in Germany. What is an example of discrimination? She does not get the job for the sole reason that she is …
+
+| | Deutsch | English |
+|---|---|---|
+| ○ | kein Englisch spricht. | does not speak English. |
+| ○ | zu hohe Gehaltsvorstellungen hat. | has salary expectations that are too high. |
+| ○ | keine Erfahrungen in diesem Beruf hat. | has no experience in this profession. |
+| ✅ | **Mutter ist.** | **a mother.** |
+
+> **📝** Germany's General Equal Treatment Act (Allgemeines Gleichbehandlungsgesetz, AGG) prohibits discrimination based on gender, ethnicity, religion, disability, age, or sexual identity. Refusing a job applicant because she is a mother is gender discrimination — it is illegal regardless of the employer's reasons. The correct answer is that she is a mother (Option D).
+
+---
+
+### Question 278
+**🇩🇪** Ein Mann im Rollstuhl hat sich auf eine Stelle als Buchhalter beworben. Was ist ein Beispiel für Diskriminierung? Er bekommt die Stelle nur deshalb nicht, weil er …
+**🇬🇧** A man in a wheelchair has applied for a position as an accountant. What is an example of discrimination? He does not get the job for the sole reason that he …
+
+| | Deutsch | English |
+|---|---|---|
+| ✅ | **im Rollstuhl sitzt.** | **uses a wheelchair.** |
+| ○ | keine Erfahrung hat. | has no experience. |
+| ○ | zu hohe Gehaltsvorstellungen hat. | has salary expectations that are too high. |
+| ○ | kein Englisch spricht. | does not speak English. |
+
+> **📝** Rejecting a qualified applicant solely because they use a wheelchair is disability discrimination under the AGG. Disability is an irrelevant factor for an office-based accounting role. The other options — lack of experience, salary expectations, language skills — could be legitimate hiring criteria. Only using a wheelchair (Option A) constitutes discrimination.
+
+---
+
+### Question 279
+**🇩🇪** In den meisten Mietshäusern in Deutschland gibt es eine „Hausordnung". Was steht in einer solchen „Hausordnung"? Sie nennt …
+**🇬🇧** In most rental apartment buildings in Germany there is a "Hausordnung" (house rules). What does such a "Hausordnung" contain? It lists …
+
+| | Deutsch | English |
+|---|---|---|
+| ○ | Regeln für die Benutzung öffentlicher Verkehrsmittel. | rules for using public transport. |
+| ○ | alle Mieter und Mieterinnen im Haus. | all tenants in the building. |
+| ✅ | **Regeln, an die sich alle Bewohner und Bewohnerinnen halten müssen.** | **rules that all residents must follow.** |
+| ○ | die Adresse des nächsten Ordnungsamtes. | the address of the nearest public order office. |
+
+> **📝** A Hausordnung is a set of rules that applies to all residents of an apartment building. It typically covers quiet hours (Ruhezeiten), use of shared spaces (stairwell, laundry room, courtyard), rubbish disposal, and general conduct. It is usually attached to the rental contract (Mietvertrag). Violations can lead to warnings (Abmahnung) or, in serious cases, termination of the tenancy.
+
+---
+
+### Question 280
+**🇩🇪** Wenn Sie sich in Deutschland gegen einen falschen Steuerbescheid wehren wollen, müssen Sie …
+**🇬🇧** If you want to contest an incorrect tax assessment notice in Germany, you must …
+
+| | Deutsch | English |
+|---|---|---|
+| ○ | nichts machen. | do nothing. |
+| ○ | den Bescheid wegwerfen. | throw the notice away. |
+| ✅ | **Einspruch einlegen.** | **lodge an objection (Einspruch).** |
+| ○ | warten, bis ein anderer Bescheid kommt. | wait for another notice to arrive. |
+
+> **📝** If you receive a Steuerbescheid (tax assessment notice) that you believe is incorrect, you must formally lodge an Einspruch (objection) with the Finanzamt (tax office) within one month of receiving the notice. If the Einspruch is rejected, you can take the matter to the Finanzgericht (tax court). Simply ignoring or discarding the notice is not a legal remedy and may result in the incorrect amount becoming legally binding.
+
+---
+
+### Question 281
+**🇩🇪** Zwei Freunde wollen in ein öffentliches Schwimmbad in Deutschland. Beide haben eine dunkle Hautfarbe und werden deshalb nicht hineingelassen. Welches Recht wird in dieser Situation verletzt? Das Recht auf …
+**🇬🇧** Two friends want to enter a public swimming pool in Germany. Both have dark skin and are refused entry for that reason. Which right is being violated in this situation? The right to …
+
+| | Deutsch | English |
+|---|---|---|
+| ○ | Meinungsfreiheit | freedom of opinion |
+| ✅ | **Gleichbehandlung** | **equal treatment** |
+| ○ | Versammlungsfreiheit | freedom of assembly |
+| ○ | Freizügigkeit | freedom of movement |
+
+> **📝** Refusing entry to a public facility based on skin colour is racial discrimination, violating the right to Gleichbehandlung (equal treatment) guaranteed by Article 3 of the Basic Law and reinforced by the AGG. Public facilities open to everyone must not discriminate. The other rights listed — freedom of opinion, assembly, and movement — are not relevant to this situation.
+
+---
+
+### Question 282
+**🇩🇪** Welches Ehrenamt müssen deutsche Staatsbürger / Staatsbürgerinnen übernehmen, wenn sie dazu aufgefordert werden?
+**🇬🇧** Which civic duty (honorary office) must German citizens take on if called upon to do so?
+
+| | Deutsch | English |
+|---|---|---|
+| ○ | Vereinstrainer / Vereinstrainerin | Club trainer / sports coach |
+| ○ | Bibliotheksaufsicht | Library supervisor |
+| ✅ | **Wahlhelfer / Wahlhelferin** | **Election helper / polling station worker** |
+| ○ | Lehrer / Lehrerin | Teacher |
+
+> **📝** In Germany, citizens can be legally required to serve as Wahlhelfer (polling station workers) during elections. This is one of the few civic duties that can be compelled — similar to jury service in other countries. Wahlhelfer help run the polling station, distribute ballots, and count votes. The duty is part of democratic participation. Other roles like coaching, library work, or teaching cannot be legally compelled.
+
+---
+
+### Question 283
+**🇩🇪** Was tun Sie, wenn Sie eine falsche Rechnung von einer deutschen Behörde bekommen?
+**🇬🇧** What do you do if you receive an incorrect invoice/bill from a German authority?
+
+| | Deutsch | English |
+|---|---|---|
+| ○ | Ich lasse die Rechnung liegen. | I leave the invoice aside. |
+| ✅ | **Ich lege Widerspruch bei der Behörde ein.** | **I lodge a formal objection (Widerspruch) with the authority.** |
+| ○ | Ich schicke die Rechnung an die Behörde zurück. | I send the invoice back to the authority. |
+| ○ | Ich gehe mit der Rechnung zum Finanzamt. | I go to the tax office with the invoice. |
+
+> **📝** When you receive an incorrect bill or administrative decision from a German authority, the correct legal step is to lodge a Widerspruch (formal objection). This must typically be done in writing within one month. Simply returning the document or ignoring it is not sufficient and the incorrect charge could become legally enforceable. The Widerspruch triggers a review process within the authority.
+
+---
+
+### Question 284
+**🇩🇪** Was man für die Arbeit können muss, ändert sich in der Zukunft sehr schnell. Was kann man tun?
+**🇬🇧** What one needs to know for work is changing very rapidly in the future. What can one do?
+
+| | Deutsch | English |
+|---|---|---|
+| ○ | Es ist egal, was man lernt. | It does not matter what one learns. |
+| ○ | Kinder lernen in der Schule alles, was im Beruf wichtig ist. Nach der Schule muss man nicht weiter lernen. | Children learn everything needed for work at school. After school, no further learning is necessary. |
+| ✅ | **Erwachsene müssen auch nach der Ausbildung immer weiter lernen.** | **Adults must continue learning throughout their lives, even after completing their training.** |
+| ○ | Alle müssen früher aufhören zu arbeiten, weil sich alles ändert. | Everyone must retire earlier because everything is changing. |
+
+> **📝** In a rapidly changing economy and job market, lifelong learning (lebenslanges Lernen) is essential. Germany has a strong tradition of continuing education (Weiterbildung) and vocational training. Adults are expected to update their skills throughout their careers through further training, courses, and qualification programmes. This concept is reinforced by Germany's dual education system and extensive adult education institutions (Volkshochschulen).
+
+---
+
+### Question 285
+**🇩🇪** Frau Frost arbeitet als fest angestellte Mitarbeiterin in einem Büro. Was muss sie nicht von ihrem Gehalt bezahlen?
+**🇬🇧** Ms Frost works as a permanent employee in an office. What does she NOT have to pay from her salary?
+
+| | Deutsch | English |
+|---|---|---|
+| ✅ | **Umsatzsteuer** | **VAT (Umsatzsteuer / value-added tax)** |
+| ○ | Lohnsteuer | Income tax (Lohnsteuer) |
+| ○ | Beiträge zur Arbeitslosenversicherung | Unemployment insurance contributions |
+| ○ | Beiträge zur Renten- und Krankenversicherung | Pension and health insurance contributions |
+
+> **📝** As a salaried employee in Germany, Ms Frost must pay Lohnsteuer (income tax withheld at source), as well as social insurance contributions: Krankenversicherung (health), Rentenversicherung (pension), Pflegeversicherung (care), and Arbeitslosenversicherung (unemployment). However, she does not pay Umsatzsteuer (VAT / value-added tax) from her salary — VAT is paid by businesses on goods and services, not by employees from their wages.
+
+---
+
+### Question 286
+**🇩🇪** Welche Organisation in einer Firma hilft den Arbeitnehmern und Arbeitnehmerinnen bei Problemen mit dem Arbeitgeber / der Arbeitgeberin?
+**🇬🇧** Which organisation in a company helps employees with problems involving the employer?
+
+| | Deutsch | English |
+|---|---|---|
+| ✅ | **der Betriebsrat** | **the works council (Betriebsrat)** |
+| ○ | der Betriebsprüfer / die Betriebsprüferin | the company auditor |
+| ○ | die Betriebsgruppe | the company group |
+| ○ | das Betriebsmanagement | the company management |
+
+> **📝** The Betriebsrat (works council) is an elected body that represents the interests of employees in companies with five or more staff. It has co-determination rights (Mitbestimmungsrechte) on matters such as working hours, holiday schedules, redundancies, and workplace safety. Employees can approach the Betriebsrat with disputes or grievances about their employer. The Betriebsrat is legally protected and independent of management.
+
+---
+
+### Question 287
+**🇩🇪** Sie möchten bei einer Firma in Deutschland Ihr Arbeitsverhältnis beenden. Was müssen Sie beachten?
+**🇬🇧** You want to end your employment at a company in Germany. What must you observe?
+
+| | Deutsch | English |
+|---|---|---|
+| ○ | die Gehaltszahlungen | the salary payments |
+| ○ | die Arbeitszeit | the working hours |
+| ✅ | **die Kündigungsfrist** | **the notice period (Kündigungsfrist)** |
+| ○ | die Versicherungspflicht | the insurance obligation |
+
+> **📝** In Germany, when an employee wishes to resign (kündigen), they must observe the Kündigungsfrist (notice period). The statutory minimum notice period for employees is four weeks (to the 15th or end of the month). Longer notice periods may apply depending on the employment contract or collective agreement (Tarifvertrag). Failing to observe the notice period can result in legal claims for damages. The resignation must generally be submitted in writing (Schriftform).
 
 ---
 
@@ -423,7 +587,36 @@
 ---
 
 ### Questions 289–290
-*Additional questions on civic knowledge and social responsibilities.*
+
+---
+
+### Question 289
+**🇩🇪** Ein Mann mit dunkler Hautfarbe bewirbt sich um eine Stelle als Kellner in einem Restaurant in Deutschland. Was ist ein Beispiel für Diskriminierung? Er bekommt die Stelle nur deshalb nicht, weil …
+**🇬🇧** A man with dark skin applies for a position as a waiter in a restaurant in Germany. What is an example of discrimination? He does not get the job for the sole reason that …
+
+| | Deutsch | English |
+|---|---|---|
+| ○ | seine Deutschkenntnisse zu gering sind. | his German language skills are insufficient. |
+| ○ | er zu hohe Gehaltsvorstellungen hat. | he has salary expectations that are too high. |
+| ✅ | **er eine dunkle Haut hat.** | **he has dark skin.** |
+| ○ | er keine Erfahrungen im Beruf hat. | he has no professional experience. |
+
+> **📝** Refusing to hire someone because of their skin colour is racial discrimination, prohibited under Germany's AGG (General Equal Treatment Act). The colour of skin is entirely irrelevant to the ability to work as a waiter. The other options — insufficient German, high salary expectations, lack of experience — could be legitimate factors in a hiring decision. Only rejecting someone because of their skin colour (Option C) is discrimination.
+
+---
+
+### Question 290
+**🇩🇪** Sie haben in Deutschland einen Fernseher gekauft. Zu Hause packen Sie den Fernseher aus, doch er funktioniert nicht. Der Fernseher ist kaputt. Was können Sie machen?
+**🇬🇧** You bought a television set in Germany. At home you unpack it, but it does not work. The television is broken. What can you do?
+
+| | Deutsch | English |
+|---|---|---|
+| ○ | eine Anzeige schreiben | write a complaint notice |
+| ✅ | **den Fernseher reklamieren** | **make a complaint / return the television (reklamieren)** |
+| ○ | das Gerät ungefragt austauschen | swap the device without asking |
+| ○ | die Garantie verlängern | extend the warranty |
+
+> **📝** In Germany, if you buy a defective product, you have the right to Gewährleistung (statutory warranty) for two years from the date of purchase. You can reklamieren — formally complain and demand remedy. The seller must repair the product (Nachbesserung) or replace it (Nachlieferung). If neither is possible, you may withdraw from the contract (Rücktritt) or reduce the price. This is a consumer right under German civil law (BGB § 437) and does not depend on any additional warranty (Garantie) offered by the manufacturer.
 
 ---
 
