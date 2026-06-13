@@ -155,7 +155,7 @@
             width: 100%;
             flex: 1;
         }
-        /* Header bar: progress + timer */
+        /* Header bar: progress + timer + cancel */
         .quiz-header {
             display: flex;
             justify-content: space-between;
@@ -164,6 +164,22 @@
             font-size: .9rem;
             font-weight: 600;
             color: var(--muted);
+        }
+        .quiz-cancel-btn {
+            background: none;
+            border: 1.5px solid var(--border);
+            border-radius: 999px;
+            padding: .25rem .75rem;
+            font-size: .8rem;
+            font-weight: 600;
+            color: var(--muted);
+            cursor: pointer;
+            transition: all .15s;
+            white-space: nowrap;
+        }
+        .quiz-cancel-btn:hover {
+            border-color: var(--error, #dc2626);
+            color: var(--error, #dc2626);
         }
         .timer {
             font-variant-numeric: tabular-nums;
@@ -479,6 +495,7 @@
     <div class="quiz-wrap">
         <div class="quiz-header">
             <span id="qProgress">Question 1 of 33</span>
+            <button class="quiz-cancel-btn" id="btnCancelQuiz" onclick="cancelQuiz()">✕ <span id="txt-cancelQuiz">Cancel</span></button>
             <span class="timer" id="timer" style="display:none">60:00</span>
         </div>
         <div class="progress-bar"><div class="progress-fill" id="progressFill" style="width:0%"></div></div>
@@ -506,6 +523,7 @@
         <div id="wrongReview"></div>
         <button class="btn-secondary" id="btnPracticeWeak" style="display:none">📌 Practice wrong answers</button>
         <button class="btn-restart" id="btnRestart">🔄 Try Again</button>
+        <button class="btn-secondary" id="btnNewQuiz" onclick="showScreen('screenMode')" style="margin-top:.5rem;">← <span id="txt-newQuiz">Choose a different quiz</span></button>
         <div class="history-section" id="historySection"></div>
     </div>
 </div>
@@ -553,6 +571,8 @@ const UI = {
         yourAnswer: 'Your answer:',
         correctAnswer: 'Correct:',
         tryAgain: '🔄 Try Again',
+        cancelQuiz: 'Cancel',
+        newQuiz: '← Choose a different quiz',
         correctLabel: '✓ Correct!',
         wrongLabel: '✗ Wrong',
         practiceWeak: '📌 Practice wrong answers',
@@ -590,6 +610,8 @@ const UI = {
         yourAnswer: 'آپ کا جواب:',
         correctAnswer: 'درست جواب:',
         tryAgain: '🔄 دوبارہ کوشش کریں',
+        cancelQuiz: 'منسوخ کریں',
+        newQuiz: '← مختلف کوئز منتخب کریں',
         correctLabel: '✓ درست!',
         wrongLabel: '✗ غلط',
         practiceWeak: '📌 غلط سوالات کی مشق',
@@ -627,6 +649,8 @@ const UI = {
         yourAnswer: 'Ihre Antwort:',
         correctAnswer: 'Richtige Antwort:',
         tryAgain: '🔄 Erneut versuchen',
+        cancelQuiz: 'Abbrechen',
+        newQuiz: '← Anderes Quiz wählen',
         correctLabel: '✓ Richtig!',
         wrongLabel: '✗ Falsch',
         practiceWeak: '📌 Falsche Fragen üben',
@@ -677,6 +701,8 @@ function applyUiLang() {
     set('txt-stateSub',   u.stateSub);
     set('txt-genTitle',   u.genTitle);
     set('txt-genSub',     u.genSub);
+    set('txt-cancelQuiz', u.cancelQuiz);
+    set('txt-newQuiz',    u.newQuiz);
     // Apply RTL for Urdu
     document.body.style.direction = LANG === 'ur' ? 'rtl' : 'ltr';
     if (LANG === 'ur') {
@@ -711,6 +737,20 @@ function showScreen(id) {
 }
 
 // ── Mode selection ────────────────────────────────────────────────────────────
+// ── Cancel quiz mid-session ───────────────────────────────────────────────────
+function cancelQuiz() {
+    const u = UI[LANG] || UI.en;
+    const msg = LANG === 'ur'
+        ? 'کوئز منسوخ کی جائے؟ آپ کی پیش رفت ضائع ہو جائے گی۔'
+        : LANG === 'de'
+        ? 'Quiz abbrechen? Ihr Fortschritt geht verloren.'
+        : 'Cancel the quiz? Your progress will be lost.';
+    if (!confirm(msg)) return;
+    clearInterval(quiz.timer);
+    quiz.timer = null;
+    showScreen('screenMode');
+}
+
 function startMode(mode) {
     quiz.mode = mode;
     if (mode === 'full') {
@@ -1067,6 +1107,7 @@ function finishQuiz() {
     }
 
     document.getElementById('btnRestart').textContent = u.tryAgain;
+    document.getElementById('btnNewQuiz').textContent = u.newQuiz;
     renderHistory();
     showScreen('screenResults');
 }
