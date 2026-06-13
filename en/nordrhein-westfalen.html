@@ -235,6 +235,21 @@
         table tr:nth-child(even) td { background: var(--table-stripe); }
         table tr:hover td { background: var(--table-hover); }
 
+        /* On Urdu (RTL) pages, column 1 = ✅/○ (center),
+           column 2 = German text (must stay LTR + left-aligned),
+           column 3 = Urdu text (RTL, right-aligned via page direction).
+           Without this fix, dir="rtl" on <html> makes the German column
+           also right-aligned, which looks broken. */
+        [dir="rtl"] table td:nth-child(2),
+        [dir="rtl"] table th:nth-child(2) {
+            direction: ltr;
+            text-align: left;
+        }
+        [dir="rtl"] table td:nth-child(1),
+        [dir="rtl"] table th:nth-child(1) {
+            text-align: center;
+        }
+
         @media (max-width: 720px) {
             .table-wrap table {
                 min-width: 540px;
