@@ -14,7 +14,6 @@
   "icons": [
     { "src": "icons/16.png", "sizes": "16x16", "type": "image/png", "purpose": "any maskable" },
     { "src": "icons/32.png", "sizes": "32x32", "type": "image/png", "purpose": "any maskable" },
-    { "src": "icons/192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
     { "src": "icons/64.png", "sizes": "64x64", "type": "image/png", "purpose": "any maskable" },
     { "src": "icons/72.png", "sizes": "72x72", "type": "image/png", "purpose": "any maskable" },
     { "src": "icons/96.png", "sizes": "96x96", "type": "image/png", "purpose": "any maskable" },
