@@ -102,7 +102,7 @@
     /* Optical size correction — Jameel Noori Nastaleeq renders visually smaller
        than Inter at equal CSS sizes (smaller cap-height relative to em square).
        Scaling the root font-size up proportionally compensates all rem-based sizes. */
-    html { font-size: 120%; }
+    html { font-size: 130%; }
     </style>
     <style>
         :root {
@@ -583,6 +583,161 @@
         <article class="content-card">
             
         <style>
+        /* ── Search ─────────────────────────────────────────── */
+        .idx-search-wrap {
+            margin-bottom: 1.25rem;
+            position: relative;
+        }
+        .idx-search-input {
+            width: 100%;
+            padding: .7rem 1rem .7rem 2.6rem;
+            border: 1.5px solid var(--border);
+            border-radius: .65rem;
+            font-size: .95rem;
+            font-family: inherit;
+            background: var(--card-bg);
+            color: var(--page-text);
+            outline: none;
+            transition: border-color .15s;
+            box-sizing: border-box;
+        }
+        .idx-search-input:focus { border-color: var(--primary); }
+        .idx-search-icon {
+            position: absolute;
+            left: .85rem;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 1rem;
+            pointer-events: none;
+            color: var(--muted-text);
+        }
+        .idx-search-results {
+            display: none;
+            margin-top: .5rem;
+            border: 1.5px solid var(--border);
+            border-radius: .65rem;
+            overflow: hidden;
+            background: var(--card-bg);
+        }
+        .idx-search-results.visible { display: block; }
+        .idx-search-result {
+            display: block;
+            padding: .7rem 1rem;
+            border-bottom: 1px solid var(--border);
+            text-decoration: none;
+            color: var(--page-text);
+            transition: background .1s;
+            font-size: .88rem;
+            line-height: 1.5;
+        }
+        .idx-search-result:last-child { border-bottom: none; }
+        .idx-search-result:hover { background: color-mix(in srgb,var(--primary) 8%,var(--card-bg)); }
+        .idx-search-result-num {
+            font-weight: 700;
+            color: var(--primary);
+            font-size: .8rem;
+            margin-bottom: .15rem;
+        }
+        .idx-search-result-text {
+            color: var(--page-text);
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+        }
+        .idx-search-empty {
+            padding: 1rem;
+            text-align: center;
+            color: var(--muted-text);
+            font-size: .88rem;
+        }
+        [dir="rtl"] .idx-search-input { padding: .7rem 2.6rem .7rem 1rem; }
+        [dir="rtl"] .idx-search-icon  { left: auto; right: .85rem; }
+        </style>
+
+        <h1 style="margin-bottom:.75rem;">جرمن شہریت کا امتحان</h1>
+
+        <div class="idx-search-wrap">
+            <span class="idx-search-icon">🔍</span>
+            <input class="idx-search-input" id="searchInput" type="search"
+                placeholder="سوالات تلاش کریں…"
+                autocomplete="off" aria-label="سوالات تلاش کریں">
+            <div class="idx-search-results" id="searchResults" role="listbox"></div>
+        </div>
+        <script>
+        (function(){
+            const lang = 'ur';
+            const isUr = lang === 'ur';
+            let searchData = null;
+
+            // Load search index lazily on first keypress
+            function loadIndex(cb) {
+                if (searchData) { cb(); return; }
+                fetch('../search-index.json')
+                    .then(r => r.json())
+                    .then(d => { searchData = d; cb(); })
+                    .catch(() => { searchData = []; });
+            }
+
+            function highlight(text, query) {
+                if (!query || !text) return escHtml(text);
+                const lower = text.toLowerCase();
+                const lq    = query.toLowerCase();
+                const idx   = lower.indexOf(lq);
+                if (idx === -1) return escHtml(text);
+                return escHtml(text.slice(0, idx)) +
+                    '<mark style="background:rgba(37,99,235,.15);border-radius:2px;">' +
+                    escHtml(text.slice(idx, idx + query.length)) +
+                    '</mark>' +
+                    escHtml(text.slice(idx + query.length));
+            }
+            function escHtml(s) {
+                return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+            }
+
+            const input   = document.getElementById('searchInput');
+            const results = document.getElementById('searchResults');
+
+            input.addEventListener('input', function() {
+                const q = this.value.trim();
+                if (q.length < 2) { results.classList.remove('visible'); return; }
+                loadIndex(() => doSearch(q));
+            });
+
+            function doSearch(q) {
+                const lq = q.toLowerCase();
+                const matches = searchData.filter(item =>
+                    (item.de && item.de.toLowerCase().includes(lq)) ||
+                    (isUr ? (item.ur && item.ur.toLowerCase().includes(lq))
+                           : (item.en && item.en.toLowerCase().includes(lq)))
+                ).slice(0, 10);
+
+                if (!matches.length) {
+                    results.innerHTML = '<div class="idx-search-empty">' +
+                        (isUr ? 'کوئی نتیجہ نہیں ملا۔' : 'No results found.') + '</div>';
+                    results.classList.add('visible');
+                    return;
+                }
+
+                results.innerHTML = matches.map(item => {
+                    const href = './' + item.slug + '.html#q-' + item.id;
+                    const primary = highlight(isUr ? (item.ur || item.de) : item.de, q);
+                    return '<a class="idx-search-result" href="' + escHtml(href) + '">' +
+                        '<div class="idx-search-result-num">' + (isUr ? 'سوال ' : 'Question ') + item.id + '</div>' +
+                        '<div class="idx-search-result-text">' + primary + '</div>' +
+                        '</a>';
+                }).join('');
+                results.classList.add('visible');
+            }
+
+            // Close results when clicking outside
+            document.addEventListener('click', e => {
+                if (!input.contains(e.target) && !results.contains(e.target))
+                    results.classList.remove('visible');
+            });
+        })();
+        </script>
+        <style>
         .idx-intro {
             background: color-mix(in srgb, var(--primary) 7%, var(--card-bg));
             border: 1px solid color-mix(in srgb, var(--primary) 20%, var(--border));
@@ -670,8 +825,6 @@
             .idx-grid--states { grid-template-columns: 1fr 1fr; }
         }
         </style>
-
-        <h1 style="margin-bottom:.75rem;">جرمن شہریت کا امتحان</h1>
 
         <div class="idx-intro">جرمن مستقل اقامت (Niederlassungserlaubnis) اور شہریت کے لیے <strong>Einbürgerungstest</strong> پاس کرنا ضروری ہے۔ یہ امتحان جرمن زبان میں ہوتا ہے — اس مفت گائیڈ میں ہر سرکاری سوال کا اردو ترجمہ اور آسان وضاحت موجود ہے۔</div>
 
