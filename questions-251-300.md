@@ -185,6 +185,201 @@
 
 ---
 
+### سوال 275
+**🇩🇪** Was ist eine Aufgabe der Bundeswehr?
+**🇵🇰** جرمن فوج (Bundeswehr) کا کیا کام ہے؟
+
+| | جرمن | اردو |
+|---|---|---|
+| ✅ | **Landesverteidigung** | **ملکی دفاع** |
+| ○ | Steuern eintreiben | ٹیکس وصول کرنا |
+| ○ | Schulen bauen | اسکول تعمیر کرنا |
+| ○ | Wahlen organisieren | انتخابات منظم کرنا |
+
+> **📝** Bundeswehr (جرمن افواج) 1955 میں قائم ہوئی۔ اس کا بنیادی کام ملکی دفاع ہے۔ 1994 سے Bundeswehr بین الاقوامی امن مشنوں میں بھی حصہ لیتی ہے۔ 2011 میں لازمی فوجی خدمت معطل کی گئی۔
+
+---
+
+### سوال 276
+**🇩🇪** Was ist der "Solidaritätszuschlag"?
+**🇵🇰** "Solidaritätszuschlag" (یکجہتی ضمیمہ) کیا ہے؟
+
+| | جرمن | اردو |
+|---|---|---|
+| ✅ | **ein Zuschlag zur Einkommensteuer, ursprünglich zur Finanzierung der Wiedervereinigung** | **آمدنی ٹیکس پر ضمیمہ، اصلاً جرمنی کے دوبارہ اتحاد کی مالی اعانت کے لیے** |
+| ○ | eine Kirchensteuer | چرچ ٹیکس |
+| ○ | eine Versicherung | ایک انشورنس |
+| ○ | eine Parkgebühr | پارکنگ فیس |
+
+> **📝** Solidaritätszuschlag (سولی) 1991 میں جرمنی کے اتحاد کے اخراجات کے لیے متعارف کرایا گیا تھا — آمدنی ٹیکس کا 5.5%۔ 2021 سے تقریباً 90% ٹیکس دہندگان کے لیے ختم کر دیا گیا۔
+
+---
+
+### سوال 277
+**🇩🇪** Eine Frau, die ein zweijähriges Kind hat, bewirbt sich in Deutschland um eine Stelle. Was ist ein Beispiel für Diskriminierung? Sie bekommt die Stelle nur deshalb nicht, weil sie …
+**🇵🇰** دو سال کے بچے والی ایک خاتون جرمنی میں ملازمت کے لیے درخواست دیتی ہے۔ امتیازی سلوک کی مثال کیا ہے؟ اسے ملازمت صرف اس لیے نہیں ملتی کیونکہ وہ …
+
+| | جرمن | اردو |
+|---|---|---|
+| ○ | kein Englisch spricht. | انگریزی نہیں بولتی۔ |
+| ○ | zu hohe Gehaltsvorstellungen hat. | بہت زیادہ تنخواہ مانگتی ہے۔ |
+| ○ | keine Erfahrungen in diesem Beruf hat. | اس پیشے میں تجربہ نہیں رکھتی۔ |
+| ✅ | **Mutter ist.** | **ماں ہے۔** |
+
+> **📝** جرمنی کا عام مساوی سلوک قانون (AGG) جنس، نسل، مذہب، معذوری، عمر یا جنسی رجحان کی بنیاد پر امتیاز ممنوع قرار دیتا ہے۔ ماں ہونے کی وجہ سے ملازمت نہ دینا صنفی امتیاز ہے — یہ غیر قانونی ہے۔
+
+---
+
+### سوال 278
+**🇩🇪** Ein Mann im Rollstuhl hat sich auf eine Stelle als Buchhalter beworben. Was ist ein Beispiel für Diskriminierung? Er bekommt die Stelle nur deshalb nicht, weil er …
+**🇵🇰** وہیل چیئر پر ایک آدمی نے اکاؤنٹنٹ کی پوسٹ کے لیے درخواست دی۔ امتیازی سلوک کی مثال کیا ہے؟ اسے ملازمت صرف اس لیے نہیں ملتی کیونکہ وہ …
+
+| | جرمن | اردو |
+|---|---|---|
+| ✅ | **im Rollstuhl sitzt.** | **وہیل چیئر استعمال کرتا ہے۔** |
+| ○ | keine Erfahrung hat. | تجربہ نہیں رکھتا۔ |
+| ○ | zu hohe Gehaltsvorstellungen hat. | بہت زیادہ تنخواہ مانگتا ہے۔ |
+| ○ | kein Englisch spricht. | انگریزی نہیں بولتا۔ |
+
+> **📝** معذوری کی بنیاد پر کسی اہل امیدوار کو مسترد کرنا AGG کے تحت معذوری کی بنیاد پر امتیاز ہے۔ دفتری کام کے لیے وہیل چیئر غیر متعلقہ ہے۔
+
+---
+
+### سوال 279
+**🇩🇪** In den meisten Mietshäusern in Deutschland gibt es eine „Hausordnung". Was steht in einer solchen „Hausordnung"? Sie nennt …
+**🇵🇰** جرمنی میں زیادہ تر کرایہ کی عمارتوں میں "Hausordnung" (گھر کے قوانین) ہوتے ہیں۔ ایسی "Hausordnung" میں کیا ہوتا ہے؟ اس میں درج ہیں …
+
+| | جرمن | اردو |
+|---|---|---|
+| ○ | Regeln für die Benutzung öffentlicher Verkehrsmittel. | عوامی ٹرانسپورٹ استعمال کرنے کے قوانین۔ |
+| ○ | alle Mieter und Mieterinnen im Haus. | عمارت کے تمام کرایہ داروں کے نام۔ |
+| ✅ | **Regeln, an die sich alle Bewohner und Bewohnerinnen halten müssen.** | **وہ قوانین جن کی تمام رہائشیوں کو پابندی کرنی ہوگی۔** |
+| ○ | die Adresse des nächsten Ordnungsamtes. | قریبی آرڈر آفس کا پتہ۔ |
+
+> **📝** Hausordnung کرایہ کی عمارت میں تمام رہائشیوں کے لیے قوانین کا مجموعہ ہے۔ اس میں خاموشی کے اوقات، مشترکہ جگہوں کا استعمال، کچرا ٹھکانے لگانا اور عمومی طرزِ عمل شامل ہے۔ یہ عام طور پر کرایہ نامے سے منسلک ہوتی ہے۔
+
+---
+
+### سوال 280
+**🇩🇪** Wenn Sie sich in Deutschland gegen einen falschen Steuerbescheid wehren wollen, müssen Sie …
+**🇵🇰** اگر آپ جرمنی میں غلط ٹیکس نوٹس کے خلاف اپنا دفاع کرنا چاہتے ہیں تو آپ کو …
+
+| | جرمن | اردو |
+|---|---|---|
+| ○ | nichts machen. | کچھ نہیں کرنا۔ |
+| ○ | den Bescheid wegwerfen. | نوٹس پھینک دینا۔ |
+| ✅ | **Einspruch einlegen.** | **اعتراض (Einspruch) درج کرانا ہوگا۔** |
+| ○ | warten, bis ein anderer Bescheid kommt. | دوسرے نوٹس کا انتظار کرنا۔ |
+
+> **📝** غلط ٹیکس نوٹس کے خلاف آپ کو ایک ماہ کے اندر Finanzamt میں Einspruch (باضابطہ اعتراض) درج کرانا ہوگا۔ نوٹس کو نظرانداز کرنا قانونی حل نہیں ہے اور غلط رقم قانونی طور پر پابند ہو سکتی ہے۔
+
+---
+
+### سوال 281
+**🇩🇪** Zwei Freunde wollen in ein öffentliches Schwimmbad in Deutschland. Beide haben eine dunkle Hautfarbe und werden deshalb nicht hineingelassen. Welches Recht wird in dieser Situation verletzt? Das Recht auf …
+**🇵🇰** دو دوست جرمنی میں ایک عوامی سوئمنگ پول میں جانا چاہتے ہیں۔ دونوں کی جلد کا رنگ سیاہ ہے اور اسی وجہ سے انہیں اندر نہیں جانے دیا جاتا۔ اس صورتحال میں کون سا حق پامال ہو رہا ہے؟ یہ حق …
+
+| | جرمن | اردو |
+|---|---|---|
+| ○ | Meinungsfreiheit | اظہارِ رائے کی آزادی |
+| ✅ | **Gleichbehandlung** | **مساوی سلوک کا حق** |
+| ○ | Versammlungsfreiheit | اجتماع کی آزادی |
+| ○ | Freizügigkeit | نقل و حرکت کی آزادی |
+
+> **📝** جلد کے رنگ کی بنیاد پر عوامی جگہ سے انکار نسلی امتیاز ہے جو بنیادی قانون کے آرٹیکل 3 اور AGG کی خلاف ورزی ہے۔ عوامی مقامات سب کے لیے کھلے ہونے چاہئیں۔
+
+---
+
+### سوال 282
+**🇩🇪** Welches Ehrenamt müssen deutsche Staatsbürger / Staatsbürgerinnen übernehmen, wenn sie dazu aufgefordert werden?
+**🇵🇰** جرمن شہریوں کو طلب کیے جانے پر کون سا اعزازی فریضہ ادا کرنا ضروری ہے؟
+
+| | جرمن | اردو |
+|---|---|---|
+| ○ | Vereinstrainer / Vereinstrainerin | کلب کوچ |
+| ○ | Bibliotheksaufsicht | لائبریری نگران |
+| ✅ | **Wahlhelfer / Wahlhelferin** | **انتخابی معاون (پولنگ اسٹیشن ورکر)** |
+| ○ | Lehrer / Lehrerin | استاد |
+
+> **📝** جرمنی میں شہریوں کو قانونی طور پر انتخابی معاون (Wahlhelfer) کے طور پر خدمات انجام دینے کا پابند کیا جا سکتا ہے۔ یہ جمہوری شرکت کا حصہ ہے۔ Wahlhelfer پولنگ اسٹیشن چلانے، ووٹ تقسیم کرنے اور گنتی میں مدد کرتے ہیں۔
+
+---
+
+### سوال 283
+**🇩🇪** Was tun Sie, wenn Sie eine falsche Rechnung von einer deutschen Behörde bekommen?
+**🇵🇰** اگر آپ کو جرمن سرکاری دفتر سے غلط بل ملے تو آپ کیا کریں گے؟
+
+| | جرمن | اردو |
+|---|---|---|
+| ○ | Ich lasse die Rechnung liegen. | میں بل کو نظرانداز کروں گا۔ |
+| ✅ | **Ich lege Widerspruch bei der Behörde ein.** | **میں متعلقہ دفتر میں باضابطہ اعتراض (Widerspruch) درج کراؤں گا۔** |
+| ○ | Ich schicke die Rechnung an die Behörde zurück. | میں بل دفتر کو واپس بھیج دوں گا۔ |
+| ○ | Ich gehe mit der Rechnung zum Finanzamt. | میں بل لے کر ٹیکس آفس جاؤں گا۔ |
+
+> **📝** غلط سرکاری بل یا فیصلے کے خلاف ایک ماہ کے اندر تحریری Widerspruch (باضابطہ اعتراض) درج کرانا ضروری ہے۔ بل کو نظرانداز کرنا یا واپس کرنا کافی نہیں ہے اور غلط رقم قابلِ نفاذ ہو سکتی ہے۔
+
+---
+
+### سوال 284
+**🇩🇪** Was man für die Arbeit können muss, ändert sich in der Zukunft sehr schnell. Was kann man tun?
+**🇵🇰** کام کے لیے جو مہارتیں درکار ہیں وہ مستقبل میں بہت تیزی سے بدل رہی ہیں۔ کیا کیا جا سکتا ہے؟
+
+| | جرمن | اردو |
+|---|---|---|
+| ○ | Es ist egal, was man lernt. | کوئی فرق نہیں پڑتا کیا سیکھتے ہیں۔ |
+| ○ | Kinder lernen in der Schule alles, was im Beruf wichtig ist. Nach der Schule muss man nicht weiter lernen. | بچے اسکول میں پیشے کی تمام ضروری باتیں سیکھ لیتے ہیں۔ اسکول کے بعد مزید سیکھنے کی ضرورت نہیں۔ |
+| ✅ | **Erwachsene müssen auch nach der Ausbildung immer weiter lernen.** | **بالغوں کو تربیت مکمل ہونے کے بعد بھی مسلسل سیکھتے رہنا چاہیے۔** |
+| ○ | Alle müssen früher aufhören zu arbeiten, weil sich alles ändert. | سب کو جلد کام چھوڑنا ہوگا کیونکہ سب کچھ بدل رہا ہے۔ |
+
+> **📝** تیزی سے بدلتی معیشت میں عمر بھر سیکھنا (lebenslanges Lernen) ضروری ہے۔ جرمنی میں مسلسل تعلیم (Weiterbildung) کی مضبوط روایت ہے۔ بالغوں سے توقع کی جاتی ہے کہ وہ Volkshochschulen جیسے اداروں کے ذریعے اپنی مہارتیں اپ ڈیٹ کریں۔
+
+---
+
+### سوال 285
+**🇩🇪** Frau Frost arbeitet als fest angestellte Mitarbeiterin in einem Büro. Was muss sie nicht von ihrem Gehalt bezahlen?
+**🇵🇰** محترمہ فروسٹ ایک دفتر میں مستقل ملازم ہیں۔ انہیں اپنی تنخواہ سے کیا ادا نہیں کرنا ہوگا؟
+
+| | جرمن | اردو |
+|---|---|---|
+| ✅ | **Umsatzsteuer** | **سیلز ٹیکس (Umsatzsteuer / VAT)** |
+| ○ | Lohnsteuer | آمدنی ٹیکس (Lohnsteuer) |
+| ○ | Beiträge zur Arbeitslosenversicherung | بے روزگاری انشورنس کا حصہ |
+| ○ | Beiträge zur Renten- und Krankenversicherung | پنشن اور صحت انشورنس کا حصہ |
+
+> **📝** مستقل ملازم کو Lohnsteuer (آمدنی ٹیکس) اور سماجی انشورنس (صحت، پنشن، دیکھ بھال، بے روزگاری) ادا کرنی ہوتی ہے۔ لیکن Umsatzsteuer (VAT) تنخواہ سے ادا نہیں ہوتی — یہ کاروباری اداروں پر اشیاء اور خدمات پر لاگو ہوتی ہے۔
+
+---
+
+### سوال 286
+**🇩🇪** Welche Organisation in einer Firma hilft den Arbeitnehmern und Arbeitnehmerinnen bei Problemen mit dem Arbeitgeber / der Arbeitgeberin?
+**🇵🇰** کمپنی میں کون سی تنظیم آجر کے ساتھ مسائل میں ملازمین کی مدد کرتی ہے؟
+
+| | جرمن | اردو |
+|---|---|---|
+| ✅ | **der Betriebsrat** | **ورکس کونسل (Betriebsrat)** |
+| ○ | der Betriebsprüfer / die Betriebsprüferin | کمپنی آڈیٹر |
+| ○ | die Betriebsgruppe | کمپنی گروپ |
+| ○ | das Betriebsmanagement | کمپنی مینجمنٹ |
+
+> **📝** Betriebsrat (ورکس کونسل) پانچ یا زیادہ ملازمین والی کمپنیوں میں منتخب ادارہ ہے جو ملازمین کے مفادات کی نمائندگی کرتا ہے۔ اسے کام کے اوقات، چھٹی، برطرفی اور کام کی حفاظت جیسے معاملات میں شریکِ فیصلہ کے حقوق حاصل ہیں۔ یہ آجر سے آزاد اور قانوناً محفوظ ہے۔
+
+---
+
+### سوال 287
+**🇩🇪** Sie möchten bei einer Firma in Deutschland Ihr Arbeitsverhältnis beenden. Was müssen Sie beachten?
+**🇵🇰** آپ جرمنی میں کسی کمپنی سے اپنی ملازمت ختم کرنا چاہتے ہیں۔ آپ کو کیا خیال رکھنا ہوگا؟
+
+| | جرمن | اردو |
+|---|---|---|
+| ○ | die Gehaltszahlungen | تنخواہ کی ادائیگیاں |
+| ○ | die Arbeitszeit | کام کے اوقات |
+| ✅ | **die Kündigungsfrist** | **نوٹس کا عرصہ (Kündigungsfrist)** |
+| ○ | die Versicherungspflicht | انشورنس کی ذمہ داری |
+
+> **📝** جرمنی میں استعفیٰ دینے کے لیے Kündigungsfrist (نوٹس کا عرصہ) کا خیال رکھنا ضروری ہے۔ ملازمین کے لیے قانونی کم از کم نوٹس چار ہفتے ہے۔ ملازمت کے معاہدے کے مطابق زیادہ مدت بھی ہو سکتی ہے۔ استعفیٰ تحریری شکل میں دینا ضروری ہے (Schriftform)۔
+
+---
+
 ### سوال 288 *(جولائی 2024 میں تازہ کاری — اسرائیل کا حق وجود)*
 **🇩🇪** Woraus begründet sich Deutschlands besondere Verantwortung für Israel?
 **🇵🇰** جرمنی کی اسرائیل کے لیے خاص ذمہ داری کی بنیاد کیا ہے؟
@@ -197,6 +392,36 @@
 | ○ | aus der christlichen Tradition | عیسائی روایت سے |
 
 > **📝** جرمنی کی اسرائیل کے لیے خاص ذمہ داری نازی جرائم — سب سے بڑھ کر ہولوکاسٹ جس میں 60 لاکھ یہودی منظم طریقے سے قتل کیے گئے — سے پیدا ہوتی ہے۔ اس ذمہ داری کو جرمنی کی "Staatsräson" (وجہ ریاست) کا حصہ سمجھا جاتا ہے۔ اس کا مطلب ہے جرمنی اسرائیل کے حق وجود کی حمایت کرتا ہے، سام دشمنی سے لڑتا ہے، اور اسرائیل کے ساتھ خصوصی سفارتی تعلقات رکھتا ہے۔
+
+---
+
+### سوال 289
+**🇩🇪** Ein Mann mit dunkler Hautfarbe bewirbt sich um eine Stelle als Kellner in einem Restaurant in Deutschland. Was ist ein Beispiel für Diskriminierung? Er bekommt die Stelle nur deshalb nicht, weil …
+**🇵🇰** سیاہ رنگت والا ایک آدمی جرمنی میں ریستوران میں ویٹر کی ملازمت کے لیے درخواست دیتا ہے۔ امتیازی سلوک کی مثال کیا ہے؟ اسے ملازمت صرف اس لیے نہیں ملتی کیونکہ …
+
+| | جرمن | اردو |
+|---|---|---|
+| ○ | seine Deutschkenntnisse zu gering sind. | اس کی جرمن ناکافی ہے۔ |
+| ○ | er zu hohe Gehaltsvorstellungen hat. | وہ بہت زیادہ تنخواہ مانگتا ہے۔ |
+| ✅ | **er eine dunkle Haut hat.** | **اس کی جلد کا رنگ سیاہ ہے۔** |
+| ○ | er keine Erfahrungen im Beruf hat. | اسے پیشہ ورانہ تجربہ نہیں۔ |
+
+> **📝** جلد کے رنگ کی بنیاد پر ملازمت سے انکار نسلی امتیاز ہے جو AGG کے تحت ممنوع ہے۔ ویٹر کی ملازمت کے لیے جلد کا رنگ سراسر غیر متعلقہ ہے۔
+
+---
+
+### سوال 290
+**🇩🇪** Sie haben in Deutschland einen Fernseher gekauft. Zu Hause packen Sie den Fernseher aus, doch er funktioniert nicht. Der Fernseher ist kaputt. Was können Sie machen?
+**🇵🇰** آپ نے جرمنی میں ٹیلی ویژن خریدا۔ گھر پہنچ کر کھولا تو چلتا نہیں۔ ٹیلی ویژن خراب ہے۔ آپ کیا کر سکتے ہیں؟
+
+| | جرمن | اردو |
+|---|---|---|
+| ○ | eine Anzeige schreiben | شکایت لکھنا |
+| ✅ | **den Fernseher reklamieren** | **ٹیلی ویژن واپس کرنا / شکایت درج کرانا (reklamieren)** |
+| ○ | das Gerät ungefragt austauschen | بغیر پوچھے آلہ تبدیل کرنا |
+| ○ | die Garantie verlängern | وارنٹی میں توسیع کرنا |
+
+> **📝** جرمنی میں خریداری کے بعد دو سال تک Gewährleistung (قانونی وارنٹی) کا حق ہے۔ آپ reklamieren کر سکتے ہیں — باضابطہ شکایت درج کراکے درستی مانگیں۔ یہ جرمن دیوانی قانون (BGB § 437) کے تحت صارفین کا حق ہے۔
 
 ---
 
