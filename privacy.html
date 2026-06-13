@@ -375,6 +375,8 @@
                 b.setAttribute('aria-selected', String(active));
             });
             document.documentElement.lang = code;
+            // Optical size correction for Jameel Noori Nastaleeq on Urdu tab
+            document.documentElement.style.fontSize = (code === 'ur') ? '130%' : '';
             try { localStorage.setItem('privacyLang', code); } catch (e) {}
         }
         tabs.forEach(b => b.addEventListener('click', () => showLang(b.dataset.lang)));
