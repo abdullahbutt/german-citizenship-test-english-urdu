@@ -8465,6 +8465,347 @@
       "exp_ur": "Solidaritätszuschlag (سولی) 1991 میں جرمنی کے اتحاد کے اخراجات کے لیے متعارف کرایا گیا تھا — آمدنی ٹیکس کا 5.5%۔ 2021 سے تقریباً 90% ٹیکس دہندگان کے لیے ختم کر دیا گیا۔"
     },
     {
+      "id": 277,
+      "de": "Eine Frau, die ein zweijähriges Kind hat, bewirbt sich in Deutschland um eine Stelle. Was ist ein Beispiel für Diskriminierung? Sie bekommt die Stelle nur deshalb nicht, weil sie …",
+      "en": "A woman with a two-year-old child applies for a job in Germany. What is an example of discrimination? She does not get the job for the sole reason that she is …",
+      "ur": "دو سال کے بچے والی ایک خاتون جرمنی میں ملازمت کے لیے درخواست دیتی ہے۔ امتیازی سلوک کی مثال کیا ہے؟ اسے ملازمت صرف اس لیے نہیں ملتی کیونکہ وہ …",
+      "options": [
+        {
+          "de": "kein Englisch spricht.",
+          "en": "does not speak English.",
+          "ur": "انگریزی نہیں بولتی۔"
+        },
+        {
+          "de": "zu hohe Gehaltsvorstellungen hat.",
+          "en": "has salary expectations that are too high.",
+          "ur": "بہت زیادہ تنخواہ مانگتی ہے۔"
+        },
+        {
+          "de": "keine Erfahrungen in diesem Beruf hat.",
+          "en": "has no experience in this profession.",
+          "ur": "اس پیشے میں تجربہ نہیں رکھتی۔"
+        },
+        {
+          "de": "Mutter ist.",
+          "en": "a mother.",
+          "ur": "ماں ہے۔"
+        }
+      ],
+      "correct": 3,
+      "exp_en": "Germany's General Equal Treatment Act (Allgemeines Gleichbehandlungsgesetz, AGG) prohibits discrimination based on gender, ethnicity, religion, disability, age, or sexual identity. Refusing a job applicant because she is a mother is gender discrimination — it is illegal regardless of the employer's reasons. The correct answer is that she is a mother (Option D).",
+      "exp_ur": "جرمنی کا عام مساوی سلوک قانون (AGG) جنس، نسل، مذہب، معذوری، عمر یا جنسی رجحان کی بنیاد پر امتیاز ممنوع قرار دیتا ہے۔ ماں ہونے کی وجہ سے ملازمت نہ دینا صنفی امتیاز ہے — یہ غیر قانونی ہے۔"
+    },
+    {
+      "id": 278,
+      "de": "Ein Mann im Rollstuhl hat sich auf eine Stelle als Buchhalter beworben. Was ist ein Beispiel für Diskriminierung? Er bekommt die Stelle nur deshalb nicht, weil er …",
+      "en": "A man in a wheelchair has applied for a position as an accountant. What is an example of discrimination? He does not get the job for the sole reason that he …",
+      "ur": "وہیل چیئر پر ایک آدمی نے اکاؤنٹنٹ کی پوسٹ کے لیے درخواست دی۔ امتیازی سلوک کی مثال کیا ہے؟ اسے ملازمت صرف اس لیے نہیں ملتی کیونکہ وہ …",
+      "options": [
+        {
+          "de": "im Rollstuhl sitzt.",
+          "en": "uses a wheelchair.",
+          "ur": "وہیل چیئر استعمال کرتا ہے۔"
+        },
+        {
+          "de": "keine Erfahrung hat.",
+          "en": "has no experience.",
+          "ur": "تجربہ نہیں رکھتا۔"
+        },
+        {
+          "de": "zu hohe Gehaltsvorstellungen hat.",
+          "en": "has salary expectations that are too high.",
+          "ur": "بہت زیادہ تنخواہ مانگتا ہے۔"
+        },
+        {
+          "de": "kein Englisch spricht.",
+          "en": "does not speak English.",
+          "ur": "انگریزی نہیں بولتا۔"
+        }
+      ],
+      "correct": 0,
+      "exp_en": "Rejecting a qualified applicant solely because they use a wheelchair is disability discrimination under the AGG. Disability is an irrelevant factor for an office-based accounting role. The other options — lack of experience, salary expectations, language skills — could be legitimate hiring criteria. Only using a wheelchair (Option A) constitutes discrimination.",
+      "exp_ur": "معذوری کی بنیاد پر کسی اہل امیدوار کو مسترد کرنا AGG کے تحت معذوری کی بنیاد پر امتیاز ہے۔ دفتری کام کے لیے وہیل چیئر غیر متعلقہ ہے۔"
+    },
+    {
+      "id": 279,
+      "de": "In den meisten Mietshäusern in Deutschland gibt es eine „Hausordnung\". Was steht in einer solchen „Hausordnung\"? Sie nennt …",
+      "en": "In most rental apartment buildings in Germany there is a \"Hausordnung\" (house rules). What does such a \"Hausordnung\" contain? It lists …",
+      "ur": "جرمنی میں زیادہ تر کرایہ کی عمارتوں میں \"Hausordnung\" (گھر کے قوانین) ہوتے ہیں۔ ایسی \"Hausordnung\" میں کیا ہوتا ہے؟ اس میں درج ہیں …",
+      "options": [
+        {
+          "de": "Regeln für die Benutzung öffentlicher Verkehrsmittel.",
+          "en": "rules for using public transport.",
+          "ur": "عوامی ٹرانسپورٹ استعمال کرنے کے قوانین۔"
+        },
+        {
+          "de": "alle Mieter und Mieterinnen im Haus.",
+          "en": "all tenants in the building.",
+          "ur": "عمارت کے تمام کرایہ داروں کے نام۔"
+        },
+        {
+          "de": "Regeln, an die sich alle Bewohner und Bewohnerinnen halten müssen.",
+          "en": "rules that all residents must follow.",
+          "ur": "وہ قوانین جن کی تمام رہائشیوں کو پابندی کرنی ہوگی۔"
+        },
+        {
+          "de": "die Adresse des nächsten Ordnungsamtes.",
+          "en": "the address of the nearest public order office.",
+          "ur": "قریبی آرڈر آفس کا پتہ۔"
+        }
+      ],
+      "correct": 2,
+      "exp_en": "A Hausordnung is a set of rules that applies to all residents of an apartment building. It typically covers quiet hours (Ruhezeiten), use of shared spaces (stairwell, laundry room, courtyard), rubbish disposal, and general conduct. It is usually attached to the rental contract (Mietvertrag). Violations can lead to warnings (Abmahnung) or, in serious cases, termination of the tenancy.",
+      "exp_ur": "Hausordnung کرایہ کی عمارت میں تمام رہائشیوں کے لیے قوانین کا مجموعہ ہے۔ اس میں خاموشی کے اوقات، مشترکہ جگہوں کا استعمال، کچرا ٹھکانے لگانا اور عمومی طرزِ عمل شامل ہے۔ یہ عام طور پر کرایہ نامے سے منسلک ہوتی ہے۔"
+    },
+    {
+      "id": 280,
+      "de": "Wenn Sie sich in Deutschland gegen einen falschen Steuerbescheid wehren wollen, müssen Sie …",
+      "en": "If you want to contest an incorrect tax assessment notice in Germany, you must …",
+      "ur": "اگر آپ جرمنی میں غلط ٹیکس نوٹس کے خلاف اپنا دفاع کرنا چاہتے ہیں تو آپ کو …",
+      "options": [
+        {
+          "de": "nichts machen.",
+          "en": "do nothing.",
+          "ur": "کچھ نہیں کرنا۔"
+        },
+        {
+          "de": "den Bescheid wegwerfen.",
+          "en": "throw the notice away.",
+          "ur": "نوٹس پھینک دینا۔"
+        },
+        {
+          "de": "Einspruch einlegen.",
+          "en": "lodge an objection (Einspruch).",
+          "ur": "اعتراض (Einspruch) درج کرانا ہوگا۔"
+        },
+        {
+          "de": "warten, bis ein anderer Bescheid kommt.",
+          "en": "wait for another notice to arrive.",
+          "ur": "دوسرے نوٹس کا انتظار کرنا۔"
+        }
+      ],
+      "correct": 2,
+      "exp_en": "If you receive a Steuerbescheid (tax assessment notice) that you believe is incorrect, you must formally lodge an Einspruch (objection) with the Finanzamt (tax office) within one month of receiving the notice. If the Einspruch is rejected, you can take the matter to the Finanzgericht (tax court). Simply ignoring or discarding the notice is not a legal remedy and may result in the incorrect amount becoming legally binding.",
+      "exp_ur": "غلط ٹیکس نوٹس کے خلاف آپ کو ایک ماہ کے اندر Finanzamt میں Einspruch (باضابطہ اعتراض) درج کرانا ہوگا۔ نوٹس کو نظرانداز کرنا قانونی حل نہیں ہے اور غلط رقم قانونی طور پر پابند ہو سکتی ہے۔"
+    },
+    {
+      "id": 281,
+      "de": "Zwei Freunde wollen in ein öffentliches Schwimmbad in Deutschland. Beide haben eine dunkle Hautfarbe und werden deshalb nicht hineingelassen. Welches Recht wird in dieser Situation verletzt? Das Recht auf …",
+      "en": "Two friends want to enter a public swimming pool in Germany. Both have dark skin and are refused entry for that reason. Which right is being violated in this situation? The right to …",
+      "ur": "دو دوست جرمنی میں ایک عوامی سوئمنگ پول میں جانا چاہتے ہیں۔ دونوں کی جلد کا رنگ سیاہ ہے اور اسی وجہ سے انہیں اندر نہیں جانے دیا جاتا۔ اس صورتحال میں کون سا حق پامال ہو رہا ہے؟ یہ حق …",
+      "options": [
+        {
+          "de": "Meinungsfreiheit",
+          "en": "freedom of opinion",
+          "ur": "اظہارِ رائے کی آزادی"
+        },
+        {
+          "de": "Gleichbehandlung",
+          "en": "equal treatment",
+          "ur": "مساوی سلوک کا حق"
+        },
+        {
+          "de": "Versammlungsfreiheit",
+          "en": "freedom of assembly",
+          "ur": "اجتماع کی آزادی"
+        },
+        {
+          "de": "Freizügigkeit",
+          "en": "freedom of movement",
+          "ur": "نقل و حرکت کی آزادی"
+        }
+      ],
+      "correct": 1,
+      "exp_en": "Refusing entry to a public facility based on skin colour is racial discrimination, violating the right to Gleichbehandlung (equal treatment) guaranteed by Article 3 of the Basic Law and reinforced by the AGG. Public facilities open to everyone must not discriminate. The other rights listed — freedom of opinion, assembly, and movement — are not relevant to this situation.",
+      "exp_ur": "جلد کے رنگ کی بنیاد پر عوامی جگہ سے انکار نسلی امتیاز ہے جو بنیادی قانون کے آرٹیکل 3 اور AGG کی خلاف ورزی ہے۔ عوامی مقامات سب کے لیے کھلے ہونے چاہئیں۔"
+    },
+    {
+      "id": 282,
+      "de": "Welches Ehrenamt müssen deutsche Staatsbürger / Staatsbürgerinnen übernehmen, wenn sie dazu aufgefordert werden?",
+      "en": "Which civic duty (honorary office) must German citizens take on if called upon to do so?",
+      "ur": "جرمن شہریوں کو طلب کیے جانے پر کون سا اعزازی فریضہ ادا کرنا ضروری ہے؟",
+      "options": [
+        {
+          "de": "Vereinstrainer / Vereinstrainerin",
+          "en": "Club trainer / sports coach",
+          "ur": "کلب کوچ"
+        },
+        {
+          "de": "Bibliotheksaufsicht",
+          "en": "Library supervisor",
+          "ur": "لائبریری نگران"
+        },
+        {
+          "de": "Wahlhelfer / Wahlhelferin",
+          "en": "Election helper / polling station worker",
+          "ur": "انتخابی معاون (پولنگ اسٹیشن ورکر)"
+        },
+        {
+          "de": "Lehrer / Lehrerin",
+          "en": "Teacher",
+          "ur": "استاد"
+        }
+      ],
+      "correct": 2,
+      "exp_en": "In Germany, citizens can be legally required to serve as Wahlhelfer (polling station workers) during elections. This is one of the few civic duties that can be compelled — similar to jury service in other countries. Wahlhelfer help run the polling station, distribute ballots, and count votes. The duty is part of democratic participation. Other roles like coaching, library work, or teaching cannot be legally compelled.",
+      "exp_ur": "جرمنی میں شہریوں کو قانونی طور پر انتخابی معاون (Wahlhelfer) کے طور پر خدمات انجام دینے کا پابند کیا جا سکتا ہے۔ یہ جمہوری شرکت کا حصہ ہے۔ Wahlhelfer پولنگ اسٹیشن چلانے، ووٹ تقسیم کرنے اور گنتی میں مدد کرتے ہیں۔"
+    },
+    {
+      "id": 283,
+      "de": "Was tun Sie, wenn Sie eine falsche Rechnung von einer deutschen Behörde bekommen?",
+      "en": "What do you do if you receive an incorrect invoice/bill from a German authority?",
+      "ur": "اگر آپ کو جرمن سرکاری دفتر سے غلط بل ملے تو آپ کیا کریں گے؟",
+      "options": [
+        {
+          "de": "Ich lasse die Rechnung liegen.",
+          "en": "I leave the invoice aside.",
+          "ur": "میں بل کو نظرانداز کروں گا۔"
+        },
+        {
+          "de": "Ich lege Widerspruch bei der Behörde ein.",
+          "en": "I lodge a formal objection (Widerspruch) with the authority.",
+          "ur": "میں متعلقہ دفتر میں باضابطہ اعتراض (Widerspruch) درج کراؤں گا۔"
+        },
+        {
+          "de": "Ich schicke die Rechnung an die Behörde zurück.",
+          "en": "I send the invoice back to the authority.",
+          "ur": "میں بل دفتر کو واپس بھیج دوں گا۔"
+        },
+        {
+          "de": "Ich gehe mit der Rechnung zum Finanzamt.",
+          "en": "I go to the tax office with the invoice.",
+          "ur": "میں بل لے کر ٹیکس آفس جاؤں گا۔"
+        }
+      ],
+      "correct": 1,
+      "exp_en": "When you receive an incorrect bill or administrative decision from a German authority, the correct legal step is to lodge a Widerspruch (formal objection). This must typically be done in writing within one month. Simply returning the document or ignoring it is not sufficient and the incorrect charge could become legally enforceable. The Widerspruch triggers a review process within the authority.",
+      "exp_ur": "غلط سرکاری بل یا فیصلے کے خلاف ایک ماہ کے اندر تحریری Widerspruch (باضابطہ اعتراض) درج کرانا ضروری ہے۔ بل کو نظرانداز کرنا یا واپس کرنا کافی نہیں ہے اور غلط رقم قابلِ نفاذ ہو سکتی ہے۔"
+    },
+    {
+      "id": 284,
+      "de": "Was man für die Arbeit können muss, ändert sich in der Zukunft sehr schnell. Was kann man tun?",
+      "en": "What one needs to know for work is changing very rapidly in the future. What can one do?",
+      "ur": "کام کے لیے جو مہارتیں درکار ہیں وہ مستقبل میں بہت تیزی سے بدل رہی ہیں۔ کیا کیا جا سکتا ہے؟",
+      "options": [
+        {
+          "de": "Es ist egal, was man lernt.",
+          "en": "It does not matter what one learns.",
+          "ur": "کوئی فرق نہیں پڑتا کیا سیکھتے ہیں۔"
+        },
+        {
+          "de": "Kinder lernen in der Schule alles, was im Beruf wichtig ist. Nach der Schule muss man nicht weiter lernen.",
+          "en": "Children learn everything needed for work at school. After school, no further learning is necessary.",
+          "ur": "بچے اسکول میں پیشے کی تمام ضروری باتیں سیکھ لیتے ہیں۔ اسکول کے بعد مزید سیکھنے کی ضرورت نہیں۔"
+        },
+        {
+          "de": "Erwachsene müssen auch nach der Ausbildung immer weiter lernen.",
+          "en": "Adults must continue learning throughout their lives, even after completing their training.",
+          "ur": "بالغوں کو تربیت مکمل ہونے کے بعد بھی مسلسل سیکھتے رہنا چاہیے۔"
+        },
+        {
+          "de": "Alle müssen früher aufhören zu arbeiten, weil sich alles ändert.",
+          "en": "Everyone must retire earlier because everything is changing.",
+          "ur": "سب کو جلد کام چھوڑنا ہوگا کیونکہ سب کچھ بدل رہا ہے۔"
+        }
+      ],
+      "correct": 2,
+      "exp_en": "In a rapidly changing economy and job market, lifelong learning (lebenslanges Lernen) is essential. Germany has a strong tradition of continuing education (Weiterbildung) and vocational training. Adults are expected to update their skills throughout their careers through further training, courses, and qualification programmes. This concept is reinforced by Germany's dual education system and extensive adult education institutions (Volkshochschulen).",
+      "exp_ur": "تیزی سے بدلتی معیشت میں عمر بھر سیکھنا (lebenslanges Lernen) ضروری ہے۔ جرمنی میں مسلسل تعلیم (Weiterbildung) کی مضبوط روایت ہے۔ بالغوں سے توقع کی جاتی ہے کہ وہ Volkshochschulen جیسے اداروں کے ذریعے اپنی مہارتیں اپ ڈیٹ کریں۔"
+    },
+    {
+      "id": 285,
+      "de": "Frau Frost arbeitet als fest angestellte Mitarbeiterin in einem Büro. Was muss sie nicht von ihrem Gehalt bezahlen?",
+      "en": "Ms Frost works as a permanent employee in an office. What does she NOT have to pay from her salary?",
+      "ur": "محترمہ فروسٹ ایک دفتر میں مستقل ملازم ہیں۔ انہیں اپنی تنخواہ سے کیا ادا نہیں کرنا ہوگا؟",
+      "options": [
+        {
+          "de": "Umsatzsteuer",
+          "en": "VAT (Umsatzsteuer / value-added tax)",
+          "ur": "سیلز ٹیکس (Umsatzsteuer / VAT)"
+        },
+        {
+          "de": "Lohnsteuer",
+          "en": "Income tax (Lohnsteuer)",
+          "ur": "آمدنی ٹیکس (Lohnsteuer)"
+        },
+        {
+          "de": "Beiträge zur Arbeitslosenversicherung",
+          "en": "Unemployment insurance contributions",
+          "ur": "بے روزگاری انشورنس کا حصہ"
+        },
+        {
+          "de": "Beiträge zur Renten- und Krankenversicherung",
+          "en": "Pension and health insurance contributions",
+          "ur": "پنشن اور صحت انشورنس کا حصہ"
+        }
+      ],
+      "correct": 0,
+      "exp_en": "As a salaried employee in Germany, Ms Frost must pay Lohnsteuer (income tax withheld at source), as well as social insurance contributions: Krankenversicherung (health), Rentenversicherung (pension), Pflegeversicherung (care), and Arbeitslosenversicherung (unemployment). However, she does not pay Umsatzsteuer (VAT / value-added tax) from her salary — VAT is paid by businesses on goods and services, not by employees from their wages.",
+      "exp_ur": "مستقل ملازم کو Lohnsteuer (آمدنی ٹیکس) اور سماجی انشورنس (صحت، پنشن، دیکھ بھال، بے روزگاری) ادا کرنی ہوتی ہے۔ لیکن Umsatzsteuer (VAT) تنخواہ سے ادا نہیں ہوتی — یہ کاروباری اداروں پر اشیاء اور خدمات پر لاگو ہوتی ہے۔"
+    },
+    {
+      "id": 286,
+      "de": "Welche Organisation in einer Firma hilft den Arbeitnehmern und Arbeitnehmerinnen bei Problemen mit dem Arbeitgeber / der Arbeitgeberin?",
+      "en": "Which organisation in a company helps employees with problems involving the employer?",
+      "ur": "کمپنی میں کون سی تنظیم آجر کے ساتھ مسائل میں ملازمین کی مدد کرتی ہے؟",
+      "options": [
+        {
+          "de": "der Betriebsrat",
+          "en": "the works council (Betriebsrat)",
+          "ur": "ورکس کونسل (Betriebsrat)"
+        },
+        {
+          "de": "der Betriebsprüfer / die Betriebsprüferin",
+          "en": "the company auditor",
+          "ur": "کمپنی آڈیٹر"
+        },
+        {
+          "de": "die Betriebsgruppe",
+          "en": "the company group",
+          "ur": "کمپنی گروپ"
+        },
+        {
+          "de": "das Betriebsmanagement",
+          "en": "the company management",
+          "ur": "کمپنی مینجمنٹ"
+        }
+      ],
+      "correct": 0,
+      "exp_en": "The Betriebsrat (works council) is an elected body that represents the interests of employees in companies with five or more staff. It has co-determination rights (Mitbestimmungsrechte) on matters such as working hours, holiday schedules, redundancies, and workplace safety. Employees can approach the Betriebsrat with disputes or grievances about their employer. The Betriebsrat is legally protected and independent of management.",
+      "exp_ur": "Betriebsrat (ورکس کونسل) پانچ یا زیادہ ملازمین والی کمپنیوں میں منتخب ادارہ ہے جو ملازمین کے مفادات کی نمائندگی کرتا ہے۔ اسے کام کے اوقات، چھٹی، برطرفی اور کام کی حفاظت جیسے معاملات میں شریکِ فیصلہ کے حقوق حاصل ہیں۔ یہ آجر سے آزاد اور قانوناً محفوظ ہے۔"
+    },
+    {
+      "id": 287,
+      "de": "Sie möchten bei einer Firma in Deutschland Ihr Arbeitsverhältnis beenden. Was müssen Sie beachten?",
+      "en": "You want to end your employment at a company in Germany. What must you observe?",
+      "ur": "آپ جرمنی میں کسی کمپنی سے اپنی ملازمت ختم کرنا چاہتے ہیں۔ آپ کو کیا خیال رکھنا ہوگا؟",
+      "options": [
+        {
+          "de": "die Gehaltszahlungen",
+          "en": "the salary payments",
+          "ur": "تنخواہ کی ادائیگیاں"
+        },
+        {
+          "de": "die Arbeitszeit",
+          "en": "the working hours",
+          "ur": "کام کے اوقات"
+        },
+        {
+          "de": "die Kündigungsfrist",
+          "en": "the notice period (Kündigungsfrist)",
+          "ur": "نوٹس کا عرصہ (Kündigungsfrist)"
+        },
+        {
+          "de": "die Versicherungspflicht",
+          "en": "the insurance obligation",
+          "ur": "انشورنس کی ذمہ داری"
+        }
+      ],
+      "correct": 2,
+      "exp_en": "In Germany, when an employee wishes to resign (kündigen), they must observe the Kündigungsfrist (notice period). The statutory minimum notice period for employees is four weeks (to the 15th or end of the month). Longer notice periods may apply depending on the employment contract or collective agreement (Tarifvertrag). Failing to observe the notice period can result in legal claims for damages. The resignation must generally be submitted in writing (Schriftform).",
+      "exp_ur": "جرمنی میں استعفیٰ دینے کے لیے Kündigungsfrist (نوٹس کا عرصہ) کا خیال رکھنا ضروری ہے۔ ملازمین کے لیے قانونی کم از کم نوٹس چار ہفتے ہے۔ ملازمت کے معاہدے کے مطابق زیادہ مدت بھی ہو سکتی ہے۔ استعفیٰ تحریری شکل میں دینا ضروری ہے (Schriftform)۔"
+    },
+    {
       "id": 288,
       "de": "Woraus begründet sich Deutschlands besondere Verantwortung für Israel?",
       "en": "What is the basis for Germany's special responsibility toward Israel?",
@@ -8494,6 +8835,68 @@
       "correct": 1,
       "exp_en": "Germany's special responsibility for Israel stems from the Nazi crimes — above all the Holocaust, in which 6 million Jews were systematically murdered. This responsibility is considered part of Germany's \"Staatsräson\" (reason of state). It means Germany supports Israel's right to exist, combats antisemitism, and maintains a special diplomatic relationship with Israel. This commitment is not based on EU membership, the Basic Law text, or religious tradition, but directly on the historical guilt of the Nazi era.",
       "exp_ur": "جرمنی کی اسرائیل کے لیے خاص ذمہ داری نازی جرائم — سب سے بڑھ کر ہولوکاسٹ جس میں 60 لاکھ یہودی منظم طریقے سے قتل کیے گئے — سے پیدا ہوتی ہے۔ اس ذمہ داری کو جرمنی کی \"Staatsräson\" (وجہ ریاست) کا حصہ سمجھا جاتا ہے۔ اس کا مطلب ہے جرمنی اسرائیل کے حق وجود کی حمایت کرتا ہے، سام دشمنی سے لڑتا ہے، اور اسرائیل کے ساتھ خصوصی سفارتی تعلقات رکھتا ہے۔"
+    },
+    {
+      "id": 289,
+      "de": "Ein Mann mit dunkler Hautfarbe bewirbt sich um eine Stelle als Kellner in einem Restaurant in Deutschland. Was ist ein Beispiel für Diskriminierung? Er bekommt die Stelle nur deshalb nicht, weil …",
+      "en": "A man with dark skin applies for a position as a waiter in a restaurant in Germany. What is an example of discrimination? He does not get the job for the sole reason that …",
+      "ur": "سیاہ رنگت والا ایک آدمی جرمنی میں ریستوران میں ویٹر کی ملازمت کے لیے درخواست دیتا ہے۔ امتیازی سلوک کی مثال کیا ہے؟ اسے ملازمت صرف اس لیے نہیں ملتی کیونکہ …",
+      "options": [
+        {
+          "de": "seine Deutschkenntnisse zu gering sind.",
+          "en": "his German language skills are insufficient.",
+          "ur": "اس کی جرمن ناکافی ہے۔"
+        },
+        {
+          "de": "er zu hohe Gehaltsvorstellungen hat.",
+          "en": "he has salary expectations that are too high.",
+          "ur": "وہ بہت زیادہ تنخواہ مانگتا ہے۔"
+        },
+        {
+          "de": "er eine dunkle Haut hat.",
+          "en": "he has dark skin.",
+          "ur": "اس کی جلد کا رنگ سیاہ ہے۔"
+        },
+        {
+          "de": "er keine Erfahrungen im Beruf hat.",
+          "en": "he has no professional experience.",
+          "ur": "اسے پیشہ ورانہ تجربہ نہیں۔"
+        }
+      ],
+      "correct": 2,
+      "exp_en": "Refusing to hire someone because of their skin colour is racial discrimination, prohibited under Germany's AGG (General Equal Treatment Act). The colour of skin is entirely irrelevant to the ability to work as a waiter. The other options — insufficient German, high salary expectations, lack of experience — could be legitimate factors in a hiring decision. Only rejecting someone because of their skin colour (Option C) is discrimination.",
+      "exp_ur": "جلد کے رنگ کی بنیاد پر ملازمت سے انکار نسلی امتیاز ہے جو AGG کے تحت ممنوع ہے۔ ویٹر کی ملازمت کے لیے جلد کا رنگ سراسر غیر متعلقہ ہے۔"
+    },
+    {
+      "id": 290,
+      "de": "Sie haben in Deutschland einen Fernseher gekauft. Zu Hause packen Sie den Fernseher aus, doch er funktioniert nicht. Der Fernseher ist kaputt. Was können Sie machen?",
+      "en": "You bought a television set in Germany. At home you unpack it, but it does not work. The television is broken. What can you do?",
+      "ur": "آپ نے جرمنی میں ٹیلی ویژن خریدا۔ گھر پہنچ کر کھولا تو چلتا نہیں۔ ٹیلی ویژن خراب ہے۔ آپ کیا کر سکتے ہیں؟",
+      "options": [
+        {
+          "de": "eine Anzeige schreiben",
+          "en": "write a complaint notice",
+          "ur": "شکایت لکھنا"
+        },
+        {
+          "de": "den Fernseher reklamieren",
+          "en": "make a complaint / return the television (reklamieren)",
+          "ur": "ٹیلی ویژن واپس کرنا / شکایت درج کرانا (reklamieren)"
+        },
+        {
+          "de": "das Gerät ungefragt austauschen",
+          "en": "swap the device without asking",
+          "ur": "بغیر پوچھے آلہ تبدیل کرنا"
+        },
+        {
+          "de": "die Garantie verlängern",
+          "en": "extend the warranty",
+          "ur": "وارنٹی میں توسیع کرنا"
+        }
+      ],
+      "correct": 1,
+      "exp_en": "In Germany, if you buy a defective product, you have the right to Gewährleistung (statutory warranty) for two years from the date of purchase. You can reklamieren — formally complain and demand remedy. The seller must repair the product (Nachbesserung) or replace it (Nachlieferung). If neither is possible, you may withdraw from the contract (Rücktritt) or reduce the price. This is a consumer right under German civil law (BGB § 437) and does not depend on any additional warranty (Garantie) offered by the manufacturer.",
+      "exp_ur": "جرمنی میں خریداری کے بعد دو سال تک Gewährleistung (قانونی وارنٹی) کا حق ہے۔ آپ reklamieren کر سکتے ہیں — باضابطہ شکایت درج کراکے درستی مانگیں۔ یہ جرمن دیوانی قانون (BGB § 437) کے تحت صارفین کا حق ہے۔"
     },
     {
       "id": 291,
