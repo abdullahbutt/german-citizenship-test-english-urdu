@@ -8406,63 +8406,63 @@
       "id": 275,
       "de": "Was__(s)__ist__(t)__eine Aufgabe der Bundeswehr?",
       "en": "What is a task of the Bundeswehr?",
-      "ur": "What is a task of the Bundeswehr?",
+      "ur": "جرمن فوج (Bundeswehr) کا کیا کام ہے؟",
       "options": [
         {
           "de": "Landesverteidigung",
           "en": "National defense",
-          "ur": "National defense"
+          "ur": "ملکی دفاع"
         },
         {
           "de": "Steuern eintreiben",
           "en": "Collecting taxes",
-          "ur": "Collecting taxes"
+          "ur": "ٹیکس وصول کرنا"
         },
         {
           "de": "Schulen bauen",
           "en": "Building schools",
-          "ur": "Building schools"
+          "ur": "اسکول تعمیر کرنا"
         },
         {
           "de": "Wahlen organisieren",
           "en": "Organizing elections",
-          "ur": "Organizing elections"
+          "ur": "انتخابات منظم کرنا"
         }
       ],
       "correct": 0,
       "exp_en": "The Bundeswehr (German Federal Armed Forces) was founded in 1955. Its primary mission is national defense. Since 1994, the Bundeswehr also participates in international peacekeeping missions (with Bundestag approval). Conscription was suspended in 2011. The Bundeswehr is under civilian control — the Defense Minister (a civilian) commands it during peacetime, and the Chancellor takes command in wartime.",
-      "exp_ur": "The Bundeswehr (German Federal Armed Forces) was founded in 1955. Its primary mission is national defense. Since 1994, the Bundeswehr also participates in international peacekeeping missions (with Bundestag approval). Conscription was suspended in 2011. The Bundeswehr is under civilian control — the Defense Minister (a civilian) commands it during peacetime, and the Chancellor takes command in wartime."
+      "exp_ur": "Bundeswehr (جرمن افواج) 1955 میں قائم ہوئی۔ اس کا بنیادی کام ملکی دفاع ہے۔ 1994 سے Bundeswehr بین الاقوامی امن مشنوں میں بھی حصہ لیتی ہے۔ 2011 میں لازمی فوجی خدمت معطل کی گئی۔"
     },
     {
       "id": 276,
       "de": "Was__(s)__ist der \"__(S)__olidaritätszuschlag\"?",
       "en": "What is the \"solidarity surcharge\"?",
-      "ur": "What is the \"solidarity surcharge\"?",
+      "ur": "\"Solidaritätszuschlag\" (یکجہتی ضمیمہ) کیا ہے؟",
       "options": [
         {
           "de": "ein Zuschlag zur Einkommensteuer__(,)__ __(u)__rsprünglich zur Finanzierung der Wiedervereinigung",
           "en": "a surcharge on income tax, originally to finance reunification",
-          "ur": "a surcharge on income tax, originally to finance reunification"
+          "ur": "آمدنی ٹیکس پر ضمیمہ، اصلاً جرمنی کے دوبارہ اتحاد کی مالی اعانت کے لیے"
         },
         {
           "de": "eine Kirchensteuer",
           "en": "a church tax",
-          "ur": "a church tax"
+          "ur": "چرچ ٹیکس"
         },
         {
           "de": "eine Versicherung",
           "en": "an insurance",
-          "ur": "an insurance"
+          "ur": "ایک انشورنس"
         },
         {
           "de": "eine Parkgebühr",
           "en": "a parking fee",
-          "ur": "a parking fee"
+          "ur": "پارکنگ فیس"
         }
       ],
       "correct": 0,
       "exp_en": "The Solidaritätszuschlag (\"Soli\") was introduced in 1991 to fund German reunification — specifically, the massive costs of rebuilding eastern German infrastructure, economy, and social systems. It was 5.5% of income tax. Since 2021, the Soli has been abolished for approximately 90% of taxpayers; only high earners still pay it.",
-      "exp_ur": "The Solidaritätszuschlag (\"Soli\") was introduced in 1991 to fund German reunification — specifically, the massive costs of rebuilding eastern German infrastructure, economy, and social systems. It was 5.5% of income tax. Since 2021, the Soli has been abolished for approximately 90% of taxpayers; only high earners still pay it."
+      "exp_ur": "Solidaritätszuschlag (سولی) 1991 میں جرمنی کے اتحاد کے اخراجات کے لیے متعارف کرایا گیا تھا — آمدنی ٹیکس کا 5.5%۔ 2021 سے تقریباً 90% ٹیکس دہندگان کے لیے ختم کر دیا گیا۔"
     },
     {
       "id": 288,
