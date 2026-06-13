@@ -713,8 +713,36 @@ function showScreen(id) {
 // ── Mode selection ────────────────────────────────────────────────────────────
 function startMode(mode) {
     quiz.mode = mode;
-    if (mode === 'full')    showScreen('screenState');
-    if (mode === 'state')   showScreen('screenState');
+    if (mode === 'full') {
+        // Update the state screen to explain the full-test context
+        const titles = {
+            en: ['Step 1 of 2 — Select your Bundesland',
+                 '30 random general questions + 3 from your state. 60-minute timer. Pass = 17/33.'],
+            ur: ['مرحلہ 1/2 — اپنی ریاست منتخب کریں',
+                 '30 عمومی سوالات + آپ کی ریاست کے 3 سوالات۔ 60 منٹ کا وقت۔ پاس = 17/33۔'],
+            de: ['Schritt 1 von 2 — Bundesland wählen',
+                 '30 allgemeine Fragen + 3 aus Ihrem Bundesland. 60 Minuten. Bestanden = 17/33.'],
+        };
+        const t = titles[LANG] || titles.en;
+        document.getElementById('txt-stateTitle').textContent = t[0];
+        document.getElementById('txt-stateSub').textContent   = t[1];
+        showScreen('screenState');
+    }
+    if (mode === 'state') {
+        // Restore default state screen title
+        const titles = {
+            en: ['Select your Bundesland',
+                 'Your state determines which 3 regional questions are included in the test.'],
+            ur: ['اپنی ریاست منتخب کریں',
+                 'آپ کی ریاست طے کرتی ہے کہ امتحان میں کون سے 3 علاقائی سوالات شامل ہوں گے۔'],
+            de: ['Bundesland wählen',
+                 'Ihr Bundesland bestimmt, welche 3 regionalen Fragen im Test enthalten sind.'],
+        };
+        const t = titles[LANG] || titles.en;
+        document.getElementById('txt-stateTitle').textContent = t[0];
+        document.getElementById('txt-stateSub').textContent   = t[1];
+        showScreen('screenState');
+    }
     if (mode === 'general') showScreen('screenGeneral');
 }
 
