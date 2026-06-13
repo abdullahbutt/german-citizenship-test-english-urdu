@@ -385,6 +385,81 @@
             .nav-pager { gap: 0.5rem; }
             .nav-pager .pager-btn { font-size: 0.85rem; padding: 0.45rem 0.7rem; }
         }
+        /* ── Progress tracker ────────────────────────────── */
+        .mark-learned-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35rem;
+            margin: 0.5rem 0 1.25rem;
+            padding: 0.35rem 0.85rem;
+            font-size: 0.82rem;
+            font-weight: 600;
+            border-radius: 999px;
+            border: 1.5px solid var(--border);
+            background: transparent;
+            color: var(--muted-text);
+            cursor: pointer;
+            transition: all 0.15s ease;
+            font-family: inherit;
+        }
+        .mark-learned-btn:hover {
+            border-color: var(--primary);
+            color: var(--primary);
+        }
+        .mark-learned-btn.learned {
+            background: #059669;
+            border-color: #059669;
+            color: #fff;
+        }
+        .mark-learned-btn.learned:hover {
+            background: #047857;
+            border-color: #047857;
+        }
+        /* Progress bar on index page */
+        .progress-tracker {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 0.75rem;
+            padding: 1rem 1.25rem;
+            margin-bottom: 1.5rem;
+        }
+        .progress-tracker .pt-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-bottom: 0.6rem;
+            color: var(--page-text);
+        }
+        .progress-tracker .pt-pct {
+            color: var(--primary);
+            font-size: 0.95rem;
+        }
+        .progress-tracker .pt-bar-bg {
+            background: var(--border);
+            border-radius: 999px;
+            height: 10px;
+            overflow: hidden;
+            margin-bottom: 0.6rem;
+        }
+        .progress-tracker .pt-bar-fill {
+            height: 100%;
+            background: #059669;
+            border-radius: 999px;
+            transition: width 0.4s ease;
+            min-width: 0;
+        }
+        .progress-tracker .pt-reset {
+            font-size: 0.78rem;
+            color: var(--muted-text);
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 0;
+            text-decoration: underline;
+        }
+        .progress-tracker .pt-reset:hover { color: var(--primary); }
         .back-to-top {
             position: fixed;
             bottom: 1.5rem;
@@ -438,7 +513,8 @@
         /* Feature 8 — Print / Save as PDF styles */
         @media print {
             .site-nav, .nav-pager, .back-to-top, footer,
-            .report-btn, #updateBanner, #installHint { display: none !important; }
+            .report-btn, .mark-learned-btn, .progress-tracker,
+            #updateBanner, #installHint { display: none !important; }
             body { background: #fff; color: #000; font-size: 11pt; }
             .content-card {
                 box-shadow: none;
@@ -622,6 +698,51 @@
             const pick = choices[Math.floor(Math.random() * choices.length)];
             window.location.href = './' + pick + '.html';
         };
+
+        // Progress tracker — mark questions as learned
+        (function() {
+            const KEY = 'gct_learned';
+            const isUrdu = document.documentElement.lang === 'ur';
+
+            function getSet() {
+                try { return new Set(JSON.parse(localStorage.getItem(KEY) || '[]')); }
+                catch(e) { return new Set(); }
+            }
+            function saveSet(s) {
+                try { localStorage.setItem(KEY, JSON.stringify([...s])); } catch(e) {}
+            }
+
+            // Inject a mark button after every question <h3>
+            document.querySelectorAll('.content-card h3').forEach(h3 => {
+                const m = h3.textContent.match(/(?:Question|سوال)s+(d+)/);
+                if (!m) return;
+                const qId = parseInt(m[1], 10);
+                if (isNaN(qId)) return;
+
+                const learned = getSet().has(qId);
+                const btn = document.createElement('button');
+                btn.className = 'mark-learned-btn' + (learned ? ' learned' : '');
+                btn.dataset.qid = qId;
+                btn.textContent = learned
+                    ? (isUrdu ? '✓ سیکھ لیا' : '✓ Learned')
+                    : (isUrdu ? '＋ سیکھیں' : '＋ Mark as learned');
+                btn.setAttribute('aria-pressed', String(learned));
+
+                btn.addEventListener('click', () => {
+                    const s = getSet();
+                    const nowLearned = !s.has(qId);
+                    nowLearned ? s.add(qId) : s.delete(qId);
+                    saveSet(s);
+                    btn.classList.toggle('learned', nowLearned);
+                    btn.setAttribute('aria-pressed', String(nowLearned));
+                    btn.textContent = nowLearned
+                        ? (isUrdu ? '✓ سیکھ لیا' : '✓ Learned')
+                        : (isUrdu ? '＋ سیکھیں' : '＋ Mark as learned');
+                });
+
+                h3.insertAdjacentElement('afterend', btn);
+            });
+        })();
 
         // Theme already applied by inline script in <head> — this handles the toggle click
         const root = document.documentElement;
