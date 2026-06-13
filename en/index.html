@@ -237,6 +237,16 @@
         [dir="rtl"] table th:nth-child(1) {
             text-align: center;
         }
+        /* Ensure all table cells on Urdu pages use the Nastaleeq font,
+           not a Bootstrap-overridden fallback */
+        [dir="rtl"] table td,
+        [dir="rtl"] table th {
+            font-family: 'Jameel Noori Nastaleeq', serif;
+        }
+        [dir="rtl"] table td:nth-child(2),
+        [dir="rtl"] table th:nth-child(2) {
+            font-family: 'Inter', system-ui, sans-serif;
+        }
 
         @media (max-width: 720px) {
             .table-wrap table {
@@ -796,7 +806,7 @@
 
             // Inject a mark button after every question <h3>
             document.querySelectorAll('.content-card h3').forEach(h3 => {
-                const m = h3.textContent.match(/(?:Question|سوال)s+(d+)/);
+                const m = h3.textContent.match(/(?:Question|سوال)\s+(\d+)/);
                 if (!m) return;
                 const qId = parseInt(m[1], 10);
                 if (isNaN(qId)) return;

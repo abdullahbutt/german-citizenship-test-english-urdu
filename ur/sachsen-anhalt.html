@@ -91,7 +91,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/flag-icons@7.2.3/css/flag-icons.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+    @font-face {
+        font-family: 'Jameel Noori Nastaleeq';
+        src: url('../fonts/JameelNooriNastaleeq.woff2') format('woff2');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+    </style>
     <style>
         :root {
             --page-bg: #f5f7fb;
@@ -120,7 +128,7 @@
         body {
             background: var(--page-bg);
             color: var(--page-text);
-            font-family: 'Noto Nastaliq Urdu', 'Inter', serif; line-height: 2;
+            font-family: 'Jameel Noori Nastaleeq', serif; line-height: 2;
         }
         .site-nav {
             background: var(--card-bg);
@@ -236,6 +244,16 @@
         [dir="rtl"] table td:nth-child(1),
         [dir="rtl"] table th:nth-child(1) {
             text-align: center;
+        }
+        /* Ensure all table cells on Urdu pages use the Nastaleeq font,
+           not a Bootstrap-overridden fallback */
+        [dir="rtl"] table td,
+        [dir="rtl"] table th {
+            font-family: 'Jameel Noori Nastaleeq', serif;
+        }
+        [dir="rtl"] table td:nth-child(2),
+        [dir="rtl"] table th:nth-child(2) {
+            font-family: 'Inter', system-ui, sans-serif;
         }
 
         @media (max-width: 720px) {
@@ -561,7 +579,7 @@
             <a class="pager-btn" href="./schleswig-holstein.html" rel="next">شلیسوگ-ہولسٹائن ← اگلا</a>
         </nav>
         <article class="content-card">
-            <div class="state-intro" dir="rtl" style="background:color-mix(in srgb,var(--primary) 7%,var(--card-bg));border:1px solid color-mix(in srgb,var(--primary) 20%,var(--border));border-radius:.75rem;padding:1rem 1.25rem;margin-bottom:1.5rem;font-size:.96rem;line-height:1.75;font-family:'Noto Nastaliq Urdu',serif;line-height:2.1;">زاخسن-انہالٹ وسطی مشرقی جرمنی میں واقع ہے۔ اس کا دارالحکومت <strong>ماگڈبرگ</strong> ہے جہاں <strong>Landtag</strong> اور جرمنی کے قدیم ترین گرجا گھروں میں سے ایک ہے۔ یہ ریاست پروٹسٹنٹ اصلاح کے مرکز کے طور پر تاریخی اہمیت رکھتی ہے — مارٹن لوتھر آئسلیبن میں پیدا ہوئے اور وِٹنبرگ میں اپنے 95 مقالے لگائے، دونوں جگہیں زاخسن-انہالٹ میں ہیں۔ Bauhaus فن تحریک بھی ڈیساؤ میں قائم ہوئی۔ سربراہ حکومت <strong>Ministerpräsident/in</strong> ہے۔</div><h1>Sachsen-Anhalt (سیکسنی انہالٹ) — ریاستی سوالات (301–310)</h1>
+            <div class="state-intro" dir="rtl" style="background:color-mix(in srgb,var(--primary) 7%,var(--card-bg));border:1px solid color-mix(in srgb,var(--primary) 20%,var(--border));border-radius:.75rem;padding:1rem 1.25rem;margin-bottom:1.5rem;font-size:.96rem;line-height:1.75;font-family:'Jameel Noori Nastaleeq',serif;line-height:2.1;">زاخسن-انہالٹ وسطی مشرقی جرمنی میں واقع ہے۔ اس کا دارالحکومت <strong>ماگڈبرگ</strong> ہے جہاں <strong>Landtag</strong> اور جرمنی کے قدیم ترین گرجا گھروں میں سے ایک ہے۔ یہ ریاست پروٹسٹنٹ اصلاح کے مرکز کے طور پر تاریخی اہمیت رکھتی ہے — مارٹن لوتھر آئسلیبن میں پیدا ہوئے اور وِٹنبرگ میں اپنے 95 مقالے لگائے، دونوں جگہیں زاخسن-انہالٹ میں ہیں۔ Bauhaus فن تحریک بھی ڈیساؤ میں قائم ہوئی۔ سربراہ حکومت <strong>Ministerpräsident/in</strong> ہے۔</div><h1>Sachsen-Anhalt (سیکسنی انہالٹ) — ریاستی سوالات (301–310)</h1>
 <p><a href="index.html">⬅ مرکزی صفحے پر واپس</a></p>
 <hr>
 <h3>سوال 301 — ریاستی نشان</h3>
@@ -678,7 +696,7 @@
 
             // Inject a mark button after every question <h3>
             document.querySelectorAll('.content-card h3').forEach(h3 => {
-                const m = h3.textContent.match(/(?:Question|سوال)s+(d+)/);
+                const m = h3.textContent.match(/(?:Question|سوال)\s+(\d+)/);
                 if (!m) return;
                 const qId = parseInt(m[1], 10);
                 if (isNaN(qId)) return;

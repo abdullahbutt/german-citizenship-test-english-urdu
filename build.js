@@ -483,11 +483,23 @@ function renderPage({ lang, title, bodyHtml, slug }) {
     const dir = lang === 'ur' ? 'rtl' : 'ltr';
     const ui = UI[lang];
     const otherLang = lang === 'en' ? 'ur' : 'en';
+
+    // Local self-hosted fonts — served from /fonts/ at site root.
+    // Pages are in /en/ or /ur/ subdirectories so path is ../fonts/
+    // Arabic font (future): Indopak-nastaleeq-hanafi-normal-v4.2.2-with-waqf-lazmi.woff2
     const urduFont = lang === 'ur'
-        ? `<link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;700&display=swap" rel="stylesheet">`
+        ? `<style>
+    @font-face {
+        font-family: 'Jameel Noori Nastaleeq';
+        src: url('../fonts/JameelNooriNastaleeq.woff2') format('woff2');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+    </style>`
         : '';
     const bodyFont = lang === 'ur'
-        ? `font-family: 'Noto Nastaliq Urdu', 'Inter', serif; line-height: 2;`
+        ? `font-family: 'Jameel Noori Nastaleeq', serif; line-height: 2;`
         : `font-family: 'Inter', system-ui, -apple-system, sans-serif; line-height: 1.7;`;
 
     const html = `<!DOCTYPE html>
@@ -728,6 +740,16 @@ function renderPage({ lang, title, bodyHtml, slug }) {
         [dir="rtl"] table td:nth-child(1),
         [dir="rtl"] table th:nth-child(1) {
             text-align: center;
+        }
+        /* Ensure all table cells on Urdu pages use the Nastaleeq font,
+           not a Bootstrap-overridden fallback */
+        [dir="rtl"] table td,
+        [dir="rtl"] table th {
+            font-family: 'Jameel Noori Nastaleeq', serif;
+        }
+        [dir="rtl"] table td:nth-child(2),
+        [dir="rtl"] table th:nth-child(2) {
+            font-family: 'Inter', system-ui, sans-serif;
         }
 
         @media (max-width: 720px) {
@@ -1094,7 +1116,7 @@ function renderPage({ lang, title, bodyHtml, slug }) {
 
             // Inject a mark button after every question <h3>
             document.querySelectorAll('.content-card h3').forEach(h3 => {
-                const m = h3.textContent.match(/(?:Question|سوال)\s+(\d+)/);
+                const m = h3.textContent.match(/(?:Question|سوال)\\s+(\\d+)/);
                 if (!m) return;
                 const qId = parseInt(m[1], 10);
                 if (isNaN(qId)) return;
@@ -1486,7 +1508,7 @@ function buildLang(lang) {
         if (isStatePage && STATE_INTROS[slug]) {
             const intro = STATE_INTROS[slug][lang] || STATE_INTROS[slug].en;
             const dir = lang === 'ur' ? 'rtl' : 'ltr';
-            const fontStyle = lang === 'ur' ? "font-family:'Noto Nastaliq Urdu',serif;line-height:2.1;" : '';
+            const fontStyle = lang === 'ur' ? "font-family:'Jameel Noori Nastaleeq',serif;line-height:2.1;" : '';
             const introHtml = `<div class="state-intro" dir="${dir}" style="background:color-mix(in srgb,var(--primary) 7%,var(--card-bg));border:1px solid color-mix(in srgb,var(--primary) 20%,var(--border));border-radius:.75rem;padding:1rem 1.25rem;margin-bottom:1.5rem;font-size:.96rem;line-height:1.75;${fontStyle}">${intro}</div>`;
             bodyHtml = introHtml + bodyHtml;
         }
