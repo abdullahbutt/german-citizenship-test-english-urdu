@@ -13,7 +13,7 @@
 
 // Cache key includes a build timestamp so every deploy invalidates the cache.
 // The build timestamp is replaced at build time by build.js.
-const CACHE_VERSION = '2026-06-13T13-04-28-192Z';
+const CACHE_VERSION = '2026-06-13T14-18-44-353Z';
 const CACHE_NAME = `gct-cache-${CACHE_VERSION}`;
 
 // All same-origin pages to pre-cache on install

@@ -714,22 +714,16 @@ function showScreen(id) {
 function startMode(mode) {
     quiz.mode = mode;
     if (mode === 'full') {
-        // Update the state screen to explain the full-test context
-        const titles = {
-            en: ['Step 1 of 2 — Select your Bundesland',
-                 '30 random general questions + 3 from your state. 60-minute timer. Pass = 17/33.'],
-            ur: ['مرحلہ 1/2 — اپنی ریاست منتخب کریں',
-                 '30 عمومی سوالات + آپ کی ریاست کے 3 سوالات۔ 60 منٹ کا وقت۔ پاس = 17/33۔'],
-            de: ['Schritt 1 von 2 — Bundesland wählen',
-                 '30 allgemeine Fragen + 3 aus Ihrem Bundesland. 60 Minuten. Bestanden = 17/33.'],
-        };
-        const t = titles[LANG] || titles.en;
-        document.getElementById('txt-stateTitle').textContent = t[0];
-        document.getElementById('txt-stateSub').textContent   = t[1];
-        showScreen('screenState');
+        // Auto-pick a random state — the real test assigns one based on where you live.
+        // For practice, we pick randomly so the quiz starts immediately with no extra step.
+        if (!DATA) return;
+        const slugs = Object.keys(DATA.states);
+        const randomSlug = slugs[Math.floor(Math.random() * slugs.length)];
+        launchStateQuiz(randomSlug);
+        return;
     }
     if (mode === 'state') {
-        // Restore default state screen title
+        // User picks their Bundesland
         const titles = {
             en: ['Select your Bundesland',
                  'Your state determines which 3 regional questions are included in the test.'],
@@ -856,18 +850,17 @@ function renderQuestion() {
     document.getElementById('qProgress').textContent =
         `${u.question} ${cur} ${u.of} ${total}`;
     document.getElementById('qNum').textContent =
-        `${u.question} ${q.id || cur}`;
+        `${u.question} ${cur}`;   // always show position number, not string ID
     document.getElementById('progressFill').style.width =
         `${((cur - 1) / total) * 100}%`;
 
-    // Question text
+    // Question text — German only (the real test is in German)
     document.getElementById('qDe').textContent = q.de || '';
     const transEl = document.getElementById('qTrans');
-    const transText = LANG === 'ur' ? q.ur : LANG === 'de' ? q.de : q.en;
-    transEl.textContent = LANG === 'de' ? '' : transText;
-    transEl.className = LANG === 'ur' ? 'q-translation ur-text' : 'q-translation';
+    transEl.textContent = '';  // no translation during quiz — practice reading German
+    transEl.className = 'q-translation';
 
-    // Options
+    // Options — always German (simulates the real test)
     const grid = document.getElementById('optionsGrid');
     grid.innerHTML = '';
     const labels = ['A', 'B', 'C', 'D'];
@@ -877,10 +870,9 @@ function renderQuestion() {
         const opt = q.options[originalIdx];
         const btn = document.createElement('button');
         btn.className = 'opt-btn';
-        const isUrdu = LANG === 'ur';
-        if (isUrdu) btn.classList.add('ur-text');
-        const optText = isUrdu ? opt.ur : LANG === 'de' ? opt.de : opt.en;
-        btn.innerHTML = `<span class="opt-label">${labels[shufflePos]}</span><span>${optText || opt.en}</span>`;
+        // Options always in German — the Einbürgerungstest is in German
+        const optText = opt.de || opt.en || '';
+        btn.innerHTML = `<span class="opt-label">${labels[shufflePos]}</span><span>${optText}</span>`;
         btn.addEventListener('click', () => answerQuestion(shufflePos));
         grid.appendChild(btn);
     });
@@ -1045,10 +1037,10 @@ function finishQuiz() {
             if (item.yourAnswer >= 0) {
                 const yourOrigIdx = indices[item.yourAnswer];
                 const yourOpt     = q.options[yourOrigIdx];
-                yourOptText = LANG === 'ur' ? yourOpt.ur : LANG === 'de' ? yourOpt.de : yourOpt.en;
+                yourOptText = LANG === 'ur' ? yourOpt.ur : yourOpt.de || yourOpt.en;
             }
-            const correctText = LANG === 'ur' ? correctOpt.ur : LANG === 'de' ? correctOpt.de : correctOpt.en;
-            const qText       = LANG === 'ur' ? q.ur : LANG === 'de' ? q.de : q.en;
+            const correctText = correctOpt.de || correctOpt.en;
+            const qText       = q.de; // always German — the test is in German
             const div = document.createElement('div');
             div.className = 'review-item';
             div.style.direction = LANG === 'ur' ? 'rtl' : 'ltr';
