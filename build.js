@@ -496,6 +496,10 @@ function renderPage({ lang, title, bodyHtml, slug }) {
         font-style: normal;
         font-display: swap;
     }
+    /* Optical size correction — Jameel Noori Nastaleeq renders visually smaller
+       than Inter at equal CSS sizes (smaller cap-height relative to em square).
+       Scaling the root font-size up proportionally compensates all rem-based sizes. */
+    html { font-size: 120%; }
     </style>`
         : '';
     const bodyFont = lang === 'ur'

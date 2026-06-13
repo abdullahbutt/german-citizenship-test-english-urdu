@@ -25,7 +25,7 @@
         font-display: swap;
     }
     /* Future Arabic: Indopak-nastaleeq-hanafi-normal-v4.2.2-with-waqf-lazmi.woff2 */
-    </style>
+</style>
     <style>
         :root {
             --bg: #f0f4ff;
@@ -681,6 +681,10 @@ function applyUiLang() {
     document.body.style.direction = LANG === 'ur' ? 'rtl' : 'ltr';
     if (LANG === 'ur') {
         document.body.style.fontFamily = "'Jameel Noori Nastaleeq', Inter, serif";
+        document.documentElement.style.fontSize = '120%'; // optical correction for Nastaleeq
+    } else {
+        document.documentElement.style.fontSize = ''; // reset for EN/DE
+    }
     } else {
         document.body.style.fontFamily = "Inter, system-ui, sans-serif";
     }
