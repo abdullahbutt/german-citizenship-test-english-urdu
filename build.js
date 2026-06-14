@@ -27,11 +27,13 @@ const SOURCES = {
     en: path.join(ROOT, 'sources', 'english'),
     ur: path.join(ROOT, 'sources', 'urdu'),
     ar: path.join(ROOT, 'sources', 'arabic'),
+    de: path.join(ROOT, 'sources', 'english'),   // reuse English source; German content is already in the 🇩🇪 column
 };
 const OUTPUTS = {
     en: path.join(ROOT, 'en'),
     ur: path.join(ROOT, 'ur'),
     ar: path.join(ROOT, 'ar'),
+    de: path.join(ROOT, 'de'),
 };
 
 // Files we never want to convert (branch metadata, not content)
@@ -111,6 +113,30 @@ const TITLES = {
         'sachsen-anhalt': 'ساكسونيا-أنهالت',
         'schleswig-holstein': 'شليسفيغ-هولشتاين',
         'thueringen': 'تورينغن',
+    },
+    de: {
+        'questions-001-050': 'Fragen 1–50',
+        'questions-051-100': 'Fragen 51–100',
+        'questions-101-150': 'Fragen 101–150',
+        'questions-151-200': 'Fragen 151–200',
+        'questions-201-250': 'Fragen 201–250',
+        'questions-251-300': 'Fragen 251–300',
+        'baden-wuerttemberg': 'Baden-Württemberg',
+        'bayern': 'Bayern',
+        'berlin': 'Berlin',
+        'brandenburg': 'Brandenburg',
+        'bremen': 'Bremen',
+        'hamburg': 'Hamburg',
+        'hessen': 'Hessen',
+        'mecklenburg-vorpommern': 'Mecklenburg-Vorpommern',
+        'niedersachsen': 'Niedersachsen',
+        'nordrhein-westfalen': 'Nordrhein-Westfalen',
+        'rheinland-pfalz': 'Rheinland-Pfalz',
+        'saarland': 'Saarland',
+        'sachsen': 'Sachsen',
+        'sachsen-anhalt': 'Sachsen-Anhalt',
+        'schleswig-holstein': 'Schleswig-Holstein',
+        'thueringen': 'Thüringen',
     },
 };
 
@@ -201,6 +227,35 @@ const UI = {
         randomBtn: '🎲 سؤال عشوائي',
         printBtn: '🖨️ طباعة / حفظ PDF',
         reportBtn: '⚠️ الإبلاغ عن خطأ',
+    },
+    de: {
+        siteTitle: 'Einbürgerungstest Deutschland',
+        home: 'Startseite',
+        switchTo: 'English',
+        back: '← Zurück zur Startseite',
+        changeLang: '← Sprache ändern',
+        backToTop: 'Nach oben',
+        pickerHint: 'Sprache ändern',
+        questionsHeading: 'Fragen',
+        statesHeading: 'Länderspezifische Fragen',
+        tagline: 'Alle 300 offiziellen Einbürgerungstest-Fragen mit Erklärungen',
+        sourceOnGithub: 'Auf GitHub ansehen',
+        footerTagline: '🇩🇪 Einbürgerungstest — kostenloses Lernmaterial',
+        footerSubtag: 'Vorbereitung auf den Leben-in-Deutschland-Test',
+        bamfCatalog: 'BAMF-Fragenkatalog ↗',
+        bamfTestCenter: 'BAMF-Testzentrum ↗',
+        starLabel: '⭐ Auf GitHub markieren',
+        supportBtn: '☕ Unterstützen',
+        lastUpdated: 'Zuletzt aktualisiert',
+        navPrev: '← Vorherige',
+        navNext: 'Nächste →',
+        navJump: 'Gehe zu:',
+        navQuestions: 'Fragen',
+        navStates: 'Bundesländer',
+        privacyLink: 'Datenschutz',
+        randomBtn: '🎲 Zufallsfrage',
+        printBtn: '🖨️ Drucken / PDF',
+        reportBtn: '⚠️ Fehler melden',
     },
 };
 
@@ -1324,6 +1379,7 @@ function renderIndex({ lang, slugs }) {
     const dir = (lang === 'ur' || lang === 'ar') ? 'rtl' : 'ltr';
     const isUr = lang === 'ur';
     const isAr = lang === 'ar';
+    const isDe = lang === 'de';
 
     // Question set cards — 6 sets with range labels
     const qSets = [
@@ -1343,12 +1399,14 @@ function renderIndex({ lang, slugs }) {
         en: 'The <strong>Einbürgerungstest</strong> (Leben in Deutschland test) is required for German Permanent Residence and Citizenship. The test is in German — use this free guide to study every official question with English translation and clear explanation.',
         ur: 'جرمن مستقل اقامت (Niederlassungserlaubnis) اور شہریت کے لیے <strong>Einbürgerungstest</strong> پاس کرنا ضروری ہے۔ یہ امتحان جرمن زبان میں ہوتا ہے — اس مفت گائیڈ میں ہر سرکاری سوال کا اردو ترجمہ اور آسان وضاحت موجود ہے۔',
         ar: 'يُعدّ اختبار <strong>Einbürgerungstest</strong> (Leben in Deutschland) شرطاً للحصول على الإقامة الدائمة والجنسية الألمانية. الاختبار باللغة الألمانية — استخدم هذا الدليل المجاني لدراسة جميع الأسئلة الرسمية مع الترجمة العربية والشرح الوافي.',
+        de: 'Der <strong>Einbürgerungstest</strong> (Leben in Deutschland) ist Voraussetzung für die Niederlassungserlaubnis und die deutsche Staatsbürgerschaft. Dieser kostenlose Leitfaden enthält alle offiziellen Fragen mit markierten Antworten und Erklärungen auf Deutsch.',
     };
 
     const headings = {
         en: { qs: '📖 General Questions', states: '🗺️ State Questions', howLabel: '❓ How it works', howText: 'The test has <strong>33 questions</strong> — 30 from the general pool and 3 from your state. You need <strong>17 correct</strong> to pass. <a href="../quiz.html">Take the practice quiz →</a>', statsLabel: '' },
         ur: { qs: '📖 عمومی سوالات', states: '🗺️ ریاستی سوالات', howLabel: '❓ امتحان کیسے ہوتا ہے؟', howText: 'امتحان میں <strong>33 سوالات</strong> ہوتے ہیں — 30 عمومی اور 3 آپ کی ریاست کے۔ پاس کرنے کے لیے <strong>17 درست</strong> جوابات ضروری ہیں۔ <a href="../quiz.html">مشق کوئز دیں ←</a>' },
         ar: { qs: '📖 الأسئلة العامة', states: '🗺️ أسئلة الولايات', howLabel: '❓ كيف يعمل الاختبار؟', howText: 'يحتوي الاختبار على <strong>33 سؤالاً</strong> — 30 من الأسئلة العامة و3 من ولايتك. تحتاج إلى <strong>17 إجابة صحيحة</strong> للنجاح. <a href="../quiz.html">ابدأ اختبار التدريب ←</a>' },
+        de: { qs: '📖 Allgemeine Fragen', states: '🗺️ Länderfragen', howLabel: '❓ Wie funktioniert der Test?', howText: 'Der Test hat <strong>33 Fragen</strong> — 30 aus dem allgemeinen Pool und 3 aus Ihrem Bundesland. Sie benötigen <strong>17 richtige</strong> Antworten zum Bestehen. <a href="../quiz.html">Zum Übungsquiz →</a>' },
     };
 
     const h = headings[lang] || headings.en;
@@ -1358,11 +1416,13 @@ function renderIndex({ lang, slugs }) {
         ? `<div class="idx-stats"><span>📋 300+ سوالات</span><span>🗺️ 16 ریاستیں</span><span>✅ درست جوابات</span><span>💡 ہر سوال کی وضاحت</span></div>`
         : lang === 'ar'
         ? `<div class="idx-stats"><span>📋 300+ سؤال</span><span>🗺️ 16 ولاية</span><span>✅ الإجابات مُميَّزة</span><span>💡 شرح لكل سؤال</span></div>`
+        : lang === 'de'
+        ? `<div class="idx-stats"><span>📋 300+ Fragen</span><span>🗺️ 16 Bundesländer</span><span>✅ Antworten markiert</span><span>💡 Erklärung je Frage</span></div>`
         : `<div class="idx-stats"><span>📋 300+ questions</span><span>🗺️ 16 Bundesländer</span><span>✅ Answers highlighted</span><span>💡 Explanation per question</span></div>`;
 
     // Question set cards
     const qCards = qSets.map(({ slug, range }) => {
-        const label = isUr ? `سوالات ${range}` : isAr ? `الأسئلة ${range}` : `Questions ${range}`;
+        const label = isUr ? `سوالات ${range}` : isAr ? `الأسئلة ${range}` : isDe ? `Fragen ${range}` : `Questions ${range}`;
         return `<a class="idx-card" href="./${slug}.html">
             <span class="idx-card-icon">📝</span>
             <span class="idx-card-label">${label}</span>
@@ -1382,6 +1442,8 @@ function renderIndex({ lang, slugs }) {
         ? `<a class="idx-quiz-cta" href="../quiz.html">🎯 مشق کوئز شروع کریں — اصل Einbürgerungstest کی طرح</a>`
         : lang === 'ar'
         ? `<a class="idx-quiz-cta" href="../quiz.html">🎯 ابدأ اختبار التدريب — محاكاة لاختبار Einbürgerungstest الفعلي</a>`
+        : lang === 'de'
+        ? `<a class="idx-quiz-cta" href="../quiz.html">🎯 Übungsquiz starten — wie der echte Einbürgerungstest</a>`
         : `<a class="idx-quiz-cta" href="../quiz.html">🎯 Start Practice Quiz — simulates the real Einbürgerungstest</a>`;
 
     const body = `
@@ -1463,8 +1525,8 @@ function renderIndex({ lang, slugs }) {
         <div class="idx-search-wrap">
             <span class="idx-search-icon">🔍</span>
             <input class="idx-search-input" id="searchInput" type="search"
-                placeholder="${isUr ? 'سوالات تلاش کریں…' : isAr ? 'ابحث في الأسئلة…' : 'Search questions…'}"
-                autocomplete="off" aria-label="${isUr ? 'سوالات تلاش کریں' : isAr ? 'ابحث في الأسئلة' : 'Search questions'}">
+                placeholder="${isUr ? 'سوالات تلاش کریں…' : isAr ? 'ابحث في الأسئلة…' : isDe ? 'Fragen suchen…' : 'Search questions…'}"
+                autocomplete="off" aria-label="${isUr ? 'سوالات تلاش کریں' : isAr ? 'ابحث في الأسئلة' : isDe ? 'Fragen suchen' : 'Search questions'}">
             <div class="idx-search-results" id="searchResults" role="listbox"></div>
         </div>
         <script>
@@ -1472,6 +1534,7 @@ function renderIndex({ lang, slugs }) {
             const lang = '${lang}';
             const isUr = lang === 'ur';
             const isAr = lang === 'ar';
+            const isDe = lang === 'de';
             let searchData = null;
 
             // Load search index lazily on first keypress
@@ -1519,7 +1582,7 @@ function renderIndex({ lang, slugs }) {
 
                 if (!matches.length) {
                     results.innerHTML = '<div class="idx-search-empty">' +
-                        (isUr ? 'کوئی نتیجہ نہیں ملا۔' : isAr ? 'لا توجد نتائج.' : 'No results found.') + '</div>';
+                        (isUr ? 'کوئی نتیجہ نہیں ملا۔' : isAr ? 'لا توجد نتائج.' : isDe ? 'Keine Ergebnisse gefunden.' : 'No results found.') + '</div>';
                     results.classList.add('visible');
                     return;
                 }
@@ -1528,7 +1591,7 @@ function renderIndex({ lang, slugs }) {
                     const href = './' + item.slug + '.html#q-' + item.id;
                     const primary = highlight(isUr ? (item.ur || item.de) : isAr ? (item.ar || item.de) : item.de, q);
                     return '<a class="idx-search-result" href="' + escHtml(href) + '">' +
-                        '<div class="idx-search-result-num">' + (isUr ? 'سوال ' : isAr ? 'السؤال ' : 'Question ') + item.id + '</div>' +
+                        '<div class="idx-search-result-num">' + (isUr ? 'سوال ' : isAr ? 'السؤال ' : isDe ? 'Frage ' : 'Question ') + item.id + '</div>' +
                         '<div class="idx-search-result-text">' + primary + '</div>' +
                         '</a>';
                 }).join('');
@@ -1641,11 +1704,11 @@ function renderIndex({ lang, slugs }) {
 
         <div class="progress-tracker" id="progressTracker">
             <div class="pt-header">
-                <span>${isUr ? '📚 پیش رفت:' : isAr ? '📚 التقدم:' : '📚 Progress:'} <strong id="ptCount">0</strong> / 300 ${isUr ? 'سوالات سیکھ لیے' : isAr ? 'سؤال تعلّمته' : 'questions learned'}</span>
+                <span>${isUr ? '📚 پیش رفت:' : isAr ? '📚 التقدم:' : isDe ? '📚 Fortschritt:' : '📚 Progress:'} <strong id="ptCount">0</strong> / 300 ${isUr ? 'سوالات سیکھ لیے' : isAr ? 'سؤال تعلّمته' : isDe ? 'Fragen gelernt' : 'questions learned'}</span>
                 <span class="pt-pct" id="ptPct">0%</span>
             </div>
             <div class="pt-bar-bg"><div class="pt-bar-fill" id="ptFill" style="width:0%"></div></div>
-            <button class="pt-reset" onclick="if(confirm('${isUr ? 'تمام پیش رفت مٹا دی جائے؟' : isAr ? 'هل تريد إعادة تعيين كل التقدم؟' : 'Reset all progress?'}')){localStorage.removeItem('gct_learned');location.reload();}">${isUr ? 'پیش رفت ری سیٹ کریں' : isAr ? 'إعادة تعيين التقدم' : 'Reset progress'}</button>
+            <button class="pt-reset" onclick="if(confirm('${isUr ? 'تمام پیش رفت مٹا دی جائے؟' : isAr ? 'هل تريد إعادة تعيين كل التقدم؟' : isDe ? 'Gesamten Fortschritt zurücksetzen?' : 'Reset all progress?'}')){localStorage.removeItem('gct_learned');location.reload();}">${isUr ? 'پیش رفت ری سیٹ کریں' : isAr ? 'إعادة تعيين التقدم' : isDe ? 'Fortschritt zurücksetzen' : 'Reset progress'}</button>
         </div>
         <script>
         (function(){
@@ -1713,7 +1776,26 @@ function buildLang(lang) {
         const md = fs.readFileSync(path.join(srcDir, file), 'utf8');
         // Ensure a blank line before `---` separators so they render as
         // horizontal rules, not as setext-style h2 underlines.
-        const preprocessed = md.replace(/([^\n])\n---\s*$/gm, '$1\n\n---');
+        let preprocessed = md.replace(/([^\n])\n---\s*$/gm, '$1\n\n---');
+
+        // For German pages: strip the English translation column from the
+        // English source files. German is the test language, so we show only
+        // the German content — no translation needed.
+        if (lang === 'de') {
+            preprocessed = preprocessed.split('\n').map(line => {
+                // Remove English translation label line
+                if (/^\*\*🇬🇧\s*(English|Englisch):?\*\*/.test(line.trim())) return '';
+                // Table rows: remove the last pipe-separated column (English)
+                if (line.trim().startsWith('|') && (line.match(/\|/g) || []).length >= 4) {
+                    const parts = line.split('|');
+                    // parts: ['', col1, col2, col3, '']  — remove col3 (second-to-last)
+                    parts.splice(parts.length - 2, 1);
+                    return parts.join('|');
+                }
+                return line;
+            }).join('\n');
+        }
+
         let bodyHtml = marked.parse(preprocessed);
         bodyHtml = bodyHtml.replace(
             /<table([^>]*)>([\s\S]*?)<\/table>/g,
@@ -1867,13 +1949,14 @@ function buildSitemap() {
   </url>`;
 
     // Per-language index pages
-    for (const lang of ['en', 'ur', 'ar']) {
+    for (const lang of ['en', 'ur', 'ar', 'de']) {
         urls += `
   <url>
     <loc>${SITE_BASE_URL}/${lang}/index.html</loc>
     <xhtml:link rel="alternate" hreflang="en" href="${SITE_BASE_URL}/en/index.html"/>
     <xhtml:link rel="alternate" hreflang="ur" href="${SITE_BASE_URL}/ur/index.html"/>
     <xhtml:link rel="alternate" hreflang="ar" href="${SITE_BASE_URL}/ar/index.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="${SITE_BASE_URL}/de/index.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="${SITE_BASE_URL}/en/index.html"/>
     <lastmod>${today}</lastmod>
     <changefreq>monthly</changefreq>
@@ -1927,7 +2010,7 @@ Sitemap: ${SITE_BASE_URL}/sitemap.xml
 
 function main() {
     console.log('Building bilingual site...\n');
-    for (const lang of ['en', 'ur', 'ar']) {
+    for (const lang of ['en', 'ur', 'ar', 'de']) {
         console.log(`[${lang}]`);
         buildLang(lang);
     }

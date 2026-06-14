@@ -755,7 +755,7 @@ function applyUiLang() {
     set('txt-quizBackHome', u.backHome);
     // Update back-to-home href to match selected language
     const homeLink = document.getElementById('quizBackHome');
-    if (homeLink) homeLink.href = (LANG === 'ur') ? 'ur/index.html' : (LANG === 'ar') ? 'ar/index.html' : 'en/index.html';
+    if (homeLink) homeLink.href = (LANG === 'ur') ? 'ur/index.html' : (LANG === 'ar') ? 'ar/index.html' : (LANG === 'de') ? 'de/index.html' : 'en/index.html';
     // Quiz content is always German (LTR), so never apply RTL to the body.
     // Arabic mode changes font and font-size only — not direction.
     document.body.style.direction = 'ltr';
