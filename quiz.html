@@ -669,13 +669,53 @@ const UI = {
         historyFail: 'NICHT BEST.',
         historyPractice: 'Übung',
     },
+    ar: {
+        quizTitle: '🎯 اختبار تدريبي',
+        quizSub: 'اختر طريقة التدريب. جميع الأسئلة من الكتالوج الرسمي لـBAMF.',
+        mode1title: 'محاكاة الاختبار الحقيقي',
+        mode1sub: '33 سؤالاً · مؤقت 60 دقيقة · النجاح = 17/33 — تمامًا كاختبار Einbürgerungstest',
+        mode2title: 'تدريب على أسئلة الولاية',
+        mode2sub: 'اختر ولايتك. أجب على 3 أسئلة خاصة بالولاية.',
+        mode3title: 'تدريب على الأسئلة العامة',
+        mode3sub: '50 سؤالاً في المرة من 300 سؤال عام — بدون مؤقت، تدريب خالص.',
+        imageNote: 'ℹ️ ملاحظة: الأسئلة 301 (شعار الولاية) و302/304 (تحديد الخريطة) تتطلب صورًا ولا يمكن تضمينها في الاختبار الإلكتروني. ستظهر في الاختبار المطبوع الفعلي.',
+        back: 'رجوع',
+        stateTitle: 'اختر ولايتك الفيدرالية',
+        stateSub: 'تحدّد ولايتك 3 أسئلة إقليمية تُضمَّن في الاختبار.',
+        genTitle: 'اختر مجموعة الأسئلة',
+        genSub: '50 سؤالاً لكل مجموعة. بدون مؤقت — تعلّم بالسرعة التي تناسبك.',
+        question: 'السؤال',
+        of: 'من',
+        next: 'التالي ←',
+        finish: 'عرض النتائج ←',
+        bestanden: 'نجحت ✅',
+        nichtBestanden: 'لم تنجح ❌',
+        passedSub: 'تهانينا! لقد حصلت على 17 إجابة صحيحة أو أكثر.',
+        failedSub: (score, total) => `لم تنجح. تحتاج إلى 17/${total} — حصلت على ${score}/${total}.`,
+        passMark: 'حد النجاح: 17 / 33',
+        reviewTitle: '📋 الأسئلة التي أخطأت فيها:',
+        yourAnswer: 'إجابتك:',
+        correctAnswer: 'الإجابة الصحيحة:',
+        tryAgain: '🔄 حاول مجددًا',
+        cancelQuiz: 'إلغاء',
+        newQuiz: '← اختر اختبارًا مختلفًا',
+        backHome: '← العودة إلى دليل الدراسة',
+        correctLabel: '✓ صحيح!',
+        wrongLabel: '✗ خطأ',
+        practiceWeak: '📌 تدرّب على الأخطاء',
+        historyTitle: '📊 نتائجك الأخيرة',
+        historyEmpty: 'لا توجد سجلات بعد — أكمل اختبارًا لعرض نتائجك هنا.',
+        historyPass: 'نجاح',
+        historyFail: 'رسوب',
+        historyPractice: 'تدريب',
+    },
 };
 
 // ── Init ──────────────────────────────────────────────────────────────────────
 async function init() {
     // Language from site preference
     try { LANG = localStorage.getItem('preferredLang') || 'en'; } catch(e){}
-    if (!['en','ur','de'].includes(LANG)) LANG = 'en';
+    if (!['en','ur','de','ar'].includes(LANG)) LANG = 'en';
     document.getElementById('langSel').value = LANG;
 
     // Load quiz data
@@ -715,7 +755,7 @@ function applyUiLang() {
     set('txt-quizBackHome', u.backHome);
     // Update back-to-home href to match selected language
     const homeLink = document.getElementById('quizBackHome');
-    if (homeLink) homeLink.href = (LANG === 'ur') ? 'ur/index.html' : 'en/index.html';
+    if (homeLink) homeLink.href = (LANG === 'ur') ? 'ur/index.html' : (LANG === 'ar') ? 'ar/index.html' : 'en/index.html';
     // Quiz content is always German (LTR), so never apply RTL to the body.
     // Arabic mode changes font and font-size only — not direction.
     document.body.style.direction = 'ltr';
@@ -759,6 +799,8 @@ function cancelQuiz() {
     const u = UI[LANG] || UI.en;
     const msg = LANG === 'ur'
         ? 'کوئز منسوخ کی جائے؟ آپ کی پیش رفت ضائع ہو جائے گی۔'
+        : LANG === 'ar'
+        ? 'هل تريد إلغاء الاختبار؟ ستُفقَد جميع إجاباتك.'
         : LANG === 'de'
         ? 'Quiz abbrechen? Ihr Fortschritt geht verloren.'
         : 'Cancel the quiz? Your progress will be lost.';
