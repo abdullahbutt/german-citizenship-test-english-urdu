@@ -75,7 +75,55 @@
             z-index: 100;
         }
         .q-nav a { color: var(--text); text-decoration: none; font-weight: 700; font-size: .95rem; }
-        .q-nav-actions { display: flex; gap: .5rem; }
+        .q-nav-actions { display: flex; gap: .5rem; align-items: center; }
+        /* Language dropdown — same style as content pages */
+        .ql-drop { position: relative; display: inline-block; }
+        .ql-drop-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: .3rem;
+            background: transparent;
+            border: 1px solid var(--border);
+            border-radius: 999px;
+            padding: .3rem .75rem;
+            font-size: .82rem;
+            font-weight: 600;
+            color: var(--text);
+            cursor: pointer;
+            white-space: nowrap;
+        }
+        .ql-drop-btn:hover { border-color: var(--primary); }
+        .ql-drop-menu {
+            display: none;
+            position: absolute;
+            right: 0;
+            top: calc(100% + 6px);
+            background: var(--card-bg);
+            border: 1.5px solid var(--border);
+            border-radius: .6rem;
+            min-width: 150px;
+            box-shadow: 0 4px 16px rgba(0,0,0,.12);
+            z-index: 999;
+            overflow: hidden;
+        }
+        .ql-drop-menu button {
+            display: flex;
+            align-items: center;
+            gap: .45rem;
+            width: 100%;
+            padding: .5rem .85rem;
+            font-size: .85rem;
+            font-weight: 500;
+            background: none;
+            border: none;
+            color: var(--text);
+            text-align: left;
+            cursor: pointer;
+            transition: background .1s;
+        }
+        .ql-drop-menu button:hover { background: color-mix(in srgb,var(--primary) 8%,var(--card-bg)); }
+        .ql-drop-menu button.active { background: color-mix(in srgb,var(--primary) 12%,var(--card-bg)); color: var(--primary); font-weight: 700; }
+        .ql-drop.open .ql-drop-menu { display: block; }
         .btn-pill {
             background: transparent;
             border: 1px solid var(--border);
@@ -431,15 +479,46 @@
 <nav class="q-nav">
     <a href="index.html?stay"><span class="fi fi-de" role="img" aria-label="Germany" title="Germany" style="width:1.2rem;height:0.9rem;vertical-align:middle;border-radius:2px;margin-right:0.3rem;"></span> German Citizenship Test</a>
     <div class="q-nav-actions">
-        <select id="langSel" class="btn-pill" style="padding:.3rem .7rem;" aria-label="Language">
-            <option value="en">English</option>
-            <option value="ur">اردو</option>
-            <option value="ar">عربي</option>
-            <option value="de">Deutsch</option>
-        </select>
+        <div class="ql-drop" id="qlDrop">
+            <button class="ql-drop-btn" id="qlDropBtn" onclick="document.getElementById('qlDrop').classList.toggle('open')" aria-haspopup="true" aria-label="Language">
+                <span class="fi fi-gb" id="qlFlagIcon"></span>
+                <span id="qlLangLabel">English</span> ▾
+            </button>
+            <div class="ql-drop-menu" role="menu">
+                <button onclick="selectQuizLang('en')" id="qlOpt-en" class="active" role="menuitem"><span class="fi fi-gb"></span> English</button>
+                <button onclick="selectQuizLang('de')" id="qlOpt-de" role="menuitem"><span class="fi fi-de"></span> Deutsch</button>
+                <button onclick="selectQuizLang('ur')" id="qlOpt-ur" role="menuitem" style="font-family:'Jameel Noori Nastaleeq',serif;font-size:1rem;"><span class="fi fi-pk"></span> اردو</button>
+                <button onclick="selectQuizLang('ar')" id="qlOpt-ar" role="menuitem" style="font-family:'Indopak Nastaleeq',serif;font-size:1rem;"><span class="fi fi-sa"></span> عربي</button>
+            </div>
+        </div>
         <button class="btn-pill" id="themeBtn" aria-label="Toggle theme">🌓</button>
     </div>
 </nav>
+<script>
+// Close quiz lang dropdown when clicking outside
+document.addEventListener('click', function(e) {
+    var d = document.getElementById('qlDrop');
+    if (d && !d.contains(e.target)) d.classList.remove('open');
+});
+function selectQuizLang(lang) {
+    document.getElementById('qlDrop').classList.remove('open');
+    // Fire the same handler the old select used
+    var fakeEvent = { target: { value: lang } };
+    if (window._quizLangHandler) window._quizLangHandler(fakeEvent);
+}
+function updateQuizLangDropdown(lang) {
+    var flags = { en:'gb', de:'de', ur:'pk', ar:'sa' };
+    var labels = { en:'English', de:'Deutsch', ur:'اردو', ar:'عربي' };
+    var icon = document.getElementById('qlFlagIcon');
+    var label = document.getElementById('qlLangLabel');
+    if (icon) { icon.className = 'fi fi-' + (flags[lang]||'gb'); }
+    if (label) label.textContent = labels[lang] || 'English';
+    ['en','de','ur','ar'].forEach(function(l) {
+        var btn = document.getElementById('qlOpt-' + l);
+        if (btn) btn.classList.toggle('active', l === lang);
+    });
+}
+</script>
 
 <!-- ══ SCREEN 1: Mode selection ════════════════════════════════════════════ -->
 <div class="screen active" id="screenMode">
@@ -716,7 +795,7 @@ async function init() {
     // Language from site preference
     try { LANG = localStorage.getItem('preferredLang') || 'en'; } catch(e){}
     if (!['en','ur','de','ar'].includes(LANG)) LANG = 'en';
-    document.getElementById('langSel').value = LANG;
+    updateQuizLangDropdown(LANG);
 
     // Load quiz data
     try {
@@ -734,6 +813,7 @@ async function init() {
     renderHistory(); // pre-render history on results screen
 }
 function applyUiLang() {
+    updateQuizLangDropdown(LANG);
     const u = UI[LANG] || UI.en;
     const set = (id, val) => { const el = document.getElementById(id); if(el) el.textContent = val; };
     set('txt-quizTitle',  u.quizTitle);
@@ -771,13 +851,15 @@ function applyUiLang() {
     }
 }
 
-document.getElementById('langSel').addEventListener('change', (e) => {
+// Language handler — called by the styled dropdown via selectQuizLang()
+window._quizLangHandler = function(e) {
     LANG = e.target.value;
     try { localStorage.setItem('preferredLang', LANG); } catch(e){}
+    updateQuizLangDropdown(LANG);
     applyUiLang();
     buildStateGrid();
     buildGenGrid();
-});
+};
 
 // ── Theme toggle ──────────────────────────────────────────────────────────────
 document.getElementById('themeBtn').addEventListener('click', () => {
