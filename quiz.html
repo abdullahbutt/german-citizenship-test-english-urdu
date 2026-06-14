@@ -716,17 +716,18 @@ function applyUiLang() {
     // Update back-to-home href to match selected language
     const homeLink = document.getElementById('quizBackHome');
     if (homeLink) homeLink.href = (LANG === 'ur') ? 'ur/index.html' : 'en/index.html';
-    // Apply RTL for Urdu/Arabic
-    document.body.style.direction = (LANG === 'ur' || LANG === 'ar') ? 'rtl' : 'ltr';
+    // Quiz content is always German (LTR), so never apply RTL to the body.
+    // Arabic mode changes font and font-size only — not direction.
+    document.body.style.direction = 'ltr';
     if (LANG === 'ur') {
         document.body.style.fontFamily = "'Jameel Noori Nastaleeq', Inter, serif";
-        document.documentElement.style.fontSize = '130%'; // optical correction for Nastaleeq
+        document.documentElement.style.fontSize = '130%';
     } else if (LANG === 'ar') {
         document.body.style.fontFamily = "'Indopak Nastaleeq', serif";
-        document.documentElement.style.fontSize = '125%'; // optical correction for Arabic Nastaleeq
+        document.documentElement.style.fontSize = '125%';
     } else {
         document.body.style.fontFamily = "Inter, system-ui, sans-serif";
-        document.documentElement.style.fontSize = ''; // reset for EN/DE
+        document.documentElement.style.fontSize = '';
     }
 }
 
