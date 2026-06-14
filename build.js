@@ -26,10 +26,12 @@ const ROOT = __dirname;
 const SOURCES = {
     en: path.join(ROOT, 'sources', 'english'),
     ur: path.join(ROOT, 'sources', 'urdu'),
+    ar: path.join(ROOT, 'sources', 'arabic'),
 };
 const OUTPUTS = {
     en: path.join(ROOT, 'en'),
     ur: path.join(ROOT, 'ur'),
+    ar: path.join(ROOT, 'ar'),
 };
 
 // Files we never want to convert (branch metadata, not content)
@@ -85,6 +87,30 @@ const TITLES = {
         'sachsen-anhalt': 'زاخسن-انہالٹ',
         'schleswig-holstein': 'شلیسوگ-ہولسٹائن',
         'thueringen': 'تھیورنگن',
+    },
+    ar: {
+        'questions-001-050': 'الأسئلة 1–50',
+        'questions-051-100': 'الأسئلة 51–100',
+        'questions-101-150': 'الأسئلة 101–150',
+        'questions-151-200': 'الأسئلة 151–200',
+        'questions-201-250': 'الأسئلة 201–250',
+        'questions-251-300': 'الأسئلة 251–300',
+        'baden-wuerttemberg': 'بادن-فورتمبرغ',
+        'bayern': 'بافاريا',
+        'berlin': 'برلين',
+        'brandenburg': 'براندنبورغ',
+        'bremen': 'بريمن',
+        'hamburg': 'هامبورغ',
+        'hessen': 'هيسن',
+        'mecklenburg-vorpommern': 'مكلنبورغ-فوربومرن',
+        'niedersachsen': 'سكسونيا السفلى',
+        'nordrhein-westfalen': 'شمال الراين-وستفاليا',
+        'rheinland-pfalz': 'راينلاند-بفالتس',
+        'saarland': 'زارلاند',
+        'sachsen': 'ساكسونيا',
+        'sachsen-anhalt': 'ساكسونيا-أنهالت',
+        'schleswig-holstein': 'شليسفيغ-هولشتاين',
+        'thueringen': 'تورينغن',
     },
 };
 
@@ -147,6 +173,35 @@ const UI = {
         printBtn: '🖨️ پرنٹ / PDF محفوظ کریں',
         reportBtn: '⚠️ غلطی کی اطلاع دیں',
     },
+    ar: {
+        siteTitle: 'اختبار الجنسية الألمانية',
+        home: 'الرئيسية',
+        switchTo: 'English',
+        back: 'العودة إلى الرئيسية ←',
+        changeLang: 'تغيير اللغة ←',
+        backToTop: 'العودة إلى الأعلى',
+        pickerHint: 'تغيير اللغة',
+        questionsHeading: 'الأسئلة',
+        statesHeading: 'أسئلة الولايات الفيدرالية',
+        tagline: 'جميع أسئلة اختبار Einbürgerungstest مع الترجمة العربية',
+        sourceOnGithub: 'عرض على GitHub',
+        footerTagline: '🇩🇪 اختبار الجنسية الألمانية — بالعربية والإنجليزية',
+        footerSubtag: 'التحضير لاختبار Einbürgerungstest / Leben in Deutschland',
+        bamfCatalog: 'كتالوج أسئلة BAMF ↗',
+        bamfTestCenter: 'مركز اختبار BAMF ↗',
+        starLabel: '⭐ نجّم على GitHub',
+        supportBtn: '☕ دعم',
+        lastUpdated: 'آخر تحديث',
+        navPrev: '→ السابق',
+        navNext: 'التالي ←',
+        navJump: 'الانتقال إلى:',
+        navQuestions: 'الأسئلة',
+        navStates: 'الولايات',
+        privacyLink: 'الخصوصية والبيانات',
+        randomBtn: '🎲 سؤال عشوائي',
+        printBtn: '🖨️ طباعة / حفظ PDF',
+        reportBtn: '⚠️ الإبلاغ عن خطأ',
+    },
 };
 
 const GITHUB_URL = 'https://github.com/abdullahbutt/german-citizenship-test-english-urdu';
@@ -205,7 +260,7 @@ function renderNavPager({ lang, slug }) {
         `<div class="pager-jump">
             <select onchange="if(this.value)window.location.href=this.value" aria-label="${escapeHtml(ui.navJump)}">
                 <option value="">${escapeHtml(ui.navJump)}</option>
-                <option value="../quiz.html">🎯 ${lang === 'ur' ? 'کوئز / مشق' : lang === 'de' ? 'Quiz / Üben' : 'Practice Quiz'}</option>
+                <option value="../quiz.html">🎯 ${lang === 'ur' ? 'کوئز / مشق' : lang === 'ar' ? 'اختبار التدريب' : lang === 'de' ? 'Quiz / Üben' : 'Practice Quiz'}</option>
                 ${optgroup(ui.navQuestions, ORDERED_QUESTIONS)}
                 ${optgroup(ui.navStates, ORDERED_STATES)}
             </select>
@@ -318,97 +373,116 @@ const STATE_INTROS = {
         en: 'Baden-Württemberg is located in the southwest of Germany, bordering France and Switzerland. Its capital is <strong>Stuttgart</strong>, home to the Landtag (state parliament). The state is known as an industrial powerhouse — headquarters of Mercedes-Benz, Porsche, Bosch, and SAP are all here. The Black Forest (Schwarzwald) and Lake Constance (Bodensee) are among its most famous natural landmarks. The head of government holds the title of <strong>Ministerpräsident/in</strong>.',
         ur: 'باڈن ورٹمبرگ جنوب مغربی جرمنی میں واقع ہے اور فرانس و سوئٹزرلینڈ سے ملتا ہے۔ اس کا دارالحکومت <strong>اسٹوٹگارٹ</strong> ہے جہاں ریاستی پارلیمان (Landtag) موجود ہے۔ یہ ریاست صنعتی اعتبار سے بہت اہم ہے — Mercedes-Benz، Porsche، Bosch اور SAP کے صدر دفاتر یہاں ہیں۔ سیاہ جنگل (Schwarzwald) اور باڈن سی (Bodensee) مشہور قدرتی مقامات ہیں۔ حکومت کا سربراہ <strong>Ministerpräsident/in</strong> کہلاتا ہے۔',
         de: 'Baden-Württemberg liegt im Südwesten Deutschlands und grenzt an Frankreich und die Schweiz. Die Landeshauptstadt ist <strong>Stuttgart</strong>, Sitz des Landtags. Das Land ist bekannt für seine Industrie — hier haben Mercedes-Benz, Porsche, Bosch und SAP ihren Hauptsitz. Der Schwarzwald und der Bodensee gehören zu den bekanntesten Naturlandschaften. Das Staatsoberhaupt trägt den Titel <strong>Ministerpräsident/in</strong>.',
+        ar: 'تقع بادن-فورتمبرغ في جنوب غرب ألمانيا، وتحدّها فرنسا وسويسرا. عاصمتها <strong>شتوتغارت</strong>، مقر البرلمان الولائي <strong>Landtag</strong>. تشتهر الولاية بقوتها الصناعية — تتخذ مرسيدس بنز وبورشه وبوش وSAP من مقارها هنا. تُعدّ غابة شوارتسفالد وبحيرة بودنزيه من أبرز معالمها الطبيعية. رئيس الحكومة يحمل لقب <strong>Ministerpräsident/in</strong>.',
     },
     'bayern': {
         en: 'Bavaria (Bayern) is the largest German state by area, located in the southeast and bordering Austria and the Czech Republic. The capital is <strong>Munich (München)</strong>, home to the Bayerischer Landtag. Bavaria is known for the Alps, Oktoberfest, BMW, and a strong tradition of arts and culture. The head of government is the <strong>Ministerpräsident/in</strong>. Bavaria has its own strong regional identity and the Bavarian dialect is widely spoken.',
         ur: 'باویریا (Bayern) رقبے کے لحاظ سے جرمنی کی سب سے بڑی ریاست ہے، جنوب مشرق میں واقع ہے اور آسٹریا و چیک ریپبلک سے ملتی ہے۔ دارالحکومت <strong>میونخ (München)</strong> ہے جہاں Bayerischer Landtag قائم ہے۔ باویریا آلپس پہاڑوں، Oktoberfest، BMW اور فنون و ثقافت کے لیے مشہور ہے۔ سربراہ حکومت کا عہدہ <strong>Ministerpräsident/in</strong> ہے۔ باویریا کی اپنی مضبوط علاقائی شناخت اور زبان (Bavarian) ہے۔',
         de: 'Bayern ist das flächenmäßig größte Bundesland Deutschlands im Südosten, das an Österreich und Tschechien grenzt. Die Landeshauptstadt ist <strong>München</strong>, Sitz des Bayerischen Landtags. Bayern ist bekannt für die Alpen, das Oktoberfest, BMW und eine starke Kulturlandschaft. Das Staatsoberhaupt ist der <strong>Ministerpräsident/in</strong>. Bayern pflegt eine ausgeprägte regionale Identität.',
+        ar: 'بافاريا (Bayern) هي أكبر ولاية ألمانية من حيث المساحة، تقع في الجنوب الشرقي وتحدّها النمسا والجمهورية التشيكية. عاصمتها <strong>ميونيخ (München)</strong>، مقر البرلمان البافاري <strong>Bayerischer Landtag</strong>. تشتهر بجبال الألب ومهرجان أكتوبرفيست وشركة BMW وتراثها الثقافي الغني. رئيس الحكومة يحمل لقب <strong>Ministerpräsident/in</strong>، وتتمتع بافاريا بهوية إقليمية قوية.',
     },
     'berlin': {
         en: 'Berlin is Germany\'s <strong>capital city</strong> and simultaneously a federal state (city-state). Its parliament is called the <strong>Abgeordnetenhaus</strong> and the head of government is the <strong>Regierender Bürgermeister/in</strong>. Berlin was divided by the Berlin Wall from 1961 until 1989. After reunification in 1990 it became the capital of reunified Germany. It is home to the Bundestag, Brandenburg Gate, and numerous world-class museums and cultural institutions.',
         ur: 'برلن جرمنی کا <strong>دارالحکومت</strong> اور بیک وقت ایک وفاقی ریاست (شہری ریاست) بھی ہے۔ اس کی پارلیمان <strong>Abgeordnetenhaus</strong> کہلاتی ہے اور حکومت کا سربراہ <strong>Regierender Bürgermeister/in</strong> ہوتا ہے۔ برلن 1961 سے 1989 تک دیوارِ برلن سے تقسیم رہا۔ 1990 میں جرمنی کے اتحاد کے بعد یہ متحدہ جرمنی کا دارالحکومت بنا۔ یہاں Bundestag، برانڈنبرگ گیٹ اور عالمی سطح کے عجائب گھر موجود ہیں۔',
         de: 'Berlin ist gleichzeitig <strong>Bundeshauptstadt</strong> und Bundesland (Stadtstaat). Das Landesparlament heißt <strong>Abgeordnetenhaus</strong>, das Staatsoberhaupt ist der/die <strong>Regierende Bürgermeister/in</strong>. Von 1961 bis 1989 war Berlin durch die Berliner Mauer geteilt. Nach der Wiedervereinigung 1990 wurde es wieder Hauptstadt Gesamtdeutschlands. Hier befinden sich der Bundestag, das Brandenburger Tor und viele weltbekannte Museen.',
+        ar: 'برلين هي <strong>عاصمة ألمانيا</strong> وفي الوقت ذاته ولاية فيدرالية (مدينة-ولاية). برلمانها يُسمى <strong>Abgeordnetenhaus</strong> ورئيس حكومتها يحمل لقب <strong>Regierender Bürgermeister/in</strong>. قُسِّمت برلين بجدار برلين من عام 1961 حتى 1989. وبعد إعادة توحيد ألمانيا عام 1990 أصبحت عاصمة ألمانيا الموحدة. تضمّ البوندستاغ وبوابة براندنبورغ ومتاحف عالمية المستوى.',
     },
     'brandenburg': {
         en: 'Brandenburg surrounds the city-state of Berlin and is located in northeastern Germany. Its capital is <strong>Potsdam</strong>, famous for the Sanssouci Palace (UNESCO World Heritage Site) and the <strong>Landtag</strong>. The state is characterised by vast forests, more than 3,000 lakes, and the Spreewald biosphere reserve. The head of government holds the title of <strong>Ministerpräsident/in</strong>. Brandenburg was part of East Germany (GDR) before reunification in 1990.',
         ur: 'برانڈنبرگ شہری ریاست برلن کو چاروں طرف سے گھیرے ہوئے ہے اور شمال مشرقی جرمنی میں واقع ہے۔ اس کا دارالحکومت <strong>پوٹسڈام</strong> ہے جو Sanssouci محل (یونیسکو عالمی ورثہ) اور <strong>Landtag</strong> کے لیے مشہور ہے۔ یہ ریاست وسیع جنگلات، 3000 سے زیادہ جھیلوں اور Spreewald کے لیے جانی جاتی ہے۔ حکومت کا سربراہ <strong>Ministerpräsident/in</strong> ہے۔ برانڈنبرگ 1990 کے اتحاد سے پہلے مشرقی جرمنی (GDR) کا حصہ تھا۔',
         de: 'Brandenburg umschließt den Stadtstaat Berlin und liegt in Nordostdeutschland. Die Landeshauptstadt ist <strong>Potsdam</strong>, bekannt für Schloss Sanssouci (UNESCO-Welterbe) und den <strong>Landtag</strong>. Das Land zeichnet sich durch weite Wälder, über 3.000 Seen und den Spreewald aus. Das Staatsoberhaupt trägt den Titel <strong>Ministerpräsident/in</strong>. Brandenburg gehörte vor der Wiedervereinigung 1990 zur DDR.',
+        ar: 'تحيط براندنبورغ بمدينة-ولاية برلين، وتقع في شمال شرق ألمانيا. عاصمتها <strong>بوتسدام</strong> المشهورة بقصر سانسوسي (التراث العالمي لليونسكو) ومقر <strong>Landtag</strong>. تتميز بغاباتها الشاسعة وأكثر من 3000 بحيرة ومحمية سبريفالد الطبيعية. رئيس الحكومة يحمل لقب <strong>Ministerpräsident/in</strong>. كانت براندنبورغ جزءاً من ألمانيا الشرقية (GDR) قبل توحيد 1990.',
     },
     'bremen': {
         en: 'Bremen is Germany\'s <strong>smallest state by population</strong> and consists of two cities: Bremen and Bremerhaven. It is a city-state and one of the oldest trading cities in Germany. Its parliament is called the <strong>Bremische Bürgerschaft</strong> and the head of government is the <strong>Bürgermeister/in (Senatspräsident/in)</strong>. The port of Bremen and Bremerhaven handles a significant share of German foreign trade. The Bremen Town Musicians statue is one of Germany\'s most photographed sculptures.',
         ur: 'بریمن آبادی کے لحاظ سے جرمنی کی <strong>سب سے چھوٹی ریاست</strong> ہے اور دو شہروں پر مشتمل ہے: بریمن اور بریمرہافن۔ یہ ایک شہری ریاست اور جرمنی کے قدیم ترین تجارتی شہروں میں سے ایک ہے۔ اس کی پارلیمان <strong>Bremische Bürgerschaft</strong> کہلاتی ہے اور حکومت کا سربراہ <strong>Bürgermeister/in (Senatspräsident/in)</strong> ہوتا ہے۔ بریمن بندرگاہ جرمن تجارت میں اہم کردار ادا کرتی ہے۔',
         de: 'Bremen ist Deutschlands <strong>kleinstes Bundesland nach Einwohnerzahl</strong> und besteht aus zwei Städten: Bremen und Bremerhaven. Als Stadtstaat ist es eine der ältesten Handelsstädte Deutschlands. Das Landesparlament heißt <strong>Bremische Bürgerschaft</strong>, das Staatsoberhaupt ist der/die <strong>Bürgermeister/in (Senatspräsident/in)</strong>. Die Häfen Bremen und Bremerhaven wickeln bedeutende Teile des deutschen Außenhandels ab.',
+        ar: 'بريمن هي <strong>أصغر ولاية ألمانية من حيث السكان</strong> وتتألف من مدينتين: بريمن وبريمرهافن. وهي مدينة-ولاية وإحدى أعرق مدن التجارة في ألمانيا. برلمانها يُسمى <strong>Bremische Bürgerschaft</strong> ورئيس حكومتها <strong>Bürgermeister/in (Senatspräsident/in)</strong>. تضطلع موانئها بدور مهم في التجارة الخارجية الألمانية.',
     },
     'hamburg': {
         en: 'Hamburg is Germany\'s <strong>second-largest city</strong> and a city-state. It is home to Germany\'s largest port and is one of the most important trading hubs in Europe. Its parliament is called the <strong>Bürgerschaft</strong> and the head of government is the <strong>Erster Bürgermeister/in (Senatspräsident/in)</strong>. Hamburg has a rich maritime history and is known for the Speicherstadt warehouse district (UNESCO World Heritage Site), the Elbphilharmonie concert hall, and the Reeperbahn entertainment quarter.',
         ur: 'ہیمبرگ جرمنی کا <strong>دوسرا سب سے بڑا شہر</strong> اور ایک شہری ریاست ہے۔ یہ جرمنی کی سب سے بڑی بندرگاہ کا گھر ہے اور یورپ کے اہم ترین تجارتی مراکز میں سے ایک ہے۔ اس کی پارلیمان <strong>Bürgerschaft</strong> ہے اور حکومت کا سربراہ <strong>Erster Bürgermeister/in (Senatspräsident/in)</strong> ہے۔ Speicherstadt (یونیسکو ورثہ)، Elbphilharmonie اور Reeperbahn مشہور مقامات ہیں۔',
         de: 'Hamburg ist Deutschlands <strong>zweitgrößte Stadt</strong> und ein Stadtstaat. Es beherbergt den größten deutschen Hafen und ist eines der wichtigsten Handelszentren Europas. Das Landesparlament heißt <strong>Bürgerschaft</strong>, das Staatsoberhaupt ist der/die <strong>Erste Bürgermeister/in (Senatspräsident/in)</strong>. Die Speicherstadt (UNESCO-Welterbe), die Elbphilharmonie und die Reeperbahn sind bekannte Wahrzeichen.',
+        ar: 'هامبورغ هي <strong>ثاني أكبر مدينة في ألمانيا</strong> ومدينة-ولاية. تضمّ أكبر ميناء ألماني وتُعدّ من أهم المراكز التجارية في أوروبا. برلمانها يُسمى <strong>Bürgerschaft</strong> ورئيس حكومتها <strong>Erster Bürgermeister/in (Senatspräsident/in)</strong>. تشتهر بمنطقة Speicherstadt (التراث العالمي لليونسكو) وقاعة Elbphilharmonie الموسيقية.',
     },
     'hessen': {
         en: 'Hesse (Hessen) is located in central Germany. Its capital is <strong>Wiesbaden</strong>, seat of the <strong>Landtag</strong>, while Frankfurt am Main — though not the capital — is Germany\'s financial centre and home to the European Central Bank (ECB) and Frankfurt Stock Exchange (Deutsche Börse). The head of government holds the title of <strong>Ministerpräsident/in</strong>. Hesse is one of Germany\'s most economically important states and Frankfurt Airport is a major European hub.',
         ur: 'ہیسن وسطی جرمنی میں واقع ہے۔ اس کا دارالحکومت <strong>وِسبادن</strong> ہے جہاں <strong>Landtag</strong> قائم ہے، جبکہ فرینکفرٹ — جو دارالحکومت نہیں — جرمنی کا مالیاتی مرکز اور یورپی مرکزی بینک (ECB) اور Frankfurt Stock Exchange کا گھر ہے۔ سربراہ حکومت کا عہدہ <strong>Ministerpräsident/in</strong> ہے۔ ہیسن جرمنی کی اقتصادی اعتبار سے اہم ترین ریاستوں میں سے ایک ہے۔',
         de: 'Hessen liegt in Mitteldeutschland. Die Landeshauptstadt ist <strong>Wiesbaden</strong>, Sitz des <strong>Landtags</strong>. Frankfurt am Main — obwohl nicht Landeshauptstadt — ist Deutschlands Finanzzentrum und Sitz der Europäischen Zentralbank (EZB) und der Deutschen Börse. Das Staatsoberhaupt ist der/die <strong>Ministerpräsident/in</strong>. Der Flughafen Frankfurt ist einer der wichtigsten Drehkreuze Europas.',
+        ar: 'تقع هيسن في وسط ألمانيا. عاصمتها <strong>فيسبادن</strong>، مقر <strong>Landtag</strong>. أما فرانكفورت أم ماين — رغم أنها ليست العاصمة — فهي المركز المالي لألمانيا ومقر البنك المركزي الأوروبي (ECB) وبورصة فرانكفورت. رئيس الحكومة يحمل لقب <strong>Ministerpräsident/in</strong>. مطار فرانكفورت من أهم المحاور الجوية الأوروبية.',
     },
     'mecklenburg-vorpommern': {
         en: 'Mecklenburg-Vorpommern is located in northeastern Germany along the Baltic Sea coast. Its capital is <strong>Schwerin</strong>, home to the <strong>Landtag</strong> and the beautiful Schwerin Palace. The state is characterised by its long coastline, thousands of lakes, and the islands of Rügen and Usedom — popular holiday destinations. The head of government holds the title of <strong>Ministerpräsident/in</strong>. Tourism and agriculture are among the key economic sectors.',
         ur: 'میکلنبرگ-فورپومرن شمال مشرقی جرمنی میں بالٹک سمندر کے ساحل پر واقع ہے۔ اس کا دارالحکومت <strong>شوَرین</strong> ہے جہاں <strong>Landtag</strong> اور خوبصورت Schwerin محل ہے۔ یہ ریاست لمبے ساحل، ہزاروں جھیلوں اور جزائر Rügen و Usedom کی وجہ سے مشہور ہے۔ حکومت کا سربراہ <strong>Ministerpräsident/in</strong> ہے۔ سیاحت اور زراعت اہم اقتصادی شعبے ہیں۔',
         de: 'Mecklenburg-Vorpommern liegt im Nordosten Deutschlands an der Ostseeküste. Die Landeshauptstadt ist <strong>Schwerin</strong>, Sitz des <strong>Landtags</strong> und des prächtigen Schweriner Schlosses. Das Land ist bekannt für seine lange Küstenlinie, tausende Seen und die Inseln Rügen und Usedom. Das Staatsoberhaupt ist der/die <strong>Ministerpräsident/in</strong>. Tourismus und Landwirtschaft sind wichtige Wirtschaftszweige.',
+        ar: 'تقع مكلنبورغ-فوربومرن في شمال شرق ألمانيا على ساحل بحر البلطيق. عاصمتها <strong>شفيرين</strong>، مقر <strong>Landtag</strong> وقصر شفيرين الجميل. تتميز بساحلها الطويل وآلاف البحيرات وجزيرتي روغن وأوزيدوم. رئيس الحكومة يحمل لقب <strong>Ministerpräsident/in</strong>. تُعدّ السياحة والزراعة من أهم قطاعاتها الاقتصادية.',
     },
     'niedersachsen': {
         en: 'Lower Saxony (Niedersachsen) is Germany\'s <strong>second-largest state by area</strong>, located in northwestern Germany. Its capital is <strong>Hanover (Hannover)</strong>, seat of the <strong>Landtag</strong>. Volkswagen is headquartered in Wolfsburg, making the automotive industry central to the state\'s economy. Lower Saxony also has important agricultural land and North Sea coastline. The head of government is the <strong>Ministerpräsident/in</strong>. The Hanover Messe is the world\'s largest industrial trade fair.',
         ur: 'نیڈرزاخسن رقبے کے لحاظ سے جرمنی کی <strong>دوسری سب سے بڑی ریاست</strong> ہے اور شمال مغربی جرمنی میں واقع ہے۔ اس کا دارالحکومت <strong>ہینووَر (Hannover)</strong> ہے جہاں <strong>Landtag</strong> قائم ہے۔ Volkswagen کا صدر دفتر ولفسبرگ میں ہے جو آٹوموبائل صنعت کو مرکزی حیثیت دیتا ہے۔ ریاست کا شمالی سمندری ساحل اور زرعی اراضی بھی اہم ہیں۔ سربراہ حکومت <strong>Ministerpräsident/in</strong> ہے۔',
         de: 'Niedersachsen ist das <strong>flächenmäßig zweitgrößte Bundesland</strong> Deutschlands im Nordwesten. Die Landeshauptstadt ist <strong>Hannover</strong>, Sitz des <strong>Landtags</strong>. Volkswagen hat seinen Hauptsitz in Wolfsburg, was die Automobilindustrie zu einem zentralen Wirtschaftszweig macht. Das Land hat zudem bedeutende Landwirtschaftsflächen und Nordseeküste. Das Staatsoberhaupt ist der/die <strong>Ministerpräsident/in</strong>.',
+        ar: 'سكسونيا السفلى (Niedersachsen) هي <strong>ثاني أكبر ولاية ألمانية من حيث المساحة</strong>، تقع في شمال غرب ألمانيا. عاصمتها <strong>هانوفر (Hannover)</strong>، مقر <strong>Landtag</strong>. يتخذ فولكسفاغن من مقرّه في فولفسبورغ، مما يجعل صناعة السيارات محوراً اقتصادياً أساسياً. تمتلك الولاية أراضي زراعية واسعة وساحلاً على بحر الشمال. رئيس الحكومة يحمل لقب <strong>Ministerpräsident/in</strong>.',
     },
     'nordrhein-westfalen': {
         en: 'North Rhine-Westphalia (Nordrhein-Westfalen) is Germany\'s <strong>most populous state</strong> with about 18 million inhabitants. Its capital is <strong>Düsseldorf</strong>, home to the <strong>Landtag</strong>. The Rhine-Ruhr metropolitan area is one of the largest urban agglomerations in Europe. Cologne (Köln), Bonn (former West German capital), Dortmund, and Essen are among its major cities. The head of government is the <strong>Ministerpräsident/in</strong>. The state has transitioned from heavy industry to a diverse, modern economy.',
         ur: 'نارڈرائن ویسٹ فالن جرمنی کی <strong>سب سے زیادہ آبادی والی ریاست</strong> ہے جس میں تقریباً 18 ملین افراد رہتے ہیں۔ اس کا دارالحکومت <strong>ڈوسلڈورف</strong> ہے جہاں <strong>Landtag</strong> ہے۔ Rhine-Ruhr میگاسٹی یورپ کی بڑی شہری مجموعات میں سے ایک ہے۔ کولون، بون (سابق مغربی جرمن دارالحکومت)، ڈورٹمنڈ اور ایسن بڑے شہر ہیں۔ سربراہ حکومت <strong>Ministerpräsident/in</strong> ہے۔',
         de: 'Nordrhein-Westfalen ist Deutschlands <strong>bevölkerungsreichstes Bundesland</strong> mit rund 18 Millionen Einwohnern. Die Landeshauptstadt ist <strong>Düsseldorf</strong>, Sitz des <strong>Landtags</strong>. Die Metropolregion Rhein-Ruhr ist eine der größten städtischen Ballungsräume Europas. Köln, Bonn (ehemalige Hauptstadt der BRD), Dortmund und Essen sind bedeutende Städte. Das Staatsoberhaupt ist der/die <strong>Ministerpräsident/in</strong>.',
+        ar: 'شمال الراين-وستفاليا هي <strong>أكثر الولايات الألمانية سكاناً</strong> بحوالي 18 مليون نسمة. عاصمتها <strong>دوسلدورف</strong>، مقر <strong>Landtag</strong>. تُعدّ منطقة الراين-رور الحضرية من أكبر التجمعات العمرانية في أوروبا. كولونيا وبون (العاصمة الغربية السابقة) ودورتموند وإيسن من مدنها البارزة. رئيس الحكومة يحمل لقب <strong>Ministerpräsident/in</strong>.',
     },
     'rheinland-pfalz': {
         en: 'Rhineland-Palatinate (Rheinland-Pfalz) is located in southwestern Germany. Its capital is <strong>Mainz</strong>, home to the <strong>Landtag</strong> and the famous Gutenberg Museum (Johannes Gutenberg invented movable-type printing here). The Rhine, Moselle, and Nahe rivers run through the state, creating renowned wine-growing regions — Rheinland-Pfalz produces more wine than any other German state. The head of government is the <strong>Ministerpräsident/in</strong>.',
         ur: 'رائن لینڈ-فالز جنوب مغربی جرمنی میں واقع ہے۔ اس کا دارالحکومت <strong>مائنز</strong> ہے جہاں <strong>Landtag</strong> اور مشہور گوٹنبرگ میوزیم ہے (یوہانس گوٹنبرگ نے یہیں حرکی طباعت ایجاد کی)۔ رائن، موزیل اور ناہے دریا اس ریاست سے گزرتے ہیں اور مشہور انگور کے باغات تشکیل دیتے ہیں — رائن لینڈ-فالز کسی بھی دوسری جرمن ریاست سے زیادہ شراب پیدا کرتی ہے۔ سربراہ حکومت <strong>Ministerpräsident/in</strong> ہے۔',
         de: 'Rheinland-Pfalz liegt im Südwesten Deutschlands. Die Landeshauptstadt ist <strong>Mainz</strong>, Sitz des <strong>Landtags</strong> und des berühmten Gutenberg-Museums (Johannes Gutenberg erfand hier den Buchdruck). Rhein, Mosel und Nahe prägen die Landschaft und schaffen renommierte Weinbaugebiete — kein anderes Bundesland produziert mehr Wein. Das Staatsoberhaupt ist der/die <strong>Ministerpräsident/in</strong>.',
+        ar: 'تقع راينلاند-بفالتس في جنوب غرب ألمانيا. عاصمتها <strong>ماينتس</strong>، مقر <strong>Landtag</strong> ومتحف غوتنبرغ (اخترع يوهانس غوتنبرغ هنا الطباعة بالحروف المتحركة). تشقّها أنهار الراين والموزيل والناهي، مما أفرز مناطق عنب مشهورة — لا تُنتج أي ولاية ألمانية أخرى نبيذاً أكثر منها. رئيس الحكومة يحمل لقب <strong>Ministerpräsident/in</strong>.',
     },
     'saarland': {
         en: 'Saarland is Germany\'s <strong>smallest non-city-state</strong>, located in the far southwest and bordering both France and Luxembourg. Its capital is <strong>Saarbrücken</strong>, home to the <strong>Landtag</strong>. The state has a strong French cultural influence due to its border location and was under French administration after World War II before joining West Germany in 1957. Its economy has shifted from coal and steel to modern industries. The head of government is the <strong>Ministerpräsident/in</strong>.',
         ur: 'زارلینڈ جرمنی کی <strong>سب سے چھوٹی غیر شہری ریاست</strong> ہے جو انتہائی جنوب مغرب میں واقع ہے اور فرانس و لکسمبرگ دونوں سے ملتی ہے۔ اس کا دارالحکومت <strong>زاربروکن</strong> ہے جہاں <strong>Landtag</strong> ہے۔ سرحدی مقام کی وجہ سے اس پر فرانسیسی ثقافت کا گہرا اثر ہے۔ یہ دوسری جنگ عظیم کے بعد فرانسیسی انتظام میں رہا اور 1957 میں مغربی جرمنی میں شامل ہوا۔ سربراہ حکومت <strong>Ministerpräsident/in</strong> ہے۔',
         de: 'Das Saarland ist Deutschlands <strong>kleinstes Flächenland</strong> im äußersten Südwesten und grenzt an Frankreich und Luxemburg. Die Landeshauptstadt ist <strong>Saarbrücken</strong>, Sitz des <strong>Landtags</strong>. Die Grenznähe zu Frankreich prägt die Kultur stark. Nach dem Zweiten Weltkrieg stand das Saarland unter französischer Verwaltung und trat 1957 der Bundesrepublik bei. Das Staatsoberhaupt ist der/die <strong>Ministerpräsident/in</strong>.',
+        ar: 'زارلاند هي <strong>أصغر الولايات الألمانية غير-المدينية</strong>، تقع في أقصى الجنوب الغربي وتحدّها فرنسا ولوكسمبورغ. عاصمتها <strong>زاربروكن</strong>، مقر <strong>Landtag</strong>. يُلاحَظ التأثير الثقافي الفرنسي بوضوح بسبب قربها من الحدود. خضعت بعد الحرب العالمية الثانية للإدارة الفرنسية وانضمت إلى ألمانيا الغربية عام 1957. رئيس الحكومة يحمل لقب <strong>Ministerpräsident/in</strong>.',
     },
     'sachsen': {
         en: 'Saxony (Sachsen) is located in eastern Germany, bordering Poland and the Czech Republic. Its capital is <strong>Dresden</strong>, home to the <strong>Landtag</strong> and renowned for its Baroque architecture and world-class art collections (Zwinger, Semperoper). Leipzig is another major city, famous as the home of Bach and the site of the 1989 Monday demonstrations that helped bring down the Berlin Wall. The head of government is the <strong>Ministerpräsident/in</strong>.',
         ur: 'زاخسن مشرقی جرمنی میں واقع ہے اور پولینڈ و چیک ریپبلک سے ملتا ہے۔ اس کا دارالحکومت <strong>ڈریزڈن</strong> ہے جہاں <strong>Landtag</strong> اور بارک فن تعمیر و آرٹ کے عالمی مجموعے (Zwinger، Semperoper) موجود ہیں۔ لائپزگ ایک اور بڑا شہر ہے جو باخ کے گھر اور 1989 کے پیر کے جلوسوں کی وجہ سے مشہور ہے جنہوں نے برلن دیوار گرانے میں مدد کی۔ سربراہ حکومت <strong>Ministerpräsident/in</strong> ہے۔',
         de: 'Sachsen liegt in Ostdeutschland und grenzt an Polen und Tschechien. Die Landeshauptstadt ist <strong>Dresden</strong>, Sitz des <strong>Landtags</strong>, bekannt für Barockarchitektur und weltberühmte Kunstsammlungen (Zwinger, Semperoper). Leipzig ist eine weitere Großstadt, bekannt als Heimat von Bach und als Ort der Montagsdemonstrationen 1989. Das Staatsoberhaupt ist der/die <strong>Ministerpräsident/in</strong>.',
+        ar: 'تقع ساكسونيا (Sachsen) في شرق ألمانيا، وتحدّها بولندا والجمهورية التشيكية. عاصمتها <strong>دريسدن</strong>، مقر <strong>Landtag</strong>، وتشتهر بعمارتها الباروكية ومجموعاتها الفنية العالمية (Zwinger، Semperoper). لايبزيغ مدينة كبرى أخرى، اشتهرت بكونها موطن باخ ومسرح احتجاجات أيام الاثنين عام 1989. رئيس الحكومة يحمل لقب <strong>Ministerpräsident/in</strong>.',
     },
     'sachsen-anhalt': {
         en: 'Saxony-Anhalt (Sachsen-Anhalt) is located in central-eastern Germany. Its capital is <strong>Magdeburg</strong>, home to the <strong>Landtag</strong> and one of Germany\'s oldest cathedrals. The state is historically significant as the heartland of the Protestant Reformation — Martin Luther was born in Eisleben and posted his 95 Theses in Wittenberg, both in Sachsen-Anhalt. The Bauhaus art movement was also founded in Dessau. The head of government is the <strong>Ministerpräsident/in</strong>.',
         ur: 'زاخسن-انہالٹ وسطی مشرقی جرمنی میں واقع ہے۔ اس کا دارالحکومت <strong>ماگڈبرگ</strong> ہے جہاں <strong>Landtag</strong> اور جرمنی کے قدیم ترین گرجا گھروں میں سے ایک ہے۔ یہ ریاست پروٹسٹنٹ اصلاح کے مرکز کے طور پر تاریخی اہمیت رکھتی ہے — مارٹن لوتھر آئسلیبن میں پیدا ہوئے اور وِٹنبرگ میں اپنے 95 مقالے لگائے، دونوں جگہیں زاخسن-انہالٹ میں ہیں۔ Bauhaus فن تحریک بھی ڈیساؤ میں قائم ہوئی۔ سربراہ حکومت <strong>Ministerpräsident/in</strong> ہے۔',
         de: 'Sachsen-Anhalt liegt in Mitteldeutschland. Die Landeshauptstadt ist <strong>Magdeburg</strong>, Sitz des <strong>Landtags</strong> und Heimat eines der ältesten Dome Deutschlands. Das Land ist historisch bedeutsam als Kernland der Reformation — Martin Luther wurde in Eisleben geboren und schlug in Wittenberg seine 95 Thesen an. Das Bauhaus wurde in Dessau gegründet. Das Staatsoberhaupt ist der/die <strong>Ministerpräsident/in</strong>.',
+        ar: 'تقع ساكسونيا-أنهالت في وسط شرق ألمانيا. عاصمتها <strong>ماغدبورغ</strong>، مقر <strong>Landtag</strong> وإحدى أقدم الكاتدرائيات في ألمانيا. تتمتع بأهمية تاريخية استثنائية كمهد الإصلاح البروتستانتي — وُلد مارتن لوثر في آيسليبن وعلّق أطروحاته الخمس والتسعين في فيتنبرغ. تأسّست حركة الباوهاوس الفنية في ديساو. رئيس الحكومة يحمل لقب <strong>Ministerpräsident/in</strong>.',
     },
     'schleswig-holstein': {
         en: 'Schleswig-Holstein is Germany\'s northernmost state, located between the North Sea and the Baltic Sea. Its capital is <strong>Kiel</strong>, home to the <strong>Landtag</strong> and one of Germany\'s major naval bases and the start of the Kiel Canal (Nord-Ostsee-Kanal), the world\'s busiest artificial waterway. The state borders Denmark to the north. Flensburg and Lübeck (a UNESCO World Heritage city and birthplace of Thomas Mann) are other important cities. The head of government is the <strong>Ministerpräsident/in</strong>.',
         ur: 'شلیسوگ-ہولسٹائن جرمنی کی سب سے شمالی ریاست ہے جو شمالی سمندر اور بالٹک سمندر کے درمیان واقع ہے۔ اس کا دارالحکومت <strong>کیل</strong> ہے جہاں <strong>Landtag</strong> اور Kiel نہر (Nord-Ostsee-Kanal) کا آغاز ہوتا ہے — دنیا کی مصروف ترین مصنوعی آبگزر۔ شمال میں ڈنمارک کی سرحد ہے۔ فلنسبرگ اور لوبیک (یونیسکو ورثہ) اہم شہر ہیں۔ سربراہ حکومت <strong>Ministerpräsident/in</strong> ہے۔',
         de: 'Schleswig-Holstein ist das nördlichste Bundesland Deutschlands, zwischen Nord- und Ostsee gelegen. Die Landeshauptstadt ist <strong>Kiel</strong>, Sitz des <strong>Landtags</strong> und Ausgangspunkt des Nord-Ostsee-Kanals, der meistbefahrenen künstlichen Wasserstraße der Welt. Im Norden grenzt das Land an Dänemark. Flensburg und Lübeck (UNESCO-Welterbe) sind weitere bedeutende Städte. Das Staatsoberhaupt ist der/die <strong>Ministerpräsident/in</strong>.',
+        ar: 'شليسفيغ-هولشتاين هي أقصى ولاية شمالية في ألمانيا، تقع بين بحر الشمال وبحر البلطيق. عاصمتها <strong>كيل</strong>، مقر <strong>Landtag</strong> وانطلاق قناة كيل (Nord-Ostsee-Kanal) — أكثر الممرات المائية الاصطناعية ازدحاماً في العالم. تحدّها الدنمارك شمالاً. فلنسبورغ ولوبيك (مدينة التراث العالمي) من مدنها الرئيسية. رئيس الحكومة يحمل لقب <strong>Ministerpräsident/in</strong>.',
     },
     'thueringen': {
         en: 'Thuringia (Thüringen) is located in central Germany and is often called the <strong>"Green Heart of Germany"</strong> for its dense forests, including the Thuringian Forest (Thüringer Wald). Its capital is <strong>Erfurt</strong>, home to the <strong>Landtag</strong>. The state has exceptional cultural heritage — Weimar was the home of Goethe and Schiller, Eisenach is the birthplace of Johann Sebastian Bach, and Luther translated the New Testament in Wartburg Castle. The head of government is the <strong>Ministerpräsident/in</strong>.',
         ur: 'تھیورنگن وسطی جرمنی میں واقع ہے اور اپنے گھنے جنگلات کی وجہ سے <strong>"جرمنی کا سبز دل"</strong> کہلاتا ہے۔ اس کا دارالحکومت <strong>ایرفرٹ</strong> ہے جہاں <strong>Landtag</strong> قائم ہے۔ اس ریاست کا غیر معمولی ثقافتی ورثہ ہے — وائمار گوئٹے اور شِلر کا گھر تھا، ایزناخ یوہان سیباسٹین باخ کی جائے پیدائش ہے، اور لوتھر نے وارٹبرگ قلعے میں نئے عہد نامے کا ترجمہ کیا۔ سربراہ حکومت <strong>Ministerpräsident/in</strong> ہے۔',
         de: 'Thüringen liegt in Mitteldeutschland und wird wegen seiner dichten Wälder oft als <strong>„Grünes Herz Deutschlands"</strong> bezeichnet. Die Landeshauptstadt ist <strong>Erfurt</strong>, Sitz des <strong>Landtags</strong>. Das Land besitzt ein außergewöhnliches Kulturerbe — Weimar war die Heimat von Goethe und Schiller, Eisenach ist der Geburtsort Johann Sebastian Bachs, und Luther übersetzte das Neue Testament auf der Wartburg. Das Staatsoberhaupt ist der/die <strong>Ministerpräsident/in</strong>.',
+        ar: 'تقع تورينغن في وسط ألمانيا وتُعرف بـ<strong>"القلب الأخضر لألمانيا"</strong> بسبب غاباتها الكثيفة. عاصمتها <strong>إرفورت</strong>، مقر البرلمان الولائي <strong>Landtag</strong>. تتمتع الولاية بإرث ثقافي استثنائي — فايمار كانت موطن غوته وشيلر، وآيزناخ مسقط رأس يوهان سيباستيان باخ، وترجم لوثر العهد الجديد في قلعة فارتبورغ. رئيس الحكومة يحمل لقب <strong>Ministerpräsident/in</strong>.',
     },
 };
 
 function buildMetaDesc(lang, title, slug) {
     const descs = META_DESCS[lang] || META_DESCS.en;
     if (descs[slug]) return descs[slug];
-    // Fallback for state pages not in ur/de map
+    // Fallback for state pages not in ur/de/ar map
     const enDesc = META_DESCS.en[slug];
     if (lang === 'ur' && enDesc) {
         return `${title} — Einbürgerungstest کے ریاستی سوالات اردو ترجمے کے ساتھ۔ مفت تیاری گائیڈ۔`;
+    }
+    if (lang === 'ar' && enDesc) {
+        return `${title} — أسئلة Einbürgerungstest الولائية مع الترجمة العربية. مجاناً.`;
     }
     if (lang === 'de' && enDesc) {
         return `${title} — Einbürgerungstest Länderfragen mit Erklärungen. Kostenlose Prüfungsvorbereitung.`;
     }
     const tagline = (UI[lang] || UI.en).tagline;
-    return `${tagline} — ${title}. ${lang === 'en' ? 'Free German citizenship test prep.' : lang === 'de' ? 'Kostenlose Prüfungsvorbereitung.' : 'مفت تیاری گائیڈ۔'}`;
+    return `${tagline} — ${title}. ${lang === 'en' ? 'Free German citizenship test prep.' : lang === 'de' ? 'Kostenlose Prüfungsvorbereitung.' : lang === 'ar' ? 'مجاني — التحضير لاختبار الجنسية الألمانية.' : 'مفت تیاری گائیڈ۔'}`;
 }
 
 // Extract FAQ structured data from generated HTML.
@@ -470,6 +544,7 @@ const FLAG_SPANS = {
     '🇩🇪': '<span class="fi fi-de" role="img" aria-label="Germany" title="Germany"></span>',
     '🇬🇧': '<span class="fi fi-gb" role="img" aria-label="United Kingdom" title="UK"></span>',
     '🇵🇰': '<span class="fi fi-pk" role="img" aria-label="Pakistan" title="Pakistan"></span>',
+    '🇸🇦': '<span class="fi fi-sa" role="img" aria-label="Arabic" title="Arabic"></span>',
 };
 function applyFlagIcons(html) {
     return html
@@ -480,13 +555,12 @@ function applyFlagIcons(html) {
 
 // ---------- HTML template ----------
 function renderPage({ lang, title, bodyHtml, slug }) {
-    const dir = lang === 'ur' ? 'rtl' : 'ltr';
+    const dir = (lang === 'ur' || lang === 'ar') ? 'rtl' : 'ltr';
     const ui = UI[lang];
     const otherLang = lang === 'en' ? 'ur' : 'en';
 
     // Local self-hosted fonts — served from /fonts/ at site root.
-    // Pages are in /en/ or /ur/ subdirectories so path is ../fonts/
-    // Arabic font (future): Indopak-nastaleeq-hanafi-normal-v4.2.2-with-waqf-lazmi.woff2
+    // Pages are in /en/, /ur/, or /ar/ subdirectories so path is ../fonts/
     const urduFont = lang === 'ur'
         ? `<style>
     @font-face {
@@ -501,9 +575,22 @@ function renderPage({ lang, title, bodyHtml, slug }) {
        Scaling the root font-size up proportionally compensates all rem-based sizes. */
     html { font-size: 130%; }
     </style>`
+        : lang === 'ar'
+        ? `<style>
+    @font-face {
+        font-family: 'Indopak Nastaleeq';
+        src: url('../fonts/Indopak-nastaleeq-hanafi-normal-v4.2.2-with-waqf-lazmi.woff2') format('woff2');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+    html { font-size: 125%; }
+    </style>`
         : '';
     const bodyFont = lang === 'ur'
         ? `font-family: 'Jameel Noori Nastaleeq', serif; line-height: 2;`
+        : lang === 'ar'
+        ? `font-family: 'Indopak Nastaleeq', serif; line-height: 2;`
         : `font-family: 'Inter', system-ui, -apple-system, sans-serif; line-height: 1.7;`;
 
     const html = `<!DOCTYPE html>
@@ -529,7 +616,7 @@ function renderPage({ lang, title, bodyHtml, slug }) {
     <meta property="og:image" content="${OG_IMAGE_URL}">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:locale" content="${lang === 'en' ? 'en_US' : 'ur_PK'}">
+    <meta property="og:locale" content="${lang === 'en' ? 'en_US' : lang === 'ar' ? 'ar_SA' : 'ur_PK'}">
     <meta property="og:site_name" content="${escapeHtml(ui.siteTitle)}">
 
     <!-- Twitter Card -->
@@ -572,7 +659,7 @@ function renderPage({ lang, title, bodyHtml, slug }) {
           "url": "${SITE_BASE_URL}/${lang}/${slug}.html",
           "name": "${escapeHtml(title)} · ${escapeHtml(ui.siteTitle)}",
           "description": "${escapeHtml(buildMetaDesc(lang, title, slug))}",
-          "inLanguage": "${lang === 'en' ? 'en-GB' : 'ur-PK'}",
+          "inLanguage": "${lang === 'en' ? 'en-GB' : lang === 'ar' ? 'ar' : 'ur-PK'}",
           "isPartOf": { "@id": "${SITE_BASE_URL}/" },
           "publisher": {
             "@type": "Person",
@@ -745,11 +832,11 @@ function renderPage({ lang, title, bodyHtml, slug }) {
         [dir="rtl"] table th:nth-child(1) {
             text-align: center;
         }
-        /* Ensure all table cells on Urdu pages use the Nastaleeq font,
+        /* Ensure all table cells on Urdu/Arabic pages use the Nastaleeq font,
            not a Bootstrap-overridden fallback */
         [dir="rtl"] table td,
         [dir="rtl"] table th {
-            font-family: 'Jameel Noori Nastaleeq', serif;
+            font-family: ${lang === 'ur' ? "'Jameel Noori Nastaleeq'" : lang === 'ar' ? "'Indopak Nastaleeq'" : 'inherit'}, serif;
         }
         [dir="rtl"] table td:nth-child(2),
         [dir="rtl"] table th:nth-child(2) {
@@ -1109,6 +1196,7 @@ function renderPage({ lang, title, bodyHtml, slug }) {
         (function() {
             const KEY = 'gct_learned';
             const isUrdu = document.documentElement.lang === 'ur';
+            const isArabic = document.documentElement.lang === 'ar';
 
             function getSet() {
                 try { return new Set(JSON.parse(localStorage.getItem(KEY) || '[]')); }
@@ -1130,8 +1218,8 @@ function renderPage({ lang, title, bodyHtml, slug }) {
                 btn.className = 'mark-learned-btn' + (learned ? ' learned' : '');
                 btn.dataset.qid = qId;
                 btn.textContent = learned
-                    ? (isUrdu ? '✓ سیکھ لیا' : '✓ Learned')
-                    : (isUrdu ? '＋ سیکھیں' : '＋ Mark as learned');
+                    ? (isUrdu ? '✓ سیکھ لیا' : isArabic ? '✓ تعلّمته' : '✓ Learned')
+                    : (isUrdu ? '＋ سیکھیں' : isArabic ? '＋ علّمه' : '＋ Mark as learned');
                 btn.setAttribute('aria-pressed', String(learned));
 
                 btn.addEventListener('click', () => {
@@ -1142,8 +1230,8 @@ function renderPage({ lang, title, bodyHtml, slug }) {
                     btn.classList.toggle('learned', nowLearned);
                     btn.setAttribute('aria-pressed', String(nowLearned));
                     btn.textContent = nowLearned
-                        ? (isUrdu ? '✓ سیکھ لیا' : '✓ Learned')
-                        : (isUrdu ? '＋ سیکھیں' : '＋ Mark as learned');
+                        ? (isUrdu ? '✓ سیکھ لیا' : isArabic ? '✓ تعلّمته' : '✓ Learned')
+                        : (isUrdu ? '＋ سیکھیں' : isArabic ? '＋ علّمه' : '＋ Mark as learned');
                 });
 
                 h3.insertAdjacentElement('afterend', btn);
@@ -1233,8 +1321,9 @@ function renderPage({ lang, title, bodyHtml, slug }) {
 function renderIndex({ lang, slugs }) {
     const ui = UI[lang];
     const titles = TITLES[lang];
-    const dir = lang === 'ur' ? 'rtl' : 'ltr';
+    const dir = (lang === 'ur' || lang === 'ar') ? 'rtl' : 'ltr';
     const isUr = lang === 'ur';
+    const isAr = lang === 'ar';
 
     // Question set cards — 6 sets with range labels
     const qSets = [
@@ -1253,11 +1342,13 @@ function renderIndex({ lang, slugs }) {
     const intro = {
         en: 'The <strong>Einbürgerungstest</strong> (Leben in Deutschland test) is required for German Permanent Residence and Citizenship. The test is in German — use this free guide to study every official question with English translation and clear explanation.',
         ur: 'جرمن مستقل اقامت (Niederlassungserlaubnis) اور شہریت کے لیے <strong>Einbürgerungstest</strong> پاس کرنا ضروری ہے۔ یہ امتحان جرمن زبان میں ہوتا ہے — اس مفت گائیڈ میں ہر سرکاری سوال کا اردو ترجمہ اور آسان وضاحت موجود ہے۔',
+        ar: 'يُعدّ اختبار <strong>Einbürgerungstest</strong> (Leben in Deutschland) شرطاً للحصول على الإقامة الدائمة والجنسية الألمانية. الاختبار باللغة الألمانية — استخدم هذا الدليل المجاني لدراسة جميع الأسئلة الرسمية مع الترجمة العربية والشرح الوافي.',
     };
 
     const headings = {
         en: { qs: '📖 General Questions', states: '🗺️ State Questions', howLabel: '❓ How it works', howText: 'The test has <strong>33 questions</strong> — 30 from the general pool and 3 from your state. You need <strong>17 correct</strong> to pass. <a href="../quiz.html">Take the practice quiz →</a>', statsLabel: '' },
         ur: { qs: '📖 عمومی سوالات', states: '🗺️ ریاستی سوالات', howLabel: '❓ امتحان کیسے ہوتا ہے؟', howText: 'امتحان میں <strong>33 سوالات</strong> ہوتے ہیں — 30 عمومی اور 3 آپ کی ریاست کے۔ پاس کرنے کے لیے <strong>17 درست</strong> جوابات ضروری ہیں۔ <a href="../quiz.html">مشق کوئز دیں ←</a>' },
+        ar: { qs: '📖 الأسئلة العامة', states: '🗺️ أسئلة الولايات', howLabel: '❓ كيف يعمل الاختبار؟', howText: 'يحتوي الاختبار على <strong>33 سؤالاً</strong> — 30 من الأسئلة العامة و3 من ولايتك. تحتاج إلى <strong>17 إجابة صحيحة</strong> للنجاح. <a href="../quiz.html">ابدأ اختبار التدريب ←</a>' },
     };
 
     const h = headings[lang] || headings.en;
@@ -1265,11 +1356,13 @@ function renderIndex({ lang, slugs }) {
     // Stats bar
     const stats = lang === 'ur'
         ? `<div class="idx-stats"><span>📋 300+ سوالات</span><span>🗺️ 16 ریاستیں</span><span>✅ درست جوابات</span><span>💡 ہر سوال کی وضاحت</span></div>`
+        : lang === 'ar'
+        ? `<div class="idx-stats"><span>📋 300+ سؤال</span><span>🗺️ 16 ولاية</span><span>✅ الإجابات مُميَّزة</span><span>💡 شرح لكل سؤال</span></div>`
         : `<div class="idx-stats"><span>📋 300+ questions</span><span>🗺️ 16 Bundesländer</span><span>✅ Answers highlighted</span><span>💡 Explanation per question</span></div>`;
 
     // Question set cards
     const qCards = qSets.map(({ slug, range }) => {
-        const label = isUr ? `سوالات ${range}` : `Questions ${range}`;
+        const label = isUr ? `سوالات ${range}` : isAr ? `الأسئلة ${range}` : `Questions ${range}`;
         return `<a class="idx-card" href="./${slug}.html">
             <span class="idx-card-icon">📝</span>
             <span class="idx-card-label">${label}</span>
@@ -1287,6 +1380,8 @@ function renderIndex({ lang, slugs }) {
     // Quiz CTA
     const quizCta = lang === 'ur'
         ? `<a class="idx-quiz-cta" href="../quiz.html">🎯 مشق کوئز شروع کریں — اصل Einbürgerungstest کی طرح</a>`
+        : lang === 'ar'
+        ? `<a class="idx-quiz-cta" href="../quiz.html">🎯 ابدأ اختبار التدريب — محاكاة لاختبار Einbürgerungstest الفعلي</a>`
         : `<a class="idx-quiz-cta" href="../quiz.html">🎯 Start Practice Quiz — simulates the real Einbürgerungstest</a>`;
 
     const body = `
@@ -1368,14 +1463,15 @@ function renderIndex({ lang, slugs }) {
         <div class="idx-search-wrap">
             <span class="idx-search-icon">🔍</span>
             <input class="idx-search-input" id="searchInput" type="search"
-                placeholder="${isUr ? 'سوالات تلاش کریں…' : 'Search questions…'}"
-                autocomplete="off" aria-label="${isUr ? 'سوالات تلاش کریں' : 'Search questions'}">
+                placeholder="${isUr ? 'سوالات تلاش کریں…' : isAr ? 'ابحث في الأسئلة…' : 'Search questions…'}"
+                autocomplete="off" aria-label="${isUr ? 'سوالات تلاش کریں' : isAr ? 'ابحث في الأسئلة' : 'Search questions'}">
             <div class="idx-search-results" id="searchResults" role="listbox"></div>
         </div>
         <script>
         (function(){
             const lang = '${lang}';
             const isUr = lang === 'ur';
+            const isAr = lang === 'ar';
             let searchData = null;
 
             // Load search index lazily on first keypress
@@ -1417,21 +1513,22 @@ function renderIndex({ lang, slugs }) {
                 const matches = searchData.filter(item =>
                     (item.de && item.de.toLowerCase().includes(lq)) ||
                     (isUr ? (item.ur && item.ur.toLowerCase().includes(lq))
+                    : isAr ? (item.ar && item.ar.toLowerCase().includes(lq))
                            : (item.en && item.en.toLowerCase().includes(lq)))
                 ).slice(0, 10);
 
                 if (!matches.length) {
                     results.innerHTML = '<div class="idx-search-empty">' +
-                        (isUr ? 'کوئی نتیجہ نہیں ملا۔' : 'No results found.') + '</div>';
+                        (isUr ? 'کوئی نتیجہ نہیں ملا۔' : isAr ? 'لا توجد نتائج.' : 'No results found.') + '</div>';
                     results.classList.add('visible');
                     return;
                 }
 
                 results.innerHTML = matches.map(item => {
                     const href = './' + item.slug + '.html#q-' + item.id;
-                    const primary = highlight(isUr ? (item.ur || item.de) : item.de, q);
+                    const primary = highlight(isUr ? (item.ur || item.de) : isAr ? (item.ar || item.de) : item.de, q);
                     return '<a class="idx-search-result" href="' + escHtml(href) + '">' +
-                        '<div class="idx-search-result-num">' + (isUr ? 'سوال ' : 'Question ') + item.id + '</div>' +
+                        '<div class="idx-search-result-num">' + (isUr ? 'سوال ' : isAr ? 'السؤال ' : 'Question ') + item.id + '</div>' +
                         '<div class="idx-search-result-text">' + primary + '</div>' +
                         '</a>';
                 }).join('');
@@ -1544,11 +1641,11 @@ function renderIndex({ lang, slugs }) {
 
         <div class="progress-tracker" id="progressTracker">
             <div class="pt-header">
-                <span>${isUr ? '📚 پیش رفت:' : '📚 Progress:'} <strong id="ptCount">0</strong> / 300 ${isUr ? 'سوالات سیکھ لیے' : 'questions learned'}</span>
+                <span>${isUr ? '📚 پیش رفت:' : isAr ? '📚 التقدم:' : '📚 Progress:'} <strong id="ptCount">0</strong> / 300 ${isUr ? 'سوالات سیکھ لیے' : isAr ? 'سؤال تعلّمته' : 'questions learned'}</span>
                 <span class="pt-pct" id="ptPct">0%</span>
             </div>
             <div class="pt-bar-bg"><div class="pt-bar-fill" id="ptFill" style="width:0%"></div></div>
-            <button class="pt-reset" onclick="if(confirm('${isUr ? 'تمام پیش رفت مٹا دی جائے؟' : 'Reset all progress?'}')){localStorage.removeItem('gct_learned');location.reload();}">${isUr ? 'پیش رفت ری سیٹ کریں' : 'Reset progress'}</button>
+            <button class="pt-reset" onclick="if(confirm('${isUr ? 'تمام پیش رفت مٹا دی جائے؟' : isAr ? 'هل تريد إعادة تعيين كل التقدم؟' : 'Reset all progress?'}')){localStorage.removeItem('gct_learned');location.reload();}">${isUr ? 'پیش رفت ری سیٹ کریں' : isAr ? 'إعادة تعيين التقدم' : 'Reset progress'}</button>
         </div>
         <script>
         (function(){
@@ -1598,7 +1695,7 @@ function buildLang(lang) {
 
     if (!fs.existsSync(srcDir)) {
         console.error(`✗ Source missing for ${lang}: ${srcDir}`);
-        console.error(`  Clone the ${lang === 'en' ? 'english' : 'urdu'} branch there first.`);
+        console.error(`  Clone the ${lang === 'en' ? 'english' : lang === 'ur' ? 'urdu' : 'arabic'} branch there first.`);
         process.exit(1);
     }
 
@@ -1672,8 +1769,10 @@ function buildLang(lang) {
         const isStatePage = ORDERED_STATES.includes(slug);
         if (isStatePage && STATE_INTROS[slug]) {
             const intro = STATE_INTROS[slug][lang] || STATE_INTROS[slug].en;
-            const dir = lang === 'ur' ? 'rtl' : 'ltr';
-            const fontStyle = lang === 'ur' ? "font-family:'Jameel Noori Nastaleeq',serif;line-height:2.1;" : '';
+            const dir = (lang === 'ur' || lang === 'ar') ? 'rtl' : 'ltr';
+            const fontStyle = lang === 'ur' ? "font-family:'Jameel Noori Nastaleeq',serif;line-height:2.1;"
+                            : lang === 'ar' ? "font-family:'Indopak Nastaleeq',serif;line-height:2.1;"
+                            : '';
             const introHtml = `<div class="state-intro" dir="${dir}" style="background:color-mix(in srgb,var(--primary) 7%,var(--card-bg));border:1px solid color-mix(in srgb,var(--primary) 20%,var(--border));border-radius:.75rem;padding:1rem 1.25rem;margin-bottom:1.5rem;font-size:.96rem;line-height:1.75;${fontStyle}">${intro}</div>`;
             bodyHtml = introHtml + bodyHtml;
         }
@@ -1705,6 +1804,7 @@ function generateSearchIndex() {
         de:  q.de  || '',
         en:  q.en  || '',
         ur:  q.ur  || '',
+        ar:  q.ar  || '',
         // precompute slug so search results link directly to the right page
         slug: (() => {
             const g = Math.ceil(q.id / 50);
@@ -1767,12 +1867,13 @@ function buildSitemap() {
   </url>`;
 
     // Per-language index pages
-    for (const lang of ['en', 'ur']) {
+    for (const lang of ['en', 'ur', 'ar']) {
         urls += `
   <url>
     <loc>${SITE_BASE_URL}/${lang}/index.html</loc>
     <xhtml:link rel="alternate" hreflang="en" href="${SITE_BASE_URL}/en/index.html"/>
     <xhtml:link rel="alternate" hreflang="ur" href="${SITE_BASE_URL}/ur/index.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="${SITE_BASE_URL}/ar/index.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="${SITE_BASE_URL}/en/index.html"/>
     <lastmod>${today}</lastmod>
     <changefreq>monthly</changefreq>
@@ -1826,7 +1927,7 @@ Sitemap: ${SITE_BASE_URL}/sitemap.xml
 
 function main() {
     console.log('Building bilingual site...\n');
-    for (const lang of ['en', 'ur']) {
+    for (const lang of ['en', 'ur', 'ar']) {
         console.log(`[${lang}]`);
         buildLang(lang);
     }

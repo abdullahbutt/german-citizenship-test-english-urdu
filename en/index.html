@@ -237,11 +237,11 @@
         [dir="rtl"] table th:nth-child(1) {
             text-align: center;
         }
-        /* Ensure all table cells on Urdu pages use the Nastaleeq font,
+        /* Ensure all table cells on Urdu/Arabic pages use the Nastaleeq font,
            not a Bootstrap-overridden fallback */
         [dir="rtl"] table td,
         [dir="rtl"] table th {
-            font-family: 'Jameel Noori Nastaleeq', serif;
+            font-family: inherit, serif;
         }
         [dir="rtl"] table td:nth-child(2),
         [dir="rtl"] table th:nth-child(2) {
@@ -656,6 +656,7 @@
         (function(){
             const lang = 'en';
             const isUr = lang === 'ur';
+            const isAr = lang === 'ar';
             let searchData = null;
 
             // Load search index lazily on first keypress
@@ -697,21 +698,22 @@
                 const matches = searchData.filter(item =>
                     (item.de && item.de.toLowerCase().includes(lq)) ||
                     (isUr ? (item.ur && item.ur.toLowerCase().includes(lq))
+                    : isAr ? (item.ar && item.ar.toLowerCase().includes(lq))
                            : (item.en && item.en.toLowerCase().includes(lq)))
                 ).slice(0, 10);
 
                 if (!matches.length) {
                     results.innerHTML = '<div class="idx-search-empty">' +
-                        (isUr ? 'کوئی نتیجہ نہیں ملا۔' : 'No results found.') + '</div>';
+                        (isUr ? 'کوئی نتیجہ نہیں ملا۔' : isAr ? 'لا توجد نتائج.' : 'No results found.') + '</div>';
                     results.classList.add('visible');
                     return;
                 }
 
                 results.innerHTML = matches.map(item => {
                     const href = './' + item.slug + '.html#q-' + item.id;
-                    const primary = highlight(isUr ? (item.ur || item.de) : item.de, q);
+                    const primary = highlight(isUr ? (item.ur || item.de) : isAr ? (item.ar || item.de) : item.de, q);
                     return '<a class="idx-search-result" href="' + escHtml(href) + '">' +
-                        '<div class="idx-search-result-num">' + (isUr ? 'سوال ' : 'Question ') + item.id + '</div>' +
+                        '<div class="idx-search-result-num">' + (isUr ? 'سوال ' : isAr ? 'السؤال ' : 'Question ') + item.id + '</div>' +
                         '<div class="idx-search-result-text">' + primary + '</div>' +
                         '</a>';
                 }).join('');
@@ -929,7 +931,7 @@
                 <a class="btn-foot" href="../privacy.html">Privacy &amp; Impressum</a>
             </div>
         </div>
-        <div class="foot-meta">Last updated: 2026-06-13</div>
+        <div class="foot-meta">Last updated: 2026-06-14</div>
     </footer>
 
     <button class="back-to-top" id="backToTop" aria-label="Back to top" title="Back to top">↑</button>
@@ -948,6 +950,7 @@
         (function() {
             const KEY = 'gct_learned';
             const isUrdu = document.documentElement.lang === 'ur';
+            const isArabic = document.documentElement.lang === 'ar';
 
             function getSet() {
                 try { return new Set(JSON.parse(localStorage.getItem(KEY) || '[]')); }
@@ -969,8 +972,8 @@
                 btn.className = 'mark-learned-btn' + (learned ? ' learned' : '');
                 btn.dataset.qid = qId;
                 btn.textContent = learned
-                    ? (isUrdu ? '✓ سیکھ لیا' : '✓ Learned')
-                    : (isUrdu ? '＋ سیکھیں' : '＋ Mark as learned');
+                    ? (isUrdu ? '✓ سیکھ لیا' : isArabic ? '✓ تعلّمته' : '✓ Learned')
+                    : (isUrdu ? '＋ سیکھیں' : isArabic ? '＋ علّمه' : '＋ Mark as learned');
                 btn.setAttribute('aria-pressed', String(learned));
 
                 btn.addEventListener('click', () => {
@@ -981,8 +984,8 @@
                     btn.classList.toggle('learned', nowLearned);
                     btn.setAttribute('aria-pressed', String(nowLearned));
                     btn.textContent = nowLearned
-                        ? (isUrdu ? '✓ سیکھ لیا' : '✓ Learned')
-                        : (isUrdu ? '＋ سیکھیں' : '＋ Mark as learned');
+                        ? (isUrdu ? '✓ سیکھ لیا' : isArabic ? '✓ تعلّمته' : '✓ Learned')
+                        : (isUrdu ? '＋ سیکھیں' : isArabic ? '＋ علّمه' : '＋ Mark as learned');
                 });
 
                 h3.insertAdjacentElement('afterend', btn);

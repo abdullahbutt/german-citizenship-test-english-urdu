@@ -237,11 +237,11 @@
         [dir="rtl"] table th:nth-child(1) {
             text-align: center;
         }
-        /* Ensure all table cells on Urdu pages use the Nastaleeq font,
+        /* Ensure all table cells on Urdu/Arabic pages use the Nastaleeq font,
            not a Bootstrap-overridden fallback */
         [dir="rtl"] table td,
         [dir="rtl"] table th {
-            font-family: 'Jameel Noori Nastaleeq', serif;
+            font-family: inherit, serif;
         }
         [dir="rtl"] table td:nth-child(2),
         [dir="rtl"] table th:nth-child(2) {
@@ -2397,7 +2397,7 @@
                 <a class="btn-foot" href="../privacy.html">Privacy &amp; Impressum</a>
             </div>
         </div>
-        <div class="foot-meta">Last updated: 2026-06-13</div>
+        <div class="foot-meta">Last updated: 2026-06-14</div>
     </footer>
 
     <button class="back-to-top" id="backToTop" aria-label="Back to top" title="Back to top">↑</button>
@@ -2416,6 +2416,7 @@
         (function() {
             const KEY = 'gct_learned';
             const isUrdu = document.documentElement.lang === 'ur';
+            const isArabic = document.documentElement.lang === 'ar';
 
             function getSet() {
                 try { return new Set(JSON.parse(localStorage.getItem(KEY) || '[]')); }
@@ -2437,8 +2438,8 @@
                 btn.className = 'mark-learned-btn' + (learned ? ' learned' : '');
                 btn.dataset.qid = qId;
                 btn.textContent = learned
-                    ? (isUrdu ? '✓ سیکھ لیا' : '✓ Learned')
-                    : (isUrdu ? '＋ سیکھیں' : '＋ Mark as learned');
+                    ? (isUrdu ? '✓ سیکھ لیا' : isArabic ? '✓ تعلّمته' : '✓ Learned')
+                    : (isUrdu ? '＋ سیکھیں' : isArabic ? '＋ علّمه' : '＋ Mark as learned');
                 btn.setAttribute('aria-pressed', String(learned));
 
                 btn.addEventListener('click', () => {
@@ -2449,8 +2450,8 @@
                     btn.classList.toggle('learned', nowLearned);
                     btn.setAttribute('aria-pressed', String(nowLearned));
                     btn.textContent = nowLearned
-                        ? (isUrdu ? '✓ سیکھ لیا' : '✓ Learned')
-                        : (isUrdu ? '＋ سیکھیں' : '＋ Mark as learned');
+                        ? (isUrdu ? '✓ سیکھ لیا' : isArabic ? '✓ تعلّمته' : '✓ Learned')
+                        : (isUrdu ? '＋ سیکھیں' : isArabic ? '＋ علّمه' : '＋ Mark as learned');
                 });
 
                 h3.insertAdjacentElement('afterend', btn);

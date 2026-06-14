@@ -16,6 +16,7 @@ const path = require('path');
 const ROOT       = __dirname;
 const SRC_EN     = path.join(ROOT, 'sources', 'english');
 const SRC_UR     = path.join(ROOT, 'sources', 'urdu');
+const SRC_AR     = path.join(ROOT, 'sources', 'arabic');
 
 // ─── Markdown parser ─────────────────────────────────────────────────────────
 
@@ -71,8 +72,8 @@ function parseMd(filePath) {
         const deM = block.match(/\*\*🇩🇪(?:\s*Deutsch:)?\*\*\s*([^\n]+)/);
         const de = deM ? deM[1].trim() : '';
 
-        // Translated text (line after 🇬🇧 or 🇵🇰)
-        const trM = block.match(/\*\*(?:🇬🇧|🇵🇰)(?:[^*]*)?\*\*\s*([^\n]+)/);
+        // Translated text (line after 🇬🇧 or 🇵🇰 or 🇸🇦)
+        const trM = block.match(/\*\*(?:🇬🇧|🇵🇰|🇸🇦)(?:[^*]*)?\*\*\s*([^\n]+)/);
         const translated = trM ? trM[1].trim() : '';
 
         // Table rows: | ○/✅ | **option** | **option** |
@@ -184,10 +185,15 @@ function buildGeneral() {
 
     const allEn = [];
     const allUr = [];
+    const allAr = [];
+    const arExists = fs.existsSync(SRC_AR);
 
     for (const f of files) {
         allEn.push(...parseMd(path.join(SRC_EN, f)));
         allUr.push(...parseMd(path.join(SRC_UR, f)));
+        if (arExists && fs.existsSync(path.join(SRC_AR, f))) {
+            allAr.push(...parseMd(path.join(SRC_AR, f)));
+        }
     }
 
     // Inject hardcoded questions that couldn't be parsed from source
@@ -199,23 +205,28 @@ function buildGeneral() {
     }
 
     const urMap = new Map(allUr.map(q => [q.id, q]));
+    const arMap = new Map(allAr.map(q => [q.id, q]));
 
     const merged = allEn
         .map(enQ => {
             const urQ = urMap.get(enQ.id);
+            const arQ = arMap.get(enQ.id);
             return {
                 id:             enQ.id,
                 de:             enQ.de,
                 en:             enQ.translated,
                 ur:             urQ ? urQ.translated : enQ.translated,
+                ar:             arQ ? arQ.translated : '',
                 options:        enQ.options.map((opt, i) => ({
                     de: opt.de,
                     en: opt.translated,
                     ur: urQ ? (urQ.options[i]?.translated || opt.translated) : opt.translated,
+                    ar: arQ ? (arQ.options[i]?.translated || '') : '',
                 })),
                 correct:        enQ.correct,
                 exp_en:         enQ.explanation,
                 exp_ur:         urQ ? urQ.explanation : enQ.explanation,
+                exp_ar:         arQ ? arQ.explanation : '',
             };
         })
         .sort((a, b) => a.id - b.id);
@@ -230,38 +241,38 @@ function buildGeneral() {
 // 3 reliable text-based questions per state that fully match the real test topics.
 
 const STATE_CAPITALS = {
-    'baden-wuerttemberg': { de: 'Stuttgart',   en: 'Stuttgart',          ur: 'اسٹوٹگارٹ'   },
-    'bayern':             { de: 'München',      en: 'Munich (München)',   ur: 'میونخ'         },
-    'berlin':             { de: 'Berlin',       en: 'Berlin (city-state)',ur: 'برلن'          },
-    'brandenburg':        { de: 'Potsdam',      en: 'Potsdam',           ur: 'پوٹسڈام'       },
-    'bremen':             { de: 'Bremen',       en: 'Bremen (city-state)',ur: 'بریمن'         },
-    'hamburg':            { de: 'Hamburg',      en: 'Hamburg (city-state)',ur: 'ہیمبرگ'      },
-    'hessen':             { de: 'Wiesbaden',    en: 'Wiesbaden',         ur: 'وِسبادن'       },
-    'mecklenburg-vorpommern': { de: 'Schwerin', en: 'Schwerin',          ur: 'شوَرین'        },
-    'niedersachsen':      { de: 'Hannover',     en: 'Hanover (Hannover)',ur: 'ہینووَر'       },
-    'nordrhein-westfalen':{ de: 'Düsseldorf',   en: 'Düsseldorf',        ur: 'ڈوسلڈورف'     },
-    'rheinland-pfalz':    { de: 'Mainz',        en: 'Mainz',             ur: 'مائنز'         },
-    'saarland':           { de: 'Saarbrücken',  en: 'Saarbrücken',       ur: 'زاربروکن'      },
-    'sachsen':            { de: 'Dresden',      en: 'Dresden',           ur: 'ڈریزڈن'        },
-    'sachsen-anhalt':     { de: 'Magdeburg',    en: 'Magdeburg',         ur: 'ماگڈبرگ'       },
-    'schleswig-holstein': { de: 'Kiel',         en: 'Kiel',              ur: 'کیل'           },
-    'thueringen':         { de: 'Erfurt',       en: 'Erfurt',            ur: 'ایرفرٹ'        },
+    'baden-wuerttemberg': { de: 'Stuttgart',   en: 'Stuttgart',           ur: 'اسٹوٹگارٹ',  ar: 'شتوتغارت'    },
+    'bayern':             { de: 'München',      en: 'Munich (München)',    ur: 'میونخ',        ar: 'ميونيخ'       },
+    'berlin':             { de: 'Berlin',       en: 'Berlin (city-state)', ur: 'برلن',         ar: 'برلين'        },
+    'brandenburg':        { de: 'Potsdam',      en: 'Potsdam',            ur: 'پوٹسڈام',      ar: 'بوتسدام'      },
+    'bremen':             { de: 'Bremen',       en: 'Bremen (city-state)', ur: 'بریمن',        ar: 'بريمن'        },
+    'hamburg':            { de: 'Hamburg',      en: 'Hamburg (city-state)',ur: 'ہیمبرگ',       ar: 'هامبورغ'      },
+    'hessen':             { de: 'Wiesbaden',    en: 'Wiesbaden',          ur: 'وِسبادن',      ar: 'فيسبادن'      },
+    'mecklenburg-vorpommern': { de: 'Schwerin', en: 'Schwerin',           ur: 'شوَرین',       ar: 'شفيرين'       },
+    'niedersachsen':      { de: 'Hannover',     en: 'Hanover (Hannover)', ur: 'ہینووَر',      ar: 'هانوفر'       },
+    'nordrhein-westfalen':{ de: 'Düsseldorf',   en: 'Düsseldorf',         ur: 'ڈوسلڈورف',    ar: 'دوسلدورف'     },
+    'rheinland-pfalz':    { de: 'Mainz',        en: 'Mainz',              ur: 'مائنز',        ar: 'ماينتس'       },
+    'saarland':           { de: 'Saarbrücken',  en: 'Saarbrücken',        ur: 'زاربروکن',     ar: 'زاربروكن'     },
+    'sachsen':            { de: 'Dresden',      en: 'Dresden',            ur: 'ڈریزڈن',       ar: 'دريسدن'       },
+    'sachsen-anhalt':     { de: 'Magdeburg',    en: 'Magdeburg',          ur: 'ماگڈبرگ',      ar: 'ماغدبورغ'     },
+    'schleswig-holstein': { de: 'Kiel',         en: 'Kiel',               ur: 'کیل',          ar: 'كيل'          },
+    'thueringen':         { de: 'Erfurt',       en: 'Erfurt',             ur: 'ایرفرٹ',       ar: 'إرفورت'       },
 };
 
 // Parliament names (Q303-area: type of parliament)
 const PARLIAMENTS = {
-    'berlin':       { de: 'Abgeordnetenhaus', en: 'Abgeordnetenhaus (House of Representatives)', ur: 'ابجیارڈنیٹنہاؤس' },
-    'bremen':       { de: 'Bremische Bürgerschaft', en: 'Bremische Bürgerschaft', ur: 'بریمش بورگرشافٹ' },
-    'hamburg':      { de: 'Bürgerschaft', en: 'Bürgerschaft', ur: 'بورگرشافٹ' },
-    '_default':     { de: 'Landtag', en: 'Landtag (State Parliament)', ur: 'لانڈٹاگ' },
+    'berlin':   { de: 'Abgeordnetenhaus', en: 'Abgeordnetenhaus (House of Representatives)', ur: 'ابجیارڈنیٹنہاؤس', ar: 'مجلس النواب (Abgeordnetenhaus)' },
+    'bremen':   { de: 'Bremische Bürgerschaft', en: 'Bremische Bürgerschaft', ur: 'بریمش بورگرشافٹ', ar: 'البرلمان المواطني (Bremische Bürgerschaft)' },
+    'hamburg':  { de: 'Bürgerschaft', en: 'Bürgerschaft', ur: 'بورگرشافٹ', ar: 'مجلس المواطنين (Bürgerschaft)' },
+    '_default': { de: 'Landtag', en: 'Landtag (State Parliament)', ur: 'لانڈٹاگ', ar: 'البرلمان الولائي (Landtag)' },
 };
 
 // Head-of-government titles
 const GOV_TITLES = {
-    'berlin':  { de: 'Regierender Bürgermeister/in', en: 'Governing Mayor (Regierender Bürgermeister/in)', ur: 'حاکم میئر' },
-    'bremen':  { de: 'Bürgermeister/in (Senatspräsident/in)', en: 'Mayor / Senate President', ur: 'میئر / سینیٹ صدر' },
-    'hamburg': { de: 'Erster Bürgermeister/in (Senatspräsident/in)', en: 'First Mayor / Senate President', ur: 'پہلا میئر / سینیٹ صدر' },
-    '_default':{ de: 'Ministerpräsident/in', en: 'Minister-President (Ministerpräsident/in)', ur: 'وزیراعلیٰ (مِنسٹرپریزیڈنٹ)' },
+    'berlin':  { de: 'Regierender Bürgermeister/in', en: 'Governing Mayor (Regierender Bürgermeister/in)', ur: 'حاکم میئر', ar: 'رئيس البلدية الحاكم (Regierender Bürgermeister/in)' },
+    'bremen':  { de: 'Bürgermeister/in (Senatspräsident/in)', en: 'Mayor / Senate President', ur: 'میئر / سینیٹ صدر', ar: 'رئيس البلدية / رئيس مجلس الشيوخ' },
+    'hamburg': { de: 'Erster Bürgermeister/in (Senatspräsident/in)', en: 'First Mayor / Senate President', ur: 'پہلا میئر / سینیٹ صدر', ar: 'رئيس البلدية الأول / رئيس مجلس الشيوخ' },
+    '_default':{ de: 'Ministerpräsident/in', en: 'Minister-President (Ministerpräsident/in)', ur: 'وزیراعلیٰ (مِنسٹرپریزیڈنٹ)', ar: 'رئيس الوزراء الولائي (Ministerpräsident/in)' },
 };
 
 // 3 distractors for capital city questions — pick from other states' capitals
@@ -291,25 +302,25 @@ function buildStateQuestion(slug, meta) {
 
     // Parliament distractors (always offer all 3 parliament types + one fake)
     const parlDistractors = [
-        { de: 'Landtag',              en: 'Landtag',              ur: 'لانڈٹاگ'         },
-        { de: 'Abgeordnetenhaus',     en: 'Abgeordnetenhaus',     ur: 'ابجیارڈنیٹنہاؤس' },
-        { de: 'Bürgerschaft',         en: 'Bürgerschaft',         ur: 'بورگرشافٹ'       },
-        { de: 'Volkskammer',          en: 'Volkskammer (defunct)',  ur: 'فولکسکامر (تاریخی)' },
+        { de: 'Landtag',              en: 'Landtag',              ur: 'لانڈٹاگ',          ar: 'البرلمان الولائي (Landtag)'           },
+        { de: 'Abgeordnetenhaus',     en: 'Abgeordnetenhaus',     ur: 'ابجیارڈنیٹنہاؤس',  ar: 'مجلس النواب (Abgeordnetenhaus)'       },
+        { de: 'Bürgerschaft',         en: 'Bürgerschaft',         ur: 'بورگرشافٹ',         ar: 'مجلس المواطنين (Bürgerschaft)'        },
+        { de: 'Volkskammer',          en: 'Volkskammer (defunct)', ur: 'فولکسکامر (تاریخی)',ar: 'مجلس الشعب السابق (Volkskammer)'      },
     ].filter(p => p.de !== parliament.de);
     const parlOptions = [...parlDistractors.slice(0, 3)];
     const parlPos = (slug.length + 1) % 4;
-    parlOptions.splice(parlPos, 0, { de: parliament.de, en: parliament.en, ur: parliament.ur });
+    parlOptions.splice(parlPos, 0, { de: parliament.de, en: parliament.en, ur: parliament.ur, ar: parliament.ar });
 
     // Gov-title distractors
     const govOptions = [
-        { de: 'Ministerpräsident/in',             en: 'Minister-President',             ur: 'وزیراعلیٰ (مِنسٹرپریزیڈنٹ)' },
-        { de: 'Regierender Bürgermeister/in',     en: 'Governing Mayor',                ur: 'حاکم میئر' },
-        { de: 'Erster Bürgermeister/in',          en: 'First Mayor',                    ur: 'پہلا میئر' },
-        { de: 'Bundeskanzler/in',                 en: 'Federal Chancellor',             ur: 'وفاقی چانسلر' },
+        { de: 'Ministerpräsident/in',             en: 'Minister-President',   ur: 'وزیراعلیٰ (مِنسٹرپریزیڈنٹ)', ar: 'رئيس الوزراء الولائي (Ministerpräsident/in)' },
+        { de: 'Regierender Bürgermeister/in',     en: 'Governing Mayor',      ur: 'حاکم میئر',                   ar: 'رئيس البلدية الحاكم (Regierender Bürgermeister/in)' },
+        { de: 'Erster Bürgermeister/in',          en: 'First Mayor',          ur: 'پہلا میئر',                   ar: 'رئيس البلدية الأول (Erster Bürgermeister/in)' },
+        { de: 'Bundeskanzler/in',                 en: 'Federal Chancellor',   ur: 'وفاقی چانسلر',                ar: 'المستشار الفيدرالي (Bundeskanzler/in)' },
     ].filter(g => g.de !== govTitle.de);
     const govOptsArr = [...govOptions.slice(0, 3)];
     const govPos = (slug.length + 2) % 4;
-    govOptsArr.splice(govPos, 0, { de: govTitle.de, en: govTitle.en, ur: govTitle.ur });
+    govOptsArr.splice(govPos, 0, { de: govTitle.de, en: govTitle.en, ur: govTitle.ur, ar: govTitle.ar });
 
     return [
         // Q1: Capital city
@@ -318,10 +329,12 @@ function buildStateQuestion(slug, meta) {
             de: `Wie heißt die Hauptstadt von ${meta.name_de}?`,
             en: `What is the capital city of ${meta.name_en}?`,
             ur: `${meta.name_ur} کا دارالحکومت کون سا ہے؟`,
-            options: capitalOptions.map(c => ({ de: c.de, en: c.en, ur: c.ur })),
+            ar: `ما هي عاصمة ولاية ${meta.name_ar}؟`,
+            options: capitalOptions.map(c => ({ de: c.de, en: c.en, ur: c.ur, ar: c.ar })),
             correct: pos,
             exp_en: `The capital of ${meta.name_en} is ${capital.en}.`,
             exp_ur: `${meta.name_ur} کا دارالحکومت ${capital.ur} ہے۔`,
+            exp_ar: `عاصمة ${meta.name_ar} هي ${capital.ar}.`,
         },
         // Q2: Parliament name
         {
@@ -329,10 +342,12 @@ function buildStateQuestion(slug, meta) {
             de: `Wie heißt das Landesparlament von ${meta.name_de}?`,
             en: `What is the state parliament of ${meta.name_en} called?`,
             ur: `${meta.name_ur} کی ریاستی پارلیمان کو کیا کہتے ہیں؟`,
+            ar: `ما اسم البرلمان الولائي في ${meta.name_ar}؟`,
             options: parlOptions,
             correct: parlPos,
             exp_en: `The state parliament of ${meta.name_en} is called the ${parliament.en}.`,
             exp_ur: `${meta.name_ur} کی ریاستی پارلیمان کو ${parliament.ur} کہتے ہیں۔`,
+            exp_ar: `يُسمّى البرلمان الولائي في ${meta.name_ar} بـ${parliament.ar}.`,
         },
         // Q3: Head of government title
         {
@@ -340,32 +355,34 @@ function buildStateQuestion(slug, meta) {
             de: `Welchen Titel trägt das Staatsoberhaupt von ${meta.name_de}?`,
             en: `What title does the head of government of ${meta.name_en} hold?`,
             ur: `${meta.name_ur} کے سربراہِ حکومت کا عہدہ کیا ہے؟`,
+            ar: `ما لقب رئيس حكومة ولاية ${meta.name_ar}؟`,
             options: govOptsArr,
             correct: govPos,
             exp_en: `The head of government of ${meta.name_en} holds the title of ${govTitle.en}.`,
             exp_ur: `${meta.name_ur} کے سربراہِ حکومت کا عہدہ ${govTitle.ur} ہے۔`,
+            exp_ar: `يحمل رئيس حكومة ${meta.name_ar} لقب ${govTitle.ar}.`,
         },
     ];
 }
 
 function buildStates() {
     const stateMeta = {
-        'baden-wuerttemberg': { name_de: 'Baden-Württemberg', name_en: 'Baden-Württemberg', name_ur: 'باڈن ورٹمبرگ' },
-        'bayern':             { name_de: 'Bayern',            name_en: 'Bavaria (Bayern)',   name_ur: 'باویریا'       },
-        'berlin':             { name_de: 'Berlin',            name_en: 'Berlin',             name_ur: 'برلن'          },
-        'brandenburg':        { name_de: 'Brandenburg',       name_en: 'Brandenburg',        name_ur: 'برانڈنبرگ'    },
-        'bremen':             { name_de: 'Bremen',            name_en: 'Bremen',             name_ur: 'بریمن'         },
-        'hamburg':            { name_de: 'Hamburg',           name_en: 'Hamburg',            name_ur: 'ہیمبرگ'       },
-        'hessen':             { name_de: 'Hessen',            name_en: 'Hesse (Hessen)',     name_ur: 'ہیسن'          },
-        'mecklenburg-vorpommern': { name_de: 'Mecklenburg-Vorpommern', name_en: 'Mecklenburg-Vorpommern', name_ur: 'میکلنبرگ-فورپومرن' },
-        'niedersachsen':      { name_de: 'Niedersachsen',    name_en: 'Lower Saxony',       name_ur: 'نیڈرزاخسن'    },
-        'nordrhein-westfalen':{ name_de: 'Nordrhein-Westfalen', name_en: 'North Rhine-Westphalia', name_ur: 'نارڈرائن ویسٹ فالن' },
-        'rheinland-pfalz':    { name_de: 'Rheinland-Pfalz',  name_en: 'Rhineland-Palatinate',name_ur: 'رائن لینڈ-فالز' },
-        'saarland':           { name_de: 'Saarland',         name_en: 'Saarland',           name_ur: 'زارلینڈ'      },
-        'sachsen':            { name_de: 'Sachsen',           name_en: 'Saxony (Sachsen)',   name_ur: 'زاخسن'        },
-        'sachsen-anhalt':     { name_de: 'Sachsen-Anhalt',   name_en: 'Saxony-Anhalt',      name_ur: 'زاخسن-انہالٹ' },
-        'schleswig-holstein': { name_de: 'Schleswig-Holstein',name_en: 'Schleswig-Holstein', name_ur: 'شلیسوگ-ہولسٹائن' },
-        'thueringen':         { name_de: 'Thüringen',        name_en: 'Thuringia (Thüringen)',name_ur: 'تھیورنگن'   },
+        'baden-wuerttemberg': { name_de: 'Baden-Württemberg',    name_en: 'Baden-Württemberg',    name_ur: 'باڈن ورٹمبرگ',           name_ar: 'بادن-فورتمبرغ'          },
+        'bayern':             { name_de: 'Bayern',               name_en: 'Bavaria (Bayern)',     name_ur: 'باویریا',                  name_ar: 'بافاريا'                 },
+        'berlin':             { name_de: 'Berlin',               name_en: 'Berlin',               name_ur: 'برلن',                     name_ar: 'برلين'                   },
+        'brandenburg':        { name_de: 'Brandenburg',          name_en: 'Brandenburg',          name_ur: 'برانڈنبرگ',               name_ar: 'براندنبورغ'              },
+        'bremen':             { name_de: 'Bremen',               name_en: 'Bremen',               name_ur: 'بریمن',                    name_ar: 'بريمن'                   },
+        'hamburg':            { name_de: 'Hamburg',              name_en: 'Hamburg',              name_ur: 'ہیمبرگ',                   name_ar: 'هامبورغ'                 },
+        'hessen':             { name_de: 'Hessen',               name_en: 'Hesse (Hessen)',       name_ur: 'ہیسن',                     name_ar: 'هيسن'                    },
+        'mecklenburg-vorpommern': { name_de: 'Mecklenburg-Vorpommern', name_en: 'Mecklenburg-Vorpommern', name_ur: 'میکلنبرگ-فورپومرن', name_ar: 'مكلنبورغ-فوربومرن'    },
+        'niedersachsen':      { name_de: 'Niedersachsen',        name_en: 'Lower Saxony',         name_ur: 'نیڈرزاخسن',               name_ar: 'سكسونيا السفلى'          },
+        'nordrhein-westfalen':{ name_de: 'Nordrhein-Westfalen',  name_en: 'North Rhine-Westphalia',name_ur: 'نارڈرائن ویسٹ فالن',    name_ar: 'شمال الراين-وستفاليا'    },
+        'rheinland-pfalz':    { name_de: 'Rheinland-Pfalz',     name_en: 'Rhineland-Palatinate', name_ur: 'رائن لینڈ-فالز',          name_ar: 'راينلاند-بفالتس'         },
+        'saarland':           { name_de: 'Saarland',            name_en: 'Saarland',             name_ur: 'زارلینڈ',                 name_ar: 'زارلاند'                 },
+        'sachsen':            { name_de: 'Sachsen',              name_en: 'Saxony (Sachsen)',     name_ur: 'زاخسن',                   name_ar: 'ساكسونيا'                },
+        'sachsen-anhalt':     { name_de: 'Sachsen-Anhalt',      name_en: 'Saxony-Anhalt',        name_ur: 'زاخسن-انہالٹ',            name_ar: 'ساكسونيا-أنهالت'        },
+        'schleswig-holstein': { name_de: 'Schleswig-Holstein',   name_en: 'Schleswig-Holstein',   name_ur: 'شلیسوگ-ہولسٹائن',        name_ar: 'شليسفيغ-هولشتاين'       },
+        'thueringen':         { name_de: 'Thüringen',           name_en: 'Thuringia (Thüringen)', name_ur: 'تھیورنگن',               name_ar: 'تورينغن'                 },
     };
 
     const states = {};
@@ -375,6 +392,7 @@ function buildStates() {
             name_de: meta.name_de,
             name_en: meta.name_en,
             name_ur: meta.name_ur,
+            name_ar: meta.name_ar,
             questions: buildStateQuestion(slug, meta),
         };
         console.log(`  state: ${slug} (${states[slug].questions.length} questions)`);
