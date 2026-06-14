@@ -1,5 +1,4 @@
-# الأسئلة العامة — الجزء الرابع (الأسئلة 151–200)
-## الحياة الاجتماعية والرعاية والتعليم
+# الأسئلة العامة — الجزء الرابع (151–200)
 
 [⬅ العودة](README.md)
 
@@ -8,7 +7,7 @@
 ### Question 151
 
 **🇩🇪 Deutsch:** Welche Nummer hat der Notruf für Feuerwehr und Rettungsdienst?
-**🇸🇦 عربي:** What is the emergency number for fire and ambulance?
+**🇸🇦 عربي:** ما رقم طوارئ الإطفاء والإسعاف في ألمانيا؟
 
 | | Deutsch | عربي |
 |---|---|---|
@@ -17,110 +16,110 @@
 | ○ | __(9)__11 | 911 |
 | ○ | __(1)__22 | 122 |
 
-> **📝** What is the emergency number for fire and ambulance? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** رقم 112 هو رقم الطوارئ الأوروبي الموحّد للإطفاء والإسعاف، ويعمل في جميع دول الاتحاد الأوروبي. في ألمانيا يغطي الحوادث والحرائق والطوارئ الطبية.
 
 ---
 
 ### Question 152
 
 **🇩🇪 Deutsch:** Was ist verboten in Deutschland?
-**🇸🇦 عربي:** What is forbidden in Germany?
+**🇸🇦 عربي:** ما الممنوع في ألمانيا؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **Gewalt in der Ehe** | **Domestic violence** |
-| ○ | Alkohol trinken | Drinking alcohol |
-| ○ | Rauchen | Smoking |
-| ○ | Demonstrieren | Demonstrating |
+| ✅ | **Gewalt in der Ehe** | **العنف الزوجي** |
+| ○ | Alkohol trinken | شرب الكحول |
+| ○ | Rauchen | التدخين |
+| ○ | Demonstrieren | المظاهرات |
 
-> **📝** What is forbidden in Germany? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** العنف الزوجي محظور بشكل قاطع في ألمانيا ويُعدّ جريمة جنائية. الضحايا يمكنهم الحصول على أوامر حماية فورية وملاجئ آمنة.
 
 ---
 
 ### Question 153
 
 **🇩🇪 Deutsch:** Was ist in Deutschland ab 18 Jahren erlaubt?
-**🇸🇦 عربي:** What is allowed in Germany from age 18?
+**🇸🇦 عربي:** ما المسموح به في ألمانيا من سن 18؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **Alkohol und Tabak kaufen** | **Buying alcohol and tobacco** |
-| ○ | Bei Rot über die Ampel gehen | Crossing on a red light |
-| ○ | Ohne Führerschein Auto fahren | Driving without a license |
-| ○ | Heroin konsumieren | Using heroin |
+| ✅ | **Alkohol und Tabak kaufen** | **شراء الكحول والتبغ** |
+| ○ | Bei Rot über die Ampel gehen | عبور الإشارة الحمراء |
+| ○ | Ohne Führerschein Auto fahren | قيادة السيارة بلا رخصة |
+| ○ | Heroin konsumieren | تعاطي الهيروين |
 
-> **📝** What is allowed in Germany from age 18? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** في ألمانيا من سن 18 يحق قانونيًا شراء الكحول والتبغ والتصويت والقيادة بعد الحصول على رخصة. سن 16 يُسمح فيها بشراء الجعة والنبيذ.
 
 ---
 
 ### Question 154
 
 **🇩🇪 Deutsch:** Bei__(e)__inem Unfall__(l)____(m)__uss__(s)____(m)__an …
-**🇸🇦 عربي:** In case of an accident, you must …
+**🇸🇦 عربي:** عند وقوع حادث، يجب عليك …
 
 | | Deutsch | عربي |
 |---|---|---|
-| ○ | weiterfahren. | keep driving. |
-| ✅ | **anhalten und helfen.** | **stop and help.** |
-| ○ | nichts tun. | do nothing. |
-| ○ | nur Fotos machen. | only take photos. |
+| ○ | weiterfahren. | الاستمرار في القيادة. |
+| ✅ | **anhalten und helfen.** | **الوقوف وتقديم المساعدة.** |
+| ○ | nichts tun. | لا تفعل شيئًا. |
+| ○ | nur Fotos machen. | التقاط الصور فقط. |
 
-> **📝** In case of an accident, you must … — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** القانون الألماني يُوجب على كل شخص يشهد حادثًا التوقف وتقديم المساعدة وإبلاغ الشرطة. التخلي عن المصابين دون مساعدة جريمة يُعاقب عليها القانون.
 
 ---
 
 ### Question 155
 
 **🇩🇪 Deutsch:** Was__(s)__ __(p)__assierte am __(2)__0. Juli 1944?
-**🇸🇦 عربي:** What happened on July 20, 1944?
+**🇸🇦 عربي:** ما الذي حدث في 20 يوليو 1944؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ○ | Beginn des Zweiten Weltkrieges | Start of WWII |
-| ✅ | **Attentat auf Adolf Hitler (Stauffenberg)** | **Assassination attempt on Adolf Hitler (Stauffenberg)** |
-| ○ | Ende des Zweiten Weltkrieges | End of WWII |
-| ○ | Gründung der Bundesrepublik | Founding of the جمهورية ألمانيا الاتحادية |
+| ○ | Beginn des Zweiten Weltkrieges | بداية الحرب العالمية الثانية |
+| ✅ | **Attentat auf Adolf Hitler (Stauffenberg)** | **محاولة اغتيال هتلر (شتاوفنبرغ)** |
+| ○ | Ende des Zweiten Weltkrieges | نهاية الحرب العالمية الثانية |
+| ○ | Gründung der Bundesrepublik | تأسيس الجمهورية الفيدرالية |
 
-> **📝** What happened on July 20, 1944? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** في 20 يوليو 1944 نفّذ العقيد كلاوس فون شتاوفنبرغ محاولة اغتيال فاشلة لهتلر. تُعدّ هذه المحاولة أبرز مقاومة داخلية للنازية وتُخلَّد ذكراها في ألمانيا.
 
 ---
 
 ### Question 156
 
 **🇩🇪 Deutsch:** Was__(s)____(p)__assierte am 8. Mai 1945?
-**🇸🇦 عربي:** What happened on May 8, 1945?
+**🇸🇦 عربي:** ما الذي حدث في 8 مايو 1945؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ○ | Beginn des Ersten Weltkrieges | Start of WWI |
-| ○ | Gründung der DDR | Founding of the GDR |
-| ✅ | **Ende des Zweiten Weltkrieges in Europa** | **End of WWII in Europe** |
-| ○ | Wiedervereinigung Deutschlands | German reunification |
+| ○ | Beginn des Ersten Weltkrieges | بداية الحرب العالمية الأولى |
+| ○ | Gründung der DDR | تأسيس ألمانيا الشرقية |
+| ✅ | **Ende des Zweiten Weltkrieges in Europa** | **نهاية الحرب العالمية الثانية في أوروبا** |
+| ○ | Wiedervereinigung Deutschlands | توحيد ألمانيا |
 
-> **📝** What happened on May 8, 1945? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** في 8 مايو 1945 استسلمت ألمانيا النازية رسميًا وانتهت الحرب في أوروبا. يُعرف هذا اليوم بـ"يوم التحرير" (Tag der Befreiung) في ألمانيا.
 
 ---
 
 ### Question 157
 
 **🇩🇪 Deutsch:** Was__(s)____(p)__assierte am 17. Juni 1953 in der DDR?
-**🇸🇦 عربي:** What happened on June 17, 1953 in the GDR?
+**🇸🇦 عربي:** ما الذي حدث في 17 يونيو 1953 في ألمانيا الشرقية؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **Volksaufstand / Arbeiteraufstand** | **Popular uprising / Workers' uprising** |
-| ○ | Gründung der DDR | Founding of the GDR |
-| ○ | Bau der Berliner Mauer | Building of the Berlin Wall |
-| ○ | Wiedervereinigung | Reunification |
+| ✅ | **Volksaufstand / Arbeiteraufstand** | **انتفاضة شعبية / انتفاضة العمال** |
+| ○ | Gründung der DDR | تأسيس ألمانيا الشرقية |
+| ○ | Bau der Berliner Mauer | بناء جدار برلين |
+| ○ | Wiedervereinigung | التوحيد |
 
-> **📝** What happened on June 17, 1953 in the GDR? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** في 17 يونيو 1953 اندلعت انتفاضة عمالية في ألمانيا الشرقية بدأت في برلين الشرقية وامتدت إلى مدن أخرى. أُخمدت بالقوة من قِبَل القوات السوفيتية. يُعدّ هذا اليوم عطلة وطنية لاحقًا.
 
 ---
 
 ### Question 158
 
 **🇩🇪 Deutsch:** Wann__(n)____(w)__urde die Berliner Mauer gebaut?
-**🇸🇦 عربي:** When was the Berlin Wall built?
+**🇸🇦 عربي:** متى بُني جدار برلين؟
 
 | | Deutsch | عربي |
 |---|---|---|
@@ -129,14 +128,14 @@
 | ✅ | **1961** | **1961** |
 | ○ | 1__(9)__71 | 1971 |
 
-> **📝** When was the Berlin Wall built? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** بُني جدار برلين في 13 أغسطس 1961 بقرار من حكومة ألمانيا الشرقية. هدفه منع الهروب إلى الغرب. قُسِّمت برلين 28 عامًا حتى سقوط الجدار عام 1989.
 
 ---
 
 ### Question 159
 
 **🇩🇪 Deutsch:** Wann__(n)____(f)__iel die Berliner Mauer?
-**🇸🇦 عربي:** When did the Berlin Wall fall?
+**🇸🇦 عربي:** متى سقط جدار برلين؟
 
 | | Deutsch | عربي |
 |---|---|---|
@@ -145,14 +144,14 @@
 | ✅ | **1989** | **1989** |
 | ○ | 1__(9)__90 | 1990 |
 
-> **📝** When did the Berlin Wall fall? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** سقط جدار برلين في 9 نوفمبر 1989. أعلنت حكومة ألمانيا الشرقية فتح الحدود فاحتشد الناس عند نقاط العبور وبدأوا في هدم الجدار. هذا الحدث رمز لنهاية الحرب الباردة.
 
 ---
 
 ### Question 160
 
 **🇩🇪 Deutsch:** Wann war der Zweite Weltkrieg?
-**🇸🇦 عربي:** When was World War II?
+**🇸🇦 عربي:** متى كانت الحرب العالمية الثانية؟
 
 | | Deutsch | عربي |
 |---|---|---|
@@ -161,46 +160,46 @@
 | ○ | 1__(9)____(4)__5–1989 | 1945–1989 |
 | ○ | 1__(9)__49–1990 | 1949–1990 |
 
-> **📝** When was World War II? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** الحرب العالمية الثانية امتدت من 1939 إلى 1945. بدأت بالغزو الألماني لبولندا في 1 سبتمبر 1939 وانتهت باستسلام ألمانيا في 8 مايو 1945.
 
 ---
 
 ### Question 161
 
 **🇩🇪 Deutsch:** Was war der Holocaust / die Shoah?
-**🇸🇦 عربي:** What was the Holocaust / the Shoah?
+**🇸🇦 عربي:** ما الهولوكوست / الشواه؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ○ | ein__(e)__ __(N)__aturkatastrophe | a natural disaster |
-| ✅ | **der__(d)__ie nationalsozialistische Ermordung der europäischen Juden** | **the Nazi genocide of European Jews** |
-| ○ | eine__(e)__ __(W)__irtschaftskrise | an economic crisis |
-| ○ | ein Bürgerkrieg | a civil war |
+| ○ | ein__(e)__ __(N)__aturkatastrophe | كارثة طبيعية |
+| ✅ | **der__(d)__ie nationalsozialistische Ermordung der europäischen Juden** | **إبادة النازيين لليهود الأوروبيين** |
+| ○ | eine__(e)__ __(W)__irtschaftskrise | أزمة اقتصادية |
+| ○ | ein Bürgerkrieg | حرب أهلية |
 
-> **📝** What was the Holocaust / the Shoah? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** الهولوكوست (Shoah) هو الإبادة الجماعية المنهجية لستة ملايين يهودي على يد النازيين خلال الحرب العالمية الثانية. يُعدّ من أفظع جرائم الإنسانية في التاريخ.
 
 ---
 
 ### Question 162
 
 **🇩🇪 Deutsch:** Was__(s)__ __(i)__st__(t)__ __(k)__ein ehemaliges__(s)____(K)__onzentrationslager?
-**🇸🇦 عربي:** Which was NOT a former concentration camp?
+**🇸🇦 عربي:** أيٌّ من التالي لم يكن معسكر اعتقال سابق؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ○ | Dachau | Dachau |
-| ○ | Buchenwald | Buchenwald |
-| ✅ | **__(P)__eenemünde** | **Peenemünde** |
-| ○ | Auschwitz | Auschwitz |
+| ○ | Dachau | داخاو |
+| ○ | Buchenwald | بوخنفالد |
+| ✅ | **__(P)__eenemünde** | **بيينيموندي** |
+| ○ | Auschwitz | أوشفيتز |
 
-> **📝** Which was NOT a former concentration camp? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** داخاو وبوخنفالد وأوشفيتز معسكرات اعتقال نازية. أما بيينيموندي فكانت قاعدة أبحاث صواريخ ألمانية لا معسكر اعتقال.
 
 ---
 
 ### Question 163
 
 **🇩🇪 Deutsch:** Wann__(n)____(w)__urde die Bundesrepublik Deutschland gegründet?
-**🇸🇦 عربي:** When was the جمهورية ألمانيا الاتحادية of Germany founded?
+**🇸🇦 عربي:** متى تأسست جمهورية ألمانيا الاتحادية؟
 
 | | Deutsch | عربي |
 |---|---|---|
@@ -209,30 +208,30 @@
 | ○ | 1__(9)__45 | 1945 |
 | ○ | 1__(9)__53 | 1953 |
 
-> **📝** When was the جمهورية ألمانيا الاتحادية of Germany founded? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** تأسست جمهورية ألمانيا الاتحادية رسميًا في 23 مايو 1949 حين دخل القانون الأساسي حيّز التنفيذ. كانت في البداية ألمانيا الغربية فقط ثم أصبحت تمثّل كل ألمانيا بعد التوحيد عام 1990.
 
 ---
 
 ### Question 164
 
 **🇩🇪 Deutsch:** Wie__(e)____(h)__ieß__(e)____(d)__er__(e)__rste__(e)____(B)__undeskanzler der Bundesrepublik Deutschland?
-**🇸🇦 عربي:** Who was the first Federal Chancellor of Germany?
+**🇸🇦 عربي:** من كان أول مستشار فيدرالي لألمانيا؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **Konrad Adenauer** | **Konrad Adenauer** |
-| ○ | Ludwig Erhard | Ludwig Erhard |
-| ○ | Willy Brandt | Willy Brandt |
-| ○ | Helmut Kohl | Helmut Kohl |
+| ✅ | **Konrad Adenauer** | **كونراد أديناور** |
+| ○ | Ludwig Erhard | لودفيغ إيرهارد |
+| ○ | Willy Brandt | فيلي برانت |
+| ○ | Helmut Kohl | هيلموت كول |
 
-> **📝** Who was the first Federal Chancellor of Germany? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** كونراد أديناور (1876-1967) كان أول مستشار فيدرالي لجمهورية ألمانيا الاتحادية من 1949 إلى 1963. قاد ألمانيا نحو التعافي بعد الحرب وربطها بالغرب.
 
 ---
 
 ### Question 165
 
 **🇩🇪 Deutsch:** Wann__(n)____(w)__ar die "__(W)__eimarer Republik"?
-**🇸🇦 عربي:** When was the "Weimar Republic"?
+**🇸🇦 عربي:** متى كانت "جمهورية فايمار"؟
 
 | | Deutsch | عربي |
 |---|---|---|
@@ -241,110 +240,110 @@
 | ○ | 1__(9)__33–1945 | 1933–1945 |
 | ○ | 1__(9)__49–1990 | 1949–1990 |
 
-> **📝** When was the "Weimar Republic"? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** جمهورية فايمار كانت الجمهورية الديمقراطية الأولى في ألمانيا من 1918/1919 إلى 1933. انتهت بوصول هتلر إلى السلطة وبداية الرايخ الثالث.
 
 ---
 
 ### Question 166
 
 **🇩🇪 Deutsch:** Was__(s)____(i)__st__(t)____(d)__ie "__(W)__eimarer Republik"?
-**🇸🇦 عربي:** What was the "Weimar Republic"?
+**🇸🇦 عربي:** ما "جمهورية فايمار"؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ○ | ein__(e)__ __(S)__tadt in Thüringen | a city in Thuringia |
-| ✅ | **Deutschlands erste parlamentarische Demokratie** | **Germany's first parliamentary democracy** |
-| ○ | ein Königreich | a kingdom |
-| ○ | ein anderer Name für die DDR | another name for the GDR |
+| ○ | ein__(e)__ __(S)__tadt in Thüringen | مدينة في تورينغن |
+| ✅ | **Deutschlands erste parlamentarische Demokratie** | **أول ديمقراطية برلمانية في ألمانيا** |
+| ○ | ein Königreich | مملكة |
+| ○ | ein anderer Name für die DDR | اسم آخر لألمانيا الشرقية |
 
-> **📝** What was the "Weimar Republic"? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** جمهورية فايمار كانت الجمهورية الديمقراطية الأولى في ألمانيا (1919-1933). سُمّيت هكذا لأن جمعيتها التأسيسية اجتمعت في مدينة فايمار.
 
 ---
 
 ### Question 167
 
 **🇩🇪 Deutsch:** Wie__(e)____(k)__am Adolf Hitler 1933 an die Macht?
-**🇸🇦 عربي:** How did Adolf Hitler come to power in 1933?
+**🇸🇦 عربي:** كيف وصل أدولف هتلر إلى السلطة عام 1933؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ○ | durch einen Militärputsch | through a military coup |
-| ✅ | **Er wurde__(e)____(v)__on Reichspräsident Hindenburg zum Reichskanzler ernannt.** | **He was appointed Chancellor by President Hindenburg.** |
-| ○ | durch eine Revolution | through a revolution |
-| ○ | durch eine Volksabstimmung | through a referendum |
+| ○ | durch einen Militärputsch | بانقلاب عسكري |
+| ✅ | **Er wurde__(e)____(v)__on Reichspräsident Hindenburg zum Reichskanzler ernannt.** | **عيّنه الرئيس هيندنبورغ مستشارًا.** |
+| ○ | durch eine Revolution | بثورة شعبية |
+| ○ | durch eine Volksabstimmung | باستفتاء شعبي |
 
-> **📝** How did Adolf Hitler come to power in 1933? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** عيّن الرئيس الإمبراطوري هيندنبورغ هتلر مستشارًا في 30 يناير 1933 بعد أن أصبح الحزب النازي أكبر الأحزاب في البرلمان. سرعان ما تحوّل هتلر إلى ديكتاتور مطلق.
 
 ---
 
 ### Question 168
 
 **🇩🇪 Deutsch:** Das__(d)____(n)__ationalsozialistische Regime__(e)__ __(i)__n Deutschland__(d)__ __(b)__eging__(g)____(g)__roße Verbrechen. Was__(s)____(w)__ar__(e)__in Ergebnis?
-**🇸🇦 عربي:** The Nazi regime committed great crimes. What was a result?
+**🇸🇦 عربي:** ارتكب النظام النازي جرائم فظيعة. ما نتيجة ذلك؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **der Zweite Weltkrieg und der Holocaust** | **World War II and the Holocaust** |
-| ○ | die Industrialisierung | industrialization |
-| ○ | die Reformation | the Reformation |
-| ○ | die Wiedervereinigung | reunification |
+| ✅ | **der Zweite Weltkrieg und der Holocaust** | **الحرب العالمية الثانية والهولوكوست** |
+| ○ | die Industrialisierung | التصنيع |
+| ○ | die Reformation | الإصلاح الديني |
+| ○ | die Wiedervereinigung | التوحيد |
 
-> **📝** The Nazi regime committed great crimes. What was a result? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** أسفر النظام النازي عن الحرب العالمية الثانية التي راح ضحيتها أكثر من 70 مليون شخص، وعن الهولوكوست إبادة الملايين من اليهود وغيرهم.
 
 ---
 
 ### Question 169
 
 **🇩🇪 Deutsch:** Was__(s)____(p)__assierte am 9. November 1__(9)__38 in Deutschland?
-**🇸🇦 عربي:** What happened on November 9, 1938 in Germany?
+**🇸🇦 عربي:** ما الذي حدث في 9 نوفمبر 1938 في ألمانيا؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ○ | Beginn des Ersten Weltkrieges | Start of WWI |
-| ✅ | **Novemberpogrome / "Reichskristallnacht"** | **November Pogroms / "Kristallnacht"** |
-| ○ | Fall der Berliner Mauer | Fall of the Berlin Wall |
-| ○ | Gründung der Bundesrepublik | Founding of the جمهورية ألمانيا الاتحادية |
+| ○ | Beginn des Ersten Weltkrieges | بداية الحرب العالمية الأولى |
+| ✅ | **Novemberpogrome / "Reichskristallnacht"** | **البوغروم / ليلة الكريستال** |
+| ○ | Fall der Berliner Mauer | سقوط جدار برلين |
+| ○ | Gründung der Bundesrepublik | تأسيس الجمهورية الاتحادية |
 
-> **📝** What happened on November 9, 1938 in Germany? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** في 9 نوفمبر 1938 شهدت ألمانيا موجة بوغروم منظّمة ضد اليهود (Novemberpogrome). أُضرمت النيران في آلاف المعابد وهُدِّمت المحلات التجارية اليهودية واعتُقل الآلاف.
 
 ---
 
 ### Question 170
 
 **🇩🇪 Deutsch:** Wer__(r)____(m)__usste__(e)____(i)__m__(m)____(N)__ationalsozialismus den "__(J)__udenstern" tragen?
-**🇸🇦 عربي:** Who had to wear the "Jewish star" under National Socialism?
+**🇸🇦 عربي:** من كان مُلزَمًا بارتداء "نجمة اليهود" في عهد النازية؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **Juden** | **Jews** |
-| ○ | Christen | Christians |
-| ○ | Kommunisten | Communists |
-| ○ | Sozialdemokraten | Social Democrats |
+| ✅ | **Juden** | **اليهود** |
+| ○ | Christen | المسيحيون |
+| ○ | Kommunisten | الشيوعيون |
+| ○ | Sozialdemokraten | الاشتراكيون الديمقراطيون |
 
-> **📝** Who had to wear the "Jewish star" under National Socialism? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** أجبر النازيون اليهود على ارتداء نجمة داود الصفراء من سبتمبر 1941. كان هذا جزءًا من منظومة الإذلال والتمييز التي مهّدت للإبادة الجماعية.
 
 ---
 
 ### Question 171
 
 **🇩🇪 Deutsch:** Was__(s)____(w)__ar der "__(M)__arshallplan"?
-**🇸🇦 عربي:** What was the "Marshall Plan"?
+**🇸🇦 عربي:** ما "مشروع مارشال"؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **ein__(e)__amerikanisches__(s)____(W)__iederaufbauprogramm für Europa nach dem Zweiten Weltkrieg** | **an American reconstruction program for Europe after WWII** |
-| ○ | ein Friedensvertrag | a peace treaty |
-| ○ | ein Militärbündnis | a military alliance |
-| ○ | eine Verfassung | a constitution |
+| ✅ | **ein__(e)__amerikanisches__(s)____(W)__iederaufbauprogramm für Europa nach dem Zweiten Weltkrieg** | **برنامج أمريكي لإعادة إعمار أوروبا بعد الحرب** |
+| ○ | ein Friedensvertrag | معاهدة سلام |
+| ○ | ein Militärbündnis | تحالف عسكري |
+| ○ | eine Verfassung | دستور |
 
-> **📝** What was the "Marshall Plan"? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** مشروع مارشال (1947-1951) برنامج أمريكي لإعادة إعمار أوروبا الغربية بعد الحرب العالمية الثانية. أسهم في التعافي الاقتصادي السريع ودعم الديمقراطية في مواجهة الشيوعية.
 
 ---
 
 ### Question 172
 
 **🇩🇪 Deutsch:** In__(n)____(w)__elchem Jahr wurde die DDR gegründet?
-**🇸🇦 عربي:** In which year was the GDR founded?
+**🇸🇦 عربي:** في أي عام تأسست ألمانيا الديمقراطية (DDR)؟
 
 | | Deutsch | عربي |
 |---|---|---|
@@ -353,14 +352,14 @@
 | ○ | 1__(9)__53 | 1953 |
 | ○ | 1__(9)__56 | 1956 |
 
-> **📝** In which year was the GDR founded? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** تأسست جمهورية ألمانيا الديمقراطية (DDR) في 7 أكتوبر 1949 في المنطقة السوفيتية. كانت دولة اشتراكية تحت النفوذ السوفيتي حتى الوحدة عام 1990.
 
 ---
 
 ### Question 173
 
 **🇩🇪 Deutsch:** Wie__(e)____(h)__ieß die__(e)__ __(h)__errschende Partei__(e)____(i)__n der DDR?
-**🇸🇦 عربي:** What was the ruling party in the GDR called?
+**🇸🇦 عربي:** ما اسم الحزب الحاكم في ألمانيا الشرقية؟
 
 | | Deutsch | عربي |
 |---|---|---|
@@ -369,206 +368,206 @@
 | ✅ | **SED** | **SED** |
 | ○ | NSDAP | NSDAP |
 
-> **📝** What was the ruling party in the GDR called? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** حزب الوحدة الاشتراكي (SED) كان الحزب الحاكم الأوحد في ألمانيا الشرقية. سيطر على الدولة من 1949 حتى سقوط جدار برلين 1989.
 
 ---
 
 ### Question 174
 
 **🇩🇪 Deutsch:** Wofür__(r)____(s)__tand der__(d)____(B)__egriff "__(K)__alter Krieg"?
-**🇸🇦 عربي:** What did the term "Cold War" refer to?
+**🇸🇦 عربي:** ما الذي يعنيه "الحرب الباردة"؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **die__(e)____(K)__onfrontation zwischen den__(d)____(W)__estmächten und dem Ostblock ohne direkten Krieg** | **the confrontation between Western powers and the Eastern Bloc without direct war** |
-| ○ | einen Krieg__(g)____(i)__m__(m)____(W)__inter | a war in winter |
-| ○ | einen__(n)____(B)__ürgerkrieg in Deutschland | a civil war in Germany |
-| ○ | den Ersten Weltkrieg | World War I |
+| ✅ | **die__(e)____(K)__onfrontation zwischen den__(d)____(W)__estmächten und dem Ostblock ohne direkten Krieg** | **المواجهة بين الغرب والكتلة الشرقية دون حرب مباشرة** |
+| ○ | einen Krieg__(g)____(i)__m__(m)____(W)__inter | حرب في فصل الشتاء |
+| ○ | einen__(n)____(B)__ürgerkrieg in Deutschland | حرب أهلية في ألمانيا |
+| ○ | den Ersten Weltkrieg | الحرب العالمية الأولى |
 
-> **📝** What did the term "Cold War" refer to? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** الحرب الباردة (1947-1991) مواجهة سياسية وأيديولوجية بين الولايات المتحدة والاتحاد السوفيتي وحلفائهما. اتسمت بسباق التسلح والتنافس الفضائي لكنها لم تتحول إلى صراع مسلح مباشر بينهما.
 
 ---
 
 ### Question 175
 
 **🇩🇪 Deutsch:** Welcher__(r)____(d)__eutsche Bundeskanzler__(r)____(b)__ekam den Friedensnobelpreis?
-**🇸🇦 عربي:** Which German Chancellor received the Nobel Peace Prize?
+**🇸🇦 عربي:** أيٌّ من المستشارين الألمان حصل على جائزة نوبل للسلام؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ○ | Konrad Adenauer | Konrad Adenauer |
-| ✅ | **Willy Brandt** | **Willy Brandt** |
-| ○ | Helmut Kohl | Helmut Kohl |
-| ○ | Gerhard Schröder | Gerhard Schröder |
+| ○ | Konrad Adenauer | كونراد أديناور |
+| ✅ | **Willy Brandt** | **فيلي برانت** |
+| ○ | Helmut Kohl | هيلموت كول |
+| ○ | Gerhard Schröder | غيرهارد شرودر |
 
-> **📝** Which German Chancellor received the Nobel Peace Prize? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** فيلي برانت حصل على جائزة نوبل للسلام عام 1971 تقديرًا لسياسة "Ostpolitik" التي عملت على تطبيع العلاقات مع دول الكتلة الشرقية. واشتُهر بركوعه أمام نصب الغيتو في وارسو.
 
 ---
 
 ### Question 176
 
 **🇩🇪 Deutsch:** Welcher Bundeskanzler__(r)____(w)__ird__(d)__ __(a)__ls "__(K)__anzler der Einheit" bezeichnet?
-**🇸🇦 عربي:** Which Chancellor is known as the "Chancellor of Unity"?
+**🇸🇦 عربي:** من يُعرف بـ"مستشار الوحدة"؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ○ | Konrad Adenauer | Konrad Adenauer |
-| ○ | Willy Brandt | Willy Brandt |
-| ✅ | **Helmut Kohl** | **Helmut Kohl** |
-| ○ | Gerhard Schröder | Gerhard Schröder |
+| ○ | Konrad Adenauer | كونراد أديناور |
+| ○ | Willy Brandt | فيلي برانت |
+| ✅ | **Helmut Kohl** | **هيلموت كول** |
+| ○ | Gerhard Schröder | غيرهارد شرودر |
 
-> **📝** Which Chancellor is known as the "Chancellor of Unity"? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** هيلموت كول (1930-2017) يُعرف بمستشار الوحدة لدوره المحوري في تحقيق الوحدة الألمانية عام 1990. كان مستشارًا من 1982 إلى 1998.
 
 ---
 
 ### Question 177
 
 **🇩🇪 Deutsch:** Welchen__(n)____(S)__tatus__(s)____(h)__atte Berlin nach dem Zweiten Weltkrieg?
-**🇸🇦 عربي:** What status did Berlin have after WWII?
+**🇸🇦 عربي:** ما الوضع الذي كانت عليه برلين بعد الحرب العالمية الثانية؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **Berlin war__(r)____(i)__n__(v)__ier Sektoren geteilt.** | **Berlin was divided into four sectors.** |
-| ○ | Berlin war Hauptstadt der DDR. | Berlin was the capital of the GDR. |
-| ○ | Berlin gehörte__(e)____(z)__u Frankreich. | Berlin belonged to France. |
-| ○ | Berlin war nur amerikanisch. | Berlin was only American. |
+| ✅ | **Berlin war__(r)____(i)__n__(v)__ier Sektoren geteilt.** | **قُسِّمت برلين إلى أربعة قطاعات.** |
+| ○ | Berlin war Hauptstadt der DDR. | كانت برلين عاصمة ألمانيا الشرقية. |
+| ○ | Berlin gehörte__(e)____(z)__u Frankreich. | انضمت برلين إلى فرنسا. |
+| ○ | Berlin war nur amerikanisch. | كانت برلين أمريكية فحسب. |
 
-> **📝** What status did Berlin have after WWII? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** بعد الحرب قُسِّمت برلين إلى أربعة قطاعات تحت إدارة أمريكية وبريطانية وفرنسية وسوفيتية. أصبحت تجسيدًا حيًّا للحرب الباردة حتى توحيدها عام 1990.
 
 ---
 
 ### Question 178
 
 **🇩🇪 Deutsch:** Was war die "__(B)__erliner Luftbrücke"?
-**🇸🇦 عربي:** What was the "Berlin Airlift"?
+**🇸🇦 عربي:** ما "جسر الهواء البرليني"؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **die Versorgung West-Berlins durch die Westalliierten__(d)__urch__(L)__uftflugzeuge während der Sowjet-Blockade** | **the supply of West Berlin by Western Allied aircraft during the Soviet blockade** |
-| ○ | eine Brücke in Berlin | a bridge in Berlin |
-| ○ | ein Flughafen | an airport |
-| ○ | ein Militäreinsatz__(d)__er NATO | a الناتو military operation |
+| ✅ | **die Versorgung West-Berlins durch die Westalliierten__(d)__urch__(L)__uftflugzeuge während der Sowjet-Blockade** | **إمداد غرب برلين جوًّا أثناء الحصار السوفيتي** |
+| ○ | eine Brücke in Berlin | جسر في برلين |
+| ○ | ein Flughafen | مطار |
+| ○ | ein Militäreinsatz__(d)__er NATO | عملية عسكرية لحلف الناتو |
 
-> **📝** What was the "Berlin Airlift"? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** جسر الهواء البرليني (1948-1949) عملية إمداد نفّذها الحلفاء الغربيون لكسر الحصار السوفيتي عن غرب برلين. سيّرت الطائرات الغربية آلاف الرحلات لإيصال الغذاء والوقود.
 
 ---
 
 ### Question 179
 
 **🇩🇪 Deutsch:** Wie__(e)____(h)__ieß__(e)____(d)__er__(e)__rste__(e)____(B)__undespräsident der Bundesrepublik?
-**🇸🇦 عربي:** Who was the first Federal President of Germany?
+**🇸🇦 عربي:** من كان أول رئيس فيدرالي لألمانيا؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **Theodor Heuss** | **Theodor Heuss** |
-| ○ | Konrad Adenauer | Konrad Adenauer |
-| ○ | Richard von Weizsäcker | Richard von Weizsäcker |
-| ○ | Helmut Kohl | Helmut Kohl |
+| ✅ | **Theodor Heuss** | **تيودور هويس** |
+| ○ | Konrad Adenauer | كونراد أديناور |
+| ○ | Richard von Weizsäcker | ريتشارد فون فايتزيكر |
+| ○ | Helmut Kohl | هيلموت كول |
 
-> **📝** Who was the first Federal President of Germany? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** تيودور هويس (1884-1963) كان أول رئيس فيدرالي لجمهورية ألمانيا الاتحادية من 1949 إلى 1959. أسهم في إرساء ثقافة ديمقراطية وترسيخ شرعية الجمهورية الجديدة.
 
 ---
 
 ### Question 180
 
 **🇩🇪 Deutsch:** Wer__(r)____(w)__ar__(r)____(M)__artin Luther?
-**🇸🇦 عربي:** Who was Martin Luther?
+**🇸🇦 عربي:** من كان مارتن لوثر؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ○ | ein__(e)____(d)__eutscher Politiker | a German politician |
-| ✅ | **ein__(e)____(d)__eutscher Mönch__(h)____(u)__nd__(d)____(T)__heologe, der die Reformation__(n)____(e)__inleitete** | **a German monk and theologian who initiated the Reformation** |
-| ○ | ein__(e)____(d)__eutscher Komponist | a German composer |
-| ○ | ein Wissenschaftler | a scientist |
+| ○ | ein__(e)____(d)__eutscher Politiker | سياسي ألماني |
+| ✅ | **ein__(e)____(d)__eutscher Mönch__(h)____(u)__nd__(d)____(T)__heologe, der die Reformation__(n)____(e)__inleitete** | **راهب ولاهوتي ألماني أطلق الإصلاح الديني** |
+| ○ | ein__(e)____(d)__eutscher Komponist | ملحّن ألماني |
+| ○ | ein Wissenschaftler | عالِم |
 
-> **📝** Who was Martin Luther? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** مارتن لوثر (1483-1546) راهب وعالِم لاهوت ألماني أشعل الإصلاح البروتستانتي بعد نشره أطروحاته الخمس والتسعين عام 1517. ترجمته للإنجيل أسهمت في توحيد اللغة الألمانية.
 
 ---
 
 ### Question 181
 
 **🇩🇪 Deutsch:** Warum__(m)__ __(w)__ird der __(9)__. November 1__(9)__38 als__(s)____(S)__chandtag der deutschen Geschichte bezeichnet?
-**🇸🇦 عربي:** Why is November 9, 1938 called a day of shame in German history?
+**🇸🇦 عربي:** لماذا يُعدّ 9 نوفمبر 1938 يومًا مخزيًا في التاريخ الألماني؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **Wegen der__(d)____(N)__ovemberpogrome gegen die__(d)__ __(j)__üdische Bevölkerung** | **Because of the November Pogroms against the Jewish population** |
-| ○ | Wegen des Beginns des Zweiten Weltkrieges | Because of the start of WWII |
-| ○ | Wegen des Mauerbaus | Because of the Wall being built |
-| ○ | Wegen der Gründung der DDR | Because of the founding of the GDR |
+| ✅ | **Wegen der__(d)____(N)__ovemberpogrome gegen die__(d)__ __(j)__üdische Bevölkerung** | **بسبب البوغروم ضد اليهود** |
+| ○ | Wegen des Beginns des Zweiten Weltkrieges | بسبب بداية الحرب العالمية الثانية |
+| ○ | Wegen des Mauerbaus | بسبب بناء الجدار |
+| ○ | Wegen der Gründung der DDR | بسبب تأسيس ألمانيا الشرقية |
 
-> **📝** Why is November 9, 1938 called a day of shame in German history? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** بسبب ليلة البوغروم (Novemberpogrome) ضد اليهود في 9 نوفمبر 1938 أُحرقت المعابد وهُدِّمت المحلات التجارية اليهودية. يُعدّ هذا اليوم منعطفًا نحو الهولوكوست.
 
 ---
 
 ### Question 182
 
 **🇩🇪 Deutsch:** Wie heißt das jüdische Gebetshaus?
-**🇸🇦 عربي:** What is a Jewish house of worship called?
+**🇸🇦 عربي:** ما اسم دار العبادة اليهودية؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ○ | Basilika | Basilica |
-| ○ | Moschee | Mosque |
-| ✅ | **Synagoge** | **Synagogue** |
-| ○ | Kirche | Church |
+| ○ | Basilika | بازيليكا |
+| ○ | Moschee | مسجد |
+| ✅ | **Synagoge** | **كنيس (Synagoge)** |
+| ○ | Kirche | كنيسة |
 
-> **📝** What is a Jewish house of worship called? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** دار العبادة اليهودية تُسمّى كنيسًا (Synagoge). في ألمانيا نحو 200 كنيس، أُعيد بناء كثير منها بعد تدميرها في عهد النازية.
 
 ---
 
 ### Question 183
 
 **🇩🇪 Deutsch:** Wann__(n)____(b)__egann der__(d)____(Z)__weite Weltkrieg__(m)__it dem deutschen Überfall auf Polen?
-**🇸🇦 عربي:** When did WWII begin with the German invasion of Poland?
+**🇸🇦 عربي:** متى بدأت الحرب العالمية الثانية بالغزو الألماني لبولندا؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **am 1. September 1939** | **September 1, 1939** |
-| ○ | am 1. September 1__(9)__38 | September 1, 1938 |
-| ○ | am 1. Januar 1__(9)__40 | January 1, 1940 |
-| ○ | am 1. Juni 1941 | June 1, 1941 |
+| ✅ | **am 1. September 1939** | **1 سبتمبر 1939** |
+| ○ | am 1. September 1__(9)__38 | 1 سبتمبر 1938 |
+| ○ | am 1. Januar 1__(9)__40 | 1 يناير 1940 |
+| ○ | am 1. Juni 1941 | 1 يونيو 1941 |
 
-> **📝** When did WWII begin with the German invasion of Poland? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** في 1 سبتمبر 1939 شنّت ألمانيا النازية هجومًا على بولندا، فردّت بريطانيا وفرنسا بإعلان الحرب على ألمانيا. هذا اليوم هو التاريخ الرسمي لبدء الحرب العالمية الثانية.
 
 ---
 
 ### Question 184
 
 **🇩🇪 Deutsch:** Auf welcher rechtlichen Grundlage wurde der Staat Israel gegründet?
-**🇸🇦 عربي:** On what legal basis was the State of Israel founded?
+**🇸🇦 عربي:** على أي أساس قانوني تأسّست دولة إسرائيل؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **eine Resolution der Vereinten Nationen** | **a United Nations resolution** |
-| ○ | ein Beschluss des Zionistenkongresses | a decision of the Zionist Congress |
-| ○ | ein Vorschlag der Bundesregierung | a proposal by the German Federal Government |
-| ○ | ein Vorschlag der UdSSR | a proposal by the USSR |
+| ✅ | **eine Resolution der Vereinten Nationen** | **قرار صادر عن الأمم المتحدة** |
+| ○ | ein Beschluss des Zionistenkongresses | قرار من المؤتمر الصهيوني |
+| ○ | ein Vorschlag der Bundesregierung | اقتراح من الحكومة الألمانية |
+| ○ | ein Vorschlag der UdSSR | اقتراح من الاتحاد السوفيتي |
 
-> **📝** On what legal basis was the State of Israel founded? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** أُسِّست دولة إسرائيل في مايو 1948 استنادًا إلى قرار الأمم المتحدة رقم 181 الصادر عام 1947 القاضي بتقسيم فلسطين.
 
 ---
 
 ### Question 185
 
 **🇩🇪 Deutsch:** Welches "__(W)__irtschaftswunder"__(e)__rlebte Deutschland__(d)____(n)__ach 1__(9)__45?
-**🇸🇦 عربي:** What "economic miracle" did Germany experience after 1945?
+**🇸🇦 عربي:** ما "المعجزة الاقتصادية" التي شهدتها ألمانيا بعد 1945؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **den schnellen wirtschaftlichen Aufschwung Westdeutschlands in den 1950er Jahren** | **the rapid economic recovery of West Germany in the 1950s** |
-| ○ | die Industrialisierung | industrialization |
-| ○ | die Erfindung des Autos | the invention of the car |
-| ○ | den Bau der Mauer | the building of the Wall |
+| ✅ | **den schnellen wirtschaftlichen Aufschwung Westdeutschlands in den 1950er Jahren** | **الانتعاش الاقتصادي السريع لألمانيا الغربية في الخمسينيات** |
+| ○ | die Industrialisierung | التصنيع |
+| ○ | die Erfindung des Autos | اختراع السيارة |
+| ○ | den Bau der Mauer | بناء الجدار |
 
-> **📝** What "economic miracle" did Germany experience after 1945? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** "المعجزة الاقتصادية الألمانية" (Wirtschaftswunder) وصفت الانتعاش الاقتصادي السريع والمذهل لألمانيا الغربية في الخمسينيات والستينيات بعد خراب الحرب.
 
 ---
 
 ### Question 186
 
 **🇩🇪 Deutsch:** Wann war der Erste Weltkrieg?
-**🇸🇦 عربي:** When was World War I?
+**🇸🇦 عربي:** متى كانت الحرب العالمية الأولى؟
 
 | | Deutsch | عربي |
 |---|---|---|
@@ -577,62 +576,62 @@
 | ○ | 1__(8)____(7)__1–1__(8)____(9)__0 | 1871–1890 |
 | ○ | 1__(8)____(4)__8–1__(8)____(4)__9 | 1848–1849 |
 
-> **📝** When was World War I? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** الحرب العالمية الأولى امتدت من 1914 إلى 1918. شارك فيها الكثير من دول العالم وخلّفت أكثر من 17 مليون قتيل. أفضت إلى انهيار عدة إمبراطوريات.
 
 ---
 
 ### Question 187
 
 **🇩🇪 Deutsch:** Was ist das__(d)____(R)__ote Kreuz / der Rote Halbmond?
-**🇸🇦 عربي:** What is the Red Cross / Red Crescent?
+**🇸🇦 عربي:** ما الصليب الأحمر / الهلال الأحمر؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **eine internationale Hilfsorganisation** | **an international humanitarian organization** |
-| ○ | eine politische Partei | a political party |
-| ○ | eine Kirche | a church |
-| ○ | ein Krankenhaus | a hospital |
+| ✅ | **eine internationale Hilfsorganisation** | **منظمة إنسانية دولية** |
+| ○ | eine politische Partei | حزب سياسي |
+| ○ | eine Kirche | كنيسة |
+| ○ | ein Krankenhaus | مستشفى |
 
-> **📝** What is the Red Cross / Red Crescent? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** الصليب الأحمر والهلال الأحمر منظمتان إنسانيتان دوليتان تعملان في النزاعات المسلحة والكوارث. تأسّستا على مبادئ الحياد والاستقلالية والإنسانية.
 
 ---
 
 ### Question 188
 
 **🇩🇪 Deutsch:** Was__(s)____(w)__ar__(r)____(d)__ie__(e)__ "__(S)__tasi"?
-**🇸🇦 عربي:** What was the "Stasi"?
+**🇸🇦 عربي:** ما كانت "الشتازي"؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **die__(d)____(G)__eheimpolizei der DDR** | **the secret police of the GDR** |
-| ○ | eine Armee | an army |
-| ○ | ein Gericht | a court |
-| ○ | eine Partei | a party |
+| ✅ | **die__(d)____(G)__eheimpolizei der DDR** | **جهاز أمن الدولة السري في ألمانيا الشرقية** |
+| ○ | eine Armee | جيش |
+| ○ | ein Gericht | محكمة |
+| ○ | eine Partei | حزب |
 
-> **📝** What was the "Stasi"? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** الشتازي (Stasi) هو الاسم المختصر لوزارة أمن الدولة في ألمانيا الشرقية. كانت أحد أشد أجهزة الاستخبارات كثافةً في التاريخ؛ راقبت الملايين من المواطنين.
 
 ---
 
 ### Question 189
 
 **🇩🇪 Deutsch:** Welches__(s)__ __(L)__and__(d)____(h)__at__(t)____(D)__eutschland am 1. September 1939 __(ü)__berfallen?
-**🇸🇦 عربي:** Which country did Germany invade on September 1, 1939?
+**🇸🇦 عربي:** أي دولة غزتها ألمانيا في 1 سبتمبر 1939؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **Polen** | **Poland** |
-| ○ | Frankreich | France |
-| ○ | die Sowjetunion | the Soviet Union |
-| ○ | Großbritannien | Great Britain |
+| ✅ | **Polen** | **بولندا** |
+| ○ | Frankreich | فرنسا |
+| ○ | die Sowjetunion | الاتحاد السوفيتي |
+| ○ | Großbritannien | بريطانيا العظمى |
 
-> **📝** Which country did Germany invade on September 1, 1939? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** غزت ألمانيا النازية بولندا في 1 سبتمبر 1939 مشعلةً الحرب العالمية الثانية. احتُلّت بولندا بالكامل في غضون أسابيع قليلة.
 
 ---
 
 ### Question 190
 
 **🇩🇪 Deutsch:** Wann__(n)__ __(f)__and die Deutsche Wiedervereinigung statt?
-**🇸🇦 عربي:** When did German reunification take place?
+**🇸🇦 عربي:** متى جرت إعادة توحيد ألمانيا؟
 
 | | Deutsch | عربي |
 |---|---|---|
@@ -641,30 +640,30 @@
 | ✅ | **1990** | **1990** |
 | ○ | 1__(9)__95 | 1995 |
 
-> **📝** When did German reunification take place? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** تحققت إعادة التوحيد رسميًا في 3 أكتوبر 1990. في هذا التاريخ انضمت الولايات الخمس لألمانيا الشرقية إلى جمهورية ألمانيا الاتحادية.
 
 ---
 
 ### Question 191
 
 **🇩🇪 Deutsch:** Was__(s)____(w)__ar__(r)____(d)__ie "__(D)__eutsche Frage"?
-**🇸🇦 عربي:** What was the "German Question"?
+**🇸🇦 عربي:** ما "المسألة الألمانية"؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **die__(d)____(F)__rage nach__(n)____(d)__er__(s)__taatlichen Einheit Deutschlands** | **the question of German national unity** |
-| ○ | eine Quizshow | a quiz show |
-| ○ | ein Gesetzentwurf | a draft law |
-| ○ | eine Prüfungsfrage | an exam question |
+| ✅ | **die__(d)____(F)__rage nach__(n)____(d)__er__(s)__taatlichen Einheit Deutschlands** | **مسألة الوحدة الوطنية الألمانية** |
+| ○ | eine Quizshow | برنامج مسابقات تلفزيونية |
+| ○ | ein Gesetzentwurf | مشروع قانون |
+| ○ | eine Prüfungsfrage | سؤال في امتحان |
 
-> **📝** What was the "German Question"? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** "المسألة الألمانية" مصطلح سياسي تاريخي يشير إلى التساؤل حول وحدة الشعب الألماني وحدوده وعلاقته بدول الجوار، وقد ظلّ محوريًا في السياسة الأوروبية منذ القرن التاسع عشر.
 
 ---
 
 ### Question 192
 
 **🇩🇪 Deutsch:** Wann wurde das Deutsche Reich__(h)____(g)__egründet?
-**🇸🇦 عربي:** When was the German Empire founded?
+**🇸🇦 عربي:** متى تأسّست الإمبراطورية الألمانية؟
 
 | | Deutsch | عربي |
 |---|---|---|
@@ -673,30 +672,30 @@
 | ○ | 1__(9)____(1)__8 | 1918 |
 | ○ | 1__(9)____(3)__3 | 1933 |
 
-> **📝** When was the German Empire founded? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** تأسّست الإمبراطورية الألمانية في 18 يناير 1871 في قاعة المرايا بقصر فرساي إثر انتصار بروسيا على فرنسا. وحّد بسمارك الممالك والإمارات الألمانية تحت قيادة الإمبراطور فيلهلم الأول.
 
 ---
 
 ### Question 193
 
 **🇩🇪 Deutsch:** Wer__(r)____(w)__ar__(r)____(O)__tto von Bismarck?
-**🇸🇦 عربي:** Who was Otto von Bismarck?
+**🇸🇦 عربي:** من كان أوتو فون بسمارك؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **der erste Reichskanzler Deutschlands** | **Germany's first Chancellor (Reichskanzler)** |
-| ○ | ein deutscher König | a German king |
-| ○ | ein Wissenschaftler | a scientist |
-| ○ | ein Komponist | a composer |
+| ✅ | **der erste Reichskanzler Deutschlands** | **أول مستشار فيدرالي لألمانيا (Reichskanzler)** |
+| ○ | ein deutscher König | ملك ألماني |
+| ○ | ein Wissenschaftler | عالِم |
+| ○ | ein Komponist | ملحّن |
 
-> **📝** Who was Otto von Bismarck? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** أوتو فون بسمارك (1815-1898) كان رئيس الوزراء البروسي ثم أول مستشار للإمبراطورية الألمانية. وحّد ألمانيا وأرسى الدولة الاجتماعية عبر التشريعات الاجتماعية.
 
 ---
 
 ### Question 194
 
 **🇩🇪 Deutsch:** Wann__(n)__ __(e)__ndete der Erste Weltkrieg?
-**🇸🇦 عربي:** When did World War I end?
+**🇸🇦 عربي:** متى انتهت الحرب العالمية الأولى؟
 
 | | Deutsch | عربي |
 |---|---|---|
@@ -705,103 +704,103 @@
 | ○ | 1__(9)____(3)__3 | 1933 |
 | ○ | 1__(9)____(4)__5 | 1945 |
 
-> **📝** When did World War I end? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** انتهت الحرب العالمية الأولى في 11 نوفمبر 1918 بتوقيع الهدنة. أُبرمت معاهدة فرساي رسميًا عام 1919 وفرضت شروطًا قاسية على ألمانيا.
 
 ---
 
 ### Question 195
 
 **🇩🇪 Deutsch:** Wer__(r)____(d)__urfte__(e)____(i)__n der__(d)____(D)__DR__(n)__icht frei reisen?
-**🇸🇦 عربي:** Who was not allowed to travel freely in the GDR?
+**🇸🇦 عربي:** من لم يكن مسموحًا له بالسفر بحرية في ألمانيا الشرقية؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ○ | SED-Funktionäre | SED officials |
-| ✅ | **die meisten DDR-Bürger** | **most GDR citizens** |
-| ○ | Sportler | Athletes |
-| ○ | Rentner | Retirees |
+| ○ | SED-Funktionäre | مسؤولو الحزب SED |
+| ✅ | **die meisten DDR-Bürger** | **معظم مواطني ألمانيا الشرقية** |
+| ○ | Sportler | الرياضيون |
+| ○ | Rentner | المتقاعدون |
 
-> **📝** Who was not allowed to travel freely in the GDR? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** معظم مواطني ألمانيا الشرقية لم يُسمح لهم بالسفر إلى الغرب بحرية. فقط بعض الفئات المختارة كمسؤولي الحزب والمتقاعدين (من سن 65) كان يُسمح لهم في أحيان معينة.
 
 ---
 
 ### Question 196
 
 **🇩🇪 Deutsch:** Was__(s)____(w)__ar__(r)____(d)__ie__(e)__ "__(F)__riedliche Revolution"?
-**🇸🇦 عربي:** What was the "Peaceful Revolution"?
+**🇸🇦 عربي:** ما "الثورة السلمية"؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **die__(d)____(g)__ewaltfreien Proteste__(e)____(d)__er DDR-Bürger 1989, die zum Fall der Mauer führten** | **the nonviolent protests by GDR citizens in 1989 that led to the fall of the Wall** |
-| ○ | eine Revolution in Frankreich | a revolution in France |
-| ○ | ein Krieg | a war |
-| ○ | eine Wirtschaftsreform | an economic reform |
+| ✅ | **die__(d)____(g)__ewaltfreien Proteste__(e)____(d)__er DDR-Bürger 1989, die zum Fall der Mauer führten** | **الاحتجاجات السلمية لمواطني ألمانيا الشرقية عام 1989 التي أدّت إلى سقوط الجدار** |
+| ○ | eine Revolution in Frankreich | ثورة في فرنسا |
+| ○ | ein Krieg | حرب |
+| ○ | eine Wirtschaftsreform | إصلاح اقتصادي |
 
-> **📝** What was the "Peaceful Revolution"? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** "الثورة السلمية" هي حركة الاحتجاج السلمية التي انطلقت في ألمانيا الشرقية عام 1989. مسيرات الاثنين وحركات حقوق الإنسان أدّت إلى سقوط الجدار وانتهى بالتوحيد.
 
 ---
 
 ### Question 197
 
 **🇩🇪 Deutsch:** Welches Ereignis__(s)____(g)__eschah in Deutschland am 9. November 1989?
-**🇸🇦 عربي:** What event occurred in Germany on November 9, 1989?
+**🇸🇦 عربي:** ما الحدث الذي وقع في ألمانيا في 9 نوفمبر 1989؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **Fall der Berliner Mauer** | **Fall of the Berlin Wall** |
-| ○ | Gründung der DDR | Founding of the GDR |
-| ○ | Wiedervereinigung | Reunification |
-| ○ | Novemberpogrome | November Pogroms |
+| ✅ | **Fall der Berliner Mauer** | **سقوط جدار برلين** |
+| ○ | Gründung der DDR | تأسيس ألمانيا الشرقية |
+| ○ | Wiedervereinigung | التوحيد |
+| ○ | Novemberpogrome | بوغروم نوفمبر |
 
-> **📝** What event occurred in Germany on November 9, 1989? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** في 9 نوفمبر 1989 أُعلن عن فتح الحدود فاحتشدت الجماهير عند نقاط العبور وبدأت في هدم جدار برلين. هذا الحدث يُمثّل نهاية الحرب الباردة وبداية مسيرة التوحيد.
 
 ---
 
 ### Question 198
 
 **🇩🇪 Deutsch:** Was ist Deutschland__(s)____(g)__rößter__(r)____(F)__eiertag?
-**🇸🇦 عربي:** What is Germany's biggest national holiday?
+**🇸🇦 عربي:** ما أكبر عطلة وطنية في ألمانيا؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **der Tag der Deutschen Einheit am 3. Oktober** | **German Unity Day on October 3** |
-| ○ | Weihnachten | Christmas |
-| ○ | Ostern | Easter |
-| ○ | der 1. Mai | May 1 |
+| ✅ | **der Tag der Deutschen Einheit am 3. Oktober** | **يوم الوحدة الألمانية في 3 أكتوبر** |
+| ○ | Weihnachten | الكريسماس |
+| ○ | Ostern | الفصح |
+| ○ | der 1. Mai | فاتح مايو |
 
-> **📝** What is Germany's biggest national holiday? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** يوم الوحدة الألمانية (Tag der Deutschen Einheit) في 3 أكتوبر هو اليوم الوطني الرسمي لألمانيا ويُحتفَل فيه بذكرى التوحيد عام 1990.
 
 ---
 
 ### Question 199
 
 **🇩🇪 Deutsch:** Welche__(e)____(d)__eutschen__(n)____(S)__tädte wurden im Zweiten Weltkrieg__(g)____(s)__tark zerstört?
-**🇸🇦 عربي:** Which German cities were heavily destroyed in WWII?
+**🇸🇦 عربي:** أيٌّ من المدن الألمانية دُمِّر بشدة في الحرب العالمية الثانية؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **Dresden und Köln** | **Dresden and Cologne** |
-| ○ | Zürich und Wien | Zurich and Vienna |
-| ○ | Bern und Basel | Bern and Basel |
-| ○ | München und Heidelberg | Munich and Heidelberg |
+| ✅ | **Dresden und Köln** | **دريسدن وكولونيا** |
+| ○ | Zürich und Wien | زيورخ وفيينا |
+| ○ | Bern und Basel | بيرن وبازل |
+| ○ | München und Heidelberg | ميونيخ وهايدلبرغ |
 
-> **📝** Which German cities were heavily destroyed in WWII? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** دريسدن وكولونيا وهامبورغ وبرلين وغيرها من المدن الألمانية تعرّضت لقصف شديد. قُصفت دريسدن في فبراير 1945 وكان الدمار فيها هائلًا.
 
 ---
 
 ### Question 200
 
 **🇩🇪 Deutsch:** Wer__(r)____(h)__at den__(n)____(B)__uchdruck__(k)____(e)__rfunden?
-**🇸🇦 عربي:** Who invented the printing press?
+**🇸🇦 عربي:** من اخترع آلة الطباعة؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **Johannes Gutenberg** | **Johannes Gutenberg** |
-| ○ | Martin Luther | Martin Luther |
-| ○ | Otto von Bismarck | Otto von Bismarck |
-| ○ | Albert Einstein | Albert Einstein |
+| ✅ | **Johannes Gutenberg** | **يوهانس غوتنبرغ** |
+| ○ | Martin Luther | مارتن لوثر |
+| ○ | Otto von Bismarck | أوتو فون بسمارك |
+| ○ | Albert Einstein | ألبرت أينشتاين |
 
-> **📝** Who invented the printing press? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** يوهانس غوتنبرغ (حوالي 1400-1468) اخترع آلة الطباعة بالحروف المتحركة في ماينتس حوالي 1450. غيّر هذا الاختراع مسار التاريخ بتيسير نشر المعرفة.
 
 ---
 

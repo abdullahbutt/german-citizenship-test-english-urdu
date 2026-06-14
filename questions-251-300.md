@@ -1,5 +1,4 @@
-# الأسئلة العامة — الجزء السادس (الأسئلة 251–300)
-## الجغرافيا والاقتصاد والقانون المدني
+# الأسئلة العامة — الجزء السادس (251–300)
 
 [⬅ العودة](README.md)
 
@@ -8,800 +7,800 @@
 ### Question 251
 
 **🇩🇪 Deutsch:** Was ist eine Aufgabe der Vereinten Nationen (UNO)?
-**🇸🇦 عربي:** What is a task of the United Nations (UN)?
+**🇸🇦 عربي:** ما إحدى مهام الأمم المتحدة؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **Frieden und Sicherheit in der Welt zu sichern** | **Securing peace and security in the world** |
-| ○ | Autos zu produzieren | Producing cars |
-| ○ | Wahlen in Deutschland durchzuführen | Conducting elections in Germany |
-| ○ | den Euro einzuführen | Introducing the Euro |
+| ✅ | **Frieden und Sicherheit in der Welt zu sichern** | **تحقيق السلام والأمن في العالم** |
+| ○ | Autos zu produzieren | إنتاج السيارات |
+| ○ | Wahlen in Deutschland durchzuführen | إجراء انتخابات في ألمانيا |
+| ○ | den Euro einzuführen | تقديم اليورو |
 
-> **📝** What is a task of the United Nations (UN)? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** الأمم المتحدة (UNO) منظمة دولية أُسِّست عام 1945. مهامها الرئيسية حفظ السلام والأمن الدوليَّين وتعزيز حقوق الإنسان والتنمية المستدامة.
 
 ---
 
 ### Question 252
 
 **🇩🇪 Deutsch:** Welche Organisation__(n)__ist für den Schutz der Menschenrechte zuständig?
-**🇸🇦 عربي:** Which organization is responsible for protecting human rights?
+**🇸🇦 عربي:** أيٌّ من المنظمات مسؤول عن حماية حقوق الإنسان؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **Amnesty International** | **Amnesty International** |
-| ○ | der ADAC | ADAC (automobile club) |
-| ○ | Greenpeace | Greenpeace |
-| ○ | die FIFA | FIFA |
+| ✅ | **Amnesty International** | **منظمة العفو الدولية** |
+| ○ | der ADAC | ADAC (نادي السيارات) |
+| ○ | Greenpeace | غرينبيس |
+| ○ | die FIFA | فيفا |
 
-> **📝** Which organization is responsible for protecting human rights? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** منظمة العفو الدولية (Amnesty International) تُراقب انتهاكات حقوق الإنسان حول العالم وتُطالب الحكومات باحترامها. تأسّست عام 1961.
 
 ---
 
 ### Question 253
 
 **🇩🇪 Deutsch:** Was ist der Mindestlohn in Deutschland?
-**🇸🇦 عربي:** What is the minimum wage (Mindestlohn) in Germany?
+**🇸🇦 عربي:** ما الحد الأدنى للأجور في ألمانيا؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ○ | ein freiwillig vereinbarter Stundenlohn zwischen Arbeitgeber und Arbeitnehmer | a voluntarily agreed hourly wage between employer and employee |
-| ○ | ein einheitlicher Monatslohn für alle Berufe | a uniform monthly salary for all professions |
-| ○ | eine staatliche Sozialleistung für Arbeitslose | a state benefit for unemployed people |
-| ✅ | **ein gesetzlich festgelegter Stundenlohn, den Arbeitgeber mindestens zahlen müssen** | **a legally mandated hourly wage that employers must pay at minimum** |
+| ○ | ein freiwillig vereinbarter Stundenlohn zwischen Arbeitgeber und Arbeitnehmer | أجر بالساعة يتفق عليه الطرفان طوعًا |
+| ○ | ein einheitlicher Monatslohn für alle Berufe | راتب شهري موحَّد لجميع المهن |
+| ○ | eine staatliche Sozialleistung für Arbeitslose | إعانة حكومية للعاطلين |
+| ✅ | **ein gesetzlich festgelegter Stundenlohn, den Arbeitgeber mindestens zahlen müssen** | **أجر بالساعة يُحدّده القانون كحدٍّ أدنى ملزم لأصحاب العمل** |
 
-> **📝** What is the minimum wage (Mindestlohn) in Germany? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** الحد الأدنى للأجور (Mindestlohn) في ألمانيا يُحدَّد قانونيًا. قُرِّر تطبيقه عام 2015، ويُراجَع دوريًا. يُلزم جميع أصحاب العمل بدفعه على الأقل.
 
 ---
 
 ### Question 254
 
 **🇩🇪 Deutsch:** Was__(s)__ist "__(A)__rbeitslosengeld"?
-**🇸🇦 عربي:** What is "unemployment benefit"?
+**🇸🇦 عربي:** ما "إعانة البطالة" (Arbeitslosengeld)؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **eine__(e)__Leistung des Staates für Menschen, die ihre Arbeit verloren haben** | **a state benefit for people who have lost their job** |
-| ○ | ein Bonus vom Arbeitgeber | a bonus from the employer |
-| ○ | ein Bankkredit | a bank loan |
-| ○ | Urlaubsgeld | vacation pay |
+| ✅ | **eine__(e)__Leistung des Staates für Menschen, die ihre Arbeit verloren haben** | **إعانة حكومية للذين فقدوا عملهم** |
+| ○ | ein Bonus vom Arbeitgeber | مكافأة من صاحب العمل |
+| ○ | ein Bankkredit | قرض مصرفي |
+| ○ | Urlaubsgeld | أجر الإجازة |
 
-> **📝** What is "unemployment benefit"? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** "ألو 1" (Arbeitslosengeld I) إعانة تأمين البطالة تصرفها وكالة التشغيل (Bundesagentur für Arbeit) لمن فقد عمله بعد دفع اشتراكات لفترة كافية.
 
 ---
 
 ### Question 255
 
 **🇩🇪 Deutsch:** Welches__(s)__Fest__(e)__feiern__(n)__die Christen an Ostern?
-**🇸🇦 عربي:** What do Christians celebrate at Easter?
+**🇸🇦 عربي:** بماذا يحتفل المسيحيون في عيد الفصح؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **die Auferstehung von Jesus Christus** | **the resurrection of Jesus Christ** |
-| ○ | die Geburt von Jesus Christus | the birth of Jesus Christ |
-| ○ | das Erntedankfest | the harvest festival |
-| ○ | den Tag der Deutschen Einheit | German Unity Day |
+| ✅ | **die Auferstehung von Jesus Christus** | **قيامة يسوع المسيح** |
+| ○ | die Geburt von Jesus Christus | ميلاد يسوع المسيح |
+| ○ | das Erntedankfest | مهرجان الحصاد |
+| ○ | den Tag der Deutschen Einheit | يوم الوحدة الألمانية |
 
-> **📝** What do Christians celebrate at Easter? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** عيد الفصح (Ostern) هو أهم الأعياد المسيحية ويحتفل فيه بقيامة يسوع المسيح. يقع في الربيع، وفيه تُعطَّل أيام الجمعة الكبرى وأحد الفصح.
 
 ---
 
 ### Question 256
 
 **🇩🇪 Deutsch:** Welches Fest feiern Christen an Weihnachten?
-**🇸🇦 عربي:** What do Christians celebrate at Christmas?
+**🇸🇦 عربي:** بماذا يحتفل المسيحيون في الكريسماس؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **die Geburt von Jesus Christus** | **the birth of Jesus Christ** |
-| ○ | die Auferstehung von Jesus | the resurrection of Jesus |
-| ○ | den Reformationstag | Reformation Day |
-| ○ | den Beginn des Ramadan | the beginning of Ramadan |
+| ✅ | **die Geburt von Jesus Christus** | **ميلاد يسوع المسيح** |
+| ○ | die Auferstehung von Jesus | قيامة يسوع |
+| ○ | den Reformationstag | يوم الإصلاح |
+| ○ | den Beginn des Ramadan | بداية رمضان |
 
-> **📝** What do Christians celebrate at Christmas? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** الكريسماس (Weihnachten) يحتفل فيه المسيحيون بميلاد يسوع المسيح. في ألمانيا تبدأ الاحتفالات من يوم 24 ديسمبر (ليلة الكريسماس).
 
 ---
 
 ### Question 257
 
 **🇩🇪 Deutsch:** Was__(s)__ist der Ramadan?
-**🇸🇦 عربي:** What is Ramadan?
+**🇸🇦 عربي:** ما رمضان؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **der islamische Fastenmonat** | **the Islamic fasting month** |
-| ○ | ein christliches Fest | a Christian holiday |
-| ○ | ein jüdisches Fest | a Jewish holiday |
-| ○ | ein hinduistisches Fest | a Hindu holiday |
+| ✅ | **der islamische Fastenmonat** | **شهر الصيام الإسلامي** |
+| ○ | ein christliches Fest | عطلة مسيحية |
+| ○ | ein jüdisches Fest | عطلة يهودية |
+| ○ | ein hinduistisches Fest | عطلة هندوسية |
 
-> **📝** What is Ramadan? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** رمضان الشهر التاسع من التقويم الهجري، يصوم فيه المسلمون من الفجر حتى المغرب. يتبعه عيد الفطر. يُعدّ من أهم شعائر الإسلام.
 
 ---
 
 ### Question 258
 
 **🇩🇪 Deutsch:** Was__(s)__ist Chanukka?
-**🇸🇦 عربي:** What is Hanukkah?
+**🇸🇦 عربي:** ما "حانوكا"؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **ein jüdisches Lichterfest** | **a Jewish festival of lights** |
-| ○ | ein islamisches Fest | an Islamic holiday |
-| ○ | ein christliches Fest | a Christian holiday |
-| ○ | ein buddhistisches Fest | a Buddhist holiday |
+| ✅ | **ein jüdisches Lichterfest** | **عيد الأنوار اليهودي** |
+| ○ | ein islamisches Fest | عيد إسلامي |
+| ○ | ein christliches Fest | عيد مسيحي |
+| ○ | ein buddhistisches Fest | عيد بوذي |
 
-> **📝** What is Hanukkah? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** "حانوكا" عيد الأنوار اليهودي يُحتفَل به لمدة ثمانية أيام. يتضمّن إضاءة شمعدان الحانوكية احتفاءً بمعجزة الزيت في هيكل القدس.
 
 ---
 
 ### Question 259
 
 **🇩🇪 Deutsch:** Welche__(e)__Religionsgemeinschaft feiert das__(d)__Zuckerfest?
-**🇸🇦 عربي:** Which religious community celebrates the "Sugar Festival" (Eid)?
+**🇸🇦 عربي:** أيٌّ من الجماعات الدينية يحتفل بعيد الفطر؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ○ | Christen | Christians |
-| ✅ | **Muslime** | **Muslims** |
-| ○ | Juden | Jews |
-| ○ | Hindus | Hindus |
+| ○ | Christen | المسيحيون |
+| ✅ | **Muslime** | **المسلمون** |
+| ○ | Juden | اليهود |
+| ○ | Hindus | الهندوس |
 
-> **📝** Which religious community celebrates the "Sugar Festival" (Eid)? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** عيد الفطر يحتفل به المسلمون في نهاية شهر رمضان. هو من أهم الأعياد الإسلامية ويتسم بالتجمع العائلي وتبادل الهدايا والتزاور.
 
 ---
 
 ### Question 260
 
 **🇩🇪 Deutsch:** Wann__(n)__feiert man in Deutschland den Tag der Arbeit?
-**🇸🇦 عربي:** When is Labor Day celebrated in Germany?
+**🇸🇦 عربي:** متى يُحتفَل بيوم العمال في ألمانيا؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **am 1. Mai** | **May 1** |
-| ○ | am 3. Oktober | October 3 |
-| ○ | am 24. Dezember | December 24 |
-| ○ | am 1. Januar | January 1 |
+| ✅ | **am 1. Mai** | **أول مايو** |
+| ○ | am 3. Oktober | 3 أكتوبر |
+| ○ | am 24. Dezember | 24 ديسمبر |
+| ○ | am 1. Januar | أول يناير |
 
-> **📝** When is Labor Day celebrated in Germany? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** يوم العمال (Tag der Arbeit) في الأول من مايو عطلة رسمية في ألمانيا. تنظّم النقابات مظاهرات وفعاليات احتجاجية واحتفالية.
 
 ---
 
 ### Question 261
 
 **🇩🇪 Deutsch:** Welche__(e)__Maßnahme gehört zur Fürsorgepflicht des Arbeitgebers?
-**🇸🇦 عربي:** Which measure is part of an employer's duty of care?
+**🇸🇦 عربي:** أيٌّ من الإجراءات يدخل في إطار واجب الرعاية على صاحب العمل؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **Arbeitsschutz gewährleisten** | **Ensuring workplace safety** |
-| ○ | Urlaub bezahlen | Paying for vacations |
-| ○ | Wohnungen bereitstellen | Providing housing |
-| ○ | Kinderbetreuung organisieren | Organizing childcare |
+| ✅ | **Arbeitsschutz gewährleisten** | **ضمان سلامة مكان العمل** |
+| ○ | Urlaub bezahlen | تمويل الإجازات |
+| ○ | Wohnungen bereitstellen | توفير السكن |
+| ○ | Kinderbetreuung organisieren | تنظيم رعاية الأطفال |
 
-> **📝** Which measure is part of an employer's duty of care? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** واجب الرعاية (Fürsorgepflicht) يُلزم صاحب العمل بضمان سلامة العمال وصحتهم في مكان العمل. يشمل توفير معدات الحماية والبيئة الآمنة.
 
 ---
 
 ### Question 262
 
 **🇩🇪 Deutsch:** Wer__(r)____(z)__ahlt__(t)__in Deutschland__(d)__die Sozialversicherungsbeiträge?
-**🇸🇦 عربي:** Who pays التأمين الاجتماعي contributions in Germany?
+**🇸🇦 عربي:** من يدفع اشتراكات الضمان الاجتماعي في ألمانيا؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **Arbeitgeber und Arbeitnehmer__(r)____(z)__u__(u)__ngefähr gleichen Teilen** | **Employers and employees in roughly equal shares** |
-| ○ | nur der Arbeitgeber | only the employer |
-| ○ | nur der Arbeitnehmer | only the employee |
-| ○ | nur der Staat | only the state |
+| ✅ | **Arbeitgeber und Arbeitnehmer__(r)____(z)__u__(u)__ngefähr gleichen Teilen** | **أصحاب العمل والموظفون بحصص متقاربة** |
+| ○ | nur der Arbeitgeber | صاحب العمل فقط |
+| ○ | nur der Arbeitnehmer | الموظف فقط |
+| ○ | nur der Staat | الدولة فقط |
 
-> **📝** Who pays التأمين الاجتماعي contributions in Germany? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** اشتراكات الضمان الاجتماعي في ألمانيا يتقاسمها أصحاب العمل والموظفون بحصص متقاربة. يغطي الضمان التأمين الصحي وتأمين المعاشات وتأمين البطالة وتأمين الرعاية وتأمين الحوادث.
 
 ---
 
 ### Question 263
 
 **🇩🇪 Deutsch:** Was__(s)__bedeutet "__(P)__ressefreiheit"?
-**🇸🇦 عربي:** What does "freedom of the press" mean?
+**🇸🇦 عربي:** ما معنى "حرية الصحافة"؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **Medien dürfen__(f)__rei und__(u)__nzensiert berichten.** | **Media may report freely and without censorship.** |
-| ○ | Zeitungen sind kostenlos. | Newspapers are free of charge. |
-| ○ | Journalisten bestimmen die Regierung. | Journalists determine the government. |
-| ○ | Nur die Regierung darf Nachrichten verbreiten. | Only the government may spread news. |
+| ✅ | **Medien dürfen__(f)__rei und__(u)__nzensiert berichten.** | **وسائل الإعلام تُعبّر بحرية ودون رقابة.** |
+| ○ | Zeitungen sind kostenlos. | الصحف مجانية. |
+| ○ | Journalisten bestimmen die Regierung. | الصحفيون يُحدّدون الحكومة. |
+| ○ | Nur die Regierung darf Nachrichten verbreiten. | الحكومة فقط تنشر الأخبار. |
 
-> **📝** What does "freedom of the press" mean? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** حرية الصحافة (Pressefreiheit) مكفولة بالمادة 5 من القانون الأساسي. تضمن لوسائل الإعلام حق التقرير دون خضوع للرقابة المسبقة أو التوجيه الحكومي.
 
 ---
 
 ### Question 264
 
 **🇩🇪 Deutsch:** Was__(s)__ist die "__(V)__ersammlungsfreiheit"?
-**🇸🇦 عربي:** What is "freedom of assembly"?
+**🇸🇦 عربي:** ما "حرية التجمع"؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **das Recht, sich friedlich und ohne Waffen zu versammeln** | **the right to assemble peacefully and without weapons** |
-| ○ | das Recht, Waffen zu tragen | the right to bear arms |
-| ○ | die Pflicht, an Demonstrationen teilzunehmen | the obligation to participate in demonstrations |
-| ○ | das Recht, Versammlungen zu verbieten | the right to ban assemblies |
+| ✅ | **das Recht, sich friedlich und ohne Waffen zu versammeln** | **حق التجمع السلمي دون سلاح** |
+| ○ | das Recht, Waffen zu tragen | حق حمل السلاح |
+| ○ | die Pflicht, an Demonstrationen teilzunehmen | واجب المشاركة في المظاهرات |
+| ○ | das Recht, Versammlungen zu verbieten | حق حظر التجمعات |
 
-> **📝** What is "freedom of assembly"? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** حرية التجمع (Versammlungsfreiheit) مكفولة بالمادة 8 من القانون الأساسي. تُتيح للجميع حق التجمع السلمي دون تصريح مسبق في الأماكن المفتوحة.
 
 ---
 
 ### Question 265
 
 **🇩🇪 Deutsch:** Was__(s)__bedeutet "__(B)__riefgeheimnis"?
-**🇸🇦 عربي:** What does "privacy of correspondence" mean?
+**🇸🇦 عربي:** ما معنى "سرية المراسلات"؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **Niemand darf__(f)__fremde Briefe, E-Mails oder Telefonate ohne Erlaubnis lesen/abhören.** | **No one may read/intercept others' letters, emails, or calls without permission.** |
-| ○ | Man darf keine Briefe schreiben. | You are not allowed to write letters. |
-| ○ | Briefe dürfen nur per Post versendet werden. | Letters may only be sent by mail. |
-| ○ | Alle Briefe werden von der Polizei gelesen. | All letters are read by the police. |
+| ✅ | **Niemand darf__(f)__fremde Briefe, E-Mails oder Telefonate ohne Erlaubnis lesen/abhören.** | **لا يحق لأحد قراءة أو اعتراض رسائل أو بريد إلكتروني أو مكالمات الآخرين دون إذن.** |
+| ○ | Man darf keine Briefe schreiben. | لا يحق لك كتابة الرسائل. |
+| ○ | Briefe dürfen nur per Post versendet werden. | يُرسَل البريد بالبريد فقط. |
+| ○ | Alle Briefe werden von der Polizei gelesen. | الشرطة تطّلع على كل الرسائل. |
 
-> **📝** What does "privacy of correspondence" mean? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** سرية المراسلات والاتصالات (Brief- und Fernmeldegeheimnis) مكفولة بالمادة 10 من القانون الأساسي. تحمي الرسائل والمكالمات والبريد الإلكتروني من المراقبة غير المشروعة.
 
 ---
 
 ### Question 266
 
 **🇩🇪 Deutsch:** Was__(s)__ist die "__(U)__nverletzlichkeit der Wohnung"?
-**🇸🇦 عربي:** What is the "inviolability of the home"?
+**🇸🇦 عربي:** ما "حرمة المسكن"؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **Die Wohnung darf nicht ohne richterlichen Beschluss durchsucht werden.** | **The home may not be searched without a judicial order.** |
-| ○ | Man darf seine Wohnung nicht verlassen. | You are not allowed to leave your home. |
-| ○ | Jeder darf jede Wohnung betreten. | Everyone may enter any home. |
-| ○ | Der Vermieter darf jederzeit in die Wohnung. | The landlord may enter the apartment at any time. |
+| ✅ | **Die Wohnung darf nicht ohne richterlichen Beschluss durchsucht werden.** | **لا يجوز تفتيش المسكن دون أمر قضائي.** |
+| ○ | Man darf seine Wohnung nicht verlassen. | لا يحق لك مغادرة منزلك. |
+| ○ | Jeder darf jede Wohnung betreten. | يحق للجميع دخول أي منزل. |
+| ○ | Der Vermieter darf jederzeit in die Wohnung. | المالك يدخل الشقة في أي وقت. |
 
-> **📝** What is the "inviolability of the home"? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** حرمة المسكن (Unverletzlichkeit der Wohnung) مكفولة بالمادة 13 من القانون الأساسي. لا يحق للشرطة تفتيش المسكن إلا بأمر قضائي باستثناء حالات الخطر الداهم.
 
 ---
 
 ### Question 267
 
 **🇩🇪 Deutsch:** Was__(s)__ist Deutschland__(s)__nationaler Feiertag?
-**🇸🇦 عربي:** What is Germany's national holiday?
+**🇸🇦 عربي:** ما العيد الوطني لألمانيا؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ○ | 1. Mai | May 1 |
-| ○ | 24. Dezember | December 24 |
-| ✅ | **3. Oktober** | **October 3** |
-| ○ | 9. November | November 9 |
+| ○ | 1. Mai | فاتح مايو |
+| ○ | 24. Dezember | 24 ديسمبر |
+| ✅ | **3. Oktober** | **3 أكتوبر** |
+| ○ | 9. November | 9 نوفمبر |
 
-> **📝** What is Germany's national holiday? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** اليوم الوطني لألمانيا هو 3 أكتوبر، يوم إعادة التوحيد عام 1990. هو العطلة الرسمية الوحيدة التي لها طابع وطني بامتياز.
 
 ---
 
 ### Question 268
 
 **🇩🇪 Deutsch:** Welches ist das__(d)____(f)__lächenmäßig größte Bundesland?
-**🇸🇦 عربي:** Which is the largest federal state by area?
+**🇸🇦 عربي:** أيٌّ من الولايات أكبر مساحةً؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **Bayern** | **Bavaria** |
-| ○ | Nordrhein-Westfalen | North Rhine-Westphalia |
-| ○ | Niedersachsen | Lower Saxony |
-| ○ | Baden-Württemberg | Baden-Württemberg |
+| ✅ | **Bayern** | **بافاريا** |
+| ○ | Nordrhein-Westfalen | شمال الراين-وستفاليا |
+| ○ | Niedersachsen | سكسونيا السفلى |
+| ○ | Baden-Württemberg | بادن-فورتمبرغ |
 
-> **📝** Which is the largest federal state by area? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** بافاريا (Bayern) أكبر الولايات الألمانية بمساحة 70,550 كم². تحتل الزاوية الجنوبية الشرقية من ألمانيا وتحدّها النمسا والجمهورية التشيكية.
 
 ---
 
 ### Question 269
 
 **🇩🇪 Deutsch:** Nennen Sie drei Flüsse in Deutschland.
-**🇸🇦 عربي:** Name three rivers in Germany.
+**🇸🇦 عربي:** أذكر ثلاثة أنهار في ألمانيا.
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **Rhein, Elbe, Donau** | **Rhine, Elbe, Danube** |
-| ○ | Themse, Seine, Wolga | Thames, Seine, Volga |
-| ○ | Nil, Amazonas, Mississippi | Nile, Amazon, Mississippi |
-| ○ | Rhône, Loire, Po | Rhône, Loire, Po |
+| ✅ | **Rhein, Elbe, Donau** | **الراين والإلبه والدانوب** |
+| ○ | Themse, Seine, Wolga | التايمز والسين والفولغا |
+| ○ | Nil, Amazonas, Mississippi | النيل والأمازون والمسيسيبي |
+| ○ | Rhône, Loire, Po | الرون واللوار والبو |
 
-> **📝** Name three rivers in Germany. — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** ألمانيا لها شبكة أنهار غنية. أبرزها: الراين (يصبّ في البحر الشمالي)، والإلبه (يصبّ في البحر الشمالي)، والدانوب (يصبّ في البحر الأسود)، والأودر والراين والموزيل.
 
 ---
 
 ### Question 270
 
 **🇩🇪 Deutsch:** Nennen Sie drei deutsche Mittelgebirge.
-**🇸🇦 عربي:** Name three German low mountain ranges.
+**🇸🇦 عربي:** أذكر ثلاثة تضاريس جبلية متوسطة الارتفاع في ألمانيا.
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **Harz, Schwarzwald, Erzgebirge** | **Harz, Black Forest, Ore Mountains** |
-| ○ | Alpen, Himalaya, Anden | Alps, Himalayas, Andes |
-| ○ | Rocky Mountains, Appalachen, Sierra Nevada | Rockies, Appalachians, Sierra Nevada |
-| ○ | Pyrenäen, Karpaten, Ural | Pyrenees, Carpathians, Urals |
+| ✅ | **Harz, Schwarzwald, Erzgebirge** | **جبال هارتس والغابة السوداء وجبال أورز** |
+| ○ | Alpen, Himalaya, Anden | الألب والهيمالايا والأنديز |
+| ○ | Rocky Mountains, Appalachen, Sierra Nevada | الصخرية والأبالاش وسييرا نيفادا |
+| ○ | Pyrenäen, Karpaten, Ural | جبال البيرينه والكاربات والأورال |
 
-> **📝** Name three German low mountain ranges. — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** جبال هارتس في الوسط، والغابة السوداء (شوارتسفالد) في جنوب غرب ألمانيا، وجبال أورز على الحدود مع تشيكيا من أشهر التضاريس المتوسطة في ألمانيا.
 
 ---
 
 ### Question 271
 
 **🇩🇪 Deutsch:** Welche dieser Ländergruppen sind ausschließlich Nachbarländer von Deutschland?
-**🇸🇦 عربي:** Which of these groups of countries are ALL neighboring countries of Germany?
+**🇸🇦 عربي:** أيٌّ من المجموعات التالية يضم دولًا حدودية مع ألمانيا حصرًا؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ○ | Spanien, Italien, Ungarn | Spain, Italy, Hungary |
-| ○ | Schweden, Griechenland, Portugal | Sweden, Greece, Portugal |
-| ✅ | **Frankreich, Polen, Österreich** | **France, Poland, Austria** |
-| ○ | Finnland, Slowakei, Kroatien | Finland, Slovakia, Croatia |
+| ○ | Spanien, Italien, Ungarn | إسبانيا وإيطاليا والمجر |
+| ○ | Schweden, Griechenland, Portugal | السويد واليونان والبرتغال |
+| ✅ | **Frankreich, Polen, Österreich** | **فرنسا وبولندا والنمسا** |
+| ○ | Finnland, Slowakei, Kroatien | فنلندا وسلوفاكيا وكرواتيا |
 
-> **📝** Which of these groups of countries are ALL neighboring countries of Germany? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** فرنسا وبولندا والنمسا من الدول التسع التي تحدّ ألمانيا. أما إسبانيا والسويد وفنلندا فلا تشترك مع ألمانيا في حدود برية.
 
 ---
 
 ### Question 272
 
 **🇩🇪 Deutsch:** Was__(s)__ist an deutschen Schulen verboten?
-**🇸🇦 عربي:** What is forbidden in German schools?
+**🇸🇦 عربي:** ما الممنوع في المدارس الألمانية؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **körperliche Bestrafung** | **corporal punishment** |
-| ○ | Hausaufgaben | Homework |
-| ○ | Sport | Sports |
-| ○ | Klassenfahrten | School trips |
+| ✅ | **körperliche Bestrafung** | **العقاب البدني** |
+| ○ | Hausaufgaben | الواجبات المنزلية |
+| ○ | Sport | الرياضة |
+| ○ | Klassenfahrten | الرحلات المدرسية |
 
-> **📝** What is forbidden in German schools? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** العقاب البدني محظور في جميع المدارس الألمانية. يحق لكل طفل التعليم خاليًا من العنف والإيذاء الجسدي.
 
 ---
 
 ### Question 273
 
 **🇩🇪 Deutsch:** Was__(s)__muss man bei einer Eheschließung in Deutschland beachten?
-**🇸🇦 عربي:** What must one observe when getting married in Germany?
+**🇸🇦 عربي:** ما الذي يجب مراعاته عند الزواج في ألمانيا؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **Die standesamtliche Trauung ist Pflicht.** | **A civil ceremony at the registry office is mandatory.** |
-| ○ | Nur die kirchliche Trauung zählt. | Only a church wedding counts. |
-| ○ | Man braucht keinen Personalausweis. | You don't need an ID. |
-| ○ | Man muss vorher eine Prüfung ablegen. | You must pass an exam first. |
+| ✅ | **Die standesamtliche Trauung ist Pflicht.** | **إجراء الزواج المدني في دار التسجيل إلزامي.** |
+| ○ | Nur die kirchliche Trauung zählt. | فقط الزواج الكنسي معترف به. |
+| ○ | Man braucht keinen Personalausweis. | لا تحتاج لوثائق. |
+| ○ | Man muss vorher eine Prüfung ablegen. | يجب اجتياز امتحان أولًا. |
 
-> **📝** What must one observe when getting married in Germany? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** في ألمانيا الزواج المدني في دار تسجيل الزواج (Standesamt) إلزامي قانونيًا. الزواج الديني اختياري يُعقَد بعد المدني. يتطلب تقديم وثائق هوية وشهادة ميلاد وغيرها.
 
 ---
 
 ### Question 274
 
 **🇩🇪 Deutsch:** Wer__(r)__darf in Deutschland__(d)__heiraten?
-**🇸🇦 عربي:** Who may marry in Germany?
+**🇸🇦 عربي:** من يحق له الزواج في ألمانيا؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **Volljährige Personen (ab 18 Jahren)** | **Adults (from age 18)** |
-| ○ | Kinder ab 12 Jahren | Children from age 12 |
-| ○ | nur Personen gleicher Religion | only persons of the same religion |
-| ○ | nur Deutsche | only Germans |
+| ✅ | **Volljährige Personen (ab 18 Jahren)** | **البالغون (من 18 فأكثر)** |
+| ○ | Kinder ab 12 Jahren | الأطفال من 12 عامًا |
+| ○ | nur Personen gleicher Religion | فقط من يتبعون الدين ذاته |
+| ○ | nur Deutsche | الألمان فقط |
 
-> **📝** Who may marry in Germany? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** الزواج في ألمانيا مقتصر على البالغين من 18 عامًا. أُلغي الاستثناء الذي كان يُجيز زواج من هم دون 18 بموافقة ولي الأمر عام 2017.
 
 ---
 
 ### Question 275
 
 **🇩🇪 Deutsch:** Was__(s)__ist__(t)__eine Aufgabe der Bundeswehr?
-**🇸🇦 عربي:** What is a task of the Bundeswehr?
+**🇸🇦 عربي:** ما إحدى مهام القوات المسلحة الألمانية (Bundeswehr)؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **Landesverteidigung** | **National defense** |
-| ○ | Steuern eintreiben | Collecting taxes |
-| ○ | Schulen bauen | Building schools |
-| ○ | Wahlen organisieren | Organizing elections |
+| ✅ | **Landesverteidigung** | **الدفاع الوطني** |
+| ○ | Steuern eintreiben | جمع الضرائب |
+| ○ | Schulen bauen | بناء المدارس |
+| ○ | Wahlen organisieren | تنظيم الانتخابات |
 
-> **📝** What is a task of the Bundeswehr? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** القوات المسلحة الألمانية (Bundeswehr) أُسِّست عام 1955. مهمتها الدفاع عن ألمانيا وحلف شمال الأطلسي. تشارك أيضًا في مهام حفظ السلام الدولية.
 
 ---
 
 ### Question 276
 
 **🇩🇪 Deutsch:** Was__(s)__ist der "__(S)__olidaritätszuschlag"?
-**🇸🇦 عربي:** What is the "solidarity surcharge"?
+**🇸🇦 عربي:** ما "الرسم التضامني" (Solidaritätszuschlag)؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **ein Zuschlag zur Einkommensteuer__(,)__ __(u)__rsprünglich zur Finanzierung der Wiedervereinigung** | **a surcharge on ضريبة الدخل, originally to finance reunification** |
-| ○ | eine Kirchensteuer | a church tax |
-| ○ | eine Versicherung | an insurance |
-| ○ | eine Parkgebühr | a parking fee |
+| ✅ | **ein Zuschlag zur Einkommensteuer__(,)__ __(u)__rsprünglich zur Finanzierung der Wiedervereinigung** | **رسم مضاف على ضريبة الدخل لتمويل التوحيد في الأصل** |
+| ○ | eine Kirchensteuer | ضريبة كنيسة |
+| ○ | eine Versicherung | تأمين |
+| ○ | eine Parkgebühr | رسوم وقوف سيارات |
 
-> **📝** What is the "solidarity surcharge"? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** "الرسم التضامني" أُدخل عام 1991 للمساهمة في تمويل تكاليف إعادة التوحيد. كان بنسبة 5.5% من ضريبة الدخل. خُفِّض بشكل كبير اعتبارًا من عام 2021.
 
 ---
 
 ### Question 277
 
 **🇩🇪 Deutsch:** Eine Frau, die ein zweijähriges Kind hat, bewirbt sich in Deutschland um eine Stelle. Was ist ein Beispiel für Diskriminierung? Sie bekommt die Stelle nur deshalb nicht, weil sie …
-**🇸🇦 عربي:** A woman with a two-year-old child applies for a job in Germany. What is an example of discrimination? She does not get the job for the sole reason that she is …
+**🇸🇦 عربي:** سيدة لديها طفل عمره سنتان تتقدم لوظيفة في ألمانيا. ما مثال على التمييز؟ لا تُقبَل في الوظيفة بسبب …
 
 | | Deutsch | عربي |
 |---|---|---|
-| ○ | kein Englisch spricht. | does not speak English. |
-| ○ | zu hohe Gehaltsvorstellungen hat. | has salary expectations that are too high. |
-| ○ | keine Erfahrungen in diesem Beruf hat. | has no experience in this profession. |
-| ✅ | **Mutter ist.** | **a mother.** |
+| ○ | kein Englisch spricht. | لا تتحدث الإنجليزية. |
+| ○ | zu hohe Gehaltsvorstellungen hat. | توقعاتها للراتب مرتفعة. |
+| ○ | keine Erfahrungen in diesem Beruf hat. | لا تملك خبرة في هذه المهنة. |
+| ✅ | **Mutter ist.** | **أنها أم.** |
 
-> **📝** A woman with a two-year-old child applies for a job in Germany. What is an example of discrimination? She does not get the job for the sole reason that she is … — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** رفض قبول امرأة في وظيفة بسبب كونها أمًا يُعدّ تمييزًا جنسيًا محظورًا بموجب قانون المساواة في المعاملة (AGG). الأمومة لا تمتّ بصلة إلى الكفاءة المهنية.
 
 ---
 
 ### Question 278
 
 **🇩🇪 Deutsch:** Ein Mann im Rollstuhl hat sich auf eine Stelle als Buchhalter beworben. Was ist ein Beispiel für Diskriminierung? Er bekommt die Stelle nur deshalb nicht, weil er …
-**🇸🇦 عربي:** A man in a wheelchair has applied for a position as an accountant. What is an example of discrimination? He does not get the job for the sole reason that he …
+**🇸🇦 عربي:** رجل على كرسي متحرك تقدّم لوظيفة محاسب. ما مثال على التمييز؟ لا يُقبَل بسبب …
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **im Rollstuhl sitzt.** | **uses a wheelchair.** |
-| ○ | keine Erfahrung hat. | has no experience. |
-| ○ | zu hohe Gehaltsvorstellungen hat. | has salary expectations that are too high. |
-| ○ | kein Englisch spricht. | does not speak English. |
+| ✅ | **im Rollstuhl sitzt.** | **يستخدم كرسيًا متحركًا.** |
+| ○ | keine Erfahrung hat. | لا يملك خبرة. |
+| ○ | zu hohe Gehaltsvorstellungen hat. | توقعاته للراتب مرتفعة. |
+| ○ | kein Englisch spricht. | لا يتحدث الإنجليزية. |
 
-> **📝** A man in a wheelchair has applied for a position as an accountant. What is an example of discrimination? He does not get the job for the sole reason that he … — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** رفض مرشح مؤهَّل بسبب استخدامه كرسيًا متحركًا تمييز بسبب الإعاقة محظور قانونًا. الإعاقة غير ذات صلة بالقدرة على العمل في وظيفة مكتبية.
 
 ---
 
 ### Question 279
 
 **🇩🇪 Deutsch:** In den meisten Mietshäusern in Deutschland gibt es eine „Hausordnung". Was steht in einer solchen „Hausordnung"? Sie nennt …
-**🇸🇦 عربي:** In most rental apartment buildings in Germany there is a "Hausordnung" (house rules). What does such a "Hausordnung" contain? It lists …
+**🇸🇦 عربي:** في معظم العمارات المؤجّرة في ألمانيا يوجد "نظام داخلي" (Hausordnung). ما الذي يتضمّنه؟ يذكر …
 
 | | Deutsch | عربي |
 |---|---|---|
-| ○ | Regeln für die Benutzung öffentlicher Verkehrsmittel. | rules for using public transport. |
-| ○ | alle Mieter und Mieterinnen im Haus. | all tenants in the building. |
-| ✅ | **Regeln, an die sich alle Bewohner und Bewohnerinnen halten müssen.** | **rules that all residents must follow.** |
-| ○ | die Adresse des nächsten Ordnungsamtes. | the address of the nearest public order office. |
+| ○ | Regeln für die Benutzung öffentlicher Verkehrsmittel. | قواعد استخدام المواصلات العامة. |
+| ○ | alle Mieter und Mieterinnen im Haus. | أسماء كل السكان. |
+| ✅ | **Regeln, an die sich alle Bewohner und Bewohnerinnen halten müssen.** | **قواعد يجب على جميع السكان الالتزام بها.** |
+| ○ | die Adresse des nächsten Ordnungsamtes. | عنوان أقرب مكتب للنظام العام. |
 
-> **📝** In most rental apartment buildings in Germany there is a "Hausordnung" (house rules). What does such a "Hausordnung" contain? It lists … — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** "الهاوسأوردنونغ" قواعد عامة تسري على جميع سكان العمارة: مواعيد الهدوء وطريقة التخلص من القمامة واستخدام المساحات المشتركة وغيرها. تُرفَق عادةً بعقد الإيجار.
 
 ---
 
 ### Question 280
 
 **🇩🇪 Deutsch:** Wenn Sie sich in Deutschland gegen einen falschen Steuerbescheid wehren wollen, müssen Sie …
-**🇸🇦 عربي:** If you want to contest an incorrect tax assessment notice in Germany, you must …
+**🇸🇦 عربي:** إذا أردت الطعن في إشعار ضريبي خاطئ في ألمانيا يجب عليك …
 
 | | Deutsch | عربي |
 |---|---|---|
-| ○ | nichts machen. | do nothing. |
-| ○ | den Bescheid wegwerfen. | throw the notice away. |
-| ✅ | **Einspruch einlegen.** | **lodge an objection (Einspruch).** |
-| ○ | warten, bis ein anderer Bescheid kommt. | wait for another notice to arrive. |
+| ○ | nichts machen. | لا تفعل شيئًا. |
+| ○ | den Bescheid wegwerfen. | اطرح الإشعار. |
+| ✅ | **Einspruch einlegen.** | **تقديم اعتراض (Einspruch).** |
+| ○ | warten, bis ein anderer Bescheid kommt. | انتظار إشعار آخر. |
 
-> **📝** If you want to contest an incorrect tax assessment notice in Germany, you must … — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** لمن يعتقد أن إشعاره الضريبي خاطئ أن يتقدم باعتراض (Einspruch) كتابيًا إلى مكتب الضرائب (Finanzamt) خلال شهر واحد من استلام الإشعار.
 
 ---
 
 ### Question 281
 
 **🇩🇪 Deutsch:** Zwei Freunde wollen in ein öffentliches Schwimmbad in Deutschland. Beide haben eine dunkle Hautfarbe und werden deshalb nicht hineingelassen. Welches Recht wird in dieser Situation verletzt? Das Recht auf …
-**🇸🇦 عربي:** Two friends want to enter a public swimming pool in Germany. Both have dark skin and are refused entry for that reason. Which right is being violated in this situation? The right to …
+**🇸🇦 عربي:** صديقان يريدان الدخول إلى مسبح عام في ألمانيا. كلاهما ذو بشرة داكنة ومُنع دخولهما لذلك. أيٌّ من الحقوق يُنتهَك؟ الحق في …
 
 | | Deutsch | عربي |
 |---|---|---|
-| ○ | Meinungsfreiheit | freedom of opinion |
-| ✅ | **Gleichbehandlung** | **equal treatment** |
-| ○ | Versammlungsfreiheit | freedom of assembly |
-| ○ | Freizügigkeit | freedom of movement |
+| ○ | Meinungsfreiheit | حرية الرأي |
+| ✅ | **Gleichbehandlung** | **المعاملة المتساوية** |
+| ○ | Versammlungsfreiheit | حرية التجمع |
+| ○ | Freizügigkeit | حرية التنقل |
 
-> **📝** Two friends want to enter a public swimming pool in Germany. Both have dark skin and are refused entry for that reason. Which right is being violated in this situation? The right to … — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** منع شخصين من دخول مرفق عام بسبب لون بشرتهما يُعدّ تمييزًا عنصريًا ينتهك الحق في المعاملة المتساوية المكفول بالمادة 3 من القانون الأساسي وقانون AGG.
 
 ---
 
 ### Question 282
 
 **🇩🇪 Deutsch:** Welches Ehrenamt müssen deutsche Staatsbürger / Staatsbürgerinnen übernehmen, wenn sie dazu aufgefordert werden?
-**🇸🇦 عربي:** Which civic duty (honorary office) must German citizens take on if called upon to do so?
+**🇸🇦 عربي:** ما المنصب التطوعي الذي يُلزَم به المواطنون الألمان إن طُلب منهم؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ○ | Vereinstrainer / Vereinstrainerin | Club trainer / sports coach |
-| ○ | Bibliotheksaufsicht | Library supervisor |
-| ✅ | **Wahlhelfer / Wahlhelferin** | **Election helper / polling station worker** |
-| ○ | Lehrer / Lehrerin | Teacher |
+| ○ | Vereinstrainer / Vereinstrainerin | مدرب نادٍ رياضي |
+| ○ | Bibliotheksaufsicht | مشرف مكتبة |
+| ✅ | **Wahlhelfer / Wahlhelferin** | **مساعد في الانتخابات** |
+| ○ | Lehrer / Lehrerin | معلم |
 
-> **📝** Which civic duty (honorary office) must German citizens take on if called upon to do so? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** المواطنون الألمان قد يُطلَب منهم قانونيًا العمل مساعدين في لجان الاقتراع (Wahlhelfer) خلال الانتخابات. هذا واجب مدني نادرًا ما يُطبَّق إلزاميًا.
 
 ---
 
 ### Question 283
 
 **🇩🇪 Deutsch:** Was tun Sie, wenn Sie eine falsche Rechnung von einer deutschen Behörde bekommen?
-**🇸🇦 عربي:** What do you do if you receive an incorrect invoice/bill from a German authority?
+**🇸🇦 عربي:** ماذا تفعل إذا وصلتك فاتورة خاطئة من جهة حكومية ألمانية؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ○ | Ich lasse die Rechnung liegen. | I leave the invoice aside. |
-| ✅ | **Ich lege Widerspruch bei der Behörde ein.** | **I lodge a formal objection (Widerspruch) with the authority.** |
-| ○ | Ich schicke die Rechnung an die Behörde zurück. | I send the invoice back to the authority. |
-| ○ | Ich gehe mit der Rechnung zum Finanzamt. | I go to the tax office with the invoice. |
+| ○ | Ich lasse die Rechnung liegen. | أتركها جانبًا. |
+| ✅ | **Ich lege Widerspruch bei der Behörde ein.** | **أتقدم باعتراض رسمي (Widerspruch) لدى الجهة المختصة.** |
+| ○ | Ich schicke die Rechnung an die Behörde zurück. | أُعيدها للجهة. |
+| ○ | Ich gehe mit der Rechnung zum Finanzamt. | أذهب بها إلى مكتب الضرائب. |
 
-> **📝** What do you do if you receive an incorrect invoice/bill from a German authority? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** يجب تقديم اعتراض رسمي (Widerspruch) كتابيًا خلال شهر واحد من استلام الفاتورة الخاطئة. تجاهل الفاتورة قد يجعل المبلغ الخاطئ قانونيًا مُلزِمًا.
 
 ---
 
 ### Question 284
 
 **🇩🇪 Deutsch:** Was man für die Arbeit können muss, ändert sich in der Zukunft sehr schnell. Was kann man tun?
-**🇸🇦 عربي:** What one needs to know for work is changing very rapidly in the future. What can one do?
+**🇸🇦 عربي:** ما يحتاجه المرء للعمل يتغيّر بسرعة كبيرة في المستقبل. ماذا يمكن أن يُفعَل؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ○ | Es ist egal, was man lernt. | It does not matter what one learns. |
-| ○ | Kinder lernen in der Schule alles, was im Beruf wichtig ist. Nach der Schule muss man nicht weiter lernen. | Children learn everything needed for work at school. After school, no further learning is necessary. |
-| ✅ | **Erwachsene müssen auch nach der Ausbildung immer weiter lernen.** | **Adults must continue learning throughout their lives, even after completing their training.** |
-| ○ | Alle müssen früher aufhören zu arbeiten, weil sich alles ändert. | Everyone must retire earlier because everything is changing. |
+| ○ | Es ist egal, was man lernt. | لا يهم ما يتعلمه المرء. |
+| ○ | Kinder lernen in der Schule alles, was im Beruf wichtig ist. Nach der Schule muss man nicht weiter lernen. | الأطفال يتعلمون في المدرسة كل ما يلزم للمهنة. لا حاجة للتعلم بعد المدرسة. |
+| ✅ | **Erwachsene müssen auch nach der Ausbildung immer weiter lernen.** | **يجب على البالغين مواصلة التعلم طوال حياتهم حتى بعد التدريب.** |
+| ○ | Alle müssen früher aufhören zu arbeiten, weil sich alles ändert. | يجب على الجميع التقاعد مبكرًا لأن كل شيء يتغيّر. |
 
-> **📝** What one needs to know for work is changing very rapidly in the future. What can one do? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** التعلم مدى الحياة (lebenslanges Lernen) ضرورة في ظل سوق العمل المتغيّر. تتوفر في ألمانيا مؤسسات تعليم للكبار كـVolkshochschulen ودورات تدريب مهنية متنوعة.
 
 ---
 
 ### Question 285
 
 **🇩🇪 Deutsch:** Frau Frost arbeitet als fest angestellte Mitarbeiterin in einem Büro. Was muss sie nicht von ihrem Gehalt bezahlen?
-**🇸🇦 عربي:** Ms Frost works as a permanent employee in an office. What does she NOT have to pay from her salary?
+**🇸🇦 عربي:** السيدة فروست موظفة دائمة في مكتب. ما الذي لا تدفعه من راتبها؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **Umsatzsteuer** | **ضريبة القيمة المضافة (Umsatzsteuer / ضريبة القيمة المضافة)** |
+| ✅ | **Umsatzsteuer** | **ضريبة القيمة المضافة** |
 | ○ | Lohnsteuer | ضريبة الدخل (Lohnsteuer) |
-| ○ | Beiträge zur Arbeitslosenversicherung | تأمين البطالة contributions |
-| ○ | Beiträge zur Renten- und Krankenversicherung | Pension and التأمين الصحي contributions |
+| ○ | Beiträge zur Arbeitslosenversicherung | اشتراكات تأمين البطالة |
+| ○ | Beiträge zur Renten- und Krankenversicherung | اشتراكات تأمين المعاشات والصحة |
 
-> **📝** Ms Frost works as a permanent employee in an office. What does she NOT have to pay from her salary? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** الموظف الدائم يدفع ضريبة الدخل واشتراكات الضمان الاجتماعي الأربعة. أما ضريبة القيمة المضافة (Umsatzsteuer) فتُفرَض على البضائع والخدمات ولا يدفعها الموظف من راتبه.
 
 ---
 
 ### Question 286
 
 **🇩🇪 Deutsch:** Welche Organisation in einer Firma hilft den Arbeitnehmern und Arbeitnehmerinnen bei Problemen mit dem Arbeitgeber / der Arbeitgeberin?
-**🇸🇦 عربي:** Which organisation in a company helps employees with problems involving the employer?
+**🇸🇦 عربي:** أيٌّ من المنظمات في الشركة يساعد الموظفين في مشاكلهم مع صاحب العمل؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **der Betriebsrat** | **the مجلس العمال (Betriebsrat)** |
-| ○ | der Betriebsprüfer / die Betriebsprüferin | the company auditor |
-| ○ | die Betriebsgruppe | the company group |
-| ○ | das Betriebsmanagement | the company management |
+| ✅ | **der Betriebsrat** | **مجلس العمل (Betriebsrat)** |
+| ○ | der Betriebsprüfer / die Betriebsprüferin | مراجع الشركة |
+| ○ | die Betriebsgruppe | مجموعة الشركة |
+| ○ | das Betriebsmanagement | إدارة الشركة |
 
-> **📝** Which organisation in a company helps employees with problems involving the employer? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** مجلس العمل (Betriebsrat) هيئة منتخبة تمثّل الموظفين في الشركات التي تضم خمسة عمال فأكثر. يتمتع بصلاحيات مشاركة في القرارات المتعلقة بالعمل ويحمي مصالح الموظفين.
 
 ---
 
 ### Question 287
 
 **🇩🇪 Deutsch:** Sie möchten bei einer Firma in Deutschland Ihr Arbeitsverhältnis beenden. Was müssen Sie beachten?
-**🇸🇦 عربي:** You want to end your employment at a company in Germany. What must you observe?
+**🇸🇦 عربي:** تريد إنهاء عقد عملك في شركة ألمانية. ما الذي يجب مراعاته؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ○ | die Gehaltszahlungen | the salary payments |
-| ○ | die Arbeitszeit | the working hours |
-| ✅ | **die Kündigungsfrist** | **the فترة الإشعار بالفسخ (Kündigungsfrist)** |
-| ○ | die Versicherungspflicht | the insurance obligation |
+| ○ | die Gehaltszahlungen | مدفوعات الراتب |
+| ○ | die Arbeitszeit | ساعات العمل |
+| ✅ | **die Kündigungsfrist** | **مهلة الإشعار بالاستقالة (Kündigungsfrist)** |
+| ○ | die Versicherungspflicht | التزام التأمين |
 
-> **📝** You want to end your employment at a company in Germany. What must you observe? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** عند الاستقالة يجب مراعاة مهلة الإشعار (Kündigungsfrist). المدة القانونية الدنيا للموظف أربعة أسابيع. قد تكون أطول حسب العقد. يجب تقديم الاستقالة كتابيًا.
 
 ---
 
 ### Question 288
 
 **🇩🇪 Deutsch:** Woraus begründet sich Deutschlands besondere Verantwortung für Israel?
-**🇸🇦 عربي:** What is the basis for Germany's special responsibility toward Israel?
+**🇸🇦 عربي:** ما أساس المسؤولية الخاصة لألمانيا تجاه إسرائيل؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ○ | aus der Mitgliedschaft in der Europäischen Union (EU) | from its EU membership |
-| ✅ | **aus den nationalsozialistischen Verbrechen** | **from the National Socialist crimes** |
-| ○ | aus dem Grundgesetz der Bundesrepublik Deutschland | from the German القانون الأساسي |
-| ○ | aus der christlichen Tradition | from the Christian tradition |
+| ○ | aus der Mitgliedschaft in der Europäischen Union (EU) | عضويتها في الاتحاد الأوروبي |
+| ✅ | **aus den nationalsozialistischen Verbrechen** | **الجرائم النازية** |
+| ○ | aus dem Grundgesetz der Bundesrepublik Deutschland | القانون الأساسي الألماني |
+| ○ | aus der christlichen Tradition | التقاليد المسيحية |
 
-> **📝** What is the basis for Germany's special responsibility toward Israel? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** تنبثق المسؤولية الخاصة لألمانيا تجاه إسرائيل من الجرائم النازية وفي مقدمتها الهولوكوست. تُعدّ حماية إسرائيل جزءًا من "مبررات وجود الدولة" (Staatsräson) الألمانية.
 
 ---
 
 ### Question 289
 
 **🇩🇪 Deutsch:** Ein Mann mit dunkler Hautfarbe bewirbt sich um eine Stelle als Kellner in einem Restaurant in Deutschland. Was ist ein Beispiel für Diskriminierung? Er bekommt die Stelle nur deshalb nicht, weil …
-**🇸🇦 عربي:** A man with dark skin applies for a position as a waiter in a restaurant in Germany. What is an example of discrimination? He does not get the job for the sole reason that …
+**🇸🇦 عربي:** رجل ذو بشرة داكنة يتقدم لوظيفة نادل في مطعم بألمانيا. ما مثال على التمييز؟ لا يُقبَل لأن …
 
 | | Deutsch | عربي |
 |---|---|---|
-| ○ | seine Deutschkenntnisse zu gering sind. | his German language skills are insufficient. |
-| ○ | er zu hohe Gehaltsvorstellungen hat. | he has salary expectations that are too high. |
-| ✅ | **er eine dunkle Haut hat.** | **he has dark skin.** |
-| ○ | er keine Erfahrungen im Beruf hat. | he has no professional experience. |
+| ○ | seine Deutschkenntnisse zu gering sind. | مهاراته في الألمانية غير كافية. |
+| ○ | er zu hohe Gehaltsvorstellungen hat. | توقعاته للراتب مرتفعة. |
+| ✅ | **er eine dunkle Haut hat.** | **بشرته داكنة.** |
+| ○ | er keine Erfahrungen im Beruf hat. | لا يملك خبرة مهنية. |
 
-> **📝** A man with dark skin applies for a position as a waiter in a restaurant in Germany. What is an example of discrimination? He does not get the job for the sole reason that … — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** رفض شخص مؤهَّل بسبب لون بشرته تمييز عنصري محظور بموجب قانون AGG الألماني. لون البشرة غير ذي صلة بالكفاءة في العمل.
 
 ---
 
 ### Question 290
 
 **🇩🇪 Deutsch:** Sie haben in Deutschland einen Fernseher gekauft. Zu Hause packen Sie den Fernseher aus, doch er funktioniert nicht. Der Fernseher ist kaputt. Was können Sie machen?
-**🇸🇦 عربي:** You bought a television set in Germany. At home you unpack it, but it does not work. The television is broken. What can you do?
+**🇸🇦 عربي:** اشتريت تلفازًا في ألمانيا. في المنزل فتحت العبوة لكن الجهاز لا يعمل. ماذا يمكنك أن تفعل؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ○ | eine Anzeige schreiben | write a complaint notice |
-| ✅ | **den Fernseher reklamieren** | **make a complaint / return the television (reklamieren)** |
-| ○ | das Gerät ungefragt austauschen | swap the device without asking |
-| ○ | die Garantie verlängern | extend the warranty |
+| ○ | eine Anzeige schreiben | كتابة شكوى |
+| ✅ | **den Fernseher reklamieren** | **تقديم شكوى / إعادة التلفاز (reklamieren)** |
+| ○ | das Gerät ungefragt austauschen | استبدال الجهاز دون إذن |
+| ○ | die Garantie verlängern | تمديد الضمان |
 
-> **📝** You bought a television set in Germany. At home you unpack it, but it does not work. The television is broken. What can you do? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** في ألمانيا يحق للمستهلك "الريكلاماتسيون" (المطالبة بالإصلاح أو الاستبدال) بموجب قانون الضمان لمدة سنتين من الشراء. البائع مُلزَم قانونًا بالتعامل مع الأعطال وفق المادة 437 من القانون المدني.
 
 ---
 
 ### Question 291
 
 **🇩🇪 Deutsch:** Was muss man in Deutschland haben, um Auto fahren zu dürfen?
-**🇸🇦 عربي:** What must you have in Germany to be allowed to drive?
+**🇸🇦 عربي:** ماذا يجب أن تمتلك في ألمانيا لقيادة السيارة؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **einen Führerschein und eine Kfz-Versicherung** | **a driver's license and car insurance** |
-| ○ | nur einen Personalausweis | only an ID card |
-| ○ | nur Bargeld | only cash |
-| ○ | eine Parteimitgliedschaft | a party membership |
+| ✅ | **einen Führerschein und eine Kfz-Versicherung** | **رخصة قيادة وتأمين سيارة** |
+| ○ | nur einen Personalausweis | بطاقة هوية فقط |
+| ○ | nur Bargeld | نقود فقط |
+| ○ | eine Parteimitgliedschaft | عضوية في حزب |
 
-> **📝** What must you have in Germany to be allowed to drive? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** لقيادة السيارة في ألمانيا يجب امتلاك رخصة قيادة سارية (Führerschein) وتأمين مدني إلزامي على السيارة (Kfz-Haftpflichtversicherung). بدون هذين الشرطين تُعدّ القيادة مخالفة قانونية.
 
 ---
 
 ### Question 292
 
 **🇩🇪 Deutsch:** Was ist die Schulpflicht in Deutschland?
-**🇸🇦 عربي:** What is compulsory education in Germany?
+**🇸🇦 عربي:** ما إلزامية التعليم في ألمانيا؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **Alle Kinder müssen zur Schule gehen.** | **All children must attend school.** |
-| ○ | Nur Jungen müssen zur Schule gehen. | Only boys must go to school. |
-| ○ | Nur reiche Kinder gehen zur Schule. | Only rich children go to school. |
-| ○ | Kinder dürfen zu Hause unterrichtet werden. | Children may be homeschooled. |
+| ✅ | **Alle Kinder müssen zur Schule gehen.** | **على جميع الأطفال الالتحاق بالمدرسة.** |
+| ○ | Nur Jungen müssen zur Schule gehen. | الذكور فقط ملزمون بالمدرسة. |
+| ○ | Nur reiche Kinder gehen zur Schule. | الأطفال الأثرياء فقط. |
+| ○ | Kinder dürfen zu Hause unterrichtet werden. | يمكن التعليم المنزلي. |
 
-> **📝** What is compulsory education in Germany? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** التعليم إلزامي لجميع الأطفال في ألمانيا. التعليم المنزلي (Homeschooling) محظور بشكل عام. ينطبق الإلزام على كل الأطفال بصرف النظر عن جنسيتهم أو ديانتهم.
 
 ---
 
 ### Question 293
 
 **🇩🇪 Deutsch:** Was__(s)__bedeutet "__(I)__ntegration" in Deutschland?
-**🇸🇦 عربي:** What does "integration" mean in Germany?
+**🇸🇦 عربي:** ما معنى "الاندماج" (Integration) في ألمانيا؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **aktive Teilnahme am gesellschaftlichen Leben und Erlernen der Sprache** | **active participation in social life and learning the language** |
-| ○ | nur Steuern zahlen | only paying taxes |
-| ○ | seine Kultur aufgeben | giving up one's own culture |
-| ○ | nur unter Landsleuten leben | only living among compatriots |
+| ✅ | **aktive Teilnahme am gesellschaftlichen Leben und Erlernen der Sprache** | **المشاركة الفاعلة في الحياة الاجتماعية وتعلّم اللغة** |
+| ○ | nur Steuern zahlen | دفع الضرائب فحسب |
+| ○ | seine Kultur aufgeben | التخلي عن الثقافة الأصلية |
+| ○ | nur unter Landsleuten leben | العيش بين أبناء الوطن فحسب |
 
-> **📝** What does "integration" mean in Germany? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** الاندماج في المجتمع الألماني يعني المشاركة في الحياة العامة وتعلّم اللغة الألمانية والتعرف على القيم والقوانين المحلية. لا يعني ذلك التخلي عن الهوية الثقافية الأصلية.
 
 ---
 
 ### Question 294
 
 **🇩🇪 Deutsch:** Welcher__(r)__deutsche__(e)__Staat__(t)____(e)__xistierte von 1__(9)__49 bis 1990?
-**🇸🇦 عربي:** Which German state existed from 1949 to 1990?
+**🇸🇦 عربي:** أيٌّ من الكيانات الألمانية وجد من 1949 حتى 1990؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **die Deutsche Demokratische Republik (DDR)** | **the German Democratic Republic (GDR)** |
-| ○ | das Deutsche Kaiserreich | the German Empire |
-| ○ | die Weimarer Republik | the Weimar Republic |
-| ○ | das Dritte Reich | the Third Reich |
+| ✅ | **die Deutsche Demokratische Republik (DDR)** | **جمهورية ألمانيا الديمقراطية (DDR)** |
+| ○ | das Deutsche Kaiserreich | الإمبراطورية الألمانية |
+| ○ | die Weimarer Republik | جمهورية فايمار |
+| ○ | das Dritte Reich | الرايخ الثالث |
 
-> **📝** Which German state existed from 1949 to 1990? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** جمهورية ألمانيا الديمقراطية (DDR) وُجدت من 1949 إلى 1990 في المنطقة السوفيتية. في 3 أكتوبر 1990 انضمت ولاياتها إلى جمهورية ألمانيا الاتحادية.
 
 ---
 
 ### Question 295
 
 **🇩🇪 Deutsch:** Was__(s)__war die deutsche Teilung?
-**🇸🇦 عربي:** What was the German division?
+**🇸🇦 عربي:** ما التقسيم الألماني؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **die Teilung Deutschlands in BRD (West) und DDR (Ost) von 1949 bis 1990** | **the division of Germany into FRG (West) and GDR (East) from 1949 to 1990** |
-| ○ | die Teilung in Nord und Süd | the division into North and South |
-| ○ | die Teilung der deutschen Sprache | the division of the German language |
-| ○ | die Teilung Berlins in 10 Bezirke | the division of Berlin into 10 districts |
+| ✅ | **die Teilung Deutschlands in BRD (West) und DDR (Ost) von 1949 bis 1990** | **تقسيم ألمانيا إلى BRD (غرب) وDDR (شرق) من 1949 إلى 1990** |
+| ○ | die Teilung in Nord und Süd | التقسيم إلى شمال وجنوب |
+| ○ | die Teilung der deutschen Sprache | تقسيم اللغة الألمانية |
+| ○ | die Teilung Berlins in 10 Bezirke | تقسيم برلين إلى 10 أحياء |
 
-> **📝** What was the German division? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** التقسيم الألماني هو انقسام ألمانيا إلى جمهوريتين من 1949 إلى 1990 إثر الحرب العالمية الثانية: جمهورية ألمانيا الاتحادية (غرب ديمقراطي) وجمهورية ألمانيا الديمقراطية (شرق اشتراكي).
 
 ---
 
 ### Question 296
 
 **🇩🇪 Deutsch:** Was versteht man unter "__(B)__ürgerrechten"?
-**🇸🇦 عربي:** What is meant by "civil rights"?
+**🇸🇦 عربي:** ما المقصود بـ"الحقوق المدنية" (Bürgerrechte)؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **Grundrechte, die nur für deutsche Staatsbürger gelten** | **الحقوق الأساسية that apply only to German citizens** |
-| ○ | Rechte, die für alle Menschen gelten | Rights that apply to all people |
-| ○ | Rechte von Beamten | Rights of civil servants |
-| ○ | Rechte von Politikern | Rights of politicians |
+| ✅ | **Grundrechte, die nur für deutsche Staatsbürger gelten** | **الحقوق الأساسية التي تسري على المواطنين الألمان فحسب** |
+| ○ | Rechte, die für alle Menschen gelten | الحقوق التي تسري على الجميع |
+| ○ | Rechte von Beamten | حقوق موظفي الدولة |
+| ○ | Rechte von Politikern | حقوق السياسيين |
 
-> **📝** What is meant by "civil rights"? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** الحقوق المدنية (Bürgerrechte) هي الحقوق الأساسية المقتصرة على المواطنين الألمان كحق التصويت والتوظيف في الخدمة المدنية. أما حقوق الإنسان فتسري على الجميع.
 
 ---
 
 ### Question 297
 
 **🇩🇪 Deutsch:** Was__(s)____(i)__st__(t)__das Existenzminimum?
-**🇸🇦 عربي:** What is the subsistence minimum?
+**🇸🇦 عربي:** ما "الحد الأدنى للمعيشة" (Existenzminimum)؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **der Betrag, den ein Mensch zum Leben mindestens braucht** | **the minimum amount a person needs to live** |
-| ○ | der Mindestlohn | the minimum wage |
-| ○ | die Höchststeuer | the maximum tax |
-| ○ | das Durchschnittsgehalt | the average salary |
+| ✅ | **der Betrag, den ein Mensch zum Leben mindestens braucht** | **الحد الأدنى الذي يحتاجه الشخص للعيش** |
+| ○ | der Mindestlohn | الحد الأدنى للأجور |
+| ○ | die Höchststeuer | الضريبة القصوى |
+| ○ | das Durchschnittsgehalt | متوسط الراتب |
 
-> **📝** What is the subsistence minimum? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** "الحد الأدنى للمعيشة" هو المبلغ اللازم لتغطية الاحتياجات الأساسية من طعام ومسكن وملبس. في ألمانيا هذا الحد معفى من الضريبة وتوفّر الدولة دعمًا للذين يعيشون دونه.
 
 ---
 
 ### Question 298
 
 **🇩🇪 Deutsch:** Was__(s)__ist die Aufgabe des__(d)__Verfassungsschutzes?
-**🇸🇦 عربي:** What is the task of the Office for the Protection of the Constitution?
+**🇸🇦 عربي:** ما مهمة مكتب حماية الدستور؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **den Schutz der freiheitlichen demokratischen Grundordnung** | **protecting the free democratic basic order** |
-| ○ | Steuern eintreiben | Collecting taxes |
-| ○ | Wahlen organisieren | Organizing elections |
-| ○ | Gebäude schützen | Protecting buildings |
+| ✅ | **den Schutz der freiheitlichen demokratischen Grundordnung** | **حماية النظام الديمقراطي الحر** |
+| ○ | Steuern eintreiben | جمع الضرائب |
+| ○ | Wahlen organisieren | تنظيم الانتخابات |
+| ○ | Gebäude schützen | حراسة المباني |
 
-> **📝** What is the task of the Office for the Protection of the Constitution? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** مكتب حماية الدستور (Verfassungsschutz) جهاز استخباراتي داخلي يرصد التهديدات للنظام الديمقراطي الحر من تطرّف وتجسس وإرهاب.
 
 ---
 
 ### Question 299
 
 **🇩🇪 Deutsch:** Was__(s)__ist das
-**🇸🇦 عربي:** What is the right to informational self-determination?
+**🇸🇦 عربي:** ما حق تقرير المصير المعلوماتي؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **Jeder hat das Recht, selbst über die Preisgabe seiner persönlichen Daten zu bestimmen.** | **Everyone has the right to decide what happens with their personal data.** |
-| ○ | Man darf alles im Internet veröffentlichen. | You may publish anything on the internet. |
-| ○ | Der Staat darf alles über jeden wissen. | The state may know everything about everyone. |
-| ○ | Unternehmen dürfen Daten frei verkaufen. | Companies may sell data freely. |
+| ✅ | **Jeder hat das Recht, selbst über die Preisgabe seiner persönlichen Daten zu bestimmen.** | **الحق في تحديد ما يُفعَل ببياناتك الشخصية.** |
+| ○ | Man darf alles im Internet veröffentlichen. | يجوز لك نشر أي شيء على الإنترنت. |
+| ○ | Der Staat darf alles über jeden wissen. | يحق للدولة معرفة كل شيء عن الجميع. |
+| ○ | Unternehmen dürfen Daten frei verkaufen. | الشركات تبيع البيانات بحرية. |
 
-> **📝** What is the right to informational self-determination? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** حق تقرير المصير المعلوماتي (informationelles Selbstbestimmungsrecht) مشتق من الكرامة الإنسانية وحق الشخصية. يُعطيك حق التحكم ببياناتك الشخصية وكيفية استخدامها.
 
 ---
 
 ### Question 300
 
 **🇩🇪 Deutsch:** Was__(s)__sind die fünf Säulen der deutschen Sozialversicherung?
-**🇸🇦 عربي:** What are the five pillars of German التأمين الاجتماعي?
+**🇸🇦 عربي:** ما الأعمدة الخمسة للتأمين الاجتماعي الألماني؟
 
 | | Deutsch | عربي |
 |---|---|---|
-| ✅ | **Kranken-, Renten-, Arbeitslosen-, Pflege- und Unfallversicherung** | **Health, pension, unemployment, long-term care, and accident insurance** |
-| ○ | Auto-, Haus-, Tier-, Reise- und Lebensversicherung | Car, home, pet, travel, and life insurance |
-| ○ | nur Krankenversicherung | only التأمين الصحي |
-| ○ | Feuer-, Hagel-, Haftpflicht-, Rechtsschutz- und Glasversicherung | Fire, hail, liability, legal, and glass insurance |
+| ✅ | **Kranken-, Renten-, Arbeitslosen-, Pflege- und Unfallversicherung** | **الصحة والمعاشات والبطالة والرعاية والحوادث** |
+| ○ | Auto-, Haus-, Tier-, Reise- und Lebensversicherung | السيارة والمنزل والحيوانات والسفر والحياة |
+| ○ | nur Krankenversicherung | تأمين صحي فقط |
+| ○ | Feuer-, Hagel-, Haftpflicht-, Rechtsschutz- und Glasversicherung | النار والبرد والمسؤولية والقانوني والزجاج |
 
-> **📝** What are the five pillars of German التأمين الاجتماعي? — للمزيد راجع المواد ذات الصلة في القانون الأساسي الألماني.
+> **📝** منظومة الضمان الاجتماعي الألمانية تقوم على خمسة أعمدة: التأمين الصحي (Krankenversicherung)، وتأمين المعاشات (Rentenversicherung)، وتأمين البطالة (Arbeitslosenversicherung)، وتأمين الرعاية (Pflegeversicherung)، وتأمين الحوادث (Unfallversicherung).
 
 ---
 
