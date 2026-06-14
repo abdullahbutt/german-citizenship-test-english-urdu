@@ -145,7 +145,57 @@
             text-decoration: none;
         }
         .nav-actions { display: flex; gap: 0.5rem; align-items: center; }
-        .nav-actions .btn-lang, .nav-actions .btn-theme {
+        .lang-dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .lang-dropdown-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35rem;
+            background: var(--card-bg);
+            border: 1.5px solid var(--border);
+            border-radius: 999px;
+            padding: 0.28rem 0.75rem;
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--text);
+            cursor: pointer;
+            white-space: nowrap;
+            transition: border-color 0.15s;
+        }
+        .lang-dropdown-btn:hover { border-color: var(--primary); }
+        .lang-dropdown-menu {
+            display: none;
+            position: absolute;
+            right: 0;
+            top: calc(100% + 6px);
+            background: var(--card-bg);
+            border: 1.5px solid var(--border);
+            border-radius: 0.6rem;
+            min-width: 160px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+            z-index: 999;
+            overflow: hidden;
+        }
+        .lang-dropdown-menu a {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.55rem 0.9rem;
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: var(--text);
+            text-decoration: none;
+            transition: background 0.1s;
+        }
+        .lang-dropdown-menu a:hover { background: color-mix(in srgb,var(--primary) 8%,var(--card-bg)); }
+        .lang-dropdown-menu a.active {
+            background: color-mix(in srgb,var(--primary) 12%,var(--card-bg));
+            color: var(--primary);
+            font-weight: 700;
+        }
+        .lang-dropdown.open .lang-dropdown-menu { display: block; }
             background: transparent;
             border: 1px solid var(--border);
             color: var(--page-text);
@@ -557,11 +607,28 @@
             <a class="brand" href="./index.html">اختبار الجنسية الألمانية</a>
             <div class="nav-actions">
                 <a class="btn-quiz" href="../quiz.html" title="Practice Quiz">🎯 Quiz</a>
-                <a class="btn-lang" href="../en/baden-wuerttemberg.html" title="تغيير اللغة">English</a>
+                <div class="lang-dropdown" id="langDrop">
+                    <button class="lang-dropdown-btn" onclick="document.getElementById('langDrop').classList.toggle('open')" aria-haspopup="true" aria-label="تغيير اللغة">
+                        <span class="fi fi-sa"></span> AR ▾
+                    </button>
+                    <div class="lang-dropdown-menu" role="menu">
+                        <a href="../en/baden-wuerttemberg.html"  role="menuitem"><span class="fi fi-gb"></span> English</a>
+                        <a href="../de/baden-wuerttemberg.html"  role="menuitem"><span class="fi fi-de"></span> Deutsch</a>
+                        <a href="../ur/baden-wuerttemberg.html"  role="menuitem" dir="rtl" style="font-family:'Jameel Noori Nastaleeq',serif;"><span class="fi fi-pk"></span> اردو</a>
+                        <a href="../ar/baden-wuerttemberg.html" class="active" role="menuitem" dir="rtl" style="font-family:'Indopak Nastaleeq',serif;"><span class="fi fi-sa"></span> عربي</a>
+                    </div>
+                </div>
                 <button class="btn-theme" id="themeToggle" aria-label="Toggle theme">🌓</button>
             </div>
         </div>
     </nav>
+    <script>
+    // Close lang dropdown when clicking outside
+    document.addEventListener('click', function(e) {
+        var d = document.getElementById('langDrop');
+        if (d && !d.contains(e.target)) d.classList.remove('open');
+    });
+    </script>
 
     <main>
         <p><a href="./index.html">العودة إلى الرئيسية ←</a></p>
