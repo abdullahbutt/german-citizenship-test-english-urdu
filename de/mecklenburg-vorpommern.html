@@ -572,7 +572,7 @@
         </nav>
         <article class="content-card">
             <div class="state-intro" dir="ltr" style="background:color-mix(in srgb,var(--primary) 7%,var(--card-bg));border:1px solid color-mix(in srgb,var(--primary) 20%,var(--border));border-radius:.75rem;padding:1rem 1.25rem;margin-bottom:1.5rem;font-size:.96rem;line-height:1.75;">Mecklenburg-Vorpommern liegt im Nordosten Deutschlands an der Ostseeküste. Die Landeshauptstadt ist <strong>Schwerin</strong>, Sitz des <strong>Landtags</strong> und des prächtigen Schweriner Schlosses. Das Land ist bekannt für seine lange Küstenlinie, tausende Seen und die Inseln Rügen und Usedom. Das Staatsoberhaupt ist der/die <strong>Ministerpräsident/in</strong>. Tourismus und Landwirtschaft sind wichtige Wirtschaftszweige.</div><h1>Mecklenburg-Vorpommern (Mecklenburg-Western Pomerania) — State Questions (301–310)</h1>
-<p><a href="index.html">⬅ Back to Main README</a></p>
+<p><a href="index.html">⬅ Zur Startseite</a></p>
 <hr>
 <h3>Question 301 — Coat of Arms</h3>
 <p><strong><span class="fi fi-de" role="img" aria-label="Germany" title="Germany"></span></strong> Welches Wappen gehört zum Bundesland Mecklenburg-Vorpommern?
@@ -618,7 +618,7 @@
 <li><strong>Neighbors/Borders:</strong> Poland, Baltic Sea; borders Schleswig-Holstein, Niedersachsen, Brandenburg</li>
 <li><strong>Major cities:</strong> Schwerin, Rostock, Stralsund, Wismar, Greifswald</li>
 </ul>
-<p><a href="index.html">⬅ Back to Main README</a></p>
+<p><a href="index.html">⬅ Zur Startseite</a></p>
 
         </article>
         
@@ -674,8 +674,9 @@
         // Progress tracker — mark questions as learned
         (function() {
             const KEY = 'gct_learned';
-            const isUrdu = document.documentElement.lang === 'ur';
+            const isUrdu   = document.documentElement.lang === 'ur';
             const isArabic = document.documentElement.lang === 'ar';
+            const isGerman = document.documentElement.lang === 'de';
 
             function getSet() {
                 try { return new Set(JSON.parse(localStorage.getItem(KEY) || '[]')); }
@@ -697,8 +698,8 @@
                 btn.className = 'mark-learned-btn' + (learned ? ' learned' : '');
                 btn.dataset.qid = qId;
                 btn.textContent = learned
-                    ? (isUrdu ? '✓ سیکھ لیا' : isArabic ? '✓ تعلّمته' : '✓ Learned')
-                    : (isUrdu ? '＋ سیکھیں' : isArabic ? '＋ علّمه' : '＋ Mark as learned');
+                    ? (isUrdu ? '✓ سیکھ لیا' : isArabic ? '✓ تعلّمته' : isGerman ? '✓ Gelernt' : '✓ Learned')
+                    : (isUrdu ? '＋ سیکھیں' : isArabic ? '＋ علّمه' : isGerman ? '＋ Als gelernt markieren' : '＋ Mark as learned');
                 btn.setAttribute('aria-pressed', String(learned));
 
                 btn.addEventListener('click', () => {
@@ -709,8 +710,8 @@
                     btn.classList.toggle('learned', nowLearned);
                     btn.setAttribute('aria-pressed', String(nowLearned));
                     btn.textContent = nowLearned
-                        ? (isUrdu ? '✓ سیکھ لیا' : isArabic ? '✓ تعلّمته' : '✓ Learned')
-                        : (isUrdu ? '＋ سیکھیں' : isArabic ? '＋ علّمه' : '＋ Mark as learned');
+                        ? (isUrdu ? '✓ سیکھ لیا' : isArabic ? '✓ تعلّمته' : isGerman ? '✓ Gelernt' : '✓ Learned')
+                        : (isUrdu ? '＋ سیکھیں' : isArabic ? '＋ علّمه' : isGerman ? '＋ Als gelernt markieren' : '＋ Mark as learned');
                 });
 
                 h3.insertAdjacentElement('afterend', btn);

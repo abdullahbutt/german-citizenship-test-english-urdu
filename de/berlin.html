@@ -572,7 +572,7 @@
         </nav>
         <article class="content-card">
             <div class="state-intro" dir="ltr" style="background:color-mix(in srgb,var(--primary) 7%,var(--card-bg));border:1px solid color-mix(in srgb,var(--primary) 20%,var(--border));border-radius:.75rem;padding:1rem 1.25rem;margin-bottom:1.5rem;font-size:.96rem;line-height:1.75;">Berlin ist gleichzeitig <strong>Bundeshauptstadt</strong> und Bundesland (Stadtstaat). Das Landesparlament heißt <strong>Abgeordnetenhaus</strong>, das Staatsoberhaupt ist der/die <strong>Regierende Bürgermeister/in</strong>. Von 1961 bis 1989 war Berlin durch die Berliner Mauer geteilt. Nach der Wiedervereinigung 1990 wurde es wieder Hauptstadt Gesamtdeutschlands. Hier befinden sich der Bundestag, das Brandenburger Tor und viele weltbekannte Museen.</div><h1>Berlin — State Questions (301–310)</h1>
-<p><a href="index.html">⬅ Back to Main README</a></p>
+<p><a href="index.html">⬅ Zur Startseite</a></p>
 <hr>
 <h3>Question 301 — Coat of Arms</h3>
 <p><strong><span class="fi fi-de" role="img" aria-label="Germany" title="Germany"></span></strong> Welches Wappen gehört zum Bundesland Berlin?
@@ -618,7 +618,7 @@
 <li><strong>Neighbors/Borders:</strong> Surrounded entirely by Brandenburg</li>
 <li><strong>Major cities:</strong> Berlin is a single city-state with 12 districts (Bezirke)</li>
 </ul>
-<p><a href="index.html">⬅ Back to Main README</a></p>
+<p><a href="index.html">⬅ Zur Startseite</a></p>
 
         </article>
         
@@ -674,8 +674,9 @@
         // Progress tracker — mark questions as learned
         (function() {
             const KEY = 'gct_learned';
-            const isUrdu = document.documentElement.lang === 'ur';
+            const isUrdu   = document.documentElement.lang === 'ur';
             const isArabic = document.documentElement.lang === 'ar';
+            const isGerman = document.documentElement.lang === 'de';
 
             function getSet() {
                 try { return new Set(JSON.parse(localStorage.getItem(KEY) || '[]')); }
@@ -697,8 +698,8 @@
                 btn.className = 'mark-learned-btn' + (learned ? ' learned' : '');
                 btn.dataset.qid = qId;
                 btn.textContent = learned
-                    ? (isUrdu ? '✓ سیکھ لیا' : isArabic ? '✓ تعلّمته' : '✓ Learned')
-                    : (isUrdu ? '＋ سیکھیں' : isArabic ? '＋ علّمه' : '＋ Mark as learned');
+                    ? (isUrdu ? '✓ سیکھ لیا' : isArabic ? '✓ تعلّمته' : isGerman ? '✓ Gelernt' : '✓ Learned')
+                    : (isUrdu ? '＋ سیکھیں' : isArabic ? '＋ علّمه' : isGerman ? '＋ Als gelernt markieren' : '＋ Mark as learned');
                 btn.setAttribute('aria-pressed', String(learned));
 
                 btn.addEventListener('click', () => {
@@ -709,8 +710,8 @@
                     btn.classList.toggle('learned', nowLearned);
                     btn.setAttribute('aria-pressed', String(nowLearned));
                     btn.textContent = nowLearned
-                        ? (isUrdu ? '✓ سیکھ لیا' : isArabic ? '✓ تعلّمته' : '✓ Learned')
-                        : (isUrdu ? '＋ سیکھیں' : isArabic ? '＋ علّمه' : '＋ Mark as learned');
+                        ? (isUrdu ? '✓ سیکھ لیا' : isArabic ? '✓ تعلّمته' : isGerman ? '✓ Gelernt' : '✓ Learned')
+                        : (isUrdu ? '＋ سیکھیں' : isArabic ? '＋ علّمه' : isGerman ? '＋ Als gelernt markieren' : '＋ Mark as learned');
                 });
 
                 h3.insertAdjacentElement('afterend', btn);

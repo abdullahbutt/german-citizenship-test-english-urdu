@@ -231,7 +231,7 @@ const UI = {
     de: {
         siteTitle: 'Einbürgerungstest Deutschland',
         home: 'Startseite',
-        switchTo: 'English',
+        switchTo: 'English',   // shown as nav link to switch to EN version
         back: '← Zurück zur Startseite',
         changeLang: '← Sprache ändern',
         backToTop: 'Nach oben',
@@ -1250,8 +1250,9 @@ function renderPage({ lang, title, bodyHtml, slug }) {
         // Progress tracker — mark questions as learned
         (function() {
             const KEY = 'gct_learned';
-            const isUrdu = document.documentElement.lang === 'ur';
+            const isUrdu   = document.documentElement.lang === 'ur';
             const isArabic = document.documentElement.lang === 'ar';
+            const isGerman = document.documentElement.lang === 'de';
 
             function getSet() {
                 try { return new Set(JSON.parse(localStorage.getItem(KEY) || '[]')); }
@@ -1273,8 +1274,8 @@ function renderPage({ lang, title, bodyHtml, slug }) {
                 btn.className = 'mark-learned-btn' + (learned ? ' learned' : '');
                 btn.dataset.qid = qId;
                 btn.textContent = learned
-                    ? (isUrdu ? '✓ سیکھ لیا' : isArabic ? '✓ تعلّمته' : '✓ Learned')
-                    : (isUrdu ? '＋ سیکھیں' : isArabic ? '＋ علّمه' : '＋ Mark as learned');
+                    ? (isUrdu ? '✓ سیکھ لیا' : isArabic ? '✓ تعلّمته' : isGerman ? '✓ Gelernt' : '✓ Learned')
+                    : (isUrdu ? '＋ سیکھیں' : isArabic ? '＋ علّمه' : isGerman ? '＋ Als gelernt markieren' : '＋ Mark as learned');
                 btn.setAttribute('aria-pressed', String(learned));
 
                 btn.addEventListener('click', () => {
@@ -1285,8 +1286,8 @@ function renderPage({ lang, title, bodyHtml, slug }) {
                     btn.classList.toggle('learned', nowLearned);
                     btn.setAttribute('aria-pressed', String(nowLearned));
                     btn.textContent = nowLearned
-                        ? (isUrdu ? '✓ سیکھ لیا' : isArabic ? '✓ تعلّمته' : '✓ Learned')
-                        : (isUrdu ? '＋ سیکھیں' : isArabic ? '＋ علّمه' : '＋ Mark as learned');
+                        ? (isUrdu ? '✓ سیکھ لیا' : isArabic ? '✓ تعلّمته' : isGerman ? '✓ Gelernt' : '✓ Learned')
+                        : (isUrdu ? '＋ سیکھیں' : isArabic ? '＋ علّمه' : isGerman ? '＋ Als gelernt markieren' : '＋ Mark as learned');
                 });
 
                 h3.insertAdjacentElement('afterend', btn);
@@ -1809,6 +1810,39 @@ function buildLang(lang) {
             /<h3>((Question|سوال)\s+(\d+))<\/h3>/g,
             (match, full, prefix, num) => `<h3 id="q-${num}">${full}</h3>`
         );
+
+        // For German pages: translate all English-sourced content into German.
+        if (lang === 'de') {
+            // H1 headings
+            bodyHtml = bodyHtml
+                .replace(/General Questions — Part 1 \(Questions 1–50\)/g, 'Allgemeine Fragen — Teil 1 (Fragen 1–50)')
+                .replace(/General Questions — Part 2 \(Questions 51–100\)/g, 'Allgemeine Fragen — Teil 2 (Fragen 51–100)')
+                .replace(/General Questions — Part 3 \(Questions 101–150\)/g, 'Allgemeine Fragen — Teil 3 (Fragen 101–150)')
+                .replace(/General Questions — Part 4 \(Questions 151–200\)/g, 'Allgemeine Fragen — Teil 4 (Fragen 151–200)')
+                .replace(/General Questions — Part 5 \(Questions 201–250\)/g, 'Allgemeine Fragen — Teil 5 (Fragen 201–250)')
+                .replace(/General Questions — Part 6 \(Questions 251–300\)/g, 'Allgemeine Fragen — Teil 6 (Fragen 251–300)');
+            // H2 topic headings
+            bodyHtml = bodyHtml
+                .replace(/Politics, Democracy, Basic Rights &amp; State Structure/g, 'Politik, Demokratie, Grundrechte &amp; Staatsstruktur')
+                .replace(/Political System, Parties, Elections &amp; Government Structure/g, 'Politisches System, Parteien, Wahlen &amp; Regierungsstruktur')
+                .replace(/Legal System, Government, EU &amp; Civic Life/g, 'Rechtssystem, Regierung, EU &amp; Bürgerleben')
+                .replace(/German History: Nazi Era, WWII, Post-War Period/g, 'Deutsche Geschichte: NS-Zeit, Zweiter Weltkrieg, Nachkriegszeit')
+                .replace(/History: Cold War, Reunification, Culture &amp; Geography/g, 'Geschichte: Kalter Krieg, Wiedervereinigung, Kultur &amp; Geographie')
+                .replace(/Society, Culture, Daily Life, Religion &amp; Civic Knowledge/g, 'Gesellschaft, Kultur, Alltag, Religion &amp; Bürgerkunde');
+            // Question headings: "Question N" → "Frage N"
+            bodyHtml = bodyHtml.replace(
+                /(<h3 id="q-\d+">)Question (\d+)(<\/h3>)/g, '$1Frage $2$3'
+            );
+            // Explanation label
+            bodyHtml = bodyHtml.replace(/📝 Explanation:/g, '📝 Erklärung:');
+            // Navigation links from markdown source
+            bodyHtml = bodyHtml
+                .replace(/⬅ Back to Main README/g, '⬅ Zur Startseite')
+                .replace(/⬅ Previous:/g, '⬅ Vorherige:')
+                .replace(/Next:/g, 'Nächste:')
+                .replace(/← Back to index/g, '← Zurück')
+                .replace(/Back to Main README/g, 'Zur Startseite');
+        }
         // Rewrite internal .md links for the static site:
         //   README.md   → index.html  (per-language home)
         //   anything.md → anything.html
