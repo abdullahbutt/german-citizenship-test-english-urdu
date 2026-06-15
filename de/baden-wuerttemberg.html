@@ -781,7 +781,7 @@
 
             // Inject a mark button after every question <h3>
             document.querySelectorAll('.content-card h3').forEach(h3 => {
-                const m = h3.textContent.match(/(?:Question|سوال)\s+(\d+)/);
+                const m = h3.textContent.match(/(?:Question|Frage|سوال|السؤال)\s+(\d+)/);
                 if (!m) return;
                 const qId = parseInt(m[1], 10);
                 if (isNaN(qId)) return;

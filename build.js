@@ -1341,7 +1341,7 @@ function renderPage({ lang, title, bodyHtml, slug }) {
 
             // Inject a mark button after every question <h3>
             document.querySelectorAll('.content-card h3').forEach(h3 => {
-                const m = h3.textContent.match(/(?:Question|سوال)\\s+(\\d+)/);
+                const m = h3.textContent.match(/(?:Question|Frage|سوال|السؤال)\\s+(\\d+)/);
                 if (!m) return;
                 const qId = parseInt(m[1], 10);
                 if (isNaN(qId)) return;
@@ -1895,7 +1895,7 @@ function buildLang(lang) {
         // "Question 42" → <h3 id="q-42">Question 42</h3>
         // "سوال 42"     → <h3 id="q-42">سوال 42</h3>
         bodyHtml = bodyHtml.replace(
-            /<h3>((Question|سوال)\s+(\d+))<\/h3>/g,
+            /<h3>((Question|Frage|سوال|السؤال)\s+(\d+))<\/h3>/g,
             (match, full, prefix, num) => `<h3 id="q-${num}">${full}</h3>`
         );
 
