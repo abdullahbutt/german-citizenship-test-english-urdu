@@ -23,6 +23,13 @@ const { marked } = require('marked');
 const { generateQuizData } = require('./generate-quiz');
 
 const ROOT = __dirname;
+
+// German explanations — loaded once at startup and injected during 'de' build pass
+let DE_EXPLANATIONS = {};
+try {
+    DE_EXPLANATIONS = JSON.parse(fs.readFileSync(path.join(ROOT, 'de-explanations.json'), 'utf8'));
+    console.log(`[de-explanations] loaded ${Object.keys(DE_EXPLANATIONS).length} entries`);
+} catch(e) { /* file optional — German pages fall back to English explanations */ }
 const SOURCES = {
     en: path.join(ROOT, 'sources', 'english'),
     ur: path.join(ROOT, 'sources', 'urdu'),
@@ -786,7 +793,57 @@ function renderPage({ lang, title, bodyHtml, slug }) {
             text-decoration: none;
         }
         .nav-actions { display: flex; gap: 0.5rem; align-items: center; }
-        .nav-actions .btn-lang, .nav-actions .btn-theme {
+        .lang-dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .lang-dropdown-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35rem;
+            background: var(--card-bg);
+            border: 1.5px solid var(--border);
+            border-radius: 999px;
+            padding: 0.28rem 0.75rem;
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--text);
+            cursor: pointer;
+            white-space: nowrap;
+            transition: border-color 0.15s;
+        }
+        .lang-dropdown-btn:hover { border-color: var(--primary); }
+        .lang-dropdown-menu {
+            display: none;
+            position: absolute;
+            right: 0;
+            top: calc(100% + 6px);
+            background: var(--card-bg);
+            border: 1.5px solid var(--border);
+            border-radius: 0.6rem;
+            min-width: 160px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+            z-index: 999;
+            overflow: hidden;
+        }
+        .lang-dropdown-menu a {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.55rem 0.9rem;
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: var(--text);
+            text-decoration: none;
+            transition: background 0.1s;
+        }
+        .lang-dropdown-menu a:hover { background: color-mix(in srgb,var(--primary) 8%,var(--card-bg)); }
+        .lang-dropdown-menu a.active {
+            background: color-mix(in srgb,var(--primary) 12%,var(--card-bg));
+            color: var(--primary);
+            font-weight: 700;
+        }
+        .lang-dropdown.open .lang-dropdown-menu { display: block; }
             background: transparent;
             border: 1px solid var(--border);
             color: var(--page-text);
@@ -1198,11 +1255,31 @@ function renderPage({ lang, title, bodyHtml, slug }) {
             <a class="brand" href="./index.html">${escapeHtml(ui.siteTitle)}</a>
             <div class="nav-actions">
                 <a class="btn-quiz" href="../quiz.html" title="Practice Quiz">🎯 Quiz</a>
-                <a class="btn-lang" href="../${otherLang}/${slug}.html" title="${escapeHtml(ui.pickerHint)}">${escapeHtml(ui.switchTo)}</a>
+                <div class="lang-dropdown" id="langDrop">
+                    <button class="lang-dropdown-btn" onclick="document.getElementById('langDrop').classList.toggle('open')" aria-haspopup="true" aria-label="${escapeHtml(ui.pickerHint)}">
+                        ${lang === 'en' ? '<span class="fi fi-gb"></span> EN'
+                        : lang === 'ur' ? '<span class="fi fi-pk"></span> UR'
+                        : lang === 'ar' ? '<span class="fi fi-sa"></span> AR'
+                        : '<span class="fi fi-de"></span> DE'} ▾
+                    </button>
+                    <div class="lang-dropdown-menu" role="menu">
+                        <a href="../en/${slug}.html" ${lang === 'en' ? 'class="active"' : ''} role="menuitem"><span class="fi fi-gb"></span> English</a>
+                        <a href="../de/${slug}.html" ${lang === 'de' ? 'class="active"' : ''} role="menuitem"><span class="fi fi-de"></span> Deutsch</a>
+                        <a href="../ur/${slug}.html" ${lang === 'ur' ? 'class="active"' : ''} role="menuitem" style="font-family:'Jameel Noori Nastaleeq',serif;font-size:1.05rem;"><span class="fi fi-pk"></span> اردو</a>
+                        <a href="../ar/${slug}.html" ${lang === 'ar' ? 'class="active"' : ''} role="menuitem" style="font-family:'Indopak Nastaleeq',serif;font-size:1.05rem;"><span class="fi fi-sa"></span> عربي</a>
+                    </div>
+                </div>
                 <button class="btn-theme" id="themeToggle" aria-label="Toggle theme">🌓</button>
             </div>
         </div>
     </nav>
+    <script>
+    // Close lang dropdown when clicking outside
+    document.addEventListener('click', function(e) {
+        var d = document.getElementById('langDrop');
+        if (d && !d.contains(e.target)) d.classList.remove('open');
+    });
+    </script>
 
     <main>
         <p><a href="${slug === 'index' ? '../index.html?stay' : './index.html'}">${escapeHtml(slug === 'index' ? ui.changeLang : ui.back)}</a></p>
@@ -1784,16 +1861,27 @@ function buildLang(lang) {
         // the German content — no translation needed.
         if (lang === 'de') {
             preprocessed = preprocessed.split('\n').map(line => {
-                // Remove English translation label line
-                if (/^\*\*🇬🇧\s*(English|Englisch):?\*\*/.test(line.trim())) return '';
+                const t = line.trim();
+                // Remove English translation label line.
+                // Source format: **🇬🇧** question text  (no "English:" suffix)
+                if (/^\*\*🇬🇧\*\*/.test(t)) return '';
+                // Also catch older format: **🇬🇧 English:** or **🇬🇧 Englisch:**
+                if (/^\*\*🇬🇧\s*(English|Englisch):?\*\*/.test(t)) return '';
                 // Table rows: remove the last pipe-separated column (English)
-                if (line.trim().startsWith('|') && (line.match(/\|/g) || []).length >= 4) {
+                if (t.startsWith('|') && (line.match(/\|/g) || []).length >= 4) {
                     const parts = line.split('|');
-                    // parts: ['', col1, col2, col3, '']  — remove col3 (second-to-last)
                     parts.splice(parts.length - 2, 1);
                     return parts.join('|');
                 }
-                return line;
+                // Translate nav links that come from the markdown source
+                return line
+                    .replace(/⬅ Previous: Questions (\d+)–(\d+)/g, '⬅ Vorherige: Fragen $1–$2')
+                    .replace(/Previous: Questions (\d+)–(\d+)/g, 'Vorherige: Fragen $1–$2')
+                    .replace(/Next: Questions (\d+)–(\d+)/g, 'Nächste: Fragen $1–$2')
+                    .replace(/Note: Questions (\d+)–(\d+) cover[^.]+\./g,
+                        'Hinweis: Fragen $1–$2 umfassen spätere Geschichte, Geographie, Kultur, Gesellschaft, Religion und Alltag.')
+                    .replace(/Always refer to the official BAMF catalog[^.]*\./g,
+                        'Bitte beachten Sie stets den offiziellen BAMF-Fragenkatalog für den genauen Wortlaut.');
             }).join('\n');
         }
 
@@ -1838,10 +1926,32 @@ function buildLang(lang) {
             // Navigation links from markdown source
             bodyHtml = bodyHtml
                 .replace(/⬅ Back to Main README/g, '⬅ Zur Startseite')
+                .replace(/⬅ Vorherige: Questions (\d+)–(\d+)/g, '⬅ Vorherige: Fragen $1–$2')
                 .replace(/⬅ Previous:/g, '⬅ Vorherige:')
                 .replace(/Next:/g, 'Nächste:')
                 .replace(/← Back to index/g, '← Zurück')
                 .replace(/Back to Main README/g, 'Zur Startseite');
+
+            // Inject German explanations — single combined regex captures both
+            // the question ID from <h3> and the blockquote in one match,
+            // avoiding the stateful tracking problem.
+            bodyHtml = bodyHtml.replace(
+                /(<h3 id="q-(\d+)">[\s\S]*?<\/h3>[\s\S]*?)<blockquote>\n<p><strong>📝<\/strong> [\s\S]*?<\/p>\n<\/blockquote>/g,
+                (match, prefix, qid) => {
+                    const deText = DE_EXPLANATIONS[parseInt(qid, 10)];
+                    if (!deText) return match;
+                    return `${prefix}<blockquote>\n<p><strong>📝 Erklärung:</strong> ${deText}</p>\n</blockquote>`;
+                }
+            );
+            // Also replace format with existing "Erklärung:" label (Q1-100 where label was applied first)
+            bodyHtml = bodyHtml.replace(
+                /(<h3 id="q-(\d+)">[\s\S]*?<\/h3>[\s\S]*?)<blockquote>\n<p><strong>📝 Erklärung:<\/strong> [\s\S]*?<\/p>\n<\/blockquote>/g,
+                (match, prefix, qid) => {
+                    const deText = DE_EXPLANATIONS[parseInt(qid, 10)];
+                    if (!deText) return match;
+                    return `${prefix}<blockquote>\n<p><strong>📝 Erklärung:</strong> ${deText}</p>\n</blockquote>`;
+                }
+            );
         }
         // Rewrite internal .md links for the static site:
         //   README.md   → index.html  (per-language home)
