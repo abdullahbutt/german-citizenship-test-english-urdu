@@ -37,12 +37,20 @@ try {
     TR_EXPLANATIONS = JSON.parse(fs.readFileSync(path.join(ROOT, 'tr-explanations.json'), 'utf8'));
     console.log(`[tr-explanations] loaded ${Object.keys(TR_EXPLANATIONS).length} entries`);
 } catch(e) { /* file optional */ }
+
+// Russian explanations — injected during 'ru' build pass
+let RU_EXPLANATIONS = {};
+try {
+    RU_EXPLANATIONS = JSON.parse(fs.readFileSync(path.join(ROOT, 'ru-explanations.json'), 'utf8'));
+    console.log(`[ru-explanations] loaded ${Object.keys(RU_EXPLANATIONS).length} entries`);
+} catch(e) { /* file optional */ }
 const SOURCES = {
     en: path.join(ROOT, 'sources', 'english'),
     ur: path.join(ROOT, 'sources', 'urdu'),
     ar: path.join(ROOT, 'sources', 'arabic'),
-    de: path.join(ROOT, 'sources', 'english'),   // reuse English source
-    tr: path.join(ROOT, 'sources', 'english'),   // reuse English source
+    de: path.join(ROOT, 'sources', 'english'),
+    tr: path.join(ROOT, 'sources', 'english'),
+    ru: path.join(ROOT, 'sources', 'english'),
 };
 const OUTPUTS = {
     en: path.join(ROOT, 'en'),
@@ -50,6 +58,7 @@ const OUTPUTS = {
     ar: path.join(ROOT, 'ar'),
     de: path.join(ROOT, 'de'),
     tr: path.join(ROOT, 'tr'),
+    ru: path.join(ROOT, 'ru'),
 };
 
 // Files we never want to convert (branch metadata, not content)
@@ -177,6 +186,30 @@ const TITLES = {
         'sachsen-anhalt': 'Saksonya-Anhalt',
         'schleswig-holstein': 'Schleswig-Holstein',
         'thueringen': 'Türingya (Thüringen)',
+    },
+    ru: {
+        'questions-001-050': 'Вопросы 1–50',
+        'questions-051-100': 'Вопросы 51–100',
+        'questions-101-150': 'Вопросы 101–150',
+        'questions-151-200': 'Вопросы 151–200',
+        'questions-201-250': 'Вопросы 201–250',
+        'questions-251-300': 'Вопросы 251–300',
+        'baden-wuerttemberg': 'Баден-Вюртемберг',
+        'bayern': 'Бавария',
+        'berlin': 'Берлин',
+        'brandenburg': 'Бранденбург',
+        'bremen': 'Бремен',
+        'hamburg': 'Гамбург',
+        'hessen': 'Гессен',
+        'mecklenburg-vorpommern': 'Мекленбург-Передняя Померания',
+        'niedersachsen': 'Нижняя Саксония',
+        'nordrhein-westfalen': 'Северный Рейн-Вестфалия',
+        'rheinland-pfalz': 'Рейнланд-Пфальц',
+        'saarland': 'Саар',
+        'sachsen': 'Саксония',
+        'sachsen-anhalt': 'Саксония-Анхальт',
+        'schleswig-holstein': 'Шлезвиг-Гольштейн',
+        'thueringen': 'Тюрингия',
     },
 };
 
@@ -325,6 +358,35 @@ const UI = {
         randomBtn: '🎲 Rastgele Soru',
         printBtn: '🖨️ Yazdır / PDF',
         reportBtn: '⚠️ Hata Bildir',
+    },
+    ru: {
+        siteTitle: 'Тест на гражданство Германии',
+        home: 'Главная',
+        switchTo: 'English',
+        back: '← На главную',
+        changeLang: '← Сменить язык',
+        backToTop: 'Наверх',
+        pickerHint: 'Выбор языка',
+        questionsHeading: 'Вопросы',
+        statesHeading: 'Вопросы по землям',
+        tagline: 'Все официальные вопросы Einbürgerungstest с пояснениями на русском',
+        sourceOnGithub: 'Открыть на GitHub',
+        footerTagline: '🇩🇪 Тест на гражданство Германии — бесплатное пособие',
+        footerSubtag: 'Подготовка к тесту Leben in Deutschland',
+        bamfCatalog: 'Каталог вопросов BAMF ↗',
+        bamfTestCenter: 'Центр сдачи теста BAMF ↗',
+        starLabel: '⭐ Отметить на GitHub',
+        supportBtn: '☕ Поддержать',
+        lastUpdated: 'Обновлено',
+        navPrev: '← Предыдущие',
+        navNext: 'Следующие →',
+        navJump: 'Перейти:',
+        navQuestions: 'Вопросы',
+        navStates: 'Земли',
+        privacyLink: 'Конфиденциальность',
+        randomBtn: '🎲 Случайный вопрос',
+        printBtn: '🖨️ Печать / PDF',
+        reportBtn: '⚠️ Сообщить об ошибке',
     },
 };
 
@@ -499,6 +561,7 @@ const STATE_INTROS = {
         de: 'Baden-Württemberg liegt im Südwesten Deutschlands und grenzt an Frankreich und die Schweiz. Die Landeshauptstadt ist <strong>Stuttgart</strong>, Sitz des Landtags. Das Land ist bekannt für seine Industrie — hier haben Mercedes-Benz, Porsche, Bosch und SAP ihren Hauptsitz. Der Schwarzwald und der Bodensee gehören zu den bekanntesten Naturlandschaften. Das Staatsoberhaupt trägt den Titel <strong>Ministerpräsident/in</strong>.',
         ar: 'تقع بادن-فورتمبرغ في جنوب غرب ألمانيا، وتحدّها فرنسا وسويسرا. عاصمتها <strong>شتوتغارت</strong>، مقر البرلمان الولائي <strong>Landtag</strong>. تشتهر الولاية بقوتها الصناعية — تتخذ مرسيدس بنز وبورشه وبوش وSAP من مقارها هنا. تُعدّ غابة شوارتسفالد وبحيرة بودنزيه من أبرز معالمها الطبيعية. رئيس الحكومة يحمل لقب <strong>Ministerpräsident/in</strong>.',
         tr: 'Baden-Württemberg, Almanya’nın güneybatısında Fransa ve İsviçre ile sınır komşusudur. Eyaletin başkenti, <strong>Landtag</strong>’ın bulunduğu <strong>Stuttgart</strong>’tır. Eyalet, Mercedes-Benz, Porsche, Bosch ve SAP’ın genel merkezleriyle sanayi gücüyle tanınır. Schwarzwald (Kara Orman) ve Bodensee (Konstanz Gölü) en ünlü doğal güzellikleri arasındadır. Hükümet başkanının unvanı <strong>Ministerpräsident/in</strong>’dir.',
+        ru: 'Баден-Вюртемберг расположен на юго-западе Германии и граничит с Францией и Швейцарией. Столица земли — <strong>Штутгарт</strong>, где заседает <strong>Landtag</strong>. Земля известна штаб-квартирами Mercedes-Benz, Porsche, Bosch и SAP. Шварцвальд и Боденское озеро — главные природные достопримечательности. Глава правительства носит титул <strong>Ministerpräsident/in</strong>.',
     },
     'bayern': {
         en: 'Bavaria (Bayern) is the largest German state by area, located in the southeast and bordering Austria and the Czech Republic. The capital is <strong>Munich (München)</strong>, home to the Bayerischer Landtag. Bavaria is known for the Alps, Oktoberfest, BMW, and a strong tradition of arts and culture. The head of government is the <strong>Ministerpräsident/in</strong>. Bavaria has its own strong regional identity and the Bavarian dialect is widely spoken.',
@@ -506,6 +569,7 @@ const STATE_INTROS = {
         de: 'Bayern ist das flächenmäßig größte Bundesland Deutschlands im Südosten, das an Österreich und Tschechien grenzt. Die Landeshauptstadt ist <strong>München</strong>, Sitz des Bayerischen Landtags. Bayern ist bekannt für die Alpen, das Oktoberfest, BMW und eine starke Kulturlandschaft. Das Staatsoberhaupt ist der <strong>Ministerpräsident/in</strong>. Bayern pflegt eine ausgeprägte regionale Identität.',
         ar: 'بافاريا (Bayern) هي أكبر ولاية ألمانية من حيث المساحة، تقع في الجنوب الشرقي وتحدّها النمسا والجمهورية التشيكية. عاصمتها <strong>ميونيخ (München)</strong>، مقر البرلمان البافاري <strong>Bayerischer Landtag</strong>. تشتهر بجبال الألب ومهرجان أكتوبرفيست وشركة BMW وتراثها الثقافي الغني. رئيس الحكومة يحمل لقب <strong>Ministerpräsident/in</strong>، وتتمتع بافاريا بهوية إقليمية قوية.',
         tr: 'Bavyera (Bayern), Almanya’nın en büyük eyaletidir; güneydoğuda Avusturya ve Çek Cumhuriyeti ile sınır komşusudur. Başkenti, <strong>Bayerischer Landtag</strong>’ın bulunduğu <strong>Münih (München)</strong>’tir. Alpler, Oktoberfest, BMW ve zengin kültürel mirası ile ünlüdür. Hükümet başkanının unvanı <strong>Ministerpräsident/in</strong>’dir. Bavyera’nın güçlü bir bölgesel kimliği ve Bavyera lehçesi vardır.',
+        ru: 'Бавария (Bayern) — крупнейшая земля Германии, расположена на юго-востоке и граничит с Австрией и Чехией. Столица — <strong>Мюнхен (München)</strong>, где заседает <strong>Bayerischer Landtag</strong>. Земля знаменита Альпами, Октоберфестом и компанией BMW. Глава правительства носит титул <strong>Ministerpräsident/in</strong>.',
     },
     'berlin': {
         en: 'Berlin is Germany’s <strong>capital city</strong> and simultaneously a federal state (city-state). Its parliament is called the <strong>Abgeordnetenhaus</strong> and the head of government is the <strong>Regierender Bürgermeister/in</strong>. Berlin was divided by the Berlin Wall from 1961 until 1989. After reunification in 1990 it became the capital of reunified Germany. It is home to the Bundestag, Brandenburg Gate, and numerous world-class museums and cultural institutions.',
@@ -513,6 +577,7 @@ const STATE_INTROS = {
         de: 'Berlin ist gleichzeitig <strong>Bundeshauptstadt</strong> und Bundesland (Stadtstaat). Das Landesparlament heißt <strong>Abgeordnetenhaus</strong>, das Staatsoberhaupt ist der/die <strong>Regierende Bürgermeister/in</strong>. Von 1961 bis 1989 war Berlin durch die Berliner Mauer geteilt. Nach der Wiedervereinigung 1990 wurde es wieder Hauptstadt Gesamtdeutschlands. Hier befinden sich der Bundestag, das Brandenburger Tor und viele weltbekannte Museen.',
         ar: 'برلين هي <strong>عاصمة ألمانيا</strong> وفي الوقت ذاته ولاية فيدرالية (مدينة-ولاية). برلمانها يُسمى <strong>Abgeordnetenhaus</strong> ورئيس حكومتها يحمل لقب <strong>Regierender Bürgermeister/in</strong>. قُسِّمت برلين بجدار برلين من عام 1961 حتى 1989. وبعد إعادة توحيد ألمانيا عام 1990 أصبحت عاصمة ألمانيا الموحدة. تضمّ البوندستاغ وبوابة براندنبورغ ومتاحف عالمية المستوى.',
         tr: 'Berlin, Almanya’nın <strong>başkenti</strong> ve aynı zamanda bir federal eyalettir (şehir-eyalet). Eyalet parlamentosu <strong>Abgeordnetenhaus</strong> adını taşır; hükümet başkanının unvanı <strong>Regierender Bürgermeister/in</strong>’dir. Berlin, 1961’den 1989’a kadar Berlin Duvarı ile bölünmüştü. 1990’daki yeniden birleşmenin ardından birleşik Almanya’nın başkenti oldu. Bundestag, Brandenburg Kapısı ve dünya çapında müzeler burada yer almaktadır.',
+        ru: 'Берлин — <strong>столица Германии</strong> и одновременно самостоятельная земля (город-земля). Парламент называется <strong>Abgeordnetenhaus</strong>; глава правительства — <strong>Regierender Bürgermeister/in</strong>. Город был разделён Берлинской стеной с 1961 по 1989 год. После объединения 1990 года стал единой столицей. Здесь находятся Рейхстаг, Бранденбургские ворота и всемирно известные музеи.',
     },
     'brandenburg': {
         en: 'Brandenburg surrounds the city-state of Berlin and is located in northeastern Germany. Its capital is <strong>Potsdam</strong>, famous for the Sanssouci Palace (UNESCO World Heritage Site) and the <strong>Landtag</strong>. The state is characterised by vast forests, more than 3,000 lakes, and the Spreewald biosphere reserve. The head of government holds the title of <strong>Ministerpräsident/in</strong>. Brandenburg was part of East Germany (GDR) before reunification in 1990.',
@@ -520,6 +585,7 @@ const STATE_INTROS = {
         de: 'Brandenburg umschließt den Stadtstaat Berlin und liegt in Nordostdeutschland. Die Landeshauptstadt ist <strong>Potsdam</strong>, bekannt für Schloss Sanssouci (UNESCO-Welterbe) und den <strong>Landtag</strong>. Das Land zeichnet sich durch weite Wälder, über 3.000 Seen und den Spreewald aus. Das Staatsoberhaupt trägt den Titel <strong>Ministerpräsident/in</strong>. Brandenburg gehörte vor der Wiedervereinigung 1990 zur DDR.',
         ar: 'تحيط براندنبورغ بمدينة-ولاية برلين، وتقع في شمال شرق ألمانيا. عاصمتها <strong>بوتسدام</strong> المشهورة بقصر سانسوسي (التراث العالمي لليونسكو) ومقر <strong>Landtag</strong>. تتميز بغاباتها الشاسعة وأكثر من 3000 بحيرة ومحمية سبريفالد الطبيعية. رئيس الحكومة يحمل لقب <strong>Ministerpräsident/in</strong>. كانت براندنبورغ جزءاً من ألمانيا الشرقية (GDR) قبل توحيد 1990.',
         tr: 'Brandenburg, Berlin şehir-eyaletini çevreler ve Almanya’nın kuzeydoğusunda yer alır. Başkenti, Sanssouci Sarayı (UNESCO Dünya Mirası) ve <strong>Landtag</strong>’ıyla ünlü <strong>Potsdam</strong>’dır. Eyalet; geniş ormanları, 3.000’den fazla gölü ve Spreewald biyosfer rezerviyle karakteristiktir. Hükümet başkanının unvanı <strong>Ministerpräsident/in</strong>’dir. Brandenburg, 1990’daki yeniden birleşmeden önce Doğu Almanya’nın (DDR) bir parçasıydı.',
+        ru: 'Бранденбург окружает Берлин и расположен на северо-востоке Германии. Столица — <strong>Потсдам</strong>, известный дворцом Сан-Суси (объект ЮНЕСКО) и <strong>Landtag</strong>. Земля отличается обширными лесами и тысячами озёр. Бранденбург входил в состав ГДР и воссоединился с ФРГ в 1990 году. Глава правительства — <strong>Ministerpräsident/in</strong>.',
     },
     'bremen': {
         en: 'Bremen is Germany’s <strong>smallest state by population</strong> and consists of two cities: Bremen and Bremerhaven. It is a city-state and one of the oldest trading cities in Germany. Its parliament is called the <strong>Bremische Bürgerschaft</strong> and the head of government is the <strong>Bürgermeister/in (Senatspräsident/in)</strong>. The port of Bremen and Bremerhaven handles a significant share of German foreign trade. The Bremen Town Musicians statue is one of Germany’s most photographed sculptures.',
@@ -527,6 +593,7 @@ const STATE_INTROS = {
         de: 'Bremen ist Deutschlands <strong>kleinstes Bundesland nach Einwohnerzahl</strong> und besteht aus zwei Städten: Bremen und Bremerhaven. Als Stadtstaat ist es eine der ältesten Handelsstädte Deutschlands. Das Landesparlament heißt <strong>Bremische Bürgerschaft</strong>, das Staatsoberhaupt ist der/die <strong>Bürgermeister/in (Senatspräsident/in)</strong>. Die Häfen Bremen und Bremerhaven wickeln bedeutende Teile des deutschen Außenhandels ab.',
         ar: 'بريمن هي <strong>أصغر ولاية ألمانية من حيث السكان</strong> وتتألف من مدينتين: بريمن وبريمرهافن. وهي مدينة-ولاية وإحدى أعرق مدن التجارة في ألمانيا. برلمانها يُسمى <strong>Bremische Bürgerschaft</strong> ورئيس حكومتها <strong>Bürgermeister/in (Senatspräsident/in)</strong>. تضطلع موانئها بدور مهم في التجارة الخارجية الألمانية.',
         tr: 'Bremen, Almanya’nın en küçük eyaletidir ve iki şehirden oluşur: Bremen ve Bremerhaven. Eyalet parlamentosu <strong>Bremische Bürgerschaft</strong> adını taşır; hükümet başkanının unvanı <strong>Bürgermeister/in (Senatspräsident/in)</strong>’dir. Bremen, tarihi Bremer Roland heykeli ve UNESCO Dünya Mirası listesindeki pazar alanıyla ünlüdür. Almanya’nın önemli bir ticaret ve liman kentidir.',
+        ru: 'Бремен — наименьшая земля Германии по населению, состоит из двух городов: Бремена и Бремерхафена. Парламент называется <strong>Bremische Bürgerschaft</strong>; глава правительства — <strong>Bürgermeister/in (Senatspräsident/in)</strong>. Бремен известен историческим памятником Роланда и рыночной площадью — объектом ЮНЕСКО. Это один из старейших торговых городов Германии.',
     },
     'hamburg': {
         en: 'Hamburg is Germany’s <strong>second-largest city</strong> and a city-state. It is home to Germany’s largest port and is one of the most important trading hubs in Europe. Its parliament is called the <strong>Bürgerschaft</strong> and the head of government is the <strong>Erster Bürgermeister/in (Senatspräsident/in)</strong>. Hamburg has a rich maritime history and is known for the Speicherstadt warehouse district (UNESCO World Heritage Site), the Elbphilharmonie concert hall, and the Reeperbahn entertainment quarter.',
@@ -534,6 +601,7 @@ const STATE_INTROS = {
         de: 'Hamburg ist Deutschlands <strong>zweitgrößte Stadt</strong> und ein Stadtstaat. Es beherbergt den größten deutschen Hafen und ist eines der wichtigsten Handelszentren Europas. Das Landesparlament heißt <strong>Bürgerschaft</strong>, das Staatsoberhaupt ist der/die <strong>Erste Bürgermeister/in (Senatspräsident/in)</strong>. Die Speicherstadt (UNESCO-Welterbe), die Elbphilharmonie und die Reeperbahn sind bekannte Wahrzeichen.',
         ar: 'هامبورغ هي <strong>ثاني أكبر مدينة في ألمانيا</strong> ومدينة-ولاية. تضمّ أكبر ميناء ألماني وتُعدّ من أهم المراكز التجارية في أوروبا. برلمانها يُسمى <strong>Bürgerschaft</strong> ورئيس حكومتها <strong>Erster Bürgermeister/in (Senatspräsident/in)</strong>. تشتهر بمنطقة Speicherstadt (التراث العالمي لليونسكو) وقاعة Elbphilharmonie الموسيقية.',
         tr: 'Hamburg, Almanya’nın ikinci büyük şehri ve bir şehir-eyaletidir. Eyalet parlamentosu <strong>Bürgerschaft</strong> adını taşır; hükümet başkanının unvanı <strong>Erster Bürgermeister/in (Senatspräsident/in)</strong>’dir. Hamburg Limanı, Almanya’nın en büyük limanıdır. Speicherstadt (Depo Şehri) UNESCO Dünya Mirası’nda yer almaktadır. Şehir, müzik ve kültür alanında da öne çıkmaktadır.',
+        ru: 'Гамбург — второй по величине город Германии и самостоятельная земля (город-земля). Парламент называется <strong>Bürgerschaft</strong>; глава правительства — <strong>Erster Bürgermeister/in (Senatspräsident/in)</strong>. Гамбургский порт — крупнейший в Германии. Исторический квартал Шпайхерштадт внесён в список ЮНЕСКО.',
     },
     'hessen': {
         en: 'Hesse (Hessen) is located in central Germany. Its capital is <strong>Wiesbaden</strong>, seat of the <strong>Landtag</strong>, while Frankfurt am Main — though not the capital — is Germany’s financial centre and home to the European Central Bank (ECB) and Frankfurt Stock Exchange (Deutsche Börse). The head of government holds the title of <strong>Ministerpräsident/in</strong>. Hesse is one of Germany’s most economically important states and Frankfurt Airport is a major European hub.',
@@ -541,6 +609,7 @@ const STATE_INTROS = {
         de: 'Hessen liegt in Mitteldeutschland. Die Landeshauptstadt ist <strong>Wiesbaden</strong>, Sitz des <strong>Landtags</strong>. Frankfurt am Main — obwohl nicht Landeshauptstadt — ist Deutschlands Finanzzentrum und Sitz der Europäischen Zentralbank (EZB) und der Deutschen Börse. Das Staatsoberhaupt ist der/die <strong>Ministerpräsident/in</strong>. Der Flughafen Frankfurt ist einer der wichtigsten Drehkreuze Europas.',
         ar: 'تقع هيسن في وسط ألمانيا. عاصمتها <strong>فيسبادن</strong>، مقر <strong>Landtag</strong>. أما فرانكفورت أم ماين — رغم أنها ليست العاصمة — فهي المركز المالي لألمانيا ومقر البنك المركزي الأوروبي (ECB) وبورصة فرانكفورت. رئيس الحكومة يحمل لقب <strong>Ministerpräsident/in</strong>. مطار فرانكفورت من أهم المحاور الجوية الأوروبية.',
         tr: 'Hessen, Almanya’nın merkezinde yer alır. Eyaletin başkenti <strong>Wiesbaden</strong>’dır; <strong>Landtag</strong> burada toplanır. Almanya’nın finans merkezi olan Frankfurt am Main (Rhein-Main bölgesi), Hessen’de yer alır; Avrupa Merkez Bankası da burada bulunmaktadır. Frankfurt Havalimanı, Avrupa’nın en önemli havalimanlarından biridir. Hükümet başkanının unvanı <strong>Ministerpräsident/in</strong>’dir.',
+        ru: 'Гессен расположен в центре Германии. Столица земли — <strong>Висбаден</strong>, где заседает <strong>Landtag</strong>. Финансовый центр Германии — Франкфурт-на-Майне — также находится в Гессене, как и штаб-квартира Европейского центрального банка. Аэропорт Франкфурта — один из важнейших транспортных узлов Европы. Глава правительства — <strong>Ministerpräsident/in</strong>.',
     },
     'mecklenburg-vorpommern': {
         en: 'Mecklenburg-Vorpommern is located in northeastern Germany along the Baltic Sea coast. Its capital is <strong>Schwerin</strong>, home to the <strong>Landtag</strong> and the beautiful Schwerin Palace. The state is characterised by its long coastline, thousands of lakes, and the islands of Rügen and Usedom — popular holiday destinations. The head of government holds the title of <strong>Ministerpräsident/in</strong>. Tourism and agriculture are among the key economic sectors.',
@@ -548,6 +617,7 @@ const STATE_INTROS = {
         de: 'Mecklenburg-Vorpommern liegt im Nordosten Deutschlands an der Ostseeküste. Die Landeshauptstadt ist <strong>Schwerin</strong>, Sitz des <strong>Landtags</strong> und des prächtigen Schweriner Schlosses. Das Land ist bekannt für seine lange Küstenlinie, tausende Seen und die Inseln Rügen und Usedom. Das Staatsoberhaupt ist der/die <strong>Ministerpräsident/in</strong>. Tourismus und Landwirtschaft sind wichtige Wirtschaftszweige.',
         ar: 'تقع مكلنبورغ-فوربومرن في شمال شرق ألمانيا على ساحل بحر البلطيق. عاصمتها <strong>شفيرين</strong>، مقر <strong>Landtag</strong> وقصر شفيرين الجميل. تتميز بساحلها الطويل وآلاف البحيرات وجزيرتي روغن وأوزيدوم. رئيس الحكومة يحمل لقب <strong>Ministerpräsident/in</strong>. تُعدّ السياحة والزراعة من أهم قطاعاتها الاقتصادية.',
         tr: 'Mecklenburg-Vorpommern, Almanya’nın kuzeydoğusunda Baltık Denizi kıyısında yer alır. Başkenti <strong>Schwerin</strong>’dir. Rügen ve Usedom gibi adalar, binlerce göl ve balıkçı köyleriyle turizm açısından önemlidir. 1990’daki yeniden birleşmeden önce Doğu Almanya’ya aitti. Hükümet başkanının unvanı <strong>Ministerpräsident/in</strong>’dir.',
+        ru: 'Мекленбург-Передняя Померания расположен на севере Германии, на берегу Балтийского моря. Столица — <strong>Шверин (Schwerin)</strong>. Земля известна островами Рюген и Узедом, тысячами озёр и рыбацкими деревнями. До 1990 года входила в состав ГДР. Глава правительства — <strong>Ministerpräsident/in</strong>.',
     },
     'niedersachsen': {
         en: 'Lower Saxony (Niedersachsen) is Germany’s <strong>second-largest state by area</strong>, located in northwestern Germany. Its capital is <strong>Hanover (Hannover)</strong>, seat of the <strong>Landtag</strong>. Volkswagen is headquartered in Wolfsburg, making the automotive industry central to the state’s economy. Lower Saxony also has important agricultural land and North Sea coastline. The head of government is the <strong>Ministerpräsident/in</strong>. The Hanover Messe is the world’s largest industrial trade fair.',
@@ -555,6 +625,7 @@ const STATE_INTROS = {
         de: 'Niedersachsen ist das <strong>flächenmäßig zweitgrößte Bundesland</strong> Deutschlands im Nordwesten. Die Landeshauptstadt ist <strong>Hannover</strong>, Sitz des <strong>Landtags</strong>. Volkswagen hat seinen Hauptsitz in Wolfsburg, was die Automobilindustrie zu einem zentralen Wirtschaftszweig macht. Das Land hat zudem bedeutende Landwirtschaftsflächen und Nordseeküste. Das Staatsoberhaupt ist der/die <strong>Ministerpräsident/in</strong>.',
         ar: 'سكسونيا السفلى (Niedersachsen) هي <strong>ثاني أكبر ولاية ألمانية من حيث المساحة</strong>، تقع في شمال غرب ألمانيا. عاصمتها <strong>هانوفر (Hannover)</strong>، مقر <strong>Landtag</strong>. يتخذ فولكسفاغن من مقرّه في فولفسبورغ، مما يجعل صناعة السيارات محوراً اقتصادياً أساسياً. تمتلك الولاية أراضي زراعية واسعة وساحلاً على بحر الشمال. رئيس الحكومة يحمل لقب <strong>Ministerpräsident/in</strong>.',
         tr: 'Aşağı Saksonya (Niedersachsen), yüzölçümü bakımından Almanya’nın ikinci büyük eyaletidir. Başkenti <strong>Hannover</strong>’dir. Volkswagen’in merkezi Wolfsburg bu eyalettedir; Hannover’de uluslararası fuar merkezi bulunmaktadır. Lüneburg Heide ve Harz Dağları gibi doğal güzellikler meşhurdur. Hükümet başkanının unvanı <strong>Ministerpräsident/in</strong>’dir.',
+        ru: 'Нижняя Саксония (Niedersachsen) — вторая по площади земля Германии. Столица — <strong>Ганновер (Hannover)</strong>. В Вольфсбурге находится штаб-квартира Volkswagen, а в Ганновере — крупнейший международный выставочный центр. Природные ландшафты Люнебургской пустоши и гор Гарц привлекают туристов. Глава правительства — <strong>Ministerpräsident/in</strong>.',
     },
     'nordrhein-westfalen': {
         en: 'North Rhine-Westphalia (Nordrhein-Westfalen) is Germany’s <strong>most populous state</strong> with about 18 million inhabitants. Its capital is <strong>Düsseldorf</strong>, home to the <strong>Landtag</strong>. The Rhine-Ruhr metropolitan area is one of the largest urban agglomerations in Europe. Cologne (Köln), Bonn (former West German capital), Dortmund, and Essen are among its major cities. The head of government is the <strong>Ministerpräsident/in</strong>. The state has transitioned from heavy industry to a diverse, modern economy.',
@@ -562,6 +633,7 @@ const STATE_INTROS = {
         de: 'Nordrhein-Westfalen ist Deutschlands <strong>bevölkerungsreichstes Bundesland</strong> mit rund 18 Millionen Einwohnern. Die Landeshauptstadt ist <strong>Düsseldorf</strong>, Sitz des <strong>Landtags</strong>. Die Metropolregion Rhein-Ruhr ist eine der größten städtischen Ballungsräume Europas. Köln, Bonn (ehemalige Hauptstadt der BRD), Dortmund und Essen sind bedeutende Städte. Das Staatsoberhaupt ist der/die <strong>Ministerpräsident/in</strong>.',
         ar: 'شمال الراين-وستفاليا هي <strong>أكثر الولايات الألمانية سكاناً</strong> بحوالي 18 مليون نسمة. عاصمتها <strong>دوسلدورف</strong>، مقر <strong>Landtag</strong>. تُعدّ منطقة الراين-رور الحضرية من أكبر التجمعات العمرانية في أوروبا. كولونيا وبون (العاصمة الغربية السابقة) ودورتموند وإيسن من مدنها البارزة. رئيس الحكومة يحمل لقب <strong>Ministerpräsident/in</strong>.',
         tr: 'Kuzey Ren-Vestfalya, yaklaşık 18 milyon nüfusuyla Almanya’nın en kalabalık eyaletidir. Başkenti <strong>Düsseldorf</strong>’tur. Köln, Dortmund, Essen ve Bonn gibi önemli şehirlere ev sahipliği yapar. Ren-Ruhr bölgesi, Avrupa’nın en büyük kentsel alanlarından biridir. Hükümet başkanının unvanı <strong>Ministerpräsident/in</strong>’dir.',
+        ru: 'Северный Рейн-Вестфалия — наиболее населённая земля Германии (~18 млн человек). Столица — <strong>Дюссельдорф (Düsseldorf)</strong>. В земле находятся Кёльн, Дортмунд, Эссен и Бонн. Рейнско-Рурский регион — один из крупнейших городских агломератов Европы. Глава правительства — <strong>Ministerpräsident/in</strong>.',
     },
     'rheinland-pfalz': {
         en: 'Rhineland-Palatinate (Rheinland-Pfalz) is located in southwestern Germany. Its capital is <strong>Mainz</strong>, home to the <strong>Landtag</strong> and the famous Gutenberg Museum (Johannes Gutenberg invented movable-type printing here). The Rhine, Moselle, and Nahe rivers run through the state, creating renowned wine-growing regions — Rheinland-Pfalz produces more wine than any other German state. The head of government is the <strong>Ministerpräsident/in</strong>.',
@@ -569,6 +641,7 @@ const STATE_INTROS = {
         de: 'Rheinland-Pfalz liegt im Südwesten Deutschlands. Die Landeshauptstadt ist <strong>Mainz</strong>, Sitz des <strong>Landtags</strong> und des berühmten Gutenberg-Museums (Johannes Gutenberg erfand hier den Buchdruck). Rhein, Mosel und Nahe prägen die Landschaft und schaffen renommierte Weinbaugebiete — kein anderes Bundesland produziert mehr Wein. Das Staatsoberhaupt ist der/die <strong>Ministerpräsident/in</strong>.',
         ar: 'تقع راينلاند-بفالتس في جنوب غرب ألمانيا. عاصمتها <strong>ماينتس</strong>، مقر <strong>Landtag</strong> ومتحف غوتنبرغ (اخترع يوهانس غوتنبرغ هنا الطباعة بالحروف المتحركة). تشقّها أنهار الراين والموزيل والناهي، مما أفرز مناطق عنب مشهورة — لا تُنتج أي ولاية ألمانية أخرى نبيذاً أكثر منها. رئيس الحكومة يحمل لقب <strong>Ministerpräsident/in</strong>.',
         tr: 'Rheinland-Pfalz, Almanya’nın en önemli şarap üretim eyaletidir; Ren ve Mosel nehirleri burada akar. Başkenti <strong>Mainz</strong>’dir. Matbaa makinesinin mucidi Johannes Gutenberg, Mainz’de dünyaya gelmiştir. UNESCO Dünya Mirası listesindeki Ren Vadisi manzarası meşhurdur. Hükümet başkanının unvanı <strong>Ministerpräsident/in</strong>’dir.',
+        ru: 'Рейнланд-Пфальц — главный винодельческий регион Германии; по нему протекают Рейн и Мозель. Столица — <strong>Майнц (Mainz)</strong>. В Майнце родился Иоганн Гутенберг — изобретатель книгопечатания. Долина Рейна внесена в список ЮНЕСКО. Глава правительства — <strong>Ministerpräsident/in</strong>.',
     },
     'saarland': {
         en: 'Saarland is Germany’s <strong>smallest non-city-state</strong>, located in the far southwest and bordering both France and Luxembourg. Its capital is <strong>Saarbrücken</strong>, home to the <strong>Landtag</strong>. The state has a strong French cultural influence due to its border location and was under French administration after World War II before joining West Germany in 1957. Its economy has shifted from coal and steel to modern industries. The head of government is the <strong>Ministerpräsident/in</strong>.',
@@ -576,6 +649,7 @@ const STATE_INTROS = {
         de: 'Das Saarland ist Deutschlands <strong>kleinstes Flächenland</strong> im äußersten Südwesten und grenzt an Frankreich und Luxemburg. Die Landeshauptstadt ist <strong>Saarbrücken</strong>, Sitz des <strong>Landtags</strong>. Die Grenznähe zu Frankreich prägt die Kultur stark. Nach dem Zweiten Weltkrieg stand das Saarland unter französischer Verwaltung und trat 1957 der Bundesrepublik bei. Das Staatsoberhaupt ist der/die <strong>Ministerpräsident/in</strong>.',
         ar: 'زارلاند هي <strong>أصغر الولايات الألمانية غير-المدينية</strong>، تقع في أقصى الجنوب الغربي وتحدّها فرنسا ولوكسمبورغ. عاصمتها <strong>زاربروكن</strong>، مقر <strong>Landtag</strong>. يُلاحَظ التأثير الثقافي الفرنسي بوضوح بسبب قربها من الحدود. خضعت بعد الحرب العالمية الثانية للإدارة الفرنسية وانضمت إلى ألمانيا الغربية عام 1957. رئيس الحكومة يحمل لقب <strong>Ministerpräsident/in</strong>.',
         tr: 'Saarland, Almanya’nın en küçük yüzölçümlü şehir olmayan eyaletidir; Fransa ve Lüksemburg ile sınır komşusudur. Başkenti <strong>Saarbrücken</strong>’dır. 1957’de Almanya’ya katılan Saarland, Fransız kültüründen güçlü biçimde etkilenmiştir. Hükümet başkanının unvanı <strong>Ministerpräsident/in</strong>’dir.',
+        ru: 'Саар — наименьшая по площади нестоличная земля Германии, граничит с Францией и Люксембургом. Столица — <strong>Саарбрюккен (Saarbrücken)</strong>. В 1957 году Саар вошёл в состав ФРГ и испытал сильное влияние французской культуры. Глава правительства — <strong>Ministerpräsident/in</strong>.',
     },
     'sachsen': {
         en: 'Saxony (Sachsen) is located in eastern Germany, bordering Poland and the Czech Republic. Its capital is <strong>Dresden</strong>, home to the <strong>Landtag</strong> and renowned for its Baroque architecture and world-class art collections (Zwinger, Semperoper). Leipzig is another major city, famous as the home of Bach and the site of the 1989 Monday demonstrations that helped bring down the Berlin Wall. The head of government is the <strong>Ministerpräsident/in</strong>.',
@@ -583,6 +657,7 @@ const STATE_INTROS = {
         de: 'Sachsen liegt in Ostdeutschland und grenzt an Polen und Tschechien. Die Landeshauptstadt ist <strong>Dresden</strong>, Sitz des <strong>Landtags</strong>, bekannt für Barockarchitektur und weltberühmte Kunstsammlungen (Zwinger, Semperoper). Leipzig ist eine weitere Großstadt, bekannt als Heimat von Bach und als Ort der Montagsdemonstrationen 1989. Das Staatsoberhaupt ist der/die <strong>Ministerpräsident/in</strong>.',
         ar: 'تقع ساكسونيا (Sachsen) في شرق ألمانيا، وتحدّها بولندا والجمهورية التشيكية. عاصمتها <strong>دريسدن</strong>، مقر <strong>Landtag</strong>، وتشتهر بعمارتها الباروكية ومجموعاتها الفنية العالمية (Zwinger، Semperoper). لايبزيغ مدينة كبرى أخرى، اشتهرت بكونها موطن باخ ومسرح احتجاجات أيام الاثنين عام 1989. رئيس الحكومة يحمل لقب <strong>Ministerpräsident/in</strong>.',
         tr: 'Saksonya (Sachsen), Doğu Almanya’nın güneyinde Polonya ve Çek Cumhuriyeti ile sınır komşusudur. Başkenti, barok mimarisi ile ünlü <strong>Dresden</strong>’dir. Leipzig, Bach’ın kenti ve 1989 Barışçıl Devrimi’nin merkeziydi. 1990’daki yeniden birleşmeden önce Doğu Almanya’ya aitti. Hükümet başkanının unvanı <strong>Ministerpräsident/in</strong>’dir.',
+        ru: 'Саксония (Sachsen) расположена на востоке Германии и граничит с Польшей и Чехией. Столица — <strong>Дрезден (Dresden)</strong>, знаменитый барочной архитектурой. Лейпциг — родина Баха и центр мирных демонстраций 1989 года. До 1990 года входила в состав ГДР. Глава правительства — <strong>Ministerpräsident/in</strong>.',
     },
     'sachsen-anhalt': {
         en: 'Saxony-Anhalt (Sachsen-Anhalt) is located in central-eastern Germany. Its capital is <strong>Magdeburg</strong>, home to the <strong>Landtag</strong> and one of Germany’s oldest cathedrals. The state is historically significant as the heartland of the Protestant Reformation — Martin Luther was born in Eisleben and posted his 95 Theses in Wittenberg, both in Sachsen-Anhalt. The Bauhaus art movement was also founded in Dessau. The head of government is the <strong>Ministerpräsident/in</strong>.',
@@ -590,6 +665,7 @@ const STATE_INTROS = {
         de: 'Sachsen-Anhalt liegt in Mitteldeutschland. Die Landeshauptstadt ist <strong>Magdeburg</strong>, Sitz des <strong>Landtags</strong> und Heimat eines der ältesten Dome Deutschlands. Das Land ist historisch bedeutsam als Kernland der Reformation — Martin Luther wurde in Eisleben geboren und schlug in Wittenberg seine 95 Thesen an. Das Bauhaus wurde in Dessau gegründet. Das Staatsoberhaupt ist der/die <strong>Ministerpräsident/in</strong>.',
         ar: 'تقع ساكسونيا-أنهالت في وسط شرق ألمانيا. عاصمتها <strong>ماغدبورغ</strong>، مقر <strong>Landtag</strong> وإحدى أقدم الكاتدرائيات في ألمانيا. تتمتع بأهمية تاريخية استثنائية كمهد الإصلاح البروتستانتي — وُلد مارتن لوثر في آيسليبن وعلّق أطروحاته الخمس والتسعين في فيتنبرغ. تأسّست حركة الباوهاوس الفنية في ديساو. رئيس الحكومة يحمل لقب <strong>Ministerpräsident/in</strong>.',
         tr: 'Saksonya-Anhalt (Sachsen-Anhalt), Protestan Reformu’nun beşiğidir; Martin Luther Eisleben’de doğmuş, Wittenberg’de tezlerini yayımlamıştır. Başkenti <strong>Magdeburg</strong>’dur. Bauhaus hareketi Dessau’da doğmuştur (UNESCO Dünya Mirası). Magdeburg Katedrali ve Halberstadt’ın ünlü anıtları önemli kültürel mirastır. Hükümet başkanının unvanı <strong>Ministerpräsident/in</strong>’dir.',
+        ru: 'Саксония-Анхальт — колыбель протестантской Реформации: здесь родился Мартин Лютер (Айслебен) и он прибил свои тезисы в Виттенберге. Столица — <strong>Магдебург (Magdeburg)</strong>. В Дессау зародилось движение Баухаус (объект ЮНЕСКО). Глава правительства — <strong>Ministerpräsident/in</strong>.',
     },
     'schleswig-holstein': {
         en: 'Schleswig-Holstein is Germany’s northernmost state, located between the North Sea and the Baltic Sea. Its capital is <strong>Kiel</strong>, home to the <strong>Landtag</strong> and one of Germany’s major naval bases and the start of the Kiel Canal (Nord-Ostsee-Kanal), the world’s busiest artificial waterway. The state borders Denmark to the north. Flensburg and Lübeck (a UNESCO World Heritage city and birthplace of Thomas Mann) are other important cities. The head of government is the <strong>Ministerpräsident/in</strong>.',
@@ -597,6 +673,7 @@ const STATE_INTROS = {
         de: 'Schleswig-Holstein ist das nördlichste Bundesland Deutschlands, zwischen Nord- und Ostsee gelegen. Die Landeshauptstadt ist <strong>Kiel</strong>, Sitz des <strong>Landtags</strong> und Ausgangspunkt des Nord-Ostsee-Kanals, der meistbefahrenen künstlichen Wasserstraße der Welt. Im Norden grenzt das Land an Dänemark. Flensburg und Lübeck (UNESCO-Welterbe) sind weitere bedeutende Städte. Das Staatsoberhaupt ist der/die <strong>Ministerpräsident/in</strong>.',
         ar: 'شليسفيغ-هولشتاين هي أقصى ولاية شمالية في ألمانيا، تقع بين بحر الشمال وبحر البلطيق. عاصمتها <strong>كيل</strong>، مقر <strong>Landtag</strong> وانطلاق قناة كيل (Nord-Ostsee-Kanal) — أكثر الممرات المائية الاصطناعية ازدحاماً في العالم. تحدّها الدنمارك شمالاً. فلنسبورغ ولوبيك (مدينة التراث العالمي) من مدنها الرئيسية. رئيس الحكومة يحمل لقب <strong>Ministerpräsident/in</strong>.',
         tr: 'Schleswig-Holstein, Almanya’nın en kuzeydeki eyaletidir ve hem Kuzey Denizi hem de Baltık Denizi kıyısına sahiptir. Başkenti <strong>Kiel</strong>’dir. Danimarka ile sınır komşusudur. Kiel Kanalı (Nord-Ostsee-Kanal), dünyanın en yoğun yapay su yoludur. Hükümet başkanının unvanı <strong>Ministerpräsident/in</strong>’dir.',
+        ru: 'Шлезвиг-Гольштейн — самая северная земля Германии, омывается Северным и Балтийским морями, граничит с Данией. Столица — <strong>Киль (Kiel)</strong>. Кильский канал (Nord-Ostsee-Kanal) — самый загруженный искусственный водный путь в мире. Глава правительства — <strong>Ministerpräsident/in</strong>.',
     },
     'thueringen': {
         en: 'Thuringia (Thüringen) is located in central Germany and is often called the <strong>"Green Heart of Germany"</strong> for its dense forests, including the Thuringian Forest (Thüringer Wald). Its capital is <strong>Erfurt</strong>, home to the <strong>Landtag</strong>. The state has exceptional cultural heritage — Weimar was the home of Goethe and Schiller, Eisenach is the birthplace of Johann Sebastian Bach, and Luther translated the New Testament in Wartburg Castle. The head of government is the <strong>Ministerpräsident/in</strong>.',
@@ -604,6 +681,7 @@ const STATE_INTROS = {
         de: 'Thüringen liegt in Mitteldeutschland und wird wegen seiner dichten Wälder oft als <strong>„Grünes Herz Deutschlands"</strong> bezeichnet. Die Landeshauptstadt ist <strong>Erfurt</strong>, Sitz des <strong>Landtags</strong>. Das Land besitzt ein außergewöhnliches Kulturerbe — Weimar war die Heimat von Goethe und Schiller, Eisenach ist der Geburtsort Johann Sebastian Bachs, und Luther übersetzte das Neue Testament auf der Wartburg. Das Staatsoberhaupt ist der/die <strong>Ministerpräsident/in</strong>.',
         ar: 'تقع تورينغن في وسط ألمانيا وتُعرف بـ<strong>"القلب الأخضر لألمانيا"</strong> بسبب غاباتها الكثيفة. عاصمتها <strong>إرفورت</strong>، مقر البرلمان الولائي <strong>Landtag</strong>. تتمتع الولاية بإرث ثقافي استثنائي — فايمار كانت موطن غوته وشيلر، وآيزناخ مسقط رأس يوهان سيباستيان باخ، وترجم لوثر العهد الجديد في قلعة فارتبورغ. رئيس الحكومة يحمل لقب <strong>Ministerpräsident/in</strong>.',
         tr: 'Türingya (Thüringen), "Almanya’nın yeşil kalbi" olarak bilinir. Başkenti <strong>Erfurt</strong>’tur. Weimar, Goethe ve Schiller’in yaşadığı ve Weimar Cumhuriyeti’nin anayasasının hazırlandığı şehirdir. Martin Luther İncil’i Wartburg Şatosu’nda Almancaya çevirmiştir. Eisenach, Bach’ın doğduğu şehirdir. Hükümet başkanının unvanı <strong>Ministerpräsident/in</strong>’dir.',
+        ru: 'Тюрингия (Thüringen) называется «зелёным сердцем Германии». Столица — <strong>Эрфурт (Erfurt)</strong>. Веймар — город Гёте и Шиллера, где также была принята конституция Веймарской республики. Мартин Лютер переводил Библию в замке Вартбург близ Айзенаха — родины Баха. Глава правительства — <strong>Ministerpräsident/in</strong>.',
     },
 };
 
@@ -622,7 +700,7 @@ function buildMetaDesc(lang, title, slug) {
         return `${title} — Einbürgerungstest Länderfragen mit Erklärungen. Kostenlose Prüfungsvorbereitung.`;
     }
     const tagline = (UI[lang] || UI.en).tagline;
-    return `${tagline} — ${title}. ${lang === 'en' ? 'Free German citizenship test prep.' : lang === 'de' ? 'Kostenlose Prüfungsvorbereitung.' : lang === 'ar' ? 'مجاني — التحضير لاختبار الجنسية الألمانية.' : lang === 'tr' ? 'Ücretsiz Almanya vatandaşlık sınavı hazırlığı.' : 'مفت تیاری گائیڈ۔'}`;
+    return `${tagline} — ${title}. ${lang === 'en' ? 'Free German citizenship test prep.' : lang === 'de' ? 'Kostenlose Prüfungsvorbereitung.' : lang === 'ar' ? 'مجاني — التحضير لاختبار الجنسية الألمانية.' : lang === 'tr' ? 'Ücretsiz Almanya vatandaşlık sınavı hazırlığı.' : lang === 'ru' ? 'Бесплатная подготовка к тесту на гражданство Германии.' : 'مفت تیاری گائیڈ۔'}`;
 }
 
 // Extract FAQ structured data from generated HTML.
@@ -748,6 +826,7 @@ function renderPage({ lang, title, bodyHtml, slug }) {
     <link rel="alternate" hreflang="tr" href="${SITE_BASE_URL}/tr/${slug}.html">
     <link rel="alternate" hreflang="ur" href="${SITE_BASE_URL}/ur/${slug}.html">
     <link rel="alternate" hreflang="ar" href="${SITE_BASE_URL}/ar/${slug}.html">
+    <link rel="alternate" hreflang="ru" href="${SITE_BASE_URL}/ru/${slug}.html">
     <link rel="alternate" hreflang="x-default" href="${SITE_BASE_URL}/en/${slug}.html">
 
     <!-- Open Graph -->
@@ -758,7 +837,7 @@ function renderPage({ lang, title, bodyHtml, slug }) {
     <meta property="og:image" content="${OG_IMAGE_URL}">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:locale" content="${lang === 'en' ? 'en_US' : lang === 'ar' ? 'ar_SA' : lang === 'de' ? 'de_DE' : lang === 'tr' ? 'tr_TR' : 'ur_PK'}">
+    <meta property="og:locale" content="${lang === 'en' ? 'en_US' : lang === 'ar' ? 'ar_SA' : lang === 'de' ? 'de_DE' : lang === 'tr' ? 'tr_TR' : lang === 'ru' ? 'ru_RU' : 'ur_PK'}">
     <meta property="og:site_name" content="${escapeHtml(ui.siteTitle)}">
 
     <!-- Twitter Card -->
@@ -801,7 +880,7 @@ function renderPage({ lang, title, bodyHtml, slug }) {
           "url": "${SITE_BASE_URL}/${lang}/${slug}.html",
           "name": "${escapeHtml(title)} · ${escapeHtml(ui.siteTitle)}",
           "description": "${escapeHtml(buildMetaDesc(lang, title, slug))}",
-          "inLanguage": "${lang === 'en' ? 'en-GB' : lang === 'ar' ? 'ar' : lang === 'de' ? 'de' : lang === 'tr' ? 'tr' : 'ur-PK'}",
+          "inLanguage": "${lang === 'en' ? 'en-GB' : lang === 'ar' ? 'ar' : lang === 'de' ? 'de' : lang === 'tr' ? 'tr' : lang === 'ru' ? 'ru' : 'ur-PK'}",
           "isPartOf": { "@id": "${SITE_BASE_URL}/" },
           "publisher": {
             "@type": "Person",
@@ -1341,12 +1420,14 @@ function renderPage({ lang, title, bodyHtml, slug }) {
                         : lang === 'ur' ? '<span class="fi fi-pk"></span> UR'
                         : lang === 'ar' ? '<span class="fi fi-sa"></span> AR'
                         : lang === 'tr' ? '<span class="fi fi-tr"></span> TR'
+                        : lang === 'ru' ? '<span class="fi fi-ru"></span> RU'
                         : '<span class="fi fi-de"></span> DE'} ▾
                     </button>
                     <div class="lang-dropdown-menu" role="menu">
                         <a href="../en/${slug}.html" ${lang === 'en' ? 'class="active"' : ''} role="menuitem"><span class="fi fi-gb"></span> English</a>
                         <a href="../de/${slug}.html" ${lang === 'de' ? 'class="active"' : ''} role="menuitem"><span class="fi fi-de"></span> Deutsch</a>
                         <a href="../tr/${slug}.html" ${lang === 'tr' ? 'class="active"' : ''} role="menuitem"><span class="fi fi-tr"></span> Türkçe</a>
+                        <a href="../ru/${slug}.html" ${lang === 'ru' ? 'class="active"' : ''} role="menuitem"><span class="fi fi-ru"></span> Русский</a>
                         <a href="../ur/${slug}.html" ${lang === 'ur' ? 'class="active"' : ''} role="menuitem" style="font-family:'Jameel Noori Nastaleeq',serif;font-size:1.05rem;"><span class="fi fi-pk"></span> اردو</a>
                         <a href="../ar/${slug}.html" ${lang === 'ar' ? 'class="active"' : ''} role="menuitem" style="font-family:'Indopak Nastaleeq',serif;font-size:1.05rem;"><span class="fi fi-sa"></span> عربي</a>
                     </div>
@@ -1413,6 +1494,7 @@ function renderPage({ lang, title, bodyHtml, slug }) {
             const isArabic = document.documentElement.lang === 'ar';
             const isGerman = document.documentElement.lang === 'de';
             const isTurkish = document.documentElement.lang === 'tr';
+            const isRussian = document.documentElement.lang === 'ru';
 
             function getSet() {
                 try { return new Set(JSON.parse(localStorage.getItem(KEY) || '[]')); }
@@ -1424,7 +1506,7 @@ function renderPage({ lang, title, bodyHtml, slug }) {
 
             // Inject a mark button after every question <h3>
             document.querySelectorAll('.content-card h3').forEach(h3 => {
-                const m = h3.textContent.match(/(?:Question|Frage|Soru|سوال|السؤال)\\s+(\\d+)/);
+                const m = h3.textContent.match(/(?:Question|Frage|Soru|Вопрос|سوال|السؤال)\\s+(\\d+)/);
                 if (!m) return;
                 const qId = parseInt(m[1], 10);
                 if (isNaN(qId)) return;
@@ -1434,8 +1516,8 @@ function renderPage({ lang, title, bodyHtml, slug }) {
                 btn.className = 'mark-learned-btn' + (learned ? ' learned' : '');
                 btn.dataset.qid = qId;
                 btn.textContent = learned
-                    ? (isUrdu ? '✓ سیکھ لیا' : isArabic ? '✓ تعلّمته' : isGerman ? '✓ Gelernt' : isTurkish ? '✓ Öğrenildi' : '✓ Learned')
-                    : (isUrdu ? '＋ سیکھیں' : isArabic ? '＋ علّمه' : isGerman ? '＋ Als gelernt markieren' : isTurkish ? '＋ Öğrenildi olarak işaretle' : '＋ Mark as learned');
+                    ? (isUrdu ? '✓ سیکھ لیا' : isArabic ? '✓ تعلّمته' : isGerman ? '✓ Gelernt' : isTurkish ? '✓ Öğrenildi' : isRussian ? '✓ Изучено' : '✓ Learned')
+                    : (isUrdu ? '＋ سیکھیں' : isArabic ? '＋ علّمه' : isGerman ? '＋ Als gelernt markieren' : isTurkish ? '＋ Öğrenildi olarak işaretle' : isRussian ? '＋ Отметить как изученное' : '＋ Mark as learned');
                 btn.setAttribute('aria-pressed', String(learned));
 
                 btn.addEventListener('click', () => {
@@ -1446,8 +1528,8 @@ function renderPage({ lang, title, bodyHtml, slug }) {
                     btn.classList.toggle('learned', nowLearned);
                     btn.setAttribute('aria-pressed', String(nowLearned));
                     btn.textContent = nowLearned
-                        ? (isUrdu ? '✓ سیکھ لیا' : isArabic ? '✓ تعلّمته' : isGerman ? '✓ Gelernt' : isTurkish ? '✓ Öğrenildi' : '✓ Learned')
-                        : (isUrdu ? '＋ سیکھیں' : isArabic ? '＋ علّمه' : isGerman ? '＋ Als gelernt markieren' : isTurkish ? '＋ Öğrenildi olarak işaretle' : '＋ Mark as learned');
+                        ? (isUrdu ? '✓ سیکھ لیا' : isArabic ? '✓ تعلّمته' : isGerman ? '✓ Gelernt' : isTurkish ? '✓ Öğrenildi' : isRussian ? '✓ Изучено' : '✓ Learned')
+                        : (isUrdu ? '＋ سیکھیں' : isArabic ? '＋ علّمه' : isGerman ? '＋ Als gelernt markieren' : isTurkish ? '＋ Öğrenildi olarak işaretle' : isRussian ? '＋ Отметить как изученное' : '＋ Mark as learned');
                 });
 
                 h3.insertAdjacentElement('afterend', btn);
@@ -1542,6 +1624,7 @@ function renderIndex({ lang, slugs }) {
     const isAr = lang === 'ar';
     const isDe = lang === 'de';
     const isTr = lang === 'tr';
+    const isRu = lang === 'ru';
 
     // Question set cards — 6 sets with range labels
     const qSets = [
@@ -1571,6 +1654,7 @@ function renderIndex({ lang, slugs }) {
         ar: { qs: '📖 الأسئلة العامة', states: '🗺️ أسئلة الولايات', howLabel: '❓ كيف يعمل الاختبار؟', howText: 'يحتوي الاختبار على <strong>33 سؤالاً</strong> — 30 من الأسئلة العامة و3 من ولايتك. تحتاج إلى <strong>17 إجابة صحيحة</strong> للنجاح. <a href="../quiz.html">ابدأ اختبار التدريب ←</a>' },
         de: { qs: '📖 Allgemeine Fragen', states: '🗺️ Länderfragen', howLabel: '❓ Wie funktioniert der Test?', howText: 'Der Test hat <strong>33 Fragen</strong> — 30 aus dem allgemeinen Pool und 3 aus Ihrem Bundesland. Sie benötigen <strong>17 richtige</strong> Antworten zum Bestehen. <a href="../quiz.html">Zum Übungsquiz →</a>' },
         tr: { qs: '📖 Genel Sorular', states: '🗺️ Eyalet Soruları', howLabel: '❓ Sınav nasıl işler?', howText: 'Sınav <strong>33 sorudan</strong> oluşur — 30 genel havuzdan, 3 eyaletinizden. Geçmek için <strong>17 doğru</strong> yanıt gerekir. <a href="../quiz.html">Pratik sınavı başlat →</a>' },
+        ru: { qs: '📖 Общие вопросы', states: '🗺️ Вопросы по землям', howLabel: '❓ Как устроен тест?', howText: 'Тест состоит из <strong>33 вопросов</strong> — 30 из общего пула и 3 из вашей земли. Чтобы сдать, нужно <strong>17 правильных</strong> ответов. <a href="../quiz.html">Перейти к тренировке →</a>' },
     };
 
     const h = headings[lang] || headings.en;
@@ -1584,6 +1668,8 @@ function renderIndex({ lang, slugs }) {
         ? `<div class="idx-stats"><span>📋 300+ Fragen</span><span>🗺️ 16 Bundesländer</span><span>✅ Antworten markiert</span><span>💡 Erklärung je Frage</span></div>`
         : lang === 'tr'
         ? `<div class="idx-stats"><span>📋 300+ Soru</span><span>🗺️ 16 Eyalet</span><span>✅ Cevaplar işaretli</span><span>💡 Her soru için açıklama</span></div>`
+        : isRu
+        ? `<div class="idx-stats"><span>📋 300+ вопросов</span><span>🗺️ 16 земель</span><span>✅ Ответы выделены</span><span>💡 Пояснение к каждому вопросу</span></div>`
         : `<div class="idx-stats"><span>📋 300+ questions</span><span>🗺️ 16 Bundesländer</span><span>✅ Answers highlighted</span><span>💡 Explanation per question</span></div>`;
 
     // Question set cards
@@ -1612,6 +1698,8 @@ function renderIndex({ lang, slugs }) {
         ? `<a class="idx-quiz-cta" href="../quiz.html">🎯 Übungsquiz starten — wie der echte Einbürgerungstest</a>`
         : lang === 'tr'
         ? `<a class="idx-quiz-cta" href="../quiz.html">🎯 Pratik Sınavı Başlat — gerçek Einbürgerungstest gibi</a>`
+        : isRu
+        ? `<a class="idx-quiz-cta" href="../quiz.html">🎯 Начать тренировочный тест — как настоящий Einbürgerungstest</a>`
         : `<a class="idx-quiz-cta" href="../quiz.html">🎯 Start Practice Quiz — simulates the real Einbürgerungstest</a>`;
 
     const body = `
@@ -1693,8 +1781,8 @@ function renderIndex({ lang, slugs }) {
         <div class="idx-search-wrap">
             <span class="idx-search-icon">🔍</span>
             <input class="idx-search-input" id="searchInput" type="search"
-                placeholder="${isUr ? 'سوالات تلاش کریں…' : isAr ? 'ابحث في الأسئلة…' : isDe ? 'Fragen suchen…' : isTr ? 'Sorularda ara…' : 'Search questions…'}"
-                autocomplete="off" aria-label="${isUr ? 'سوالات تلاش کریں' : isAr ? 'ابحث في الأسئلة' : isDe ? 'Fragen suchen' : isTr ? 'Sorularda ara' : 'Search questions'}">
+                placeholder="${isUr ? 'سوالات تلاش کریں…' : isAr ? 'ابحث في الأسئلة…' : isDe ? 'Fragen suchen…' : isTr ? 'Sorularda ara…' : isRu ? 'Поиск вопросов…' : 'Search questions…'}"
+                autocomplete="off" aria-label="${isUr ? 'سوالات تلاش کریں' : isAr ? 'ابحث في الأسئلة' : isDe ? 'Fragen suchen' : isTr ? 'Sorularda ara' : isRu ? 'Поиск вопросов' : 'Search questions'}">
             <div class="idx-search-results" id="searchResults" role="listbox"></div>
         </div>
         <script>
@@ -1704,6 +1792,8 @@ function renderIndex({ lang, slugs }) {
             const isAr = lang === 'ar';
             const isDe = lang === 'de';
             const isTr = lang === 'tr';
+            const isRu  = lang === 'ru';
+    const isRu = lang === 'ru';
             let searchData = null;
 
             // Load search index lazily on first keypress
@@ -1751,7 +1841,7 @@ function renderIndex({ lang, slugs }) {
 
                 if (!matches.length) {
                     results.innerHTML = '<div class="idx-search-empty">' +
-                        (isUr ? 'کوئی نتیجہ نہیں ملا۔' : isAr ? 'لا توجد نتائج.' : isDe ? 'Keine Ergebnisse gefunden.' : isTr ? 'Sonuç bulunamadı.' : 'No results found.') + '</div>';
+                        (isUr ? 'کوئی نتیجہ نہیں ملا۔' : isAr ? 'لا توجد نتائج.' : isDe ? 'Keine Ergebnisse gefunden.' : isTr ? 'Sonuç bulunamadı.' : isRu ? 'Ничего не найдено.' : 'No results found.') + '</div>';
                     results.classList.add('visible');
                     return;
                 }
@@ -1760,7 +1850,7 @@ function renderIndex({ lang, slugs }) {
                     const href = './' + item.slug + '.html#q-' + item.id;
                     const primary = highlight(isUr ? (item.ur || item.de) : isAr ? (item.ar || item.de) : item.de, q);
                     return '<a class="idx-search-result" href="' + escHtml(href) + '">' +
-                        '<div class="idx-search-result-num">' + (isUr ? 'سوال ' : isAr ? 'السؤال ' : isDe ? 'Frage ' : isTr ? 'Soru ' : 'Question ') + item.id + '</div>' +
+                        '<div class="idx-search-result-num">' + (isUr ? 'سوال ' : isAr ? 'السؤال ' : isDe ? 'Frage ' : isTr ? 'Soru ' : isRu ? 'Вопрос ' : 'Question ') + item.id + '</div>' +
                         '<div class="idx-search-result-text">' + primary + '</div>' +
                         '</a>';
                 }).join('');
@@ -1873,11 +1963,11 @@ function renderIndex({ lang, slugs }) {
 
         <div class="progress-tracker" id="progressTracker">
             <div class="pt-header">
-                <span>${isUr ? '📚 پیش رفت:' : isAr ? '📚 التقدم:' : isDe ? '📚 Fortschritt:' : isTr ? '📚 İlerleme:' : '📚 Progress:'} <strong id="ptCount">0</strong> / 300 ${isUr ? 'سوالات سیکھ لیے' : isAr ? 'سؤال تعلّمته' : isDe ? 'Fragen gelernt' : isTr ? 'soru öğrenildi' : 'questions learned'}</span>
+                <span>${isUr ? '📚 پیش رفت:' : isAr ? '📚 التقدم:' : isDe ? '📚 Fortschritt:' : isTr ? '📚 İlerleme:' : '📚 Progress:'} <strong id="ptCount">0</strong> / 300 ${isUr ? 'سوالات سیکھ لیے' : isAr ? 'سؤال تعلّمته' : isDe ? 'Fragen gelernt' : isTr ? 'soru öğrenildi' : isRu ? 'вопросов изучено' : 'questions learned'}</span>
                 <span class="pt-pct" id="ptPct">0%</span>
             </div>
             <div class="pt-bar-bg"><div class="pt-bar-fill" id="ptFill" style="width:0%"></div></div>
-            <button class="pt-reset" onclick="if(confirm('${isUr ? 'تمام پیش رفت مٹا دی جائے؟' : isAr ? 'هل تريد إعادة تعيين كل التقدم؟' : isDe ? 'Gesamten Fortschritt zurücksetzen?' : isTr ? 'Tüm ilerleme sıfırlansın mı?' : 'Reset all progress?'}')){localStorage.removeItem('gct_learned');location.reload();}">${isUr ? 'پیش رفت ری سیٹ کریں' : isAr ? 'إعادة تعيين التقدم' : isDe ? 'Fortschritt zurücksetzen' : isTr ? 'İlerlemeyi sıfırla' : 'Reset progress'}</button>
+            <button class="pt-reset" onclick="if(confirm('${isUr ? 'تمام پیش رفت مٹا دی جائے؟' : isAr ? 'هل تريد إعادة تعيين كل التقدم؟' : isDe ? 'Gesamten Fortschritt zurücksetzen?' : isTr ? 'Tüm ilerleme sıfırlansın mı?' : isRu ? 'Сбросить весь прогресс?' : 'Reset all progress?'}')){localStorage.removeItem('gct_learned');location.reload();}">${isUr ? 'پیش رفت ری سیٹ کریں' : isAr ? 'إعادة تعيين التقدم' : isDe ? 'Fortschritt zurücksetzen' : isTr ? 'İlerlemeyi sıfırla' : isRu ? 'Сбросить прогресс' : 'Reset progress'}</button>
         </div>
         <script>
         (function(){
@@ -1947,8 +2037,8 @@ function buildLang(lang) {
         // horizontal rules, not as setext-style h2 underlines.
         let preprocessed = md.replace(/([^\n])\n---\s*$/gm, '$1\n\n---');
 
-        // For German/Turkish pages: strip the English translation column.
-        if (lang === 'de' || lang === 'tr') {
+        // For German/Turkish/Russian pages: strip the English translation column.
+        if (lang === 'de' || lang === 'tr' || lang === 'ru') {
             preprocessed = preprocessed.split('\n').map(line => {
                 const t = line.trim();
                 // Remove English translation label line.
@@ -2097,6 +2187,57 @@ function buildLang(lang) {
                 }
             );
         }
+
+        if (lang === 'ru') {
+            // H1 headings → Russian
+            bodyHtml = bodyHtml
+                .replace(/General Questions — Part 1 \(Questions 1–50\)/g,   'Общие вопросы — Часть 1 (Вопросы 1–50)')
+                .replace(/General Questions — Part 2 \(Questions 51–100\)/g,  'Общие вопросы — Часть 2 (Вопросы 51–100)')
+                .replace(/General Questions — Part 3 \(Questions 101–150\)/g, 'Общие вопросы — Часть 3 (Вопросы 101–150)')
+                .replace(/General Questions — Part 4 \(Questions 151–200\)/g, 'Общие вопросы — Часть 4 (Вопросы 151–200)')
+                .replace(/General Questions — Part 5 \(Questions 201–250\)/g, 'Общие вопросы — Часть 5 (Вопросы 201–250)')
+                .replace(/General Questions — Part 6 \(Questions 251–300\)/g, 'Общие вопросы — Часть 6 (Вопросы 251–300)');
+            // H2 topic headings → Russian
+            bodyHtml = bodyHtml
+                .replace(/Politics, Democracy, Basic Rights &amp; State Structure/g,       'Политика, демократия, основные права и государственный строй')
+                .replace(/Political System, Parties, Elections &amp; Government Structure/g,'Политическая система, партии, выборы и структура правительства')
+                .replace(/Legal System, Government, EU &amp; Civic Life/g,                 'Правовая система, правительство, ЕС и гражданская жизнь')
+                .replace(/German History: Nazi Era, WWII, Post-War Period/g,               'История Германии: нацизм, Вторая мировая война, послевоенный период')
+                .replace(/History: Cold War, Reunification, Culture &amp; Geography/g,     'История: холодная война, объединение, культура и география')
+                .replace(/Society, Culture, Daily Life, Religion &amp; Civic Knowledge/g,  'Общество, культура, повседневная жизнь, религия и гражданские знания');
+            // Question headings: "Question N" → "Вопрос N"
+            bodyHtml = bodyHtml.replace(
+                /(<h3 id="q-\d+">)Question (\d+)(<\/h3>)/g, '$1Вопрос $2$3'
+            );
+            // Explanation label and nav links
+            bodyHtml = bodyHtml
+                .replace(/📝 Explanation:/g, '📝 Пояснение:')
+                .replace(/⬅ Back to Main README/g, '⬅ На главную')
+                .replace(/⬅ Previous: Questions (\d+)–(\d+)/g, '⬅ Предыдущие: Вопросы $1–$2')
+                .replace(/⬅ Previous:/g, '⬅ Предыдущие:')
+                .replace(/Next:/g, 'Следующие:')
+                .replace(/Back to Main README/g, 'На главную')
+                .replace(/← Back to index/g, '← Назад')
+                .replace(/— State Questions \(301–310\)/g, '— Вопросы по земле (301–310)')
+                .replace(/State Questions \(301–310\)/g, 'Вопросы по земле (301–310)');
+            // Inject Russian explanations
+            bodyHtml = bodyHtml.replace(
+                /(<h3 id="q-(\d+)">[\s\S]*?<\/h3>[\s\S]*?)<blockquote>\n<p><strong>📝<\/strong> [\s\S]*?<\/p>\n<\/blockquote>/g,
+                (match, prefix, qid) => {
+                    const ruText = RU_EXPLANATIONS[parseInt(qid, 10)];
+                    if (!ruText) return match;
+                    return `${prefix}<blockquote>\n<p><strong>📝 Пояснение:</strong> ${ruText}</p>\n</blockquote>`;
+                }
+            );
+            bodyHtml = bodyHtml.replace(
+                /(<h3 id="q-(\d+)">[\s\S]*?<\/h3>[\s\S]*?)<blockquote>\n<p><strong>📝 Пояснение:<\/strong> [\s\S]*?<\/p>\n<\/blockquote>/g,
+                (match, prefix, qid) => {
+                    const ruText = RU_EXPLANATIONS[parseInt(qid, 10)];
+                    if (!ruText) return match;
+                    return `${prefix}<blockquote>\n<p><strong>📝 Пояснение:</strong> ${ruText}</p>\n</blockquote>`;
+                }
+            );
+        }
         // Rewrite internal .md links for the static site:
         //   README.md   → index.html  (per-language home)
         //   anything.md → anything.html
@@ -2237,7 +2378,7 @@ function buildSitemap() {
   </url>`;
 
     // Per-language index pages
-    for (const lang of ['en', 'ur', 'ar', 'de', 'tr']) {
+    for (const lang of ['en', 'ur', 'ar', 'de', 'tr', 'ru']) {
         urls += `
   <url>
     <loc>${SITE_BASE_URL}/${lang}/index.html</loc>
@@ -2246,6 +2387,7 @@ function buildSitemap() {
     <xhtml:link rel="alternate" hreflang="ar" href="${SITE_BASE_URL}/ar/index.html"/>
     <xhtml:link rel="alternate" hreflang="de" href="${SITE_BASE_URL}/de/index.html"/>
     <xhtml:link rel="alternate" hreflang="tr" href="${SITE_BASE_URL}/tr/index.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="${SITE_BASE_URL}/ru/index.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="${SITE_BASE_URL}/en/index.html"/>
     <lastmod>${today}</lastmod>
     <changefreq>monthly</changefreq>
@@ -2299,7 +2441,7 @@ Sitemap: ${SITE_BASE_URL}/sitemap.xml
 
 function main() {
     console.log('Building bilingual site...\n');
-    for (const lang of ['en', 'ur', 'ar', 'de', 'tr']) {
+    for (const lang of ['en', 'ur', 'ar', 'de', 'tr', 'ru']) {
         console.log(`[${lang}]`);
         buildLang(lang);
     }

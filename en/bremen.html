@@ -14,6 +14,7 @@
     <link rel="alternate" hreflang="tr" href="https://abdullahbutt.github.io/german-citizenship-test-english-urdu/tr/bremen.html">
     <link rel="alternate" hreflang="ur" href="https://abdullahbutt.github.io/german-citizenship-test-english-urdu/ur/bremen.html">
     <link rel="alternate" hreflang="ar" href="https://abdullahbutt.github.io/german-citizenship-test-english-urdu/ar/bremen.html">
+    <link rel="alternate" hreflang="ru" href="https://abdullahbutt.github.io/german-citizenship-test-english-urdu/ru/bremen.html">
     <link rel="alternate" hreflang="x-default" href="https://abdullahbutt.github.io/german-citizenship-test-english-urdu/en/bremen.html">
 
     <!-- Open Graph -->
@@ -609,6 +610,7 @@
                         <a href="../en/bremen.html" class="active" role="menuitem"><span class="fi fi-gb"></span> English</a>
                         <a href="../de/bremen.html"  role="menuitem"><span class="fi fi-de"></span> Deutsch</a>
                         <a href="../tr/bremen.html"  role="menuitem"><span class="fi fi-tr"></span> Türkçe</a>
+                        <a href="../ru/bremen.html"  role="menuitem"><span class="fi fi-ru"></span> Русский</a>
                         <a href="../ur/bremen.html"  role="menuitem" style="font-family:'Jameel Noori Nastaleeq',serif;font-size:1.05rem;"><span class="fi fi-pk"></span> اردو</a>
                         <a href="../ar/bremen.html"  role="menuitem" style="font-family:'Indopak Nastaleeq',serif;font-size:1.05rem;"><span class="fi fi-sa"></span> عربي</a>
                     </div>
@@ -751,6 +753,7 @@
             const isArabic = document.documentElement.lang === 'ar';
             const isGerman = document.documentElement.lang === 'de';
             const isTurkish = document.documentElement.lang === 'tr';
+            const isRussian = document.documentElement.lang === 'ru';
 
             function getSet() {
                 try { return new Set(JSON.parse(localStorage.getItem(KEY) || '[]')); }
@@ -762,7 +765,7 @@
 
             // Inject a mark button after every question <h3>
             document.querySelectorAll('.content-card h3').forEach(h3 => {
-                const m = h3.textContent.match(/(?:Question|Frage|Soru|سوال|السؤال)\s+(\d+)/);
+                const m = h3.textContent.match(/(?:Question|Frage|Soru|Вопрос|سوال|السؤال)\s+(\d+)/);
                 if (!m) return;
                 const qId = parseInt(m[1], 10);
                 if (isNaN(qId)) return;
@@ -772,8 +775,8 @@
                 btn.className = 'mark-learned-btn' + (learned ? ' learned' : '');
                 btn.dataset.qid = qId;
                 btn.textContent = learned
-                    ? (isUrdu ? '✓ سیکھ لیا' : isArabic ? '✓ تعلّمته' : isGerman ? '✓ Gelernt' : isTurkish ? '✓ Öğrenildi' : '✓ Learned')
-                    : (isUrdu ? '＋ سیکھیں' : isArabic ? '＋ علّمه' : isGerman ? '＋ Als gelernt markieren' : isTurkish ? '＋ Öğrenildi olarak işaretle' : '＋ Mark as learned');
+                    ? (isUrdu ? '✓ سیکھ لیا' : isArabic ? '✓ تعلّمته' : isGerman ? '✓ Gelernt' : isTurkish ? '✓ Öğrenildi' : isRussian ? '✓ Изучено' : '✓ Learned')
+                    : (isUrdu ? '＋ سیکھیں' : isArabic ? '＋ علّمه' : isGerman ? '＋ Als gelernt markieren' : isTurkish ? '＋ Öğrenildi olarak işaretle' : isRussian ? '＋ Отметить как изученное' : '＋ Mark as learned');
                 btn.setAttribute('aria-pressed', String(learned));
 
                 btn.addEventListener('click', () => {
@@ -784,8 +787,8 @@
                     btn.classList.toggle('learned', nowLearned);
                     btn.setAttribute('aria-pressed', String(nowLearned));
                     btn.textContent = nowLearned
-                        ? (isUrdu ? '✓ سیکھ لیا' : isArabic ? '✓ تعلّمته' : isGerman ? '✓ Gelernt' : isTurkish ? '✓ Öğrenildi' : '✓ Learned')
-                        : (isUrdu ? '＋ سیکھیں' : isArabic ? '＋ علّمه' : isGerman ? '＋ Als gelernt markieren' : isTurkish ? '＋ Öğrenildi olarak işaretle' : '＋ Mark as learned');
+                        ? (isUrdu ? '✓ سیکھ لیا' : isArabic ? '✓ تعلّمته' : isGerman ? '✓ Gelernt' : isTurkish ? '✓ Öğrenildi' : isRussian ? '✓ Изучено' : '✓ Learned')
+                        : (isUrdu ? '＋ سیکھیں' : isArabic ? '＋ علّمه' : isGerman ? '＋ Als gelernt markieren' : isTurkish ? '＋ Öğrenildi olarak işaretle' : isRussian ? '＋ Отметить как изученное' : '＋ Mark as learned');
                 });
 
                 h3.insertAdjacentElement('afterend', btn);
