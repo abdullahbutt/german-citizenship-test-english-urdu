@@ -488,6 +488,7 @@
                 <button onclick="selectQuizLang('en')" id="qlOpt-en" class="active" role="menuitem"><span class="fi fi-gb"></span> English</button>
                 <button onclick="selectQuizLang('de')" id="qlOpt-de" role="menuitem"><span class="fi fi-de"></span> Deutsch</button>
                 <button onclick="selectQuizLang('tr')" id="qlOpt-tr" role="menuitem"><span class="fi fi-tr"></span> Türkçe</button>
+                <button onclick="selectQuizLang('ru')" id="qlOpt-ru" role="menuitem"><span class="fi fi-ru"></span> Русский</button>
                 <button onclick="selectQuizLang('ur')" id="qlOpt-ur" role="menuitem" style="font-family:'Jameel Noori Nastaleeq',serif;font-size:1rem;"><span class="fi fi-pk"></span> اردو</button>
                 <button onclick="selectQuizLang('ar')" id="qlOpt-ar" role="menuitem" style="font-family:'Indopak Nastaleeq',serif;font-size:1rem;"><span class="fi fi-sa"></span> عربي</button>
             </div>
@@ -508,8 +509,8 @@ function selectQuizLang(lang) {
     if (window._quizLangHandler) window._quizLangHandler(fakeEvent);
 }
 function updateQuizLangDropdown(lang) {
-    var flags = { en:'gb', de:'de', ur:'pk', ar:'sa', tr:'tr' };
-    var labels = { en:'English', de:'Deutsch', ur:'اردو', ar:'عربي', tr:'Türkçe' };
+    var flags = { en:'gb', de:'de', ur:'pk', ar:'sa', tr:'tr', ru:'ru' };
+    var labels = { en:'English', de:'Deutsch', ur:'اردو', ar:'عربي', tr:'Türkçe', ru:'Русский' };
     var icon = document.getElementById('qlFlagIcon');
     var label = document.getElementById('qlLangLabel');
     if (icon) { icon.className = 'fi fi-' + (flags[lang]||'gb'); }
@@ -829,13 +830,53 @@ const UI = {
         historyFail: 'GEÇEMEDİ',
         historyPractice: 'Pratik',
     },
+    ru: {
+        quizTitle: '🎯 Тренировочный тест',
+        quizSub: 'Выберите режим. Все вопросы из официального каталога BAMF.',
+        mode1title: 'Симуляция настоящего теста',
+        mode1sub: '33 вопроса · таймер 60 мин · Сдать = 17/33 — как настоящий Einbürgerungstest',
+        mode2title: 'Вопросы по земле',
+        mode2sub: 'Выберите свою землю. Ответьте на 3 региональных вопроса.',
+        mode3title: 'Тренировка общих вопросов',
+        mode3sub: 'По 50 вопросов из 300 общих — без таймера, чистая тренировка.',
+        imageNote: 'ℹ️ Примечание: вопросы 301 (герб) и 302/304 (карта) требуют изображений и не включены в онлайн-тест. Они будут на настоящем печатном тесте.',
+        back: 'Назад',
+        stateTitle: 'Выберите федеральную землю',
+        stateSub: 'Ваша земля определяет, какие 3 региональных вопроса войдут в тест.',
+        genTitle: 'Выберите группу вопросов',
+        genSub: 'По 50 вопросов в группе. Без таймера — учитесь в своём темпе.',
+        question: 'Вопрос',
+        of: 'из',
+        next: 'Следующий →',
+        finish: 'Показать результаты →',
+        bestanden: 'Сдано ✅',
+        nichtBestanden: 'Не сдано ❌',
+        passedSub: 'Поздравляем! Вы ответили правильно на 17 или более вопросов.',
+        failedSub: (score, total) => `Не сдано. Для успеха нужно 17/${total} — вы набрали ${score}/${total}.`,
+        passMark: 'Проходной балл: 17 / 33',
+        reviewTitle: '📋 Вопросы с неверными ответами:',
+        yourAnswer: 'Ваш ответ:',
+        correctAnswer: 'Правильный ответ:',
+        tryAgain: '🔄 Попробовать снова',
+        cancelQuiz: 'Отменить',
+        newQuiz: '← Выбрать другой тест',
+        backHome: '← Вернуться к учебнику',
+        correctLabel: '✓ Верно!',
+        wrongLabel: '✗ Неверно',
+        practiceWeak: '📌 Потренировать ошибки',
+        historyTitle: '📊 Ваши последние результаты',
+        historyEmpty: 'Пока нет записей — завершите тест, чтобы увидеть результаты.',
+        historyPass: 'СДАНО',
+        historyFail: 'НЕ СДАНО',
+        historyPractice: 'Тренировка',
+    },
 };
 
 // ── Init ──────────────────────────────────────────────────────────────────────
 async function init() {
     // Language from site preference
     try { LANG = localStorage.getItem('preferredLang') || 'en'; } catch(e){}
-    if (!['en','ur','de','ar','tr'].includes(LANG)) LANG = 'en';
+    if (!['en','ur','de','ar','tr','ru'].includes(LANG)) LANG = 'en';
     updateQuizLangDropdown(LANG);
 
     // Load quiz data
@@ -876,7 +917,7 @@ function applyUiLang() {
     set('txt-quizBackHome', u.backHome);
     // Update back-to-home href to match selected language
     const homeLink = document.getElementById('quizBackHome');
-    if (homeLink) homeLink.href = (LANG === 'ur') ? 'ur/index.html' : (LANG === 'ar') ? 'ar/index.html' : (LANG === 'de') ? 'de/index.html' : (LANG === 'tr') ? 'tr/index.html' : 'en/index.html';
+    if (homeLink) homeLink.href = (LANG === 'ur') ? 'ur/index.html' : (LANG === 'ar') ? 'ar/index.html' : (LANG === 'de') ? 'de/index.html' : (LANG === 'tr') ? 'tr/index.html' : (LANG === 'ru') ? 'ru/index.html' : 'en/index.html';
     // Quiz content is always German (LTR), so never apply RTL to the body.
     // Arabic mode changes font and font-size only — not direction.
     document.body.style.direction = 'ltr';
@@ -928,6 +969,8 @@ function cancelQuiz() {
         ? 'Quiz abbrechen? Ihr Fortschritt geht verloren.'
         : LANG === 'tr'
         ? 'Sınav iptal edilsin mi? İlerlemeniz kaybolacak.'
+        : LANG === 'ru'
+        ? 'Завершить тест? Ваш прогресс будет потерян.'
         : 'Cancel the quiz? Your progress will be lost.';
     if (!confirm(msg)) return;
     clearInterval(quiz.timer);
@@ -955,6 +998,12 @@ function startMode(mode) {
                  'آپ کی ریاست طے کرتی ہے کہ امتحان میں کون سے 3 علاقائی سوالات شامل ہوں گے۔'],
             de: ['Bundesland wählen',
                  'Ihr Bundesland bestimmt, welche 3 regionalen Fragen im Test enthalten sind.'],
+            ar: ['اختر ولايتك الفيدرالية',
+                 'تحدّد ولايتك 3 أسئلة إقليمية تُضمَّن في الاختبار.'],
+            tr: ['Federal Eyaletinizi Seçin',
+                 'Eyaletiniz, sınava dahil edilecek 3 bölgesel soruyu belirler.'],
+            ru: ['Выберите федеральную землю',
+                 'Ваша земля определяет, какие 3 региональных вопроса войдут в тест.'],
         };
         const t = titles[LANG] || titles.en;
         document.getElementById('txt-stateTitle').textContent = t[0];
@@ -969,7 +1018,12 @@ function buildStateGrid() {
     if (!DATA) return;
     const grid = document.getElementById('stateGrid');
     grid.innerHTML = '';
-    const nameKey = LANG === 'de' ? 'name_de' : LANG === 'ur' ? 'name_ur' : 'name_en';
+    const nameKey = LANG === 'de' ? 'name_de'
+                  : LANG === 'ur' ? 'name_ur'
+                  : LANG === 'ar' ? 'name_ar'
+                  : LANG === 'tr' ? 'name_de'
+                  : LANG === 'ru' ? 'name_de'
+                  : 'name_en';
     Object.values(DATA.states).forEach(state => {
         const btn = document.createElement('button');
         btn.className = 'state-btn';
@@ -1001,12 +1055,12 @@ function buildGenGrid() {
     const grid = document.getElementById('genGrid');
     grid.innerHTML = '';
     const sets = [
-        {label:{en:'Questions 1–50',   ur:'سوالات 1–50',   de:'Fragen 1–50'},   range:[1,50]},
-        {label:{en:'Questions 51–100', ur:'سوالات 51–100', de:'Fragen 51–100'}, range:[51,100]},
-        {label:{en:'Questions 101–150',ur:'سوالات 101–150',de:'Fragen 101–150'},range:[101,150]},
-        {label:{en:'Questions 151–200',ur:'سوالات 151–200',de:'Fragen 151–200'},range:[151,200]},
-        {label:{en:'Questions 201–250',ur:'سوالات 201–250',de:'Fragen 201–250'},range:[201,250]},
-        {label:{en:'Questions 251–300',ur:'سوالات 251–300',de:'Fragen 251–300'},range:[251,300]},
+        {label:{en:'Questions 1–50',   ur:'سوالات 1–50',   de:'Fragen 1–50',   ar:'الأسئلة 1–50',   tr:'Sorular 1–50', ru:'Вопросы 1–50'},   range:[1,50]},
+        {label:{en:'Questions 51–100', ur:'سوالات 51–100', de:'Fragen 51–100', ar:'الأسئلة 51–100', tr:'Sorular 51–100', ru:'Вопросы 51–100'}, range:[51,100]},
+        {label:{en:'Questions 101–150',ur:'سوالات 101–150',de:'Fragen 101–150',ar:'الأسئلة 101–150',tr:'Sorular 101–150', ru:'Вопросы 101–150'},range:[101,150]},
+        {label:{en:'Questions 151–200',ur:'سوالات 151–200',de:'Fragen 151–200',ar:'الأسئلة 151–200',tr:'Sorular 151–200', ru:'Вопросы 151–200'},range:[151,200]},
+        {label:{en:'Questions 201–250',ur:'سوالات 201–250',de:'Fragen 201–250',ar:'الأسئلة 201–250',tr:'Sorular 201–250', ru:'Вопросы 201–250'},range:[201,250]},
+        {label:{en:'Questions 251–300',ur:'سوالات 251–300',de:'Fragen 251–300',ar:'الأسئلة 251–300',tr:'Sorular 251–300', ru:'Вопросы 251–300'},range:[251,300]},
     ];
     sets.forEach(set => {
         const btn = document.createElement('button');
