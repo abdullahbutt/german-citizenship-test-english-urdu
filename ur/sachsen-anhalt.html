@@ -10,7 +10,10 @@
 
     <!-- hreflang: tell Google these are the same page in different languages -->
     <link rel="alternate" hreflang="en" href="https://abdullahbutt.github.io/german-citizenship-test-english-urdu/en/sachsen-anhalt.html">
+    <link rel="alternate" hreflang="de" href="https://abdullahbutt.github.io/german-citizenship-test-english-urdu/de/sachsen-anhalt.html">
+    <link rel="alternate" hreflang="tr" href="https://abdullahbutt.github.io/german-citizenship-test-english-urdu/tr/sachsen-anhalt.html">
     <link rel="alternate" hreflang="ur" href="https://abdullahbutt.github.io/german-citizenship-test-english-urdu/ur/sachsen-anhalt.html">
+    <link rel="alternate" hreflang="ar" href="https://abdullahbutt.github.io/german-citizenship-test-english-urdu/ar/sachsen-anhalt.html">
     <link rel="alternate" hreflang="x-default" href="https://abdullahbutt.github.io/german-citizenship-test-english-urdu/en/sachsen-anhalt.html">
 
     <!-- Open Graph -->
@@ -617,6 +620,7 @@
                     <div class="lang-dropdown-menu" role="menu">
                         <a href="../en/sachsen-anhalt.html"  role="menuitem"><span class="fi fi-gb"></span> English</a>
                         <a href="../de/sachsen-anhalt.html"  role="menuitem"><span class="fi fi-de"></span> Deutsch</a>
+                        <a href="../tr/sachsen-anhalt.html"  role="menuitem"><span class="fi fi-tr"></span> Türkçe</a>
                         <a href="../ur/sachsen-anhalt.html" class="active" role="menuitem" style="font-family:'Jameel Noori Nastaleeq',serif;font-size:1.05rem;"><span class="fi fi-pk"></span> اردو</a>
                         <a href="../ar/sachsen-anhalt.html"  role="menuitem" style="font-family:'Indopak Nastaleeq',serif;font-size:1.05rem;"><span class="fi fi-sa"></span> عربي</a>
                     </div>
@@ -737,7 +741,7 @@
                 <a class="btn-foot" href="../privacy.html">پرائیویسی و اظہاریہ</a>
             </div>
         </div>
-        <div class="foot-meta">آخری اپڈیٹ: 2026-06-15</div>
+        <div class="foot-meta">آخری اپڈیٹ: 2026-06-19</div>
     </footer>
 
     <button class="back-to-top" id="backToTop" aria-label="اوپر جائیں" title="اوپر جائیں">↑</button>
@@ -758,6 +762,7 @@
             const isUrdu   = document.documentElement.lang === 'ur';
             const isArabic = document.documentElement.lang === 'ar';
             const isGerman = document.documentElement.lang === 'de';
+            const isTurkish = document.documentElement.lang === 'tr';
 
             function getSet() {
                 try { return new Set(JSON.parse(localStorage.getItem(KEY) || '[]')); }
@@ -769,7 +774,7 @@
 
             // Inject a mark button after every question <h3>
             document.querySelectorAll('.content-card h3').forEach(h3 => {
-                const m = h3.textContent.match(/(?:Question|Frage|سوال|السؤال)\s+(\d+)/);
+                const m = h3.textContent.match(/(?:Question|Frage|Soru|سوال|السؤال)\s+(\d+)/);
                 if (!m) return;
                 const qId = parseInt(m[1], 10);
                 if (isNaN(qId)) return;
@@ -779,8 +784,8 @@
                 btn.className = 'mark-learned-btn' + (learned ? ' learned' : '');
                 btn.dataset.qid = qId;
                 btn.textContent = learned
-                    ? (isUrdu ? '✓ سیکھ لیا' : isArabic ? '✓ تعلّمته' : isGerman ? '✓ Gelernt' : '✓ Learned')
-                    : (isUrdu ? '＋ سیکھیں' : isArabic ? '＋ علّمه' : isGerman ? '＋ Als gelernt markieren' : '＋ Mark as learned');
+                    ? (isUrdu ? '✓ سیکھ لیا' : isArabic ? '✓ تعلّمته' : isGerman ? '✓ Gelernt' : isTurkish ? '✓ Öğrenildi' : '✓ Learned')
+                    : (isUrdu ? '＋ سیکھیں' : isArabic ? '＋ علّمه' : isGerman ? '＋ Als gelernt markieren' : isTurkish ? '＋ Öğrenildi olarak işaretle' : '＋ Mark as learned');
                 btn.setAttribute('aria-pressed', String(learned));
 
                 btn.addEventListener('click', () => {
@@ -791,8 +796,8 @@
                     btn.classList.toggle('learned', nowLearned);
                     btn.setAttribute('aria-pressed', String(nowLearned));
                     btn.textContent = nowLearned
-                        ? (isUrdu ? '✓ سیکھ لیا' : isArabic ? '✓ تعلّمته' : isGerman ? '✓ Gelernt' : '✓ Learned')
-                        : (isUrdu ? '＋ سیکھیں' : isArabic ? '＋ علّمه' : isGerman ? '＋ Als gelernt markieren' : '＋ Mark as learned');
+                        ? (isUrdu ? '✓ سیکھ لیا' : isArabic ? '✓ تعلّمته' : isGerman ? '✓ Gelernt' : isTurkish ? '✓ Öğrenildi' : '✓ Learned')
+                        : (isUrdu ? '＋ سیکھیں' : isArabic ? '＋ علّمه' : isGerman ? '＋ Als gelernt markieren' : isTurkish ? '＋ Öğrenildi olarak işaretle' : '＋ Mark as learned');
                 });
 
                 h3.insertAdjacentElement('afterend', btn);

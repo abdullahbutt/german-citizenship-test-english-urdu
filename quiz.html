@@ -487,6 +487,7 @@
             <div class="ql-drop-menu" role="menu">
                 <button onclick="selectQuizLang('en')" id="qlOpt-en" class="active" role="menuitem"><span class="fi fi-gb"></span> English</button>
                 <button onclick="selectQuizLang('de')" id="qlOpt-de" role="menuitem"><span class="fi fi-de"></span> Deutsch</button>
+                <button onclick="selectQuizLang('tr')" id="qlOpt-tr" role="menuitem"><span class="fi fi-tr"></span> Türkçe</button>
                 <button onclick="selectQuizLang('ur')" id="qlOpt-ur" role="menuitem" style="font-family:'Jameel Noori Nastaleeq',serif;font-size:1rem;"><span class="fi fi-pk"></span> اردو</button>
                 <button onclick="selectQuizLang('ar')" id="qlOpt-ar" role="menuitem" style="font-family:'Indopak Nastaleeq',serif;font-size:1rem;"><span class="fi fi-sa"></span> عربي</button>
             </div>
@@ -507,8 +508,8 @@ function selectQuizLang(lang) {
     if (window._quizLangHandler) window._quizLangHandler(fakeEvent);
 }
 function updateQuizLangDropdown(lang) {
-    var flags = { en:'gb', de:'de', ur:'pk', ar:'sa' };
-    var labels = { en:'English', de:'Deutsch', ur:'اردو', ar:'عربي' };
+    var flags = { en:'gb', de:'de', ur:'pk', ar:'sa', tr:'tr' };
+    var labels = { en:'English', de:'Deutsch', ur:'اردو', ar:'عربي', tr:'Türkçe' };
     var icon = document.getElementById('qlFlagIcon');
     var label = document.getElementById('qlLangLabel');
     if (icon) { icon.className = 'fi fi-' + (flags[lang]||'gb'); }
@@ -788,13 +789,53 @@ const UI = {
         historyFail: 'رسوب',
         historyPractice: 'تدريب',
     },
+    tr: {
+        quizTitle: '🎯 Pratik Sınavı',
+        quizSub: 'Nasıl çalışmak istediğinizi seçin. Tüm sorular resmî BAMF kataloğundan alınmıştır.',
+        mode1title: 'Gerçek Sınavı Simüle Et',
+        mode1sub: '33 soru · 60 dakika · Geçme puanı = 17/33 — tıpkı gerçek Einbürgerungstest gibi',
+        mode2title: 'Eyalet Soruları Pratiği',
+        mode2sub: 'Eyaletinizi seçin. 3 eyalete özel soruyu yanıtlayın.',
+        mode3title: 'Genel Sorular Pratiği',
+        mode3sub: '300 genel sorudan her seferinde 50 soru — süre sınırı yok, saf pratik.',
+        imageNote: 'ℹ️ Not: 301 (arma) ve 302/304 (harita) numaralı sorular görsel gerektirdiğinden çevrimiçi sınava dahil edilemez. Gerçek sınavda yer alacaktır.',
+        back: 'Geri',
+        stateTitle: 'Federal Eyaletinizi Seçin',
+        stateSub: 'Eyaletiniz, sınava dahil edilecek 3 bölgesel soruyu belirler.',
+        genTitle: 'Soru Grubunu Seçin',
+        genSub: 'Her grupta 50 soru var. Süre sınırı yok — kendi hızınızda öğrenin.',
+        question: 'Soru',
+        of: '/',
+        next: 'Sonraki →',
+        finish: 'Sonuçları Gör →',
+        bestanden: 'Geçtiniz ✅',
+        nichtBestanden: 'Geçemediniz ❌',
+        passedSub: 'Tebrikler! 17 veya daha fazla doğru yanıt verdiniz.',
+        failedSub: (score, total) => `Geçemediniz. Geçmek için 17/${total} gerekiyor — ${score}/${total} aldınız.`,
+        passMark: 'Geçme puanı: 17 / 33',
+        reviewTitle: '📋 Yanlış yanıtladığınız sorular:',
+        yourAnswer: 'Yanıtınız:',
+        correctAnswer: 'Doğru yanıt:',
+        tryAgain: '🔄 Tekrar Dene',
+        cancelQuiz: 'İptal',
+        newQuiz: '← Farklı bir sınav seç',
+        backHome: '← Çalışma rehberine dön',
+        correctLabel: '✓ Doğru!',
+        wrongLabel: '✗ Yanlış',
+        practiceWeak: '📌 Yanlış soruları tekrar et',
+        historyTitle: '📊 Son Sonuçlarınız',
+        historyEmpty: 'Henüz geçmiş yok — sonuçlarınızı görmek için bir sınav tamamlayın.',
+        historyPass: 'GEÇTİ',
+        historyFail: 'GEÇEMEDİ',
+        historyPractice: 'Pratik',
+    },
 };
 
 // ── Init ──────────────────────────────────────────────────────────────────────
 async function init() {
     // Language from site preference
     try { LANG = localStorage.getItem('preferredLang') || 'en'; } catch(e){}
-    if (!['en','ur','de','ar'].includes(LANG)) LANG = 'en';
+    if (!['en','ur','de','ar','tr'].includes(LANG)) LANG = 'en';
     updateQuizLangDropdown(LANG);
 
     // Load quiz data
@@ -835,7 +876,7 @@ function applyUiLang() {
     set('txt-quizBackHome', u.backHome);
     // Update back-to-home href to match selected language
     const homeLink = document.getElementById('quizBackHome');
-    if (homeLink) homeLink.href = (LANG === 'ur') ? 'ur/index.html' : (LANG === 'ar') ? 'ar/index.html' : (LANG === 'de') ? 'de/index.html' : 'en/index.html';
+    if (homeLink) homeLink.href = (LANG === 'ur') ? 'ur/index.html' : (LANG === 'ar') ? 'ar/index.html' : (LANG === 'de') ? 'de/index.html' : (LANG === 'tr') ? 'tr/index.html' : 'en/index.html';
     // Quiz content is always German (LTR), so never apply RTL to the body.
     // Arabic mode changes font and font-size only — not direction.
     document.body.style.direction = 'ltr';
@@ -885,6 +926,8 @@ function cancelQuiz() {
         ? 'هل تريد إلغاء الاختبار؟ ستُفقَد جميع إجاباتك.'
         : LANG === 'de'
         ? 'Quiz abbrechen? Ihr Fortschritt geht verloren.'
+        : LANG === 'tr'
+        ? 'Sınav iptal edilsin mi? İlerlemeniz kaybolacak.'
         : 'Cancel the quiz? Your progress will be lost.';
     if (!confirm(msg)) return;
     clearInterval(quiz.timer);

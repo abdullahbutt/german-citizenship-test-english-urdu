@@ -10,7 +10,10 @@
 
     <!-- hreflang: tell Google these are the same page in different languages -->
     <link rel="alternate" hreflang="en" href="https://abdullahbutt.github.io/german-citizenship-test-english-urdu/en/hamburg.html">
+    <link rel="alternate" hreflang="de" href="https://abdullahbutt.github.io/german-citizenship-test-english-urdu/de/hamburg.html">
+    <link rel="alternate" hreflang="tr" href="https://abdullahbutt.github.io/german-citizenship-test-english-urdu/tr/hamburg.html">
     <link rel="alternate" hreflang="ur" href="https://abdullahbutt.github.io/german-citizenship-test-english-urdu/ur/hamburg.html">
+    <link rel="alternate" hreflang="ar" href="https://abdullahbutt.github.io/german-citizenship-test-english-urdu/ar/hamburg.html">
     <link rel="alternate" hreflang="x-default" href="https://abdullahbutt.github.io/german-citizenship-test-english-urdu/en/hamburg.html">
 
     <!-- Open Graph -->
@@ -21,7 +24,7 @@
     <meta property="og:image" content="https://abdullahbutt.github.io/german-citizenship-test-english-urdu/og-image.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:locale" content="ur_PK">
+    <meta property="og:locale" content="de_DE">
     <meta property="og:site_name" content="Einbürgerungstest Deutschland">
 
     <!-- Twitter Card -->
@@ -64,7 +67,7 @@
           "url": "https://abdullahbutt.github.io/german-citizenship-test-english-urdu/de/hamburg.html",
           "name": "Hamburg · Einbürgerungstest Deutschland",
           "description": "Einbürgerungstest Fragen für Hamburg (Fragen 301–310). Größter Hafen Deutschlands, Stadtstaat. Kostenlose Prüfungsvorbereitung.",
-          "inLanguage": "ur-PK",
+          "inLanguage": "de",
           "isPartOf": { "@id": "https://abdullahbutt.github.io/german-citizenship-test-english-urdu/" },
           "publisher": {
             "@type": "Person",
@@ -605,6 +608,7 @@
                     <div class="lang-dropdown-menu" role="menu">
                         <a href="../en/hamburg.html"  role="menuitem"><span class="fi fi-gb"></span> English</a>
                         <a href="../de/hamburg.html" class="active" role="menuitem"><span class="fi fi-de"></span> Deutsch</a>
+                        <a href="../tr/hamburg.html"  role="menuitem"><span class="fi fi-tr"></span> Türkçe</a>
                         <a href="../ur/hamburg.html"  role="menuitem" style="font-family:'Jameel Noori Nastaleeq',serif;font-size:1.05rem;"><span class="fi fi-pk"></span> اردو</a>
                         <a href="../ar/hamburg.html"  role="menuitem" style="font-family:'Indopak Nastaleeq',serif;font-size:1.05rem;"><span class="fi fi-sa"></span> عربي</a>
                     </div>
@@ -718,7 +722,7 @@
                 <a class="btn-foot" href="../privacy.html">Datenschutz</a>
             </div>
         </div>
-        <div class="foot-meta">Zuletzt aktualisiert: 2026-06-15</div>
+        <div class="foot-meta">Zuletzt aktualisiert: 2026-06-19</div>
     </footer>
 
     <button class="back-to-top" id="backToTop" aria-label="Nach oben" title="Nach oben">↑</button>
@@ -739,6 +743,7 @@
             const isUrdu   = document.documentElement.lang === 'ur';
             const isArabic = document.documentElement.lang === 'ar';
             const isGerman = document.documentElement.lang === 'de';
+            const isTurkish = document.documentElement.lang === 'tr';
 
             function getSet() {
                 try { return new Set(JSON.parse(localStorage.getItem(KEY) || '[]')); }
@@ -750,7 +755,7 @@
 
             // Inject a mark button after every question <h3>
             document.querySelectorAll('.content-card h3').forEach(h3 => {
-                const m = h3.textContent.match(/(?:Question|Frage|سوال|السؤال)\s+(\d+)/);
+                const m = h3.textContent.match(/(?:Question|Frage|Soru|سوال|السؤال)\s+(\d+)/);
                 if (!m) return;
                 const qId = parseInt(m[1], 10);
                 if (isNaN(qId)) return;
@@ -760,8 +765,8 @@
                 btn.className = 'mark-learned-btn' + (learned ? ' learned' : '');
                 btn.dataset.qid = qId;
                 btn.textContent = learned
-                    ? (isUrdu ? '✓ سیکھ لیا' : isArabic ? '✓ تعلّمته' : isGerman ? '✓ Gelernt' : '✓ Learned')
-                    : (isUrdu ? '＋ سیکھیں' : isArabic ? '＋ علّمه' : isGerman ? '＋ Als gelernt markieren' : '＋ Mark as learned');
+                    ? (isUrdu ? '✓ سیکھ لیا' : isArabic ? '✓ تعلّمته' : isGerman ? '✓ Gelernt' : isTurkish ? '✓ Öğrenildi' : '✓ Learned')
+                    : (isUrdu ? '＋ سیکھیں' : isArabic ? '＋ علّمه' : isGerman ? '＋ Als gelernt markieren' : isTurkish ? '＋ Öğrenildi olarak işaretle' : '＋ Mark as learned');
                 btn.setAttribute('aria-pressed', String(learned));
 
                 btn.addEventListener('click', () => {
@@ -772,8 +777,8 @@
                     btn.classList.toggle('learned', nowLearned);
                     btn.setAttribute('aria-pressed', String(nowLearned));
                     btn.textContent = nowLearned
-                        ? (isUrdu ? '✓ سیکھ لیا' : isArabic ? '✓ تعلّمته' : isGerman ? '✓ Gelernt' : '✓ Learned')
-                        : (isUrdu ? '＋ سیکھیں' : isArabic ? '＋ علّمه' : isGerman ? '＋ Als gelernt markieren' : '＋ Mark as learned');
+                        ? (isUrdu ? '✓ سیکھ لیا' : isArabic ? '✓ تعلّمته' : isGerman ? '✓ Gelernt' : isTurkish ? '✓ Öğrenildi' : '✓ Learned')
+                        : (isUrdu ? '＋ سیکھیں' : isArabic ? '＋ علّمه' : isGerman ? '＋ Als gelernt markieren' : isTurkish ? '＋ Öğrenildi olarak işaretle' : '＋ Mark as learned');
                 });
 
                 h3.insertAdjacentElement('afterend', btn);

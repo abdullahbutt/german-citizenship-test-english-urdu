@@ -10,7 +10,10 @@
 
     <!-- hreflang: tell Google these are the same page in different languages -->
     <link rel="alternate" hreflang="en" href="https://abdullahbutt.github.io/german-citizenship-test-english-urdu/en/index.html">
+    <link rel="alternate" hreflang="de" href="https://abdullahbutt.github.io/german-citizenship-test-english-urdu/de/index.html">
+    <link rel="alternate" hreflang="tr" href="https://abdullahbutt.github.io/german-citizenship-test-english-urdu/tr/index.html">
     <link rel="alternate" hreflang="ur" href="https://abdullahbutt.github.io/german-citizenship-test-english-urdu/ur/index.html">
+    <link rel="alternate" hreflang="ar" href="https://abdullahbutt.github.io/german-citizenship-test-english-urdu/ar/index.html">
     <link rel="alternate" hreflang="x-default" href="https://abdullahbutt.github.io/german-citizenship-test-english-urdu/en/index.html">
 
     <!-- Open Graph -->
@@ -617,6 +620,7 @@
                     <div class="lang-dropdown-menu" role="menu">
                         <a href="../en/index.html"  role="menuitem"><span class="fi fi-gb"></span> English</a>
                         <a href="../de/index.html"  role="menuitem"><span class="fi fi-de"></span> Deutsch</a>
+                        <a href="../tr/index.html"  role="menuitem"><span class="fi fi-tr"></span> Türkçe</a>
                         <a href="../ur/index.html" class="active" role="menuitem" style="font-family:'Jameel Noori Nastaleeq',serif;font-size:1.05rem;"><span class="fi fi-pk"></span> اردو</a>
                         <a href="../ar/index.html"  role="menuitem" style="font-family:'Indopak Nastaleeq',serif;font-size:1.05rem;"><span class="fi fi-sa"></span> عربي</a>
                     </div>
@@ -737,6 +741,7 @@
             const isUr = lang === 'ur';
             const isAr = lang === 'ar';
             const isDe = lang === 'de';
+            const isTr = lang === 'tr';
             let searchData = null;
 
             // Load search index lazily on first keypress
@@ -784,7 +789,7 @@
 
                 if (!matches.length) {
                     results.innerHTML = '<div class="idx-search-empty">' +
-                        (isUr ? 'کوئی نتیجہ نہیں ملا۔' : isAr ? 'لا توجد نتائج.' : isDe ? 'Keine Ergebnisse gefunden.' : 'No results found.') + '</div>';
+                        (isUr ? 'کوئی نتیجہ نہیں ملا۔' : isAr ? 'لا توجد نتائج.' : isDe ? 'Keine Ergebnisse gefunden.' : isTr ? 'Sonuç bulunamadı.' : 'No results found.') + '</div>';
                     results.classList.add('visible');
                     return;
                 }
@@ -793,7 +798,7 @@
                     const href = './' + item.slug + '.html#q-' + item.id;
                     const primary = highlight(isUr ? (item.ur || item.de) : isAr ? (item.ar || item.de) : item.de, q);
                     return '<a class="idx-search-result" href="' + escHtml(href) + '">' +
-                        '<div class="idx-search-result-num">' + (isUr ? 'سوال ' : isAr ? 'السؤال ' : isDe ? 'Frage ' : 'Question ') + item.id + '</div>' +
+                        '<div class="idx-search-result-num">' + (isUr ? 'سوال ' : isAr ? 'السؤال ' : isDe ? 'Frage ' : isTr ? 'Soru ' : 'Question ') + item.id + '</div>' +
                         '<div class="idx-search-result-text">' + primary + '</div>' +
                         '</a>';
                 }).join('');
@@ -1011,7 +1016,7 @@
                 <a class="btn-foot" href="../privacy.html">پرائیویسی و اظہاریہ</a>
             </div>
         </div>
-        <div class="foot-meta">آخری اپڈیٹ: 2026-06-15</div>
+        <div class="foot-meta">آخری اپڈیٹ: 2026-06-19</div>
     </footer>
 
     <button class="back-to-top" id="backToTop" aria-label="اوپر جائیں" title="اوپر جائیں">↑</button>
@@ -1032,6 +1037,7 @@
             const isUrdu   = document.documentElement.lang === 'ur';
             const isArabic = document.documentElement.lang === 'ar';
             const isGerman = document.documentElement.lang === 'de';
+            const isTurkish = document.documentElement.lang === 'tr';
 
             function getSet() {
                 try { return new Set(JSON.parse(localStorage.getItem(KEY) || '[]')); }
@@ -1043,7 +1049,7 @@
 
             // Inject a mark button after every question <h3>
             document.querySelectorAll('.content-card h3').forEach(h3 => {
-                const m = h3.textContent.match(/(?:Question|Frage|سوال|السؤال)\s+(\d+)/);
+                const m = h3.textContent.match(/(?:Question|Frage|Soru|سوال|السؤال)\s+(\d+)/);
                 if (!m) return;
                 const qId = parseInt(m[1], 10);
                 if (isNaN(qId)) return;
@@ -1053,8 +1059,8 @@
                 btn.className = 'mark-learned-btn' + (learned ? ' learned' : '');
                 btn.dataset.qid = qId;
                 btn.textContent = learned
-                    ? (isUrdu ? '✓ سیکھ لیا' : isArabic ? '✓ تعلّمته' : isGerman ? '✓ Gelernt' : '✓ Learned')
-                    : (isUrdu ? '＋ سیکھیں' : isArabic ? '＋ علّمه' : isGerman ? '＋ Als gelernt markieren' : '＋ Mark as learned');
+                    ? (isUrdu ? '✓ سیکھ لیا' : isArabic ? '✓ تعلّمته' : isGerman ? '✓ Gelernt' : isTurkish ? '✓ Öğrenildi' : '✓ Learned')
+                    : (isUrdu ? '＋ سیکھیں' : isArabic ? '＋ علّمه' : isGerman ? '＋ Als gelernt markieren' : isTurkish ? '＋ Öğrenildi olarak işaretle' : '＋ Mark as learned');
                 btn.setAttribute('aria-pressed', String(learned));
 
                 btn.addEventListener('click', () => {
@@ -1065,8 +1071,8 @@
                     btn.classList.toggle('learned', nowLearned);
                     btn.setAttribute('aria-pressed', String(nowLearned));
                     btn.textContent = nowLearned
-                        ? (isUrdu ? '✓ سیکھ لیا' : isArabic ? '✓ تعلّمته' : isGerman ? '✓ Gelernt' : '✓ Learned')
-                        : (isUrdu ? '＋ سیکھیں' : isArabic ? '＋ علّمه' : isGerman ? '＋ Als gelernt markieren' : '＋ Mark as learned');
+                        ? (isUrdu ? '✓ سیکھ لیا' : isArabic ? '✓ تعلّمته' : isGerman ? '✓ Gelernt' : isTurkish ? '✓ Öğrenildi' : '✓ Learned')
+                        : (isUrdu ? '＋ سیکھیں' : isArabic ? '＋ علّمه' : isGerman ? '＋ Als gelernt markieren' : isTurkish ? '＋ Öğrenildi olarak işaretle' : '＋ Mark as learned');
                 });
 
                 h3.insertAdjacentElement('afterend', btn);

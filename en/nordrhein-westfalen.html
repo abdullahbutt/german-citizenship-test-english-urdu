@@ -10,7 +10,10 @@
 
     <!-- hreflang: tell Google these are the same page in different languages -->
     <link rel="alternate" hreflang="en" href="https://abdullahbutt.github.io/german-citizenship-test-english-urdu/en/nordrhein-westfalen.html">
+    <link rel="alternate" hreflang="de" href="https://abdullahbutt.github.io/german-citizenship-test-english-urdu/de/nordrhein-westfalen.html">
+    <link rel="alternate" hreflang="tr" href="https://abdullahbutt.github.io/german-citizenship-test-english-urdu/tr/nordrhein-westfalen.html">
     <link rel="alternate" hreflang="ur" href="https://abdullahbutt.github.io/german-citizenship-test-english-urdu/ur/nordrhein-westfalen.html">
+    <link rel="alternate" hreflang="ar" href="https://abdullahbutt.github.io/german-citizenship-test-english-urdu/ar/nordrhein-westfalen.html">
     <link rel="alternate" hreflang="x-default" href="https://abdullahbutt.github.io/german-citizenship-test-english-urdu/en/nordrhein-westfalen.html">
 
     <!-- Open Graph -->
@@ -617,6 +620,7 @@
                     <div class="lang-dropdown-menu" role="menu">
                         <a href="../en/nordrhein-westfalen.html" class="active" role="menuitem"><span class="fi fi-gb"></span> English</a>
                         <a href="../de/nordrhein-westfalen.html"  role="menuitem"><span class="fi fi-de"></span> Deutsch</a>
+                        <a href="../tr/nordrhein-westfalen.html"  role="menuitem"><span class="fi fi-tr"></span> Türkçe</a>
                         <a href="../ur/nordrhein-westfalen.html"  role="menuitem" style="font-family:'Jameel Noori Nastaleeq',serif;font-size:1.05rem;"><span class="fi fi-pk"></span> اردو</a>
                         <a href="../ar/nordrhein-westfalen.html"  role="menuitem" style="font-family:'Indopak Nastaleeq',serif;font-size:1.05rem;"><span class="fi fi-sa"></span> عربي</a>
                     </div>
@@ -650,7 +654,7 @@
             <a class="pager-btn" href="./rheinland-pfalz.html" rel="next">Rhineland-Palatinate Next →</a>
         </nav>
         <article class="content-card">
-            <div class="state-intro" dir="ltr" style="background:color-mix(in srgb,var(--primary) 7%,var(--card-bg));border:1px solid color-mix(in srgb,var(--primary) 20%,var(--border));border-radius:.75rem;padding:1rem 1.25rem;margin-bottom:1.5rem;font-size:.96rem;line-height:1.75;">North Rhine-Westphalia (Nordrhein-Westfalen) is Germany's <strong>most populous state</strong> with about 18 million inhabitants. Its capital is <strong>Düsseldorf</strong>, home to the <strong>Landtag</strong>. The Rhine-Ruhr metropolitan area is one of the largest urban agglomerations in Europe. Cologne (Köln), Bonn (former West German capital), Dortmund, and Essen are among its major cities. The head of government is the <strong>Ministerpräsident/in</strong>. The state has transitioned from heavy industry to a diverse, modern economy.</div><h1>🟢 Nordrhein-Westfalen (North Rhine-Westphalia) — State Questions (301–310)</h1>
+            <div class="state-intro" dir="ltr" style="background:color-mix(in srgb,var(--primary) 7%,var(--card-bg));border:1px solid color-mix(in srgb,var(--primary) 20%,var(--border));border-radius:.75rem;padding:1rem 1.25rem;margin-bottom:1.5rem;font-size:.96rem;line-height:1.75;">North Rhine-Westphalia (Nordrhein-Westfalen) is Germany’s <strong>most populous state</strong> with about 18 million inhabitants. Its capital is <strong>Düsseldorf</strong>, home to the <strong>Landtag</strong>. The Rhine-Ruhr metropolitan area is one of the largest urban agglomerations in Europe. Cologne (Köln), Bonn (former West German capital), Dortmund, and Essen are among its major cities. The head of government is the <strong>Ministerpräsident/in</strong>. The state has transitioned from heavy industry to a diverse, modern economy.</div><h1>🟢 Nordrhein-Westfalen (North Rhine-Westphalia) — State Questions (301–310)</h1>
 <p><a href="index.html">⬅ Back to Main README</a></p>
 <hr>
 <h3 id="q-301">Question 301</h3>
@@ -999,7 +1003,7 @@
                 <a class="btn-foot" href="../privacy.html">Privacy &amp; Impressum</a>
             </div>
         </div>
-        <div class="foot-meta">Last updated: 2026-06-15</div>
+        <div class="foot-meta">Last updated: 2026-06-19</div>
     </footer>
 
     <button class="back-to-top" id="backToTop" aria-label="Back to top" title="Back to top">↑</button>
@@ -1020,6 +1024,7 @@
             const isUrdu   = document.documentElement.lang === 'ur';
             const isArabic = document.documentElement.lang === 'ar';
             const isGerman = document.documentElement.lang === 'de';
+            const isTurkish = document.documentElement.lang === 'tr';
 
             function getSet() {
                 try { return new Set(JSON.parse(localStorage.getItem(KEY) || '[]')); }
@@ -1031,7 +1036,7 @@
 
             // Inject a mark button after every question <h3>
             document.querySelectorAll('.content-card h3').forEach(h3 => {
-                const m = h3.textContent.match(/(?:Question|Frage|سوال|السؤال)\s+(\d+)/);
+                const m = h3.textContent.match(/(?:Question|Frage|Soru|سوال|السؤال)\s+(\d+)/);
                 if (!m) return;
                 const qId = parseInt(m[1], 10);
                 if (isNaN(qId)) return;
@@ -1041,8 +1046,8 @@
                 btn.className = 'mark-learned-btn' + (learned ? ' learned' : '');
                 btn.dataset.qid = qId;
                 btn.textContent = learned
-                    ? (isUrdu ? '✓ سیکھ لیا' : isArabic ? '✓ تعلّمته' : isGerman ? '✓ Gelernt' : '✓ Learned')
-                    : (isUrdu ? '＋ سیکھیں' : isArabic ? '＋ علّمه' : isGerman ? '＋ Als gelernt markieren' : '＋ Mark as learned');
+                    ? (isUrdu ? '✓ سیکھ لیا' : isArabic ? '✓ تعلّمته' : isGerman ? '✓ Gelernt' : isTurkish ? '✓ Öğrenildi' : '✓ Learned')
+                    : (isUrdu ? '＋ سیکھیں' : isArabic ? '＋ علّمه' : isGerman ? '＋ Als gelernt markieren' : isTurkish ? '＋ Öğrenildi olarak işaretle' : '＋ Mark as learned');
                 btn.setAttribute('aria-pressed', String(learned));
 
                 btn.addEventListener('click', () => {
@@ -1053,8 +1058,8 @@
                     btn.classList.toggle('learned', nowLearned);
                     btn.setAttribute('aria-pressed', String(nowLearned));
                     btn.textContent = nowLearned
-                        ? (isUrdu ? '✓ سیکھ لیا' : isArabic ? '✓ تعلّمته' : isGerman ? '✓ Gelernt' : '✓ Learned')
-                        : (isUrdu ? '＋ سیکھیں' : isArabic ? '＋ علّمه' : isGerman ? '＋ Als gelernt markieren' : '＋ Mark as learned');
+                        ? (isUrdu ? '✓ سیکھ لیا' : isArabic ? '✓ تعلّمته' : isGerman ? '✓ Gelernt' : isTurkish ? '✓ Öğrenildi' : '✓ Learned')
+                        : (isUrdu ? '＋ سیکھیں' : isArabic ? '＋ علّمه' : isGerman ? '＋ Als gelernt markieren' : isTurkish ? '＋ Öğrenildi olarak işaretle' : '＋ Mark as learned');
                 });
 
                 h3.insertAdjacentElement('afterend', btn);
