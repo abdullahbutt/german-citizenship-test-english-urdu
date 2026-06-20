@@ -874,8 +874,17 @@ const UI = {
 
 // ── Init ──────────────────────────────────────────────────────────────────────
 async function init() {
-    // Language from site preference
-    try { LANG = localStorage.getItem('preferredLang') || 'en'; } catch(e){}
+    // Language: URL param (set by content-page nav links) takes priority,
+    // then site preference, then default to English.
+    try {
+        const urlLang = new URLSearchParams(window.location.search).get('lang');
+        if (urlLang && ['en','ur','de','ar','tr','ru'].includes(urlLang)) {
+            LANG = urlLang;
+            localStorage.setItem('preferredLang', LANG); // persist for next visit
+        } else {
+            LANG = localStorage.getItem('preferredLang') || 'en';
+        }
+    } catch(e){ LANG = 'en'; }
     if (!['en','ur','de','ar','tr','ru'].includes(LANG)) LANG = 'en';
     updateQuizLangDropdown(LANG);
 

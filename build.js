@@ -44,6 +44,15 @@ try {
     RU_EXPLANATIONS = JSON.parse(fs.readFileSync(path.join(ROOT, 'ru-explanations.json'), 'utf8'));
     console.log(`[ru-explanations] loaded ${Object.keys(RU_EXPLANATIONS).length} entries`);
 } catch(e) { /* file optional */ }
+
+// State-question explanations (DE/TR/RU) — keyed by [state_slug][qid][lang]
+// because the same numeric id (301-310) means different content per state.
+let STATE_EXPLANATIONS = {};
+try {
+    STATE_EXPLANATIONS = JSON.parse(fs.readFileSync(path.join(ROOT, 'state-explanations.json'), 'utf8'));
+    const total = Object.values(STATE_EXPLANATIONS).reduce((sum, qs) => sum + Object.keys(qs).length, 0);
+    console.log(`[state-explanations] loaded ${total} state-question entries`);
+} catch(e) { /* file optional */ }
 const SOURCES = {
     en: path.join(ROOT, 'sources', 'english'),
     ur: path.join(ROOT, 'sources', 'urdu'),
@@ -446,7 +455,7 @@ function renderNavPager({ lang, slug }) {
         `<div class="pager-jump">
             <select onchange="if(this.value)window.location.href=this.value" aria-label="${escapeHtml(ui.navJump)}">
                 <option value="">${escapeHtml(ui.navJump)}</option>
-                <option value="../quiz.html">🎯 ${lang === 'ur' ? 'کوئز / مشق' : lang === 'ar' ? 'اختبار التدريب' : lang === 'de' ? 'Quiz / Üben' : 'Practice Quiz'}</option>
+                <option value="../quiz.html?lang=${lang}">🎯 ${lang === 'ur' ? 'کوئز / مشق' : lang === 'ar' ? 'اختبار التدريب' : lang === 'de' ? 'Quiz / Üben' : 'Practice Quiz'}</option>
                 ${optgroup(ui.navQuestions, ORDERED_QUESTIONS)}
                 ${optgroup(ui.navStates, ORDERED_STATES)}
             </select>
@@ -1413,7 +1422,7 @@ function renderPage({ lang, title, bodyHtml, slug }) {
         <div class="container-fluid d-flex justify-content-between align-items-center">
             <a class="brand" href="./index.html">${escapeHtml(ui.siteTitle)}</a>
             <div class="nav-actions">
-                <a class="btn-quiz" href="../quiz.html" title="Practice Quiz">🎯 Quiz</a>
+                <a class="btn-quiz" href="../quiz.html?lang=${lang}" title="Practice Quiz">🎯 Quiz</a>
                 <div class="lang-dropdown" id="langDrop">
                     <button class="lang-dropdown-btn" onclick="document.getElementById('langDrop').classList.toggle('open')" aria-haspopup="true" aria-label="${escapeHtml(ui.pickerHint)}">
                         ${lang === 'en' ? '<span class="fi fi-gb"></span> EN'
@@ -1650,12 +1659,12 @@ function renderIndex({ lang, slugs }) {
     };
 
     const headings = {
-        en: { qs: '📖 General Questions', states: '🗺️ State Questions', howLabel: '❓ How it works', howText: 'The test has <strong>33 questions</strong> — 30 from the general pool and 3 from your state. You need <strong>17 correct</strong> to pass. <a href="../quiz.html">Take the practice quiz →</a>', statsLabel: '' },
-        ur: { qs: '📖 عمومی سوالات', states: '🗺️ ریاستی سوالات', howLabel: '❓ امتحان کیسے ہوتا ہے؟', howText: 'امتحان میں <strong>33 سوالات</strong> ہوتے ہیں — 30 عمومی اور 3 آپ کی ریاست کے۔ پاس کرنے کے لیے <strong>17 درست</strong> جوابات ضروری ہیں۔ <a href="../quiz.html">مشق کوئز دیں ←</a>' },
-        ar: { qs: '📖 الأسئلة العامة', states: '🗺️ أسئلة الولايات', howLabel: '❓ كيف يعمل الاختبار؟', howText: 'يحتوي الاختبار على <strong>33 سؤالاً</strong> — 30 من الأسئلة العامة و3 من ولايتك. تحتاج إلى <strong>17 إجابة صحيحة</strong> للنجاح. <a href="../quiz.html">ابدأ اختبار التدريب ←</a>' },
-        de: { qs: '📖 Allgemeine Fragen', states: '🗺️ Länderfragen', howLabel: '❓ Wie funktioniert der Test?', howText: 'Der Test hat <strong>33 Fragen</strong> — 30 aus dem allgemeinen Pool und 3 aus Ihrem Bundesland. Sie benötigen <strong>17 richtige</strong> Antworten zum Bestehen. <a href="../quiz.html">Zum Übungsquiz →</a>' },
-        tr: { qs: '📖 Genel Sorular', states: '🗺️ Eyalet Soruları', howLabel: '❓ Sınav nasıl işler?', howText: 'Sınav <strong>33 sorudan</strong> oluşur — 30 genel havuzdan, 3 eyaletinizden. Geçmek için <strong>17 doğru</strong> yanıt gerekir. <a href="../quiz.html">Pratik sınavı başlat →</a>' },
-        ru: { qs: '📖 Общие вопросы', states: '🗺️ Вопросы по землям', howLabel: '❓ Как устроен тест?', howText: 'Тест состоит из <strong>33 вопросов</strong> — 30 из общего пула и 3 из вашей земли. Чтобы сдать, нужно <strong>17 правильных</strong> ответов. <a href="../quiz.html">Перейти к тренировке →</a>' },
+        en: { qs: '📖 General Questions', states: '🗺️ State Questions', howLabel: '❓ How it works', howText: 'The test has <strong>33 questions</strong> — 30 from the general pool and 3 from your state. You need <strong>17 correct</strong> to pass. <a href="../quiz.html?lang=en">Take the practice quiz →</a>', statsLabel: '' },
+        ur: { qs: '📖 عمومی سوالات', states: '🗺️ ریاستی سوالات', howLabel: '❓ امتحان کیسے ہوتا ہے؟', howText: 'امتحان میں <strong>33 سوالات</strong> ہوتے ہیں — 30 عمومی اور 3 آپ کی ریاست کے۔ پاس کرنے کے لیے <strong>17 درست</strong> جوابات ضروری ہیں۔ <a href="../quiz.html?lang=ur">مشق کوئز دیں ←</a>' },
+        ar: { qs: '📖 الأسئلة العامة', states: '🗺️ أسئلة الولايات', howLabel: '❓ كيف يعمل الاختبار؟', howText: 'يحتوي الاختبار على <strong>33 سؤالاً</strong> — 30 من الأسئلة العامة و3 من ولايتك. تحتاج إلى <strong>17 إجابة صحيحة</strong> للنجاح. <a href="../quiz.html?lang=ar">ابدأ اختبار التدريب ←</a>' },
+        de: { qs: '📖 Allgemeine Fragen', states: '🗺️ Länderfragen', howLabel: '❓ Wie funktioniert der Test?', howText: 'Der Test hat <strong>33 Fragen</strong> — 30 aus dem allgemeinen Pool und 3 aus Ihrem Bundesland. Sie benötigen <strong>17 richtige</strong> Antworten zum Bestehen. <a href="../quiz.html?lang=de">Zum Übungsquiz →</a>' },
+        tr: { qs: '📖 Genel Sorular', states: '🗺️ Eyalet Soruları', howLabel: '❓ Sınav nasıl işler?', howText: 'Sınav <strong>33 sorudan</strong> oluşur — 30 genel havuzdan, 3 eyaletinizden. Geçmek için <strong>17 doğru</strong> yanıt gerekir. <a href="../quiz.html?lang=tr">Pratik sınavı başlat →</a>' },
+        ru: { qs: '📖 Общие вопросы', states: '🗺️ Вопросы по землям', howLabel: '❓ Как устроен тест?', howText: 'Тест состоит из <strong>33 вопросов</strong> — 30 из общего пула и 3 из вашей земли. Чтобы сдать, нужно <strong>17 правильных</strong> ответов. <a href="../quiz.html?lang=ru">Перейти к тренировке →</a>' },
     };
 
     const h = headings[lang] || headings.en;
@@ -1692,16 +1701,16 @@ function renderIndex({ lang, slugs }) {
 
     // Quiz CTA
     const quizCta = lang === 'ur'
-        ? `<a class="idx-quiz-cta" href="../quiz.html">🎯 مشق کوئز شروع کریں — اصل Einbürgerungstest کی طرح</a>`
+        ? `<a class="idx-quiz-cta" href="../quiz.html?lang=ur">🎯 مشق کوئز شروع کریں — اصل Einbürgerungstest کی طرح</a>`
         : lang === 'ar'
-        ? `<a class="idx-quiz-cta" href="../quiz.html">🎯 ابدأ اختبار التدريب — محاكاة لاختبار Einbürgerungstest الفعلي</a>`
+        ? `<a class="idx-quiz-cta" href="../quiz.html?lang=ar">🎯 ابدأ اختبار التدريب — محاكاة لاختبار Einbürgerungstest الفعلي</a>`
         : lang === 'de'
-        ? `<a class="idx-quiz-cta" href="../quiz.html">🎯 Übungsquiz starten — wie der echte Einbürgerungstest</a>`
+        ? `<a class="idx-quiz-cta" href="../quiz.html?lang=de">🎯 Übungsquiz starten — wie der echte Einbürgerungstest</a>`
         : lang === 'tr'
-        ? `<a class="idx-quiz-cta" href="../quiz.html">🎯 Pratik Sınavı Başlat — gerçek Einbürgerungstest gibi</a>`
+        ? `<a class="idx-quiz-cta" href="../quiz.html?lang=tr">🎯 Pratik Sınavı Başlat — gerçek Einbürgerungstest gibi</a>`
         : isRu
-        ? `<a class="idx-quiz-cta" href="../quiz.html">🎯 Начать тренировочный тест — как настоящий Einbürgerungstest</a>`
-        : `<a class="idx-quiz-cta" href="../quiz.html">🎯 Start Practice Quiz — simulates the real Einbürgerungstest</a>`;
+        ? `<a class="idx-quiz-cta" href="../quiz.html?lang=ru">🎯 Начать тренировочный тест — как настоящий Einbürgerungstest</a>`
+        : `<a class="idx-quiz-cta" href="../quiz.html?lang=en">🎯 Start Practice Quiz — simulates the real Einbürgerungstest</a>`;
 
     const body = `
         <style>
@@ -2120,7 +2129,7 @@ function buildLang(lang) {
             // the question ID from <h3> and the blockquote in one match,
             // avoiding the stateful tracking problem.
             bodyHtml = bodyHtml.replace(
-                /(<h3 id="q-(\d+)">[\s\S]*?<\/h3>[\s\S]*?)<blockquote>\n<p><strong>📝<\/strong> [\s\S]*?<\/p>\n<\/blockquote>/g,
+                /(<h3 id="q-(\d+)">(?:(?!<h3)[\s\S])*?<\/h3>(?:(?!<h3)[\s\S])*?)<blockquote>\n<p><strong>📝<\/strong> [\s\S]*?<\/p>\n<\/blockquote>/g,
                 (match, prefix, qid) => {
                     const deText = DE_EXPLANATIONS[parseInt(qid, 10)];
                     if (!deText) return match;
@@ -2129,7 +2138,7 @@ function buildLang(lang) {
             );
             // Also replace format with existing "Erklärung:" label (Q1-100 where label was applied first)
             bodyHtml = bodyHtml.replace(
-                /(<h3 id="q-(\d+)">[\s\S]*?<\/h3>[\s\S]*?)<blockquote>\n<p><strong>📝 Erklärung:<\/strong> [\s\S]*?<\/p>\n<\/blockquote>/g,
+                /(<h3 id="q-(\d+)">(?:(?!<h3)[\s\S])*?<\/h3>(?:(?!<h3)[\s\S])*?)<blockquote>\n<p><strong>📝 Erklärung:<\/strong> [\s\S]*?<\/p>\n<\/blockquote>/g,
                 (match, prefix, qid) => {
                     const deText = DE_EXPLANATIONS[parseInt(qid, 10)];
                     if (!deText) return match;
@@ -2177,7 +2186,7 @@ function buildLang(lang) {
                 .replace(/⬅ Previous: State Questions/g, '⬅ Önceki Eyalet Soruları');
             // Inject Turkish explanations
             bodyHtml = bodyHtml.replace(
-                /(<h3 id="q-(\d+)">[\s\S]*?<\/h3>[\s\S]*?)<blockquote>\n<p><strong>📝<\/strong> [\s\S]*?<\/p>\n<\/blockquote>/g,
+                /(<h3 id="q-(\d+)">(?:(?!<h3)[\s\S])*?<\/h3>(?:(?!<h3)[\s\S])*?)<blockquote>\n<p><strong>📝<\/strong> [\s\S]*?<\/p>\n<\/blockquote>/g,
                 (match, prefix, qid) => {
                     const trText = TR_EXPLANATIONS[parseInt(qid, 10)];
                     if (!trText) return match;
@@ -2185,7 +2194,7 @@ function buildLang(lang) {
                 }
             );
             bodyHtml = bodyHtml.replace(
-                /(<h3 id="q-(\d+)">[\s\S]*?<\/h3>[\s\S]*?)<blockquote>\n<p><strong>📝 Açıklama:<\/strong> [\s\S]*?<\/p>\n<\/blockquote>/g,
+                /(<h3 id="q-(\d+)">(?:(?!<h3)[\s\S])*?<\/h3>(?:(?!<h3)[\s\S])*?)<blockquote>\n<p><strong>📝 Açıklama:<\/strong> [\s\S]*?<\/p>\n<\/blockquote>/g,
                 (match, prefix, qid) => {
                     const trText = TR_EXPLANATIONS[parseInt(qid, 10)];
                     if (!trText) return match;
@@ -2229,7 +2238,7 @@ function buildLang(lang) {
                 .replace(/State Questions \(301–310\)/g, 'Вопросы по земле (301–310)');
             // Inject Russian explanations
             bodyHtml = bodyHtml.replace(
-                /(<h3 id="q-(\d+)">[\s\S]*?<\/h3>[\s\S]*?)<blockquote>\n<p><strong>📝<\/strong> [\s\S]*?<\/p>\n<\/blockquote>/g,
+                /(<h3 id="q-(\d+)">(?:(?!<h3)[\s\S])*?<\/h3>(?:(?!<h3)[\s\S])*?)<blockquote>\n<p><strong>📝<\/strong> [\s\S]*?<\/p>\n<\/blockquote>/g,
                 (match, prefix, qid) => {
                     const ruText = RU_EXPLANATIONS[parseInt(qid, 10)];
                     if (!ruText) return match;
@@ -2237,11 +2246,28 @@ function buildLang(lang) {
                 }
             );
             bodyHtml = bodyHtml.replace(
-                /(<h3 id="q-(\d+)">[\s\S]*?<\/h3>[\s\S]*?)<blockquote>\n<p><strong>📝 Пояснение:<\/strong> [\s\S]*?<\/p>\n<\/blockquote>/g,
+                /(<h3 id="q-(\d+)">(?:(?!<h3)[\s\S])*?<\/h3>(?:(?!<h3)[\s\S])*?)<blockquote>\n<p><strong>📝 Пояснение:<\/strong> [\s\S]*?<\/p>\n<\/blockquote>/g,
                 (match, prefix, qid) => {
                     const ruText = RU_EXPLANATIONS[parseInt(qid, 10)];
                     if (!ruText) return match;
                     return `${prefix}<blockquote>\n<p><strong>📝 Пояснение:</strong> ${ruText}</p>\n</blockquote>`;
+                }
+            );
+        }
+
+        // State-question explanations (DE/TR/RU): the flat dicts above can't
+        // disambiguate id 301 across 16 different states, so apply a second,
+        // state-keyed override pass here. Only runs for state pages.
+        if (['de', 'tr', 'ru'].includes(lang) && STATE_EXPLANATIONS[slug]) {
+            const stateLabel = lang === 'de' ? '📝 Erklärung:' : lang === 'tr' ? '📝 Açıklama:' : '📝 Пояснение:';
+            const overrides = STATE_EXPLANATIONS[slug];
+            bodyHtml = bodyHtml.replace(
+                /(<h3 id="q-(\d+)">(?:(?!<h3)[\s\S])*?<\/h3>(?:(?!<h3)[\s\S])*?)<blockquote>\n<p><strong>📝[^<]*<\/strong> [\s\S]*?<\/p>\n<\/blockquote>/g,
+                (match, prefix, qid) => {
+                    const entry = overrides[qid];
+                    const text = entry && entry[lang];
+                    if (!text) return match;
+                    return `${prefix}<blockquote>\n<p><strong>${stateLabel}</strong> ${text}</p>\n</blockquote>`;
                 }
             );
         }
