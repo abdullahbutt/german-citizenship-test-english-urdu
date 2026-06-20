@@ -1646,6 +1646,7 @@ function renderIndex({ lang, slugs }) {
         ar: 'يُعدّ اختبار <strong>Einbürgerungstest</strong> (Leben in Deutschland) شرطاً للحصول على الإقامة الدائمة والجنسية الألمانية. الاختبار باللغة الألمانية — استخدم هذا الدليل المجاني لدراسة جميع الأسئلة الرسمية مع الترجمة العربية والشرح الوافي.',
         de: 'Der <strong>Einbürgerungstest</strong> (Leben in Deutschland) ist Voraussetzung für die Niederlassungserlaubnis und die deutsche Staatsbürgerschaft. Dieser kostenlose Leitfaden enthält alle offiziellen Fragen mit markierten Antworten und Erklärungen auf Deutsch.',
         tr: '<strong>Einbürgerungstest</strong> (Leben in Deutschland sınavı), Almanya Oturma İzni ve Vatandaşlığı için zorunludur. Sınav Almanca yapılır — bu ücretsiz rehberde tüm resmi sorular işaretli cevaplar ve Türkçe açıklamalarla yer almaktadır.',
+        ru: 'Для получения вида на жительство (Niederlassungserlaubnis) и гражданства Германии необходимо сдать <strong>Einbürgerungstest</strong> (Leben in Deutschland). Тест проходит на немецком языке. В этом бесплатном пособии — все официальные вопросы с выделенными ответами и пояснениями на русском языке.',
     };
 
     const headings = {
@@ -1674,7 +1675,7 @@ function renderIndex({ lang, slugs }) {
 
     // Question set cards
     const qCards = qSets.map(({ slug, range }) => {
-        const label = isUr ? `سوالات ${range}` : isAr ? `الأسئلة ${range}` : isDe ? `Fragen ${range}` : isTr ? `Sorular ${range}` : `Questions ${range}`;
+        const label = isUr ? `سوالات ${range}` : isAr ? `الأسئلة ${range}` : isDe ? `Fragen ${range}` : isTr ? `Sorular ${range}` : isRu ? `Вопросы ${range}` : `Questions ${range}`;
         return `<a class="idx-card" href="./${slug}.html">
             <span class="idx-card-icon">📝</span>
             <span class="idx-card-label">${label}</span>
@@ -1792,8 +1793,7 @@ function renderIndex({ lang, slugs }) {
             const isAr = lang === 'ar';
             const isDe = lang === 'de';
             const isTr = lang === 'tr';
-            const isRu  = lang === 'ru';
-    const isRu = lang === 'ru';
+            const isRu = lang === 'ru';
             let searchData = null;
 
             // Load search index lazily on first keypress
@@ -1963,7 +1963,7 @@ function renderIndex({ lang, slugs }) {
 
         <div class="progress-tracker" id="progressTracker">
             <div class="pt-header">
-                <span>${isUr ? '📚 پیش رفت:' : isAr ? '📚 التقدم:' : isDe ? '📚 Fortschritt:' : isTr ? '📚 İlerleme:' : '📚 Progress:'} <strong id="ptCount">0</strong> / 300 ${isUr ? 'سوالات سیکھ لیے' : isAr ? 'سؤال تعلّمته' : isDe ? 'Fragen gelernt' : isTr ? 'soru öğrenildi' : isRu ? 'вопросов изучено' : 'questions learned'}</span>
+                <span>${isUr ? '📚 پیش رفت:' : isAr ? '📚 التقدم:' : isDe ? '📚 Fortschritt:' : isTr ? '📚 İlerleme:' : isRu ? '📚 Прогресс:' : '📚 Progress:'} <strong id="ptCount">0</strong> / 300 ${isUr ? 'سوالات سیکھ لیے' : isAr ? 'سؤال تعلّمته' : isDe ? 'Fragen gelernt' : isTr ? 'soru öğrenildi' : isRu ? 'вопросов изучено' : 'questions learned'}</span>
                 <span class="pt-pct" id="ptPct">0%</span>
             </div>
             <div class="pt-bar-bg"><div class="pt-bar-fill" id="ptFill" style="width:0%"></div></div>
@@ -2074,8 +2074,12 @@ function buildLang(lang) {
         // "Question 42" → <h3 id="q-42">Question 42</h3>
         // "سوال 42"     → <h3 id="q-42">سوال 42</h3>
         bodyHtml = bodyHtml.replace(
-            /<h3>((Question|Frage|سوال|السؤال)\s+(\d+))<\/h3>/g,
-            (match, full, prefix, num) => `<h3 id="q-${num}">${full}</h3>`
+            /<h3>((Question|Frage|Soru|Вопрос|سوال|السؤال)\s+(\d+))(?:\s*[—–-].*?)?<\/h3>/g,
+            (match, full, prefix, num) => {
+                // Re-wrap with id, preserving any trailing text (e.g. " — Coat of Arms")
+                const innerHtml = match.slice(4, -5); // strip outer <h3> ... </h3>
+                return `<h3 id="q-${num}">${innerHtml}</h3>`;
+            }
         );
 
         // For German pages: translate all English-sourced content into German.
@@ -2096,9 +2100,10 @@ function buildLang(lang) {
                 .replace(/German History: Nazi Era, WWII, Post-War Period/g, 'Deutsche Geschichte: NS-Zeit, Zweiter Weltkrieg, Nachkriegszeit')
                 .replace(/History: Cold War, Reunification, Culture &amp; Geography/g, 'Geschichte: Kalter Krieg, Wiedervereinigung, Kultur &amp; Geographie')
                 .replace(/Society, Culture, Daily Life, Religion &amp; Civic Knowledge/g, 'Gesellschaft, Kultur, Alltag, Religion &amp; Bürgerkunde');
-            // Question headings: "Question N" → "Frage N"
+            // Question headings: "Question N" → "Frage N" (also matches state
+            // headings with trailing text, e.g. "Question 301 — Coat of Arms")
             bodyHtml = bodyHtml.replace(
-                /(<h3 id="q-\d+">)Question (\d+)(<\/h3>)/g, '$1Frage $2$3'
+                /(<h3 id="q-\d+">)Question (\d+)/g, '$1Frage $2'
             );
             // Explanation label
             bodyHtml = bodyHtml.replace(/📝 Explanation:/g, '📝 Erklärung:');
@@ -2150,9 +2155,10 @@ function buildLang(lang) {
                 .replace(/German History: Nazi Era, WWII, Post-War Period/g,               'Alman Tarihi: Nazi Dönemi, İkinci Dünya Savaşı, Savaş Sonrası')
                 .replace(/History: Cold War, Reunification, Culture &amp; Geography/g,     'Tarih: Soğuk Savaş, Yeniden Birleşme, Kültür &amp; Coğrafya')
                 .replace(/Society, Culture, Daily Life, Religion &amp; Civic Knowledge/g,  'Toplum, Kültür, Günlük Yaşam, Din &amp; Vatandaşlık Bilgisi');
-            // Question headings: "Question N" → "Soru N"
+            // Question headings: "Question N" → "Soru N" (also matches state
+            // headings with trailing text, e.g. "Question 301 — Coat of Arms")
             bodyHtml = bodyHtml.replace(
-                /(<h3 id="q-\d+">)Question (\d+)(<\/h3>)/g, '$1Soru $2$3'
+                /(<h3 id="q-\d+">)Question (\d+)/g, '$1Soru $2'
             );
             // Explanation label
             bodyHtml = bodyHtml.replace(/📝 Explanation:/g, '📝 Açıklama:');
@@ -2205,9 +2211,10 @@ function buildLang(lang) {
                 .replace(/German History: Nazi Era, WWII, Post-War Period/g,               'История Германии: нацизм, Вторая мировая война, послевоенный период')
                 .replace(/History: Cold War, Reunification, Culture &amp; Geography/g,     'История: холодная война, объединение, культура и география')
                 .replace(/Society, Culture, Daily Life, Religion &amp; Civic Knowledge/g,  'Общество, культура, повседневная жизнь, религия и гражданские знания');
-            // Question headings: "Question N" → "Вопрос N"
+            // Question headings: "Question N" → "Вопрос N" (also matches state
+            // headings with trailing text, e.g. "Question 301 — Coat of Arms")
             bodyHtml = bodyHtml.replace(
-                /(<h3 id="q-\d+">)Question (\d+)(<\/h3>)/g, '$1Вопрос $2$3'
+                /(<h3 id="q-\d+">)Question (\d+)/g, '$1Вопрос $2'
             );
             // Explanation label and nav links
             bodyHtml = bodyHtml
