@@ -38,11 +38,25 @@ try {
     console.log(`[tr-explanations] loaded ${Object.keys(TR_EXPLANATIONS).length} entries`);
 } catch(e) { /* file optional */ }
 
+// Turkish question + answer translations — for bilingual tables
+let TR_QUESTIONS = {};
+try {
+    TR_QUESTIONS = JSON.parse(fs.readFileSync(path.join(ROOT, 'tr-questions.json'), 'utf8'));
+    console.log(`[tr-questions] loaded ${Object.keys(TR_QUESTIONS).length} entries`);
+} catch(e) { /* file optional */ }
+
 // Russian explanations — injected during 'ru' build pass
 let RU_EXPLANATIONS = {};
 try {
     RU_EXPLANATIONS = JSON.parse(fs.readFileSync(path.join(ROOT, 'ru-explanations.json'), 'utf8'));
     console.log(`[ru-explanations] loaded ${Object.keys(RU_EXPLANATIONS).length} entries`);
+} catch(e) { /* file optional */ }
+
+// Russian question + answer translations — for bilingual tables
+let RU_QUESTIONS = {};
+try {
+    RU_QUESTIONS = JSON.parse(fs.readFileSync(path.join(ROOT, 'ru-questions.json'), 'utf8'));
+    console.log(`[ru-questions] loaded ${Object.keys(RU_QUESTIONS).length} entries`);
 } catch(e) { /* file optional */ }
 
 // State-question explanations (DE/TR/RU) — keyed by [state_slug][qid][lang]
@@ -778,6 +792,90 @@ function applyFlagIcons(html) {
         .replace(/🇩🇪/g, FLAG_SPANS['🇩🇪'])
         .replace(/🇬🇧/g, FLAG_SPANS['🇬🇧'])
         .replace(/🇵🇰/g, FLAG_SPANS['🇵🇰']);
+}
+
+// ---------- Bilingual table injection (TR / RU) ----------
+// Transforms German-only question tables into two-column German|Translation tables.
+// QUESTIONS_MAP: { "1": { q: "...", opts: ["a","b","c","d"] }, ... }
+// lang: "tr" | "ru"
+function injectBilingualTable(bodyHtml, QUESTIONS_MAP, lang) {
+    if (!QUESTIONS_MAP || Object.keys(QUESTIONS_MAP).length === 0) return bodyHtml;
+
+    const langLabel  = lang === 'tr' ? 'Türkçe'  : 'Русский';
+    const flagClass  = lang === 'tr' ? 'fi-tr'   : 'fi-ru';
+    const countryName= lang === 'tr' ? 'Türkiye' : 'Russia';
+
+    // Match each question block: h3, optional German question paragraph, then the answer table.
+    // The lookahead (?![\s\S]*<h3) keeps us from crossing into the next question.
+    const BLOCK_RE = /(<h3 id="q-(\d+)">[^<]*<\/h3>)((?:(?!<h3 id=)[\s\S])*?)(<div class="table-wrap"><table>[\s\S]*?<\/table><\/div>)/g;
+
+    return bodyHtml.replace(BLOCK_RE, (match, h3, qid, between, table) => {
+        const entry = QUESTIONS_MAP[qid] || QUESTIONS_MAP[parseInt(qid, 10)];
+        if (!entry || !entry.q || !entry.opts || entry.opts.length === 0) return match;
+
+        const { q: translatedQ, opts: translatedOpts } = entry;
+
+        // 1. Add translated question paragraph after the German one
+        const translatedQpara = `<p><strong><span class="fi ${flagClass}" role="img" aria-label="${countryName}" title="${countryName}"></span> ${langLabel}:</strong> ${translatedQ}</p>`;
+
+        // 2. Expand table header: <th>Deutsch</th> → <th>Deutsch</th><th>LangName</th>
+        let newTable = table.replace(
+            /<th>Deutsch<\/th>/,
+            `<th>Deutsch</th><th>${langLabel}</th>`
+        );
+
+        // 3. Add translated answer to each tbody row.
+        // Rows look like: <tr><td>○</td><td>German answer</td></tr>
+        // or: <tr><td>✅</td><td><strong>German answer</strong></td></tr>
+        let optIndex = 0;
+        newTable = newTable.replace(
+            /(<tr>\s*<td[^>]*>(?:○|✅|<input[^>]*>)<\/td>\s*<td[^>]*>)([\s\S]*?)(<\/td>\s*<\/tr>)/g,
+            (rowMatch, tdOpen, deContent, tdClose) => {
+                const translation = translatedOpts[optIndex] || '';
+                optIndex++;
+                // If German answer is bold (<strong>), translation is also bold
+                const isCorrect = /<strong>/.test(deContent);
+                const translatedCell = isCorrect
+                    ? `<td><strong>${translation}</strong></td>`
+                    : `<td>${translation}</td>`;
+                return `${tdOpen}${deContent}${tdClose.replace('</td>', '')}${translatedCell}</td></tr>`.replace('</td></td>', '</td>');
+            }
+        );
+
+        // Simpler approach — the row closer regex left artefacts, redo cleanly
+        // Actually reset and do a cleaner row-level replace
+        optIndex = 0;
+        newTable = table
+            .replace(/<th>Deutsch<\/th>/, `<th>Deutsch</th><th>${langLabel}</th>`)
+            .replace(/<\/tr>/g, () => {
+                // Only replace tbody rows (ones with ○ or ✅), not thead rows
+                return '</tr>__ROWEND__';
+            });
+
+        // Start fresh with a clean approach
+        optIndex = 0;
+        let newTableClean = table
+            .replace(/<th>Deutsch<\/th>/, `<th>Deutsch</th><th>${langLabel}</th>`);
+
+        // Now add translation <td> to each <tbody> row
+        newTableClean = newTableClean.replace(
+            /(<tr>[\s\S]*?<\/tr>)/g,
+            (rowFull) => {
+                // Skip header rows (contain <th>)
+                if (rowFull.includes('<th>')) return rowFull;
+                const translation = translatedOpts[optIndex] || '';
+                optIndex++;
+                const isCorrect = /<strong>/.test(rowFull);
+                const translatedCell = isCorrect
+                    ? `<td><strong>${translation}</strong></td>`
+                    : `<td>${translation}</td>`;
+                // Insert translation <td> before closing </tr>
+                return rowFull.replace(/<\/tr>$/, `${translatedCell}</tr>`);
+            }
+        );
+
+        return `${h3}\n${between || ''}${translatedQpara}\n${newTableClean}`;
+    });
 }
 
 // ---------- HTML template ----------
@@ -2201,6 +2299,8 @@ function buildLang(lang) {
                     return `${prefix}<blockquote>\n<p><strong>📝 Açıklama:</strong> ${trText}</p>\n</blockquote>`;
                 }
             );
+            // Inject bilingual question + answer table (Turkish column alongside German)
+            bodyHtml = injectBilingualTable(bodyHtml, TR_QUESTIONS, 'tr');
         }
 
         if (lang === 'ru') {
@@ -2253,6 +2353,8 @@ function buildLang(lang) {
                     return `${prefix}<blockquote>\n<p><strong>📝 Пояснение:</strong> ${ruText}</p>\n</blockquote>`;
                 }
             );
+            // Inject bilingual question + answer table (Russian column alongside German)
+            bodyHtml = injectBilingualTable(bodyHtml, RU_QUESTIONS, 'ru');
         }
 
         // State-question explanations (DE/TR/RU): the flat dicts above can't
