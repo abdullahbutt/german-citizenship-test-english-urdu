@@ -810,6 +810,9 @@ function injectBilingualTable(bodyHtml, QUESTIONS_MAP, lang) {
     const BLOCK_RE = /(<h3 id="q-(\d+)">[^<]*<\/h3>)((?:(?!<h3 id=)[\s\S])*?)(<div class="table-wrap"><table>[\s\S]*?<\/table><\/div>)/g;
 
     return bodyHtml.replace(BLOCK_RE, (match, h3, qid, between, table) => {
+        // State question IDs (301–310) must NOT use the general questions dictionary —
+        // their answer options are state-specific and different from general Q303 etc.
+        if (parseInt(qid, 10) > 300) return match;
         const entry = QUESTIONS_MAP[qid] || QUESTIONS_MAP[parseInt(qid, 10)];
         if (!entry || !entry.q || !entry.opts || entry.opts.length === 0) return match;
 
@@ -2243,6 +2246,32 @@ function buildLang(lang) {
                     return `${prefix}<blockquote>\n<p><strong>📝 Erklärung:</strong> ${deText}</p>\n</blockquote>`;
                 }
             );
+            // State pages Q306-310 section: translate heading and labels
+            bodyHtml = bodyHtml
+                .replace(/Questions 306–310 — Additional State Facts/g, 'Fragen 306–310 — Weitere Fakten zum Bundesland')
+                .replace(/<p>Key facts for your preparation:<\/p>/g, '<p>Wichtige Fakten für Ihre Vorbereitung:</p>')
+                .replace(/<strong>Parliament:<\/strong>/g, '<strong>Parlament:</strong>')
+                .replace(/<strong>Neighbors\/Borders:<\/strong>/g, '<strong>Nachbarn/Grenzen:</strong>')
+                .replace(/<strong>Major cities:<\/strong>/g, '<strong>Wichtige Städte:</strong>')
+                // English border descriptions → German
+                .replace(/Surrounded by Schleswig-Holstein and Niedersachsen/g, 'Wird von Schleswig-Holstein und Niedersachsen umgeben')
+                .replace(/Surrounded entirely by Brandenburg/g, 'Vollständig von Brandenburg umgeben')
+                .replace(/Surrounded by Niedersachsen \(Lower Saxony\)/g, 'Wird von Niedersachsen umgeben')
+                .replace(/No international borders\. Borders:/g, 'Keine Auslandsgrenze. Grenzt an:')
+                .replace(/No international borders; borders/g, 'Keine Auslandsgrenze; grenzt an:')
+                .replace(/Poland, Baltic Sea; borders/g, 'Polen, Ostsee; grenzt an:')
+                .replace(/Poland, Czech Republic; borders/g, 'Polen, Tschechien; grenzt an:')
+                .replace(/Denmark, North Sea, Baltic Sea; borders/g, 'Dänemark, Nordsee, Ostsee; grenzt an:')
+                .replace(/France, Luxembourg, Belgium; borders/g, 'Frankreich, Luxemburg, Belgien; grenzt an:')
+                .replace(/France, Luxembourg; borders/g, 'Frankreich, Luxemburg; grenzt an:')
+                .replace(/Austria, Czech Republic, Switzerland \(via Lake Constance\)/g, 'Österreich, Tschechien, Schweiz (über den Bodensee)')
+                .replace(/Netherlands, North Sea; borders/g, 'Niederlande, Nordsee; grenzt an:')
+                .replace(/Abgeordnetenhaus \(House of Representatives\)/g, 'Abgeordnetenhaus')
+                .replace(/\bHamburg is a single city-state\b/g, 'Hamburg ist ein Stadtstaat')
+                .replace(/\bBerlin is a single city-state with 12 districts \(Bezirke\)\b/g, 'Berlin ist ein Stadtstaat mit 12 Bezirken')
+                .replace(/Bremen and Bremerhaven \(the state consists of two cities\)/g, 'Bremen und Bremerhaven (das Land besteht aus zwei Städten)')
+                .replace(/\(via Lake Constance\)/g, '(über den Bodensee)')
+                .replace(/Poland, and the states of/g, 'Polen sowie die Bundesländer');
         }
 
         if (lang === 'tr') {
@@ -2347,6 +2376,30 @@ function buildLang(lang) {
                 .replace(/🖼️ Identify Baden-Württemberg in southwestern Germany, bordering France and Switzerland\./g, '🖼️ Fransa ve İsviçre ile sınır komşusu olan güneybatı Almanya\'da Baden-Württemberg\'i haritada bulun.')
                 .replace(/München \(Munich\)/g, 'München')
                 .replace(/Remaining questions cover:[^<]*/g, 'Kalan sorular: ');
+            // Q306-310 section heading and labels → Turkish
+            bodyHtml = bodyHtml
+                .replace(/Questions 306–310 — Additional State Facts/g, 'Sorular 306–310 — Eyalete İlişkin Ek Bilgiler')
+                .replace(/<p>Key facts for your preparation:<\/p>/g, '<p>Hazırlığınız için önemli bilgiler:</p>')
+                .replace(/<strong>Parliament:<\/strong>/g, '<strong>Parlamento:</strong>')
+                .replace(/<strong>Neighbors\/Borders:<\/strong>/g, '<strong>Komşu Eyaletler/Sınırlar:</strong>')
+                .replace(/<strong>Major cities:<\/strong>/g, '<strong>Önemli Şehirler:</strong>')
+                .replace(/Surrounded by Schleswig-Holstein and Niedersachsen/g, 'Schleswig-Holstein ve Niedersachsen ile çevrilidir')
+                .replace(/Surrounded entirely by Brandenburg/g, 'Tamamen Brandenburg ile çevrilidir')
+                .replace(/Surrounded by Niedersachsen \(Lower Saxony\)/g, 'Niedersachsen ile çevrilidir')
+                .replace(/No international borders\. Borders:/g, 'Uluslararası sınır yok. Komşular:')
+                .replace(/No international borders; borders/g, 'Uluslararası sınır yok; komşular:')
+                .replace(/Poland, Baltic Sea; borders/g, 'Polonya, Baltık Denizi; komşular:')
+                .replace(/Poland, Czech Republic; borders/g, 'Polonya, Çek Cumhuriyeti; komşular:')
+                .replace(/Denmark, North Sea, Baltic Sea; borders/g, 'Danimarka, Kuzey Denizi, Baltık Denizi; komşular:')
+                .replace(/France, Luxembourg, Belgium; borders/g, 'Fransa, Lüksemburg, Belçika; komşular:')
+                .replace(/France, Luxembourg; borders/g, 'Fransa, Lüksemburg; komşular:')
+                .replace(/Austria, Czech Republic, Switzerland \(via Lake Constance\)/g, 'Avusturya, Çek Cumhuriyeti, İsviçre (Bodensee üzerinden)')
+                .replace(/Netherlands, North Sea; borders/g, 'Hollanda, Kuzey Denizi; komşular:')
+                .replace(/Abgeordnetenhaus \(House of Representatives\)/g, 'Abgeordnetenhaus (Temsilciler Meclisi)')
+                .replace(/\bHamburg is a single city-state\b/g, 'Hamburg tek başına bir şehir-eyalettir')
+                .replace(/\bBerlin is a single city-state with 12 districts \(Bezirke\)\b/g, 'Berlin, 12 ilçeden (Bezirk) oluşan bir şehir-eyalettir')
+                .replace(/Bremen and Bremerhaven \(the state consists of two cities\)/g, 'Bremen ve Bremerhaven (eyalet iki şehirden oluşmaktadır)')
+                .replace(/Poland, and the states of/g, 'Polonya ve eyaletler:');
         }
 
         if (lang === 'ru') {
@@ -2446,6 +2499,30 @@ function buildLang(lang) {
                 .replace(/🖼️ Identify Baden-Württemberg in southwestern Germany, bordering France and Switzerland\./g, '🖼️ Определите Баден-Вюртемберг на карте юго-западной Германии, граничащей с Францией и Швейцарией.')
                 .replace(/München \(Munich\)/g, 'München')
                 .replace(/Remaining questions cover:[^<]*/g, 'Оставшиеся вопросы: ');
+            // Q306-310 section heading and labels → Russian
+            bodyHtml = bodyHtml
+                .replace(/Questions 306–310 — Additional State Facts/g, 'Вопросы 306–310 — Дополнительные факты о земле')
+                .replace(/<p>Key facts for your preparation:<\/p>/g, '<p>Важные факты для подготовки:</p>')
+                .replace(/<strong>Parliament:<\/strong>/g, '<strong>Парламент:</strong>')
+                .replace(/<strong>Neighbors\/Borders:<\/strong>/g, '<strong>Соседи/Границы:</strong>')
+                .replace(/<strong>Major cities:<\/strong>/g, '<strong>Крупные города:</strong>')
+                .replace(/Surrounded by Schleswig-Holstein and Niedersachsen/g, 'Окружён землями Шлезвиг-Гольштейн и Нижняя Саксония')
+                .replace(/Surrounded entirely by Brandenburg/g, 'Полностью окружён землёй Бранденбург')
+                .replace(/Surrounded by Niedersachsen \(Lower Saxony\)/g, 'Окружён землёй Нижняя Саксония')
+                .replace(/No international borders\. Borders:/g, 'Международных границ нет. Граничит с:')
+                .replace(/No international borders; borders/g, 'Международных границ нет; граничит с:')
+                .replace(/Poland, Baltic Sea; borders/g, 'Польша, Балтийское море; граничит с:')
+                .replace(/Poland, Czech Republic; borders/g, 'Польша, Чехия; граничит с:')
+                .replace(/Denmark, North Sea, Baltic Sea; borders/g, 'Дания, Северное море, Балтийское море; граничит с:')
+                .replace(/France, Luxembourg, Belgium; borders/g, 'Франция, Люксембург, Бельгия; граничит с:')
+                .replace(/France, Luxembourg; borders/g, 'Франция, Люксембург; граничит с:')
+                .replace(/Austria, Czech Republic, Switzerland \(via Lake Constance\)/g, 'Австрия, Чехия, Швейцария (через Боденское озеро)')
+                .replace(/Netherlands, North Sea; borders/g, 'Нидерланды, Северное море; граничит с:')
+                .replace(/Abgeordnetenhaus \(House of Representatives\)/g, 'Абгеордентенхаус (Палата представителей)')
+                .replace(/\bHamburg is a single city-state\b/g, 'Гамбург — самостоятельный город-земля')
+                .replace(/\bBerlin is a single city-state with 12 districts \(Bezirke\)\b/g, 'Берлин — город-земля с 12 районами (Bezirke)')
+                .replace(/Bremen and Bremerhaven \(the state consists of two cities\)/g, 'Бремен и Бремерхафен (земля состоит из двух городов)')
+                .replace(/Poland, and the states of/g, 'Польша и земли:');
         }
 
         // State-question explanations (DE/TR/RU): the flat dicts above can't
