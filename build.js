@@ -2301,6 +2301,52 @@ function buildLang(lang) {
             );
             // Inject bilingual question + answer table (Turkish column alongside German)
             bodyHtml = injectBilingualTable(bodyHtml, TR_QUESTIONS, 'tr');
+
+            // ── State page italic answer hints → Turkish ──────────────────
+            // Generic map / warning hints (same for all states)
+            bodyHtml = bodyHtml
+                .replace(/🖼️ Identify this state on a map of Germany\./g, '🖼️ Bu eyaleti Almanya haritasında bulun.')
+                .replace(/🖼️ Identify on numbered map\./g, '🖼️ Numaralı haritada bulun.')
+                .replace(/⚠️ Check current officeholder before your test\./g, '⚠️ Sınavdan önce güncel ismi kontrol edin.')
+                .replace(/⚠️ Check current officeholder\. As of 2025:/g, '⚠️ Güncel ismi kontrol edin. 2025 itibarıyla:')
+                .replace(/⚠️ Note: This answer changes with elections\. Always check the current Minister-President before your test\./g, '⚠️ Not: Bu cevap seçimlerle değişebilir. Sınavdan önce güncel Eyalet Başbakanı\'nı kontrol edin.')
+                .replace(/⚠️ Note: Answer options and the correct answer depend on the current catalog version\./g, '⚠️ Not: Cevap seçenekleri ve doğru cevap güncel katalog sürümüne göre değişebilir.')
+                .replace(/\(largest state in western Germany\)/g, '(Batı Almanya\'nın en büyük eyaleti)')
+                .replace(/\(other options vary\)/g, '(diğer seçenekler değişir)')
+                .replace(/\(other number\)/g, '(diğer numara)')
+                .replace(/\(Karte\)/g, '(Harita)')
+                .replace(/\(varies\)/g, '(değişir)')
+                .replace(/\(Current Minister-President at time of test\)/g, '(Sınav tarihindeki güncel Eyalet Başbakanı)')
+                .replace(/The number pointing to the large western state/g, 'Büyük batı eyaletini gösteren numara')
+                .replace(/other options vary/g, 'diğer seçenekler değişir');
+            // State-specific coat of arms descriptions
+            bodyHtml = bodyHtml
+                .replace(/🖼️ Select the image showing three black lions on a golden shield with deer and griffin supporters\./g, '🖼️ Geyik ve grifonla desteklenen altın kalkan üzerinde üç siyah aslanı gösteren resmi seçin.')
+                .replace(/🖼️ White and blue diamond pattern \(Bavarian rhombi\/lozenges\)/g, '🖼️ Beyaz ve mavi baklava deseni (Bavyera elmasları)')
+                .replace(/🖼️ Bear on white background/g, '🖼️ Beyaz zemin üzerinde ayı')
+                .replace(/🖼️ Red eagle on white background/g, '🖼️ Beyaz zemin üzerinde kırmızı kartal')
+                .replace(/🖼️ Key and coat of arms with the Bremen key/g, '🖼️ Bremen anahtarı ile anahtar ve arma')
+                .replace(/🖼️ White castle gate on red background/g, '🖼️ Kırmızı zemin üzerinde beyaz kale kapısı')
+                .replace(/🖼️ Red and white striped lion on blue background/g, '🖼️ Mavi zemin üzerinde kırmızı-beyaz çizgili aslan')
+                .replace(/🖼️ Bull head \(Mecklenburg\) and griffin \(Pomerania\)/g, '🖼️ Boğa başı (Mecklenburg) ve grifon (Pomeranya)')
+                .replace(/🖼️ White horse \(Sachsenross\) on red background/g, '🖼️ Kırmızı zemin üzerinde beyaz at (Sachsenross)')
+                .replace(/🖼️ This question shows 4 images of different coats of arms\. The correct answer shows the NRW coat of arms with the Rhine River \(wavy line\), the Westphalian horse, and the Lippe rose\./g, '🖼️ Bu soruda dört farklı arma resmi gösterilir. Doğru cevap; Ren Nehri (dalgalı çizgi), Vestfalya atı ve Lippe gülü içeren NRW armasını gösterir.')
+                .replace(/🖼️ This question shows a map of Germany with federal states\. You need to identify NRW\./g, '🖼️ Bu soruda federal eyaletlerle Almanya haritası gösterilir. NRW\'yi belirlemeniz gerekir.')
+                .replace(/🖼️ This question shows a map of Germany with numbered federal states\. You need to identify which number corresponds to NRW\./g, '🖼️ Bu soruda numaralı federal eyaletlerle Almanya haritası gösterilir. Hangi numaranın NRW\'ye karşılık geldiğini belirlemeniz gerekir.')
+                .replace(/🖼️ Cross, wheel, and lion representing the three historical regions/g, '🖼️ Üç tarihi bölgeyi temsil eden haç, tekerlek ve aslan')
+                .replace(/🖼️ Shield with lion, cross, and eagle representing historical territories/g, '🖼️ Tarihi bölgeleri temsil eden aslan, haç ve kartal içeren kalkan')
+                .replace(/🖼️ Green and white diagonal stripes with a crown of rue/g, '🖼️ Ruta tacıyla yeşil ve beyaz çapraz çizgiler')
+                .replace(/🖼️ Black and gold eagle/g, '🖼️ Siyah ve altın kartal')
+                .replace(/🖼️ Two lions on blue and red background/g, '🖼️ Mavi ve kırmızı zemin üzerinde iki aslan')
+                .replace(/🖼️ Red and white striped lion with blue claws on blue background/g, '🖼️ Mavi zemin üzerinde mavi pençeli kırmızı-beyaz çizgili aslan')
+                .replace(/🖼️ The large southwestern state\./g, '🖼️ Güneybatıdaki büyük eyalet.')
+                .replace(/Berlin \(is both capital and state\)/g, 'Berlin (hem başkent hem eyalet)')
+                .replace(/Hamburg \(is both city and state\)/g, 'Hamburg (hem şehir hem eyalet)')
+                .replace(/Hannover \(Hanover\)/g, 'Hannover')
+                .replace(/🖼️ Similar to Question 301 — shows images of coats of arms\. Select the one with the Rhine wave, Westphalian horse, and Lippe rose\./g, '🖼️ 301. Soru\'ya benzer — arma resimleri gösterilir. Ren dalgası, Vestfalya atı ve Lippe gülü içereni seçin.')
+                .replace(/🖼️ Identify Baden-Württemberg in southwestern Germany, bordering France and Switzerland\./g, '🖼️ Fransa ve İsviçre ile sınır komşusu olan güneybatı Almanya\'da Baden-Württemberg\'i haritada bulun.')
+                .replace(/München \(Munich\)/g, 'München')
+                .replace(/Remaining questions cover:[^<]*/g, 'Kalan sorular: ');
         }
 
         if (lang === 'ru') {
@@ -2355,6 +2401,51 @@ function buildLang(lang) {
             );
             // Inject bilingual question + answer table (Russian column alongside German)
             bodyHtml = injectBilingualTable(bodyHtml, RU_QUESTIONS, 'ru');
+
+            // ── State page italic answer hints → Russian ───────────────────
+            bodyHtml = bodyHtml
+                .replace(/🖼️ Identify this state on a map of Germany\./g, '🖼️ Определите эту землю на карте Германии.')
+                .replace(/🖼️ Identify on numbered map\./g, '🖼️ Определите на пронумерованной карте.')
+                .replace(/⚠️ Check current officeholder before your test\./g, '⚠️ Проверьте актуального главу перед экзаменом.')
+                .replace(/⚠️ Check current officeholder\. As of 2025:/g, '⚠️ Проверьте актуального главу. По состоянию на 2025 год:')
+                .replace(/⚠️ Note: This answer changes with elections\. Always check the current Minister-President before your test\./g, '⚠️ Примечание: ответ меняется после выборов. Всегда проверяйте действующего премьер-министра земли перед экзаменом.')
+                .replace(/⚠️ Note: Answer options and the correct answer depend on the current catalog version\./g, '⚠️ Примечание: варианты ответов и правильный ответ зависят от актуальной версии каталога.')
+                .replace(/\(largest state in western Germany\)/g, '(крупнейшая земля западной Германии)')
+                .replace(/\(other options vary\)/g, '(другие варианты различаются)')
+                .replace(/\(other number\)/g, '(другой номер)')
+                .replace(/\(Karte\)/g, '(Карта)')
+                .replace(/\(varies\)/g, '(варьируется)')
+                .replace(/\(Current Minister-President at time of test\)/g, '(действующий премьер-министр земли на момент экзамена)')
+                .replace(/The number pointing to the large western state/g, 'Номер, указывающий на крупную западную землю')
+                .replace(/other options vary/g, 'другие варианты различаются');
+            // State-specific coat of arms
+            bodyHtml = bodyHtml
+                .replace(/🖼️ Select the image showing three black lions on a golden shield with deer and griffin supporters\./g, '🖼️ Выберите изображение с тремя чёрными львами на золотом щите, поддерживаемом оленем и грифоном.')
+                .replace(/🖼️ White and blue diamond pattern \(Bavarian rhombi\/lozenges\)/g, '🖼️ Бело-голубой ромбовидный узор (баварские ромбы)')
+                .replace(/🖼️ Bear on white background/g, '🖼️ Медведь на белом фоне')
+                .replace(/🖼️ Red eagle on white background/g, '🖼️ Красный орёл на белом фоне')
+                .replace(/🖼️ Key and coat of arms with the Bremen key/g, '🖼️ Ключ и герб с бременским ключом')
+                .replace(/🖼️ White castle gate on red background/g, '🖼️ Белые крепостные ворота на красном фоне')
+                .replace(/🖼️ Red and white striped lion on blue background/g, '🖼️ Красно-белый полосатый лев на синем фоне')
+                .replace(/🖼️ Bull head \(Mecklenburg\) and griffin \(Pomerania\)/g, '🖼️ Бычья голова (Мекленбург) и грифон (Померания)')
+                .replace(/🖼️ White horse \(Sachsenross\) on red background/g, '🖼️ Белый конь (Sachsenross) на красном фоне')
+                .replace(/🖼️ This question shows 4 images of different coats of arms\. The correct answer shows the NRW coat of arms with the Rhine River \(wavy line\), the Westphalian horse, and the Lippe rose\./g, '🖼️ В этом вопросе показаны 4 изображения разных гербов. Правильный ответ показывает герб NRW с рекой Рейн (волнистая линия), вестфальским конём и липпской розой.')
+                .replace(/🖼️ This question shows a map of Germany with federal states\. You need to identify NRW\./g, '🖼️ В этом вопросе показана карта Германии с федеральными землями. Вам нужно определить NRW.')
+                .replace(/🖼️ This question shows a map of Germany with numbered federal states\. You need to identify which number corresponds to NRW\./g, '🖼️ В этом вопросе показана карта Германии с пронумерованными землями. Вам нужно определить, какой номер соответствует NRW.')
+                .replace(/🖼️ Cross, wheel, and lion representing the three historical regions/g, '🖼️ Крест, колесо и лев, представляющие три исторических региона')
+                .replace(/🖼️ Shield with lion, cross, and eagle representing historical territories/g, '🖼️ Щит со львом, крестом и орлом, представляющими исторические территории')
+                .replace(/🖼️ Green and white diagonal stripes with a crown of rue/g, '🖼️ Зелёные и белые диагональные полосы с рутовым венцом')
+                .replace(/🖼️ Black and gold eagle/g, '🖼️ Чёрно-золотой орёл')
+                .replace(/🖼️ Two lions on blue and red background/g, '🖼️ Два льва на синем и красном фоне')
+                .replace(/🖼️ Red and white striped lion with blue claws on blue background/g, '🖼️ Красно-белый полосатый лев с синими когтями на синем фоне')
+                .replace(/🖼️ The large southwestern state\./g, '🖼️ Крупная юго-западная земля.')
+                .replace(/Berlin \(is both capital and state\)/g, 'Берлин (и столица, и земля)')
+                .replace(/Hamburg \(is both city and state\)/g, 'Гамбург (и город, и земля)')
+                .replace(/Hannover \(Hanover\)/g, 'Hannover')
+                .replace(/🖼️ Similar to Question 301 — shows images of coats of arms\. Select the one with the Rhine wave, Westphalian horse, and Lippe rose\./g, '🖼️ Аналогично вопросу 301 — показаны изображения гербов. Выберите тот, что содержит рейнскую волну, вестфальского коня и липпскую розу.')
+                .replace(/🖼️ Identify Baden-Württemberg in southwestern Germany, bordering France and Switzerland\./g, '🖼️ Определите Баден-Вюртемберг на карте юго-западной Германии, граничащей с Францией и Швейцарией.')
+                .replace(/München \(Munich\)/g, 'München')
+                .replace(/Remaining questions cover:[^<]*/g, 'Оставшиеся вопросы: ');
         }
 
         // State-question explanations (DE/TR/RU): the flat dicts above can't
