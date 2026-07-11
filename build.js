@@ -265,6 +265,17 @@ const UI = {
         randomBtn: '🎲 Random Question',
         printBtn: '🖨️ Print / Save PDF',
         reportBtn: '⚠️ Report an error',
+        pwaTitle: 'Install as a free app — works offline, no App Store needed',
+        pwaIphone: 'iPhone/iPad',
+        pwaIphoneSteps: 'Safari → Share ⬆ → Add to Home Screen',
+        pwaAndroid: 'Android',
+        pwaAndroidSteps: 'Chrome → ⋮ Menu → Add to Home Screen',
+        pwaMac: 'macOS',
+        pwaMacSteps: 'Safari → Share → Add to Dock',
+        pwaWindows: 'Windows',
+        pwaWindowsSteps: 'Edge → Apps → Install this site',
+        pwaClose: 'Close',
+        pwaToggle: 'Show/hide install instructions',
     },
     ur: {
         siteTitle: 'جرمن شہریت کا امتحان',
@@ -294,6 +305,17 @@ const UI = {
         randomBtn: '🎲 بے ترتیب سوال',
         printBtn: '🖨️ پرنٹ / PDF محفوظ کریں',
         reportBtn: '⚠️ غلطی کی اطلاع دیں',
+        pwaTitle: 'مفت ایپ کے طور پر انسٹال کریں — آف لائن کام کرتا ہے، ایپ اسٹور کی ضرورت نہیں',
+        pwaIphone: 'آئی فون/آئی پیڈ',
+        pwaIphoneSteps: 'Safari → Share ⬆ → Add to Home Screen',
+        pwaAndroid: 'اینڈرائیڈ',
+        pwaAndroidSteps: 'Chrome → مینو ⋮ → ہوم اسکرین پر شامل کریں',
+        pwaMac: 'میک او ایس',
+        pwaMacSteps: 'Safari → Share → Dock میں شامل کریں',
+        pwaWindows: 'ونڈوز',
+        pwaWindowsSteps: 'Edge → Apps → یہ سائٹ انسٹال کریں',
+        pwaClose: 'بند کریں',
+        pwaToggle: 'انسٹالیشن ہدایات دکھائیں/چھپائیں',
     },
     ar: {
         siteTitle: 'اختبار الجنسية الألمانية',
@@ -323,6 +345,17 @@ const UI = {
         randomBtn: '🎲 سؤال عشوائي',
         printBtn: '🖨️ طباعة / حفظ PDF',
         reportBtn: '⚠️ الإبلاغ عن خطأ',
+        pwaTitle: 'ثبّت التطبيق مجانًا — يعمل بدون إنترنت، دون الحاجة لمتجر التطبيقات',
+        pwaIphone: 'آيفون/آيباد',
+        pwaIphoneSteps: 'سفاري ← مشاركة ⬆ ← إضافة إلى الشاشة الرئيسية',
+        pwaAndroid: 'أندرويد',
+        pwaAndroidSteps: 'كروم ← القائمة ⋮ ← إضافة إلى الشاشة الرئيسية',
+        pwaMac: 'macOS',
+        pwaMacSteps: 'سفاري ← مشاركة ← إضافة إلى الرصيف (Dock)',
+        pwaWindows: 'ويندوز',
+        pwaWindowsSteps: 'إيدج ← التطبيقات ← تثبيت هذا الموقع',
+        pwaClose: 'إغلاق',
+        pwaToggle: 'إظهار/إخفاء تعليمات التثبيت',
     },
     de: {
         siteTitle: 'Einbürgerungstest Deutschland',
@@ -352,6 +385,17 @@ const UI = {
         randomBtn: '🎲 Zufallsfrage',
         printBtn: '🖨️ Drucken / PDF',
         reportBtn: '⚠️ Fehler melden',
+        pwaTitle: 'Als kostenlose App installieren — funktioniert offline, kein App Store nötig',
+        pwaIphone: 'iPhone/iPad',
+        pwaIphoneSteps: 'Safari → Teilen ⬆ → Zum Home-Bildschirm',
+        pwaAndroid: 'Android',
+        pwaAndroidSteps: 'Chrome → ⋮ Menü → Zum Startbildschirm hinzufügen',
+        pwaMac: 'macOS',
+        pwaMacSteps: 'Safari → Teilen → Zum Dock hinzufügen',
+        pwaWindows: 'Windows',
+        pwaWindowsSteps: 'Edge → Apps → Diese Seite installieren',
+        pwaClose: 'Schließen',
+        pwaToggle: 'Installationsanleitung ein-/ausblenden',
     },
     tr: {
         siteTitle: 'Almanya Vatandaşlık Sınavı',
@@ -381,6 +425,17 @@ const UI = {
         randomBtn: '🎲 Rastgele Soru',
         printBtn: '🖨️ Yazdır / PDF',
         reportBtn: '⚠️ Hata Bildir',
+        pwaTitle: 'Ücretsiz uygulama olarak yükleyin — çevrimdışı çalışır, App Store gerekmez',
+        pwaIphone: 'iPhone/iPad',
+        pwaIphoneSteps: 'Safari → Paylaş ⬆ → Ana Ekrana Ekle',
+        pwaAndroid: 'Android',
+        pwaAndroidSteps: 'Chrome → ⋮ Menü → Ana Ekrana Ekle',
+        pwaMac: 'macOS',
+        pwaMacSteps: "Safari → Paylaş → Dock'a Ekle",
+        pwaWindows: 'Windows',
+        pwaWindowsSteps: 'Edge → Uygulamalar → Bu siteyi yükle',
+        pwaClose: 'Kapat',
+        pwaToggle: 'Yükleme talimatlarını göster/gizle',
     },
     ru: {
         siteTitle: 'Тест на гражданство Германии',
@@ -410,6 +465,17 @@ const UI = {
         randomBtn: '🎲 Случайный вопрос',
         printBtn: '🖨️ Печать / PDF',
         reportBtn: '⚠️ Сообщить об ошибке',
+        pwaTitle: 'Установите как бесплатное приложение — работает офлайн, App Store не нужен',
+        pwaIphone: 'iPhone/iPad',
+        pwaIphoneSteps: 'Safari → Поделиться ⬆ → На экран «Домой»',
+        pwaAndroid: 'Android',
+        pwaAndroidSteps: 'Chrome → Меню ⋮ → Добавить на главный экран',
+        pwaMac: 'macOS',
+        pwaMacSteps: 'Safari → Поделиться → Добавить в Dock',
+        pwaWindows: 'Windows',
+        pwaWindowsSteps: 'Edge → Приложения → Установить этот сайт',
+        pwaClose: 'Закрыть',
+        pwaToggle: 'Показать/скрыть инструкции по установке',
     },
 };
 
@@ -879,6 +945,124 @@ function injectBilingualTable(bodyHtml, QUESTIONS_MAP, lang) {
 
         return `${h3}\n${between || ''}${translatedQpara}\n${newTableClean}`;
     });
+}
+
+// ---------- Closable / collapsible "Install as app" top bar ----------
+// Shown only on each language's home page (slug === 'index').
+function renderPwaBar(lang) {
+    const ui = UI[lang] || UI.en;
+    const dir = (lang === 'ur' || lang === 'ar') ? 'rtl' : 'ltr';
+    return `
+    <div class="pwa-bar" id="pwaBar" dir="${dir}">
+        <div class="pwa-bar-header">
+            <span class="pwa-bar-icon">📱</span>
+            <span class="pwa-bar-title">${escapeHtml(ui.pwaTitle)}</span>
+            <button class="pwa-bar-toggle" id="pwaBarToggle" aria-label="${escapeHtml(ui.pwaToggle)}" aria-expanded="true">▲</button>
+            <button class="pwa-bar-close" id="pwaBarClose" aria-label="${escapeHtml(ui.pwaClose)}">×</button>
+        </div>
+        <div class="pwa-bar-grid" id="pwaBarGrid">
+            <div class="pwa-quad"><span class="pwa-quad-icon">🍎</span><div><b>${escapeHtml(ui.pwaIphone)}</b><br>${escapeHtml(ui.pwaIphoneSteps)}</div></div>
+            <div class="pwa-quad"><span class="pwa-quad-icon">🤖</span><div><b>${escapeHtml(ui.pwaAndroid)}</b><br>${escapeHtml(ui.pwaAndroidSteps)}</div></div>
+            <div class="pwa-quad"><span class="pwa-quad-icon">🖥️</span><div><b>${escapeHtml(ui.pwaMac)}</b><br>${escapeHtml(ui.pwaMacSteps)}</div></div>
+            <div class="pwa-quad"><span class="pwa-quad-icon">🪟</span><div><b>${escapeHtml(ui.pwaWindows)}</b><br>${escapeHtml(ui.pwaWindowsSteps)}</div></div>
+        </div>
+    </div>
+    <style>
+        .pwa-bar {
+            background: linear-gradient(135deg, #1d4ed8 0%, #1e40af 100%);
+            color: #fff;
+            padding: 0.85rem 1.25rem;
+        }
+        [data-bs-theme="dark"] .pwa-bar {
+            background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
+        }
+        .pwa-bar-header {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .pwa-bar-icon { font-size: 1.15rem; flex-shrink: 0; }
+        .pwa-bar-title { flex: 1; font-weight: 700; font-size: 0.92rem; }
+        .pwa-bar-toggle, .pwa-bar-close {
+            background: rgba(255,255,255,0.18);
+            border: 0;
+            color: #fff;
+            border-radius: 0.4rem;
+            width: 1.8rem;
+            height: 1.8rem;
+            font-size: 1rem;
+            line-height: 1;
+            cursor: pointer;
+            flex-shrink: 0;
+        }
+        .pwa-bar-toggle:hover, .pwa-bar-close:hover { background: rgba(255,255,255,0.3); }
+        .pwa-bar-grid {
+            max-width: 900px;
+            margin: 0.75rem auto 0;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0.6rem;
+        }
+        @media (max-width: 560px) {
+            .pwa-bar-grid { grid-template-columns: 1fr; }
+        }
+        .pwa-bar-grid.collapsed { display: none; }
+        .pwa-quad {
+            background: rgba(255,255,255,0.15);
+            border-radius: 0.55rem;
+            padding: 0.6rem 0.85rem;
+            font-size: 0.85rem;
+            display: flex;
+            align-items: flex-start;
+            gap: 0.55rem;
+            text-align: ${dir === 'rtl' ? 'right' : 'left'};
+        }
+        .pwa-quad-icon { font-size: 1.15rem; flex-shrink: 0; margin-top: 0.05rem; }
+        .pwa-quad b { color: #bfdbfe; }
+        .pwa-bar.pwa-bar-hidden { display: none; }
+    </style>
+    <script>
+    (function () {
+        var bar = document.getElementById('pwaBar');
+        if (!bar) return;
+        var grid = document.getElementById('pwaBarGrid');
+        var toggleBtn = document.getElementById('pwaBarToggle');
+        var closeBtn = document.getElementById('pwaBarClose');
+
+        // Hide entirely if already dismissed, or already installed (standalone mode)
+        var standalone = window.matchMedia('(display-mode: standalone)').matches
+                       || window.navigator.standalone === true;
+        var dismissed = false;
+        try { dismissed = localStorage.getItem('pwaBarDismissed') === '1'; } catch (e) {}
+        if (standalone || dismissed) {
+            bar.classList.add('pwa-bar-hidden');
+            return;
+        }
+
+        // Restore collapsed/expanded state
+        var collapsed = false;
+        try { collapsed = localStorage.getItem('pwaBarCollapsed') === '1'; } catch (e) {}
+        if (collapsed) {
+            grid.classList.add('collapsed');
+            toggleBtn.textContent = '▼';
+            toggleBtn.setAttribute('aria-expanded', 'false');
+        }
+
+        toggleBtn.addEventListener('click', function () {
+            var nowCollapsed = grid.classList.toggle('collapsed');
+            toggleBtn.textContent = nowCollapsed ? '▼' : '▲';
+            toggleBtn.setAttribute('aria-expanded', String(!nowCollapsed));
+            try { localStorage.setItem('pwaBarCollapsed', nowCollapsed ? '1' : '0'); } catch (e) {}
+        });
+
+        closeBtn.addEventListener('click', function () {
+            bar.classList.add('pwa-bar-hidden');
+            try { localStorage.setItem('pwaBarDismissed', '1'); } catch (e) {}
+        });
+    })();
+    </script>`;
 }
 
 // ---------- HTML template ----------
@@ -1500,7 +1684,7 @@ function renderPage({ lang, title, bodyHtml, slug }) {
         @media print {
             .site-nav, .nav-pager, .back-to-top, footer,
             .report-btn, .mark-learned-btn, .progress-tracker,
-            #updateBanner, #installHint { display: none !important; }
+            #updateBanner, #installHint, #pwaBar { display: none !important; }
             body { background: #fff; color: #000; font-size: 11pt; }
             .content-card {
                 box-shadow: none;
@@ -1546,6 +1730,7 @@ function renderPage({ lang, title, bodyHtml, slug }) {
             </div>
         </div>
     </nav>
+    ${slug === 'index' ? renderPwaBar(lang) : ''}
     <script>
     // Close lang dropdown when clicking outside
     document.addEventListener('click', function(e) {
