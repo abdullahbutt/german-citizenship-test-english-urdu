@@ -957,10 +957,10 @@ function renderPwaBar(lang) {
         <div class="pwa-bar-header">
             <span class="pwa-bar-icon">📱</span>
             <span class="pwa-bar-title">${escapeHtml(ui.pwaTitle)}</span>
-            <button class="pwa-bar-toggle" id="pwaBarToggle" aria-label="${escapeHtml(ui.pwaToggle)}" aria-expanded="true">▲</button>
+            <button class="pwa-bar-toggle" id="pwaBarToggle" aria-label="${escapeHtml(ui.pwaToggle)}" aria-expanded="false">▼</button>
             <button class="pwa-bar-close" id="pwaBarClose" aria-label="${escapeHtml(ui.pwaClose)}">×</button>
         </div>
-        <div class="pwa-bar-grid" id="pwaBarGrid">
+        <div class="pwa-bar-grid collapsed" id="pwaBarGrid">
             <div class="pwa-quad"><span class="pwa-quad-icon">🍎</span><div><b>${escapeHtml(ui.pwaIphone)}</b><br>${escapeHtml(ui.pwaIphoneSteps)}</div></div>
             <div class="pwa-quad"><span class="pwa-quad-icon">🤖</span><div><b>${escapeHtml(ui.pwaAndroid)}</b><br>${escapeHtml(ui.pwaAndroidSteps)}</div></div>
             <div class="pwa-quad"><span class="pwa-quad-icon">🖥️</span><div><b>${escapeHtml(ui.pwaMac)}</b><br>${escapeHtml(ui.pwaMacSteps)}</div></div>
@@ -1041,13 +1041,14 @@ function renderPwaBar(lang) {
             return;
         }
 
-        // Restore collapsed/expanded state
-        var collapsed = false;
-        try { collapsed = localStorage.getItem('pwaBarCollapsed') === '1'; } catch (e) {}
-        if (collapsed) {
-            grid.classList.add('collapsed');
-            toggleBtn.textContent = '▼';
-            toggleBtn.setAttribute('aria-expanded', 'false');
+        // Restore collapsed/expanded state — default is COLLAPSED (markup ships collapsed).
+        // Only expand if the person previously explicitly chose to expand it.
+        var wasExpanded = false;
+        try { wasExpanded = localStorage.getItem('pwaBarCollapsed') === '0'; } catch (e) {}
+        if (wasExpanded) {
+            grid.classList.remove('collapsed');
+            toggleBtn.textContent = '▲';
+            toggleBtn.setAttribute('aria-expanded', 'true');
         }
 
         toggleBtn.addEventListener('click', function () {

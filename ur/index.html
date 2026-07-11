@@ -636,10 +636,10 @@
         <div class="pwa-bar-header">
             <span class="pwa-bar-icon">📱</span>
             <span class="pwa-bar-title">مفت ایپ کے طور پر انسٹال کریں — آف لائن کام کرتا ہے، ایپ اسٹور کی ضرورت نہیں</span>
-            <button class="pwa-bar-toggle" id="pwaBarToggle" aria-label="انسٹالیشن ہدایات دکھائیں/چھپائیں" aria-expanded="true">▲</button>
+            <button class="pwa-bar-toggle" id="pwaBarToggle" aria-label="انسٹالیشن ہدایات دکھائیں/چھپائیں" aria-expanded="false">▼</button>
             <button class="pwa-bar-close" id="pwaBarClose" aria-label="بند کریں">×</button>
         </div>
-        <div class="pwa-bar-grid" id="pwaBarGrid">
+        <div class="pwa-bar-grid collapsed" id="pwaBarGrid">
             <div class="pwa-quad"><span class="pwa-quad-icon">🍎</span><div><b>آئی فون/آئی پیڈ</b><br>Safari → Share ⬆ → Add to Home Screen</div></div>
             <div class="pwa-quad"><span class="pwa-quad-icon">🤖</span><div><b>اینڈرائیڈ</b><br>Chrome → مینو ⋮ → ہوم اسکرین پر شامل کریں</div></div>
             <div class="pwa-quad"><span class="pwa-quad-icon">🖥️</span><div><b>میک او ایس</b><br>Safari → Share → Dock میں شامل کریں</div></div>
@@ -720,13 +720,14 @@
             return;
         }
 
-        // Restore collapsed/expanded state
-        var collapsed = false;
-        try { collapsed = localStorage.getItem('pwaBarCollapsed') === '1'; } catch (e) {}
-        if (collapsed) {
-            grid.classList.add('collapsed');
-            toggleBtn.textContent = '▼';
-            toggleBtn.setAttribute('aria-expanded', 'false');
+        // Restore collapsed/expanded state — default is COLLAPSED (markup ships collapsed).
+        // Only expand if the person previously explicitly chose to expand it.
+        var wasExpanded = false;
+        try { wasExpanded = localStorage.getItem('pwaBarCollapsed') === '0'; } catch (e) {}
+        if (wasExpanded) {
+            grid.classList.remove('collapsed');
+            toggleBtn.textContent = '▲';
+            toggleBtn.setAttribute('aria-expanded', 'true');
         }
 
         toggleBtn.addEventListener('click', function () {

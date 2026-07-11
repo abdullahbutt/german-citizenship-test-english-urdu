@@ -624,10 +624,10 @@
         <div class="pwa-bar-header">
             <span class="pwa-bar-icon">📱</span>
             <span class="pwa-bar-title">Install as a free app — works offline, no App Store needed</span>
-            <button class="pwa-bar-toggle" id="pwaBarToggle" aria-label="Show/hide install instructions" aria-expanded="true">▲</button>
+            <button class="pwa-bar-toggle" id="pwaBarToggle" aria-label="Show/hide install instructions" aria-expanded="false">▼</button>
             <button class="pwa-bar-close" id="pwaBarClose" aria-label="Close">×</button>
         </div>
-        <div class="pwa-bar-grid" id="pwaBarGrid">
+        <div class="pwa-bar-grid collapsed" id="pwaBarGrid">
             <div class="pwa-quad"><span class="pwa-quad-icon">🍎</span><div><b>iPhone/iPad</b><br>Safari → Share ⬆ → Add to Home Screen</div></div>
             <div class="pwa-quad"><span class="pwa-quad-icon">🤖</span><div><b>Android</b><br>Chrome → ⋮ Menu → Add to Home Screen</div></div>
             <div class="pwa-quad"><span class="pwa-quad-icon">🖥️</span><div><b>macOS</b><br>Safari → Share → Add to Dock</div></div>
@@ -708,13 +708,14 @@
             return;
         }
 
-        // Restore collapsed/expanded state
-        var collapsed = false;
-        try { collapsed = localStorage.getItem('pwaBarCollapsed') === '1'; } catch (e) {}
-        if (collapsed) {
-            grid.classList.add('collapsed');
-            toggleBtn.textContent = '▼';
-            toggleBtn.setAttribute('aria-expanded', 'false');
+        // Restore collapsed/expanded state — default is COLLAPSED (markup ships collapsed).
+        // Only expand if the person previously explicitly chose to expand it.
+        var wasExpanded = false;
+        try { wasExpanded = localStorage.getItem('pwaBarCollapsed') === '0'; } catch (e) {}
+        if (wasExpanded) {
+            grid.classList.remove('collapsed');
+            toggleBtn.textContent = '▲';
+            toggleBtn.setAttribute('aria-expanded', 'true');
         }
 
         toggleBtn.addEventListener('click', function () {
