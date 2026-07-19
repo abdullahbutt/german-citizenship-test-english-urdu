@@ -4,9 +4,6 @@
 
 **Filename required:** `Indopak-nastaleeq-hanafi-normal-v4.2.2-with-waqf-lazmi.woff2`
 
-The Claude-generated ZIPs do **NOT** include the font file (it's a separate download).
-Whenever you extract a new ZIP, **keep your existing font file** here — do not delete this folder.
-
 If your font file goes missing:
 
 1. Download from: https://qul.tarteel.ai/resources/font
