@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Page Not Found · German Citizenship Test</title>
+<meta name="robots" content="noindex">
+
+<script>
+    // Anti-flash: apply saved theme before any paint happens
+    (function () {
+        try {
+            var t = localStorage.getItem('theme');
+            if (t === 'dark' || t === 'light') {
+                document.documentElement.setAttribute('data-bs-theme', t);
+            }
+        } catch (e) {}
+    })();
+</script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/flag-icons@7.2.3/css/flag-icons.min.css" rel="stylesheet">
+<style>
+    :root {
+        --bg: #f0f4ff;
+        --text: #1e293b;
+        --muted: #475569;
+        --card-bg: #ffffff;
+        --card-shadow: 0 1rem 3rem rgba(15, 23, 42, 0.08);
+        --primary: #1d4ed8;
+        --primary-hover: #1e40af;
+        --border: #e2e8f0;
+    }
+    [data-bs-theme="dark"] {
+        --bg: #0b1121;
+        --text: #e2e8f0;
+        --muted: #94a3b8;
+        --card-bg: #111827;
+        --card-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.45);
+        --primary: #3b82f6;
+        --primary-hover: #2563eb;
+        --border: #1f2937;
+    }
+    * { box-sizing: border-box; }
+    body {
+        background: var(--bg);
+        color: var(--text);
+        font-family: 'Inter', system-ui, -apple-system, sans-serif;
+        min-height: 100vh;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem 1.25rem;
+        text-align: center;
+    }
+    .theme-toggle {
+        position: fixed;
+        top: 1rem;
+        right: 1rem;
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 50%;
+        width: 2.75rem;
+        height: 2.75rem;
+        font-size: 1.15rem;
+        cursor: pointer;
+        box-shadow: var(--card-shadow);
+    }
+    .error-code {
+        font-size: 5.5rem;
+        font-weight: 800;
+        line-height: 1;
+        background: linear-gradient(135deg, var(--primary) 0%, #7c3aed 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        margin-bottom: 0.25rem;
+    }
+    .error-emoji { font-size: 2.75rem; margin-bottom: 0.5rem; }
+    h1 {
+        font-size: 1.4rem;
+        font-weight: 800;
+        margin: 0 0 0.5rem;
+    }
+    p.lede {
+        color: var(--muted);
+        font-size: 1rem;
+        max-width: 34rem;
+        margin: 0 auto 1.75rem;
+        line-height: 1.6;
+    }
+    .card {
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 1rem;
+        box-shadow: var(--card-shadow);
+        padding: 1.75rem;
+        max-width: 30rem;
+        width: 100%;
+    }
+    .home-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        background: var(--primary);
+        color: #fff;
+        text-decoration: none;
+        font-weight: 700;
+        padding: 0.75rem 1.5rem;
+        border-radius: 0.6rem;
+        font-size: 0.95rem;
+    }
+    .home-btn:hover { background: var(--primary-hover); }
+    .lang-list {
+        margin-top: 1.5rem;
+        padding-top: 1.5rem;
+        border-top: 1px solid var(--border);
+    }
+    .lang-list p {
+        color: var(--muted);
+        font-size: 0.85rem;
+        margin: 0 0 0.75rem;
+    }
+    .lang-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        justify-content: center;
+    }
+    .lang-pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        background: var(--bg);
+        border: 1px solid var(--border);
+        color: var(--text);
+        text-decoration: none;
+        padding: 0.4rem 0.85rem;
+        border-radius: 2rem;
+        font-size: 0.85rem;
+    }
+    .lang-pill:hover { border-color: var(--primary); color: var(--primary); }
+    .lang-pill .fi { width: 1.1rem; height: 0.825rem; border-radius: 2px; }
+</style>
+</head>
+<body>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme" title="Toggle theme">🌓</button>
+
+    <div class="error-emoji">🧭</div>
+    <div class="error-code">404</div>
+
+    <div class="card">
+        <h1 id="notFoundTitle">Page not found</h1>
+        <p class="lede" id="notFoundLede">
+            The page you're looking for doesn't exist — it may have been moved, renamed, or the link may have a typo.
+        </p>
+        <a class="home-btn" href="/german-citizenship-test-english-urdu/" id="homeBtn">
+            ← <span id="homeBtnLabel">Back to home</span>
+        </a>
+
+        <div class="lang-list">
+            <p id="langListLabel">Or jump straight to a language:</p>
+            <div class="lang-grid">
+                <a class="lang-pill" href="/german-citizenship-test-english-urdu/en/index.html"><span class="fi fi-gb"></span> English</a>
+                <a class="lang-pill" href="/german-citizenship-test-english-urdu/de/index.html"><span class="fi fi-de"></span> Deutsch</a>
+                <a class="lang-pill" href="/german-citizenship-test-english-urdu/tr/index.html"><span class="fi fi-tr"></span> Türkçe</a>
+                <a class="lang-pill" href="/german-citizenship-test-english-urdu/ru/index.html"><span class="fi fi-ru"></span> Русский</a>
+                <a class="lang-pill" href="/german-citizenship-test-english-urdu/ur/index.html"><span class="fi fi-pk"></span> اردو</a>
+                <a class="lang-pill" href="/german-citizenship-test-english-urdu/ar/index.html"><span class="fi fi-sa"></span> عربي</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Theme toggle
+        var root = document.documentElement;
+        document.getElementById('themeToggle').addEventListener('click', function () {
+            var next = root.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+            root.setAttribute('data-bs-theme', next);
+            try { localStorage.setItem('theme', next); } catch (e) {}
+        });
+
+        // Detect language from the broken URL's path (e.g. /en/, /de/, /tr/...)
+        // and show a localized message + point "Back to home" at that language's homepage.
+        (function () {
+            var STRINGS = {
+                en: { title: 'Page not found', lede: "The page you're looking for doesn't exist — it may have been moved, renamed, or the link may have a typo.", home: 'Back to home', langs: 'Or jump straight to a language:' },
+                de: { title: 'Seite nicht gefunden', lede: 'Die gesuchte Seite existiert nicht — sie wurde möglicherweise verschoben, umbenannt, oder der Link enthält einen Tippfehler.', home: 'Zurück zur Startseite', langs: 'Oder direkt zu einer Sprache springen:' },
+                tr: { title: 'Sayfa bulunamadı', lede: 'Aradığınız sayfa mevcut değil — taşınmış, yeniden adlandırılmış olabilir veya bağlantıda bir yazım hatası olabilir.', home: 'Ana sayfaya dön', langs: 'Ya da doğrudan bir dile geçin:' },
+                ru: { title: 'Страница не найдена', lede: 'Страница, которую вы ищете, не существует — возможно, она была перемещена, переименована, или в ссылке есть опечатка.', home: 'На главную', langs: 'Или перейдите сразу к языку:' },
+                ur: { title: 'صفحہ نہیں ملا', lede: 'جو صفحہ آپ تلاش کر رہے ہیں وہ موجود نہیں ہے — ہو سکتا ہے اسے منتقل یا نام تبدیل کر دیا گیا ہو، یا لنک میں کوئی غلطی ہو۔', home: 'ہوم پیج پر واپس جائیں', langs: 'یا براہ راست کسی زبان پر جائیں:' },
+                ar: { title: 'الصفحة غير موجودة', lede: 'الصفحة التي تبحث عنها غير موجودة — ربما تم نقلها أو إعادة تسميتها، أو قد يحتوي الرابط على خطأ إملائي.', home: 'العودة إلى الصفحة الرئيسية', langs: 'أو انتقل مباشرة إلى لغة:' }
+            };
+            var BASE = '/german-citizenship-test-english-urdu/';
+            var path = window.location.pathname;
+            var m = path.match(/\/(en|de|tr|ru|ur|ar)\//);
+            var lang = m ? m[1] : 'en';
+            var s = STRINGS[lang] || STRINGS.en;
+
+            document.getElementById('notFoundTitle').textContent = s.title;
+            document.getElementById('notFoundLede').textContent = s.lede;
+            document.getElementById('homeBtnLabel').textContent = s.home;
+            document.getElementById('langListLabel').textContent = s.langs;
+            document.getElementById('homeBtn').href = BASE + lang + '/index.html';
+
+            if (lang === 'ur' || lang === 'ar') {
+                document.documentElement.setAttribute('dir', 'rtl');
+                document.documentElement.setAttribute('lang', lang);
+            }
+        })();
+    </script>
+</body>
+</html>
