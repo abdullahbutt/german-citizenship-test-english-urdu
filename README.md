@@ -2,17 +2,17 @@
 
 <div align="center">
 
-[![GitHub Stars](https://img.shields.io/github/stars/abdullahbutt/german-citizenship-test-english-urdu?style=for-the-badge&logo=github&label=Star%20this%20Repo)](https://github.com/abdullahbutt/german-citizenship-test-english-urdu)
+[![GitHub Stars](https://img.shields.io/github/stars/abdullahbutt/leben-in-deutschland-test?style=for-the-badge&logo=github&label=Star%20this%20Repo)](https://github.com/abdullahbutt/leben-in-deutschland-test)
 &nbsp;&nbsp;
-[![ویب سائٹ دیکھیں](https://img.shields.io/badge/%F0%9F%8C%90-Visit%20Website-blue?style=for-the-badge)](https://abdullahbutt.github.io/german-citizenship-test-english-urdu/)
+[![ویب سائٹ دیکھیں](https://img.shields.io/badge/%F0%9F%8C%90-Visit%20Website-blue?style=for-the-badge)](https://abdullahbutt.github.io/leben-in-deutschland-test/)
 &nbsp;&nbsp;
 [![CC BY-NC 4.0](https://img.shields.io/badge/Content-CC%20BY--NC%204.0-lightgrey?style=for-the-badge&logo=creative-commons)](LICENSE-CONTENT.md)
 
 </div>
 
-> ⭐ اگر اس نے آپ کے امتحان میں مدد کی تو [اس ریپو کو اسٹار کریں](https://github.com/abdullahbutt/german-citizenship-test-english-urdu) — اس سے دوسروں کو تلاش میں مدد ملتی ہے!
+> ⭐ اگر اس نے آپ کے امتحان میں مدد کی تو [اس ریپو کو اسٹار کریں](https://github.com/abdullahbutt/leben-in-deutschland-test) — اس سے دوسروں کو تلاش میں مدد ملتی ہے!
 
-> 🇬🇧 For English version — [English Branch](https://github.com/abdullahbutt/german-citizenship-test-english-urdu/blob/english/README.md)
+> 🇬🇧 For English version — [English Branch](https://github.com/abdullahbutt/leben-in-deutschland-test/blob/english/README.md)
 
 > **Leben in Deutschland / Einbürgerungstest** کے تمام **300 عمومی + 160 ریاستی سوالات** سرکاری **BAMF** کے سوالات کے مجموعے سے، اردو ترجمے، ✅ درست جوابات، اور تفصیلی وضاحت کے ساتھ۔
 
