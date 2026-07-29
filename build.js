@@ -479,12 +479,12 @@ const UI = {
     },
 };
 
-const GITHUB_URL = 'https://github.com/abdullahbutt/german-citizenship-test-english-urdu';
+const GITHUB_URL = 'https://github.com/abdullahbutt/leben-in-deutschland-test';
 const PAYPAL_URL = 'https://paypal.me/abdullahbuttde';
 const BAMF_CATALOG_URL = 'https://www.bamf.de/SharedDocs/Anlagen/DE/Integration/Einbuergerung/gesamtfragenkatalog-lebenindeutschland.html';
 const BAMF_TEST_CENTER_URL = 'https://oet.bamf.de/ords/oetut/f?p=514:1::::::';
 const BUILD_DATE = new Date().toISOString().slice(0, 10);
-const SITE_BASE_URL = 'https://abdullahbutt.github.io/german-citizenship-test-english-urdu';
+const SITE_BASE_URL = 'https://abdullahbutt.github.io/leben-in-deutschland-test';
 const OG_IMAGE_URL = `${SITE_BASE_URL}/og-image.png`;
 const OG_IMAGE_DARK_URL = `${SITE_BASE_URL}/og-image-dark.png`;
 const CLOUDFLARE_ANALYTICS_TOKEN = 'd435b2572b82459cb083e37f7c734b75';
