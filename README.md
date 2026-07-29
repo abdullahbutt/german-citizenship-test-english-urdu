@@ -1,18 +1,18 @@
 > <div align="center">
 
-[![GitHub Stars](https://img.shields.io/github/stars/abdullahbutt/german-citizenship-test-english-urdu?style=for-the-badge&logo=github&label=Star%20this%20Repo)](https://github.com/abdullahbutt/german-citizenship-test-english-urdu)
+[![GitHub Stars](https://img.shields.io/github/stars/abdullahbutt/leben-in-deutschland-test?style=for-the-badge&logo=github&label=Star%20this%20Repo)](https://github.com/abdullahbutt/leben-in-deutschland-test)
 &nbsp;&nbsp;
-[![View Website](https://img.shields.io/badge/🌐_View_as_Website-Click_Here-blue?style=for-the-badge)](https://abdullahbutt.github.io/german-citizenship-test-english-urdu/)
+[![View Website](https://img.shields.io/badge/🌐_View_as_Website-Click_Here-blue?style=for-the-badge)](https://abdullahbutt.github.io/leben-in-deutschland-test/)
 &nbsp;&nbsp;
 [![CC BY-NC 4.0](https://img.shields.io/badge/Content-CC%20BY--NC%204.0-lightgrey?style=for-the-badge&logo=creative-commons)](LICENSE-CONTENT.md)
 
 </div>
 
-> ⭐ If this helped you pass your test, [please star this repo](https://github.com/abdullahbutt/german-citizenship-test-english-urdu) — it helps others find it!
+> ⭐ If this helped you pass your test, [please star this repo](https://github.com/abdullahbutt/leben-in-deutschland-test) — it helps others find it!
 
 # 🇩🇪 German Citizenship Test — with English Translations
 
-> 🇵🇰 اردو ترجمہ کے لیے — [Urdu Branch](https://github.com/abdullahbutt/german-citizenship-test-english-urdu/blob/urdu/README.md)
+> 🇵🇰 اردو ترجمہ کے لیے — [Urdu Branch](https://github.com/abdullahbutt/leben-in-deutschland-test/blob/urdu/README.md)
 
 > All **300 general + 160 state-specific** questions from the official **BAMF Einbürgerungstest / Leben in Deutschland** test catalog, with English translations, correct answers highlighted in ✅, and explanations.
 
@@ -22,7 +22,7 @@ Based on the official BAMF catalog (Stand: 07.05.2025).
 
 ## 🚀 Quick Start
 
-New here? Start with [Questions 1–50](https://github.com/abdullahbutt/german-citizenship-test-english-urdu/blob/english/questions-001-050.md), then find your state in the table below.
+New here? Start with [Questions 1–50](https://github.com/abdullahbutt/leben-in-deutschland-test/blob/english/questions-001-050.md), then find your state in the table below.
 ---
 
 ## 📋 About the Test
