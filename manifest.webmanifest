@@ -1,7 +1,7 @@
 {
   "name": "Einbürgerungstest — Leben in Deutschland",
   "short_name": "Leben Test",
-  "description": "Free study guide for the German citizenship test. All 300+ official questions with answers and explanations in English, Deutsch, Türkçe, اردو and عربي.",
+  "description": "Free study guide for the German citizenship test. All 300+ official questions with answers and explanations in English, Deutsch, Türkçe, Русский, اردو and عربي.",
   "start_url": "./index.html?source=pwa",
   "scope": "./",
   "display": "standalone",
@@ -12,21 +12,35 @@
   "dir": "ltr",
   "categories": ["education", "books", "reference"],
   "icons": [
-    { "src": "icons/16.png",   "sizes": "16x16",     "type": "image/png", "purpose": "any maskable" },
-    { "src": "icons/32.png",   "sizes": "32x32",     "type": "image/png", "purpose": "any maskable" },
-    { "src": "icons/64.png",   "sizes": "64x64",     "type": "image/png", "purpose": "any maskable" },
-    { "src": "icons/72.png",   "sizes": "72x72",     "type": "image/png", "purpose": "any maskable" },
-    { "src": "icons/96.png",   "sizes": "96x96",     "type": "image/png", "purpose": "any maskable" },
-    { "src": "icons/128.png",  "sizes": "128x128",   "type": "image/png", "purpose": "any maskable" },
-    { "src": "icons/144.png",  "sizes": "144x144",   "type": "image/png", "purpose": "any maskable" },
-    { "src": "icons/152.png",  "sizes": "152x152",   "type": "image/png", "purpose": "any maskable" },
-    { "src": "icons/180.png",  "sizes": "180x180",   "type": "image/png", "purpose": "any maskable" },
-    { "src": "icons/192.png",  "sizes": "192x192",   "type": "image/png", "purpose": "any maskable" },
-    { "src": "icons/256.png",  "sizes": "256x256",   "type": "image/png", "purpose": "any maskable" },
-    { "src": "icons/387.png",  "sizes": "387x387",   "type": "image/png", "purpose": "any maskable" },
-    { "src": "icons/512.png",  "sizes": "512x512",   "type": "image/png", "purpose": "any maskable" },
-    { "src": "icons/1024.png", "sizes": "1024x1024", "type": "image/png", "purpose": "any maskable" },
-    { "src": "icons/1240.png", "sizes": "1240x1240", "type": "image/png", "purpose": "any maskable" }
+    { "src": "icons/16.png",    "sizes": "16x16",     "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/32.png",    "sizes": "32x32",     "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/36.png",    "sizes": "36x36",     "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/48.png",    "sizes": "48x48",     "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/57.png",    "sizes": "57x57",     "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/60.png",    "sizes": "60x60",     "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/64.png",    "sizes": "64x64",     "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/70.png",    "sizes": "70x70",     "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/72.png",    "sizes": "72x72",     "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/76.png",    "sizes": "76x76",     "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/96.png",    "sizes": "96x96",     "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/114.png",   "sizes": "114x114",   "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/120.png",   "sizes": "120x120",   "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/128.png",   "sizes": "128x128",   "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/144.png",   "sizes": "144x144",   "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/150.png",   "sizes": "150x150",   "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/152.png",   "sizes": "152x152",   "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/180.png",   "sizes": "180x180",   "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/192.png",   "sizes": "192x192",   "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/256.png",   "sizes": "256x256",   "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/310.png",   "sizes": "310x310",   "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/387.png",   "sizes": "387x387",   "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/512.png",   "sizes": "512x512",   "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/1024.png",  "sizes": "1024x1024", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/1240.png",  "sizes": "1240x1240", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/1254.png",  "sizes": "1254x1254", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/favicon-16x16.ico", "sizes": "16x16", "type": "image/x-icon" },
+    { "src": "icons/favicon-32x32.ico", "sizes": "32x32", "type": "image/x-icon" },
+    { "src": "icons/favicon.ico",       "sizes": "48x48", "type": "image/x-icon" }
   ],
   "shortcuts": [
     {
@@ -37,13 +51,6 @@
       "icons": [{ "src": "icons/192.png", "sizes": "192x192" }]
     },
     {
-      "name": "Türkçe",
-      "short_name": "Türkçe",
-      "description": "Türkçe çalışma rehberi",
-      "url": "./tr/index.html",
-      "icons": [{ "src": "icons/192.png", "sizes": "192x192" }]
-    },
-    {
       "name": "اردو",
       "short_name": "Urdu",
       "description": "اردو ورژن کھولیں",
@@ -51,10 +58,31 @@
       "icons": [{ "src": "icons/192.png", "sizes": "192x192" }]
     },
     {
+      "name": "عربي",
+      "short_name": "عربي",
+      "description": "افتح النسخة العربية",
+      "url": "./ar/index.html",
+      "icons": [{ "src": "icons/192.png", "sizes": "192x192" }]
+    },
+    {
       "name": "Deutsch",
       "short_name": "Deutsch",
       "description": "Deutsche Version öffnen",
       "url": "./de/index.html",
+      "icons": [{ "src": "icons/192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Türkçe",
+      "short_name": "Türkçe",
+      "description": "Türkçe çalışma rehberi",
+      "url": "./tr/index.html",
+      "icons": [{ "src": "icons/192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Русский",
+      "short_name": "Русский",
+      "description": "Открыть русскую версию",
+      "url": "./ru/index.html",
       "icons": [{ "src": "icons/192.png", "sizes": "192x192" }]
     }
   ]
