@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://abdullahbutt.github.io/leben-in-deutschland-test/sitemap.xml
+Sitemap: https://leben.wordfeather.com/sitemap.xml

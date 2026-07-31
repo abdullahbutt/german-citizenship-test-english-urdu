@@ -13,7 +13,7 @@
 
 // Cache key includes a build timestamp so every deploy invalidates the cache.
 // The build timestamp is replaced at build time by build.js.
-const CACHE_VERSION = '2026-07-31T21-02-21-193Z';
+const CACHE_VERSION = '__BUILD_ID__';
 const CACHE_NAME = `gct-cache-${CACHE_VERSION}`;
 
 // All same-origin pages to pre-cache on install
@@ -26,10 +26,11 @@ const PRECACHE_URLS = [
   './sitemap.xml',
   './robots.txt',
   './manifest.webmanifest',
-  './og-image.png',
-  './icons/icon-192.png',
-  './icons/icon-512.png',
-  './icons/apple-touch-icon.png',
+  './icons/favicon.ico',
+  './icons/og-image.png',
+  './icons/192.png',
+  './icons/512.png',
+  './icons/180.png',
   // English pages
   './en/index.html',
   './en/questions-001-050.html',

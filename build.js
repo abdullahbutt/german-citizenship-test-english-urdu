@@ -484,9 +484,8 @@ const PAYPAL_URL = 'https://paypal.me/abdullahbuttde';
 const BAMF_CATALOG_URL = 'https://www.bamf.de/SharedDocs/Anlagen/DE/Integration/Einbuergerung/gesamtfragenkatalog-lebenindeutschland.html';
 const BAMF_TEST_CENTER_URL = 'https://oet.bamf.de/ords/oetut/f?p=514:1::::::';
 const BUILD_DATE = new Date().toISOString().slice(0, 10);
-const SITE_BASE_URL = 'https://abdullahbutt.github.io/leben-in-deutschland-test';
-const OG_IMAGE_URL = `${SITE_BASE_URL}/og-image.png`;
-const OG_IMAGE_DARK_URL = `${SITE_BASE_URL}/og-image-dark.png`;
+const SITE_BASE_URL = 'https://leben.wordfeather.com';
+const OG_IMAGE_URL = `${SITE_BASE_URL}/icons/og-image.png`;
 const CLOUDFLARE_ANALYTICS_TOKEN = 'd435b2572b82459cb083e37f7c734b75';
 
 // Canonical ordering for navigation (prev/next + jump menu).
@@ -1141,9 +1140,7 @@ function renderPage({ lang, title, bodyHtml, slug }) {
     <meta name="twitter:description" content="${escapeHtml(ui.tagline)}">
     <meta name="twitter:image" content="${OG_IMAGE_URL}">
 
-    <!-- Feature 13: dark-mode OG image variant for platforms that support it -->
-    <meta media="(prefers-color-scheme: dark)" property="og:image" content="${OG_IMAGE_DARK_URL}">
-    <meta media="(prefers-color-scheme: dark)" name="twitter:image" content="${OG_IMAGE_DARK_URL}">
+    <!-- Feature 13: dark-mode OG image variant removed — only a single og-image.png exists in icons/ -->
 
     <!-- PWA -->
     <link rel="manifest" href="../manifest.webmanifest">
@@ -1152,10 +1149,37 @@ function renderPage({ lang, title, bodyHtml, slug }) {
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="DE Test">
-    <link rel="apple-touch-icon" href="../icons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../icons/favicon-32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../icons/favicon-16.png">
-    <link rel="shortcut icon" href="../favicon.ico">
+
+    <!-- Standard favicons (browser tabs) -->
+    <link rel="icon" href="../icons/favicon.ico" sizes="48x48">
+    <link rel="icon" type="image/png" sizes="16x16" href="../icons/16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../icons/32.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="../icons/48.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../icons/192.png">
+    <link rel="shortcut icon" href="../icons/favicon.ico">
+
+    <!-- Apple touch icons (iOS home screen, all common device sizes) -->
+    <link rel="apple-touch-icon" href="../icons/180.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="../icons/57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../icons/60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../icons/72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../icons/76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../icons/114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../icons/120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../icons/144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../icons/152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../icons/180.png">
+
+    <!-- Android / Chrome (primarily served via manifest.webmanifest, direct links as fallback) -->
+    <link rel="icon" type="image/png" sizes="512x512" href="../icons/512.png">
+
+    <!-- Windows tiles -->
+    <meta name="msapplication-TileColor" content="#1d4ed8">
+    <meta name="msapplication-TileImage" content="../icons/144.png">
+    <meta name="msapplication-square70x70logo" content="../icons/70.png">
+    <meta name="msapplication-square150x150logo" content="../icons/150.png">
+    <meta name="msapplication-square310x310logo" content="../icons/310.png">
+    <meta name="msapplication-config" content="none">
 
     <!-- Structured Data: BreadcrumbList + WebPage -->
     <script type="application/ld+json">
@@ -2850,7 +2874,11 @@ function buildSitemap() {
   <url>
     <loc>${SITE_BASE_URL}/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="${SITE_BASE_URL}/en/index.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="${SITE_BASE_URL}/de/index.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="${SITE_BASE_URL}/tr/index.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="${SITE_BASE_URL}/ru/index.html"/>
     <xhtml:link rel="alternate" hreflang="ur" href="${SITE_BASE_URL}/ur/index.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="${SITE_BASE_URL}/ar/index.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="${SITE_BASE_URL}/en/index.html"/>
     <lastmod>${today}</lastmod>
     <changefreq>monthly</changefreq>
@@ -2884,29 +2912,27 @@ function buildSitemap() {
   </url>`;
     }
 
-    // Content pages
+    // Content pages — one <url> entry per language per slug, each carrying
+    // the full set of hreflang alternates so search engines know every
+    // language version of every page exists.
+    const ALL_LANGS = ['en', 'de', 'tr', 'ru', 'ur', 'ar'];
     for (const slug of allSlugs) {
         const p = priority(slug);
         const cf = changefreq(slug);
-        urls += `
+        for (const lang of ALL_LANGS) {
+            const altLinks = ALL_LANGS
+                .map((l) => `    <xhtml:link rel="alternate" hreflang="${l}" href="${SITE_BASE_URL}/${l}/${slug}.html"/>`)
+                .join('\n');
+            urls += `
   <url>
-    <loc>${SITE_BASE_URL}/en/${slug}.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="${SITE_BASE_URL}/en/${slug}.html"/>
-    <xhtml:link rel="alternate" hreflang="ur" href="${SITE_BASE_URL}/ur/${slug}.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="${SITE_BASE_URL}/en/${slug}.html"/>
-    <lastmod>${today}</lastmod>
-    <changefreq>${cf}</changefreq>
-    <priority>${p}</priority>
-  </url>
-  <url>
-    <loc>${SITE_BASE_URL}/ur/${slug}.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="${SITE_BASE_URL}/en/${slug}.html"/>
-    <xhtml:link rel="alternate" hreflang="ur" href="${SITE_BASE_URL}/ur/${slug}.html"/>
+    <loc>${SITE_BASE_URL}/${lang}/${slug}.html</loc>
+${altLinks}
     <xhtml:link rel="alternate" hreflang="x-default" href="${SITE_BASE_URL}/en/${slug}.html"/>
     <lastmod>${today}</lastmod>
     <changefreq>${cf}</changefreq>
     <priority>${p}</priority>
   </url>`;
+        }
     }
 
     const sitemap = `<?xml version="1.0" encoding="UTF-8"?>

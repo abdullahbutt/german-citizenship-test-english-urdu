@@ -8,10 +8,10 @@
 
     <!-- Open Graph / Facebook / WhatsApp / LinkedIn -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://abdullahbutt.github.io/leben-in-deutschland-test/">
+    <meta property="og:url" content="https://leben.wordfeather.com/">
     <meta property="og:title" content="German Citizenship Test — Free Prep with English & Urdu">
     <meta property="og:description" content="All 300 questions of the Einbürgerungstest with English & Urdu translations, correct answers, simple explanations, and all 16 Bundesländer covered. Free forever.">
-    <meta property="og:image" content="https://abdullahbutt.github.io/leben-in-deutschland-test/og-image.png">
+    <meta property="og:image" content="https://leben.wordfeather.com/icons/og-image.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:locale" content="en_US">
@@ -22,11 +22,10 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="German Citizenship Test — Free Prep with English & Urdu">
     <meta name="twitter:description" content="All 300 questions with English & Urdu translations. Free, mobile-friendly, no signup.">
-    <meta name="twitter:image" content="https://abdullahbutt.github.io/leben-in-deutschland-test/og-image.png">
+    <meta name="twitter:image" content="https://leben.wordfeather.com/icons/og-image.png">
 
     <!-- Feature 13: dark-mode OG image variant -->
-    <meta media="(prefers-color-scheme: dark)" property="og:image" content="https://abdullahbutt.github.io/leben-in-deutschland-test/og-image-dark.png">
-    <meta media="(prefers-color-scheme: dark)" name="twitter:image" content="https://abdullahbutt.github.io/leben-in-deutschland-test/og-image-dark.png">
+    <!-- Dark-mode OG image variant removed — only a single og-image.png exists in icons/ -->
 
     <!-- PWA -->
     <link rel="manifest" href="manifest.webmanifest">
@@ -37,13 +36,13 @@
     <meta name="apple-mobile-web-app-title" content="DE Test">
 
     <!-- Standard favicons (browser tabs) -->
-    <link rel="icon" href="favicon.ico" sizes="48x48">
+    <link rel="icon" href="icons/favicon.ico" sizes="48x48">
     <link rel="icon" type="image/png" sizes="16x16" href="icons/16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="icons/32.png">
     <link rel="icon" type="image/png" sizes="48x48" href="icons/48.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="icons/96.png">
+    <link rel="icon" href="icons/favicon-96x96.ico" sizes="96x96">
     <link rel="icon" type="image/png" sizes="192x192" href="icons/192.png">
-    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="shortcut icon" href="icons/favicon.ico">
 
     <!-- Apple touch icons (iOS home screen, all common device sizes) -->
     <link rel="apple-touch-icon" href="icons/180.png">
@@ -321,6 +320,21 @@
             <h1>German Citizenship Test</h1>
             <p class="lede">Choose your language / اپنی زبان منتخب کریں / اختر لغتك / Sprache wählen / Dil seçin / Выберите язык</p>
 
+            <div class="pwa-bar" id="pwaBar">
+                <div class="pwa-bar-header">
+                    <span class="pwa-bar-icon">📱</span>
+                    <span class="pwa-bar-title">Install as a free app — works offline, no App Store needed</span>
+                    <button class="pwa-bar-toggle" id="pwaBarToggle" aria-label="Show/hide install instructions" aria-expanded="false">▼</button>
+                    <button class="pwa-bar-close" id="pwaBarClose" aria-label="Close">×</button>
+                </div>
+                <div class="pwa-bar-grid collapsed" id="pwaBarGrid">
+                    <div class="pwa-quad"><span class="pwa-quad-icon">🍎</span><div><b>iPhone/iPad</b><br>Safari → Share ⬆ → Add to Home Screen</div></div>
+                    <div class="pwa-quad"><span class="pwa-quad-icon">🤖</span><div><b>Android</b><br>Chrome → ⋮ Menu → Add to Home Screen</div></div>
+                    <div class="pwa-quad"><span class="pwa-quad-icon">🖥️</span><div><b>macOS</b><br>Safari → Share → Add to Dock</div></div>
+                    <div class="pwa-quad"><span class="pwa-quad-icon">🪟</span><div><b>Windows</b><br>Edge → Apps → Install this site</div></div>
+                </div>
+            </div>
+
             <div class="d-grid gap-3">
                 <a href="en/index.html" class="lang-btn en" data-lang="en">
                     <span class="fi fi-gb" role="img" aria-label="UK" title="UK" style="width:1.5rem;height:1.125rem;vertical-align:middle;border-radius:2px;"></span>
@@ -359,21 +373,6 @@
                 <span>🌐 EN · DE · TR · RU · اردو · عربي</span>
                 <span>⭐ <a href="https://github.com/abdullahbutt/leben-in-deutschland-test" target="_blank" rel="noopener" style="color:var(--muted);text-decoration:none;" id="starCount">GitHub stars</a></span>
                 <span>📱 Works offline</span>
-            </div>
-
-            <div class="pwa-bar" id="pwaBar">
-                <div class="pwa-bar-header">
-                    <span class="pwa-bar-icon">📱</span>
-                    <span class="pwa-bar-title">Install as a free app — works offline, no App Store needed</span>
-                    <button class="pwa-bar-toggle" id="pwaBarToggle" aria-label="Show/hide install instructions" aria-expanded="false">▼</button>
-                    <button class="pwa-bar-close" id="pwaBarClose" aria-label="Close">×</button>
-                </div>
-                <div class="pwa-bar-grid collapsed" id="pwaBarGrid">
-                    <div class="pwa-quad"><span class="pwa-quad-icon">🍎</span><div><b>iPhone/iPad</b><br>Safari → Share ⬆ → Add to Home Screen</div></div>
-                    <div class="pwa-quad"><span class="pwa-quad-icon">🤖</span><div><b>Android</b><br>Chrome → ⋮ Menu → Add to Home Screen</div></div>
-                    <div class="pwa-quad"><span class="pwa-quad-icon">🖥️</span><div><b>macOS</b><br>Safari → Share → Add to Dock</div></div>
-                    <div class="pwa-quad"><span class="pwa-quad-icon">🪟</span><div><b>Windows</b><br>Edge → Apps → Install this site</div></div>
-                </div>
             </div>
         </div>
     </main>

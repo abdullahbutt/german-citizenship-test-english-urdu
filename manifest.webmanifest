@@ -22,7 +22,6 @@
     { "src": "icons/70.png",    "sizes": "70x70",     "type": "image/png", "purpose": "any maskable" },
     { "src": "icons/72.png",    "sizes": "72x72",     "type": "image/png", "purpose": "any maskable" },
     { "src": "icons/76.png",    "sizes": "76x76",     "type": "image/png", "purpose": "any maskable" },
-    { "src": "icons/96.png",    "sizes": "96x96",     "type": "image/png", "purpose": "any maskable" },
     { "src": "icons/114.png",   "sizes": "114x114",   "type": "image/png", "purpose": "any maskable" },
     { "src": "icons/120.png",   "sizes": "120x120",   "type": "image/png", "purpose": "any maskable" },
     { "src": "icons/128.png",   "sizes": "128x128",   "type": "image/png", "purpose": "any maskable" },
@@ -40,8 +39,8 @@
     { "src": "icons/1254.png",  "sizes": "1254x1254", "type": "image/png", "purpose": "any maskable" },
     { "src": "icons/favicon-16x16.ico", "sizes": "16x16", "type": "image/x-icon" },
     { "src": "icons/favicon-32x32.ico", "sizes": "32x32", "type": "image/x-icon" },
-    { "src": "icons/favicon.ico",       "sizes": "48x48", "type": "image/x-icon" },
-    { "src": "icons/favicon-96x96.ico", "sizes": "96x96", "type": "image/x-icon" }
+    { "src": "icons/favicon-96x96.ico", "sizes": "96x96", "type": "image/x-icon" },
+    { "src": "icons/favicon.ico",       "sizes": "48x48", "type": "image/x-icon" }
   ],
   "shortcuts": [
     {
@@ -49,20 +48,6 @@
       "short_name": "English",
       "description": "Open the English study guide",
       "url": "./en/index.html",
-      "icons": [{ "src": "icons/192.png", "sizes": "192x192" }]
-    },
-    {
-      "name": "اردو",
-      "short_name": "Urdu",
-      "description": "اردو ورژن کھولیں",
-      "url": "./ur/index.html",
-      "icons": [{ "src": "icons/192.png", "sizes": "192x192" }]
-    },
-    {
-      "name": "عربي",
-      "short_name": "عربي",
-      "description": "افتح النسخة العربية",
-      "url": "./ar/index.html",
       "icons": [{ "src": "icons/192.png", "sizes": "192x192" }]
     },
     {
@@ -84,6 +69,20 @@
       "short_name": "Русский",
       "description": "Открыть русскую версию",
       "url": "./ru/index.html",
+      "icons": [{ "src": "icons/192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "اردو",
+      "short_name": "Urdu",
+      "description": "اردو ورژن کھولیں",
+      "url": "./ur/index.html",
+      "icons": [{ "src": "icons/192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "عربي",
+      "short_name": "عربي",
+      "description": "افتح النسخة العربية",
+      "url": "./ar/index.html",
       "icons": [{ "src": "icons/192.png", "sizes": "192x192" }]
     }
   ]
