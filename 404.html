@@ -155,19 +155,19 @@
         <p class="lede" id="notFoundLede">
             The page you're looking for doesn't exist — it may have been moved, renamed, or the link may have a typo.
         </p>
-        <a class="home-btn" href="/leben-in-deutschland-test/" id="homeBtn">
+        <a class="home-btn" href="/" id="homeBtn">
             ← <span id="homeBtnLabel">Back to home</span>
         </a>
 
         <div class="lang-list">
             <p id="langListLabel">Or jump straight to a language:</p>
             <div class="lang-grid">
-                <a class="lang-pill" href="/leben-in-deutschland-test/en/index.html"><span class="fi fi-gb"></span> English</a>
-                <a class="lang-pill" href="/leben-in-deutschland-test/de/index.html"><span class="fi fi-de"></span> Deutsch</a>
-                <a class="lang-pill" href="/leben-in-deutschland-test/tr/index.html"><span class="fi fi-tr"></span> Türkçe</a>
-                <a class="lang-pill" href="/leben-in-deutschland-test/ru/index.html"><span class="fi fi-ru"></span> Русский</a>
-                <a class="lang-pill" href="/leben-in-deutschland-test/ur/index.html"><span class="fi fi-pk"></span> اردو</a>
-                <a class="lang-pill" href="/leben-in-deutschland-test/ar/index.html"><span class="fi fi-sa"></span> عربي</a>
+                <a class="lang-pill" href="/en/index.html"><span class="fi fi-gb"></span> English</a>
+                <a class="lang-pill" href="/de/index.html"><span class="fi fi-de"></span> Deutsch</a>
+                <a class="lang-pill" href="/tr/index.html"><span class="fi fi-tr"></span> Türkçe</a>
+                <a class="lang-pill" href="/ru/index.html"><span class="fi fi-ru"></span> Русский</a>
+                <a class="lang-pill" href="/ur/index.html"><span class="fi fi-pk"></span> اردو</a>
+                <a class="lang-pill" href="/ar/index.html"><span class="fi fi-sa"></span> عربي</a>
             </div>
         </div>
     </div>
@@ -192,7 +192,7 @@
                 ur: { title: 'صفحہ نہیں ملا', lede: 'جو صفحہ آپ تلاش کر رہے ہیں وہ موجود نہیں ہے — ہو سکتا ہے اسے منتقل یا نام تبدیل کر دیا گیا ہو، یا لنک میں کوئی غلطی ہو۔', home: 'ہوم پیج پر واپس جائیں', langs: 'یا براہ راست کسی زبان پر جائیں:' },
                 ar: { title: 'الصفحة غير موجودة', lede: 'الصفحة التي تبحث عنها غير موجودة — ربما تم نقلها أو إعادة تسميتها، أو قد يحتوي الرابط على خطأ إملائي.', home: 'العودة إلى الصفحة الرئيسية', langs: 'أو انتقل مباشرة إلى لغة:' }
             };
-            var BASE = '/leben-in-deutschland-test/';
+            var BASE = '/';
             var path = window.location.pathname;
             var m = path.match(/\/(en|de|tr|ru|ur|ar)\//);
             var lang = m ? m[1] : 'en';
