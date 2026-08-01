@@ -1453,6 +1453,26 @@ function renderPage({ lang, title, bodyHtml, slug }) {
             border-color: var(--primary-hover);
             color: #fff;
         }
+        /* wordFeather upsell link — outline style so it doesn't compete with the Quiz CTA */
+        .nav-actions .btn-wf-nav {
+            background: transparent;
+            border: 1.5px solid #f59e0b;
+            color: #f59e0b;
+            border-radius: 999px;
+            padding: 0.32rem 0.85rem;
+            font-size: 0.82rem;
+            font-weight: 700;
+            text-decoration: none;
+            white-space: nowrap;
+        }
+        .nav-actions .btn-wf-nav:hover {
+            background: #f59e0b;
+            color: #fff;
+        }
+        @media (max-width: 640px) {
+            .nav-actions .btn-wf-nav { padding: 0.32rem 0.55rem; }
+            .nav-actions .btn-wf-nav .wf-label { display: none; }
+        }
         main {
             max-width: 960px;
             margin: 2rem auto;
@@ -1855,6 +1875,7 @@ function renderPage({ lang, title, bodyHtml, slug }) {
         <div class="container-fluid d-flex justify-content-between align-items-center">
             <a class="brand" href="./index.html">${escapeHtml(ui.siteTitle)}</a>
             <div class="nav-actions">
+                <a class="btn-wf-nav" href="${WORDFEATHER_URL}" target="_blank" rel="noopener" title="${escapeHtml(ui.wordfeatherBtn)}">📚 <span class="wf-label">wordFeather</span></a>
                 <a class="btn-quiz" href="../quiz.html?lang=${lang}" title="Practice Quiz">🎯 Quiz</a>
                 <div class="lang-dropdown" id="langDrop">
                     <button class="lang-dropdown-btn" onclick="document.getElementById('langDrop').classList.toggle('open')" aria-haspopup="true" aria-label="${escapeHtml(ui.pickerHint)}">
