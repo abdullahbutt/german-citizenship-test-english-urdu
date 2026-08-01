@@ -254,7 +254,8 @@ const UI = {
         bamfCatalog: 'BAMF Question Catalog ↗',
         bamfTestCenter: 'BAMF Test Center ↗',
         starLabel: '⭐ Star on GitHub',
-        supportBtn: '☕ Support',
+        supportBtn: '☕ Buy Me a Coffee',
+        wordfeatherBtn: '📚 Learn Deutsch at wordFeather ↗',
         lastUpdated: 'Last updated',
         navPrev: '← Previous',
         navNext: 'Next →',
@@ -294,7 +295,8 @@ const UI = {
         bamfCatalog: 'BAMF سوالات ↗',
         bamfTestCenter: 'BAMF ٹیسٹ سینٹر ↗',
         starLabel: '⭐ GitHub پر اسٹار کریں',
-        supportBtn: '☕ عطیہ',
+        supportBtn: '☕ مجھے کافی پلائیں',
+        wordfeatherBtn: '📚 wordFeather پر جرمن سیکھیں ↗',
         lastUpdated: 'آخری اپڈیٹ',
         navPrev: 'پچھلا →',
         navNext: '← اگلا',
@@ -334,7 +336,8 @@ const UI = {
         bamfCatalog: 'كتالوج أسئلة BAMF ↗',
         bamfTestCenter: 'مركز اختبار BAMF ↗',
         starLabel: '⭐ نجّم على GitHub',
-        supportBtn: '☕ دعم',
+        supportBtn: '☕ اشترِ لي فنجان قهوة',
+        wordfeatherBtn: '📚 تعلّم الألمانية في wordFeather ↗',
         lastUpdated: 'آخر تحديث',
         navPrev: '→ السابق',
         navNext: 'التالي ←',
@@ -374,7 +377,8 @@ const UI = {
         bamfCatalog: 'BAMF-Fragenkatalog ↗',
         bamfTestCenter: 'BAMF-Testzentrum ↗',
         starLabel: '⭐ Auf GitHub markieren',
-        supportBtn: '☕ Unterstützen',
+        supportBtn: '☕ Kauf mir einen Kaffee',
+        wordfeatherBtn: '📚 Deutsch lernen bei wordFeather ↗',
         lastUpdated: 'Zuletzt aktualisiert',
         navPrev: '← Vorherige',
         navNext: 'Nächste →',
@@ -414,7 +418,8 @@ const UI = {
         bamfCatalog: 'BAMF Soru Kataloğu ↗',
         bamfTestCenter: 'BAMF Sınav Merkezi ↗',
         starLabel: '⭐ GitHub’da Yıldızla',
-        supportBtn: '☕ Destek Ol',
+        supportBtn: '☕ Bana Bir Kahve Ismarla',
+        wordfeatherBtn: '📚 wordFeather ile Almanca Öğren ↗',
         lastUpdated: 'Son güncelleme',
         navPrev: '← Önceki',
         navNext: 'Sonraki →',
@@ -454,7 +459,8 @@ const UI = {
         bamfCatalog: 'Каталог вопросов BAMF ↗',
         bamfTestCenter: 'Центр сдачи теста BAMF ↗',
         starLabel: '⭐ Отметить на GitHub',
-        supportBtn: '☕ Поддержать',
+        supportBtn: '☕ Угости меня кофе',
+        wordfeatherBtn: '📚 Учите немецкий на wordFeather ↗',
         lastUpdated: 'Обновлено',
         navPrev: '← Предыдущие',
         navNext: 'Следующие →',
@@ -481,6 +487,7 @@ const UI = {
 
 const GITHUB_URL = 'https://github.com/abdullahbutt/leben-in-deutschland-test';
 const PAYPAL_URL = 'https://paypal.me/abdullahbuttde';
+const WORDFEATHER_URL = 'https://wordfeather.com';
 const BAMF_CATALOG_URL = 'https://www.bamf.de/SharedDocs/Anlagen/DE/Integration/Einbuergerung/gesamtfragenkatalog-lebenindeutschland.html';
 const BAMF_TEST_CENTER_URL = 'https://oet.bamf.de/ords/oetut/f?p=514:1::::::';
 const BUILD_DATE = new Date().toISOString().slice(0, 10);
@@ -1505,6 +1512,29 @@ function renderPage({ lang, title, bodyHtml, slug }) {
             color: #fff;
             border-color: var(--primary);
         }
+        footer .btn-foot.foot-highlight {
+            background: linear-gradient(135deg, #f59e0b 0%, #ea580c 100%);
+            color: #fff;
+            border-color: transparent;
+            font-weight: 700;
+            padding: 0.4rem 1rem;
+            box-shadow: 0 2px 10px rgba(234,88,12,0.35);
+        }
+        footer .btn-foot.foot-highlight:hover {
+            background: linear-gradient(135deg, #ea580c 0%, #c2410c 100%);
+            transform: translateY(-1px);
+        }
+        footer .btn-foot.foot-wordfeather {
+            background: linear-gradient(135deg, #1d4ed8 0%, #7c3aed 100%);
+            color: #fff;
+            border-color: transparent;
+            font-weight: 700;
+            padding: 0.4rem 1rem;
+        }
+        footer .btn-foot.foot-wordfeather:hover {
+            background: linear-gradient(135deg, #7c3aed 0%, #1d4ed8 100%);
+            transform: translateY(-1px);
+        }
         footer .foot-meta {
             max-width: 960px;
             margin: 1rem auto 0;
@@ -1789,7 +1819,8 @@ function renderPage({ lang, title, bodyHtml, slug }) {
                 <a class="btn-foot" href="${BAMF_CATALOG_URL}" target="_blank" rel="noopener">${escapeHtml(ui.bamfCatalog)}</a>
                 <a class="btn-foot" href="${BAMF_TEST_CENTER_URL}" target="_blank" rel="noopener">${escapeHtml(ui.bamfTestCenter)}</a>
                 <a class="btn-foot" href="${GITHUB_URL}" target="_blank" rel="noopener">${escapeHtml(ui.starLabel)}</a>
-                <a class="btn-foot" href="${PAYPAL_URL}" target="_blank" rel="noopener">${escapeHtml(ui.supportBtn)}</a>
+                <a class="btn-foot foot-wordfeather" href="${WORDFEATHER_URL}" target="_blank" rel="noopener">${escapeHtml(ui.wordfeatherBtn)}</a>
+                <a class="btn-foot foot-highlight" href="${PAYPAL_URL}" target="_blank" rel="noopener">${escapeHtml(ui.supportBtn)}</a>
                 <a class="btn-foot" href="../privacy.html">${escapeHtml(ui.privacyLink)}</a>
             </div>
         </div>
