@@ -256,6 +256,8 @@ const UI = {
         starLabel: '⭐ Star on GitHub',
         supportBtn: '☕ Buy Me a Coffee',
         wordfeatherBtn: '📚 Learn Deutsch at wordFeather ↗',
+        wfBannerText: 'Preparing for citizenship? Master German vocabulary with wordFeather.',
+        wfBannerCta: 'Try it free ↗',
         lastUpdated: 'Last updated',
         navPrev: '← Previous',
         navNext: 'Next →',
@@ -297,6 +299,8 @@ const UI = {
         starLabel: '⭐ GitHub پر اسٹار کریں',
         supportBtn: '☕ مجھے کافی پلائیں',
         wordfeatherBtn: '📚 wordFeather پر جرمن سیکھیں ↗',
+        wfBannerText: 'شہریت کی تیاری کر رہے ہیں؟ wordFeather کے ساتھ جرمن الفاظ سیکھیں۔',
+        wfBannerCta: 'مفت آزمائیں ↗',
         lastUpdated: 'آخری اپڈیٹ',
         navPrev: 'پچھلا →',
         navNext: '← اگلا',
@@ -338,6 +342,8 @@ const UI = {
         starLabel: '⭐ نجّم على GitHub',
         supportBtn: '☕ اشترِ لي فنجان قهوة',
         wordfeatherBtn: '📚 تعلّم الألمانية في wordFeather ↗',
+        wfBannerText: 'تستعد للحصول على الجنسية؟ أتقن المفردات الألمانية مع wordFeather.',
+        wfBannerCta: 'جرّبه مجانًا ↗',
         lastUpdated: 'آخر تحديث',
         navPrev: '→ السابق',
         navNext: 'التالي ←',
@@ -379,6 +385,8 @@ const UI = {
         starLabel: '⭐ Auf GitHub markieren',
         supportBtn: '☕ Kauf mir einen Kaffee',
         wordfeatherBtn: '📚 Deutsch lernen bei wordFeather ↗',
+        wfBannerText: 'Bereiten Sie sich auf die Einbürgerung vor? Lernen Sie deutschen Wortschatz mit wordFeather.',
+        wfBannerCta: 'Kostenlos testen ↗',
         lastUpdated: 'Zuletzt aktualisiert',
         navPrev: '← Vorherige',
         navNext: 'Nächste →',
@@ -420,6 +428,8 @@ const UI = {
         starLabel: '⭐ GitHub’da Yıldızla',
         supportBtn: '☕ Bana Bir Kahve Ismarla',
         wordfeatherBtn: '📚 wordFeather ile Almanca Öğren ↗',
+        wfBannerText: 'Vatandaşlığa mı hazırlanıyorsunuz? wordFeather ile Almanca kelime dağarcığınızı geliştirin.',
+        wfBannerCta: 'Ücretsiz deneyin ↗',
         lastUpdated: 'Son güncelleme',
         navPrev: '← Önceki',
         navNext: 'Sonraki →',
@@ -461,6 +471,8 @@ const UI = {
         starLabel: '⭐ Отметить на GitHub',
         supportBtn: '☕ Угости меня кофе',
         wordfeatherBtn: '📚 Учите немецкий на wordFeather ↗',
+        wfBannerText: 'Готовитесь к получению гражданства? Изучайте немецкую лексику с wordFeather.',
+        wfBannerCta: 'Попробовать бесплатно ↗',
         lastUpdated: 'Обновлено',
         navPrev: '← Предыдущие',
         navNext: 'Следующие →',
@@ -1068,6 +1080,86 @@ function renderPwaBar(lang) {
         closeBtn.addEventListener('click', function () {
             bar.classList.add('pwa-bar-hidden');
             try { localStorage.setItem('pwaBarDismissed', '1'); } catch (e) {}
+        });
+    })();
+    </script>`;
+}
+
+// ---------- Closable "Learn Deutsch at wordFeather" top banner ----------
+// Shown on EVERY page (not just the homepage) — this is the primary
+// upsell surface since footer links get very little visibility.
+function renderWordfeatherBanner(lang) {
+    const ui = UI[lang] || UI.en;
+    const dir = (lang === 'ur' || lang === 'ar') ? 'rtl' : 'ltr';
+    return `
+    <div class="wf-banner" id="wfBanner" dir="${dir}">
+        <div class="wf-banner-inner">
+            <span class="wf-banner-icon">📚</span>
+            <span class="wf-banner-text">${escapeHtml(ui.wfBannerText)}</span>
+            <a class="wf-banner-cta" href="${WORDFEATHER_URL}" target="_blank" rel="noopener">${escapeHtml(ui.wfBannerCta)}</a>
+            <button class="wf-banner-close" id="wfBannerClose" aria-label="${escapeHtml(ui.pwaClose)}">×</button>
+        </div>
+    </div>
+    <style>
+        .wf-banner {
+            background: linear-gradient(135deg, #1d4ed8 0%, #7c3aed 100%);
+            color: #fff;
+            padding: 0.55rem 1.25rem;
+        }
+        [data-bs-theme="dark"] .wf-banner {
+            background: linear-gradient(135deg, #1e3a8a 0%, #6d28d9 100%);
+        }
+        .wf-banner-inner {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            max-width: 900px;
+            margin: 0 auto;
+            flex-wrap: wrap;
+        }
+        .wf-banner-icon { font-size: 1rem; flex-shrink: 0; }
+        .wf-banner-text { flex: 1 1 auto; font-size: 0.85rem; font-weight: 500; min-width: 12rem; }
+        .wf-banner-cta {
+            background: rgba(255,255,255,0.2);
+            color: #fff;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 0.82rem;
+            padding: 0.3rem 0.75rem;
+            border-radius: 0.4rem;
+            white-space: nowrap;
+            flex-shrink: 0;
+        }
+        .wf-banner-cta:hover { background: rgba(255,255,255,0.32); }
+        .wf-banner-close {
+            background: rgba(255,255,255,0.18);
+            border: 0;
+            color: #fff;
+            border-radius: 0.4rem;
+            width: 1.6rem;
+            height: 1.6rem;
+            font-size: 0.95rem;
+            line-height: 1;
+            cursor: pointer;
+            flex-shrink: 0;
+        }
+        .wf-banner-close:hover { background: rgba(255,255,255,0.3); }
+        .wf-banner.wf-banner-hidden { display: none; }
+    </style>
+    <script>
+    (function () {
+        var bar = document.getElementById('wfBanner');
+        if (!bar) return;
+        var closeBtn = document.getElementById('wfBannerClose');
+        var dismissed = false;
+        try { dismissed = localStorage.getItem('wfBannerDismissed') === '1'; } catch (e) {}
+        if (dismissed) {
+            bar.classList.add('wf-banner-hidden');
+            return;
+        }
+        closeBtn.addEventListener('click', function () {
+            bar.classList.add('wf-banner-hidden');
+            try { localStorage.setItem('wfBannerDismissed', '1'); } catch (e) {}
         });
     })();
     </script>`;
@@ -1786,7 +1878,7 @@ function renderPage({ lang, title, bodyHtml, slug }) {
             </div>
         </div>
     </nav>
-    ${slug === 'index' ? renderPwaBar(lang) : ''}
+    ${slug === 'index' ? renderPwaBar(lang) : renderWordfeatherBanner(lang)}
     <script>
     // Close lang dropdown when clicking outside
     document.addEventListener('click', function(e) {
