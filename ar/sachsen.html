@@ -677,6 +677,77 @@
         </div>
     </nav>
     
+    <div class="wf-banner" id="wfBanner" dir="rtl">
+        <div class="wf-banner-inner">
+            <span class="wf-banner-icon">📚</span>
+            <span class="wf-banner-text">تستعد للحصول على الجنسية؟ أتقن المفردات الألمانية مع wordFeather.</span>
+            <a class="wf-banner-cta" href="https://wordfeather.com" target="_blank" rel="noopener">جرّبه مجانًا ↗</a>
+            <button class="wf-banner-close" id="wfBannerClose" aria-label="إغلاق">×</button>
+        </div>
+    </div>
+    <style>
+        .wf-banner {
+            background: linear-gradient(135deg, #1d4ed8 0%, #7c3aed 100%);
+            color: #fff;
+            padding: 0.55rem 1.25rem;
+        }
+        [data-bs-theme="dark"] .wf-banner {
+            background: linear-gradient(135deg, #1e3a8a 0%, #6d28d9 100%);
+        }
+        .wf-banner-inner {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            max-width: 900px;
+            margin: 0 auto;
+            flex-wrap: wrap;
+        }
+        .wf-banner-icon { font-size: 1rem; flex-shrink: 0; }
+        .wf-banner-text { flex: 1 1 auto; font-size: 0.85rem; font-weight: 500; min-width: 12rem; }
+        .wf-banner-cta {
+            background: rgba(255,255,255,0.2);
+            color: #fff;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 0.82rem;
+            padding: 0.3rem 0.75rem;
+            border-radius: 0.4rem;
+            white-space: nowrap;
+            flex-shrink: 0;
+        }
+        .wf-banner-cta:hover { background: rgba(255,255,255,0.32); }
+        .wf-banner-close {
+            background: rgba(255,255,255,0.18);
+            border: 0;
+            color: #fff;
+            border-radius: 0.4rem;
+            width: 1.6rem;
+            height: 1.6rem;
+            font-size: 0.95rem;
+            line-height: 1;
+            cursor: pointer;
+            flex-shrink: 0;
+        }
+        .wf-banner-close:hover { background: rgba(255,255,255,0.3); }
+        .wf-banner.wf-banner-hidden { display: none; }
+    </style>
+    <script>
+    (function () {
+        var bar = document.getElementById('wfBanner');
+        if (!bar) return;
+        var closeBtn = document.getElementById('wfBannerClose');
+        var dismissed = false;
+        try { dismissed = localStorage.getItem('wfBannerDismissed') === '1'; } catch (e) {}
+        if (dismissed) {
+            bar.classList.add('wf-banner-hidden');
+            return;
+        }
+        closeBtn.addEventListener('click', function () {
+            bar.classList.add('wf-banner-hidden');
+            try { localStorage.setItem('wfBannerDismissed', '1'); } catch (e) {}
+        });
+    })();
+    </script>
     <script>
     // Close lang dropdown when clicking outside
     document.addEventListener('click', function(e) {
