@@ -1495,7 +1495,7 @@ function renderPage({ lang, title, bodyHtml, slug }) {
             display: flex;
             flex-wrap: wrap;
             gap: 0.5rem;
-            justify-content: ${dir === 'rtl' ? 'flex-start' : 'flex-end'};
+            justify-content: center;
         }
         footer .btn-foot {
             display: inline-block;
