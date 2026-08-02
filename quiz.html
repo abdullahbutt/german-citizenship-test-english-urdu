@@ -553,7 +553,6 @@ function updateQuizLangDropdown(lang) {
             </div>
         </div>
 
-        <p class="image-note" id="txt-imageNote">ℹ️ Note: Questions 301 (coat of arms) and 302 / 304 (map identification) require images and cannot be included in this online quiz. They will appear in the real printed test. All text-based questions are included.</p>
     </div>
 </div>
 
@@ -590,6 +589,7 @@ function updateQuizLangDropdown(lang) {
         <div class="q-card">
             <div class="q-num" id="qNum">QUESTION 1</div>
             <div class="q-de" id="qDe"></div>
+            <img class="q-image" id="qImage" style="display:none;max-width:100%;border-radius:.5rem;margin:.75rem 0;" alt="">
             <div class="q-translation" id="qTrans"></div>
         </div>
 
@@ -639,7 +639,6 @@ const UI = {
         mode2sub: 'Select your Bundesland. Answer the 3 state-specific questions.',
         mode3title: 'General Questions Practice',
         mode3sub: '50 questions at a time from the 300 general questions — no timer, pure practice.',
-        imageNote: 'ℹ️ Note: Questions 301 (coat of arms) and 302/304 (map identification) require images and cannot be included in this online quiz. They will appear in the real printed test.',
         back: 'Back',
         stateTitle: 'Select your Bundesland',
         stateSub: 'Your state determines which 3 regional questions are included in the test.',
@@ -679,7 +678,6 @@ const UI = {
         mode2sub: 'اپنی وفاقی ریاست منتخب کریں۔ 3 ریاستی سوالات کے جوابات دیں۔',
         mode3title: 'عمومی سوالات کی مشق',
         mode3sub: '300 عمومی سوالات میں سے 50 سوالات — بغیر ٹائمر کے مشق۔',
-        imageNote: 'ℹ️ نوٹ: سوالات 301 (ریاستی نشان) اور 302/304 (نقشے میں شناخت) تصاویر کے بغیر ممکن نہیں اور آن لائن کوئز میں شامل نہیں ہیں۔ یہ اصل امتحان میں آتے ہیں۔',
         back: 'واپس',
         stateTitle: 'اپنی وفاقی ریاست منتخب کریں',
         stateSub: 'آپ کی ریاست سے 3 علاقائی سوالات امتحان میں شامل ہوں گے۔',
@@ -719,7 +717,6 @@ const UI = {
         mode2sub: 'Wählen Sie Ihr Bundesland. Beantworten Sie 3 länderspezifische Fragen.',
         mode3title: 'Allgemeine Fragen üben',
         mode3sub: 'Je 50 Fragen aus den 300 allgemeinen Fragen — kein Timer, reines Üben.',
-        imageNote: 'ℹ️ Hinweis: Fragen 301 (Wappen) und 302/304 (Karte) erfordern Bilder und können nicht im Online-Quiz enthalten sein. Sie erscheinen im echten Test.',
         back: 'Zurück',
         stateTitle: 'Wählen Sie Ihr Bundesland',
         stateSub: 'Ihr Bundesland bestimmt, welche 3 Landesfragen im Test enthalten sind.',
@@ -759,7 +756,6 @@ const UI = {
         mode2sub: 'اختر ولايتك. أجب على 3 أسئلة خاصة بالولاية.',
         mode3title: 'تدريب على الأسئلة العامة',
         mode3sub: '50 سؤالاً في المرة من 300 سؤال عام — بدون مؤقت، تدريب خالص.',
-        imageNote: 'ℹ️ ملاحظة: الأسئلة 301 (شعار الولاية) و302/304 (تحديد الخريطة) تتطلب صورًا ولا يمكن تضمينها في الاختبار الإلكتروني. ستظهر في الاختبار المطبوع الفعلي.',
         back: 'رجوع',
         stateTitle: 'اختر ولايتك الفيدرالية',
         stateSub: 'تحدّد ولايتك 3 أسئلة إقليمية تُضمَّن في الاختبار.',
@@ -799,7 +795,6 @@ const UI = {
         mode2sub: 'Eyaletinizi seçin. 3 eyalete özel soruyu yanıtlayın.',
         mode3title: 'Genel Sorular Pratiği',
         mode3sub: '300 genel sorudan her seferinde 50 soru — süre sınırı yok, saf pratik.',
-        imageNote: 'ℹ️ Not: 301 (arma) ve 302/304 (harita) numaralı sorular görsel gerektirdiğinden çevrimiçi sınava dahil edilemez. Gerçek sınavda yer alacaktır.',
         back: 'Geri',
         stateTitle: 'Federal Eyaletinizi Seçin',
         stateSub: 'Eyaletiniz, sınava dahil edilecek 3 bölgesel soruyu belirler.',
@@ -839,7 +834,6 @@ const UI = {
         mode2sub: 'Выберите свою землю. Ответьте на 3 региональных вопроса.',
         mode3title: 'Тренировка общих вопросов',
         mode3sub: 'По 50 вопросов из 300 общих — без таймера, чистая тренировка.',
-        imageNote: 'ℹ️ Примечание: вопросы 301 (герб) и 302/304 (карта) требуют изображений и не включены в онлайн-тест. Они будут на настоящем печатном тесте.',
         back: 'Назад',
         stateTitle: 'Выберите федеральную землю',
         stateSub: 'Ваша земля определяет, какие 3 региональных вопроса войдут в тест.',
@@ -915,8 +909,7 @@ function applyUiLang() {
     set('txt-mode2sub',   u.mode2sub);
     set('txt-mode3title', u.mode3title);
     set('txt-mode3sub',   u.mode3sub);
-    set('txt-imageNote',  u.imageNote);
-    set('txt-back',       u.back);
+        set('txt-back',       u.back);
     set('txt-stateTitle', u.stateTitle);
     set('txt-stateSub',   u.stateSub);
     set('txt-genTitle',   u.genTitle);
@@ -1145,6 +1138,18 @@ function renderQuestion() {
 
     // Question text — German only (the real test is in German)
     document.getElementById('qDe').textContent = q.de || '';
+
+    // Question image — some questions (coat of arms, map/state identification) require a picture
+    const qImageEl = document.getElementById('qImage');
+    if (q.image) {
+        qImageEl.src = q.image;
+        qImageEl.alt = q.de || '';
+        qImageEl.style.display = 'block';
+    } else {
+        qImageEl.removeAttribute('src');
+        qImageEl.style.display = 'none';
+    }
+
     const transEl = document.getElementById('qTrans');
     transEl.textContent = '';  // no translation during quiz — practice reading German
     transEl.className = 'q-translation';
