@@ -1,48 +1,140 @@
-# 🟡 Baden-Württemberg — State Questions (301–310)
+# Baden-Württemberg — State Questions (301–310)
 [⬅ Back to Main README](README.md)
 
 ---
-### Question 301
+
+### Question 301 — Coat of Arms
 **🇩🇪** Welches Wappen gehört zum Bundesland Baden-Württemberg?
 **🇬🇧** Which coat of arms belongs to Baden-Württemberg?
-*🖼️ Select the image showing three black lions on a golden shield with deer and griffin supporters.*
+
+![Question 301](../images/301-baden-wuerttemberg.png)
+
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **Bild mit drei schwarzen Löwen** | **Image with three black lions** |
-> **📝** Baden-Württemberg's coat of arms features three black lions (Staufer lions) on a golden shield, supported by a deer (Baden) and a griffin (Württemberg). The state was formed in 1952 by merging Baden, Württemberg-Baden, and Württemberg-Hohenzollern.
+| ✅ | **Bild 1** | **Image 1** |
+| ○ | Bild 2 | Image 2 |
+| ○ | Bild 3 | Image 3 |
+| ○ | Bild 4 | Image 4 |
 
-### Question 302
-**🇩🇪** Welches ist ein Bundesland von Deutschland? *(Karte)*
-**🇬🇧** Which is a federal state of Germany? *(Map)*
-*🖼️ Identify Baden-Württemberg in southwestern Germany, bordering France and Switzerland.*
-> **📝** Baden-Württemberg is in the southwest, bordering France (west), Switzerland (south), and the German states of Rhineland-Palatinate, Hesse, and Bavaria.
+> **📝 Explanation:** The correct image shows the official coat of arms of Baden-Württemberg.
 
-### Question 303
-**🇩🇪** Wie heißt die Landeshauptstadt von Baden-Württemberg?
-**🇬🇧** What is the state capital of Baden-Württemberg?
+### Question 302 — District
+**🇩🇪** Welches ist ein Landkreis in Baden-Württemberg?
+**🇬🇧** Which of these is a district (Landkreis) in Baden-Württemberg?
+
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **Stuttgart** | **Stuttgart** |
-| ○ | Karlsruhe | Karlsruhe |
-| ○ | Freiburg | Freiburg |
-| ○ | Heidelberg | Heidelberg |
-> **📝** Stuttgart is the capital and largest city (~630,000 people). It's home to Mercedes-Benz and Porsche headquarters. Karlsruhe hosts the Federal Constitutional Court. Heidelberg is famous for its university (Germany's oldest, founded 1386).
+| ○ | Mecklenburgische Seenplatte | Mecklenburg Lake District |
+| ✅ | **Neckar-Odenwald-Kreis** | **Neckar-Odenwald-Kreis** |
+| ○ | Nordfriesland | North Frisia |
+| ○ | Altötting | Altötting |
 
-### Question 304
-**🇩🇪** Welches Bundesland ist Baden-Württemberg? *(Karte)*
-**🇬🇧** Which one is Baden-Württemberg? *(Map)*
-*🖼️ The large southwestern state.*
-> **📝** On a map, Baden-Württemberg is the large state in Germany's southwest corner, with the Black Forest (Schwarzwald) and Lake Constance (Bodensee).
+> **📝 Explanation:** Neckar-Odenwald-Kreis is located in Baden-Württemberg; the other options are districts in different German states.
 
-### Question 305
-**🇩🇪** Wie heißt der Ministerpräsident / die Ministerpräsidentin von Baden-Württemberg?
-**🇬🇧** Who is the Minister-President of Baden-Württemberg?
-*⚠️ Check current officeholder before your test.*
-> **📝** As of 2025, Winfried Kretschmann (Bündnis 90/Die Grünen) has been Minister-President since 2011 — the first Green party head of a German state. Always verify the current officeholder.
+### Question 303 — Landtag Term
+**🇩🇪** Für wie viele Jahre wird der Landtag in Baden-Württemberg gewählt?
+**🇬🇧** For how many years is the state parliament in Baden-Württemberg elected?
 
-### Question 306–310
-*Remaining questions cover: which Minister-President governed Baden-Württemberg (306), the state's coat of arms identification (307), what the state parliament is called — **Landtag** (308), neighboring countries — **France and Switzerland** (309), and which city is NOT in Baden-Württemberg (310).*
+| | Deutsch | English |
+|---|---|---|
+| ○ | 3 | 3 |
+| ○ | 4 | 4 |
+| ✅ | **5** | **5** |
+| ○ | 6 | 6 |
 
-> **📝** Key facts: Parliament is called "Landtag" (in Stuttgart). BW borders France and Switzerland. Major cities: Stuttgart, Karlsruhe, Mannheim, Freiburg, Heidelberg, Ulm. Known for the Black Forest, cars (Mercedes, Porsche), and its strong economy.
+> **📝 Explanation:** The state parliament of Baden-Württemberg is elected for a term of 5 years.
+
+### Question 304 — Voting Age
+**🇩🇪** Ab welchem Alter darf man in Baden-Württemberg bei Kommunalwahlen wählen?
+**🇬🇧** From what age can people vote in local elections in Baden-Württemberg?
+
+| | Deutsch | English |
+|---|---|---|
+| ○ | 14 | 14 |
+| ✅ | **16** | **16** |
+| ○ | 18 | 18 |
+| ○ | 20 | 20 |
+
+> **📝 Explanation:** In Baden-Württemberg, the minimum voting age for local elections is 16.
+
+### Question 305 — State Flag
+**🇩🇪** Welche Farben hat die Landesflagge von Baden-Württemberg?
+**🇬🇧** What colors does the state flag of Baden-Württemberg have?
+
+| | Deutsch | English |
+|---|---|---|
+| ○ | blau-weiß-rot | blue-white-red |
+| ✅ | **schwarz-gold** | **black-gold** |
+| ○ | weiß-blau | white-blue |
+| ○ | grün-weiß-rot | green-white-red |
+
+> **📝 Explanation:** The state flag of Baden-Württemberg is black-gold.
+
+### Question 306 — Civic Education
+**🇩🇪** Wo können Sie sich in Baden-Württemberg über politische Themen informieren?
+**🇬🇧** Where can you get information about political topics in Baden-Württemberg?
+
+| | Deutsch | English |
+|---|---|---|
+| ○ | beim Ordnungsamt der Gemeinde | at the municipal public order office |
+| ○ | bei der Verbraucherzentrale | at the Consumer Advice Centre |
+| ✅ | **bei der Landeszentrale für politische Bildung** | **at the State Agency for Civic Education** |
+| ○ | bei den Kirchen | at the churches |
+
+> **📝 Explanation:** Civic/political education information in Baden-Württemberg is provided at the State Agency for Civic Education.
+
+### Question 307 — Capital City
+**🇩🇪** Die Landeshauptstadt von Baden-Württemberg heißt …
+**🇬🇧** The state capital of Baden-Württemberg is called …
+
+| | Deutsch | English |
+|---|---|---|
+| ○ | Heidelberg. | Heidelberg. |
+| ✅ | **Stuttgart.** | **Stuttgart.** |
+| ○ | Karlsruhe. | Karlsruhe. |
+| ○ | Mannheim. | Mannheim. |
+
+> **📝 Explanation:** Stuttgart. is the state capital of Baden-Württemberg.
+
+### Question 308 — Map Location
+**🇩🇪** Welches Bundesland ist Baden-Württemberg?
+**🇬🇧** Which (highlighted) federal state is Baden-Württemberg?
+
+![Question 308](../images/308-baden-wuerttemberg.png)
+
+| | Deutsch | English |
+|---|---|---|
+| ○ | Bild 1 | Image 1 |
+| ✅ | **Bild 2** | **Image 2** |
+| ○ | Bild 3 | Image 3 |
+| ○ | Bild 4 | Image 4 |
+
+> **📝 Explanation:** The map shows the location of Baden-Württemberg within Germany.
+
+### Question 309 — Head of Government
+**🇩🇪** Wie nennt man die Regierungschefin/den Regierungschef in Baden-Württemberg?
+**🇬🇧** What is the head of government in Baden-Württemberg called?
+
+| | Deutsch | English |
+|---|---|---|
+| ○ | Erste Ministerin/Erster Minister | First Minister |
+| ○ | Premierministerin/Premierminister | Prime Minister |
+| ○ | Bürgermeisterin/Bürgermeister | Mayor |
+| ✅ | **Ministerpräsidentin/Ministerpräsident** | **Minister-President** |
+
+> **📝 Explanation:** The head of government in Baden-Württemberg holds the title Minister-President.
+
+### Question 310 — Ministries
+**🇩🇪** Welche Ministerin/welchen Minister hat Baden-Württemberg nicht?
+**🇬🇧** Which minister does Baden-Württemberg NOT have?
+
+| | Deutsch | English |
+|---|---|---|
+| ○ | Finanzministerin/Finanzminister | Minister of Finance |
+| ○ | Justizministerin/Justizminister | Minister of Justice |
+| ○ | Innenministerin/Innenminister | Minister of the Interior |
+| ✅ | **Außenministerin/Außenminister** | **Minister of Foreign Affairs** |
+
+> **📝 Explanation:** Foreign affairs are a federal responsibility in Germany, not a state matter — so no German state has this ministry.
 
 [⬅ Back to Main README](README.md)

@@ -1,40 +1,140 @@
-# Thüringen (Thuringia) — State Questions (301–310)
+# Thuringia (Thüringen) — State Questions (301–310)
 [⬅ Back to Main README](README.md)
 
 ---
+
 ### Question 301 — Coat of Arms
 **🇩🇪** Welches Wappen gehört zum Bundesland Thüringen?
-**🇬🇧** Which coat of arms belongs to Thüringen (Thuringia)?
-*🖼️ Red and white striped lion with blue claws on blue background*
-> **📝** Thuringia is called the 'green heart of Germany' due to the Thuringian Forest (Thüringer Wald). Weimar was home to Goethe and Schiller and the Weimar Republic. Eisenach has the Wartburg Castle where Luther translated the Bible. The state was re-established in 1990.
+**🇬🇧** Which coat of arms belongs to Thuringia (Thüringen)?
 
-### Question 302 — Map Identification
-**🇩🇪** Welches ist ein Bundesland von Deutschland?
-**🇬🇧** Which is a federal state of Germany?
-*🖼️ Identify this state on a map of Germany.*
+![Question 301](../images/301-thueringen.png)
 
-### Question 303 — Capital City
-**🇩🇪** Wie heißt die Landeshauptstadt?
-**🇬🇧** What is the state capital?
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **Erfurt** | **Erfurt** |
-> **📝** Erfurt is the capital of Thüringen.
+| ○ | Bild 1 | Image 1 |
+| ○ | Bild 2 | Image 2 |
+| ○ | Bild 3 | Image 3 |
+| ✅ | **Bild 4** | **Image 4** |
 
-### Question 304 — Map Location
+> **📝 Explanation:** The correct image shows the official coat of arms of Thuringia (Thüringen).
+
+### Question 302 — District
+**🇩🇪** Welches ist ein Landkreis in Thüringen?
+**🇬🇧** Which of these is a district (Landkreis) in Thuringia (Thüringen)?
+
+| | Deutsch | English |
+|---|---|---|
+| ○ | Ammerland | Ammerland |
+| ○ | Altötting | Altötting |
+| ○ | Nordfriesland | North Frisia |
+| ✅ | **Wartburgkreis** | **Wartburgkreis** |
+
+> **📝 Explanation:** Wartburgkreis is located in Thuringia (Thüringen); the other options are districts in different German states.
+
+### Question 303 — Landtag Term
+**🇩🇪** Für wie viele Jahre wird der Landtag in Thüringen gewählt?
+**🇬🇧** For how many years is the state parliament in Thuringia (Thüringen) elected?
+
+| | Deutsch | English |
+|---|---|---|
+| ○ | 3 | 3 |
+| ○ | 4 | 4 |
+| ✅ | **5** | **5** |
+| ○ | 6 | 6 |
+
+> **📝 Explanation:** The state parliament of Thuringia (Thüringen) is elected for a term of 5 years.
+
+### Question 304 — Voting Age
+**🇩🇪** Ab welchem Alter darf man in Thüringen bei Kommunalwahlen wählen?
+**🇬🇧** From what age can people vote in local elections in Thuringia (Thüringen)?
+
+| | Deutsch | English |
+|---|---|---|
+| ○ | 14 | 14 |
+| ✅ | **16** | **16** |
+| ○ | 18 | 18 |
+| ○ | 20 | 20 |
+
+> **📝 Explanation:** In Thuringia (Thüringen), the minimum voting age for local elections is 16.
+
+### Question 305 — State Flag
+**🇩🇪** Welche Farben hat die Landesflagge von Thüringen?
+**🇬🇧** What colors does the state flag of Thuringia (Thüringen) have?
+
+| | Deutsch | English |
+|---|---|---|
+| ○ | blau-weiß-rot | blue-white-red |
+| ✅ | **weiß-rot** | **white-red** |
+| ○ | grün-weiß-rot | green-white-red |
+| ○ | schwarz-gold | black-gold |
+
+> **📝 Explanation:** The state flag of Thuringia (Thüringen) is white-red.
+
+### Question 306 — Civic Education
+**🇩🇪** Wo können Sie sich in Thüringen über politische Themen informieren?
+**🇬🇧** Where can you get information about political topics in Thuringia (Thüringen)?
+
+| | Deutsch | English |
+|---|---|---|
+| ○ | bei den Kirchen | at the churches |
+| ○ | bei der Verbraucherzentrale | at the Consumer Advice Centre |
+| ✅ | **bei der Landeszentrale für politische Bildung** | **at the State Agency for Civic Education** |
+| ○ | beim Ordnungsamt der Gemeinde | at the municipal public order office |
+
+> **📝 Explanation:** Civic/political education information in Thuringia (Thüringen) is provided at the State Agency for Civic Education.
+
+### Question 307 — Capital City
+**🇩🇪** Die Landeshauptstadt von Thüringen heißt …
+**🇬🇧** The state capital of Thuringia (Thüringen) is called …
+
+| | Deutsch | English |
+|---|---|---|
+| ○ | Eisenach. | Eisenach. |
+| ✅ | **Erfurt.** | **Erfurt.** |
+| ○ | Gera. | Gera. |
+| ○ | Jena. | Jena. |
+
+> **📝 Explanation:** Erfurt. is the state capital of Thuringia (Thüringen).
+
+### Question 308 — Map Location
 **🇩🇪** Welches Bundesland ist Thüringen?
-**🇬🇧** Which one is Thüringen (Thuringia)?
-*🖼️ Identify on numbered map.*
+**🇬🇧** Which (highlighted) federal state is Thuringia (Thüringen)?
 
-### Question 305 — Minister-President
-**🇩🇪** Wie heißt der/die Ministerpräsident/in?
-**🇬🇧** Who is the Minister-President?
-*⚠️ Check current officeholder. As of 2025: Mario Voigt (CDU)*
+![Question 308](../images/308-thueringen.png)
 
-### Questions 306–310 — Additional State Facts
-Key facts for your preparation:
-- **Parliament:** Landtag
-- **Neighbors/Borders:** No international borders; borders Niedersachsen, Hessen, Bayern, Sachsen, Sachsen-Anhalt
-- **Major cities:** Erfurt, Jena, Gera, Weimar, Eisenach
+| | Deutsch | English |
+|---|---|---|
+| ○ | Bild 1 | Image 1 |
+| ✅ | **Bild 2** | **Image 2** |
+| ○ | Bild 3 | Image 3 |
+| ○ | Bild 4 | Image 4 |
+
+> **📝 Explanation:** The map shows the location of Thuringia (Thüringen) within Germany.
+
+### Question 309 — Head of Government
+**🇩🇪** Wie nennt man die Regierungschefin/den Regierungschef in Thüringen?
+**🇬🇧** What is the head of government in Thuringia (Thüringen) called?
+
+| | Deutsch | English |
+|---|---|---|
+| ○ | Erste Ministerin/Erster Minister | First Minister |
+| ○ | Premierministerin/Premierminister | Prime Minister |
+| ○ | Bürgermeisterin/Bürgermeister | Mayor |
+| ✅ | **Ministerpräsidentin/Ministerpräsident** | **Minister-President** |
+
+> **📝 Explanation:** The head of government in Thuringia (Thüringen) holds the title Minister-President.
+
+### Question 310 — Ministries
+**🇩🇪** Welche Ministerin/welchen Minister hat Thüringen nicht?
+**🇬🇧** Which minister does Thuringia (Thüringen) NOT have?
+
+| | Deutsch | English |
+|---|---|---|
+| ○ | Justizministerin/Justizminister | Minister of Justice |
+| ✅ | **Außenministerin/Außenminister** | **Minister of Foreign Affairs** |
+| ○ | Finanzministerin/Finanzminister | Minister of Finance |
+| ○ | Innenministerin/Innenminister | Minister of the Interior |
+
+> **📝 Explanation:** Foreign affairs are a federal responsibility in Germany, not a state matter — so no German state has this ministry.
 
 [⬅ Back to Main README](README.md)
