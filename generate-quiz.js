@@ -72,6 +72,12 @@ function parseMd(filePath) {
         const deM = block.match(/\*\*🇩🇪(?:\s*Deutsch:)?\*\*\s*([^\n]+)/);
         const de = deM ? deM[1].trim() : '';
 
+        // Optional image: ![...](path) — path is relative to the language
+        // subfolder (e.g. "../images/21.png"); normalize to be relative to
+        // the site root ("images/21.png") for use in quiz-data.json.
+        const imgM = block.match(/!\[[^\]]*\]\(([^)]+)\)/);
+        const image = imgM ? imgM[1].replace(/^(\.\.\/)+/, '') : undefined;
+
         // Translated text (line after 🇬🇧 or 🇵🇰 or 🇸🇦)
         const trM = block.match(/\*\*(?:🇬🇧|🇵🇰|🇸🇦)(?:[^*]*)?\*\*\s*([^\n]+)/);
         const translated = trM ? trM[1].trim() : '';
@@ -99,7 +105,7 @@ function parseMd(filePath) {
             ? explM[1].replace(/^>\s*/gm, '').replace(/\*\*/g, '').trim()
             : '';
 
-        questions.push({ id, de, translated, options, correct, explanation });
+        questions.push({ id, de, translated, options, correct, explanation, image });
     }
 
     return questions;
@@ -217,6 +223,7 @@ function buildGeneral() {
                 en:             enQ.translated,
                 ur:             urQ ? urQ.translated : enQ.translated,
                 ar:             arQ ? arQ.translated : '',
+                ...(enQ.image ? { image: enQ.image } : {}),
                 options:        enQ.options.map((opt, i) => ({
                     de: opt.de,
                     en: opt.translated,
@@ -387,17 +394,64 @@ function buildStates() {
 
     const states = {};
     for (const [slug, meta] of Object.entries(stateMeta)) {
+        const realQuestions = buildStateQuestionsFromMd(slug, meta);
         states[slug] = {
             slug,
             name_de: meta.name_de,
             name_en: meta.name_en,
             name_ur: meta.name_ur,
             name_ar: meta.name_ar,
-            questions: buildStateQuestion(slug, meta),
+            questions: realQuestions || buildStateQuestion(slug, meta),
         };
-        console.log(`  state: ${slug} (${states[slug].questions.length} questions)`);
+        const source = realQuestions ? 'from markdown source' : 'synthetic fallback';
+        console.log(`  state: ${slug} (${states[slug].questions.length} questions, ${source})`);
     }
     return states;
+}
+
+// Try to build a state's questions from a real markdown source file
+// (sources/english/{slug}.md, merged with sources/urdu/{slug}.md and
+// sources/arabic/{slug}.md). Returns null if no real source file exists
+// or it contains no parseable questions, so callers can fall back to the
+// synthetic generator for states that haven't been written yet.
+function buildStateQuestionsFromMd(slug, meta) {
+    const enPath = path.join(SRC_EN, `${slug}.md`);
+    if (!fs.existsSync(enPath)) return null;
+
+    const enQs = parseMd(enPath);
+    if (enQs.length === 0) return null;
+
+    const urPath = path.join(SRC_UR, `${slug}.md`);
+    const arPath = path.join(SRC_AR, `${slug}.md`);
+    const urQs = fs.existsSync(urPath) ? parseMd(urPath) : [];
+    const arQs = fs.existsSync(arPath) ? parseMd(arPath) : [];
+    const urMap = new Map(urQs.map(q => [q.id, q]));
+    const arMap = new Map(arQs.map(q => [q.id, q]));
+
+    return enQs
+        .map(enQ => {
+            const urQ = urMap.get(enQ.id);
+            const arQ = arMap.get(enQ.id);
+            return {
+                id:      `${slug}-${enQ.id}`,
+                de:      enQ.de,
+                en:      enQ.translated,
+                ur:      urQ ? urQ.translated : enQ.translated,
+                ar:      arQ ? arQ.translated : '',
+                ...(enQ.image ? { image: enQ.image } : {}),
+                options: enQ.options.map((opt, i) => ({
+                    de: opt.de,
+                    en: opt.translated,
+                    ur: urQ ? (urQ.options[i]?.translated || opt.translated) : opt.translated,
+                    ar: arQ ? (arQ.options[i]?.translated || '') : '',
+                })),
+                correct: enQ.correct,
+                exp_en:  enQ.explanation,
+                exp_ur:  urQ ? urQ.explanation : enQ.explanation,
+                exp_ar:  arQ ? arQ.explanation : '',
+            };
+        })
+        .sort((a, b) => a.id.localeCompare(b.id, undefined, { numeric: true }));
 }
 
 // ─── Main ─────────────────────────────────────────────────────────────────────
