@@ -330,11 +330,11 @@
 **🇩🇪 Deutsch:** Welches ist das Wappen der Bundesrepublik Deutschland?
 **🇬🇧 English:** Which is the coat of arms of the Federal Republic of Germany?
 
-![Question 21 — Four coats of arms](https://oet.bamf.de/ords/oetut/f?p=514:30::APPLICATION_PROCESS%3Dshow_pag_bild:::F514_PAG_THUMBNAIL,F514_PAG_BILD:,17213)
+![Question 21](../images/21.png)
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **Bild 1** *(schwarzer Adler auf goldenem Grund)* | **Image 1** *(black eagle on golden background)* |
+| ✅ | **Bild 1** | **Image 1** |
 | ○ | Bild 2 | Image 2 |
 | ○ | Bild 3 | Image 3 |
 | ○ | Bild 4 | Image 4 |
@@ -807,4 +807,4 @@
 
 ---
 
-[➡ Continue to Questions 51–100](questions-051-100.md)
+[⬅ Back to Main README](README.md)

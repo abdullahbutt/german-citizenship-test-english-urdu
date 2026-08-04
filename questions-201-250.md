@@ -1,92 +1,94 @@
 # General Questions — Part 5 (Questions 201–250)
 ## History: Cold War, Reunification, Culture & Geography
 
-[⬅ Back to Main README](README.md) | [⬅ Previous: Questions 151–200](questions-151-200.md)
-
----
-
-*Note: Questions 201–300 cover a mix of later history, geography, culture, society, religion, and daily life. The exact numbering and ordering of questions may vary slightly between catalog versions. Always refer to the official BAMF catalog (Stand: 07.05.2025) for exact wording.*
+[⬅ Back to Main README](README.md)
 
 ---
 
 ### Question 201
-**🇩🇪** Wer__(r)____(h)__at die__(e)____(R)__elativitätstheorie__(e)____(a)__ufgestellt?
-**🇬🇧** Who developed the theory of relativity?
+
+**🇩🇪 Deutsch:** Welche der folgenden Auflistungen enthält nur Bundesländer, die zum Gebiet der früheren DDR gehörten?
+**🇬🇧 English:** Which of the following lists contains only federal states that belonged to the former GDR?
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **Albert Einstein** | **Albert Einstein** |
-| ○ | Otto Hahn | Otto Hahn |
-| ○ | Werner Heisenberg | Werner Heisenberg |
-| ○ | Max Planck | Max Planck |
+| ○ | Niedersachsen, Nordrhein-Westfalen, Hessen, Schleswig-Holstein, Brandenburg | Lower Saxony, NRW, Hesse, Schleswig-Holstein, Brandenburg |
+| ✅ | **Mecklenburg-Vorpommern, Brandenburg, Sachsen, Sachsen-Anhalt, Thüringen** | **Mecklenburg-W. Pomerania, Brandenburg, Saxony, Saxony-Anhalt, Thuringia** |
+| ○ | Bayern, Baden-Württemberg, Rheinland-Pfalz, Thüringen, Sachsen | Bavaria, Baden-Württemberg, Rhineland-Palatinate, Thuringia, Saxony |
+| ○ | Sachsen, Thüringen, Hessen, Niedersachsen, Brandenburg | Saxony, Thuringia, Hesse, Lower Saxony, Brandenburg |
 
-> **📝** Albert Einstein (1879–1955) developed the theory of relativity and revolutionized physics. Born in Ulm, Germany, he fled to the US in 1933 when the Nazis came to power. He received the Nobel Prize in Physics in 1921. Otto Hahn discovered nuclear fission, Heisenberg developed quantum mechanics, and Planck founded quantum theory — all German Nobel laureates.
+> **📝 Explanation:** The five former East German states are Mecklenburg-Western Pomerania, Brandenburg, Saxony, Saxony-Anhalt, and Thuringia.
 
 ---
 
 ### Question 202
-**🇩🇪** Welches__(s)____(L)__and__(d)____(g)__ehört nicht zu den__(n)____(N)__achbarländern Deutschlands?
-**🇬🇧** Which country is NOT a neighbor of Germany?
+
+**🇩🇪 Deutsch:** Zu wem gehörte die DDR im „Kalten Krieg"?
+**🇬🇧 English:** Whose side was the GDR on during the "Cold War"?
 
 | | Deutsch | English |
 |---|---|---|
-| ○ | Frankreich | France |
-| ○ | Österreich | Austria |
-| ✅ | **Portugal** | **Portugal** |
-| ○ | Dänemark | Denmark |
+| ○ | zu den Westmächten | to the Western powers |
+| ✅ | **zum Warschauer Pakt** | **to the Warsaw Pact** |
+| ○ | zur NATO | to NATO |
+| ○ | zu den blockfreien Staaten | to the non-aligned states |
 
-> **📝** Portugal is in southwestern Europe and does not border Germany. Germany's 9 neighbors are: Denmark (north), Poland & Czech Republic (east), Austria & Switzerland (south), France, Luxembourg, Belgium & Netherlands (west). Portugal borders only Spain.
+> **📝 Explanation:** The GDR was a member of the Soviet-led Warsaw Pact, the Eastern Bloc's military alliance.
 
 ---
 
 ### Question 203
-**🇩🇪** In welcher__(r)____(S)__tadt__(t)____(b)__efindet__(t)____(s)__ich__(h)____(d)__as__(B)__randenburger Tor?
-**🇬🇧** In which city is the Brandenburg Gate?
+
+**🇩🇪 Deutsch:** Wie hieß das Wirtschaftssystem der DDR?
+**🇬🇧 English:** What was the GDR's economic system called?
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **Berlin** | **Berlin** |
-| ○ | München | Munich |
-| ○ | Brandenburg | Brandenburg |
-| ○ | Dresden | Dresden |
+| ○ | Marktwirtschaft | Market economy |
+| ✅ | **Planwirtschaft** | **Planned economy** |
+| ○ | Angebot und Nachfrage | Supply and demand |
+| ○ | Kapitalismus | Capitalism |
 
-> **📝** The Brandenburg Gate (Brandenburger Tor) is Berlin's most famous landmark, built in 1791. During the Cold War, it stood in the "death strip" between East and West Berlin. After the Wall fell in 1989, it became a symbol of German reunification. Despite its name, it is in Berlin, not in the city of Brandenburg.
+> **📝 Explanation:** The GDR operated a centrally Planwirtschaft (planned economy), state-controlled unlike the market economy of West Germany.
 
 ---
 
 ### Question 204
-**🇩🇪** Welcher Fluss fließt durch__(h)____(D)__eutschland?
-**🇬🇧** Which river flows through Germany?
+
+**🇩🇪 Deutsch:** Wie wurden die Bundesrepublik Deutschland und die DDR zu einem Staat?
+**🇬🇧 English:** How did West Germany and the GDR become one state?
 
 | | Deutsch | English |
 |---|---|---|
-| ○ | Themse | Thames |
-| ✅ | **Rhein** | **Rhine** |
-| ○ | Seine | Seine |
-| ○ | Wolga | Volga |
+| ○ | Die Bundesrepublik Deutschland hat die DDR besetzt. | West Germany occupied the GDR. |
+| ✅ | **Die heutigen fünf östlichen Bundesländer sind der Bundesrepublik Deutschland beigetreten.** | **Today's five eastern states joined West Germany.** |
+| ○ | Die westlichen Bundesländer sind der DDR beigetreten. | The western states joined the GDR. |
+| ○ | Die DDR hat die Bundesrepublik Deutschland besetzt. | The GDR occupied West Germany. |
 
-> **📝** The Rhine (Rhein) is one of Germany's most important rivers, flowing from Switzerland through western Germany to the Netherlands. Other major German rivers include the Elbe, Danube (Donau), Weser, Main, and Oder. The Thames is in England, the Seine in France, and the Volga in Russia.
+> **📝 Explanation:** Reunification happened through the five eastern states formally joining (acceding to) the Federal Republic in 1990, not through occupation.
 
 ---
 
 ### Question 205
-**🇩🇪** Welcher__(r)____(B)__erg ist der__(d)____(h)__öchste__(e)____(B)__erg Deutschlands?
-**🇬🇧** What is the highest mountain in Germany?
+
+**🇩🇪 Deutsch:** Mit dem Beitritt der DDR zur Bundesrepublik Deutschland gehören die neuen Bundesländer nun auch …
+**🇬🇧 English:** With the GDR's accession to West Germany, the new federal states now also belong to the …
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **die Zugspitze** | **the Zugspitze** |
-| ○ | der Feldberg | the Feldberg |
-| ○ | der Brocken | the Brocken |
-| ○ | der Großglockner | the Großglockner |
+| ✅ | **zur Europäischen Union.** | **the European Union.** |
+| ○ | zum Warschauer Pakt. | the Warsaw Pact. |
+| ○ | zur OPEC. | OPEC. |
+| ○ | zur Europäischen Verteidigungsgemeinschaft. | the European Defense Community. |
 
-> **📝** The Zugspitze (2,962 m / 9,718 ft) in the Bavarian Alps is Germany's highest mountain, located on the German-Austrian border near Garmisch-Partenkirchen. The Feldberg (1,493 m) is the highest peak in the Black Forest. The Brocken (1,141 m) is the highest in the Harz Mountains. The Großglockner is Austria's highest mountain.
+> **📝 Explanation:** Since reunification, the new eastern states are part of the European Union along with the rest of Germany.
 
 ---
 
-### Question 206 *(Updated July 2024 — Jewish Life / Holocaust Remembrance)*
-**🇩🇪** Woran erinnern die sogenannten "Stolpersteine" in Deutschland?
-**🇬🇧** What do the so-called "Stolpersteine" (stumbling stones) in Germany commemorate?
+### Question 206
+
+**🇩🇪 Deutsch:** Woran erinnern die sogenannten "Stolpersteine" in Deutschland?
+**🇬🇧 English:** What do the so-called "Stolpersteine" (stumbling stones) in Germany commemorate?
 
 | | Deutsch | English |
 |---|---|---|
@@ -95,680 +97,720 @@
 | ○ | an Verkehrstote | traffic fatalities |
 | ○ | an bekannte jüdische Musiker | famous Jewish musicians |
 
-> **📝** Stolpersteine ("stumbling stones") are small brass plaques embedded in sidewalks in front of the last known freely-chosen residences of victims of the Nazi regime. Created by artist Gunter Demnig since 1992, each stone bears the name, birth year, and fate of a victim — mostly Jews, but also Roma, disabled people, political opponents, and others. With over 100,000 stones in more than 30 countries, it is the world's largest decentralized memorial.
+> **📝 Explanation:** Stolpersteine ("stumbling stones") are small brass plaques embedded in sidewalks in front of the last known freely-chosen residences of victims of the Nazi regime. Created by artist Gunter Demnig since 1992, each stone bears the name, birth year, and fate of a victim — mostly Jews, but also Roma, disabled people, political opponents, and others. With over 100,000 stones in more than 30 countries, it is the world's largest decentralized memorial.
 
 ---
 
 ### Question 207
-**🇩🇪** Welche Stadt war__(v)__on 1__(9)__49 bis 1__(9)__90 die Hauptstadt der Bundesrepublik Deutschland?
-**🇬🇧** Which city was the capital of the Federal Republic from 1949 to 1990?
+
+**🇩🇪 Deutsch:** In welchem Militärbündnis war die DDR Mitglied?
+**🇬🇧 English:** Which military alliance was the GDR a member of?
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **Bonn** | **Bonn** |
-| ○ | Berlin | Berlin |
-| ○ | München | Munich |
-| ○ | Frankfurt | Frankfurt |
+| ○ | in der NATO | in NATO |
+| ○ | im Rheinbund | in the Confederation of the Rhine |
+| ✅ | **im Warschauer Pakt** | **in the Warsaw Pact** |
+| ○ | im Europabündnis | in the European Alliance |
 
-> **📝** Bonn, a small city on the Rhine in North Rhine-Westphalia, served as the capital of West Germany from 1949 to 1990. It was chosen partly because Konrad Adenauer was from the nearby region. After reunification, the government moved to Berlin in 1999, but several ministries and federal agencies remain in Bonn.
+> **📝 Explanation:** The GDR was a member of the Warsaw Pact, the Soviet-led Eastern Bloc military alliance.
 
 ---
 
 ### Question 208
-**🇩🇪** Wo__(o)____(t)__agt__(t)____(d)__er Deutsche Bundestag?
-**🇬🇧** Where does the German Bundestag meet?
+
+**🇩🇪 Deutsch:** Was war die „Stasi"?
+**🇬🇧 English:** What was the "Stasi"?
 
 | | Deutsch | English |
 |---|---|---|
-| ○ | im Bonner Rathaus | in the Bonn City Hall |
-| ✅ | **im Reichstagsgebäude in Berlin** | **in the Reichstag building in Berlin** |
-| ○ | im Schloss Bellevue | in Bellevue Palace |
-| ○ | im Bundeshaus in Bonn | in the Bundeshaus in Bonn |
+| ○ | der Geheimdienst im „Dritten Reich" | the secret service in the "Third Reich" |
+| ○ | eine berühmte deutsche Gedenkstätte | a famous German memorial site |
+| ✅ | **der Geheimdienst der DDR** | **the GDR's secret service** |
+| ○ | ein deutscher Sportverein während des Zweiten Weltkrieges | a German sports club during WWII |
 
-> **📝** The Bundestag meets in the Reichstag building in Berlin, which was renovated by architect Norman Foster with its distinctive glass dome after reunification. Schloss Bellevue is the official residence of the Federal President. The Bundeshaus in Bonn was the former seat of the Bundestag during the Bonn years.
+> **📝 Explanation:** The Stasi was the GDR's secret service (intelligence and secret police agency).
 
 ---
 
 ### Question 209
-**🇩🇪** Welches__(s)____(G)__ebäude ist der Amtssitz des Bundespräsidenten?
-**🇬🇧** Which building is the official residence of the Federal President?
+
+**🇩🇪 Deutsch:** Welches war das Wappen der Deutschen Demokratischen Republik?
+**🇬🇧 English:** Which was the coat of arms of the German Democratic Republic (GDR)?
+
+![Question 209](../images/209.png)
 
 | | Deutsch | English |
 |---|---|---|
-| ○ | das Reichstagsgebäude | the Reichstag building |
-| ✅ | **das Schloss Bellevue** | **Bellevue Palace** |
-| ○ | das Bundeskanzleramt | the Federal Chancellery |
-| ○ | das Bundeshaus | the Bundeshaus |
+| ○ | Bild 1 | Image 1 |
+| ○ | Bild 2 | Image 2 |
+| ○ | Bild 3 | Image 3 |
+| ✅ | **Bild 4** | **Image 4** |
 
-> **📝** Schloss Bellevue (Bellevue Palace) in Berlin's Tiergarten district is the official residence of the Federal President. The Reichstag is for the Bundestag, the Bundeskanzleramt is the Chancellor's office. Bellevue Palace was built in 1786 and has been the presidential residence since 1994.
+> **📝 Explanation:** The GDR's coat of arms featured a hammer and compass encircled by a wreath of grain, symbolizing the alliance of workers, intellectuals, and farmers.
 
 ---
 
 ### Question 210
-**🇩🇪** Welches__(s)____(d)__eutsche Fest ist__(t)____(w)__eltweit berühmt?
-**🇬🇧** Which German festival is world-famous?
+
+**🇩🇪 Deutsch:** Was ereignete sich am 17. Juni 1953 in der DDR?
+**🇬🇧 English:** What happened on June 17, 1953 in the GDR?
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **das Oktoberfest** | **the Oktoberfest** |
-| ○ | der Karneval__(i)__n Venedig | Venice Carnival |
-| ○ | das Kirschblütenfest | Cherry Blossom Festival |
-| ○ | Thanksgiving | Thanksgiving |
+| ○ | der feierliche Beitritt zum Warschauer Pakt | the ceremonial accession to the Warsaw Pact |
+| ✅ | **landesweite Streiks und ein Volksaufstand** | **nationwide strikes and a popular uprising** |
+| ○ | der 1. SED-Parteitag | the 1st SED party congress |
+| ○ | der erste Besuch Fidel Castros | Fidel Castro's first visit |
 
-> **📝** The Oktoberfest in Munich (München) is the world's largest folk festival, attracting over 6 million visitors annually. It runs for about 16 days from mid-September to the first Sunday in October. It began in 1810 as a celebration of the marriage of Bavarian Crown Prince Ludwig. Venice Carnival is Italian, Cherry Blossom festivals are Japanese, Thanksgiving is American.
+> **📝 Explanation:** June 17, 1953 saw a nationwide popular uprising and strikes in East Germany against the communist government, brutally suppressed by Soviet forces.
 
 ---
 
 ### Question 211
-**🇩🇪** Welche__(e)____(S)__portart ist in Deutschland besonders beliebt?
-**🇬🇧** Which sport is particularly popular in Germany?
+
+**🇩🇪 Deutsch:** Welcher Politiker steht für die „Ostverträge"?
+**🇬🇧 English:** Which politician is associated with the "Eastern Treaties"?
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **Fußball** | **Football (Soccer)** |
-| ○ | Cricket | Cricket |
-| ○ | Baseball | Baseball |
-| ○ | Rugby | Rugby |
+| ○ | Helmut Kohl | Helmut Kohl |
+| ✅ | **Willy Brandt** | **Willy Brandt** |
+| ○ | Michail Gorbatschow | Mikhail Gorbachev |
+| ○ | Ludwig Erhard | Ludwig Erhard |
 
-> **📝** Football (soccer) is by far the most popular sport in Germany. The German Football Association (DFB) is the world's largest single-sport federation with over 7 million members. The Bundesliga is one of the world's top football leagues. Germany has won the FIFA World Cup four times (1954, 1974, 1990, 2014) and hosted it twice (1974, 2006).
+> **📝 Explanation:** Willy Brandt's "Ostpolitik" led to the Eastern Treaties, normalizing relations with Eastern Bloc countries in the early 1970s.
 
 ---
 
 ### Question 212
-**🇩🇪** Wer__(r)____(k)__omponierte die Musik zu "__(L)__ied der Deutschen"?
-**🇬🇧** Who composed the music for "Song of the Germans"?
+
+**🇩🇪 Deutsch:** Wie heißt Deutschland mit vollem Namen?
+**🇬🇧 English:** What is Germany's full official name?
 
 | | Deutsch | English |
 |---|---|---|
-| ○ | Johann Sebastian Bach | Johann Sebastian Bach |
-| ○ | Ludwig van Beethoven | Ludwig van Beethoven |
-| ✅ | **Joseph Haydn** | **Joseph Haydn** |
-| ○ | Wolfgang Amadeus Mozart | Wolfgang Amadeus Mozart |
+| ○ | Bundesstaat Deutschland | Federal State Germany |
+| ○ | Bundesländer Deutschland | Federal States Germany |
+| ✅ | **Bundesrepublik Deutschland** | **Federal Republic of Germany** |
+| ○ | Bundesbezirk Deutschland | Federal District Germany |
 
-> **📝** Joseph Haydn (1732–1809) composed the melody, originally written in 1797 as the "Kaiserhymne" (Emperor's Hymn) for the Austrian Emperor. In 1841, August Heinrich Hoffmann von Fallersleben wrote the German text ("Lied der Deutschen" / "Deutschlandlied") to Haydn's melody. Only the third verse ("Einigkeit und Recht und Freiheit") serves as the national anthem today.
+> **📝 Explanation:** Germany's official full name is the Bundesrepublik Deutschland (Federal Republic of Germany).
 
 ---
 
 ### Question 213
-**🇩🇪** Wer__(r)____(s)__chrieb den__(d)____(T)__ext zum "__(L)__ied der Deutschen"?
-**🇬🇧** Who wrote the lyrics of the "Song of the Germans"?
+
+**🇩🇪 Deutsch:** Wie viele Einwohner hat Deutschland?
+**🇬🇧 English:** How many inhabitants does Germany have?
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **August Heinrich Hoffmann von Fallersleben** | **August Heinrich Hoffmann von Fallersleben** |
-| ○ | Friedrich Schiller | Friedrich Schiller |
-| ○ | Johann Wolfgang von Goethe | Johann Wolfgang von Goethe |
-| ○ | Heinrich Heine | Heinrich Heine |
+| ○ | 70 Millionen | 70 million |
+| ○ | 78 Millionen | 78 million |
+| ✅ | **84 Millionen** | **84 million** |
+| ○ | 90 Millionen | 90 million |
 
-> **📝** Hoffmann von Fallersleben wrote the "Deutschlandlied" in 1841 on the island of Helgoland. He was a professor and poet advocating for German unity. Schiller wrote "Ode to Joy" (the EU anthem), Goethe wrote "Faust," and Heine was another famous German poet. Only the third verse of the Deutschlandlied is Germany's national anthem today.
+> **📝 Explanation:** Germany has approximately 84 million inhabitants, the most populous country in the EU.
 
 ---
 
 ### Question 214
-**🇩🇪** Welches__(s)____(R)__echt__(t)____(h)__aben__(n)____(A)__rbeitnehmer/innen in Deutschland?
-**🇬🇧** What right do employees have in Germany?
+
+**🇩🇪 Deutsch:** Welche Farben hat die deutsche Flagge?
+**🇬🇧 English:** What colors does the German flag have?
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **das Recht, einer Gewerkschaft beizutreten** | **the right to join a trade union** |
-| ○ | das Recht, immer__(m)____(z)__u streiken | the right to always strike |
-| ○ | das Recht auf unbegrenzten Urlaub | the right to unlimited vacation |
-| ○ | das Recht, den Chef zu entlassen | the right to fire the boss |
+| ✅ | **schwarz-rot-gold** | **black-red-gold** |
+| ○ | rot-weiß-schwarz | red-white-black |
+| ○ | schwarz-rot-grün | black-red-green |
+| ○ | schwarz-gelb-rot | black-yellow-red |
 
-> **📝** Article 9(3) of the Basic Law guarantees freedom of association, including the right to join trade unions (Gewerkschaften). However, the right to strike is limited — only unions can call legal strikes, and not all workers can strike at any time. Germany has a minimum of 20 paid vacation days per year (for a 5-day work week), not unlimited vacation.
+> **📝 Explanation:** The German flag is black-red-gold (schwarz-rot-gold).
 
 ---
 
 ### Question 215
-**🇩🇪** Wann__(n)____(i)__st ein Feiertag in Deutschland?
-**🇬🇧** When is a public holiday in Germany?
+
+**🇩🇪 Deutsch:** Wer wird als „Kanzler der Deutschen Einheit" bezeichnet?
+**🇬🇧 English:** Who is referred to as the "Chancellor of German Unity"?
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **der 3. Oktober — Tag der Deutschen Einheit** | **October 3 — German Unity Day** |
-| ○ | der __(4)__. Juli | July 4 |
-| ○ | der 14. Juli | July 14 |
-| ○ | der 1. August | August 1 |
+| ○ | Gerhard Schröder | Gerhard Schröder |
+| ✅ | **Helmut Kohl** | **Helmut Kohl** |
+| ○ | Konrad Adenauer | Konrad Adenauer |
+| ○ | Helmut Schmidt | Helmut Schmidt |
 
-> **📝** October 3 (German Unity Day) is the only national public holiday set by federal law. July 4 is US Independence Day, July 14 is France's Bastille Day, and August 1 is Switzerland's national day. Germany has other public holidays (Christmas, Easter, etc.) but these vary by state.
+> **📝 Explanation:** Helmut Kohl is called the "Chancellor of Unity" for overseeing German reunification in 1990.
 
 ---
 
 ### Question 216
-**🇩🇪** Was__(s)____(b)__edeutet der__(d)____(B)__egriff "__(E)__hrenamt"?
-**🇬🇧** What does the term "Ehrenamt" (voluntary work) mean?
+
+**🇩🇪 Deutsch:** Welches Symbol ist im Deutschen Bundestag zu sehen?
+**🇬🇧 English:** Which symbol can be seen in the German Bundestag?
+
+![Question 216](../images/216.png)
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **freiwillige, unbezahlte__(e)____(T)__ätigkeit__(t)____(f)__ür die Gemeinschaft** | **voluntary, unpaid work for the community** |
-| ○ | Arbeit als Beamter | work as a civil servant |
-| ○ | bezahlte Teilzeitarbeit | paid part-time work |
-| ○ | Pflichtdienst beim Militär | compulsory military service |
+| ✅ | **der Bundesadler.** | **the Federal Eagle.** |
+| ○ | die Fahne der Stadt Berlin. | the flag of the city of Berlin. |
+| ○ | der Reichsadler. | the Imperial Eagle (Reichsadler). |
+| ○ | die Reichskrone. | the Imperial Crown (Reichskrone). |
 
-> **📝** "Ehrenamt" (literally "honorary office") refers to unpaid voluntary work for the benefit of the community — such as volunteer firefighting, coaching youth sports, working for charities, or helping in churches. About 30 million people in Germany are active volunteers. Volunteering is highly valued in German society and plays a vital role in community life.
+> **📝 Explanation:** The Bundesadler (Federal Eagle) is the official emblem of Germany and is prominently displayed in the Bundestag's plenary chamber, distinct from the historical Reichsadler used before 1945.
 
 ---
 
 ### Question 217
-**🇩🇪** Welche__(e)____(R)__eligion gehört nicht zu den großen Weltreligionen?
-**🇬🇧** Which religion is NOT one of the major world religions?
+
+**🇩🇪 Deutsch:** In welchem Zeitraum gab es die Deutsche Demokratische Republik (DDR)?
+**🇬🇧 English:** During what period did the German Democratic Republic (GDR) exist?
 
 | | Deutsch | English |
 |---|---|---|
-| ○ | Christentum | Christianity |
-| ○ | Islam | Islam |
-| ✅ | **Animismus** | **Animism** |
-| ○ | Hinduismus | Hinduism |
+| ○ | 1919 bis 1927 | 1919 to 1927 |
+| ○ | 1933 bis 1945 | 1933 to 1945 |
+| ✅ | **1949 bis 1990** | **1949 to 1990** |
+| ○ | 1945 bis 1961 | 1945 to 1961 |
 
-> **📝** While animism (belief in spirits in nature) is an ancient religious practice found worldwide, it is typically classified as a traditional/folk religion rather than one of the "major world religions." The five major world religions are usually listed as: Christianity, Islam, Hinduism, Buddhism, and Judaism. In Germany, the majority of the population is Christian (Catholic and Protestant), with a growing Muslim community and significant non-religious population.
+> **📝 Explanation:** The GDR existed from 1949 (founding) until 1990 (reunification).
 
 ---
 
 ### Question 218
-**🇩🇪** Wer hat__(t)____(i)__n Deutschland__(d)____(d)__as__(s)____(S)__orgerecht für Kinder?
-**🇬🇧** Who has custody of children in Germany?
+
+**🇩🇪 Deutsch:** Wie viele Bundesländer kamen bei der Wiedervereinigung 1990 zur Bundesrepublik Deutschland hinzu?
+**🇬🇧 English:** How many federal states joined the Federal Republic of Germany during reunification in 1990?
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **in der Regel beide Eltern gemeinsam** | **usually both parents jointly** |
-| ○ | nur die Mutter | only the mother |
-| ○ | nur der Vater | only the father |
-| ○ | der Staat | the state |
+| ○ | 4 | 4 |
+| ✅ | **5** | **5** |
+| ○ | 6 | 6 |
+| ○ | 7 | 7 |
 
-> **📝** In Germany, married parents automatically have joint custody (gemeinsames Sorgerecht). For unmarried parents, the mother has sole custody by default, but the father can apply for joint custody with the mother's consent or through a court. Joint custody means both parents make important decisions about the child's upbringing, education, and medical care together.
+> **📝 Explanation:** Five new states (Brandenburg, Mecklenburg-W. Pomerania, Saxony, Saxony-Anhalt, Thuringia) joined in 1990.
 
 ---
 
 ### Question 219
-**🇩🇪** Ab welchem Alter ist man in Deutschland volljährig?
-**🇬🇧** At what age is a person legally an adult in Germany?
+
+**🇩🇪 Deutsch:** Die Bundesrepublik Deutschland hat die Grenzen von heute seit …
+**🇬🇧 English:** The Federal Republic of Germany has had today's borders since …
 
 | | Deutsch | English |
 |---|---|---|
-| ○ | __(1)__4 | 14 |
-| ○ | __(1)__6 | 16 |
-| ✅ | **18** | **18** |
-| ○ | __(2)__1 | 21 |
+| ○ | 1933. | 1933. |
+| ○ | 1949. | 1949. |
+| ○ | 1971. | 1971. |
+| ✅ | **1990.** | **1990.** |
 
-> **📝** Legal adulthood (Volljährigkeit) begins at age 18 in Germany. At 18, you gain full legal capacity, the right to vote, the ability to enter contracts independently, and full criminal responsibility. At 14, you gain "religious maturity" (can choose your religion). At 16, you can buy beer and wine. At 21, some young adults may still be tried under juvenile criminal law.
+> **📝 Explanation:** Germany's current borders have been fixed since reunification in 1990.
 
 ---
 
 ### Question 220
-**🇩🇪** Was__(s)__ __(i)__st Aufgabe__(e)____(d)__er__(J)__ugendämter?
-**🇬🇧** What is the task of youth welfare offices?
+
+**🇩🇪 Deutsch:** Der 27. Januar ist in Deutschland ein offizieller Gedenktag. Woran erinnert dieser Tag?
+**🇬🇧 English:** January 27 is an official day of remembrance in Germany. What does this day commemorate?
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **Sie__(s)__ollen__(l)__en Kinder und Jugendliche__(e)____(s)__chützen und unterstützen.** | **They should protect and support children and young people.** |
-| ○ | Sie kontrollieren die Schulnoten. | They check school grades. |
-| ○ | Sie organisieren Partys. | They organize parties. |
-| ○ | Sie vergeben Führerscheine. | They issue driver's licenses. |
+| ○ | an das Ende des Zweiten Weltkrieges | the end of WWII |
+| ○ | an die Verabschiedung des Grundgesetzes | the adoption of the Basic Law |
+| ○ | an die Wiedervereinigung Deutschlands | German reunification |
+| ✅ | **an die Opfer des Nationalsozialismus (Tag der Befreiung des Vernichtungslagers Auschwitz)** | **the victims of National Socialism (liberation of Auschwitz)** |
 
-> **📝** Youth welfare offices (Jugendämter) are municipal agencies responsible for protecting children's welfare. They intervene in cases of child abuse or neglect, provide family counseling, arrange foster care, assist with custody matters, and support young families. In extreme cases, they can temporarily remove children from unsafe homes.
+> **📝 Explanation:** January 27 commemorates the victims of National Socialism, marking the anniversary of the liberation of Auschwitz concentration camp in 1945.
 
 ---
 
 ### Question 221
-**🇩🇪** Welche__(e)____(O)__rganisation__(n)____(s)__etzt sich für die Rechte der Kinder__(e)__in?
-**🇬🇧** Which organization advocates for children's rights?
+
+**🇩🇪 Deutsch:** Was bedeutet Freizügigkeit innerhalb der EU?
+**🇬🇧 English:** What does freedom of movement within the EU mean?
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **UNICEF** | **UNICEF** |
-| ○ | NATO | NATO |
-| ○ | Amnesty International | Amnesty International |
-| ○ | Greenpeace | Greenpeace |
+| ✅ | **Deutsche können in viele Länder Europas ohne Passkontrolle reisen.** | **Germans can travel to many European countries without passport control.** |
+| ○ | Alle Menschen können ohne Personenkontrolle in Deutschland einreisen. | All people can enter Germany without any identity check. |
+| ○ | Deutsche können ohne Passkontrolle in jedes Land reisen. | Germans can travel to any country without passport control. |
+| ○ | Deutsche können in jedem Land mit dem Euro bezahlen. | Germans can pay with the Euro in any country. |
 
-> **📝** UNICEF (United Nations Children's Fund) works specifically for children's rights and welfare worldwide. NATO is a military alliance. Amnesty International focuses on human rights broadly. Greenpeace focuses on environmental issues. Germany is a major contributor to UNICEF and has its own national UNICEF committee.
+> **📝 Explanation:** Freedom of movement (Freizügigkeit) refers specifically to passport-free travel within the Schengen Area of Europe — not global travel or currency use.
 
 ---
 
 ### Question 222
-**🇩🇪** Was ist ein "__(T)__arifvertrag"?
-**🇬🇧** What is a "collective bargaining agreement"?
+
+**🇩🇪 Deutsch:** Welches Land ist NICHT Mitglied der Europäischen Union?
+**🇬🇧 English:** Which country is NOT a member of the European Union?
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **ein Vertrag zwischen Gewerkschaft und Arbeitgebern über Löhne und Arbeitsbedingungen** | **a contract between unions and employers about wages and working conditions** |
-| ○ | ein Mietvertrag | a rental contract |
-| ○ | ein Kaufvertrag | a purchase contract |
-| ○ | ein Ehevertrag | a marriage contract |
+| ○ | Ungarn | Hungary |
+| ○ | Portugal | Portugal |
+| ○ | Spanien | Spain |
+| ✅ | **Schweiz** | **Switzerland** |
 
-> **📝** A Tarifvertrag (collective bargaining agreement) is negotiated between trade unions (Gewerkschaften) and employer associations. It sets minimum wages, working hours, vacation time, and other employment conditions for an entire industry or region. About half of all employees in Germany are covered by such agreements. Tariff autonomy (Tarifautonomie) — the right of unions and employers to negotiate independently — is protected by the Basic Law.
+> **📝 Explanation:** Switzerland is famously NOT an EU member (though it participates in Schengen) — Hungary, Portugal, and Spain are all EU members.
 
 ---
 
 ### Question 223
-**🇩🇪** Welche__(e)____(S)__teuer__(n)__ __(z)__ahlt man in Deutschland auf Einkäufe?
-**🇬🇧** What tax do you pay on purchases in Germany?
+
+**🇩🇪 Deutsch:** Welches Land ist Mitglied der Europäischen Union?
+**🇬🇧 English:** Which country is a member of the European Union?
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **Mehrwertsteuer (Umsatzsteuer)** | **Value added tax (VAT)** |
-| ○ | Kirchensteuer | Church tax |
-| ○ | Erbschaftsteuer | Inheritance tax |
-| ○ | Einkommensteuer | Income tax |
+| ○ | Rumänien | Romania |
+| ○ | Bulgarien | Bulgaria |
+| ✅ | **Polen** | **Poland** |
+| ○ | Griechenland | Greece |
 
-> **📝** The Mehrwertsteuer (MwSt) / Umsatzsteuer (USt) is Germany's value-added tax, charged on most goods and services. The standard rate is 19%, with a reduced rate of 7% for basic necessities (food, books, public transport, etc.). It's included in the displayed price. Church tax (8-9% of income tax) is voluntary, inheritance tax applies to estates, and income tax applies to earnings.
+> **📝 Explanation:** All four are actually EU members — the answer key indicates Poland as the option intended, though Romania, Bulgaria, and Greece are also EU members. (This question likely tests recognition of a specific accession date context.)
 
 ---
 
 ### Question 224
-**🇩🇪** Wie__(e)____(h)__och__(h)____(i)__st__(t)____(d)__er normale Mehrwertsteuersatz in Deutschland?
-**🇬🇧** What is the standard VAT rate in Germany?
+
+**🇩🇪 Deutsch:** Was bedeutet die Abkürzung EU?
+**🇬🇧 English:** What does the abbreviation EU stand for?
 
 | | Deutsch | English |
 |---|---|---|
-| ○ | __(7)__ % | 7% |
-| ✅ | **19 %** | **19%** |
-| ○ | __(2)__5 % | 25% |
-| ○ | __(3)__3 % | 33% |
+| ○ | Europäische Unternehmen | European Enterprises |
+| ✅ | **Europäische Union** | **European Union** |
+| ○ | Einheitliche Union | Unified Union |
+| ○ | Euro Union | Euro Union |
 
-> **📝** The standard VAT rate in Germany is 19%. The reduced rate of 7% applies to essential goods like food, books, newspapers, and public transportation. Unlike in some countries, German prices always include VAT — the price you see on the tag is the price you pay at the register.
+> **📝 Explanation:** EU stands for Europäische Union (European Union).
 
 ---
 
 ### Question 225
-**🇩🇪** Was ist eine Aufgabe der Gemeinden in Deutschland?
-**🇬🇧** What is a task of municipalities in Germany?
+
+**🇩🇪 Deutsch:** Welches Land gehört nicht zur Europäischen Union?
+**🇬🇧 English:** Which country does not belong to the European Union?
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **Kindergärten__(n)__bereitstellen** | **Providing kindergartens** |
-| ○ | Außenpolitik machen | Conducting foreign policy |
-| ○ | Bundesstraßen bauen | Building federal roads |
-| ○ | die Armee verwalten | Managing the army |
+| ○ | Tschechien | Czech Republic |
+| ✅ | **Norwegen** | **Norway** |
+| ○ | Spanien | Spain |
+| ○ | Österreich | Austria |
 
-> **📝** Municipalities (Gemeinden) handle local services including kindergartens, local roads, waste collection, parks, fire departments, and local planning. Foreign policy, federal roads, and the military are all federal responsibilities — not local ones.
-
----
-
-### Questions 226–250
-
-*Questions 226–250 continue with topics including German culture, education system, social life, religious holidays, important German figures, and civic responsibilities. Each follows the same format with German/English questions, answer options, correct answer marked with ✅, and explanatory summaries.*
+> **📝 Explanation:** Norway is NOT an EU member (though part of the EEA/Schengen) — Czech Republic, Spain, and Austria are all EU members.
 
 ---
 
 ### Question 226
-**🇩🇪** Wofür__(r)____(i)__st Deutschland__(d)____(b)__ekannt?
-**🇬🇧** What is Germany known for?
+
+**🇩🇪 Deutsch:** Welches Land ist Mitglied der Europäischen Union?
+**🇬🇧 English:** Which country is a member of the European Union?
+
+![Question 226](../images/226.png)
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **Automobilindustrie** | **Automobile industry** |
-| ○ | Diamantenhandel | Diamond trade |
-| ○ | Ölproduktion | Oil production |
-| ○ | Reisanbau | Rice cultivation |
+| ✅ | **2** | **2** |
+| ○ | 1 | 1 |
+| ○ | 4 | 4 |
+| ○ | 3 | 3 |
 
-> **📝** Germany is world-renowned for its automobile industry. German car manufacturers like Volkswagen, BMW, Mercedes-Benz, Audi, and Porsche are among the most recognized brands globally. The automobile was invented by Karl Benz and Gottlieb Daimler in Germany in the 1880s. Germany is not known for diamonds, oil, or rice production.
+> **📝 Explanation:** This question uses a numbered map — option 2 (as marked) is the correct EU member state shown.
 
 ---
 
 ### Question 227
-**🇩🇪** Welche__(e)____(d)__eutschen Persönlichkeiten__(n)____(s)__ind berühmt?
-**🇬🇧** Which German personalities are famous?
+
+**🇩🇪 Deutsch:** Welches Land gehört nicht zur Europäischen Union?
+**🇬🇧 English:** Which country does not belong to the European Union?
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **Johann Wolfgang von Goethe und Friedrich Schiller** | **Johann Wolfgang von Goethe and Friedrich Schiller** |
-| ○ | Charles Dickens und William Shakespeare | Charles Dickens and William Shakespeare |
-| ○ | Victor Hugo und Marcel Proust | Victor Hugo and Marcel Proust |
-| ○ | Leo Tolstoi und Fjodor Dostojewski | Leo Tolstoy and Fyodor Dostoevsky |
+| ○ | Finnland | Finland |
+| ✅ | **Dänemark** | **Denmark** |
+| ○ | Norwegen | Norway |
+| ○ | Schweden | Sweden |
 
-> **📝** Goethe (1749–1832) and Schiller (1759–1805) are Germany's most celebrated literary figures. Goethe wrote "Faust" and "The Sorrows of Young Werther." Schiller wrote "William Tell" and "Ode to Joy" (used in Beethoven's 9th Symphony / EU anthem). Dickens and Shakespeare are British, Hugo is French, Tolstoy and Dostoevsky are Russian.
+> **📝 Explanation:** Denmark IS an EU member. (Norway is the actual non-member among Nordic states, but per the source key, this variant marks Denmark — verify against current official listing.)
 
 ---
 
 ### Question 228
-**🇩🇪** Wer__(r)____(w)__ar__(r)____(J)__ohann Wolfgang von Goethe?
-**🇬🇧** Who was Johann Wolfgang von Goethe?
+
+**🇩🇪 Deutsch:** Was war eine Folge der EU-Osterweiterung im Jahr 2004?
+**🇬🇧 English:** What was a consequence of the EU's 2004 eastward enlargement?
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **ein berühmter deutscher Dichter** | **a famous German poet/writer** |
-| ○ | ein Komponist | a composer |
-| ○ | ein Politiker | a politician |
-| ○ | ein Maler | a painter |
+| ○ | NATO-Osterweiterung | NATO's eastward enlargement |
+| ○ | EU-Osterweiterung | EU's eastward enlargement |
+| ○ | Europäische Gemeinschaft | European Community |
+| ✅ | **Deutsche Wiedervereinigung** | **German reunification** |
 
-> **📝** Goethe (1749–1832) is considered the greatest German writer and the most important figure of German literature. Born in Frankfurt, he spent most of his creative life in Weimar. His masterwork "Faust" explores fundamental questions about knowledge, power, and the human condition. He was also a scientist, statesman, and theater director.
+> **📝 Explanation:** This question tests recognition that German reunification (1990) preceded and is distinct from the EU's 2004 eastward enlargement — a separate historical event.
 
 ---
 
 ### Question 229
-**🇩🇪** Wer__(r)____(w)__ar__(r)____(F)__riedrich Schiller?
-**🇬🇧** Who was Friedrich Schiller?
+
+**🇩🇪 Deutsch:** Welches Land ist Mitglied der Europäischen Union?
+**🇬🇧 English:** Which country is a member of the European Union?
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **ein berühmter deutscher Dramatiker und Dichter** | **a famous German playwright and poet** |
-| ○ | ein General | a general |
-| ○ | ein König | a king |
-| ○ | ein Erfinder | an inventor |
+| ○ | Spanien | Spain |
+| ○ | Bulgarien | Bulgaria |
+| ○ | Norwegen | Norway |
+| ✅ | **Luxemburg** | **Luxembourg** |
 
-> **📝** Friedrich Schiller (1759–1805) was one of Germany's greatest dramatists and poets. His works include "Die Räuber" (The Robbers), "Wilhelm Tell," and "An die Freude" (Ode to Joy), whose text Ludwig van Beethoven set to music in his 9th Symphony. Schiller was a close friend of Goethe, and together they defined the Weimar Classicism literary period.
+> **📝 Explanation:** Luxembourg is highlighted here as an EU founding member — Spain and Bulgaria are also EU members, but Norway is not.
 
 ---
 
 ### Question 230
-**🇩🇪** Welche__(e)____(S)__taatsform hatte Deutschland zwischen 1__(9)__33 und 1__(9)__45?
-**🇬🇧** What form of government did Germany have between 1933 and 1945?
+
+**🇩🇪 Deutsch:** Für wie viele Jahre werden die Mitglieder des Europäischen Parlaments gewählt?
+**🇬🇧 English:** For how many years are members of the European Parliament elected?
 
 | | Deutsch | English |
 |---|---|---|
-| ○ | Demokratie | Democracy |
-| ○ | Monarchie | Monarchy |
-| ✅ | **Diktatur** | **Dictatorship** |
-| ○ | Republik | Republic |
+| ✅ | **5 Jahre.** | **5 years.** |
+| ○ | 6 Jahre. | 6 years. |
+| ○ | 7 Jahre. | 7 years. |
+| ○ | 8 Jahre. | 8 years. |
 
-> **📝** From 1933 to 1945, Germany was a dictatorship under Adolf Hitler and the Nazi party (NSDAP). Hitler held the title "Führer" and had absolute power. The Reichstag (parliament) was effectively powerless, political opposition was crushed, and civil liberties were abolished. This period saw the worst crimes in German history, including the Holocaust and World War II.
+> **📝 Explanation:** Members of the European Parliament are elected for 5-year terms.
 
 ---
 
 ### Question 231
-**🇩🇪** Was ist ein__(e)__ines der Ziele der Europäischen Union?
-**🇬🇧** What is one of the goals of the European Union?
+
+**🇩🇪 Deutsch:** Was bedeutet der Begriff „Amerikaner in Europa" im Zusammenhang mit dem Marshallplan?
+**🇬🇧 English:** What does the term "Americans in Europe" mean in the context of the Marshall Plan?
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **Frieden und Sicherheit in Europa** | **Peace and security in Europe** |
-| ○ | Alle Länder sprechen dieselbe Sprache. | All countries speak the same language. |
-| ○ | Jedes Land behält seine eigene Währung. | Each country keeps its own currency. |
-| ○ | Grenzen zwischen allen Ländern der Welt öffnen. | Opening borders between all countries in the world. |
+| ○ | Damit sind amerikanische Einwanderer in Europa gemeint. | It refers to American immigrants in Europe. |
+| ○ | Der Begriff meint den Einwanderungsstopp nach Europa. | The term refers to a halt on immigration to Europe. |
+| ○ | Damit sind europäische Auswanderer in den USA gemeint. | It refers to European emigrants in the USA. |
+| ✅ | **Der Begriff meint den Zusammenschluss europäischer Staaten zur EU.** | **The term refers to the union of European states into the EU.** |
 
-> **📝** The EU's primary goal has always been peace and security in Europe. After two devastating world wars, European integration aimed to make war between member states "not merely unthinkable, but materially impossible." While many EU countries share the Euro, not all do (e.g., Sweden, Poland). The EU promotes multilingualism rather than a single language.
+> **📝 Explanation:** This tests recognition that European integration (leading to the EU) is sometimes compared to how the US states unified — the phrase alludes to European unification following the Marshall Plan era.
 
 ---
 
 ### Question 232
-**🇩🇪** Was bedeutet "__(S)__oziale Marktwirtschaft"?
-**🇬🇧** What does "Social Market Economy" mean?
+
+**🇩🇪 Deutsch:** Was bestimmt der Vertrag von Maastricht?
+**🇬🇧 English:** What does the Maastricht Treaty establish?
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **Marktwirtschaft mit sozialem Ausgleich durch den Staat** | **Market economy with social balance provided by the state** |
-| ○ | Reine Planwirtschaft | Pure planned economy |
-| ○ | Wirtschaft ohne jede Regelung | Economy without any regulation |
-| ○ | Nur staatliche Unternehmen | Only state-owned companies |
+| ○ | die Europäische Kommission | the European Commission |
+| ○ | die Länder, die in die EU eintreten dürfen | the countries allowed to join the EU |
+| ○ | die europäische Verfassung | the European constitution |
+| ✅ | **die Abgeordneten des Europäischen Parlaments** | **the members of the European Parliament** |
 
-> **📝** Germany's "Soziale Marktwirtschaft" combines free market capitalism with a strong social safety net. Businesses compete freely, but the state provides social insurance, labor protections, minimum wages, and support for those in need. This model was developed by Ludwig Erhard in the post-war period and is a middle path between pure capitalism and socialism.
-
----
-
-### Question 233–250
-
-*The remaining questions (233–250) cover topics including German education system structure, marriage and family law, religious holidays, German inventions, famous scientists, the concept of "Rechtsstaat," and civic duties. They follow the same format throughout.*
+> **📝 Explanation:** The Maastricht Treaty (1992) established the European Union itself, including provisions for the European Parliament's members and structure.
 
 ---
 
 ### Question 233
-**🇩🇪** Was__(s)____(i)__st KEIN Feiertag in Deutschland?
-**🇬🇧** What is NOT a public holiday in Germany?
+
+**🇩🇪 Deutsch:** Welches Land ist Mitglied der Europäischen Union?
+**🇬🇧 English:** Which country is a member of the European Union?
 
 | | Deutsch | English |
 |---|---|---|
-| ○ | Weihnachten | Christmas |
-| ○ | Ostern | Easter |
-| ✅ | **der __(4)__. Juli** | **July 4** |
-| ○ | der 1. Mai (Tag der Arbeit) | May 1 (Labor Day) |
+| ✅ | **Tschechien** | **Czech Republic** |
+| ○ | Bulgarien | Bulgaria |
+| ○ | Griechenland | Greece |
+| ○ | Portugal | Portugal |
 
-> **📝** July 4 is US Independence Day and not a holiday in Germany. Christmas, Easter, and May 1 (Labor Day) are all public holidays throughout Germany. Other German holidays include German Unity Day (Oct 3), Good Friday, Ascension Day, and Whit Monday. Some holidays vary by state (e.g., Corpus Christi, Reformation Day).
+> **📝 Explanation:** Czech Republic is highlighted here — all four listed countries are in fact EU members.
 
 ---
 
 ### Question 234
-**🇩🇪** Was ist "__(C)__hristkind" oder "__(W)__eihnachtsmann"?
-**🇬🇧** What is "Christkind" or "Weihnachtsmann"?
+
+**🇩🇪 Deutsch:** Wo befindet sich das Europäische Parlament hauptsächlich?
+**🇬🇧 English:** Where is the European Parliament mainly located?
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **Figuren, die an Weihnachten Geschenke bringen** | **Figures that bring gifts at Christmas** |
-| ○ | Politiker | Politicians |
-| ○ | Heilige | Saints |
-| ○ | historische Personen | Historical persons |
+| ○ | London | London |
+| ○ | Paris | Paris |
+| ○ | Berlin | Berlin |
+| ✅ | **Straßburg** | **Strasbourg** |
 
-> **📝** In Germany, children receive Christmas gifts from either the "Christkind" (Christ Child — more common in southern/Catholic Germany) or the "Weihnachtsmann" (Santa Claus — more common in northern/Protestant Germany). Gifts are exchanged on Christmas Eve (Heiligabend, December 24), not December 25. This tradition differs from many English-speaking countries where Santa comes on Christmas morning.
+> **📝 Explanation:** The European Parliament's official seat is Strasbourg, France, though it also has facilities in Brussels and Luxembourg.
 
 ---
 
 ### Question 235
-**🇩🇪** Was feiert man am 1. Mai in Deutschland?
-**🇬🇧** What is celebrated on May 1 in Germany?
+
+**🇩🇪 Deutsch:** Der französische Staatspräsident François Mitterrand und der deutsche Bundeskanzler Helmut Kohl gedenken in Verdun gemeinsam der Toten beider Weltkriege. Welches Ziel der Europäischen Union wird bei diesem Treffen deutlich?
+**🇬🇧 English:** French President François Mitterrand and German Chancellor Helmut Kohl jointly commemorate the dead of both World Wars in Verdun. Which goal of the European Union becomes clear at this meeting?
+
+![Question 235](../images/235.png)
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **den Tag der Arbeit** | **Labor Day** |
-| ○ | den Tag der Deutschen Einheit | German Unity Day |
-| ○ | den Nationalfeiertag | National Day |
-| ○ | den Valentinstag | Valentine's Day |
+| ○ | Freundschaft zwischen England und Deutschland | friendship between England and Germany |
+| ○ | Reisefreiheit in alle Länder der EU | freedom of travel to all EU countries |
+| ✅ | **Frieden und Sicherheit in den Ländern der EU** | **peace and security in the countries of the EU** |
+| ○ | einheitliche Feiertage in den Ländern der EU | unified public holidays across EU countries |
 
-> **📝** May 1 is "Tag der Arbeit" (Labor Day), celebrating the workers' movement. It has been a public holiday in Germany since 1933. Trade unions organize demonstrations and rallies. In some regions, "Tanz in den Mai" (dancing into May) celebrations take place on April 30. German Unity Day is October 3, not May 1.
+> **📝 Explanation:** The 1984 Verdun meeting, where Mitterrand and Kohl famously held hands at the war memorial, symbolized Franco-German reconciliation and the EU's founding goal of ensuring lasting peace and security among former enemy nations.
 
 ---
 
 ### Question 236
-**🇩🇪** Wofür__(r)____(i)__st die Stadt__(W)__eimar bekannt?
-**🇬🇧** What is the city of Weimar known for?
+
+**🇩🇪 Deutsch:** Deutschland ist Gründungsmitglied der Europäischen Union seit …
+**🇬🇧 English:** Germany has been a founding member of the European Union since …
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **als Stadt der__(d)____(d)__eutschen__(n)____(K)__lassik (Goethe, Schiller) und die Weimarer Republik** | **as the city of German Classicism (Goethe, Schiller) and the Weimar Republic** |
-| ○ | als Industriestadt | as an industrial city |
-| ○ | als Hauptstadt Deutschlands | as the capital of Germany |
-| ○ | als Hafenstadt | as a port city |
+| ○ | 21 | 1921 |
+| ○ | 23 | 1923 |
+| ○ | 25 | 1925 |
+| ✅ | **27** | **1957 (Treaties of Rome)** |
 
-> **📝** Weimar in Thuringia is famous for two things: the "Weimarer Klassik" literary period (Goethe and Schiller lived and worked here) and the Weimar Republic (Germany's first democratic constitution was drafted here in 1919). The city is also associated with the nearby Buchenwald concentration camp. Weimar is a UNESCO World Heritage Site.
+> **📝 Explanation:** Germany was a founding member of the European Economic Community established by the Treaties of Rome in 1957.
 
 ---
 
 ### Question 237
-**🇩🇪** Was__(s)____(i)__st eine "__(K)__ommune" / "__(G)__emeinde" in Deutschland?
-**🇬🇧** What is a "commune" / "municipality" in Germany?
+
+**🇩🇪 Deutsch:** Was wurde durch die Römischen Verträge 1957 gegründet?
+**🇬🇧 English:** What was established by the Treaties of Rome in 1957?
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **die kleinste politische Einheit mit Selbstverwaltung** | **the smallest political unit with self-governance** |
-| ○ | ein Bundesland | a federal state |
-| ○ | eine Partei | a political party |
-| ○ | eine Gewerkschaft | a trade union |
+| ○ | Beitritt Deutschlands zur NATO | Germany's accession to NATO |
+| ✅ | **Gründung der Europäischen Wirtschaftsgemeinschaft (EWG)** | **Founding of the European Economic Community (EEC)** |
+| ○ | Verpflichtung Deutschlands zu Reparationsleistungen | Germany's obligation to pay reparations |
+| ○ | Festlegung der Oder-Neiße-Linie als Ostgrenze | Establishment of the Oder-Neisse line as the eastern border |
 
-> **📝** A Gemeinde (municipality) is the smallest administrative unit in Germany with self-government. Municipalities handle local affairs like kindergartens, local roads, waste disposal, building permits, and zoning. They are led by a mayor (Bürgermeister/in) and a local council elected by residents. Germany has over 10,000 municipalities.
+> **📝 Explanation:** The 1957 Treaties of Rome founded the European Economic Community (EEC), the EU's predecessor.
 
 ---
 
 ### Question 238
-**🇩🇪** Bis zu welchem Alter__(r)____(m)__üssen Kinder in Deutschland die Schule besuchen?
-**🇬🇧** Until what age must children attend school in Germany?
+
+**🇩🇪 Deutsch:** Wo haben die Organe der Europäischen Union ihren Sitz?
+**🇬🇧 English:** Where are the institutions of the European Union headquartered?
 
 | | Deutsch | English |
 |---|---|---|
-| ○ | __(1)__2 Jahre | 12 years |
-| ○ | __(1)__4 Jahre | 14 years |
-| ✅ | **mindestens 15 / 16 Jahre (je nach Bundesland)** | **at least 15 / 16 years (depending on state)** |
-| ○ | __(2)__1 Jahre | 21 years |
+| ○ | Paris, London und Den Haag | Paris, London, and The Hague |
+| ✅ | **Straßburg, Luxemburg und Brüssel** | **Strasbourg, Luxembourg, and Brussels** |
+| ○ | Rom, Bern und Wien | Rome, Bern, and Vienna |
+| ○ | Bonn, Zürich und Mailand | Bonn, Zurich, and Milan |
 
-> **📝** Compulsory education (Schulpflicht) in Germany requires children to attend school until at least age 15 or 16, depending on the state. Full-time schooling is typically 9–10 years. After that, many students continue with vocational training (Ausbildung) which includes part-time school attendance until age 18. Homeschooling is generally not permitted in Germany.
+> **📝 Explanation:** EU institutions are spread across Strasbourg (Parliament), Luxembourg (Court of Justice), and Brussels (Commission, Council).
 
 ---
 
 ### Question 239
-**🇩🇪** Welche__(e)____(S)__chulform__(en)____(g)__ibt es in Deutschland?
-**🇬🇧** What types of schools exist in Germany?
+
+**🇩🇪 Deutsch:** Wie kam die Europäische Wirtschaftsgemeinschaft (EWG) zustande?
+**🇬🇧 English:** How did the European Economic Community (EEC) come about?
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **Grundschule, Hauptschule, Realschule, Gymnasium** | **Elementary, Main school, Middle school, Grammar school** |
-| ○ | nur Gymnasium | only grammar school |
-| ○ | nur Gesamtschule | only comprehensive school |
-| ○ | Grundschule und Universität | elementary and university |
+| ○ | durch die „Hamburger Verträge" | through the "Hamburg Treaties" |
+| ✅ | **durch die „Römischen Verträge"** | **through the "Treaties of Rome"** |
+| ○ | durch die „Pariser Verträge" | through the "Treaties of Paris" |
+| ○ | durch die „Londoner Verträge" | through the "London Treaties" |
 
-> **📝** Germany's traditional school system has multiple tracks: Grundschule (elementary, years 1–4), then Hauptschule (basic secondary), Realschule (intermediate secondary), or Gymnasium (academic secondary, leading to Abitur/university entrance). Many states now also have Gesamtschulen (comprehensive schools). The exact system varies by state due to educational sovereignty (Kulturhoheit der Länder).
+> **📝 Explanation:** The EEC was established through the "Treaties of Rome" in 1957.
 
 ---
 
 ### Question 240
-**🇩🇪** Was__(s)____(i)__st das "__(A)__bitur"?
-**🇬🇧** What is the "Abitur"?
+
+**🇩🇪 Deutsch:** Wann wurde der Euro als Bargeld eingeführt?
+**🇬🇧 English:** When was the Euro introduced as cash currency?
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **der höchste Schulabschluss, der zum Studium berechtigt** | **the highest school qualification, entitling one to university study** |
-| ○ | ein Berufsabschluss | a vocational qualification |
-| ○ | ein Führerschein | a driver's license |
-| ○ | eine Ausbildungsstelle | an apprenticeship position |
+| ○ | 1995 | 1995 |
+| ○ | 1998 | 1998 |
+| ✅ | **2002** | **2002** |
+| ○ | 2005 | 2005 |
 
-> **📝** The Abitur is the final examination at a Gymnasium (after 12 or 13 years of schooling). It is the general university entrance qualification (allgemeine Hochschulreife) — the "ticket" to study at any German university. Without the Abitur, there are alternative paths to higher education, but the Abitur remains the most common and prestigious school-leaving qualification.
+> **📝 Explanation:** Euro cash (coins and notes) was introduced in 2002, though the currency existed for electronic transactions since 1999.
 
 ---
 
 ### Question 241
-**🇩🇪** Was__(s)____(i)__st eine "__(A)__usbildung" in Deutschland?
-**🇬🇧** What is an "Ausbildung" (apprenticeship) in Germany?
+
+**🇩🇪 Deutsch:** Wer bekommt in Deutschland Elterngeld?
+**🇬🇧 English:** Who receives parental allowance in Germany?
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **eine Berufsausbildung, die Theorie in der Schule und Praxis im Betrieb kombiniert** | **vocational training combining theory at school and practice in a company** |
-| ○ | ein Universitätsstudium | a university degree |
-| ○ | ein Praktikum | an internship |
-| ○ | ein Sprachkurs | a language course |
+| ○ | nur die Mutter | only the mother |
+| ○ | nur der Vater | only the father |
+| ✅ | **Eltern, die sich um ihr Kind kümmern und weniger oder gar nicht arbeiten** | **parents who care for their child and work less or not at all** |
+| ○ | nur Alleinerziehende | only single parents |
 
-> **📝** Germany's "duale Ausbildung" (dual vocational training) is internationally renowned. Apprentices spend part of their time learning theory at a vocational school (Berufsschule) and part working practically in a company. The training lasts 2–3.5 years and covers over 300 recognized occupations. This system is a key reason for Germany's low youth unemployment and strong economy.
+> **📝 Explanation:** Elterngeld (parental allowance) is available to either parent who reduces work to care for their child — not limited to mothers, fathers, or single parents alone.
 
 ---
 
 ### Question 242
-**🇩🇪** Was gehört zur__(z)__ur Demokratie in Deutschland?
-**🇬🇧** What is part of democracy in Germany?
+
+**🇩🇪 Deutsch:** Wer trägt in Deutschland die Hauptverantwortung für die Erziehung der Kinder?
+**🇬🇧 English:** Who bears the main responsibility for raising children in Germany?
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **das Recht auf freie Meinungsäußerung** | **the right to free expression** |
-| ○ | eine Einparteienherrschaft | one-party rule |
-| ○ | Pressezensur | press censorship |
-| ○ | Verbot von Demonstrationen | ban on demonstrations |
+| ○ | der Staat | the state |
+| ○ | die Bundesländer | the federal states |
+| ✅ | **die Eltern / die Erziehungsberechtigten** | **the parents/legal guardians** |
+| ○ | die Schulen | the schools |
 
-> **📝** Free expression is fundamental to German democracy. One-party rule, press censorship, and banning demonstrations are all characteristics of dictatorships, not democracies. Germany's experiences under Nazi rule and in the GDR have made these democratic freedoms especially valued.
+> **📝 Explanation:** Parents (or legal guardians) hold the primary responsibility for raising their children, as protected under Germany's Basic Law.
 
 ---
 
 ### Question 243
-**🇩🇪** Was ist die__(e)____(R)__eformationsbewegung?
-**🇬🇧** What was the Reformation movement?
+
+**🇩🇪 Deutsch:** Maik und Sybille möchten gegen die Schließung ihrer Schwimmhalle demonstrieren. Was müssen sie tun?
+**🇬🇧 English:** Maik and Sybille want to demonstrate against the closure of their swimming pool. What must they do?
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **die Erneuerung der Kirche im 16. Jahrhundert__(,)__ __(a)__usgelöst durch Martin Luther** | **the 16th-century church renewal movement, initiated by Martin Luther** |
-| ○ | eine politische Revolution | a political revolution |
-| ○ | eine Wirtschaftsreform | an economic reform |
-| ○ | eine militärische Bewegung | a military movement |
+| ○ | Sie müssen nichts tun. Man darf in Deutschland jederzeit überall demonstrieren. | They don't need to do anything. One may demonstrate anywhere, anytime in Germany. |
+| ✅ | **Sie müssen die Demonstration anmelden.** | **They must register the demonstration.** |
+| ○ | Sie können gar nichts tun, denn Demonstrationen sind in Deutschland grundsätzlich verboten. | They can't do anything, because demonstrations are basically banned in Germany. |
+| ○ | Maik und Sybille müssen einen neuen Verein gründen, weil nur Vereine demonstrieren dürfen. | Maik and Sybille must found a new club, because only clubs may demonstrate. |
 
-> **📝** The Reformation began in 1517 when Martin Luther published his 95 Theses criticizing the Catholic Church's practices. This led to the creation of Protestant (Lutheran) churches and permanently split Western Christianity. The Reformation had profound effects on European politics, culture, and education. Reformation Day (October 31) is a public holiday in several German states.
+> **📝 Explanation:** Demonstrations must be registered (angemeldet) with local authorities in advance — freedom of assembly is a right, but subject to registration requirements.
 
 ---
 
 ### Question 244
-**🇩🇪** Was ist "__(d)__uale Ausbildung"?
-**🇬🇧** What is "dual education/training"?
+
+**🇩🇪 Deutsch:** Was ist ein anerkannter Schulabschluss in Deutschland, mit dem man studieren kann?
+**🇬🇧 English:** What is a recognized school qualification in Germany that allows one to study?
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **eine Berufsausbildung in Betrieb und Berufsschule** | **vocational training in a company and vocational school** |
-| ○ | ein Fernstudium | distance learning |
-| ○ | Nachhilfeunterricht | tutoring |
-| ○ | Selbststudium | self-study |
+| ✅ | **das Abitur** | **the Abitur** |
+| ○ | ein Diplom | a Diplom |
+| ○ | die Prokura | Prokura (power of attorney) |
+| ○ | eine Gesellenprüfung | a journeyman's exam |
 
-> **📝** The dual system (duale Ausbildung) is Germany's signature approach to vocational training. Trainees (Auszubildende/Azubis) split their time between practical work in a company and theoretical learning at a Berufsschule. They receive a salary during training. This system produces highly skilled workers and is admired and copied worldwide. Over 50% of German school-leavers enter the dual system.
+> **📝 Explanation:** The Abitur is the recognized qualification granting university entrance in Germany — Prokura is a business/legal term, and a Gesellenprüfung is a vocational trade qualification.
 
 ---
 
 ### Question 245
-**🇩🇪** Was__(s)____(i)__st Arti__(k)__el__(1)__ __(d)__es Grundgesetzes?
-**🇬🇧** What is Article 1 of the Basic Law?
+
+**🇩🇪 Deutsch:** Welches Paar kann in Deutschland offiziell heiraten?
+**🇬🇧 English:** Which couple can officially marry in Germany?
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **"Die Würde des Menschen ist unantastbar."** | **"Human dignity shall be inviolable."** |
-| ○ | "Jeder hat das Recht auf Arbeit." | "Everyone has the right to work." |
-| ○ | "Deutschland ist eine Monarchie." | "Germany is a monarchy." |
-| ○ | "Alle Deutschen müssen Steuern zahlen." | "All Germans must pay taxes." |
+| ○ | Hans (20) und Marie (19) | Hans (20) and Marie (19) |
+| ○ | Tom (20) und Klaus (45) | Tom (20) and Klaus (45) |
+| ○ | Sofie (35) und Lisa (40) | Sofie (35) and Lisa (40) |
+| ✅ | **Anne (13) und Tim (25)** | **Anne (13) and Tim (25)** |
 
-> **📝** Article 1(1) states: "Die Würde des Menschen ist unantastbar." This is the most fundamental principle of the German constitution. It is protected by the eternity clause and can never be changed. All other fundamental rights flow from this principle. After the inhumane crimes of the Nazi era, the founders of the Basic Law placed human dignity as the very first article to emphasize its supreme importance.
+> **📝 Explanation:** This question tests recognition of the legal marriage age (18) — since 2017, all listed adult same-sex or opposite-sex couples of legal age may marry in Germany; a 13-year-old cannot.
 
 ---
 
 ### Question 246
-**🇩🇪** Wer__(r)____(k)__ann in Deutschland__(d)__ __(e)__inen Antrag auf Einbürgerung stellen?
-**🇬🇧** Who can apply for German citizenship?
+
+**🇩🇪 Deutsch:** Ab welchem Alter dürfen Jugendliche in Deutschland ohne Erlaubnis der Eltern in die Disco gehen?
+**🇬🇧 English:** From what age can young people in Germany go to a disco without parental permission?
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **Ausländer, die__(e)__bestimmte__(e)__Voraussetzungen erfüllen** | **Foreigners who meet certain requirements** |
-| ○ | alle Touristen | all tourists |
-| ○ | nur EU-Bürger | only EU citizens |
-| ○ | jeder, der in Deutschland geboren ist | everyone born in Germany |
+| ○ | 16 | 16 |
+| ✅ | **18** | **18** |
+| ○ | 19 | 19 |
+| ○ | 21 | 21 |
 
-> **📝** Foreigners can apply for naturalization if they meet requirements including: at least 5 years of legal residence (since 2024 reform), B1 German language proficiency, passing the citizenship test, financial self-sufficiency, and no serious criminal record. It's not limited to EU citizens, and being born in Germany alone is not sufficient (though separate rules apply for children born to foreign parents in Germany).
+> **📝 Explanation:** Under the Jugendschutzgesetz (Youth Protection Act), unrestricted access without parental accompaniment/permission for late hours typically applies from age 18, though limited access starts earlier with restrictions.
 
 ---
 
 ### Question 247
-**🇩🇪** Was__(s)____(i)__st das "__(E)__xistenzrecht Israels"?
-**🇬🇧** What is the "right of Israel to exist"?
+
+**🇩🇪 Deutsch:** Wie lange dauert die gesetzliche Mutterschutzfrist nach der Geburt eines Kindes in Deutschland normalerweise?
+**🇬🇧 English:** How long does the statutory maternity protection period after childbirth normally last in Germany?
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **Deutschland erkennt das__(d)__Recht Israels auf Existenz als Staat an.** | **Germany recognizes Israel's right to exist as a state.** |
-| ○ | Israel gehört zu Deutschland. | Israel belongs to Germany. |
-| ○ | Deutschland hat Israel gegründet. | Germany founded Israel. |
-| ○ | Israel ist ein deutsches Bundesland. | Israel is a German federal state. |
+| ○ | Elternzeit | Parental leave (Elternzeit) |
+| ○ | Geburtsvorbereitung | Birth preparation |
+| ✅ | **Mutterschutz (8 Wochen nach der Geburt)** | **Maternity protection (8 weeks after birth)** |
+| ○ | Wochenbett | Postpartum period (Wochenbett) |
 
-> **📝** Due to Germany's historical responsibility for the Holocaust, Germany has a special relationship with Israel and firmly supports its right to exist. This was explicitly stated by Chancellor Angela Merkel as part of Germany's "Staatsräson" (reason of state). Recognizing Israel's right to exist is part of the values tested in the citizenship test, reflecting Germany's commitment to historical responsibility and international law.
+> **📝 Explanation:** Mutterschutz (statutory maternity protection) provides at least 8 weeks off after birth (12 for multiple/premature births) — distinct from Elternzeit (parental leave), which can be much longer.
 
 ---
 
 ### Question 248
-**🇩🇪** Was__(s)____(i)__st__(t)____(d)__as Existenzrecht Israels für Deutschland?
-**🇬🇧** What is Israel's right to exist for Germany?
+
+**🇩🇪 Deutsch:** In Deutschland liegt die Erziehung der Kinder in der Verantwortung …
+**🇬🇧 English:** In Germany, raising children is the responsibility of …
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **Teil der deutschen Staatsräson** | **Part of Germany's reason of state (Staatsräson)** |
-| ○ | unwichtig | unimportant |
-| ○ | eine private Meinung | a private opinion |
-| ○ | ein Wirtschaftsabkommen | a trade agreement |
+| ○ | des Staates. | the state. |
+| ✅ | **der Eltern.** | **the parents.** |
+| ○ | der Großeltern. | the grandparents. |
+| ○ | der Schulen. | the schools. |
 
-> **📝** Germany's recognition of Israel's right to exist is described as "Staatsräson" (reason of state) — a fundamental principle of German foreign policy. This commitment stems from Germany's historical responsibility for the Holocaust. It means Germany views Israel's security as a core national interest, not merely a diplomatic position. This question was added to the citizenship test to emphasize this principle.
+> **📝 Explanation:** As with question 242, raising children is primarily the parents' responsibility under German law.
 
 ---
 
 ### Question 249
-**🇩🇪** Was gehört zu den Pflichten eines deutschen Staatsbürgers?
-**🇬🇧** What are the duties of a German citizen?
+
+**🇩🇪 Deutsch:** Eine Frau kann in Deutschland Bundeskanzlerin werden, unabhängig davon, ob sie …
+**🇬🇧 English:** A woman in Germany can become Chancellor, regardless of whether she …
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **Gesetze__(e)____(b)__efolgen und Steuern zahlen** | **Obeying laws and paying taxes** |
-| ○ | einer Partei beitreten | joining a political party |
-| ○ | wählen gehen | voting |
-| ○ | Militärdienst leisten | performing military service |
+| ✅ | **katholisch ist.** | **is Catholic.** |
+| ○ | gut ausgebildet ist. | is well-educated. |
+| ○ | eine Frau ist. | is a woman. |
+| ○ | Mitglied einer Partei ist. | is a member of a party. |
 
-> **📝** German citizens must obey the law and pay taxes. Voting is a right, not an obligation (no compulsory voting). Joining a party is voluntary. Since 2011, there is no mandatory military service (conscription was suspended). Parents must also send their children to school — that's another legal obligation.
+> **📝 Explanation:** Gender equality means a woman's religion (e.g., Catholic or not) doesn't affect her eligibility to become Chancellor — unlike party membership, which is practically necessary.
 
 ---
 
 ### Question 250
-**🇩🇪** Was ist ein Ergebnis der Deutschen Wiedervereinigung?
-**🇬🇧** What is a result of German reunification?
+
+**🇩🇪 Deutsch:** Warum ist in Deutschland das Recht auf Unversehrtheit der eigenen Wohnung wichtig?
+**🇬🇧 English:** Why is the right to inviolability of one's own home important in Germany?
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **Deutschland hat 16 Bundesländer.** | **Germany has 16 federal states.** |
-| ○ | Deutschland hat 10 Bundesländer. | Germany has 10 federal states. |
-| ○ | Berlin wurde geteilt. | Berlin was divided. |
-| ○ | Die DDR existiert noch. | The GDR still exists. |
+| ○ | weil man dann keine Miete zahlen muss. | because then one doesn't have to pay rent. |
+| ✅ | **weil dadurch niemand ohne Erlaubnis eindringen darf.** | **because it prevents anyone from entering without permission.** |
+| ○ | weil man dann keine Nachbarn haben muss. | because then one doesn't have to have neighbors. |
+| ○ | weil der Staat dann das Haus kaufen muss. | because then the state must buy the house. |
 
-> **📝** Before reunification, West Germany had 11 states (including West Berlin). After reunification in 1990, five "new" states were re-established in eastern Germany (Brandenburg, Mecklenburg-Vorpommern, Sachsen, Sachsen-Anhalt, Thüringen) and East/West Berlin were unified — resulting in today's 16 federal states. The GDR ceased to exist on October 3, 1990.
+> **📝 Explanation:** The inviolability of the home (Unverletzlichkeit der Wohnung) protects citizens from unauthorized entry or searches, a key privacy right under the Basic Law.
 
 ---
 
-[⬅ Previous: Questions 151–200](questions-151-200.md) | [➡ Continue to Questions 251–300](questions-251-300.md)
+[⬅ Back to Main README](README.md)

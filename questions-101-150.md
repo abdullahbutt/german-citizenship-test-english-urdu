@@ -1,163 +1,174 @@
 # General Questions — Part 3 (Questions 101–150)
 ## Legal System, Government, EU & Civic Life
 
-[⬅ Back to Main README](README.md) | [⬅ Previous: Questions 51–100](questions-051-100.md)
+[⬅ Back to Main README](README.md)
 
 ---
 
 ### Question 101
-**🇩🇪** Was ist eine kommunale Aufgabe in Deutschland?
-**🇬🇧** What is a municipal task in Germany?
+
+**🇩🇪 Deutsch:** Gewerkschaften sind Interessenverbände der …
+**🇬🇧 English:** Trade unions are interest associations of …
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **Trinkwasserversorgung** | **Drinking water supply** |
-| ○ | Verteidigung | Defense |
-| ○ | Außenpolitik | Foreign policy |
-| ○ | Polizeirecht | Police law |
+| ○ | Jugendlichen. | young people. |
+| ✅ | **Arbeitnehmer und Arbeitnehmerinnen.** | **employees.** |
+| ○ | Rentner und Rentnerinnen. | retirees. |
+| ○ | Arbeitgeber und Arbeitgeberinnen. | employers. |
 
-> **📝** Municipal governments provide local services like drinking water, waste disposal, and local roads. Defense and foreign policy are federal, police law is state-level.
+> **📝 Explanation:** Trade unions (Gewerkschaften) represent the interests of employees (workers), negotiating wages and working conditions with employers.
 
 ---
 
 ### Question 102
-**🇩🇪** Wer wird bei den Kommunalwahlen gewählt?
-**🇬🇧** Who is elected in municipal elections?
+
+**🇩🇪 Deutsch:** Womit kann man in der Bundesrepublik Deutschland geehrt werden, wenn man auf politischem, wirtschaftlichem, kulturellem, geistigem oder sozialem Gebiet eine besondere Leistung erbracht hat? Mit dem …
+**🇬🇧 English:** With what can one be honored in Germany for special achievement in political, economic, cultural, intellectual, or social fields? With the …
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **der Bürgermeister / die Bürgermeisterin** | **the Mayor** |
-| ○ | der Bundespräsident | the Federal President |
-| ○ | der Bundeskanzler | the Federal Chancellor |
-| ○ | der Ministerpräsident | the Minister-President |
+| ○ | Bundesadler. | Federal Eagle. |
+| ✅ | **Bundesverdienstkreuz.** | **Federal Cross of Merit.** |
+| ○ | Vaterländischen Verdienstorden. | Patriotic Order of Merit. |
+| ○ | Ehrentitel „Held der Deutschen Demokratischen Republik". | Honorary title "Hero of the GDR". |
 
-> **📝** Municipal elections elect mayors and local councils. EU citizens living in Germany can also vote in these elections. Federal and state officials are elected separately.
+> **📝 Explanation:** The Bundesverdienstkreuz (Federal Cross of Merit) is Germany's highest honor for outstanding contributions; the other options are either symbols, not awards, or from the former GDR.
 
 ---
 
 ### Question 103
-**🇩🇪** Wie viel Prozent der Zweitstimmen muss eine Partei mindestens bekommen, um in den Bundestag einzuziehen?
-**🇬🇧** What minimum percentage of second votes must a party receive to enter the Bundestag?
+
+**🇩🇪 Deutsch:** Was wird in Deutschland als „Ampelkoalition“ bezeichnet? Die Zusammenarbeit …
+**🇬🇧 English:** What is called the "traffic light coalition" in Germany? The cooperation …
 
 | | Deutsch | English |
 |---|---|---|
-| ○ | 3 % | 3% |
-| ✅ | **5 %** | **5%** |
-| ○ | 10 % | 10% |
-| ○ | 15 % | 15% |
+| ○ | der Bundestagsfraktionen von CDU und CSU | of the CDU and CSU parliamentary groups |
+| ✅ | **von SPD, FDP und Bündnis 90/Die Grünen in einer Regierung** | **of SPD, FDP, and Bündnis 90/Die Grünen in one government** |
+| ○ | von CSU, Die Linke und Bündnis 90/Die Grünen in einer Regierung | of CSU, Die Linke, and Bündnis 90/Die Grünen in one government |
+| ○ | der Bundestagsfraktionen von CDU und SPD | of the CDU and SPD parliamentary groups |
 
-> **📝** The 5% threshold prevents parliamentary fragmentation — a lesson from the Weimar Republic where many tiny parties made stable government impossible. Exception: winning 3+ direct constituencies also qualifies.
+> **📝 Explanation:** The "traffic light coalition" (Ampelkoalition) refers to a government of SPD (red), FDP (yellow), and Bündnis 90/Die Grünen (green) — matching traffic light colors.
 
 ---
 
 ### Question 104
-**🇩🇪** Was passiert, wenn man in Deutschland gegen ein Gesetz verstößt?
-**🇬🇧** What happens if you violate a law in Germany?
+
+**🇩🇪 Deutsch:** Eine Frau in Deutschland verliert ihre Arbeit. Was darf nicht der Grund für diese Entlassung sein?
+**🇬🇧 English:** A woman in Germany loses her job. What must NOT be the reason for this dismissal?
 
 | | Deutsch | English |
 |---|---|---|
-| ○ | Man kommt immer ins Gefängnis. | You always go to prison. |
-| ✅ | **Man muss mit einer Strafe rechnen.** | **You must expect a penalty.** |
-| ○ | Nichts. | Nothing. |
-| ○ | Man muss das Land verlassen. | You must leave the country. |
+| ○ | Die Frau ist lange krank und arbeitsunfähig. | The woman is sick for a long time and unable to work. |
+| ○ | Die Frau kam oft zu spät zur Arbeit. | The woman was often late for work. |
+| ○ | Die Frau erledigt private Sachen während der Arbeitszeit. | The woman does personal things during work hours. |
+| ✅ | **Die Frau bekommt ein Kind und ihr Chef weiß das.** | **The woman is having a child and her boss knows it.** |
 
-> **📝** Breaking the law leads to consequences, but not always prison. Penalties range from fines to probation to imprisonment depending on severity. Courts decide the appropriate punishment.
+> **📝 Explanation:** Pregnancy is legally protected in Germany (Mutterschutz) — dismissing a woman because she is having a child is illegal, unlike the other listed conduct-related reasons.
 
 ---
 
 ### Question 105
-**🇩🇪** Was ist eine Aufgabe der Polizei in Deutschland?
-**🇬🇧** What is a task of the police in Germany?
+
+**🇩🇪 Deutsch:** Was ist eine Aufgabe von Wahlhelfern / Wahlhelferinnen in Deutschland?
+**🇬🇧 English:** What is a task of election helpers in Germany?
 
 | | Deutsch | English |
 |---|---|---|
-| ○ | Gesetze machen | Making laws |
-| ✅ | **die öffentliche Sicherheit und Ordnung gewährleisten** | **ensuring public safety and order** |
-| ○ | Richter ernennen | Appointing judges |
-| ○ | Steuern erheben | Collecting taxes |
+| ○ | Sie helfen alten Menschen bei der Stimmabgabe in der Wahlkabine. | They help elderly people cast their vote in the voting booth. |
+| ○ | Sie schreiben die Wahlbenachrichtigungen vor der Wahl. | They write voting notifications before the election. |
+| ○ | Sie geben Zwischenergebnisse an die Medien weiter. | They pass interim results to the media. |
+| ✅ | **Sie zählen die Stimmen nach dem Ende der Wahl.** | **They count the votes after the election ends.** |
 
-> **📝** The police are part of the Executive branch. They maintain public safety — not make laws (Legislative), appoint judges, or collect taxes (Finanzamt). German police forces are mostly organized at state level.
+> **📝 Explanation:** Election helpers (Wahlhelfer/innen) are volunteers whose main task is counting the votes after polls close — they don't write official notifications or brief the media.
 
 ---
 
 ### Question 106
-**🇩🇪** Was bedeutet "Rechtsstaatlichkeit" in Deutschland?
-**🇬🇧** What does "rule of law" mean in Germany?
+
+**🇩🇪 Deutsch:** In Deutschland helfen ehrenamtliche Wahlhelfer und Wahlhelferinnen bei den Wahlen. Was ist eine Aufgabe von Wahlhelfern / Wahlhelferinnen?
+**🇬🇧 English:** In Germany, volunteer election helpers assist with elections. What is a task of election helpers?
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **Alle, auch der Staat, müssen sich an die Gesetze halten.** | **Everyone, including the state, must obey the laws.** |
-| ○ | Der Staat steht über dem Gesetz. | The state is above the law. |
-| ○ | Nur Bürger müssen Gesetze befolgen. | Only citizens must follow laws. |
-| ○ | Gesetze gelten nur für Ausländer. | Laws only apply to foreigners. |
+| ○ | Sie helfen Kindern und alten Menschen beim Wählen. | They help children and elderly people vote. |
+| ○ | Sie schreiben Karten und Briefe mit der Angabe des Wahllokals. | They write cards and letters stating the polling station. |
+| ○ | Sie geben Zwischenergebnisse an Journalisten weiter. | They pass interim results to journalists. |
+| ✅ | **Sie zählen die Stimmen nach dem Ende der Wahl.** | **They count the votes after the election ends.** |
 
-> **📝** The Rechtsstaat principle means government officials, police, and courts are all bound by law. No one is above the law. This protects citizens from arbitrary state action.
+> **📝 Explanation:** Like other election helpers, their core job is counting votes once polling ends — not writing notifications or briefing journalists.
 
 ---
 
 ### Question 107
-**🇩🇪** Was ist die "Ewigkeitsklausel" des Grundgesetzes?
-**🇬🇧** What is the "eternity clause" of the Basic Law?
+
+**🇩🇪 Deutsch:** Für wie viele Jahre wird der Bundestag in Deutschland gewählt?
+**🇬🇧 English:** For how many years is the Bundestag elected in Germany?
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **Bestimmte Grundsätze des Grundgesetzes dürfen nicht verändert werden.** | **Certain core principles of the Basic Law may never be changed.** |
-| ○ | Das Grundgesetz gilt für immer ohne jede Änderung. | The Basic Law applies forever without any change. |
-| ○ | Der Bundeskanzler regiert für immer. | The Chancellor governs forever. |
-| ○ | Deutschland darf nie eine neue Verfassung bekommen. | Germany may never get a new constitution. |
+| ○ | 2 Jahre | 2 years |
+| ✅ | **4 Jahre** | **4 years** |
+| ○ | 6 Jahre | 6 years |
+| ○ | 8 Jahre | 8 years |
 
-> **📝** Article 79(3) protects core principles like human dignity (Art. 1) and democracy/federalism (Art. 20) from EVER being abolished. Other parts of the Basic Law CAN be amended with a two-thirds majority.
+> **📝 Explanation:** The Bundestag's term (Legislaturperiode) is 4 years.
 
 ---
 
 ### Question 108
-**🇩🇪** Was bedeutet "Gewaltenteilung"?
-**🇬🇧** What does "separation of powers" mean?
+
+**🇩🇪 Deutsch:** Bei einer Bundestagswahl in Deutschland darf jeder wählen, der …
+**🇬🇧 English:** In a Bundestag election in Germany, anyone may vote who …
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **Die Staatsgewalt ist aufgeteilt in Legislative, Exekutive und Judikative.** | **State power is divided into legislative, executive, and judicial branches.** |
-| ○ | Alle Macht liegt beim Bundeskanzler. | All power lies with the Chancellor. |
-| ○ | Die Polizei macht die Gesetze. | The police make the laws. |
-| ○ | Die Richter regieren das Land. | The judges govern the country. |
+| ○ | in der Bundesrepublik Deutschland wohnt und wählen möchte. | lives in Germany and wants to vote. |
+| ✅ | **Bürger / Bürgerin der Bundesrepublik Deutschland ist und mindestens 18 Jahre alt ist.** | **is a citizen of Germany and at least 18 years old.** |
+| ○ | seit mindestens 3 Jahren in der Bundesrepublik Deutschland lebt. | has lived in Germany for at least 3 years. |
+| ○ | Bürger / Bürgerin der Bundesrepublik Deutschland ist und mindestens 21 Jahre alt ist. | is a citizen of Germany and at least 21 years old. |
 
-> **📝** Separation of powers prevents concentration of power: the Bundestag makes laws (Legislative), the government enforces them (Executive), and courts interpret them (Judiciary). Each branch checks the others.
+> **📝 Explanation:** Only German citizens aged 18 or older may vote in Bundestag elections — residency alone is not sufficient.
 
 ---
 
 ### Question 109
-**🇩🇪** Was gehört nicht zu den Aufgaben des Bundespräsidenten?
-**🇬🇧** What is NOT a duty of the Federal President?
+
+**🇩🇪 Deutsch:** Wie oft gibt es normalerweise Bundestagswahlen in Deutschland?
+**🇬🇧 English:** How often are federal elections normally held in Germany?
 
 | | Deutsch | English |
 |---|---|---|
-| ○ | Gesetze unterschreiben | Signing laws |
-| ○ | den Bundestag auflösen | Dissolving the Bundestag |
-| ✅ | **Richtlinien der Politik bestimmen** | **Determining policy guidelines** |
-| ○ | den Bundeskanzler ernennen | Appointing the Chancellor |
+| ○ | alle drei Jahre | every three years |
+| ✅ | **alle vier Jahre** | **every four years** |
+| ○ | alle fünf Jahre | every five years |
+| ○ | alle sechs Jahre | every six years |
 
-> **📝** Setting policy guidelines (Richtlinienkompetenz) is the Chancellor's job. The President has a ceremonial role: signing laws, appointing officials, and representing Germany. This design prevents concentration of power.
+> **📝 Explanation:** Federal elections normally take place every four years, matching the Bundestag's term length.
 
 ---
 
 ### Question 110
-**🇩🇪** Welche Partei gehörte nicht zu den langjährigen Parteien in Deutschland?
-**🇬🇧** Which party was NOT a long-established party in Germany?
+
+**🇩🇪 Deutsch:** Für wie viele Jahre wird der Bundestag in Deutschland gewählt?
+**🇬🇧 English:** For how many years is the Bundestag elected in Germany?
 
 | | Deutsch | English |
 |---|---|---|
-| ○ | CDU | CDU |
-| ○ | SPD | SPD |
-| ✅ | **PDS** | **PDS** |
-| ○ | FDP | FDP |
+| ○ | 2 Jahre | 2 years |
+| ○ | 3 Jahre | 3 years |
+| ✅ | **4 Jahre** | **4 years** |
+| ○ | 5 Jahre | 5 years |
 
-> **📝** The PDS (Party of Democratic Socialism) was the successor to East Germany's ruling SED party, only existing in reunified Germany from 1990. It later merged into Die Linke (2007). CDU, SPD, and FDP have existed since 1945/1949.
+> **📝 Explanation:** As with question 107, the Bundestag's term is 4 years.
 
 ---
 
-### Question 111 *(Updated July 2024 — Israel's Right to Exist)*
-**🇩🇪** Welche Handlungen mit Bezug auf den Staat Israel sind in Deutschland verboten?
-**🇬🇧** Which actions relating to the State of Israel are prohibited in Germany?
+### Question 111
+
+**🇩🇪 Deutsch:** Welche Handlungen mit Bezug auf den Staat Israel sind in Deutschland verboten?
+**🇬🇧 English:** Which actions relating to the State of Israel are prohibited in Germany?
 
 | | Deutsch | English |
 |---|---|---|
@@ -166,103 +177,110 @@
 | ○ | eine Diskussion über die Politik Israels | a discussion about Israel's policies |
 | ✅ | **der öffentliche Aufruf zur Vernichtung Israels** | **publicly calling for the destruction of Israel** |
 
-> **📝** Publicly calling for the destruction of Israel is a criminal offense in Germany. However, criticizing Israeli government policies, displaying Israeli flags, and discussing Israeli politics are all perfectly legal and protected by freedom of speech. The distinction is crucial: political criticism is allowed; calling for the elimination of a state is incitement and violates German law.
+> **📝 Explanation:** Publicly calling for the destruction of Israel is a criminal offense in Germany. However, criticizing Israeli government policies, displaying Israeli flags, and discussing Israeli politics are all perfectly legal and protected by freedom of speech. The distinction is crucial: political criticism is allowed; calling for the elimination of a state is incitement and violates German law.
 
 ---
 
 ### Question 112
-**🇩🇪** Wie heißt die politische Vereinigung von CDU und CSU?
-**🇬🇧** What is the political alliance of CDU and CSU called?
+
+**🇩🇪 Deutsch:** Die Wahlen in Deutschland sind …
+**🇬🇧 English:** Elections in Germany are …
 
 | | Deutsch | English |
 |---|---|---|
-| ○ | Koalition | Coalition |
-| ✅ | **Union** | **Union** |
-| ○ | Fraktion | Parliamentary group |
-| ○ | Föderation | Federation |
+| ○ | speziell. | special. |
+| ✅ | **geheim.** | **secret.** |
+| ○ | berufsbezogen. | profession-based. |
+| ○ | geschlechtsabhängig. | gender-dependent. |
 
-> **📝** The CDU (all states except Bavaria) and CSU (Bavaria only) are sister parties collectively called "the Union." They always form a joint parliamentary group in the Bundestag and have never competed against each other.
+> **📝 Explanation:** German elections are secret (geheim) — one of the five key election principles (universal, direct, free, equal, secret).
 
 ---
 
 ### Question 113
-**🇩🇪** Wer gehört zu den Verfassungsorganen Deutschlands?
-**🇬🇧** Which belongs to Germany's constitutional organs?
+
+**🇩🇪 Deutsch:** Wahlen in Deutschland gewinnt die Partei, die …
+**🇬🇧 English:** In Germany, the party that wins elections is the one that …
 
 | | Deutsch | English |
 |---|---|---|
-| ○ | der TÜV | the TÜV |
-| ✅ | **der Bundestag** | **the Bundestag** |
-| ○ | das Arbeitsamt | the Employment Office |
-| ○ | das Gesundheitsamt | the Health Office |
+| ✅ | **die meisten Stimmen bekommt.** | **gets the most votes.** |
+| ○ | die meisten Männer mehrheitlich gewählt haben. | was voted for mostly by men. |
+| ○ | die meisten Stimmen bei den Arbeitern / Arbeiterinnen bekommen hat. | got the most votes among workers. |
+| ○ | die meisten Erststimmen für ihren Kanzlerkandidaten / ihre Kanzlerkandidatin erhalten hat. | got the most first votes for its chancellor candidate. |
 
-> **📝** Germany's five constitutional organs: Bundestag, Bundesrat, Federal President, Federal Government, and Federal Constitutional Court. TÜV is a private inspection body; employment and health offices are government agencies, not constitutional organs.
+> **📝 Explanation:** The party (or coalition) with the most votes overall wins — not based on demographic subgroups or a specific vote type alone.
 
 ---
 
 ### Question 114
-**🇩🇪** Wofür ist der Bundesrat zuständig?
-**🇬🇧** What is the Bundesrat responsible for?
+
+**🇩🇪 Deutsch:** An demokratischen Wahlen in Deutschland teilzunehmen ist …
+**🇬🇧 English:** Participating in democratic elections in Germany is …
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **Vertretung der Bundesländer** | **Representation of the federal states** |
-| ○ | Wahl des Bundeskanzlers | Election of the Chancellor |
-| ○ | Kontrolle des Militärs | Control of the military |
-| ○ | Wahl des Bundespräsidenten | Election of the Federal President |
+| ○ | eine Pflicht. | an obligation. |
+| ✅ | **ein Recht.** | **a right.** |
+| ○ | ein Zwang. | a compulsion. |
+| ○ | eine Last. | a burden. |
 
-> **📝** The Bundesrat represents the 16 federal states in federal legislation. State governments send delegates. Each state has 3–6 votes based on population. Certain laws require Bundesrat approval.
+> **📝 Explanation:** Voting in Germany is a right (Recht), not a legal obligation — unlike in some countries with compulsory voting.
 
 ---
 
 ### Question 115
-**🇩🇪** Was muss man tun, wenn man einen Brief von einem Gericht bekommt?
-**🇬🇧** What must you do if you receive a letter from a court?
+
+**🇩🇪 Deutsch:** Was bedeutet „aktives Wahlrecht" in Deutschland?
+**🇬🇧 English:** What does "active voting right" mean in Germany?
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **Den Brief öffnen, lesen und die Fristen beachten.** | **Open the letter, read it, and observe deadlines.** |
-| ○ | Den Brief wegwerfen. | Throw the letter away. |
-| ○ | Den Brief ungeöffnet zurückschicken. | Send it back unopened. |
-| ○ | Einen Freund bitten, den Brief zu öffnen. | Ask a friend to open the letter. |
+| ○ | Man kann gewählt werden. | One can be elected (be a candidate). |
+| ○ | Man muss wählen gehen. | One must go vote. |
+| ✅ | **Man kann wählen.** | **One can vote.** |
+| ○ | Man muss zur Auszählung der Stimmen gehen. | One must go to the vote count. |
 
-> **📝** Court letters contain important legal notices with deadlines. Missing a deadline can result in default judgments against you. If you don't understand a court letter, seek legal advice immediately.
+> **📝 Explanation:** "Active voting right" (aktives Wahlrecht) means the right to vote — distinct from "passive voting right" (the right to stand as a candidate).
 
 ---
 
 ### Question 116
-**🇩🇪** Was ist eine "Petition"?
-**🇬🇧** What is a "petition"?
+
+**🇩🇪 Deutsch:** Wenn Sie bei einer Bundestagswahl in Deutschland wählen dürfen, heißt das …
+**🇬🇧 English:** If you are allowed to vote in a Bundestag election in Germany, this is called …
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **eine Beschwerde / ein Antrag an das Parlament** | **a complaint / request to parliament** |
-| ○ | eine Klage vor Gericht | a lawsuit in court |
-| ○ | ein Wahlzettel | a ballot |
-| ○ | eine Steuererklärung | a tax return |
+| ○ | aktive Wahlkampagne. | active election campaign. |
+| ○ | aktives Wahlverfahren. | active election procedure. |
+| ○ | aktiver Wahlkampf. | active election campaign. |
+| ✅ | **aktives Wahlrecht.** | **active voting right.** |
 
-> **📝** Article 17 of the Basic Law gives everyone — not just citizens — the right to submit petitions (requests or complaints) to parliament or authorities. The Bundestag has a Petitions Committee that reviews these.
+> **📝 Explanation:** The right to vote itself is called aktives Wahlrecht (active voting right).
 
 ---
 
 ### Question 117
-**🇩🇪** Wo sitzt das Bundesverfassungsgericht?
-**🇬🇧** Where is the Federal Constitutional Court located?
+
+**🇩🇪 Deutsch:** Wie viel Prozent der Zweitstimmen müssen Parteien mindestens bekommen, um in den Deutschen Bundestag gewählt zu werden?
+**🇬🇧 English:** What minimum percentage of second votes must parties get to be elected to the German Bundestag?
 
 | | Deutsch | English |
 |---|---|---|
-| ○ | Berlin | Berlin |
-| ○ | Bonn | Bonn |
-| ✅ | **Karlsruhe** | **Karlsruhe** |
-| ○ | München | Munich |
+| ○ | 3 % | 3% |
+| ○ | 4 % | 4% |
+| ✅ | **5 %** | **5%** |
+| ○ | 6 % | 6% |
 
-> **📝** The Federal Constitutional Court is in Karlsruhe, Baden-Württemberg, deliberately placed far from the capital to emphasize judicial independence. It's the highest authority on constitutional matters.
+> **📝 Explanation:** The 5% threshold (5%-Hürde) requires parties to win at least 5% of second votes nationwide (or 3 direct constituency seats) to enter the Bundestag.
 
 ---
 
-### Question 118 *(Updated July 2024 — Jewish Life in Germany)*
-**🇩🇪** Wer darf bei den rund 40 jüdischen Makkabi-Sportvereinen Mitglied werden?
-**🇬🇧** Who may become a member of the approximately 40 Jewish Makkabi sports clubs?
+### Question 118
+
+**🇩🇪 Deutsch:** Wer darf bei den rund 40 jüdischen Makkabi-Sportvereinen Mitglied werden?
+**🇬🇧 English:** Who may become a member of the approximately 40 Jewish Makkabi sports clubs?
 
 | | Deutsch | English |
 |---|---|---|
@@ -271,393 +289,432 @@
 | ○ | nur religiöse Menschen | only religious people |
 | ✅ | **alle Menschen** | **all people** |
 
-> **📝** The Makkabi sports clubs (named after the ancient Jewish Maccabees) are open to EVERYONE, regardless of religion, nationality, or background. There are about 40 Makkabi clubs across Germany. This question emphasizes that Jewish institutions in Germany are inclusive and part of broader German society. Makkabi Deutschland is a member of the German Olympic Sports Confederation (DOSB).
+> **📝 Explanation:** The Makkabi sports clubs (named after the ancient Jewish Maccabees) are open to EVERYONE, regardless of religion, nationality, or background. There are about 40 Makkabi clubs across Germany. This question emphasizes that Jewish institutions in Germany are inclusive and part of broader German society. Makkabi Deutschland is a member of the German Olympic Sports Confederation (DOSB).
 
 ---
 
 ### Question 119
-**🇩🇪** Welches Gericht ist in Deutschland für verfassungsrechtliche Fragen zuständig?
-**🇬🇧** Which court handles constitutional questions in Germany?
+
+**🇩🇪 Deutsch:** Wahlen in Deutschland sind frei. Was bedeutet das?
+**🇬🇧 English:** Elections in Germany are free. What does that mean?
 
 | | Deutsch | English |
 |---|---|---|
-| ○ | Amtsgericht | Local Court |
-| ○ | Landgericht | Regional Court |
-| ○ | Bundesgerichtshof | Federal Court of Justice |
-| ✅ | **Bundesverfassungsgericht** | **Federal Constitutional Court** |
+| ○ | Alle verurteilten Straftäter / Straftäterinnen dürfen nicht wählen. | All convicted criminals may not vote. |
+| ○ | Wenn ich wählen gehen möchte, muss mein Arbeitgeber / meine Arbeitgeberin mir frei geben. | If I want to vote, my employer must give me time off. |
+| ✅ | **Jede Person kann ohne Zwang entscheiden, ob sie wählen möchte und wen sie wählen möchte.** | **Every person can decide without coercion whether and whom to vote for.** |
+| ○ | Ich kann frei entscheiden, wo ich wählen gehen möchte. | I can freely decide where to go vote. |
 
-> **📝** Only the Federal Constitutional Court (Bundesverfassungsgericht) handles constitutional questions. The Amtsgericht and Landgericht are ordinary courts for civil and criminal matters. The Bundesgerichtshof is the highest court for regular civil/criminal cases but not constitutional ones.
+> **📝 Explanation:** "Free" elections mean voters decide without coercion whether to vote and for whom — not about polling location choice or employer obligations.
 
 ---
 
 ### Question 120
-**🇩🇪** Deutschland ist Mitglied der EU. Wann wurde die Europäische Wirtschaftsgemeinschaft (EWG) gegründet?
-**🇬🇧** When was the European Economic Community (EEC) founded?
+
+**🇩🇪 Deutsch:** Das Wahlsystem in Deutschland ist ein …
+**🇬🇧 English:** The electoral system in Germany is a …
 
 | | Deutsch | English |
 |---|---|---|
-| ○ | 1__(9)__49 | 1949 |
-| ✅ | **1957** | **1957** |
-| ○ | 1__(9)__63 | 1963 |
-| ○ | 1__(9)__72 | 1972 |
+| ○ | Zensuswahlrecht. | census suffrage. |
+| ○ | Dreiklassenwahlrecht. | three-class voting system. |
+| ✅ | **Mehrheits- und Verhältniswahlrecht.** | **majority and proportional representation system.** |
+| ○ | allgemeines Männerwahlrecht. | universal male suffrage. |
 
-> **📝** The EEC was founded in 1957 by the Treaty of Rome. The six founding members were Germany, France, Italy, Belgium, Netherlands, and Luxembourg. The EEC later evolved into the EU through the Maastricht Treaty (1992/93).
+> **📝 Explanation:** Germany uses a mixed-member proportional system combining majority voting (Erststimme, direct constituency) and proportional representation (Zweitstimme, party lists).
 
 ---
 
 ### Question 121
-**🇩🇪** Was ist die Europäische Union?
-**🇬🇧** What is the European Union?
+
+**🇩🇪 Deutsch:** Eine Partei möchte in den Deutschen Bundestag. Sie muss aber einen Mindestanteil an Wählerstimmen haben. Das heißt …
+**🇬🇧 English:** A party wants to enter the German Bundestag. But it must have a minimum share of voter support. This is called …
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **ein wirtschaftlicher und politischer Zusammenschluss europäischer Staaten** | **an economic and political union of European states** |
-| ○ | ein Militärbündnis | a military alliance |
-| ○ | ein Sportverband | a sports association |
-| ○ | eine Religionsgemeinschaft | a religious community |
+| ✅ | **5 %-Hürde.** | **5% threshold.** |
+| ○ | Zulassungsgrenze. | Admission limit. |
+| ○ | Basiswert. | Base value. |
+| ○ | Richtlinie. | Guideline. |
 
-> **📝** The EU is an economic and political union of 27 member states with a common market, shared laws, and (for many) a common currency (Euro). NATO is the military alliance; the EU is about economic integration and political cooperation.
+> **📝 Explanation:** This minimum vote requirement is called the 5%-Hürde (5% threshold/hurdle).
 
 ---
 
 ### Question 122
-**🇩🇪** Was ist kein EU-Mitgliedsstaat?
-**🇬🇧** Which is NOT an EU member state?
+
+**🇩🇪 Deutsch:** Welchem Grundsatz unterliegen Wahlen in Deutschland? Wahlen in Deutschland sind …
+**🇬🇧 English:** What principle governs elections in Germany? Elections in Germany are …
 
 | | Deutsch | English |
 |---|---|---|
-| ○ | Frankreich | France |
-| ○ | Italien | Italy |
-| ✅ | **die Türkei** | **Turkey** |
-| ○ | Spanien | Spain |
+| ✅ | **frei, gleich, geheim.** | **free, equal, secret.** |
+| ○ | offen, sicher, frei. | open, secure, free. |
+| ○ | geschlossen, gleich, sicher. | closed, equal, secure. |
+| ○ | sicher, offen, freiwillig. | secure, open, voluntary. |
 
-> **📝** Turkey is not in the EU despite applying in 1987 and starting accession talks in 2005. France, Italy, and Spain are founding/early members. Other non-EU European states include Switzerland, Norway, and (since 2020) the UK.
+> **📝 Explanation:** German elections follow five principles: universal, direct, free, equal, and secret — here shortened to free, equal, secret.
 
 ---
 
 ### Question 123
-**🇩🇪** Wer darf bei Kommunalwahlen in Deutschland wählen?
-**🇬🇧** Who may vote in municipal elections in Germany?
+
+**🇩🇪 Deutsch:** Was ist in Deutschland die „5 %-Hürde"?
+**🇬🇧 English:** What is the "5% threshold" in Germany?
 
 | | Deutsch | English |
 |---|---|---|
-| ○ | nur Deutsche | only Germans |
-| ✅ | **Deutsche und EU-Bürger/innen** | **Germans and EU citizens** |
-| ○ | alle Ausländer | all foreigners |
-| ○ | nur Männer | only men |
+| ○ | Abstimmungsregelung im Bundestag für kleine Parteien | Voting rule in the Bundestag for small parties |
+| ○ | Anwesenheitskontrolle im Bundestag für Abstimmungen | Attendance check in the Bundestag for votes |
+| ✅ | **Mindestanteil an Wählerstimmen, um ins Parlament zu kommen** | **Minimum share of voter votes required to enter parliament** |
+| ○ | Anwesenheitskontrolle im Bundesrat für Abstimmungen | Attendance check in the Bundesrat for votes |
 
-> **📝** EU law grants all EU citizens the right to vote in local elections wherever they reside in the EU. Non-EU foreigners cannot vote in any German elections. This EU-wide municipal voting right promotes European integration.
+> **📝 Explanation:** The 5% threshold is the minimum share of votes (5%) a party needs nationwide to enter parliament.
 
 ---
 
 ### Question 124
-**🇩🇪** Man darf in Deutschland nicht …
-**🇬🇧** In Germany, you are not allowed to …
+
+**🇩🇪 Deutsch:** Die Bundestagswahl in Deutschland ist die Wahl …
+**🇬🇧 English:** The Bundestag election in Germany is the election of the …
 
 | | Deutsch | English |
 |---|---|---|
-| ○ | einen Verein gründen | found an association |
-| ○ | eine Partei gründen | found a political party |
-| ✅ | **den Holocaust leugnen** | **deny the Holocaust** |
-| ○ | die Regierung kritisieren | criticize the government |
+| ○ | des Bundeskanzlers / der Bundeskanzlerin. | of the Federal Chancellor. |
+| ○ | der Parlamente der Länder. | of the state parliaments. |
+| ✅ | **des Parlaments für Deutschland.** | **of the parliament for Germany.** |
+| ○ | des Bundespräsidenten / der Bundespräsidentin. | of the Federal President. |
 
-> **📝** Holocaust denial is a criminal offense in Germany (§130 StGB — incitement to hatred). This reflects Germany's historical responsibility for the murder of six million Jews. Founding parties, associations, and criticizing the government are all protected rights.
+> **📝 Explanation:** The Bundestagswahl elects Germany's national parliament (the Bundestag itself), not the Chancellor or President directly.
 
 ---
 
 ### Question 125
-**🇩🇪** Welches Land ist ein Nachbarland von Deutschland?
-**🇬🇧** Which country is a neighbor of Germany?
+
+**🇩🇪 Deutsch:** In einer Demokratie ist eine Funktion von regelmäßigen Wahlen, …
+**🇬🇧 English:** In a democracy, one function of regular elections is to …
 
 | | Deutsch | English |
 |---|---|---|
-| ○ | Spanien | Spain |
-| ○ | Bulgarien | Bulgaria |
-| ✅ | **Polen** | **Poland** |
-| ○ | Großbritannien | Great Britain |
+| ○ | die Bürger und Bürgerinnen zu zwingen, ihre Stimme abzugeben. | to force citizens to cast their vote. |
+| ✅ | **nach dem Willen der Wählermehrheit den Wechsel der Regierung zu ermöglichen.** | **to enable a change of government according to the will of the majority of voters.** |
+| ○ | im Land bestehende Gesetze beizubehalten. | to preserve existing laws in the country. |
+| ○ | den Armen mehr Macht zu geben. | to give more power to the poor. |
 
-> **📝** Germany has 9 neighbors — more than any other European country: Denmark, Poland, Czech Republic, Austria, Switzerland, France, Luxembourg, Belgium, and the Netherlands. Spain, Bulgaria, and Great Britain do NOT border Germany.
+> **📝 Explanation:** Regular elections enable peaceful change of government based on voter majority will — a core democratic function.
 
 ---
 
 ### Question 126
-**🇩🇪** Wie heißt das Parlament für ganz Deutschland?
-**🇬🇧** What is the parliament for all of Germany called?
+
+**🇩🇪 Deutsch:** Was bekommen wahlberechtigte Bürger und Bürgerinnen in Deutschland vor einer Wahl?
+**🇬🇧 English:** What do eligible voters in Germany receive before an election?
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **Bundestag** | **Bundestag** |
-| ○ | Landtag | State Parliament |
-| ○ | Bundesrat | Bundesrat |
-| ○ | Bundesversammlung | Federal Convention |
+| ✅ | **eine Wahlbenachrichtigung von der Gemeinde** | **a voting notification from the municipality** |
+| ○ | eine Wahlerlaubnis vom Bundespräsidenten / von der Bundespräsidentin | a voting permit from the Federal President |
+| ○ | eine Benachrichtigung von der Bundesversammlung | a notification from the Federal Convention |
+| ○ | eine Benachrichtigung vom Pfarramt | a notification from the parish office |
 
-> **📝** The Bundestag is the national parliament elected directly by the people every 4 years. The Landtag is at state level, the Bundesrat represents states, and the Bundesversammlung only convenes to elect the President.
+> **📝 Explanation:** Eligible voters receive a Wahlbenachrichtigung (voting notification) from their local municipality ahead of elections.
 
 ---
 
 ### Question 127
-**🇩🇪** Was bedeutet "passives Wahlrecht"?
-**🇬🇧** What does "passive suffrage" mean?
+
+**🇩🇪 Deutsch:** Warum gibt es die 5 %-Hürde im Wahlgesetz der Bundesrepublik Deutschland? Es gibt sie, weil …
+**🇬🇧 English:** Why does the 5% threshold exist in German electoral law? It exists because …
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **Man darf sich selbst zur Wahl stellen.** | **You may stand as a candidate.** |
-| ○ | Man muss wählen gehen. | You must vote. |
-| ○ | Man darf nicht wählen. | You are not allowed to vote. |
-| ○ | Man hat kein Wahlrecht. | You have no voting right. |
+| ○ | die Programme von vielen kleinen Parteien viele Gemeinsamkeiten haben. | the programs of many small parties have a lot in common. |
+| ○ | die Bürger und Bürgerinnen bei vielen kleinen Parteien die Orientierung verlieren können. | citizens can lose orientation with too many small parties. |
+| ✅ | **viele kleine Parteien die Regierungsbildung erschweren.** | **many small parties make forming a government harder.** |
+| ○ | die kleinen Parteien nicht so viel Geld haben, um die Politiker und Politikerinnen zu bezahlen. | small parties don't have enough money to pay politicians. |
 
-> **📝** Passive suffrage = the right to BE elected. Active suffrage = the right TO vote. In German Bundestag elections, the minimum age for both active and passive suffrage is 18.
+> **📝 Explanation:** The threshold exists to prevent excessive party fragmentation, which historically made forming stable governments difficult (as in the Weimar Republic).
 
 ---
 
 ### Question 128
-**🇩🇪** In Deutschland gilt Religionsfreiheit. Was bedeutet das?
-**🇬🇧** Freedom of religion applies in Germany. What does that mean?
+
+**🇩🇪 Deutsch:** Parlamentsmitglieder, die von den Bürgern und Bürgerinnen gewählt werden, nennt man …
+**🇬🇧 English:** Members of parliament elected by citizens are called …
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **Jeder Mensch darf seinen Glauben frei leben und auch keiner Religion angehören.** | **Everyone may freely practice their faith and also belong to no religion.** |
-| ○ | Man darf nur in der Kirche beten. | You may only pray in church. |
-| ○ | Der Staat bestimmt die Religion. | The state determines religion. |
-| ○ | Alle müssen an Gott glauben. | Everyone must believe in God. |
+| ✅ | **Abgeordnete.** | **Members of parliament (Abgeordnete).** |
+| ○ | Kanzler / Kanzlerinnen. | Chancellors. |
+| ○ | Botschafter / Botschafterinnen. | Ambassadors. |
+| ○ | Ministerpräsidenten / Ministerpräsidentinnen. | Minister-Presidents. |
 
-> **📝** Article 4 of the Basic Law protects freedom of faith, conscience, and religious practice. This includes the right to be an atheist. The state cannot mandate any religion, and all faiths are equally protected.
+> **📝 Explanation:** Elected members of parliament are called Abgeordnete (members/deputies).
 
 ---
 
 ### Question 129
-**🇩🇪** Was bedeutet die "Unabhängigkeit der Gerichte"?
-**🇬🇧** What does "independence of the courts" mean?
+
+**🇩🇪 Deutsch:** Vom Volk gewählt wird in Deutschland …
+**🇬🇧 English:** In Germany, the people directly elect the …
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **Richter sind unabhängig und nur dem Gesetz verpflichtet.** | **Judges are independent and bound only by law.** |
-| ○ | Gerichte müssen die Regierung unterstützen. | Courts must support the government. |
-| ○ | Gerichte können von Politikern kontrolliert werden. | Courts can be controlled by politicians. |
-| ○ | Richter müssen Parteimitglieder sein. | Judges must be party members. |
+| ○ | der Bundeskanzler / die Bundeskanzlerin. | the Federal Chancellor. |
+| ○ | der Ministerpräsident / die Ministerpräsidentin eines Bundeslandes. | the Minister-President of a federal state. |
+| ✅ | **der Bundestag.** | **the Bundestag.** |
+| ○ | der Bundespräsident / die Bundespräsidentin. | the Federal President. |
 
-> **📝** Article 97: judges are independent and subject only to the law. No politician can tell a judge how to rule, and judges cannot be fired for their decisions. This is essential for fair trials and the rule of law.
+> **📝 Explanation:** Citizens directly elect the Bundestag; the Chancellor, Minister-Presidents, and Federal President are elected indirectly by other bodies.
 
 ---
 
 ### Question 130
-**🇩🇪** Was ist die deutsche Währung?
-**🇬🇧** What is the German currency?
+
+**🇩🇪 Deutsch:** Welcher Stimmzettel wäre bei einer Bundestagswahl gültig?
+**🇬🇧 English:** Which ballot paper would be valid in a Bundestag election?
+
+![Question 130](../images/130.png)
 
 | | Deutsch | English |
 |---|---|---|
-| ○ | D-Mark | D-Mark |
-| ✅ | **Euro** | **Euro** |
-| ○ | Dollar | Dollar |
-| ○ | Pfund | Pound |
+| ✅ | **1** | **1** |
+| ○ | 2 | 2 |
+| ○ | 3 | 3 |
+| ○ | 4 | 4 |
 
-> **📝** Germany uses the Euro (€) since 2002, replacing the Deutsche Mark. Germany is a founding Eurozone member. The D-Mark can still be exchanged at the Bundesbank. The fixed rate was 1€ = 1.95583 DM.
+> **📝 Explanation:** A valid ballot has exactly one mark in the first-vote column and one in the second-vote column — any other marking pattern invalidates the ballot.
 
 ---
 
 ### Question 131
-**🇩🇪** Wie heißt der deutsche Außenminister / die deutsche Außenministerin?
-**🇬🇧** What is the name of the German Foreign Minister?
 
-*⚠️ Answer changes with government. Check current officeholder before your test.*
+**🇩🇪 Deutsch:** In Deutschland ist ein Bürgermeister / eine Bürgermeisterin …
+**🇬🇧 English:** In Germany, a mayor is …
 
-> **📝** The Foreign Minister leads Germany's diplomacy. Check BAMF resources for the current name. Notable former holders: Genscher (FDP), Fischer (Greens), Steinmeier (SPD), Baerbock (Greens).
+| | Deutsch | English |
+|---|---|---|
+| ○ | der Leiter / die Leiterin einer Schule. | the head of a school. |
+| ○ | der Chef / die Chefin einer Bank. | the head of a bank. |
+| ✅ | **das Oberhaupt einer Gemeinde.** | **the head of a municipality.** |
+| ○ | der / die Vorsitzende einer Partei. | the chairperson of a political party. |
+
+> **📝 Explanation:** A Bürgermeister/in is the head of a municipality (Gemeinde) — not a school, bank, or political party.
 
 ---
 
 ### Question 132
-**🇩🇪** Wie heißt der deutsche Innenminister / die deutsche Innenministerin?
-**🇬🇧** What is the name of the German Interior Minister?
 
-*⚠️ Answer changes with government. Check current officeholder before your test.*
+**🇩🇪 Deutsch:** Viele Menschen in Deutschland arbeiten in ihrer Freizeit ehrenamtlich. Was bedeutet das?
+**🇬🇧 English:** Many people in Germany volunteer in their free time. What does that mean?
 
-> **📝** The Interior Minister handles domestic security, immigration, and civil protection. Always verify the current name before your test.
+| | Deutsch | English |
+|---|---|---|
+| ○ | Sie arbeiten als Soldaten / Soldatinnen. | They work as soldiers. |
+| ✅ | **Sie arbeiten freiwillig und unbezahlt in Vereinen und Verbänden.** | **They work voluntarily and unpaid in clubs and associations.** |
+| ○ | Sie arbeiten in der Bundesregierung. | They work in the federal government. |
+| ○ | Sie arbeiten in einem Krankenhaus und verdienen dabei Geld. | They work in a hospital and earn money. |
+
+> **📝 Explanation:** Ehrenamtliche (voluntary) work means working unpaid in clubs, associations, or charities — a widespread and valued practice in German society.
 
 ---
 
 ### Question 133
-**🇩🇪** Welche Parteien gehören zu den "Volksparteien" in Deutschland?
-**🇬🇧** Which are the "Volksparteien" (catch-all parties) in Germany?
+
+**🇩🇪 Deutsch:** Was ist bei Bundestags- und Landtagswahlen in Deutschland erlaubt?
+**🇬🇧 English:** What is allowed in Bundestag and state parliament elections in Germany?
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **CDU/CSU und SPD** | **CDU/CSU and SPD** |
-| ○ | FDP und Grüne | FDP and Greens |
-| ○ | Die Linke und AfD | Die Linke and AfD |
-| ○ | CDU und FDP | CDU and FDP |
+| ○ | Der Ehemann wählt für seine Frau mit. | The husband votes on behalf of his wife too. |
+| ✅ | **Man kann durch Briefwahl seine Stimme abgeben.** | **One can cast a vote by postal ballot.** |
+| ○ | Man kann am Wahltag telefonisch seine Stimme abgeben. | One can vote by phone on election day. |
+| ○ | Kinder ab dem Alter von 14 Jahren dürfen wählen. | Children from age 14 may vote. |
 
-> **📝** CDU/CSU and SPD are the two traditional "people's parties" representing broad segments of the population. They've provided all Federal Chancellors since 1949. Their vote shares have declined in recent decades.
+> **📝 Explanation:** Postal voting (Briefwahl) is a legal and common way to vote in Germany — phone voting, proxy voting by a spouse, and voting under 18 are not allowed.
 
 ---
 
 ### Question 134
-**🇩🇪** Wer bestimmt den Kurs der deutschen Außenpolitik?
-**🇬🇧** Who determines the course of German foreign policy?
+
+**🇩🇪 Deutsch:** Man will die Buslinie abschaffen, mit der Sie immer zur Arbeit fahren. Was können Sie machen, um die Buslinie zu erhalten?
+**🇬🇧 English:** Someone wants to abolish the bus line you always use to get to work. What can you do to preserve it?
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **der Bundeskanzler / die Bundeskanzlerin** | **the Federal Chancellor** |
-| ○ | der Bundespräsident | the Federal President |
-| ○ | der Außenminister | the Foreign Minister |
-| ○ | der Verteidigungsminister | the Defense Minister |
+| ✅ | **Ich beteilige mich an einer Bürgerinitiative für die Erhaltung der Buslinie oder gründe selber eine Initiative.** | **I join a citizens' initiative to preserve the bus line, or start one myself.** |
+| ○ | Ich werde Mitglied in einem Sportverein und trainiere Rad fahren. | I join a sports club and practice cycling. |
+| ○ | Ich wende mich an das Finanzamt, weil ich als Steuerzahler / Steuerzahlerin ein Recht auf die Buslinie habe. | I contact the tax office because as a taxpayer I have a right to the bus line. |
+| ○ | Ich schreibe einen Brief an das Forstamt der Gemeinde. | I write a letter to the municipal forestry office. |
 
-> **📝** The Chancellor has Richtlinienkompetenz — authority to set the direction of ALL government policy, including foreign policy. The Foreign Minister implements it day-to-day. The President only represents Germany ceremonially.
+> **📝 Explanation:** Joining or forming a citizens' initiative (Bürgerinitiative) is the recognized, effective way to advocate for local issues like public transit in Germany.
 
 ---
 
 ### Question 135
-**🇩🇪** Wie lange dauert eine Legislaturperiode des Deutschen Bundestages?
-**🇬🇧** How long is a Bundestag legislative term?
+
+**🇩🇪 Deutsch:** Wen vertreten die Gewerkschaften in Deutschland?
+**🇬🇧 English:** Who do trade unions represent in Germany?
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **4 Jahre** | **4 years** |
-| ○ | 3 Jahre | 3 years |
-| ○ | 5 Jahre | 5 years |
-| ○ | 6 Jahre | 6 years |
+| ○ | große Unternehmen | large companies |
+| ○ | kleine Unternehmen | small companies |
+| ○ | Selbstständige | the self-employed |
+| ✅ | **Arbeitnehmer und Arbeitnehmerinnen** | **employees** |
 
-> **📝** The Bundestag term is 4 years. Early elections can occur if the Chancellor loses a vote of confidence. Most state parliaments serve 5-year terms. The European Parliament also has 5-year terms.
+> **📝 Explanation:** Trade unions represent employees (workers), negotiating on their behalf with employers — not businesses or the self-employed.
 
 ---
 
 ### Question 136
-**🇩🇪** Der Bundesrat wirkt bei der Gesetzgebung des Bundes mit. Was__(s)__ ist__(t)____(r)__ichtig?
-**🇬🇧** The Bundesrat participates in federal legislation. What is correct?
+
+**🇩🇪 Deutsch:** Sie gehen in Deutschland zum Arbeitsgericht bei …
+**🇬🇧 English:** In Germany, you go to the labor court in case of …
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **Der Bundesrat__(t)__ __(m)__uss__(s)__ __(b)__ei__(b)__estimmten__(n)__ __(G)__esetzen__(n)__ __(z)__ustimmen.** | **The Bundesrat must approve certain laws.** |
-| ○ | Der Bundesrat wählt den Bundeskanzler. | The Bundesrat elects the Chancellor. |
-| ○ | Der Bundesrat__(t)__ __(e)__ntscheidet über Strafverfahren. | The Bundesrat decides criminal cases. |
-| ○ | Der Bundesrat bestätigt Wahlergebnisse. | The Bundesrat confirms election results. |
+| ○ | falscher Nebenkostenabrechnung. | an incorrect utility bill statement. |
+| ✅ | **ungerechtfertigter Kündigung durch Ihren Chef / Ihre Chefin.** | **unjustified dismissal by your boss.** |
+| ○ | Problemen mit den Nachbarn / Nachbarinnen. | problems with neighbors. |
+| ○ | Schwierigkeiten nach einem Verkehrsunfall. | difficulties following a traffic accident. |
 
-> **📝** For laws affecting state interests (zustimmungspflichtige Gesetze), the Bundesrat must give its approval. It can block such laws entirely. For other laws, it can only object, and the Bundestag can override the objection.
+> **📝 Explanation:** Labor courts (Arbeitsgerichte) handle employment disputes such as unjustified dismissal — not utility bills, neighbor disputes, or traffic accidents.
 
 ---
 
 ### Question 137
-**🇩🇪** Wie heißen die beiden Kammern des deutschen Parlaments?
-**🇬🇧** What are the two chambers of the German parliament called?
+
+**🇩🇪 Deutsch:** Welches Gericht ist in Deutschland bei Konflikten in der Arbeitswelt zuständig?
+**🇬🇧 English:** Which court is responsible for workplace conflicts in Germany?
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **Bundestag und Bundesrat** | **Bundestag and Bundesrat** |
-| ○ | Abgeordnetenhaus und Senat | House of Representatives and Senate |
-| ○ | Bundeskammer und Länderkammer | Federal Chamber and States' Chamber |
-| ○ | Volkskammer und Länderkammer | People's Chamber and States' Chamber |
+| ○ | das Familiengericht | the family court |
+| ○ | das Strafgericht | the criminal court |
+| ✅ | **das Arbeitsgericht** | **the labor court** |
+| ○ | das Amtsgericht | the local court |
 
-> **📝** Bundestag (lower house, directly elected) and Bundesrat (upper house, representing state governments). "Volkskammer" was the GDR parliament. "Abgeordnetenhaus" is Berlin's state parliament.
+> **📝 Explanation:** The Arbeitsgericht (labor court) handles workplace and employment-related conflicts specifically.
 
 ---
 
 ### Question 138
-**🇩🇪** Wer leitet eine Sitzung des Deutschen Bundestages?
-**🇬🇧** Who chairs a session of the Bundestag?
+
+**🇩🇪 Deutsch:** Was kann ich in Deutschland machen, wenn mir mein Arbeitgeber / meine Arbeitgeberin zu Unrecht gekündigt hat?
+**🇬🇧 English:** What can I do in Germany if my employer wrongfully dismissed me?
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **der Bundestagspräsident / die Bundestagspräsidentin** | **the President of the Bundestag** |
-| ○ | der Bundeskanzler | the Chancellor |
-| ○ | der Bundespräsident | the Federal President |
-| ○ | der Bundesratspräsident | the President of the Bundesrat |
+| ○ | weiter arbeiten und freundlich zum Chef / zur Chefin sein | keep working and be friendly to the boss |
+| ○ | ein Mahnverfahren gegen den Arbeitgeber / die Arbeitgeberin führen | initiate a debt collection procedure against the employer |
+| ✅ | **Kündigungsschutzklage erheben** | **file a wrongful dismissal lawsuit** |
+| ○ | den Arbeitgeber / die Arbeitgeberin bei der Polizei anzeigen | report the employer to the police |
 
-> **📝** The Bundestagspräsident/in chairs sessions, maintains order, and is the second-highest state official after the Federal President. Traditionally elected from the largest party.
+> **📝 Explanation:** The correct legal remedy is a Kündigungsschutzklage (wrongful dismissal lawsuit) filed at the labor court — not a police report or debt claim.
 
 ---
 
 ### Question 139
-**🇩🇪** Wann wurde der Euro in Deutschland eingeführt?
-**🇬🇧** When was the Euro introduced in Germany?
+
+**🇩🇪 Deutsch:** Wann kommt es in Deutschland zu einem Prozess vor Gericht? Wenn jemand …
+**🇬🇧 English:** When does a trial occur in Germany? When someone …
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **2002** | **2002** |
-| ○ | 1995 | 1995 |
-| ○ | 1998 | 1998 |
-| ○ | 2005 | 2005 |
+| ○ | zu einer anderen Religion übertritt. | converts to another religion. |
+| ✅ | **eine Straftat begangen hat und angeklagt wird.** | **has committed a crime and is charged.** |
+| ○ | eine andere Meinung als die der Regierung vertritt. | holds a different opinion than the government. |
+| ○ | sein Auto falsch geparkt hat und es abgeschleppt wird. | has parked their car wrong and it gets towed. |
 
-> **📝** Euro coins and banknotes entered circulation on January 1, 2002. The Euro existed as electronic currency since 1999. The exchange rate was fixed: 1 Euro = 1.95583 D-Mark.
+> **📝 Explanation:** A criminal trial occurs when someone commits and is charged with a crime — not for religious conversion, differing political opinions, or parking violations.
 
 ---
 
 ### Question 140
-**🇩🇪** Die__(e)__ __(E)__U-Flagge hat 12 Sterne. Stehen__(n)____(s)__ie für die Zahl der Mitgliedsstaaten?
-**🇬🇧** The EU flag has 12 stars. Do they represent the number of member states?
+
+**🇩🇪 Deutsch:** Was macht ein Schöffe / eine Schöffin in Deutschland? Er / Sie …
+**🇬🇧 English:** What does a lay judge do in Germany? He/she …
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **Nein — die 12 Sterne stehen für Einheit und Harmonie.** | **No — the 12 stars symbolize unity and harmony.** |
-| ○ | Ja — für die 12 Gründungsmitglieder. | Yes — for the 12 founding members. |
-| ○ | Ja — für die aktuelle Mitgliederzahl. | Yes — for the current number of members. |
-| ○ | Die Sterne haben keine Bedeutung. | The stars have no meaning. |
+| ✅ | **entscheidet mit Richtern / Richterinnen über Schuld und Strafe.** | **decides on guilt and punishment together with judges.** |
+| ○ | gibt Bürgern / Bürgerinnen rechtlichen Rat. | gives citizens legal advice. |
+| ○ | stellt Urkunden aus. | issues official documents. |
+| ○ | verteidigt den Angeklagten / die Angeklagte. | defends the accused. |
 
-> **📝** Common misconception: the 12 stars do NOT represent member states. The number 12 was chosen in 1955 as a symbol of completeness (12 months, 12 hours). The flag always has exactly 12 stars regardless of EU membership count.
+> **📝 Explanation:** A Schöffe/in (lay judge) is a citizen volunteer who sits alongside professional judges and votes on guilt and sentencing — not a legal advisor or defense attorney.
 
 ---
 
 ### Question 141
-**🇩🇪** Was ist ein Grundrecht?
-**🇬🇧** What is a fundamental right?
+
+**🇩🇪 Deutsch:** Wer berät in Deutschland Personen bei Rechtsfragen und vertritt sie vor Gericht?
+**🇬🇧 English:** Who advises people on legal matters and represents them in court in Germany?
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **Versammlungsfreiheit** | **Freedom of assembly** |
-| ○ | Autofahren | Driving |
-| ○ | Alkoholkonsum | Alcohol consumption |
-| ○ | Rauchen | Smoking |
+| ✅ | **ein Rechtsanwalt / eine Rechtsanwältin** | **a lawyer** |
+| ○ | ein Richter / eine Richterin | a judge |
+| ○ | ein Schöffe / eine Schöffin | a lay judge |
+| ○ | ein Staatsanwalt / eine Staatsanwältin | a public prosecutor |
 
-> **📝** Freedom of assembly (Art. 8) is a fundamental right in the Basic Law. Driving, drinking, and smoking are legal activities but NOT fundamental rights — they can be restricted by ordinary law.
+> **📝 Explanation:** A Rechtsanwalt/in (lawyer) advises clients and represents them legally — judges, lay judges, and prosecutors have different, impartial roles in court.
 
 ---
 
 ### Question 142
-**🇩🇪** Wozu fordert das Grundgesetz auf?
-**🇬🇧** What does the Basic Law call for?
+
+**🇩🇪 Deutsch:** Was ist die Hauptaufgabe eines Richters / einer Richterin in Deutschland? Ein Richter / eine Richterin …
+**🇬🇧 English:** What is the main task of a judge in Germany? A judge …
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **die Gleichberechtigung von Frauen und Männern** | **equal rights for women and men** |
-| ○ | die Bevorzugung von Männern | preferential treatment of men |
-| ○ | getrennte Schulen für Jungen und Mädchen | separate schools for boys and girls |
-| ○ | die Unterordnung der Frau | subordination of women |
+| ○ | vertritt Bürger und Bürgerinnen vor einem Gericht. | represents citizens in court. |
+| ✅ | **arbeitet an einem Gericht und spricht Urteile.** | **works at a court and delivers verdicts.** |
+| ○ | ändert Gesetze. | changes laws. |
+| ○ | betreut Jugendliche vor Gericht. | looks after youths in court. |
 
-> **📝** Article 3(2): "Men and women shall have equal rights." The state must actively promote gender equality and eliminate disadvantages. Any form of gender discrimination is unconstitutional.
+> **📝 Explanation:** A judge's main role is to work at a court and deliver rulings/verdicts — not to represent citizens, change laws, or act as a youth caseworker.
 
 ---
 
 ### Question 143
-**🇩🇪** Wenn man etwas gekauft hat und es zurückgeben möchte — was gilt?
-**🇬🇧** If you bought something and want to return it — what applies?
+
+**🇩🇪 Deutsch:** Ein Richter / eine Richterin in Deutschland gehört zur …
+**🇬🇧 English:** A judge in Germany belongs to the …
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **Es gibt gesetzliche Regeln und Fristen.** | **There are legal rules and deadlines.** |
-| ○ | Man kann alles jederzeit zurückgeben. | You can return everything anytime. |
-| ○ | Man kann nie etwas zurückgeben. | You can never return anything. |
-| ○ | Nur teure Sachen können zurückgegeben werden. | Only expensive items can be returned. |
+| ✅ | **Judikative.** | **Judiciary.** |
+| ○ | Exekutive. | Executive. |
+| ○ | Operative. | Operative branch. |
+| ○ | Legislative. | Legislature. |
 
-> **📝** Online purchases have a 14-day withdrawal right. In-store returns depend on store policy. Defective products always have a 2-year warranty (Gewährleistung). Different rules apply to different purchase types.
+> **📝 Explanation:** Judges belong to the Judikative (judiciary), the third branch of state power alongside the executive and legislature.
 
 ---
 
 ### Question 144
-**🇩🇪** Was bedeutet "Gleichberechtigung"?
-**🇬🇧** What does "equal rights" mean?
+
+**🇩🇪 Deutsch:** Ein Richter / eine Richterin gehört in Deutschland zur …
+**🇬🇧 English:** A judge in Germany belongs to the …
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **Frauen und Männer haben die gleichen Rechte.** | **Women and men have the same rights.** |
-| ○ | Alle haben gleich viel Geld. | Everyone has the same amount of money. |
-| ○ | Alle haben den gleichen Beruf. | Everyone has the same job. |
-| ○ | Alle Menschen sind gleich groß. | All people are the same height. |
+| ○ | vollziehenden Gewalt. | executive power. |
+| ✅ | **rechtsprechenden Gewalt.** | **judicial power.** |
+| ○ | planenden Gewalt. | planning power. |
+| ○ | gesetzgebenden Gewalt. | legislative power. |
 
-> **📝** Gleichberechtigung means equality of RIGHTS — not of income, jobs, or physical traits. Both genders have equal legal status, voting rights, employment rights, and access to education.
+> **📝 Explanation:** Judges belong to the rechtsprechende Gewalt (judicial power) — the power to interpret and apply the law.
 
 ---
 
 ### Question 145
-**🇩🇪** Was ist ein deutsches Gesetz zum Schutz der Kinder?
-**🇬🇧** What is a German law protecting children?
+
+**🇩🇪 Deutsch:** Was ist ein deutsches Gesetz zum Schutz der Kinder?
+**🇬🇧 English:** What is a German law protecting children?
 
 | | Deutsch | English |
 |---|---|---|
@@ -666,58 +723,62 @@
 | ○ | Kinder müssen jeden Tag Sport treiben. | Children must exercise every day. |
 | ○ | Kinder dürfen nicht allein spielen. | Children may not play alone. |
 
-> **📝** Since 2000, §1631 BGB gives children the right to a violence-free upbringing. Corporal punishment and psychological harm are illegal. This was a major legal shift — physical discipline was previously considered acceptable.
+> **📝 Explanation:** Since 2000, §1631 BGB gives children the right to a violence-free upbringing. Corporal punishment and psychological harm are illegal. This was a major legal shift — physical discipline was previously considered acceptable.
 
 ---
 
 ### Question 146
-**🇩🇪** In Deutschland ist es erlaubt, dass man …
-**🇬🇧** In Germany it is permitted that one …
+
+**🇩🇪 Deutsch:** Wie nennt man in Deutschland ein Verfahren vor einem Gericht?
+**🇬🇧 English:** What is a proceeding before a court called in Germany?
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **verschiedene Religionen nebeneinander leben.** | **different religions coexist side by side.** |
-| ○ | einen Anderen zur Heirat zwingt. | forces someone to marry. |
-| ○ | seine Kinder schlägt. | hits their children. |
-| ○ | Frauen zwingt, ein Kopftuch zu tragen. | forces women to wear a headscarf. |
+| ○ | Programm | Program |
+| ○ | Prozedur | Procedure |
+| ○ | Protokoll | Protocol |
+| ✅ | **Prozess** | **Trial/proceeding** |
 
-> **📝** Religious pluralism is constitutionally protected. Forced marriage, hitting children, and forcing religious clothing are all illegal. Everyone may freely choose and practice their faith — or none at all.
+> **📝 Explanation:** A court proceeding is called a Prozess (trial/legal proceeding) in German.
 
 ---
 
 ### Question 147
-**🇩🇪** Zwei Frauen möchten heiraten. Was gilt in Deutschland?
-**🇬🇧** Two women want to marry. What applies in Germany?
+
+**🇩🇪 Deutsch:** Was ist die Arbeit eines Richters / einer Richterin in Deutschland?
+**🇬🇧 English:** What is the work of a judge in Germany?
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **Sie können heiraten.** | **They can get married.** |
-| ○ | Das ist verboten. | That is forbidden. |
-| ○ | Das geht nur mit besonderer Genehmigung. | Only with special permission. |
-| ○ | Nur in einer Kirche. | Only in a church. |
+| ○ | Deutschland regieren | Governing Germany |
+| ✅ | **Recht sprechen** | **Delivering justice/rulings** |
+| ○ | Pläne erstellen | Making plans |
+| ○ | Gesetze erlassen | Enacting laws |
 
-> **📝** Same-sex marriage ("Ehe für alle") has been legal since October 1, 2017. Same-sex couples have full marriage rights including joint adoption. Before 2017, only registered partnerships were available.
+> **📝 Explanation:** A judge's work is Recht sprechen — delivering rulings/administering justice, not governing or legislating.
 
 ---
 
 ### Question 148
-**🇩🇪** Wenn ein Ehepartner in Deutschland stirbt, was bekommt der andere automatisch?
-**🇬🇧** If a spouse dies in Germany, what does the other automatically receive?
+
+**🇩🇪 Deutsch:** Was ist eine Aufgabe der Polizei in Deutschland?
+**🇬🇧 English:** What is a task of the police in Germany?
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **einen Teil des Erbes** | **a share of the inheritance** |
-| ○ | das gesamte Vermögen | the entire estate |
-| ○ | nichts | nothing |
-| ○ | nur das Haus | only the house |
+| ○ | das Land zu verteidigen | to defend the country |
+| ○ | die Bürgerinnen und Bürger abzuhören | to wiretap citizens |
+| ○ | die Gesetze zu beschließen | to pass laws |
+| ✅ | **die Einhaltung von Gesetzen zu überwachen** | **to monitor compliance with laws** |
 
-> **📝** The surviving spouse receives a statutory share of the inheritance under German law, not the entire estate. The exact portion depends on the property regime and whether children exist. Under the default regime, the spouse gets about one-quarter to one-half.
+> **📝 Explanation:** Policing law compliance is the police's core task — defending the country is the military's job, and passing laws is parliament's.
 
 ---
 
-### Question 149 *(Updated July 2024 — Antisemitism)*
-**🇩🇪** Was ist ein Beispiel für antisemitisches Verhalten?
-**🇬🇧** What is an example of antisemitic behavior?
+### Question 149
+
+**🇩🇪 Deutsch:** Was ist ein Beispiel für antisemitisches Verhalten?
+**🇬🇧 English:** What is an example of antisemitic behavior?
 
 | | Deutsch | English |
 |---|---|---|
@@ -726,23 +787,24 @@
 | ✅ | **den Holocaust leugnen** | **denying the Holocaust** |
 | ○ | gegen Juden Fußball spielen | playing football against Jews |
 
-> **📝** Denying the Holocaust is a clear example of antisemitic behavior and is a criminal offense in Germany. Important distinctions: visiting Jewish festivals, criticizing Israeli government policies, and playing sports with or against Jewish people are all normal, acceptable activities. Criticism of Israeli government policy is NOT antisemitism. However, denying the systematic murder of 6 million Jews is both antisemitic and illegal.
+> **📝 Explanation:** Denying the Holocaust is a clear example of antisemitic behavior and is a criminal offense in Germany. Important distinctions: visiting Jewish festivals, criticizing Israeli government policies, and playing sports with or against Jewish people are all normal, acceptable activities. Criticism of Israeli government policy is NOT antisemitism. However, denying the systematic murder of 6 million Jews is both antisemitic and illegal.
 
 ---
 
 ### Question 150
-**🇩🇪** Welche Nummer hat der polizeiliche Notruf in Deutschland?
-**🇬🇧** What is the police emergency number in Germany?
+
+**🇩🇪 Deutsch:** Ein Gerichtsschöffe / eine Gerichtsschöffin in Deutschland ist …
+**🇬🇧 English:** A lay judge in Germany is …
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **110** | **110** |
-| ○ | 112 | 112 |
-| ○ | 911 | 911 |
-| ○ | 999 | 999 |
+| ○ | der Stellvertreter / die Stellvertreterin des Stadtoberhaupts. | the deputy head of the city. |
+| ✅ | **ein ehrenamtlicher Richter / eine ehrenamtliche Richterin.** | **a volunteer (honorary) judge.** |
+| ○ | ein Mitglied eines Gemeinderats. | a member of a municipal council. |
+| ○ | eine Person, die Jura studiert hat. | a person who studied law. |
 
-> **📝** Police: 110. Fire/ambulance: 112 (also the EU-wide emergency number). 911 is the US number, 999 is the UK. Both 110 and 112 are free, even from phones without credit.
+> **📝 Explanation:** A Gerichtsschöffe/in is a volunteer, honorary lay judge — no law degree is required, unlike professional judges.
 
 ---
 
-[⬅ Previous: Questions 51–100](questions-051-100.md) | [➡ Continue to Questions 151–200](questions-151-200.md)
+[⬅ Back to Main README](README.md)

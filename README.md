@@ -2,7 +2,7 @@
 
 [![GitHub Stars](https://img.shields.io/github/stars/abdullahbutt/leben-in-deutschland-test?style=for-the-badge&logo=github&label=Star%20this%20Repo)](https://github.com/abdullahbutt/leben-in-deutschland-test)
 &nbsp;&nbsp;
-[![View Website](https://img.shields.io/badge/🌐_View_as_Website-Click_Here-blue?style=for-the-badge)](https://abdullahbutt.github.io/leben-in-deutschland-test/)
+[![View Website](https://img.shields.io/badge/🌐_View_as_Website-Click_Here-blue?style=for-the-badge)](https://leben.wordfeather.com/)
 &nbsp;&nbsp;
 [![CC BY-NC 4.0](https://img.shields.io/badge/Content-CC%20BY--NC%204.0-lightgrey?style=for-the-badge&logo=creative-commons)](LICENSE-CONTENT.md)
 
