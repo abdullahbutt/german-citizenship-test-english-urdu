@@ -11771,373 +11771,373 @@
           "id": "hessen-301",
           "de": "Welches Wappen gehört zum Bundesland Hessen?",
           "en": "Which coat of arms belongs to Hessen (Hesse)?",
-          "ur": "Which coat of arms belongs to Hessen (Hesse)?",
-          "ar": "",
+          "ur": "ہیسن ریاست کا نشان کون سا ہے؟",
+          "ar": "أي شعار ينتمي إلى ولاية هيسن؟",
           "image": "images/301-hessen.png",
           "options": [
             {
               "de": "Bild 1",
               "en": "Image 1",
-              "ur": "Image 1",
-              "ar": ""
+              "ur": "تصویر 1",
+              "ar": "الصورة 1"
             },
             {
               "de": "Bild 2",
               "en": "Image 2",
-              "ur": "Image 2",
-              "ar": ""
+              "ur": "تصویر 2",
+              "ar": "الصورة 2"
             },
             {
               "de": "Bild 3",
               "en": "Image 3",
-              "ur": "Image 3",
-              "ar": ""
+              "ur": "تصویر 3",
+              "ar": "الصورة 3"
             },
             {
               "de": "Bild 4",
               "en": "Image 4",
-              "ur": "Image 4",
-              "ar": ""
+              "ur": "تصویر 4",
+              "ar": "الصورة 4"
             }
           ],
           "correct": 0,
           "exp_en": "The correct coat of arms shows Hesse's traditional red-and-white striped lion (the \"Hessian Lion\"), used as the state symbol since the Middle Ages. Hesse is also home to Frankfurt am Main, Germany's financial capital and seat of the European Central Bank (ECB), though the state capital is Wiesbaden.",
-          "exp_ur": "The correct coat of arms shows Hesse's traditional red-and-white striped lion (the \"Hessian Lion\"), used as the state symbol since the Middle Ages. Hesse is also home to Frankfurt am Main, Germany's financial capital and seat of the European Central Bank (ECB), though the state capital is Wiesbaden.",
-          "exp_ar": ""
+          "exp_ur": "درست نشان ہیسن کے روایتی سرخ و سفید دھاریوں والے شیر (\"ہیسن لائن\") کو ظاہر کرتا ہے، جو ریاستی علامت کے طور پر استعمال ہوتا ہے۔",
+          "exp_ar": "يُظهر الشعار الصحيح أسد هيسن التقليدي المخطط بالأحمر والأبيض (\"أسد هيسن\")، المستخدم كرمز للولاية."
         },
         {
           "id": "hessen-302",
           "de": "Welches ist ein Landkreis in Hessen?",
           "en": "Which of these is a district (Landkreis) in Hesse?",
-          "ur": "Which of these is a district (Landkreis) in Hesse?",
-          "ar": "",
+          "ur": "ہیسن میں ضلع (لینڈکرائیز) کون سا ہے؟",
+          "ar": "أي من هذه هي مقاطعة (Landkreis) في هيسن؟",
           "options": [
             {
               "de": "Ammerland",
               "en": "Ammerland",
-              "ur": "Ammerland",
-              "ar": ""
+              "ur": "اَمرلینڈ",
+              "ar": "أمرلاند"
             },
             {
               "de": "Altötting",
               "en": "Altötting",
-              "ur": "Altötting",
-              "ar": ""
+              "ur": "الٹویٹنگ",
+              "ar": "ألتوتينغ"
             },
             {
               "de": "Prignitz",
               "en": "Prignitz",
-              "ur": "Prignitz",
-              "ar": ""
+              "ur": "پرگنِٹز",
+              "ar": "بريغنيتس"
             },
             {
               "de": "Main-Taunus-Kreis",
               "en": "Main-Taunus-Kreis",
-              "ur": "Main-Taunus-Kreis",
-              "ar": ""
+              "ur": "ماین-تاؤنس-کرائیز",
+              "ar": "ماين-تاونوس-كرايس"
             }
           ],
           "correct": 3,
           "exp_en": "Main-Taunus-Kreis is a district located in Hesse, near Frankfurt. Ammerland is in Lower Saxony, Altötting is in Bavaria, and Prignitz is in Brandenburg.",
-          "exp_ur": "Main-Taunus-Kreis is a district located in Hesse, near Frankfurt. Ammerland is in Lower Saxony, Altötting is in Bavaria, and Prignitz is in Brandenburg.",
-          "exp_ar": ""
+          "exp_ur": "ماین-تاؤنس-کرائیز ہیسن میں فرینکفرٹ کے قریب واقع ایک ضلع ہے۔ اَمرلینڈ لوئر سیکسنی میں، الٹویٹنگ باویریا میں، اور پرگنِٹز برانڈن برگ میں واقع ہے۔",
+          "exp_ar": "ماين-تاونوس-كرايس هي مقاطعة تقع في هيسن، بالقرب من فرانكفورت. أما أمرلاند فتقع في ساكسونيا السفلى، وألتوتينغ في بافاريا، وبريغنيتس في براندنبورغ."
         },
         {
           "id": "hessen-303",
           "de": "Für wie viele Jahre wird der Landtag in Hessen gewählt?",
           "en": "For how many years is the state parliament (Landtag) in Hesse elected?",
-          "ur": "For how many years is the state parliament (Landtag) in Hesse elected?",
-          "ar": "",
+          "ur": "ہیسن میں لینڈٹاگ (ریاستی پارلیمان) کتنے سالوں کے لیے منتخب ہوتی ہے؟",
+          "ar": "لكم عدد السنوات يُنتخب البرلمان الولائي (Landtag) في هيسن؟",
           "options": [
             {
               "de": "3",
               "en": "3",
               "ur": "3",
-              "ar": ""
+              "ar": "3"
             },
             {
               "de": "4",
               "en": "4",
               "ur": "4",
-              "ar": ""
+              "ar": "4"
             },
             {
               "de": "5",
               "en": "5",
               "ur": "5",
-              "ar": ""
+              "ar": "5"
             },
             {
               "de": "6",
               "en": "6",
               "ur": "6",
-              "ar": ""
+              "ar": "6"
             }
           ],
           "correct": 2,
           "exp_en": "The Hessian Landtag is elected for a term of 5 years, longer than the 4-year term common in most other German states.",
-          "exp_ur": "The Hessian Landtag is elected for a term of 5 years, longer than the 4-year term common in most other German states.",
-          "exp_ar": ""
+          "exp_ur": "ہیسن کی لینڈٹاگ 5 سال کی مدت کے لیے منتخب ہوتی ہے، جو زیادہ تر دیگر جرمن ریاستوں میں رائج 4 سالہ مدت سے زیادہ ہے۔",
+          "exp_ar": "يُنتخب برلمان هيسن الولائي لمدة 5 سنوات، وهي أطول من مدة الأربع سنوات المعتادة في معظم الولايات الألمانية الأخرى."
         },
         {
           "id": "hessen-304",
           "de": "Ab welchem Alter darf man in Hessen bei Kommunalwahlen wählen?",
           "en": "From what age can people vote in local (municipal) elections in Hesse?",
-          "ur": "From what age can people vote in local (municipal) elections in Hesse?",
-          "ar": "",
+          "ur": "ہیسن میں بلدیاتی انتخابات میں کس عمر سے ووٹ دیا جا سکتا ہے؟",
+          "ar": "من أي عمر يمكن للناس التصويت في الانتخابات المحلية في هيسن؟",
           "options": [
             {
               "de": "14",
               "en": "14",
               "ur": "14",
-              "ar": ""
+              "ar": "14"
             },
             {
               "de": "16",
               "en": "16",
               "ur": "16",
-              "ar": ""
+              "ar": "16"
             },
             {
               "de": "18",
               "en": "18",
               "ur": "18",
-              "ar": ""
+              "ar": "18"
             },
             {
               "de": "20",
               "en": "20",
               "ur": "20",
-              "ar": ""
+              "ar": "20"
             }
           ],
           "correct": 2,
           "exp_en": "In Hesse, the minimum voting age for municipal elections is 18 — unlike some other German states, which allow voting from age 16 at the local level.",
-          "exp_ur": "In Hesse, the minimum voting age for municipal elections is 18 — unlike some other German states, which allow voting from age 16 at the local level.",
-          "exp_ar": ""
+          "exp_ur": "ہیسن میں بلدیاتی انتخابات کے لیے کم از کم عمر 18 سال ہے، جبکہ کچھ دیگر جرمن ریاستوں میں مقامی سطح پر 16 سال کی عمر سے ووٹ دیا جا سکتا ہے۔",
+          "exp_ar": "في هيسن، الحد الأدنى لسن التصويت في الانتخابات المحلية هو 18 عامًا، بخلاف بعض الولايات الألمانية الأخرى التي تسمح بالتصويت من سن 16 على المستوى المحلي."
         },
         {
           "id": "hessen-305",
           "de": "Welche Farben hat die Landesflagge von Hessen?",
           "en": "What colors does the state flag of Hesse have?",
-          "ur": "What colors does the state flag of Hesse have?",
-          "ar": "",
+          "ur": "ہیسن کے ریاستی پرچم کے رنگ کون سے ہیں؟",
+          "ar": "ما ألوان علم ولاية هيسن؟",
           "options": [
             {
               "de": "blau-weiß-rot",
               "en": "blue-white-red",
-              "ur": "blue-white-red",
-              "ar": ""
+              "ur": "نیلا-سفید-سرخ",
+              "ar": "أزرق-أبيض-أحمر"
             },
             {
               "de": "rot-weiß",
               "en": "red-white",
-              "ur": "red-white",
-              "ar": ""
+              "ur": "سرخ-سفید",
+              "ar": "أحمر-أبيض"
             },
             {
               "de": "schwarz-gold",
               "en": "black-gold",
-              "ur": "black-gold",
-              "ar": ""
+              "ur": "سیاہ-سنہری",
+              "ar": "أسود-ذهبي"
             },
             {
               "de": "grün-weiß-rot",
               "en": "green-white-red",
-              "ur": "green-white-red",
-              "ar": ""
+              "ur": "سبز-سفید-سرخ",
+              "ar": "أخضر-أبيض-أحمر"
             }
           ],
           "correct": 1,
           "exp_en": "The state flag of Hesse is red-white, matching the colors of the Hessian Lion coat of arms.",
-          "exp_ur": "The state flag of Hesse is red-white, matching the colors of the Hessian Lion coat of arms.",
-          "exp_ar": ""
+          "exp_ur": "ہیسن کا ریاستی پرچم سرخ-سفید ہے، جو ہیسن کے شیر والے نشان کے رنگوں سے مطابقت رکھتا ہے۔",
+          "exp_ar": "علم ولاية هيسن أحمر-أبيض، بما يتوافق مع ألوان شعار أسد هيسن."
         },
         {
           "id": "hessen-306",
           "de": "Wo können Sie sich in Hessen über politische Themen informieren?",
           "en": "Where can you get information about political topics in Hesse?",
-          "ur": "Where can you get information about political topics in Hesse?",
-          "ar": "",
+          "ur": "ہیسن میں سیاسی موضوعات کے بارے میں معلومات کہاں سے حاصل کی جا سکتی ہیں؟",
+          "ar": "أين يمكنك الحصول على معلومات حول المواضيع السياسية في هيسن؟",
           "options": [
             {
               "de": "bei der Landeszentrale für politische Bildung",
               "en": "at the State Agency for Civic Education",
-              "ur": "at the State Agency for Civic Education",
-              "ar": ""
+              "ur": "ریاستی سیاسی تعلیم کے مرکز (Landeszentrale für politische Bildung) پر",
+              "ar": "لدى الهيئة الولائية للتربية السياسية (Landeszentrale für politische Bildung)"
             },
             {
               "de": "bei der Verbraucherzentrale",
               "en": "at the Consumer Advice Centre",
-              "ur": "at the Consumer Advice Centre",
-              "ar": ""
+              "ur": "صارفین کے مرکز (Verbraucherzentrale) پر",
+              "ar": "لدى مركز حماية المستهلك (Verbraucherzentrale)"
             },
             {
               "de": "beim Ordnungsamt der Gemeinde",
               "en": "at the municipal public order office",
-              "ur": "at the municipal public order office",
-              "ar": ""
+              "ur": "بلدیہ کے آرڈنُنگز ایمٹ (نظم و ضبط دفتر) پر",
+              "ar": "لدى مكتب النظام العام في البلدية (Ordnungsamt)"
             },
             {
               "de": "bei den Kirchen",
               "en": "at the churches",
-              "ur": "at the churches",
-              "ar": ""
+              "ur": "گرجاگھروں میں",
+              "ar": "لدى الكنائس"
             }
           ],
           "correct": 0,
           "exp_en": "The Landeszentrale für politische Bildung provides neutral, non-partisan information on political topics for citizens in Hesse.",
-          "exp_ur": "The Landeszentrale für politische Bildung provides neutral, non-partisan information on political topics for citizens in Hesse.",
-          "exp_ar": ""
+          "exp_ur": "لینڈسنٹرالے فار پولیٹیشے بلڈنگ (ریاستی سیاسی تعلیمی مرکز) ہیسن کے شہریوں کے لیے سیاسی موضوعات پر غیر جانبدارانہ معلومات فراہم کرتا ہے۔",
+          "exp_ar": "توفر الهيئة الولائية للتربية السياسية معلومات محايدة وغير حزبية حول المواضيع السياسية لمواطني هيسن."
         },
         {
           "id": "hessen-307",
           "de": "Die Landeshauptstadt von Hessen heißt …",
           "en": "The state capital of Hesse is called …",
-          "ur": "The state capital of Hesse is called …",
-          "ar": "",
+          "ur": "ہیسن کا دارالحکومت … ہے۔",
+          "ar": "عاصمة ولاية هيسن هي …",
           "options": [
             {
               "de": "Kassel.",
               "en": "Kassel.",
-              "ur": "Kassel.",
-              "ar": ""
+              "ur": "کاسل۔",
+              "ar": "كاسل."
             },
             {
               "de": "Darmstadt.",
               "en": "Darmstadt.",
-              "ur": "Darmstadt.",
-              "ar": ""
+              "ur": "ڈارمشٹاٹ۔",
+              "ar": "دارمشتات."
             },
             {
               "de": "Frankfurt.",
               "en": "Frankfurt.",
-              "ur": "Frankfurt.",
-              "ar": ""
+              "ur": "فرینکفرٹ۔",
+              "ar": "فرانكفورت."
             },
             {
               "de": "Wiesbaden.",
               "en": "Wiesbaden.",
-              "ur": "Wiesbaden.",
-              "ar": ""
+              "ur": "وِسبادن۔",
+              "ar": "فيسبادن."
             }
           ],
           "correct": 3,
           "exp_en": "Wiesbaden is the state capital of Hesse — not Frankfurt, which is the largest city in the state but not its capital.",
-          "exp_ur": "Wiesbaden is the state capital of Hesse — not Frankfurt, which is the largest city in the state but not its capital.",
-          "exp_ar": ""
+          "exp_ur": "وِسبادن ہیسن کا دارالحکومت ہے — فرینکفرٹ نہیں، جو ریاست کا سب سے بڑا شہر ضرور ہے لیکن دارالحکومت نہیں۔",
+          "exp_ar": "فيسبادن هي عاصمة ولاية هيسن — وليست فرانكفورت، التي تُعد أكبر مدينة في الولاية لكنها ليست عاصمتها."
         },
         {
           "id": "hessen-308",
           "de": "Welches Bundesland ist Hessen?",
           "en": "Which (highlighted) federal state is Hesse?",
-          "ur": "Which (highlighted) federal state is Hesse?",
-          "ar": "",
+          "ur": "کون سا (نمایاں) وفاقی صوبہ ہیسن ہے؟",
+          "ar": "أي ولاية اتحادية (مُظللة) هي هيسن؟",
           "image": "images/308-hessen.png",
           "options": [
             {
               "de": "Bild 1",
               "en": "Image 1",
-              "ur": "Image 1",
-              "ar": ""
+              "ur": "تصویر 1",
+              "ar": "الصورة 1"
             },
             {
               "de": "Bild 2",
               "en": "Image 2",
-              "ur": "Image 2",
-              "ar": ""
+              "ur": "تصویر 2",
+              "ar": "الصورة 2"
             },
             {
               "de": "Bild 3",
               "en": "Image 3",
-              "ur": "Image 3",
-              "ar": ""
+              "ur": "تصویر 3",
+              "ar": "الصورة 3"
             },
             {
               "de": "Bild 4",
               "en": "Image 4",
-              "ur": "Image 4",
-              "ar": ""
+              "ur": "تصویر 4",
+              "ar": "الصورة 4"
             }
           ],
           "correct": 2,
           "exp_en": "Hesse is located in west-central Germany, bordering North Rhine-Westphalia, Rhineland-Palatinate, Bavaria, Thuringia, Lower Saxony, and Baden-Württemberg.",
-          "exp_ur": "Hesse is located in west-central Germany, bordering North Rhine-Westphalia, Rhineland-Palatinate, Bavaria, Thuringia, Lower Saxony, and Baden-Württemberg.",
-          "exp_ar": ""
+          "exp_ur": "ہیسن مغربی وسطی جرمنی میں واقع ہے، جس کی سرحدیں نارتھ رائن-ویسٹفیلیا، رائن لینڈ-پیلیٹینیٹ، باویریا، تھیورنگیا، لوئر سیکسنی اور بادن-ورٹمبرگ سے ملتی ہیں۔",
+          "exp_ar": "تقع هيسن في وسط غرب ألمانيا، وتحدها ولايات مثل شمال الراين-وستفاليا، ورينانيا-بالاتينات، وبافاريا، وتورينغن، وساكسونيا السفلى، وبادن-فورتمبيرغ."
         },
         {
           "id": "hessen-309",
           "de": "Wie nennt man den Regierungschef / die Regierungschefin in Hessen?",
           "en": "What is the head of government in Hesse called?",
-          "ur": "What is the head of government in Hesse called?",
-          "ar": "",
+          "ur": "ہیسن میں سربراہِ حکومت کو کیا کہا جاتا ہے؟",
+          "ar": "ما اسم رئيس الحكومة في هيسن؟",
           "options": [
             {
               "de": "Erster Minister / Erste Ministerin",
               "en": "First Minister",
-              "ur": "First Minister",
-              "ar": ""
+              "ur": "پہلا وزیر / پہلی وزیر",
+              "ar": "الوزير الأول"
             },
             {
               "de": "Premierminister / Premierministerin",
               "en": "Prime Minister",
-              "ur": "Prime Minister",
-              "ar": ""
+              "ur": "وزیراعظم",
+              "ar": "رئيس الوزراء"
             },
             {
               "de": "Bürgermeister / Bürgermeisterin",
               "en": "Mayor",
-              "ur": "Mayor",
-              "ar": ""
+              "ur": "میئر",
+              "ar": "رئيس البلدية"
             },
             {
               "de": "Ministerpräsident / Ministerpräsidentin",
               "en": "Minister-President",
-              "ur": "Minister-President",
-              "ar": ""
+              "ur": "وزیراعلیٰ (مِنسٹر پریزیڈنٹ)",
+              "ar": "رئيس الوزراء الولائي (Ministerpräsident)"
             }
           ],
           "correct": 3,
           "exp_en": "As in all German states, the head of government in Hesse holds the title Ministerpräsident/in (Minister-President) — not Prime Minister or Mayor. As of 2025: Boris Rhein (CDU).",
-          "exp_ur": "As in all German states, the head of government in Hesse holds the title Ministerpräsident/in (Minister-President) — not Prime Minister or Mayor. As of 2025: Boris Rhein (CDU).",
-          "exp_ar": ""
+          "exp_ur": "جیسا کہ تمام جرمن ریاستوں میں ہوتا ہے، ہیسن کے سربراہِ حکومت کا عہدہ وزیراعلیٰ (مِنسٹر پریزیڈنٹ) ہے، نہ کہ وزیراعظم یا میئر۔",
+          "exp_ar": "كما هو الحال في جميع الولايات الألمانية، يحمل رئيس حكومة هيسن لقب رئيس الوزراء الولائي (Ministerpräsident)، وليس رئيس الوزراء أو رئيس البلدية."
         },
         {
           "id": "hessen-310",
           "de": "Welchen Minister / welche Ministerin hat Hessen nicht?",
           "en": "Which minister does Hesse NOT have?",
-          "ur": "Which minister does Hesse NOT have?",
-          "ar": "",
+          "ur": "ہیسن کے پاس کون سا وزیر نہیں ہے؟",
+          "ar": "أي وزير لا تملكه هيسن؟",
           "options": [
             {
               "de": "Justizminister / Justizministerin",
               "en": "Minister of Justice",
-              "ur": "Minister of Justice",
-              "ar": ""
+              "ur": "وزیرِ انصاف",
+              "ar": "وزير العدل"
             },
             {
               "de": "Außenminister / Außenministerin",
               "en": "Minister of Foreign Affairs",
-              "ur": "Minister of Foreign Affairs",
-              "ar": ""
+              "ur": "وزیرِ خارجہ",
+              "ar": "وزير الخارجية"
             },
             {
               "de": "Finanzminister / Finanzministerin",
               "en": "Minister of Finance",
-              "ur": "Minister of Finance",
-              "ar": ""
+              "ur": "وزیرِ خزانہ",
+              "ar": "وزير المالية"
             },
             {
               "de": "Innenminister / Innenministerin",
               "en": "Minister of the Interior",
-              "ur": "Minister of the Interior",
-              "ar": ""
+              "ur": "وزیرِ داخلہ",
+              "ar": "وزير الداخلية"
             }
           ],
           "correct": 1,
           "exp_en": "Foreign affairs are a federal responsibility in Germany, not a state matter — so no German state, including Hesse, has a Minister of Foreign Affairs.",
-          "exp_ur": "Foreign affairs are a federal responsibility in Germany, not a state matter — so no German state, including Hesse, has a Minister of Foreign Affairs.",
-          "exp_ar": ""
+          "exp_ur": "جرمنی میں خارجہ امور وفاقی ذمہ داری ہیں، ریاستی معاملہ نہیں — اس لیے ہیسن سمیت کوئی بھی جرمن ریاست وزیرِ خارجہ نہیں رکھتی۔",
+          "exp_ar": "الشؤون الخارجية هي مسؤولية اتحادية في ألمانيا وليست شأنًا ولائيًا — لذا لا تملك أي ولاية ألمانية، بما فيها هيسن، وزيرًا للخارجية."
         }
       ]
     },
