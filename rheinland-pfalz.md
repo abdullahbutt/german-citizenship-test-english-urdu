@@ -1,40 +1,140 @@
-# Rheinland-Pfalz (رائن لینڈ فالز) — ریاستی سوالات (301–310)
-[⬅ مرکزی صفحے پر واپس](README.md)
+# رائن لینڈ-پیلیٹینیٹ — State Questions (301–310)
+[⬅ Back to Main README](README.md)
 
 ---
-### سوال 301 — ریاستی نشان
+
+### Question 301 — Coat of Arms
 **🇩🇪** Welches Wappen gehört zum Bundesland Rheinland-Pfalz?
-**🇵🇰** رائن لینڈ فالز کا نشان کون سا ہے؟
-*🖼️ صلیب، پہیہ اور شیر — تین تاریخی علاقوں کی نمائندگی*
-> **📝** رائن لینڈ فالز مغربی جرمنی میں شراب کی پیداوار (خاص طور پر موزل اور رائن کے کنارے) کے لیے مشہور ہے۔ مائنز وہ شہر ہے جہاں گوٹنبرگ نے پرنٹنگ پریس ایجاد کیا۔ ٹریئر جرمنی کا قدیم ترین شہر ہے (رومیوں نے بنایا)۔ تین ممالک سے سرحد ملتی ہے۔
+**🇵🇰** رائن لینڈ-پیلیٹینیٹ کا نشان کون سا ہے؟
 
-### سوال 302 — نقشے میں شناخت
-**🇩🇪** Welches ist ein Bundesland von Deutschland?
-**🇵🇰** جرمنی کی کون سی وفاقی ریاست ہے؟
-*🖼️ جرمنی کے نقشے پر اس ریاست کو پہچانیں۔*
+![Question 301](../images/301-rheinland-pfalz.png)
 
-### سوال 303 — دارالحکومت
-**🇩🇪** Wie heißt die Landeshauptstadt?
-**🇵🇰** ریاستی دارالحکومت کا نام کیا ہے؟
-| | جرمن | اردو |
+| | Deutsch | اردو |
 |---|---|---|
-| ✅ | **Mainz (مائنز)** | **Mainz (مائنز)** |
-> **📝** Mainz (مائنز) ریاست رائن لینڈ فالز کا دارالحکومت ہے۔
+| ✅ | **Bild 1** | **تصویر 1** |
+| ○ | Bild 2 | تصویر 2 |
+| ○ | Bild 3 | تصویر 3 |
+| ○ | Bild 4 | تصویر 4 |
 
-### سوال 304 — نقشے میں مقام
+> **📝 وضاحت:** درست تصویر رائن لینڈ-پیلیٹینیٹ کا سرکاری نشان دکھاتی ہے۔
+
+### Question 302 — District
+**🇩🇪** Welches ist ein Landkreis in Rheinland-Pfalz?
+**🇵🇰** رائن لینڈ-پیلیٹینیٹ میں ضلع (لینڈکرائیز) کون سا ہے؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ✅ | **Westerwaldkreis** | **ویسٹرولڈ کرائیز** |
+| ○ | Altötting | الٹویٹنگ |
+| ○ | Emsland | ایمسلینڈ |
+| ○ | Prignitz | پرگنِٹز |
+
+> **📝 وضاحت:** ویسٹرولڈ کرائیز رائن لینڈ-پیلیٹینیٹ میں واقع ہے؛ باقی آپشنز دیگر جرمن ریاستوں کے اضلاع ہیں۔
+
+### Question 303 — Landtag Term
+**🇩🇪** Für wie viele Jahre wird der Landtag in Rheinland-Pfalz gewählt?
+**🇵🇰** رائن لینڈ-پیلیٹینیٹ میں ریاستی پارلیمان کتنے سالوں کے لیے منتخب ہوتی ہے؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | 3 | 3 |
+| ○ | 4 | 4 |
+| ✅ | **5** | **5** |
+| ○ | 6 | 6 |
+
+> **📝 وضاحت:** رائن لینڈ-پیلیٹینیٹ کی ریاستی پارلیمان 5 سال کی مدت کے لیے منتخب ہوتی ہے۔
+
+### Question 304 — Voting Age
+**🇩🇪** Ab welchem Alter darf man in Rheinland-Pfalz bei Kommunalwahlen wählen?
+**🇵🇰** رائن لینڈ-پیلیٹینیٹ میں مقامی انتخابات میں کس عمر سے ووٹ دیا جا سکتا ہے؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | 14 | 14 |
+| ○ | 16 | 16 |
+| ✅ | **18** | **18** |
+| ○ | 20 | 20 |
+
+> **📝 وضاحت:** رائن لینڈ-پیلیٹینیٹ میں مقامی انتخابات کے لیے کم از کم عمر 18 سال ہے۔
+
+### Question 305 — State Flag
+**🇩🇪** Welche Farben hat die Landesflagge von Rheinland-Pfalz?
+**🇵🇰** رائن لینڈ-پیلیٹینیٹ کے ریاستی پرچم کے رنگ کون سے ہیں؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | weiß-rot | سفید-سرخ |
+| ✅ | **schwarz-rot-gold** | **سیاہ-سرخ-سنہری** |
+| ○ | schwarz-gelb | سیاہ-پیلا |
+| ○ | grün-weiß-rot | سبز-سفید-سرخ |
+
+> **📝 وضاحت:** رائن لینڈ-پیلیٹینیٹ کا ریاستی پرچم سیاہ-سرخ-سنہری ہے۔
+
+### Question 306 — Civic Education
+**🇩🇪** Wo können Sie sich in Rheinland-Pfalz über politische Themen informieren?
+**🇵🇰** رائن لینڈ-پیلیٹینیٹ میں سیاسی موضوعات کے بارے میں معلومات کہاں سے حاصل کی جا سکتی ہیں؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | bei den Kirchen | گرجاگھروں میں |
+| ○ | bei der Verbraucherzentrale | صارفین کے مرکز میں |
+| ○ | beim Ordnungsamt der Gemeinde | بلدیہ کے نظم و ضبط کے دفتر میں |
+| ✅ | **bei der Landeszentrale für politische Bildung** | **ریاستی سیاسی تعلیم کے مرکز میں** |
+
+> **📝 وضاحت:** رائن لینڈ-پیلیٹینیٹ میں سیاسی تعلیم کی معلومات ریاستی سیاسی تعلیم کے مرکز میں فراہم کی جاتی ہیں۔
+
+### Question 307 — Capital City
+**🇩🇪** Die Landeshauptstadt von Rheinland-Pfalz heißt …
+**🇵🇰** رائن لینڈ-پیلیٹینیٹ کا دارالحکومت … ہے۔
+
+| | Deutsch | اردو |
+|---|---|---|
+| ✅ | **Mainz.** | **مائنز۔** |
+| ○ | Kaiserslautern. | قیصرزلاؤٹرن۔ |
+| ○ | Ludwigshafen. | لُڈوِگزہافن۔ |
+| ○ | Koblenz. | کوبلنز۔ |
+
+> **📝 وضاحت:** مائنز۔ رائن لینڈ-پیلیٹینیٹ کا دارالحکومت ہے۔
+
+### Question 308 — Map Location
 **🇩🇪** Welches Bundesland ist Rheinland-Pfalz?
-**🇵🇰** رائن لینڈ فالز کون سی ہے؟
-*🖼️ نمبر والے نقشے پر پہچانیں۔*
+**🇵🇰** کون سا (نمایاں) وفاقی صوبہ رائن لینڈ-پیلیٹینیٹ ہے؟
 
-### سوال 305 — وزیراعلیٰ
-**🇩🇪** Wie heißt der/die Ministerpräsident/in?
-**🇵🇰** وزیراعلیٰ کا نام کیا ہے؟
-*⚠️ موجودہ عہدیدار چیک کریں۔ 2025 تک: Alexander Schweitzer (SPD)*
+![Question 308](../images/308-rheinland-pfalz.png)
 
-### سوالات 306–310 — اضافی ریاستی حقائق
-تیاری کے لیے اہم حقائق:
-- **پارلیمنٹ:** Landtag (لینڈٹاگ)
-- **پڑوسی/سرحدیں:** فرانس، لکسمبرگ، بیلجیم؛ ریاستیں: NRW، ہیسن، بادن ورٹمبرگ، سارلینڈ
-- **بڑے شہر:** Mainz, Ludwigshafen, Koblenz, Trier, Kaiserslautern
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | Bild 1 | تصویر 1 |
+| ✅ | **Bild 2** | **تصویر 2** |
+| ○ | Bild 3 | تصویر 3 |
+| ○ | Bild 4 | تصویر 4 |
 
-[⬅ مرکزی صفحے پر واپس](README.md)
+> **📝 وضاحت:** نقشہ جرمنی میں رائن لینڈ-پیلیٹینیٹ کے محلِ وقوع کو دکھاتا ہے۔
+
+### Question 309 — Head of Government
+**🇩🇪** Wie nennt man die Regierungschefin/den Regierungschef in Rheinland-Pfalz?
+**🇵🇰** رائن لینڈ-پیلیٹینیٹ میں سربراہِ حکومت کو کیا کہا جاتا ہے؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | Erste Ministerin/Erster Minister | پہلا وزیر / پہلی وزیر |
+| ○ | Premierministerin/Premierminister | وزیراعظم |
+| ○ | Bürgermeisterin/Bürgermeister | میئر |
+| ✅ | **Ministerpräsidentin/Ministerpräsident** | **وزیراعلیٰ (مِنسٹر پریزیڈنٹ)** |
+
+> **📝 وضاحت:** رائن لینڈ-پیلیٹینیٹ کے سربراہِ حکومت کا عہدہ وزیراعلیٰ (مِنسٹر پریزیڈنٹ) ہے۔
+
+### Question 310 — Ministries
+**🇩🇪** Welche Ministerin/welchen Minister hat Rheinland-Pfalz nicht?
+**🇵🇰** رائن لینڈ-پیلیٹینیٹ کے پاس کون سا وزیر نہیں ہے؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | Justizministerin/Justizminister | وزیرِ انصاف |
+| ✅ | **Außenministerin/Außenminister** | **وزیرِ خارجہ** |
+| ○ | Finanzministerin/Finanzminister | وزیرِ خزانہ |
+| ○ | Innenministerin/Innenminister | وزیرِ داخلہ |
+
+> **📝 وضاحت:** جرمنی میں خارجہ امور وفاقی ذمہ داری ہیں، ریاستی معاملہ نہیں — اس لیے کوئی بھی جرمن ریاست یہ وزارت نہیں رکھتی۔
+
+[⬅ Back to Main README](README.md)

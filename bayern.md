@@ -1,40 +1,140 @@
-# Bayern (بویریا) — ریاستی سوالات (301–310)
-[⬅ مرکزی صفحے پر واپس](README.md)
+# باویریا — State Questions (301–310)
+[⬅ Back to Main README](README.md)
 
 ---
-### سوال 301 — ریاستی نشان
-**🇩🇪** Welches Wappen gehört zum Bundesland Bayern?
-**🇵🇰** بویریا کا نشان کون سا ہے؟
-*🖼️ نیلے اور سفید ہیرے (بویریا کے مشہور نشان)*
-> **📝** بویریا رقبے کے لحاظ سے جرمنی کی سب سے بڑی ریاست ہے (~70,550 مربع کلومیٹر)۔ اوکٹوبر فیسٹ، الپس، نیوشوانشٹائن محل، BMW اور آوڈی کے لیے مشہور۔ مضبوط علاقائی شناخت اور CSU پارٹی صرف بویریا میں موجود ہے۔
 
-### سوال 302 — نقشے میں شناخت
-**🇩🇪** Welches ist ein Bundesland von Deutschland?
-**🇵🇰** جرمنی کی کون سی وفاقی ریاست ہے؟
-*🖼️ جرمنی کے نقشے پر اس ریاست کو پہچانیں۔*
+### Question 301 — Coat of Arms
+**🇩🇪** Welches Wappen gehört zum Freistaat Bayern?
+**🇵🇰** باویریا کا نشان کون سا ہے؟
 
-### سوال 303 — دارالحکومت
-**🇩🇪** Wie heißt die Landeshauptstadt?
-**🇵🇰** ریاستی دارالحکومت کا نام کیا ہے؟
-| | جرمن | اردو |
+![Question 301](../images/301-bayern.png)
+
+| | Deutsch | اردو |
 |---|---|---|
-| ✅ | **München (میونخ)** | **München (میونخ)** |
-> **📝** München (میونخ) ریاست بویریا کا دارالحکومت ہے۔
+| ○ | Bild 1 | تصویر 1 |
+| ✅ | **Bild 2** | **تصویر 2** |
+| ○ | Bild 3 | تصویر 3 |
+| ○ | Bild 4 | تصویر 4 |
 
-### سوال 304 — نقشے میں مقام
+> **📝 وضاحت:** درست تصویر باویریا کا سرکاری نشان دکھاتی ہے۔
+
+### Question 302 — District
+**🇩🇪** Welches ist ein Landkreis in Bayern?
+**🇵🇰** باویریا میں ضلع (لینڈکرائیز) کون سا ہے؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | Prignitz | پرگنِٹز |
+| ○ | Rhein-Sieg-Kreis | رائن-زیگ-کرائیز |
+| ○ | Nordfriesland | نارتھ فریزلینڈ |
+| ✅ | **Altötting** | **الٹویٹنگ** |
+
+> **📝 وضاحت:** الٹویٹنگ باویریا میں واقع ہے؛ باقی آپشنز دیگر جرمن ریاستوں کے اضلاع ہیں۔
+
+### Question 303 — Landtag Term
+**🇩🇪** Für wie viele Jahre wird der Landtag in Bayern gewählt?
+**🇵🇰** باویریا میں ریاستی پارلیمان کتنے سالوں کے لیے منتخب ہوتی ہے؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | 3 | 3 |
+| ○ | 4 | 4 |
+| ✅ | **5** | **5** |
+| ○ | 6 | 6 |
+
+> **📝 وضاحت:** باویریا کی ریاستی پارلیمان 5 سال کی مدت کے لیے منتخب ہوتی ہے۔
+
+### Question 304 — Voting Age
+**🇩🇪** Ab welchem Alter darf man in Bayern bei Kommunalwahlen wählen?
+**🇵🇰** باویریا میں مقامی انتخابات میں کس عمر سے ووٹ دیا جا سکتا ہے؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | 14 | 14 |
+| ○ | 16 | 16 |
+| ✅ | **18** | **18** |
+| ○ | 20 | 20 |
+
+> **📝 وضاحت:** باویریا میں مقامی انتخابات کے لیے کم از کم عمر 18 سال ہے۔
+
+### Question 305 — State Flag
+**🇩🇪** Welche Farben hat die Landesflagge von Bayern?
+**🇵🇰** باویریا کے ریاستی پرچم کے رنگ کون سے ہیں؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | blau-weiß-rot | نیلا-سفید-سرخ |
+| ✅ | **weiß-blau** | **سفید-نیلا** |
+| ○ | grün-weiß-rot | سبز-سفید-سرخ |
+| ○ | schwarz-gelb | سیاہ-پیلا |
+
+> **📝 وضاحت:** باویریا کا ریاستی پرچم سفید-نیلا ہے۔
+
+### Question 306 — Civic Education
+**🇩🇪** Wo können Sie sich in Bayern über politische Themen informieren?
+**🇵🇰** باویریا میں سیاسی موضوعات کے بارے میں معلومات کہاں سے حاصل کی جا سکتی ہیں؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | beim Ordnungsamt der Gemeinde | بلدیہ کے نظم و ضبط کے دفتر میں |
+| ✅ | **bei der Landeszentrale für politische Bildung** | **ریاستی سیاسی تعلیم کے مرکز میں** |
+| ○ | bei der Verbraucherzentrale | صارفین کے مرکز میں |
+| ○ | bei den Kirchen | گرجاگھروں میں |
+
+> **📝 وضاحت:** باویریا میں سیاسی تعلیم کی معلومات ریاستی سیاسی تعلیم کے مرکز میں فراہم کی جاتی ہیں۔
+
+### Question 307 — Capital City
+**🇩🇪** Die Landeshauptstadt von Bayern heißt …
+**🇵🇰** باویریا کا دارالحکومت … ہے۔
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | Ingolstadt. | انگولشٹاٹ۔ |
+| ○ | Regensburg. | ریگنزبرگ۔ |
+| ○ | Nürnberg. | نیورمبرگ۔ |
+| ✅ | **München.** | **میونخ۔** |
+
+> **📝 وضاحت:** میونخ۔ باویریا کا دارالحکومت ہے۔
+
+### Question 308 — Map Location
 **🇩🇪** Welches Bundesland ist Bayern?
-**🇵🇰** بویریا کون سی ہے؟
-*🖼️ نمبر والے نقشے پر پہچانیں۔*
+**🇵🇰** کون سا (نمایاں) وفاقی صوبہ باویریا ہے؟
 
-### سوال 305 — وزیراعلیٰ
-**🇩🇪** Wie heißt der/die Ministerpräsident/in?
-**🇵🇰** وزیراعلیٰ کا نام کیا ہے؟
-*⚠️ موجودہ عہدیدار چیک کریں۔ 2025 تک: Markus Söder (CSU)*
+![Question 308](../images/308-bayern.png)
 
-### سوالات 306–310 — اضافی ریاستی حقائق
-تیاری کے لیے اہم حقائق:
-- **پارلیمنٹ:** Landtag (لینڈٹاگ)
-- **پڑوسی/سرحدیں:** آسٹریا، چیک ریپبلک؛ ریاستیں: بادن ورٹمبرگ، ہیسن، تھورنگیا، سیکسنی
-- **بڑے شہر:** München, Nürnberg, Augsburg, Regensburg, Würzburg
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | Bild 1 | تصویر 1 |
+| ○ | Bild 2 | تصویر 2 |
+| ○ | Bild 3 | تصویر 3 |
+| ✅ | **Bild 4** | **تصویر 4** |
 
-[⬅ مرکزی صفحے پر واپس](README.md)
+> **📝 وضاحت:** نقشہ جرمنی میں باویریا کے محلِ وقوع کو دکھاتا ہے۔
+
+### Question 309 — Head of Government
+**🇩🇪** Wie nennt man die Regierungschefin/den Regierungschef in Bayern?
+**🇵🇰** باویریا میں سربراہِ حکومت کو کیا کہا جاتا ہے؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | Erste Ministerin/Erster Minister | پہلا وزیر / پہلی وزیر |
+| ○ | Premierministerin/Premierminister | وزیراعظم |
+| ○ | Bürgermeisterin/Bürgermeister | میئر |
+| ✅ | **Ministerpräsidentin/Ministerpräsident** | **وزیراعلیٰ (مِنسٹر پریزیڈنٹ)** |
+
+> **📝 وضاحت:** باویریا کے سربراہِ حکومت کا عہدہ وزیراعلیٰ (مِنسٹر پریزیڈنٹ) ہے۔
+
+### Question 310 — Ministries
+**🇩🇪** Welche Ministerin/welchen Minister hat Bayern nicht?
+**🇵🇰** باویریا کے پاس کون سا وزیر نہیں ہے؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | Justizministerin/Justizminister | وزیرِ انصاف |
+| ✅ | **Außenministerin/Außenminister** | **وزیرِ خارجہ** |
+| ○ | Finanzministerin/Finanzminister | وزیرِ خزانہ |
+| ○ | Innenministerin/Innenminister | وزیرِ داخلہ |
+
+> **📝 وضاحت:** جرمنی میں خارجہ امور وفاقی ذمہ داری ہیں، ریاستی معاملہ نہیں — اس لیے کوئی بھی جرمن ریاست یہ وزارت نہیں رکھتی۔
+
+[⬅ Back to Main README](README.md)
