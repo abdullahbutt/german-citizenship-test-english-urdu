@@ -1,406 +1,809 @@
-# عمومی سوالات — حصہ 2 (سوالات 51–100)
-## سیاسی نظام، پارٹیاں، انتخابات اور حکومتی ڈھانچہ
-
-[⬅ مرکزی صفحے پر واپس](README.md) | [⬅ پچھلا: سوالات 1–50](questions-001-050.md)
+[⬅ Back to Main README](README.md)
 
 ---
 
-### سوال 51
+### Question 51
+
 **🇩🇪** Zu einem demokratischen Rechtsstaat gehört es nicht, dass …
 **🇵🇰** جمہوری قانونی ریاست کا حصہ نہیں ہے کہ …
 
-| | جرمن | اردو |
+| | Deutsch | اردو |
 |---|---|---|
 | ○ | Menschen sich kritisch über die Regierung äußern können. | لوگ حکومت پر تنقید کر سکتے ہیں۔ |
 | ○ | Bürger friedlich demonstrieren gehen dürfen. | شہری پرامن مظاہرے کر سکتے ہیں۔ |
 | ✅ | **Menschen von einer Privatpolizei ohne Grund verhaftet werden.** | **لوگوں کو نجی پولیس بغیر وجہ گرفتار کرے۔** |
 | ○ | jemand ein Verbrechen begeht und deshalb verhaftet wird. | کوئی جرم کرے اور اس لیے گرفتار ہو۔ |
 
-> **📝** جمہوری قانونی ریاست میں صرف ریاستی پولیس قانونی جواز کے ساتھ گرفتار کر سکتی ہے۔ "نجی پولیس" کا بغیر وجہ گرفتار کرنا غیر قانونی اور غیر جمہوری ہے۔
+> **📝 وضاحت:** جمہوری قانونی ریاست میں صرف ریاستی پولیس قانونی جواز کے ساتھ گرفتار کر سکتی ہے۔ "نجی پولیس" کا بغیر وجہ گرفتار کرنا غیر قانونی اور غیر جمہوری ہے۔
 
 ---
 
-### سوال 52
+### Question 52
+
 **🇩🇪** Was bedeutet "Volkssouveränität"? Alle Staatsgewalt geht vom …
 **🇵🇰** "عوامی حاکمیت" کا کیا مطلب ہے؟ تمام ریاستی طاقت … سے آتی ہے
 
-| | جرمن | اردو |
+| | Deutsch | اردو |
 |---|---|---|
 | ✅ | **Volke aus.** | **عوام سے۔** |
 | ○ | Bundestag aus. | بنڈسٹاگ سے۔ |
 | ○ | preußischen König aus. | پروشین بادشاہ سے۔ |
 | ○ | Bundesverfassungsgericht aus. | وفاقی آئینی عدالت سے۔ |
 
-> **📝** بنیادی قانون کا آرٹیکل 20 کہتا ہے: "تمام ریاستی طاقت عوام سے آتی ہے۔" یعنی عوام سیاسی طاقت کا حتمی ذریعہ ہیں۔ وہ انتخابات اور ووٹ کے ذریعے اس طاقت کا استعمال کرتے ہیں۔
+> **📝 وضاحت:** بنیادی قانون کا آرٹیکل 20 کہتا ہے: "تمام ریاستی طاقت عوام سے آتی ہے۔" یعنی عوام سیاسی طاقت کا حتمی ذریعہ ہیں۔ وہ انتخابات اور ووٹ کے ذریعے اس طاقت کا استعمال کرتے ہیں۔
 
 ---
 
-### سوال 53
+### Question 53
+
 **🇩🇪** Was bedeutet "Rechtsstaat" in Deutschland?
 **🇵🇰** جرمنی میں "Rechtsstaat" (قانونی ریاست) کا کیا مطلب ہے؟
 
-| | جرمن | اردو |
+| | Deutsch | اردو |
 |---|---|---|
 | ○ | Der Staat hat Recht. | ریاست حق پر ہے۔ |
 | ○ | Es gibt nur rechte Parteien. | صرف دائیں بازو کی پارٹیاں ہیں۔ |
 | ○ | Die Bürgerinnen und Bürger entscheiden über Gesetze. | شہری قوانین کا فیصلہ کرتے ہیں۔ |
 | ✅ | **Der Staat muss die Gesetze einhalten.** | **ریاست کو قوانین کی پابندی کرنی ہوگی۔** |
 
-> **📝** "Rechtsstaat" کا مطلب ہے کہ ریاست اور اس کے تمام ادارے قانون کے پابند ہیں — حکومت من مانی نہیں کر سکتی۔
+> **📝 وضاحت:** "Rechtsstaat" کا مطلب ہے کہ ریاست اور اس کے تمام ادارے قانون کے پابند ہیں — حکومت من مانی نہیں کر سکتی۔
 
 ---
 
-### سوال 54–55
-*سوال 54 ریاستی طاقت کی شاخوں کے بارے میں ہے (Legislative, Exekutive, Judikative)، سوال 55 پانچ فیصد کی حد کے بارے میں ہے۔*
+### Question 54
 
----
+**🇩🇪** Was ist keine staatliche Gewalt in Deutschland?
+**🇵🇰** جرمنی میں ریاستی طاقت کی کون سی شاخ نہیں ہے؟
 
-### سوال 56
-**🇩🇪** Wer wählt den Bundeskanzler/die Bundeskanzlerin in Deutschland?
-**🇵🇰** جرمنی میں وفاقی چانسلر کو کون منتخب کرتا ہے؟
-
-| | جرمن | اردو |
+| | Deutsch | اردو |
 |---|---|---|
-| ○ | das Volk | عوام |
-| ○ | die Bundesversammlung | وفاقی مجلس |
-| ✅ | **der Bundestag** | **بنڈسٹاگ** |
-| ○ | die Bundesregierung | وفاقی حکومت |
+| ○ | Legislative | قانون ساز شاخ |
+| ○ | Judikative | عدلیہ |
+| ○ | Exekutive | انتظامیہ |
+| ✅ | **Direktive** | **ڈائریکٹو** |
 
-> **📝** وفاقی چانسلر کو بنڈسٹاگ (پارلیمنٹ) منتخب کرتا ہے، عوام براہ راست نہیں۔ صدر امیدوار نامزد کرتا ہے — عام طور پر سب سے بڑی پارٹی یا اتحاد کا رہنما — اور بنڈسٹاگ ووٹ دیتا ہے۔
+> **📝 وضاحت:** جرمنی کی ریاستی طاقت تین شاخوں میں تقسیم ہے: مقننہ (قانون سازی)، انتظامیہ (Exekutive، قانون کا نفاذ)، اور عدلیہ (Judikative، قانون کی تشریح)۔ "Direktive" کوئی حقیقی حکومتی شاخ نہیں ہے — یہ ایک چالاکی بھرا (trick) جواب ہے۔
 
 ---
 
-### سوال 57
-**🇩🇪** Welche Aufgabe hat der Bundesrat?
-**🇵🇰** بنڈسرات کا کیا کردار ہے؟
+### Question 55
 
-| | جرمن | اردو |
+**🇩🇪** Was zeigt dieses Bild?
+**🇵🇰** یہ تصویر کیا دکھاتی ہے؟
+
+![Question 55](../images/55.png)
+
+| | Deutsch | اردو |
 |---|---|---|
-| ✅ | **Er vertritt die Bundesländer.** | **یہ وفاقی ریاستوں کی نمائندگی کرتا ہے۔** |
-| ○ | Er wählt den Bundeskanzler. | یہ چانسلر منتخب کرتا ہے۔ |
-| ○ | Er kontrolliert den Geheimdienst. | یہ خفیہ سروس کو کنٹرول کرتا ہے۔ |
-| ○ | Er entscheidet über Strafverfahren. | یہ فوجداری مقدمات کا فیصلہ کرتا ہے۔ |
+| ✅ | **den Bundestagssitz in Berlin** | **برلن میں بنڈس ٹاگ کی نشست** |
+| ○ | das Bundesverfassungsgericht in Karlsruhe | کارلسروہے میں وفاقی آئینی عدالت |
+| ○ | das Bundesratsgebäude in Berlin | برلن میں بنڈس رات کی عمارت |
+| ○ | das Bundeskanzleramt in Berlin | برلن میں وفاقی چانسلری |
 
-> **📝** بنڈسرات (وفاقی کونسل) قومی سطح پر 16 وفاقی ریاستوں کی نمائندگی کرتا ہے۔ ریاستی حکومتیں نمائندے بھیجتی ہیں۔ بنڈسرات قانون سازی میں حصہ لیتا ہے، خاص طور پر ریاستوں سے متعلق قوانین میں۔
+> **📝 وضاحت:** تصویر برلن میں ریخشتاگ کی عمارت دکھاتی ہے، جہاں جرمن بنڈس ٹاگ (وفاقی پارلیمان) واقع ہے — اسے اس کے شیشے کے گنبد سے پہچانا جاتا ہے۔
 
 ---
 
-### سوال 58
-**🇩🇪** Wer vertritt die Bundesrepublik Deutschland nach außen?
-**🇵🇰** بین الاقوامی سطح پر وفاقی جمہوریہ جرمنی کی نمائندگی کون کرتا ہے؟
+### Question 56
 
-| | جرمن | اردو |
+**🇩🇪** Welches Amt gehört in Deutschland zur Gemeindeverwaltung?
+**🇵🇰** جرمنی میں کون سا دفتر بلدیاتی انتظامیہ کا حصہ ہے؟
+
+| | Deutsch | اردو |
 |---|---|---|
-| ✅ | **der Bundespräsident/die Bundespräsidentin** | **وفاقی صدر** |
-| ○ | der Bundesratspräsident | بنڈسرات کا صدر |
-| ○ | der Bundestagspräsident | بنڈسٹاگ کا صدر |
-| ○ | der Bundeskanzler | وفاقی چانسلر |
+| ○ | Pfarramt | پادری کا دفتر |
+| ✅ | **Ordnungsamt** | **نظم و ضبط کا دفتر** |
+| ○ | Finanzamt | ٹیکس آفس |
+| ○ | Auswärtiges Amt | وفاقی وزارتِ خارجہ |
 
-> **📝** وفاقی صدر (Bundespräsident) سرکاری طور پر جرمنی کی بین الاقوامی نمائندگی کرتا ہے۔ اگرچہ چانسلر زیادہ سیاسی طاقت رکھتا ہے، آئینی نمائندہ صدر ہے۔
+> **📝 وضاحت:** آرڈنُنگز ایمٹ (نظم و ضبط کا دفتر) ایک بلدیاتی ادارہ ہے جو مقامی امن و امان کا ذمہ دار ہے۔ پادری کا دفتر مذہبی ہے، فنانس آفس ریاستی ٹیکس دفتر ہے، اور وزارتِ خارجہ وفاقی ادارہ ہے — کوئی بھی بلدیاتی نہیں۔
 
 ---
 
-### سوال 59 *(جولائی 2024 میں تازہ کاری — اسرائیل/یہودی زندگی)*
+### Question 57
+
+**🇩🇪** Wer wird meistens zum Präsidenten / zur Präsidentin des Deutschen Bundestages gewählt?
+**🇵🇰** عام طور پر جرمن بنڈس ٹاگ کا صدر کون منتخب ہوتا ہے؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | der / die älteste Abgeordnete im Parlament | پارلیمان کا سب سے بزرگ رکن |
+| ○ | der Ministerpräsident / die Ministerpräsidentin des größten Bundeslandes | سب سے بڑی ریاست کا وزیراعلیٰ |
+| ✅ | **ein Abgeordneter / eine Abgeordnete der stärksten Fraktion** | **سب سے مضبوط پارلیمانی گروپ کا رکن** |
+| ○ | ein ehemaliger Bundeskanzler / eine ehemalige Bundeskanzlerin | سابقہ وفاقی چانسلر |
+
+> **📝 وضاحت:** روایتی طور پر بنڈس ٹاگ کا صدر سب سے مضبوط پارلیمانی گروپ (فراکسیون) کا رکن ہوتا ہے، ضروری نہیں کہ سب سے بزرگ رکن یا سابقہ چانسلر ہو۔
+
+---
+
+### Question 58
+
+**🇩🇪** Wer ernennt in Deutschland die Minister / die Ministerinnen der Bundesregierung?
+**🇵🇰** جرمنی میں وفاقی حکومت کے وزراء کا تقرر کون کرتا ہے؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | der Präsident / die Präsidentin des Bundesverfassungsgerichtes | وفاقی آئینی عدالت کا صدر |
+| ✅ | **der Bundespräsident / die Bundespräsidentin** | **وفاقی صدر** |
+| ○ | der Bundesratspräsident / die Bundesratspräsidentin | بنڈس رات کا صدر |
+| ○ | der Bundestagspräsident / die Bundestagspräsidentin | بنڈس ٹاگ کا صدر |
+
+> **📝 وضاحت:** وفاقی صدر چانسلر کی تجویز پر وفاقی وزراء کا رسمی طور پر تقرر اور برطرفی کرتا ہے۔
+
+---
+
+### Question 59
+
+**🇩🇪** Vor wie vielen Jahren gab es erstmals eine jüdische Gemeinde auf dem Gebiet des heutigen Deutschlands?
+**🇵🇰** آج کے جرمنی کی سرزمین پر یہودی برادری کتنے سال پہلے پہلی بار قائم ہوئی؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | vor etwa 300 Jahren | تقریباً 300 سال پہلے |
+| ○ | vor etwa 700 Jahren | تقریباً 700 سال پہلے |
+| ○ | vor etwa 1150 Jahren | تقریباً 1150 سال پہلے |
+| ✅ | **vor etwa 1700 Jahren** | **تقریباً 1700 سال پہلے** |
+
+> **📝 وضاحت:** جرمن سرزمین پر یہودی برادریاں تقریباً 1700 سال سے موجود ہیں، جن کے شواہد رومی دور کے کولون شہر میں 321 عیسوی سے ملتے ہیں — یورپ کے الپس کے شمال میں قدیم ترین یہودی آبادکاریوں میں شامل۔
+
+---
+
+### Question 60
+
+**🇩🇪** In Deutschland gehören der Bundestag und der Bundesrat zur …
+**🇵🇰** جرمنی میں بنڈس ٹاگ اور بنڈس رات کس کا حصہ ہیں؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | Exekutive. | انتظامیہ۔ |
+| ✅ | **Legislative.** | **مقننہ۔** |
+| ○ | Direktive. | ڈائریکٹو۔ |
+| ○ | Judikative. | عدلیہ۔ |
+
+> **📝 وضاحت:** بنڈس ٹاگ اور بنڈس رات دونوں مقننہ (قانون ساز) ادارے ہیں — یہ قوانین بناتے ہیں، انتظامیہ (حکومت) یا عدلیہ (عدالتوں) کے برعکس۔
+
+---
+
+### Question 61
+
+**🇩🇪** Was bedeutet „Volkssouveränität“?
+**🇵🇰** "عوامی خودمختاری" کا کیا مطلب ہے؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | Der König / die Königin herrscht über das Volk. | بادشاہ عوام پر حکومت کرتا ہے۔ |
+| ○ | Das Bundesverfassungsgericht steht über der Verfassung. | وفاقی آئینی عدالت آئین سے بالاتر ہے۔ |
+| ○ | Die Interessenverbände üben die Souveränität zusammen mit der Regierung aus. | مفاداتی گروہ حکومت کے ساتھ خودمختاری کا استعمال کرتے ہیں۔ |
+| ✅ | **Die Staatsgewalt geht vom Volke aus.** | **ریاستی طاقت عوام سے نکلتی ہے۔** |
+
+> **📝 وضاحت:** عوامی خودمختاری، جو بنیادی قانون کے آرٹیکل 20 میں درج ہے، کا مطلب ہے کہ تمام ریاستی اختیار عوام سے حاصل ہوتا ہے، جو انتخابات اور ریفرنڈم کے ذریعے استعمال ہوتا ہے۔
+
+---
+
+### Question 62
+
+**🇩🇪** Wenn das Parlament eines deutschen Bundeslandes gewählt wird, nennt man das …
+**🇵🇰** جب جرمن ریاست کی پارلیمان منتخب ہوتی ہے تو اسے کیا کہا جاتا ہے؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | Kommunalwahl. | بلدیاتی انتخاب۔ |
+| ✅ | **Landtagswahl.** | **ریاستی پارلیمانی انتخاب۔** |
+| ○ | Europawahl. | یورپی انتخاب۔ |
+| ○ | Bundestagswahl. | وفاقی انتخاب۔ |
+
+> **📝 وضاحت:** ریاستی پارلیمان (لینڈٹاگ) کے انتخاب کو لینڈٹاگ ووال کہا جاتا ہے، جو بلدیاتی، یورپی یا وفاقی انتخابات سے مختلف ہے۔
+
+---
+
+### Question 63
+
+**🇩🇪** Was gehört in Deutschland nicht zur Exekutive?
+**🇵🇰** جرمنی میں کیا چیز انتظامیہ کا حصہ نہیں ہے؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | die Polizei | پولیس |
+| ✅ | **die Gerichte** | **عدالتیں** |
+| ○ | das Finanzamt | ٹیکس آفس |
+| ○ | die Ministerien | وزارتیں |
+
+> **📝 وضاحت:** عدالتیں عدلیہ کا حصہ ہیں، انتظامیہ کا نہیں۔ پولیس، ٹیکس آفس اور وزارتیں سب انتظامیہ کا حصہ ہیں۔
+
+---
+
+### Question 64
+
+**🇩🇪** Die Bundesrepublik Deutschland ist heute gegliedert in …
+**🇵🇰** آج جرمن وفاقی جمہوریہ کس طرح منظم ہے؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | vier Besatzungszonen. | چار قبضہ زون۔ |
+| ○ | einen Oststaat und einen Weststaat. | ایک مشرقی ریاست اور ایک مغربی ریاست۔ |
+| ○ | 16 Kantone. | 16 کینٹن۔ |
+| ✅ | **Bund, Länder und Kommunen.** | **وفاق، ریاستیں اور بلدیات۔** |
+
+> **📝 وضاحت:** جرمنی کا انتظامی ڈھانچہ تین سطحوں پر مشتمل ہے: وفاقی حکومت (Bund)، 16 ریاستیں (Länder)، اور مقامی بلدیات (Kommunen)۔
+
+---
+
+### Question 65
+
+**🇩🇪** Es gehört nicht zu den Aufgaben des Deutschen Bundestages, …
+**🇵🇰** جرمن بنڈس ٹاگ کے فرائض میں شامل نہیں ہے …
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | Gesetze zu entwerfen. | قوانین کا مسودہ تیار کرنا۔ |
+| ○ | die Bundesregierung zu kontrollieren. | وفاقی حکومت کی نگرانی کرنا۔ |
+| ○ | den Bundeskanzler / die Bundeskanzlerin zu wählen. | وفاقی چانسلر کا انتخاب کرنا۔ |
+| ✅ | **das Bundeskabinett zu bilden.** | **وفاقی کابینہ تشکیل دینا۔** |
+
+> **📝 وضاحت:** کابینہ تشکیل دینا چانسلر کا کام ہے، بنڈس ٹاگ کا نہیں۔ بنڈس ٹاگ قوانین بناتا ہے، چانسلر کا انتخاب کرتا ہے، اور حکومت کی نگرانی کرتا ہے۔
+
+---
+
+### Question 66
 
 **🇩🇪** Welche Städte haben die größten jüdischen Gemeinden in Deutschland?
-**🇵🇰** جرمنی میں سب سے بڑی یہودی جماعتیں کن شہروں میں ہیں؟
+**🇵🇰** جرمنی میں کن شہروں میں سب سے بڑی یہودی برادریاں ہیں؟
 
-| | جرمن | اردو |
+| | Deutsch | اردو |
 |---|---|---|
 | ✅ | **Berlin und München** | **برلن اور میونخ** |
 | ○ | Hamburg und Essen | ہیمبرگ اور ایسن |
-| ○ | Nürnberg und Stuttgart | نیورنبرگ اور شٹوٹگارٹ |
-| ○ | Worms und Speyer | وورمز اور شپائر |
+| ○ | Nürnberg und Stuttgart | نیورمبرگ اور اسٹٹگارٹ |
+| ○ | Worms und Speyer | وارمز اور اشپائر |
 
-> **📝** برلن اور میونخ میں آج جرمنی کی سب سے بڑی یہودی جماعتیں ہیں۔ برلن کی یہودی جماعت میں تقریباً 10,000 اراکین ہیں اور میونخ کی میں تقریباً 9,000۔ ہولوکاسٹ سے پہلے جرمنی میں 500,000 سے زیادہ یہودی آبادی تھی۔ آج تقریباً 90,000 یہودی جرمنی کی یہودی جماعتوں کے رکن ہیں۔ وورمز اور شپائر تاریخی طور پر اہم قرون وسطیٰ کے یہودی مراکز تھے۔
+> **📝 وضاحت:** برلن اور میونخ میں آج جرمنی کی سب سے بڑی یہودی برادریاں ہیں، جو دوبارہ اتحاد اور سوویت یونین کے بعد کی ہجرت کے نمونوں کی عکاسی کرتی ہیں۔
 
 ---
 
-### سوال 60
-**🇩🇪** Welches Amt hat keine politische Macht in Deutschland?
-**🇵🇰** جرمنی میں کس عہدے کے پاس سیاسی طاقت نہیں ہے؟
+### Question 67
 
-| | جرمن | اردو |
+**🇩🇪** Was ist in Deutschland vor allem eine Aufgabe der Bundesländer?
+**🇵🇰** جرمنی میں بنیادی طور پر ریاستوں کی ذمہ داری کیا ہے؟
+
+| | Deutsch | اردو |
 |---|---|---|
-| ✅ | **der Bundespräsident/die Bundespräsidentin** | **وفاقی صدر** |
-| ○ | der Bundeskanzler/die Bundeskanzlerin | وفاقی چانسلر |
-| ○ | ein Bundesminister/eine Bundesministerin | وفاقی وزیر |
-| ○ | ein Ministerpräsident/eine Ministerpräsidentin | وزیراعلیٰ |
+| ○ | Verteidigungspolitik | دفاعی پالیسی |
+| ○ | Außenpolitik | خارجہ پالیسی |
+| ○ | Wirtschaftspolitik | معاشی پالیسی |
+| ✅ | **Schulpolitik** | **تعلیمی پالیسی** |
 
-> **📝** وفاقی صدر کا کردار بنیادی طور پر رسمی ہے اور بہت محدود سیاسی طاقت ہے۔ صدر قوانین پر دستخط کرتا ہے اور جرمنی کی نمائندگی کرتا ہے لیکن پالیسی فیصلے نہیں کرتا۔ اصل سیاسی طاقت چانسلر اور وفاقی حکومت کے پاس ہے۔
+> **📝 وضاحت:** تعلیمی پالیسی بنیادی طور پر ریاستوں کی ذمہ داری ہے، جبکہ دفاع، خارجہ امور اور زیادہ تر معاشی پالیسی وفاقی معاملات ہیں۔
 
 ---
 
-### سوال 61
-**🇩🇪** Wer bestimmt in Deutschland die Richtlinien der Politik?
-**🇵🇰** جرمنی میں پالیسی کی رہنما خطوط کون طے کرتا ہے؟
+### Question 68
 
-| | جرمن | اردو |
+**🇩🇪** Warum kontrolliert der Staat in Deutschland das Schulwesen?
+**🇵🇰** جرمنی میں ریاست تعلیمی نظام کو کیوں کنٹرول کرتی ہے؟
+
+| | Deutsch | اردو |
 |---|---|---|
-| ✅ | **der Bundeskanzler/die Bundeskanzlerin** | **وفاقی چانسلر** |
-| ○ | der Bundestag | بنڈسٹاگ |
-| ○ | der Bundesrat | بنڈسرات |
-| ○ | der Bundespräsident | وفاقی صدر |
+| ○ | weil es in Deutschland nur staatliche Schulen gibt | کیونکہ جرمنی میں صرف سرکاری اسکول ہیں |
+| ○ | weil alle Schüler und Schülerinnen einen Schulabschluss haben müssen | کیونکہ تمام طلبہ کو تعلیمی سند حاصل کرنی ہوتی ہے |
+| ○ | weil es in den Bundesländern verschiedene Schulen gibt | کیونکہ ریاستوں میں مختلف اسکول ہیں |
+| ✅ | **weil es nach dem Grundgesetz seine Aufgabe ist** | **کیونکہ بنیادی قانون کے تحت یہ ریاست کی ذمہ داری ہے** |
 
-> **📝** بنیادی قانون کے آرٹیکل 65 کے مطابق، وفاقی چانسلر کو "Richtlinienkompetenz" (پالیسی رہنمائی کا اختیار) حاصل ہے۔ اس لیے جرمن نظام کو بعض اوقات "چانسلر جمہوریت" کہا جاتا ہے۔
-
----
-
-### سوال 62–65
-*انتخابات کے بارے میں سوالات: بنڈسٹاگ انتخابات (Bundestagswahl)، ووٹ نہ دینے پر کچھ نہیں ہوتا (رضاکارانہ)، ہر ووٹر کے 2 ووٹ ہوتے ہیں (Erststimme اور Zweitstimme)، اور ووٹ دینے کی کم از کم عمر 18 سال ہے۔*
+> **📝 وضاحت:** اسکولوں کی ریاستی نگرانی بنیادی قانون کے تحت ایک آئینی فرض ہے، جو ملک بھر میں تعلیمی معیار کو یقینی بناتی ہے۔
 
 ---
 
-### سوال 64
-**🇩🇪** Wie viele Stimmen hat man bei einer Bundestagswahl?
-**🇵🇰** وفاقی انتخاب میں ایک شخص کے کتنے ووٹ ہوتے ہیں؟
+### Question 69
 
-| | جرمن | اردو |
+**🇩🇪** Die Bundesrepublik Deutschland hat einen dreistufigen Verwaltungsaufbau. Wie heißt die unterste politische Stufe?
+**🇵🇰** جرمنی کا انتظامی ڈھانچہ تین درجوں پر مشتمل ہے۔ سب سے نچلی سیاسی سطح کو کیا کہا جاتا ہے؟
+
+| | Deutsch | اردو |
 |---|---|---|
-| ✅ | **2** | **2** |
-| ○ | 1 | 1 |
-| ○ | 3 | 3 |
-| ○ | 4 | 4 |
+| ○ | Stadträte | شہری کونسلیں |
+| ○ | Landräte | ضلعی منتظمین |
+| ✅ | **Gemeinden** | **بلدیات** |
+| ○ | Bezirksämter | ضلعی دفاتر |
 
-> **📝** ہر ووٹر کے 2 ووٹ ہوتے ہیں۔ پہلا ووٹ (Erststimme) آپ کے حلقے کے مخصوص امیدوار کے لیے ہے۔ دوسرا ووٹ (Zweitstimme) کسی سیاسی پارٹی کے لیے ہے — یہ بنڈسٹاگ کی مجموعی ترکیب طے کرتا ہے۔ دوسرا ووٹ زیادہ اہم سمجھا جاتا ہے۔
+> **📝 وضاحت:** گیمائندے (بلدیات) جرمنی کے تین درجاتی ڈھانچے (Bund، Länder، Gemeinden) میں سب سے نچلی انتظامی و سیاسی سطح ہیں۔
 
 ---
 
-### سوال 66 *(جولائی 2024 میں تازہ کاری — یہودی زندگی)*
+### Question 70
 
-**🇩🇪** Seit wann gibt es jüdisches Leben auf dem Gebiet des heutigen Deutschlands?
-**🇵🇰** آج کے جرمنی کے علاقے میں یہودی زندگی کب سے موجود ہے؟
+**🇩🇪** Der deutsche Bundespräsident Gustav Heinemann gibt Helmut Schmidt 1974 die Ernennungsurkunde zum deutschen Bundeskanzler. Was gehört zu den Aufgaben des deutschen Bundespräsidenten / der deutschen Bundespräsidentin?
+**🇵🇰** 1974 میں جرمن صدر گستاو ہائنے مان ہیلمُٹ شمٹ کو وفاقی چانسلر کے تقرر کا سرٹیفکیٹ دیتے ہیں۔ جرمن وفاقی صدر کے فرائض میں سے ایک کیا ہے؟
 
-| | جرمن | اردو |
+![Question 70](../images/70.png)
+
+| | Deutsch | اردو |
 |---|---|---|
-| ○ | seit ungefähr 100 Jahren | تقریباً 100 سال سے |
-| ○ | seit ungefähr 500 Jahren | تقریباً 500 سال سے |
-| ○ | seit ungefähr 1200 Jahren | تقریباً 1,200 سال سے |
-| ✅ | **seit mehr als 1700 Jahren** | **1,700 سال سے زیادہ عرصے سے** |
+| ○ | Er / Sie führt die Regierungsgeschäfte. | وہ حکومتی امور چلاتا ہے۔ |
+| ○ | Er / Sie kontrolliert die Regierungspartei. | وہ حکمران جماعت کو کنٹرول کرتا ہے۔ |
+| ○ | Er / Sie wählt die Minister / Ministerinnen aus. | وہ وزراء کا انتخاب کرتا ہے۔ |
+| ✅ | **Er / Sie schlägt den Kanzler / die Kanzlerin zur Wahl vor.** | **وہ چانسلر کو انتخاب کے لیے تجویز کرتا ہے۔** |
 
-> **📝** جرمنی میں یہودی زندگی 1,700 سال سے زیادہ پرانی ہے۔ سب سے پہلا دستاویزی ثبوت رومی شہنشاہ قسطنطین کا 321 عیسوی کا فرمان ہے، جس میں کولون شہر میں یہودیوں کا ذکر ہے۔ قرون وسطیٰ میں وورمز، شپائر اور مائنز جیسے شہروں میں خوشحال یہودی جماعتیں تھیں (یہ "SchUM شہر" اب یونیسکو عالمی ثقافتی ورثے کی جگہ ہیں)۔
-
----
-
-### سوال 67–68
-*انتخابی اصول: عام، براہ راست، آزاد، مساوی، خفیہ۔ خفیہ انتخاب ایک بنیادی اصول ہے۔*
+> **📝 وضاحت:** وفاقی صدر چانسلر کے لیے ایک امیدوار تجویز کرتا ہے جسے بنڈس ٹاگ منتخب کرتی ہے، اور رسمی طور پر چانسلر و وزراء کا تقرر کرتا ہے — لیکن حکومت نہیں چلاتا۔
 
 ---
 
-### سوال 69
-**🇩🇪** Wann finden normalerweise Bundestagswahlen statt?
-**🇵🇰** عام طور پر وفاقی انتخابات کب ہوتے ہیں؟
+### Question 71
 
-| | جرمن | اردو |
+**🇩🇪** Wo hält sich der deutsche Bundeskanzler / die deutsche Bundeskanzlerin am häufigsten auf? Am häufigsten ist er / sie …
+**🇵🇰** جرمن وفاقی چانسلر عام طور پر کہاں رہتا ہے؟ وہ عام طور پر …
+
+| | Deutsch | اردو |
 |---|---|---|
-| ✅ | **alle 4 Jahre** | **ہر 4 سال بعد** |
-| ○ | alle 3 Jahre | ہر 3 سال بعد |
-| ○ | alle 5 Jahre | ہر 5 سال بعد |
-| ○ | alle 6 Jahre | ہر 6 سال بعد |
+| ○ | in Bonn, weil sich dort das Bundeskanzleramt und der Bundestag befinden. | بون میں، کیونکہ وہاں چانسلری اور بنڈس ٹاگ واقع ہیں۔ |
+| ✅ | **in Berlin, weil sich dort das Bundeskanzleramt und der Bundestag befinden.** | **برلن میں، کیونکہ وہاں چانسلری اور بنڈس ٹاگ واقع ہیں۔** |
+| ○ | auf Schloss Meseberg, dem Gästehaus der Bundesregierung, um Staatsgäste zu empfangen. | شلوس میزے برگ میں، وفاقی حکومت کے مہمان خانے میں، ریاستی مہمانوں کے استقبال کے لیے۔ |
+| ○ | auf Schloss Bellevue, dem Amtssitz des Bundespräsidenten / der Bundespräsidentin, um Staatsgäste zu empfangen. | شلوس بیلوے میں، صدر کی سرکاری رہائش گاہ میں، ریاستی مہمانوں کے استقبال کے لیے۔ |
 
-> **📝** وفاقی انتخابات ہر 4 سال بعد ہوتے ہیں (بنیادی قانون کا آرٹیکل 39)۔ اگر چانسلر عدم اعتماد کا ووٹ ہار جائے تو قبل از وقت انتخابات ممکن ہیں لیکن ایسا شاذ و نادر ہوتا ہے۔
+> **📝 وضاحت:** 1999 میں حکومت کے بون سے برلن منتقل ہونے کے بعد سے، چانسلر زیادہ تر برلن میں ہوتا ہے، جہاں چانسلری اور بنڈس ٹاگ دونوں واقع ہیں۔
 
 ---
 
-### سوال 73
-**🇩🇪** Welchen Bundeskanzler hatte Deutschland nie?
-**🇵🇰** جرمنی کا وفاقی چانسلر کون کبھی نہیں رہا؟
+### Question 72
 
-| | جرمن | اردو |
+**🇩🇪** Wie heißt der jetzige Bundeskanzler / die jetzige Bundeskanzlerin von Deutschland?
+**🇵🇰** جرمنی کے موجودہ وفاقی چانسلر کا نام کیا ہے؟
+
+| | Deutsch | اردو |
 |---|---|---|
-| ○ | Konrad Adenauer | کونراڈ ایڈیناور |
-| ✅ | **Thomas de Maizière** | **تھامس ڈی میزیئر** |
-| ○ | Gerhard Schröder | گیرہارڈ شروئڈر |
-| ○ | Helmut Kohl | ہیلموٹ کول |
+| ○ | Gerhard Schröder | گیرہارڈ شریڈر |
+| ○ | Angela Merkel | انجیلا میرکل |
+| ○ | Ursula von der Leyen | اُرزُولا فان ڈیئر لائن |
+| ✅ | **Friedrich Merz** | **فریڈرِش میرس** |
 
-> **📝** تھامس ڈی میزیئر وفاقی دفاع اور داخلہ وزیر رہے لیکن کبھی چانسلر نہیں بنے۔ ایڈیناور پہلے چانسلر (1949–1963)، کول اتحاد کے چانسلر (1982–1998)، اور شروئڈر 1998 سے 2005 تک چانسلر رہے۔
-
----
-
-### سوال 74
-**🇩🇪** Wie heißt der Bundeskanzler / die Bundeskanzlerin?
-**🇵🇰** وفاقی چانسلر کا نام کیا ہے؟
-
-*⚠️ نوٹ: درست جواب ہر انتخاب کے ساتھ بدلتا ہے۔ امتحان سے پہلے موجودہ چانسلر کا نام ضرور چیک کریں۔*
-
-> **📝** 2025 تک جرمنی کے وفاقی چانسلر فریڈرخ مرز (CDU) ہیں، جنہوں نے 2025 کے وفاقی انتخاب جیتنے کے بعد عہدہ سنبھالا۔ پچھلے چانسلروں میں اولاف شولز (2021–2025، SPD)، انگیلا مرکل (2005–2021، CDU) شامل ہیں۔ امتحان سے پہلے ہمیشہ چیک کریں۔
+> **📝 وضاحت:** فریڈرِش میرس (سی ڈی یو) 2025 سے وفاقی چانسلر ہیں۔ نوٹ: یہ ایک حالاتِ حاضرہ کا سوال ہے جسے حقیقی امتحان وقتاً فوقتاً اپ ڈیٹ کرتا ہے — امتحان سے پہلے موجودہ عہدیدار کی تصدیق ضرور کریں۔
 
 ---
 
-### سوال 75
-**🇩🇪** Wie heißt der/die Bundespräsident/in?
-**🇵🇰** وفاقی صدر کا نام کیا ہے؟
+### Question 73
 
-*⚠️ نوٹ: درست جواب صدارتی انتخاب کے ساتھ بدلتا ہے (ہر 5 سال)۔*
+**🇩🇪** Die beiden größten Fraktionen im Deutschen Bundestag heißen zurzeit …
+**🇵🇰** جرمن بنڈس ٹاگ کے دو سب سے بڑے پارلیمانی گروپ فی الحال کیا کہلاتے ہیں؟
 
-> **📝** 2025 تک جرمنی کے وفاقی صدر فرانک والٹر شٹائن مائیر (SPD) ہیں۔ صدر 5 سال کی مدت کے لیے خدمات انجام دیتا ہے اور ایک بار دوبارہ منتخب ہو سکتا ہے۔ امتحان سے پہلے ہمیشہ تصدیق کریں۔
-
----
-
-### سوال 83
-**🇩🇪** Was macht man mit einer "Erststimme" bei der Bundestagswahl?
-**🇵🇰** وفاقی انتخاب میں "پہلے ووٹ" (Erststimme) سے کیا کرتے ہیں؟
-
-| | جرمن | اردو |
+| | Deutsch | اردو |
 |---|---|---|
-| ✅ | **Man wählt eine/n Abgeordnete/n aus seinem/ihrem Wahlkreis.** | **اپنے حلقے سے ایک نمائندے کو منتخب کرتے ہیں۔** |
-| ○ | Man wählt den Bundeskanzler. | چانسلر منتخب کرتے ہیں۔ |
-| ○ | Man wählt den Bundespräsidenten. | صدر منتخب کرتے ہیں۔ |
-| ○ | Man wählt eine Partei. | پارٹی منتخب کرتے ہیں۔ |
+| ✅ | **CDU/CSU und AfD.** | **سی ڈی یو/سی ایس یو اور اے ایف ڈی۔** |
+| ○ | Die Linke und Bündnis 90/Die Grünen. | دی لنکے اور بونڈنس 90/گرینز۔ |
+| ○ | Bündnis 90/Die Grünen und SPD. | بونڈنس 90/گرینز اور ایس پی ڈی۔ |
+| ○ | Die Linke und CDU/CSU. | دی لنکے اور سی ڈی یو/سی ایس یو۔ |
 
-> **📝** پہلا ووٹ (Erststimme) آپ کے مقامی حلقے (Wahlkreis) سے مخصوص امیدوار کو منتخب کرنے کے لیے ہے۔ سب سے زیادہ ووٹ حاصل کرنے والا امیدوار براہ راست بنڈسٹاگ میں جاتا ہے۔ پارٹی کو ووٹ دینا دوسرے ووٹ (Zweitstimme) سے ہوتا ہے۔
+> **📝 وضاحت:** 2025 کے وفاقی انتخابات کے بعد، سی ڈی یو/سی ایس یو اور اے ایف ڈی دو سب سے بڑے پارلیمانی گروپ ہیں۔ نوٹ: یہ حالاتِ حاضرہ کا سوال ہے — امتحان سے پہلے تصدیق کریں، چونکہ ہر انتخاب کے ساتھ جماعتی پوزیشن بدلتی ہے۔
 
 ---
 
-### سوال 84
-**🇩🇪** Was macht man mit der "Zweitstimme" bei der Bundestagswahl?
-**🇵🇰** وفاقی انتخاب میں "دوسرے ووٹ" (Zweitstimme) سے کیا کرتے ہیں؟
+### Question 74
 
-| | جرمن | اردو |
+**🇩🇪** Wie heißt das Parlament für ganz Deutschland?
+**🇵🇰** پورے جرمنی کی پارلیمان کو کیا کہا جاتا ہے؟
+
+| | Deutsch | اردو |
 |---|---|---|
-| ✅ | **Man wählt eine Partei.** | **پارٹی کو ووٹ دیتے ہیں۔** |
-| ○ | Man wählt einen Bundeskanzler. | چانسلر منتخب کرتے ہیں۔ |
-| ○ | Man wählt eine/n Abgeordnete/n. | نمائندے کو منتخب کرتے ہیں۔ |
-| ○ | Man wählt den Bundespräsidenten. | صدر منتخب کرتے ہیں۔ |
+| ○ | Bundesversammlung | وفاقی کنونشن |
+| ○ | Volkskammer | عوامی چیمبر |
+| ✅ | **Bundestag** | **بنڈس ٹاگ** |
+| ○ | Bundesgerichtshof | وفاقی عدالتِ انصاف |
 
-> **📝** دوسرا ووٹ (Zweitstimme) پارٹی کو دیا جاتا ہے اور بنڈسٹاگ میں تناسبی نمائندگی طے کرتا ہے — یعنی ہر پارٹی کو کتنی نشستیں ملیں گی۔ یہ اصل میں زیادہ اہم ووٹ سمجھا جاتا ہے۔
+> **📝 وضاحت:** بنڈس ٹاگ جرمنی کی قومی پارلیمان ہے۔ بنڈس ورزامِلُنگ صرف صدر کے انتخاب کے لیے جمع ہوتی ہے، فولکس کامر سابقہ مشرقی جرمن پارلیمان تھی، اور بنڈس گیرِخٹس ہوف ایک عدالت ہے۔
 
 ---
 
-### سوال 86
-**🇩🇪** Wann wurde die Bundesrepublik Deutschland gegründet?
-**🇵🇰** وفاقی جمہوریہ جرمنی کب قائم ہوئی؟
+### Question 75
 
-| | جرمن | اردو |
+**🇩🇪** Wie heißt Deutschlands heutiges Staatsoberhaupt?
+**🇵🇰** جرمنی کے موجودہ سربراہِ مملکت کا نام کیا ہے؟
+
+| | Deutsch | اردو |
 |---|---|---|
-| ✅ | **1949** | **1949** |
-| ○ | 1933 | 1933 |
-| ○ | 1945 | 1945 |
-| ○ | 1953 | 1953 |
+| ✅ | **Frank-Walter Steinmeier** | **فرینک والٹر شٹائن مائر** |
+| ○ | Bärbel Bas | بیربل باس |
+| ○ | Bodo Ramelow | بودو رامیلو |
+| ○ | Joachim Gauck | یوآخم گاؤک |
 
-> **📝** وفاقی جمہوریہ جرمنی (مغربی جرمنی) 23 مئی 1949 کو بنیادی قانون کے نفاذ کے ساتھ قائم ہوئی۔ 1933 میں ہٹلر اقتدار میں آیا، 1945 میں دوسری جنگ عظیم ختم ہوئی، اور 1953 میں مشرقی جرمنی میں مزدوروں کی بغاوت ہوئی۔
+> **📝 وضاحت:** فرینک والٹر شٹائن مائر جرمنی کے وفاقی صدر (سربراہِ مملکت) ہیں۔ نوٹ: یہ حالاتِ حاضرہ کا سوال ہے — امتحان سے پہلے موجودہ عہدیدار کی تصدیق کریں۔
 
 ---
 
-### سوال 87
-**🇩🇪** Wann ist der Tag der Deutschen Einheit?
-**🇵🇰** جرمن اتحاد کا دن کب ہے؟
+### Question 76
 
-| | جرمن | اردو |
+**🇩🇪** Was bedeutet die Abkürzung CDU in Deutschland?
+**🇵🇰** جرمنی میں مخفف CDU کا کیا مطلب ہے؟
+
+| | Deutsch | اردو |
 |---|---|---|
-| ○ | am 1. Mai | یکم مئی |
-| ○ | am 17. Juni | 17 جون |
-| ✅ | **am 3. Oktober** | **3 اکتوبر** |
-| ○ | am 9. November | 9 نومبر |
+| ○ | Christliche Deutsche Union | کرسچین جرمن یونین |
+| ○ | Club Deutscher Unternehmer | کلب آف جرمن انٹرپرینیورز |
+| ○ | Christlicher Deutscher Umweltschutz | کرسچین جرمن انوائرنمنٹل پروٹیکشن |
+| ✅ | **Christlich Demokratische Union** | **کرسچین ڈیموکریٹک یونین** |
 
-> **📝** جرمن اتحاد کا دن (Tag der Deutschen Einheit) 3 اکتوبر کو منایا جاتا ہے — 1990 میں مشرقی اور مغربی جرمنی کے سرکاری اتحاد کی یاد میں۔ 9 نومبر (برلن دیوار کا گرنا) اس لیے نہیں چنا گیا کیونکہ 9 نومبر 1938 کے "کرسٹل نائٹ" یہودی مخالف فسادات کی بھی سالگرہ ہے۔
+> **📝 وضاحت:** CDU کا مطلب ہے Christlich Demokratische Union (کرسچین ڈیموکریٹک یونین)، جو جرمنی کی بڑی سیاسی جماعتوں میں سے ایک ہے۔
 
 ---
 
-### سوال 89
+### Question 77
+
+**🇩🇪** Was ist die Bundeswehr?
+**🇵🇰** بنڈس ویئر کیا ہے؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | die deutsche Polizei | جرمن پولیس |
+| ○ | ein deutscher Hafen | جرمن بندرگاہ |
+| ○ | eine deutsche Bürgerinitiative | جرمن شہری اقدام |
+| ✅ | **die deutsche Armee** | **جرمن فوج** |
+
+> **📝 وضاحت:** بنڈس ویئر جرمنی کی مسلح افواج (فوج) ہے، پولیس، بندرگاہ یا شہری گروپ نہیں۔
+
+---
+
+### Question 78
+
+**🇩🇪** Was bedeutet die Abkürzung SPD?
+**🇵🇰** مخفف SPD کا کیا مطلب ہے؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | Sozialistische Partei Deutschlands | سوشلسٹ پارٹی آف جرمنی |
+| ○ | Sozialpolitische Partei Deutschlands | سوشل پالیسی پارٹی آف جرمنی |
+| ✅ | **Sozialdemokratische Partei Deutschlands** | **سوشل ڈیموکریٹک پارٹی آف جرمنی** |
+| ○ | Sozialgerechte Partei Deutschlands | سوشل جسٹس پارٹی آف جرمنی |
+
+> **📝 وضاحت:** SPD کا مطلب ہے Sozialdemokratische Partei Deutschlands (سوشل ڈیموکریٹک پارٹی آف جرمنی)، جو جرمنی کی قدیم ترین اور بڑی جماعتوں میں سے ایک ہے۔
+
+---
+
+### Question 79
+
+**🇩🇪** Was bedeutet die Abkürzung FDP in Deutschland?
+**🇵🇰** جرمنی میں مخفف FDP کا کیا مطلب ہے؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | Friedliche Demonstrative Partei | پُرامن مظاہراتی جماعت |
+| ○ | Freie Deutschland Partei | فری جرمنی پارٹی |
+| ○ | Führende Demokratische Partei | لیڈنگ ڈیموکریٹک پارٹی |
+| ✅ | **Freie Demokratische Partei** | **فری ڈیموکریٹک پارٹی** |
+
+> **📝 وضاحت:** FDP کا مطلب ہے Freie Demokratische Partei (فری ڈیموکریٹک پارٹی)، جو جرمنی کی ایک لبرل جماعت ہے۔
+
+---
+
+### Question 80
+
+**🇩🇪** Welches Gericht in Deutschland ist zuständig für die Auslegung des Grundgesetzes?
+**🇵🇰** جرمنی میں کون سی عدالت بنیادی قانون کی تشریح کی ذمہ دار ہے؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | Oberlandesgericht | ہائیر ریجنل کورٹ |
+| ○ | Amtsgericht | مقامی عدالت |
+| ✅ | **Bundesverfassungsgericht** | **وفاقی آئینی عدالت** |
+| ○ | Verwaltungsgericht | انتظامی عدالت |
+
+> **📝 وضاحت:** وفاقی آئینی عدالت، جو کارلسروہے میں واقع ہے، بنیادی قانون کی تشریح اور قوانین کی آئینی حیثیت کا جائزہ لینے کی ذمہ دار ہے۔
+
+---
+
+### Question 81
+
+**🇩🇪** Wer wählt den Bundeskanzler / die Bundeskanzlerin in Deutschland?
+**🇵🇰** جرمنی میں وفاقی چانسلر کا انتخاب کون کرتا ہے؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | der Bundesrat | بنڈس رات |
+| ○ | die Bundesversammlung | وفاقی کنونشن |
+| ○ | das Volk | عوام |
+| ✅ | **der Bundestag** | **بنڈس ٹاگ** |
+
+> **📝 وضاحت:** بنڈس ٹاگ وفاقی صدر کی تجویز پر وفاقی چانسلر کا انتخاب کرتا ہے — عوام براہ راست، بنڈس رات، یا بنڈس ورزامِلُنگ (جو صرف صدر کا انتخاب کرتی ہے) نہیں۔
+
+---
+
+### Question 82
+
+**🇩🇪** Wer leitet das deutsche Bundeskabinett?
+**🇵🇰** جرمن وفاقی کابینہ کی سربراہی کون کرتا ہے؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | der Bundestagspräsident / die Bundestagspräsidentin | بنڈس ٹاگ کا صدر |
+| ○ | der Bundespräsident / die Bundespräsidentin | وفاقی صدر |
+| ✅ | **der Bundeskanzler / die Bundeskanzlerin** | **وفاقی چانسلر** |
+| ○ | der Bundesratspräsident / die Bundesratspräsidentin | بنڈس رات کا صدر |
+
+> **📝 وضاحت:** وفاقی چانسلر وفاقی کابینہ کی سربراہی کرتا ہے اور عمومی پالیسی رہنما اصول (Richtlinienkompetenz) طے کرتا ہے۔
+
+---
+
+### Question 83
+
+**🇩🇪** Wer wählt den deutschen Bundeskanzler / die deutsche Bundeskanzlerin?
+**🇵🇰** جرمن وفاقی چانسلر کا انتخاب کون کرتا ہے؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | das Volk | عوام |
+| ○ | die Bundesversammlung | وفاقی کنونشن |
+| ✅ | **der Bundestag** | **بنڈس ٹاگ** |
+| ○ | die Bundesregierung | وفاقی حکومت |
+
+> **📝 وضاحت:** بنڈس ٹاگ وفاقی چانسلر کا انتخاب کرتی ہے — جرمن عوام براہ راست چانسلر کو ووٹ نہیں دیتے۔
+
+---
+
+### Question 84
+
+**🇩🇪** Welche Hauptaufgabe hat der deutsche Bundespräsident / die deutsche Bundespräsidentin? Er / Sie …
+**🇵🇰** جرمن وفاقی صدر کا بنیادی فرض کیا ہے؟ وہ …
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | regiert das Land. | ملک پر حکومت کرتا ہے۔ |
+| ○ | entwirft die Gesetze. | قوانین کا مسودہ تیار کرتا ہے۔ |
+| ✅ | **repräsentiert das Land.** | **ملک کی نمائندگی کرتا ہے۔** |
+| ○ | überwacht die Einhaltung der Gesetze. | قوانین کی پابندی کی نگرانی کرتا ہے۔ |
+
+> **📝 وضاحت:** وفاقی صدر کا بنیادی کردار نمائندگی کرنا ہے (ایک بڑی حد تک تقریباتی سربراہِ مملکت) — حکومت چانسلر کرتا ہے، اور قوانین بنڈس ٹاگ بناتی ہے۔
+
+---
+
+### Question 85
+
+**🇩🇪** Wer bildet den deutschen Bundesrat?
+**🇵🇰** جرمن بنڈس رات کس پر مشتمل ہے؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | die Abgeordneten des Bundestages | بنڈس ٹاگ کے اراکین |
+| ○ | die Minister und Ministerinnen der Bundesregierung | وفاقی حکومت کے وزراء |
+| ✅ | **die Regierungsvertreter der Bundesländer** | **وفاقی ریاستوں کے حکومتی نمائندے** |
+| ○ | die Parteimitglieder | جماعتی ارکان |
+
+> **📝 وضاحت:** بنڈس رات ریاستی حکومتوں (Länder) کے نمائندوں پر مشتمل ہے، جو وفاقی قانون سازی میں علاقائی مفادات کی نمائندگی کرتے ہیں۔
+
+---
+
+### Question 86
+
+**🇩🇪** Wer wählt in Deutschland den Bundespräsidenten / die Bundespräsidentin?
+**🇵🇰** جرمنی میں وفاقی صدر کا انتخاب کون کرتا ہے؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ✅ | **die Bundesversammlung** | **وفاقی کنونشن** |
+| ○ | der Bundesrat | بنڈس رات |
+| ○ | das Bundesparlament | وفاقی پارلیمان |
+| ○ | das Bundesverfassungsgericht | وفاقی آئینی عدالت |
+
+> **📝 وضاحت:** بنڈس ورزامِلُنگ (وفاقی کنونشن) — بنڈس ٹاگ کے اراکین اور ریاستی مندوبین پر مشتمل ایک خصوصی ادارہ — ہر پانچ سال بعد وفاقی صدر کا انتخاب کرتی ہے۔
+
+---
+
+### Question 87
+
 **🇩🇪** Wer ist das Staatsoberhaupt der Bundesrepublik Deutschland?
-**🇵🇰** وفاقی جمہوریہ جرمنی کا سربراہ مملکت کون ہے؟
+**🇵🇰** جرمن وفاقی جمہوریہ کا سربراہِ مملکت کون ہے؟
 
-| | جرمن | اردو |
+| | Deutsch | اردو |
 |---|---|---|
-| ○ | der Bundeskanzler | وفاقی چانسلر |
-| ✅ | **der Bundespräsident/die Bundespräsidentin** | **وفاقی صدر** |
-| ○ | der Bundestagspräsident | بنڈسٹاگ کا صدر |
-| ○ | der Bundesratspräsident | بنڈسرات کا صدر |
+| ○ | der Bundeskanzler / die Bundeskanzlerin | وفاقی چانسلر |
+| ✅ | **der Bundespräsident / die Bundespräsidentin** | **وفاقی صدر** |
+| ○ | der Bundesratspräsident / die Bundesratspräsidentin | بنڈس رات کا صدر |
+| ○ | der Bundestagspräsident / die Bundestagspräsidentin | بنڈس ٹاگ کا صدر |
 
-> **📝** وفاقی صدر (Bundespräsident) جرمنی کا سربراہ مملکت ہے۔ اگرچہ چانسلر سربراہ حکومت ہے اور زیادہ سیاسی طاقت رکھتا ہے، صدر سرکاری سربراہ مملکت ہے۔ سربراہ مملکت (صدر) کو سربراہ حکومت (چانسلر) سے الجھائیں نہیں۔
+> **📝 وضاحت:** وفاقی صدر جرمنی کا سربراہِ مملکت ہے، ایک بڑی حد تک تقریباتی عہدہ، جو حکومت کے سربراہ چانسلر سے مختلف ہے۔
 
 ---
 
-### سوال 90
-**🇩🇪** Die Stadt, die zugleich ein Bundesland ist, ist …
-**🇵🇰** وہ شہر جو بیک وقت ایک وفاقی ریاست بھی ہے …
+### Question 88
 
-| | جرمن | اردو |
+**🇩🇪** Die parlamentarische Opposition im Deutschen Bundestag …
+**🇵🇰** جرمن بنڈس ٹاگ میں پارلیمانی اپوزیشن …
+
+| | Deutsch | اردو |
 |---|---|---|
-| ○ | Bonn | بون |
-| ✅ | **Hamburg** | **ہیمبرگ** |
-| ○ | München | میونخ |
-| ○ | Frankfurt | فرینکفرٹ |
+| ✅ | **kontrolliert die Regierung.** | **حکومت کی نگرانی کرتی ہے۔** |
+| ○ | entscheidet, wer Bundesminister / Bundesministerin wird. | فیصلہ کرتی ہے کہ کون وفاقی وزیر بنے گا۔ |
+| ○ | bestimmt, wer im Bundesrat sitzt. | طے کرتی ہے کہ بنڈس رات میں کون بیٹھے گا۔ |
+| ○ | schlägt die Regierungschefs / Regierungschefinnen der Länder vor. | ریاستوں کے سربراہانِ حکومت کو تجویز کرتی ہے۔ |
 
-> **📝** ہیمبرگ شہر اور وفاقی ریاست دونوں ہے (شہری ریاست — Stadtstaat)۔ جرمنی میں تین شہری ریاستیں ہیں: برلن، ہیمبرگ، اور بریمن۔ بون مغربی جرمنی کا سابق دارالحکومت تھا لیکن شمالی رائن ویسٹ فالیا کا حصہ ہے۔
+> **📝 وضاحت:** پارلیمانی اپوزیشن کا کلیدی کردار حکومت کی نگرانی اور جانچ پڑتال کرنا ہے — یہ وزراء کا تقرر یا بنڈس رات/ریاستی قیادت طے نہیں کرتی۔
 
 ---
 
-### سوال 94
-**🇩🇪** Welches deutsche Bundesland hat die meisten Einwohner?
-**🇵🇰** جرمنی کی کس وفاقی ریاست میں سب سے زیادہ آبادی ہے؟
+### Question 89
 
-| | جرمن | اردو |
+**🇩🇪** Wie nennt man in Deutschland die Vereinigung von Abgeordneten einer Partei im Parlament?
+**🇵🇰** جرمنی میں پارلیمان میں کسی جماعت کے اراکین کی انجمن کو کیا کہا جاتا ہے؟
+
+| | Deutsch | اردو |
 |---|---|---|
-| ○ | Bayern | بویریا |
-| ✅ | **Nordrhein-Westfalen** | **شمالی رائن ویسٹ فالیا** |
-| ○ | Baden-Württemberg | بادن ورٹمبرگ |
-| ○ | Niedersachsen | نیڈرسیکسن |
+| ○ | Verband | انجمن |
+| ○ | Ältestenrat | کونسل آف ایلڈرز |
+| ✅ | **Fraktion** | **فراکسیون (پارلیمانی گروپ)** |
+| ○ | Opposition | اپوزیشن |
 
-> **📝** شمالی رائن ویسٹ فالیا (NRW) جرمنی کی سب سے زیادہ آبادی والی ریاست ہے — تقریباً 18 ملین باشندے۔ بویریا رقبے کے لحاظ سے سب سے بڑی ریاست ہے لیکن NRW میں زیادہ لوگ رہتے ہیں۔
+> **📝 وضاحت:** فراکسیون بنڈس ٹاگ میں ایک ہی جماعت (یا اتحادی جماعتوں) کے اراکین پر مشتمل پارلیمانی گروپ ہے۔
 
 ---
 
-### سوال 95
-**🇩🇪** Die Hauptstadt von Deutschland ist …
-**🇵🇰** جرمنی کا دارالحکومت ہے …
+### Question 90
 
-| | جرمن | اردو |
+**🇩🇪** Die deutschen Bundesländer wirken an der Gesetzgebung des Bundes mit durch …
+**🇵🇰** جرمن وفاقی ریاستیں وفاقی قانون سازی میں کس کے ذریعے شریک ہوتی ہیں؟
+
+| | Deutsch | اردو |
 |---|---|---|
-| ✅ | **Berlin** | **برلن** |
-| ○ | Bonn | بون |
-| ○ | München | میونخ |
-| ○ | Frankfurt | فرینکفرٹ |
+| ✅ | **den Bundesrat.** | **بنڈس رات۔** |
+| ○ | die Bundesversammlung. | وفاقی کنونشن۔ |
+| ○ | den Bundestag. | بنڈس ٹاگ۔ |
+| ○ | die Bundesregierung. | وفاقی حکومت۔ |
 
-> **📝** برلن 1990 میں دوبارہ اتحاد کے بعد سے جرمنی کا دارالحکومت ہے۔ جرمنی کی تقسیم (1949–1990) کے دوران بون مغربی جرمنی کا دارالحکومت تھا جبکہ مشرقی برلن مشرقی جرمنی (DDR) کا دارالحکومت تھا۔
+> **📝 وضاحت:** بنڈس رات وہ ایوان ہے جس کے ذریعے ریاستیں وفاقی قانون سازی میں شریک ہوتی ہیں، جو انہیں قومی قانون سازی میں آواز دیتا ہے۔
 
 ---
 
-### سوال 96 *(جولائی 2024 میں تازہ کاری — سام دشمنی)*
+### Question 91
+
+**🇩🇪** In Deutschland kann ein Regierungswechsel in einem Bundesland Auswirkungen auf die Bundespolitik haben. Das Regieren wird …
+**🇵🇰** جرمنی میں کسی ریاست میں حکومت کی تبدیلی وفاقی سیاست پر اثرانداز ہو سکتی ہے۔ حکمرانی …
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | schwieriger, wenn sich dadurch die Mehrheit im Bundestag ändert. | مشکل، اگر اس سے بنڈس ٹاگ میں اکثریت بدل جائے۔ |
+| ○ | leichter, wenn dadurch neue Parteien in den Bundesrat kommen. | آسان، اگر اس سے نئی جماعتیں بنڈس رات میں آ جائیں۔ |
+| ✅ | **schwieriger, wenn dadurch die Mehrheit im Bundesrat verändert wird.** | **مشکل، اگر اس سے بنڈس رات میں اکثریت بدل جائے۔** |
+| ○ | leichter, wenn es sich um ein reiches Bundesland handelt. | آسان، اگر یہ ایک امیر ریاست ہو۔ |
+
+> **📝 وضاحت:** چونکہ ریاستی حکومتیں بنڈس رات میں بیٹھتی ہیں، کسی ریاستی انتخاب میں تبدیلی بنڈس رات کی اکثریت بدل سکتی ہے، جس سے وفاقی حکمرانی مشکل ہو سکتی ہے اگر اپوزیشن وہاں برتری حاصل کر لے۔
+
+---
+
+### Question 92
+
+**🇩🇪** Was bedeutet die Abkürzung CSU in Deutschland?
+**🇵🇰** جرمنی میں مخفف CSU کا کیا مطلب ہے؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | Christlich Sichere Union | کرسچین سیکیور یونین |
+| ○ | Christlich Süddeutsche Union | کرسچین جنوبی جرمن یونین |
+| ○ | Christlich Sozialer Unternehmerverband | کرسچین سوشل انٹرپرینیورز ایسوسی ایشن |
+| ✅ | **Christlich Soziale Union** | **کرسچین سوشل یونین** |
+
+> **📝 وضاحت:** CSU کا مطلب ہے Christlich Soziale Union (کرسچین سوشل یونین)، جو صرف باویریا میں CDU کی ہمشیر جماعت ہے۔
+
+---
+
+### Question 93
+
+**🇩🇪** Je mehr „Zweitstimmen“ eine Partei bei einer Bundestagswahl bekommt, desto …
+**🇵🇰** بنڈس ٹاگ کے انتخاب میں کسی جماعت کو جتنی زیادہ "دوسری ووٹیں" ملیں گی، اتنا ہی …
+
+| | Deutsch | اردو |
+|---|---|---|
+| ✅ | **mehr Sitze erhält die Partei im Parlament.** | **زیادہ اسے پارلیمان میں نشستیں ملیں گی۔** |
+| ○ | weniger Erststimmen kann sie haben. | کم اسے پہلی ووٹیں مل سکتی ہیں۔ |
+| ○ | mehr Direktkandidaten der Partei ziehen ins Parlament ein. | زیادہ اس کے براہ راست امیدوار پارلیمان میں داخل ہوں گے۔ |
+| ○ | größer ist das Risiko, eine Koalition bilden zu müssen. | اتحادی حکومت بنانے کا خطرہ اتنا ہی بڑھے گا۔ |
+
+> **📝 وضاحت:** دوسری ووٹ (Zweitstimme) ہر جماعت کے بنڈس ٹاگ میں مجموعی نشستوں کا تناسب طے کرتی ہے — جتنی زیادہ دوسری ووٹیں، اتنی زیادہ کل نشستیں۔
+
+---
+
+### Question 94
+
+**🇩🇪** Ab welchem Alter darf man in Deutschland an der Wahl zum Deutschen Bundestag teilnehmen?
+**🇵🇰** جرمنی میں کس عمر سے بنڈس ٹاگ کے انتخاب میں حصہ لیا جا سکتا ہے؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | 16 | 16 |
+| ✅ | **18** | **18** |
+| ○ | 21 | 21 |
+| ○ | 23 | 23 |
+
+> **📝 وضاحت:** جرمنی میں وفاقی (بنڈس ٹاگ) انتخابات کے لیے کم از کم ووٹنگ عمر 18 سال ہے۔
+
+---
+
+### Question 95
+
+**🇩🇪** Was gilt für die meisten Kinder in Deutschland?
+**🇵🇰** جرمنی میں زیادہ تر بچوں پر کیا لاگو ہوتا ہے؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | Wahlpflicht | لازمی ووٹنگ |
+| ✅ | **Schulpflicht** | **لازمی تعلیم** |
+| ○ | Schweigepflicht | رازداری کی ذمہ داری |
+| ○ | Religionspflicht | لازمی مذہب |
+
+> **📝 وضاحت:** لازمی تعلیم (Schulpflicht) تقریباً تمام بچوں پر لاگو ہوتی ہے — ووٹنگ، رازداری اور مذہب بچوں کے لیے لازمی نہیں ہیں۔
+
+---
+
+### Question 96
 
 **🇩🇪** Wie kann jemand, der den Holocaust leugnet, bestraft werden?
 **🇵🇰** ہولوکاسٹ سے انکار کرنے والے کو کیسے سزا دی جا سکتی ہے؟
 
-| | جرمن | اردو |
+| | Deutsch | اردو |
 |---|---|---|
 | ○ | Kürzung sozialer Leistungen | سماجی فوائد میں کمی |
 | ○ | bis zu 100 Sozialstunden | 100 سماجی خدمت کے گھنٹے تک |
 | ○ | gar nicht, Holocaustleugnung ist erlaubt | بالکل نہیں، ہولوکاسٹ سے انکار جائز ہے |
 | ✅ | **mit Freiheitsstrafe bis zu fünf Jahren oder mit Geldstrafe** | **پانچ سال تک قید یا جرمانہ** |
 
-> **📝** ہولوکاسٹ سے انکار جرمنی میں §130(3) StGB (نفرت کی اشتعال انگیزی — Volksverhetzung) کے تحت مجرمانہ جرم ہے۔ جو کوئی عوامی طور پر نازیوں کے ذریعے 60 لاکھ یہودیوں کے قتل عام سے انکار کرے، اسے کم سمجھے، یا اس کی تائید کرے، اسے 5 سال تک قید یا جرمانہ ہو سکتا ہے۔
+> **📝 وضاحت:** ہولوکاسٹ سے انکار جرمنی میں §130(3) StGB (نفرت کی اشتعال انگیزی — Volksverhetzung) کے تحت مجرمانہ جرم ہے۔ جو کوئی عوامی طور پر نازیوں کے ذریعے 60 لاکھ یہودیوں کے قتل عام سے انکار کرے، اسے کم سمجھے، یا اس کی تائید کرے، اسے 5 سال تک قید یا جرمانہ ہو سکتا ہے۔
 
 ---
 
-### سوال 97
-**🇩🇪** Welche Farben hat die deutsche Flagge?
-**🇵🇰** جرمن جھنڈے کے رنگ کیا ہیں؟
+### Question 97
 
-| | جرمن | اردو |
+**🇩🇪** Was bezahlt man in Deutschland automatisch, wenn man fest angestellt ist?
+**🇵🇰** جرمنی میں مستقل ملازمت پر ہونے کی صورت میں خودکار طور پر کیا ادا کرنا ہوتا ہے؟
+
+| | Deutsch | اردو |
 |---|---|---|
-| ✅ | **schwarz, rot, gold** | **سیاہ، سرخ، سنہرا** |
-| ○ | schwarz, rot, grün | سیاہ، سرخ، سبز |
-| ○ | schwarz, weiß, rot | سیاہ، سفید، سرخ |
-| ○ | schwarz, gelb, grün | سیاہ، پیلا، سبز |
+| ✅ | **Sozialversicherung** | **سماجی بیمہ** |
+| ○ | Sozialhilfe | سماجی امداد |
+| ○ | Kindergeld | بچوں کا الاؤنس |
+| ○ | Wohngeld | رہائشی الاؤنس |
 
-> **📝** جرمن جھنڈے میں تین افقی پٹیاں ہیں: سیاہ (اوپر)، سرخ (درمیان)، اور سنہرا/پیلا (نیچے)۔ یہ رنگ 19ویں صدی کی جمہوری تحریک سے ہیں۔ سرکاری طور پر رنگ "سنہرا" (gold) ہے "پیلا" (gelb) نہیں۔ سیاہ-سفید-سرخ جھنڈا جرمن سلطنت (1871–1918) کا تھا۔
+> **📝 وضاحت:** مستقل ملازمین خودکار طور پر سماجی بیمہ (Sozialversicherung) میں حصہ ڈالتے ہیں — جس میں صحت، پنشن، بے روزگاری اور طویل مدتی نگہداشت شامل ہیں۔
 
 ---
 
-### سوال 100
-**🇩🇪** Was ist in Deutschland ein Wahlgrundsatz?
-**🇵🇰** جرمنی میں انتخابی اصول کیا ہے؟
+### Question 98
 
-| | جرمن | اردو |
+**🇩🇪** Wenn Abgeordnete im Deutschen Bundestag ihre Fraktion wechseln, ...
+**🇵🇰** جب جرمن بنڈس ٹاگ کے اراکین اپنا پارلیمانی گروپ تبدیل کرتے ہیں، …
+
+| | Deutsch | اردو |
 |---|---|---|
-| ○ | offene Wahl | کھلا انتخاب |
-| ✅ | **geheime Wahl** | **خفیہ انتخاب** |
-| ○ | Zensuswahlrecht | مردم شماری پر مبنی ووٹ کا حق |
-| ○ | Dreiklassenwahlrecht | تین درجے کا ووٹنگ نظام |
+| ✅ | **kann die Regierung ihre Mehrheit verlieren.** | **حکومت اپنی اکثریت کھو سکتی ہے۔** |
+| ○ | dürfen sie nicht mehr an den Sitzungen des Parlaments teilnehmen. | وہ مزید پارلیمانی اجلاسوں میں شریک نہیں ہو سکتے۔ |
+| ○ | muss der Bundespräsident / die Bundespräsidentin zuvor sein / ihr Einverständnis geben. | وفاقی صدر کو پہلے اجازت دینی ہوگی۔ |
+| ○ | dürfen die Wähler / Wählerinnen dieser Abgeordneten noch einmal wählen. | ان اراکین کے ووٹرز دوبارہ ووٹ دے سکتے ہیں۔ |
 
-> **📝** خفیہ ووٹنگ (geheime Wahl) جرمنی کے پانچ انتخابی اصولوں میں سے ایک ہے: عام، براہ راست، آزاد، مساوی، اور خفیہ۔ "کھلا" انتخاب، مردم شماری پر مبنی حق (جہاں ووٹ کا حق دولت پر منحصر ہو)، اور تین درجے کا نظام (پروشیا میں 1918 تک استعمال ہوا) سب غیر جمہوری نظام ہیں جو ختم کر دیے گئے۔
+> **📝 وضاحت:** اگر کافی تعداد میں اراکین اپنا گروپ تبدیل کر لیں، تو حکمران اتحاد اپنی پارلیمانی اکثریت کھو سکتا ہے، چونکہ اتحاد ایک مخصوص نشستوں کی تعداد پر انحصار کرتے ہیں۔
 
 ---
 
-[⬅ پچھلا: سوالات 1–50](questions-001-050.md) | [➡ سوالات 101–150](questions-101-150.md)
+### Question 99
+
+**🇩🇪** Wer bezahlt in Deutschland die Sozialversicherungen?
+**🇵🇰** جرمنی میں سماجی بیمہ کی ادائیگی کون کرتا ہے؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ✅ | **Arbeitgeber / Arbeitgeberinnen und Arbeitnehmer / Arbeitnehmerinnen** | **آجر اور ملازمین** |
+| ○ | nur Arbeitnehmer / Arbeitnehmerinnen | صرف ملازمین |
+| ○ | alle Staatsangehörigen | تمام شہری |
+| ○ | nur Arbeitgeber / Arbeitgeberinnen | صرف آجر |
+
+> **📝 وضاحت:** سماجی بیمہ کی ادائیگیاں آجر اور ملازمین کے درمیان تقسیم ہوتی ہیں، ہر ایک تقریباً نصف ادا کرتا ہے۔
+
+---
+
+### Question 100
+
+**🇩🇪** Was gehört nicht zur gesetzlichen Sozialversicherung?
+**🇵🇰** قانونی سماجی بیمہ کا حصہ کیا نہیں ہے؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | die gesetzliche Rentenversicherung | قانونی پنشن بیمہ |
+| ✅ | **die Lebensversicherung** | **لائف انشورنس** |
+| ○ | die Arbeitslosenversicherung | بے روزگاری بیمہ |
+| ○ | die Pflegeversicherung | طویل مدتی نگہداشت بیمہ |
+
+> **📝 وضاحت:** لائف انشورنس ایک نجی/اختیاری پروڈکٹ ہے، جرمنی کے قانونی سماجی بیمہ نظام (پنشن، بے روزگاری، صحت، اور طویل مدتی نگہداشت) کا حصہ نہیں۔
+
+---
+
+[⬅ Back to Main README](README.md)

@@ -1,293 +1,813 @@
-# عمومی سوالات — حصہ 5 (سوالات 201–250)
-## تاریخ: دوبارہ اتحاد، ثقافت، جغرافیہ
-
-[⬅ مرکزی صفحے پر واپس](README.md) | [⬅ پچھلا: سوالات 151–200](questions-151-200.md)
+[⬅ Back to Main README](README.md)
 
 ---
 
-### سوال 201
-**🇩🇪** Wer hat die Relativitätstheorie aufgestellt?
-**🇵🇰** نظریہ اضافیت کس نے پیش کیا؟
+### Question 201
 
-| | جرمن | اردو |
+**🇩🇪** Welche der folgenden Auflistungen enthält nur Bundesländer, die zum Gebiet der früheren DDR gehörten?
+**🇵🇰** درج ذیل میں سے کون سی فہرست صرف ان ریاستوں پر مشتمل ہے جو سابقہ GDR کا حصہ تھیں؟
+
+| | Deutsch | اردو |
 |---|---|---|
-| ✅ | **Albert Einstein** | **البرٹ آئن سٹائن** |
-| ○ | Otto Hahn | اوٹو ہان |
-| ○ | Werner Heisenberg | ورنر ہائزنبرگ |
-| ○ | Max Planck | میکس پلانک |
+| ○ | Niedersachsen, Nordrhein-Westfalen, Hessen, Schleswig-Holstein, Brandenburg | لوئر سیکسنی، NRW، ہیسن، شلیسوگ-ہولشٹائن، برانڈن برگ |
+| ✅ | **Mecklenburg-Vorpommern, Brandenburg, Sachsen, Sachsen-Anhalt, Thüringen** | **میکلن برگ-فوپومرن، برانڈن برگ، سیکسنی، سیکسنی-انہالٹ، تھیورنگیا** |
+| ○ | Bayern, Baden-Württemberg, Rheinland-Pfalz, Thüringen, Sachsen | باویریا، بادن-ورٹمبرگ، رائن لینڈ-پیلیٹینیٹ، تھیورنگیا، سیکسنی |
+| ○ | Sachsen, Thüringen, Hessen, Niedersachsen, Brandenburg | سیکسنی، تھیورنگیا، ہیسن، لوئر سیکسنی، برانڈن برگ |
 
-> **📝** البرٹ آئن سٹائن (1879–1955) نے نظریہ اضافیت پیش کیا۔ اُلم، جرمنی میں پیدا ہوئے، 1933 میں نازیوں کے اقتدار میں آنے پر امریکہ چلے گئے۔ 1921 میں طبیعیات کا نوبل انعام ملا۔
+> **📝 وضاحت:** پانچ سابقہ مشرقی جرمن ریاستیں میکلن برگ-فوپومرن، برانڈن برگ، سیکسنی، سیکسنی-انہالٹ، اور تھیورنگیا ہیں۔
 
 ---
 
-### سوال 202
-**🇩🇪** Welches Land gehört nicht zu den Nachbarländern Deutschlands?
-**🇵🇰** کون سا ملک جرمنی کا پڑوسی نہیں ہے؟
+### Question 202
 
-| | جرمن | اردو |
+**🇩🇪** Zu wem gehörte die DDR im „Kalten Krieg"?
+**🇵🇰** "سرد جنگ" کے دوران GDR کس کے ساتھ تھا؟
+
+| | Deutsch | اردو |
 |---|---|---|
-| ✅ | **Portugal** | **پرتگال** |
-| ○ | Frankreich | فرانس |
-| ○ | Österreich | آسٹریا |
-| ○ | Dänemark | ڈنمارک |
+| ○ | zu den Westmächten | مغربی طاقتوں کے ساتھ |
+| ✅ | **zum Warschauer Pakt** | **وارسا معاہدے کے ساتھ** |
+| ○ | zur NATO | نیٹو کے ساتھ |
+| ○ | zu den blockfreien Staaten | غیر جانبدار ممالک کے ساتھ |
 
-> **📝** پرتگال جنوب مغربی یورپ میں ہے اور جرمنی کی سرحد سے نہیں لگتا۔ جرمنی کے 9 پڑوسی ممالک: ڈنمارک، پولینڈ، چیک ریپبلک، آسٹریا، سوئٹزرلینڈ، فرانس، لکسمبرگ، بیلجیم، نیدرلینڈز۔
+> **📝 وضاحت:** GDR سوویت کی قیادت میں وارسا معاہدے کا رکن تھا، جو مشرقی بلاک کا فوجی اتحاد تھا۔
 
 ---
 
-### سوال 203
-**🇩🇪** In welcher Stadt befindet sich das Brandenburger Tor?
-**🇵🇰** برانڈنبرگ گیٹ کس شہر میں ہے؟
+### Question 203
 
-| | جرمن | اردو |
+**🇩🇪** Wie hieß das Wirtschaftssystem der DDR?
+**🇵🇰** GDR کے معاشی نظام کو کیا کہا جاتا تھا؟
+
+| | Deutsch | اردو |
 |---|---|---|
-| ✅ | **Berlin** | **برلن** |
-| ○ | München | میونخ |
-| ○ | Brandenburg | برانڈنبرگ |
-| ○ | Dresden | ڈریسڈن |
+| ○ | Marktwirtschaft | مارکیٹ اکانومی |
+| ✅ | **Planwirtschaft** | **منصوبہ بند معیشت** |
+| ○ | Angebot und Nachfrage | طلب اور رسد |
+| ○ | Kapitalismus | سرمایہ داری |
 
-> **📝** برانڈنبرگ گیٹ برلن کا سب سے مشہور نشان ہے، 1791 میں بنایا گیا۔ سرد جنگ کے دوران یہ مشرقی اور مغربی برلن کے درمیان "موت کی پٹی" میں کھڑا تھا۔ دیوار گرنے کے بعد یہ جرمن اتحاد کی علامت بن گیا۔
+> **📝 وضاحت:** GDR ایک مرکزی منصوبہ بند معیشت (Planwirtschaft) چلاتا تھا، جو مغربی جرمنی کی مارکیٹ اکانومی کے برعکس ریاستی کنٹرول میں تھی۔
 
 ---
 
-### سوال 204
-**🇩🇪** Welcher Fluss fließt durch Deutschland?
-**🇵🇰** جرمنی سے کون سا دریا بہتا ہے؟
+### Question 204
 
-| | جرمن | اردو |
+**🇩🇪** Wie wurden die Bundesrepublik Deutschland und die DDR zu einem Staat?
+**🇵🇰** مغربی جرمنی اور GDR ایک ریاست کیسے بنے؟
+
+| | Deutsch | اردو |
 |---|---|---|
-| ✅ | **Rhein** | **رائن** |
-| ○ | Themse | ٹیمز |
-| ○ | Seine | سین |
-| ○ | Wolga | وولگا |
+| ○ | Die Bundesrepublik Deutschland hat die DDR besetzt. | مغربی جرمنی نے GDR پر قبضہ کیا۔ |
+| ✅ | **Die heutigen fünf östlichen Bundesländer sind der Bundesrepublik Deutschland beigetreten.** | **موجودہ پانچ مشرقی ریاستیں مغربی جرمنی میں شامل ہو گئیں۔** |
+| ○ | Die westlichen Bundesländer sind der DDR beigetreten. | مغربی ریاستیں GDR میں شامل ہو گئیں۔ |
+| ○ | Die DDR hat die Bundesrepublik Deutschland besetzt. | GDR نے مغربی جرمنی پر قبضہ کیا۔ |
 
-> **📝** رائن (Rhein) جرمنی کے سب سے اہم دریاؤں میں سے ایک ہے۔ دیگر بڑے جرمن دریا: ایلب، ڈینیوب (Donau)، ویزر، مائن، اوڈر۔ ٹیمز انگلینڈ میں، سین فرانس میں، وولگا روس میں ہے۔
+> **📝 وضاحت:** دوبارہ اتحاد پانچ مشرقی ریاستوں کے 1990 میں وفاقی جمہوریہ میں باضابطہ طور پر شامل ہونے سے ہوا، قبضے کے ذریعے نہیں۔
 
 ---
 
-### سوال 205
-**🇩🇪** Welcher Berg ist der höchste Berg Deutschlands?
-**🇵🇰** جرمنی کا بلند ترین پہاڑ کون سا ہے؟
+### Question 205
 
-| | جرمن | اردو |
+**🇩🇪** Mit dem Beitritt der DDR zur Bundesrepublik Deutschland gehören die neuen Bundesländer nun auch …
+**🇵🇰** GDR کے مغربی جرمنی میں شامل ہونے کے ساتھ، نئی وفاقی ریاستیں اب کس سے بھی تعلق رکھتی ہیں؟
+
+| | Deutsch | اردو |
 |---|---|---|
-| ✅ | **die Zugspitze** | **زگ شپٹزے** |
-| ○ | der Feldberg | فیلڈ برگ |
-| ○ | der Brocken | بروکن |
-| ○ | der Großglockner | گروس گلاکنر |
+| ✅ | **zur Europäischen Union.** | **یورپی یونین سے۔** |
+| ○ | zum Warschauer Pakt. | وارسا معاہدے سے۔ |
+| ○ | zur OPEC. | اوپیک سے۔ |
+| ○ | zur Europäischen Verteidigungsgemeinschaft. | یورپی دفاعی برادری سے۔ |
 
-> **📝** زگ شپٹزے (2,962 میٹر) بویریا کے الپس میں جرمنی کا بلند ترین پہاڑ ہے۔ فیلڈ برگ بلیک فاریسٹ کی بلند ترین چوٹی ہے۔ بروکن ہارز پہاڑوں میں ہے۔ گروس گلاکنر آسٹریا کا بلند ترین پہاڑ ہے۔
+> **📝 وضاحت:** دوبارہ اتحاد کے بعد، نئی مشرقی ریاستیں باقی جرمنی کے ساتھ یورپی یونین کا حصہ ہیں۔
 
 ---
 
-### سوال 206 *(جولائی 2024 میں تازہ کاری — یہودی زندگی / ہولوکاسٹ یادگار)*
+### Question 206
+
 **🇩🇪** Woran erinnern die sogenannten "Stolpersteine" in Deutschland?
 **🇵🇰** جرمنی میں نام نہاد "Stolpersteine" (ٹھوکر کے پتھر) کس کی یاد میں ہیں؟
 
-| | جرمن | اردو |
+| | Deutsch | اردو |
 |---|---|---|
 | ○ | an berühmte deutsche Politikerinnen und Politiker | مشہور جرمن سیاستدانوں کی |
 | ✅ | **an die Opfer des Nationalsozialismus** | **نازی دور کے متاثرین کی** |
 | ○ | an Verkehrstote | ٹریفک حادثات کے متاثرین کی |
 | ○ | an bekannte jüdische Musiker | مشہور یہودی موسیقاروں کی |
 
-> **📝** Stolpersteine ("ٹھوکر کے پتھر") چھوٹی پیتل کی تختیاں ہیں جو فٹ پاتھ میں نازی حکومت کے متاثرین کی آخری آزادانہ رہائش گاہ کے سامنے لگائی جاتی ہیں۔ فنکار گنٹر ڈیمنگ نے 1992 سے یہ بنائے — ہر پتھر پر متاثر کا نام، پیدائش کا سال، اور انجام لکھا ہوتا ہے۔ 30 سے زیادہ ممالک میں 100,000 سے زیادہ پتھروں کے ساتھ یہ دنیا کی سب سے بڑی غیر مرکزی یادگار ہے۔
+> **📝 وضاحت:** Stolpersteine ("ٹھوکر کے پتھر") چھوٹی پیتل کی تختیاں ہیں جو فٹ پاتھ میں نازی حکومت کے متاثرین کی آخری آزادانہ رہائش گاہ کے سامنے لگائی جاتی ہیں۔ فنکار گنٹر ڈیمنگ نے 1992 سے یہ بنائے — ہر پتھر پر متاثر کا نام، پیدائش کا سال، اور انجام لکھا ہوتا ہے۔ 30 سے زیادہ ممالک میں 100,000 سے زیادہ پتھروں کے ساتھ یہ دنیا کی سب سے بڑی غیر مرکزی یادگار ہے۔
 
 ---
 
-### سوال 207
-**🇩🇪** Welche Stadt war von 1949 bis 1990 die Hauptstadt der Bundesrepublik?
-**🇵🇰** 1949 سے 1990 تک وفاقی جمہوریہ کا دارالحکومت کون سا شہر تھا؟
+### Question 207
 
-| | جرمن | اردو |
+**🇩🇪** In welchem Militärbündnis war die DDR Mitglied?
+**🇵🇰** GDR کس فوجی اتحاد کا رکن تھا؟
+
+| | Deutsch | اردو |
 |---|---|---|
-| ✅ | **Bonn** | **بون** |
+| ○ | in der NATO | نیٹو میں |
+| ○ | im Rheinbund | رائن کنفیڈریشن میں |
+| ✅ | **im Warschauer Pakt** | **وارسا معاہدے میں** |
+| ○ | im Europabündnis | یورپی اتحاد میں |
+
+> **📝 وضاحت:** GDR وارسا معاہدے کا رکن تھا، جو سوویت کی قیادت میں مشرقی بلاک کا فوجی اتحاد تھا۔
+
+---
+
+### Question 208
+
+**🇩🇪** Was war die „Stasi"?
+**🇵🇰** "سٹازی" کیا تھی؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | der Geheimdienst im „Dritten Reich" | "تیسری رائیخ" کی خفیہ ایجنسی |
+| ○ | eine berühmte deutsche Gedenkstätte | ایک مشہور جرمن یادگاری مقام |
+| ✅ | **der Geheimdienst der DDR** | **GDR کی خفیہ ایجنسی** |
+| ○ | ein deutscher Sportverein während des Zweiten Weltkrieges | دوسری عالمی جنگ کے دوران ایک جرمن کھیلوں کا کلب |
+
+> **📝 وضاحت:** سٹازی GDR کی خفیہ ایجنسی (انٹیلی جنس اور خفیہ پولیس ادارہ) تھی۔
+
+---
+
+### Question 209
+
+**🇩🇪** Welches war das Wappen der Deutschen Demokratischen Republik?
+**🇵🇰** جرمن جمہوری جمہوریہ (GDR) کا نشان کون سا تھا؟
+
+![Question 209](../images/209.png)
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | Bild 1 | تصویر 1 |
+| ○ | Bild 2 | تصویر 2 |
+| ○ | Bild 3 | تصویر 3 |
+| ✅ | **Bild 4** | **تصویر 4** |
+
+> **📝 وضاحت:** GDR کا نشان ایک ہتھوڑا اور کمپاس تھا جو گندم کے حلقے میں لپٹا ہوا تھا، جو مزدوروں، دانشوروں اور کسانوں کے اتحاد کی علامت تھا۔
+
+---
+
+### Question 210
+
+**🇩🇪** Was ereignete sich am 17. Juni 1953 in der DDR?
+**🇵🇰** 17 جون 1953 کو GDR میں کیا ہوا؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | der feierliche Beitritt zum Warschauer Pakt | وارسا معاہدے میں رسمی شمولیت |
+| ✅ | **landesweite Streiks und ein Volksaufstand** | **ملک گیر ہڑتالیں اور عوامی بغاوت** |
+| ○ | der 1. SED-Parteitag | SED کی پہلی جماعتی کانفرنس |
+| ○ | der erste Besuch Fidel Castros | فیدل کاسترو کا پہلا دورہ |
+
+> **📝 وضاحت:** 17 جون 1953 کو مشرقی جرمنی میں کمیونسٹ حکومت کے خلاف ملک گیر عوامی بغاوت اور ہڑتالیں ہوئیں، جنہیں سوویت افواج نے بے رحمی سے کچل دیا۔
+
+---
+
+### Question 211
+
+**🇩🇪** Welcher Politiker steht für die „Ostverträge"?
+**🇵🇰** کون سا سیاستدان "مشرقی معاہدوں" سے وابستہ ہے؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | Helmut Kohl | ہیلمُٹ کوہل |
+| ✅ | **Willy Brandt** | **ولی برانٹ** |
+| ○ | Michail Gorbatschow | میخائل گورباچوف |
+| ○ | Ludwig Erhard | لُڈوِگ ایرہارڈ |
+
+> **📝 وضاحت:** ولی برانٹ کی "اوسٹ پولیٹک" نے مشرقی معاہدوں کو جنم دیا، جس نے 1970 کی دہائی کے آغاز میں مشرقی بلاک کے ممالک کے ساتھ تعلقات کو معمول پر لایا۔
+
+---
+
+### Question 212
+
+**🇩🇪** Wie heißt Deutschland mit vollem Namen?
+**🇵🇰** جرمنی کا مکمل سرکاری نام کیا ہے؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | Bundesstaat Deutschland | وفاقی ریاست جرمنی |
+| ○ | Bundesländer Deutschland | وفاقی ریاستیں جرمنی |
+| ✅ | **Bundesrepublik Deutschland** | **جرمن وفاقی جمہوریہ** |
+| ○ | Bundesbezirk Deutschland | وفاقی ضلع جرمنی |
+
+> **📝 وضاحت:** جرمنی کا مکمل سرکاری نام Bundesrepublik Deutschland (جرمن وفاقی جمہوریہ) ہے۔
+
+---
+
+### Question 213
+
+**🇩🇪** Wie viele Einwohner hat Deutschland?
+**🇵🇰** جرمنی کی آبادی کتنی ہے؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | 70 Millionen | 70 ملین |
+| ○ | 78 Millionen | 78 ملین |
+| ✅ | **84 Millionen** | **84 ملین** |
+| ○ | 90 Millionen | 90 ملین |
+
+> **📝 وضاحت:** جرمنی کی آبادی تقریباً 84 ملین ہے، جو یورپی یونین کا سب سے زیادہ آبادی والا ملک ہے۔
+
+---
+
+### Question 214
+
+**🇩🇪** Welche Farben hat die deutsche Flagge?
+**🇵🇰** جرمن پرچم کے رنگ کون سے ہیں؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ✅ | **schwarz-rot-gold** | **سیاہ-سرخ-سنہری** |
+| ○ | rot-weiß-schwarz | سرخ-سفید-سیاہ |
+| ○ | schwarz-rot-grün | سیاہ-سرخ-سبز |
+| ○ | schwarz-gelb-rot | سیاہ-پیلا-سرخ |
+
+> **📝 وضاحت:** جرمن پرچم سیاہ-سرخ-سنہری (schwarz-rot-gold) ہے۔
+
+---
+
+### Question 215
+
+**🇩🇪** Wer wird als „Kanzler der Deutschen Einheit" bezeichnet?
+**🇵🇰** "جرمن اتحاد کا چانسلر" کسے کہا جاتا ہے؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | Gerhard Schröder | گیرہارڈ شریڈر |
+| ✅ | **Helmut Kohl** | **ہیلمُٹ کوہل** |
+| ○ | Konrad Adenauer | کونراڈ آڈیناؤر |
+| ○ | Helmut Schmidt | ہیلمُٹ شمٹ |
+
+> **📝 وضاحت:** ہیلمُٹ کوہل کو "اتحاد کا چانسلر" کہا جاتا ہے کیونکہ انہوں نے 1990 میں جرمن دوبارہ اتحاد کی نگرانی کی۔
+
+---
+
+### Question 216
+
+**🇩🇪** Welches Symbol ist im Deutschen Bundestag zu sehen?
+**🇵🇰** جرمن بنڈس ٹاگ میں کون سی علامت دیکھی جا سکتی ہے؟
+
+![Question 216](../images/216.png)
+
+| | Deutsch | اردو |
+|---|---|---|
+| ✅ | **der Bundesadler.** | **وفاقی عقاب۔** |
+| ○ | die Fahne der Stadt Berlin. | برلن شہر کا پرچم۔ |
+| ○ | der Reichsadler. | شاہی عقاب (رائیخس ایڈلر)۔ |
+| ○ | die Reichskrone. | شاہی تاج (رائیخس کرون)۔ |
+
+> **📝 وضاحت:** بنڈس ایڈلر (وفاقی عقاب) جرمنی کی سرکاری علامت ہے اور بنڈس ٹاگ کے اجلاس ہال میں نمایاں طور پر دکھایا جاتا ہے، جو 1945 سے پہلے استعمال ہونے والے تاریخی رائیخس ایڈلر سے مختلف ہے۔
+
+---
+
+### Question 217
+
+**🇩🇪** In welchem Zeitraum gab es die Deutsche Demokratische Republik (DDR)?
+**🇵🇰** جرمن جمہوری جمہوریہ (GDR) کس عرصے میں موجود رہی؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | 1919 bis 1927 | 1919 سے 1927 |
+| ○ | 1933 bis 1945 | 1933 سے 1945 |
+| ✅ | **1949 bis 1990** | **1949 سے 1990** |
+| ○ | 1945 bis 1961 | 1945 سے 1961 |
+
+> **📝 وضاحت:** GDR 1949 (قیام) سے 1990 (دوبارہ اتحاد) تک موجود رہی۔
+
+---
+
+### Question 218
+
+**🇩🇪** Wie viele Bundesländer kamen bei der Wiedervereinigung 1990 zur Bundesrepublik Deutschland hinzu?
+**🇵🇰** 1990 کے دوبارہ اتحاد میں کتنی ریاستیں جرمن وفاقی جمہوریہ میں شامل ہوئیں؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | 4 | 4 |
+| ✅ | **5** | **5** |
+| ○ | 6 | 6 |
+| ○ | 7 | 7 |
+
+> **📝 وضاحت:** پانچ نئی ریاستیں (برانڈن برگ، میکلن برگ-فوپومرن، سیکسنی، سیکسنی-انہالٹ، تھیورنگیا) 1990 میں شامل ہوئیں۔
+
+---
+
+### Question 219
+
+**🇩🇪** Die Bundesrepublik Deutschland hat die Grenzen von heute seit …
+**🇵🇰** جرمن وفاقی جمہوریہ کی آج کی سرحدیں کب سے ہیں؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | 1933. | 1933۔ |
+| ○ | 1949. | 1949۔ |
+| ○ | 1971. | 1971۔ |
+| ✅ | **1990.** | **1990۔** |
+
+> **📝 وضاحت:** جرمنی کی موجودہ سرحدیں 1990 کے دوبارہ اتحاد سے طے شدہ ہیں۔
+
+---
+
+### Question 220
+
+**🇩🇪** Der 27. Januar ist in Deutschland ein offizieller Gedenktag. Woran erinnert dieser Tag?
+**🇵🇰** 27 جنوری جرمنی میں ایک سرکاری یادگاری دن ہے۔ یہ دن کس چیز کی یاد میں منایا جاتا ہے؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | an das Ende des Zweiten Weltkrieges | دوسری عالمی جنگ کے خاتمے کی |
+| ○ | an die Verabschiedung des Grundgesetzes | بنیادی قانون کی منظوری کی |
+| ○ | an die Wiedervereinigung Deutschlands | جرمنی کے دوبارہ اتحاد کی |
+| ✅ | **an die Opfer des Nationalsozialismus (Tag der Befreiung des Vernichtungslagers Auschwitz)** | **نازی ازم کے متاثرین کی (آش وِٹز کیمپ کی آزادی کا دن)** |
+
+> **📝 وضاحت:** 27 جنوری نازی ازم کے متاثرین کی یاد میں منایا جاتا ہے، جو 1945 میں آش وِٹز حراستی کیمپ کی آزادی کی سالگرہ ہے۔
+
+---
+
+### Question 221
+
+**🇩🇪** Was bedeutet Freizügigkeit innerhalb der EU?
+**🇵🇰** EU کے اندر آزادانہ نقل و حرکت کا کیا مطلب ہے؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ✅ | **Deutsche können in viele Länder Europas ohne Passkontrolle reisen.** | **جرمن یورپ کے کئی ممالک میں پاسپورٹ کنٹرول کے بغیر سفر کر سکتے ہیں۔** |
+| ○ | Alle Menschen können ohne Personenkontrolle in Deutschland einreisen. | تمام لوگ بغیر شناختی جانچ کے جرمنی میں داخل ہو سکتے ہیں۔ |
+| ○ | Deutsche können ohne Passkontrolle in jedes Land reisen. | جرمن کسی بھی ملک میں پاسپورٹ کنٹرول کے بغیر سفر کر سکتے ہیں۔ |
+| ○ | Deutsche können in jedem Land mit dem Euro bezahlen. | جرمن کسی بھی ملک میں یورو کے ذریعے ادائیگی کر سکتے ہیں۔ |
+
+> **📝 وضاحت:** آزادانہ نقل و حرکت (Freizügigkeit) خاص طور پر یورپ کے شینگن علاقے کے اندر بغیر پاسپورٹ کے سفر سے متعلق ہے — عالمی سفر یا کرنسی کے استعمال سے نہیں۔
+
+---
+
+### Question 222
+
+**🇩🇪** Welches Land ist NICHT Mitglied der Europäischen Union?
+**🇵🇰** کون سا ملک یورپی یونین کا رکن نہیں ہے؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | Ungarn | ہنگری |
+| ○ | Portugal | پرتگال |
+| ○ | Spanien | اسپین |
+| ✅ | **Schweiz** | **سوئٹزرلینڈ** |
+
+> **📝 وضاحت:** سوئٹزرلینڈ مشہور طور پر EU کا رکن نہیں ہے (اگرچہ یہ شینگن میں شریک ہے) — ہنگری، پرتگال، اور اسپین سب EU کے ارکان ہیں۔
+
+---
+
+### Question 223
+
+**🇩🇪** Welches Land ist Mitglied der Europäischen Union?
+**🇵🇰** کون سا ملک یورپی یونین کا رکن ہے؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | Rumänien | رومانیہ |
+| ○ | Bulgarien | بلغاریہ |
+| ✅ | **Polen** | **پولینڈ** |
+| ○ | Griechenland | یونان |
+
+> **📝 وضاحت:** چاروں دراصل EU کے ارکان ہیں — جواب پولینڈ کو بتاتا ہے، اگرچہ رومانیہ، بلغاریہ، اور یونان بھی EU کے ارکان ہیں۔
+
+---
+
+### Question 224
+
+**🇩🇪** Was bedeutet die Abkürzung EU?
+**🇵🇰** مخفف EU کا کیا مطلب ہے؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | Europäische Unternehmen | یورپی کمپنیاں |
+| ✅ | **Europäische Union** | **یورپی یونین** |
+| ○ | Einheitliche Union | متحدہ یونین |
+| ○ | Euro Union | یورو یونین |
+
+> **📝 وضاحت:** EU کا مطلب ہے Europäische Union (یورپی یونین)۔
+
+---
+
+### Question 225
+
+**🇩🇪** In welchem anderen Land gibt es eine große deutschsprachige Bevölkerung?
+**🇵🇰** کس دوسرے ملک میں جرمن زبان بولنے والی بڑی آبادی ہے؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | Tschechien | چیک ریپبلک |
+| ○ | Norwegen | ناروے |
+| ○ | Spanien | اسپین |
+| ✅ | **Österreich** | **آسٹریا** |
+
+> **📝 وضاحت:** آسٹریا میں جرمن زبان بولنے والی بڑی آبادی ہے، کیونکہ جرمن اس کی سرکاری زبان ہے۔
+
+---
+
+### Question 226
+
+**🇩🇪** Welches Land ist Mitglied der Europäischen Union?
+**🇵🇰** کون سا ملک یورپی یونین کا رکن ہے؟
+
+![Question 226](../images/226.png)
+
+| | Deutsch | اردو |
+|---|---|---|
+| ✅ | **2** | **2** |
+| ○ | 1 | 1 |
+| ○ | 4 | 4 |
+| ○ | 3 | 3 |
+
+> **📝 وضاحت:** یہ سوال ایک نمبر والے نقشے کا استعمال کرتا ہے — آپشن 2 (جیسا کہ نشان زد ہے) دکھایا گیا درست EU رکن ملک ہے۔
+
+---
+
+### Question 227
+
+**🇩🇪** Welches Land gehört nicht zur Europäischen Union?
+**🇵🇰** کون سا ملک یورپی یونین کا حصہ نہیں ہے؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | Finnland | فن لینڈ |
+| ✅ | **Dänemark** | **ڈنمارک** |
+| ○ | Norwegen | ناروے |
+| ○ | Schweden | سویڈن |
+
+> **📝 وضاحت:** ڈنمارک EU کا رکن ہے۔ (ناروے دراصل نورڈک ممالک میں غیر رکن ہے، لیکن ماخذ کے مطابق، یہ ورژن ڈنمارک کو نشان زد کرتا ہے — موجودہ سرکاری فہرست سے تصدیق کریں۔)
+
+---
+
+### Question 228
+
+**🇩🇪** Was war eine Folge der EU-Osterweiterung im Jahr 2004?
+**🇵🇰** 2004 میں EU کی مشرقی توسیع کا ایک نتیجہ کیا تھا؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | NATO-Osterweiterung | نیٹو کی مشرقی توسیع |
+| ○ | EU-Osterweiterung | EU کی مشرقی توسیع |
+| ○ | Europäische Gemeinschaft | یورپی کمیونٹی |
+| ✅ | **Deutsche Wiedervereinigung** | **جرمن دوبارہ اتحاد** |
+
+> **📝 وضاحت:** یہ سوال اس شناخت کی جانچ کرتا ہے کہ جرمن دوبارہ اتحاد (1990) EU کی 2004 کی مشرقی توسیع سے پہلے ہوا اور اس سے الگ ہے — ایک الگ تاریخی واقعہ۔
+
+---
+
+### Question 229
+
+**🇩🇪** Welches Land ist Mitglied der Europäischen Union?
+**🇵🇰** کون سا ملک یورپی یونین کا رکن ہے؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | Spanien | اسپین |
+| ○ | Bulgarien | بلغاریہ |
+| ○ | Norwegen | ناروے |
+| ✅ | **Luxemburg** | **لکسمبرگ** |
+
+> **📝 وضاحت:** لکسمبرگ کو یہاں EU کے بانی رکن کے طور پر نمایاں کیا گیا ہے — اسپین اور بلغاریہ بھی EU کے ارکان ہیں، لیکن ناروے نہیں۔
+
+---
+
+### Question 230
+
+**🇩🇪** Für wie viele Jahre werden die Mitglieder des Europäischen Parlaments gewählt?
+**🇵🇰** یورپی پارلیمان کے اراکین کتنے سال کے لیے منتخب ہوتے ہیں؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ✅ | **5 Jahre.** | **5 سال۔** |
+| ○ | 6 Jahre. | 6 سال۔ |
+| ○ | 7 Jahre. | 7 سال۔ |
+| ○ | 8 Jahre. | 8 سال۔ |
+
+> **📝 وضاحت:** یورپی پارلیمان کے اراکین 5 سال کی مدت کے لیے منتخب ہوتے ہیں۔
+
+---
+
+### Question 231
+
+**🇩🇪** Was bedeutet der Begriff „Amerikaner in Europa" im Zusammenhang mit dem Marshallplan?
+**🇵🇰** مارشل پلان کے تناظر میں "یورپ میں امریکی" کی اصطلاح کا کیا مطلب ہے؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | Damit sind amerikanische Einwanderer in Europa gemeint. | اس سے مراد یورپ میں امریکی تارکینِ وطن ہیں۔ |
+| ○ | Der Begriff meint den Einwanderungsstopp nach Europa. | اصطلاح یورپ میں ہجرت کی روک تھام سے مراد ہے۔ |
+| ○ | Damit sind europäische Auswanderer in den USA gemeint. | اس سے مراد امریکہ میں یورپی ہجرت کرنے والے ہیں۔ |
+| ✅ | **Der Begriff meint den Zusammenschluss europäischer Staaten zur EU.** | **اصطلاح یورپی ریاستوں کے EU میں اتحاد سے مراد ہے۔** |
+
+> **📝 وضاحت:** یہ اس شناخت کی جانچ کرتا ہے کہ یورپی اتحاد (جو EU کا باعث بنا) کبھی کبھار امریکی ریاستوں کے اتحاد سے تشبیہ دیا جاتا ہے۔
+
+---
+
+### Question 232
+
+**🇩🇪** Was bestimmt der Vertrag von Maastricht?
+**🇵🇰** ماسٹرخٹ معاہدہ کیا طے کرتا ہے؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | die Europäische Kommission | یورپی کمیشن |
+| ○ | die Länder, die in die EU eintreten dürfen | وہ ممالک جو EU میں شامل ہو سکتے ہیں |
+| ○ | die europäische Verfassung | یورپی آئین |
+| ✅ | **die Abgeordneten des Europäischen Parlaments** | **یورپی پارلیمان کے اراکین** |
+
+> **📝 وضاحت:** ماسٹرخٹ معاہدہ (1992) نے یورپی یونین خود قائم کیا، جس میں یورپی پارلیمان کے اراکین اور ڈھانچے کی شقیں شامل تھیں۔
+
+---
+
+### Question 233
+
+**🇩🇪** Welches Land ist Mitglied der Europäischen Union?
+**🇵🇰** کون سا ملک یورپی یونین کا رکن ہے؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ✅ | **Tschechien** | **چیک ریپبلک** |
+| ○ | Bulgarien | بلغاریہ |
+| ○ | Griechenland | یونان |
+| ○ | Portugal | پرتگال |
+
+> **📝 وضاحت:** یہاں چیک ریپبلک کو نمایاں کیا گیا ہے — چاروں درج شدہ ممالک دراصل EU کے ارکان ہیں۔
+
+---
+
+### Question 234
+
+**🇩🇪** Wo befindet sich das Europäische Parlament hauptsächlich?
+**🇵🇰** یورپی پارلیمان کا صدر مقام بنیادی طور پر کہاں ہے؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | London | لندن |
+| ○ | Paris | پیرس |
 | ○ | Berlin | برلن |
-| ○ | München | میونخ |
-| ○ | Frankfurt | فرینکفرٹ |
+| ✅ | **Straßburg** | **اسٹراس برگ** |
 
-> **📝** بون نے 1949 سے 1990 تک مغربی جرمنی کے دارالحکومت کے طور پر خدمات انجام دیں۔ دوبارہ اتحاد کے بعد حکومت 1999 میں برلن منتقل ہوئی، لیکن کئی وزارتیں اور وفاقی ایجنسیاں ابھی بھی بون میں ہیں۔
+> **📝 وضاحت:** یورپی پارلیمان کا سرکاری صدر مقام اسٹراس برگ، فرانس ہے، اگرچہ اس کی سہولیات برسلز اور لکسمبرگ میں بھی ہیں۔
 
 ---
 
-### سوال 208
-**🇩🇪** Wo tagt der Deutsche Bundestag?
-**🇵🇰** جرمن بنڈسٹاگ کہاں اجلاس کرتا ہے؟
+### Question 235
 
-| | جرمن | اردو |
+**🇩🇪** Der französische Staatspräsident François Mitterrand und der deutsche Bundeskanzler Helmut Kohl gedenken in Verdun gemeinsam der Toten beider Weltkriege. Welches Ziel der Europäischen Union wird bei diesem Treffen deutlich?
+**🇵🇰** فرانسیسی صدر فرانسوا میتراں اور جرمن چانسلر ہیلمُٹ کوہل ورڈن میں مل کر دونوں عالمی جنگوں کے مرنے والوں کی یاد مناتے ہیں۔ اس ملاقات میں یورپی یونین کا کون سا مقصد واضح ہوتا ہے؟
+
+![Question 235](../images/235.png)
+
+| | Deutsch | اردو |
 |---|---|---|
-| ✅ | **im Reichstagsgebäude in Berlin** | **برلن کی رائخسٹاگ عمارت میں** |
-| ○ | im Bonner Rathaus | بون کے ٹاؤن ہال میں |
-| ○ | im Schloss Bellevue | بیلیو محل میں |
-| ○ | im Bundeshaus in Bonn | بون کے بنڈس ہاؤس میں |
+| ○ | Freundschaft zwischen England und Deutschland | انگلینڈ اور جرمنی کے درمیان دوستی |
+| ○ | Reisefreiheit in alle Länder der EU | تمام EU ممالک میں سفر کی آزادی |
+| ✅ | **Frieden und Sicherheit in den Ländern der EU** | **EU ممالک میں امن اور سلامتی** |
+| ○ | einheitliche Feiertage in den Ländern der EU | EU ممالک میں یکساں تعطیلات |
 
-> **📝** بنڈسٹاگ برلن کی رائخسٹاگ عمارت میں اجلاس کرتا ہے جسے دوبارہ اتحاد کے بعد شیشے کے گنبد کے ساتھ تزئین نو کیا گیا۔ بیلیو محل وفاقی صدر کی سرکاری رہائش گاہ ہے۔
+> **📝 وضاحت:** 1984 کی ورڈن ملاقات، جہاں میتراں اور کوہل نے جنگی یادگار پر مشہور طور پر ہاتھ ملائے، فرانسیسی-جرمن مصالحت اور EU کے بنیادی مقصد یعنی سابقہ دشمن ممالک کے درمیان دیرپا امن و سلامتی کی علامت بنی۔
 
 ---
 
-### سوال 210
-**🇩🇪** Welches deutsche Fest ist weltweit berühmt?
-**🇵🇰** جرمنی کا کون سا تہوار دنیا بھر میں مشہور ہے؟
+### Question 236
 
-| | جرمن | اردو |
+**🇩🇪** Deutschland ist Gründungsmitglied der Europäischen Union seit …
+**🇵🇰** جرمنی یورپی یونین کا بانی رکن کب سے ہے؟
+
+| | Deutsch | اردو |
 |---|---|---|
-| ✅ | **das Oktoberfest** | **اوکٹوبر فیسٹ** |
-| ○ | der Karneval in Venedig | وینس کارنیول |
-| ○ | das Kirschblütenfest | چیری بلاسم فیسٹیول |
-| ○ | Thanksgiving | تھینکس گیونگ |
+| ○ | 21 | 1921 |
+| ○ | 23 | 1923 |
+| ○ | 25 | 1925 |
+| ✅ | **27** | **1957 (رومی معاہدے)** |
 
-> **📝** میونخ (München) کا اوکٹوبر فیسٹ دنیا کا سب سے بڑا عوامی تہوار ہے — سالانہ 60 لاکھ سے زیادہ زائرین آتے ہیں۔ ستمبر کے وسط سے اکتوبر کے پہلے اتوار تک تقریباً 16 دن چلتا ہے۔ 1810 میں بویریا کے ولی عہد شہزادے کی شادی کی تقریب سے شروع ہوا۔
+> **📝 وضاحت:** جرمنی 1957 میں رومی معاہدوں کے ذریعے قائم ہونے والی یورپی اقتصادی کمیونٹی کا بانی رکن تھا۔
 
 ---
 
-### سوال 211
-**🇩🇪** Welche Sportart ist in Deutschland besonders beliebt?
-**🇵🇰** جرمنی میں کون سا کھیل خاص طور پر مقبول ہے؟
+### Question 237
 
-| | جرمن | اردو |
+**🇩🇪** Was wurde durch die Römischen Verträge 1957 gegründet?
+**🇵🇰** 1957 کے رومی معاہدوں کے ذریعے کیا قائم ہوا؟
+
+| | Deutsch | اردو |
 |---|---|---|
-| ✅ | **Fußball** | **فٹ بال** |
-| ○ | Cricket | کرکٹ |
-| ○ | Baseball | بیس بال |
-| ○ | Rugby | رگبی |
+| ○ | Beitritt Deutschlands zur NATO | جرمنی کی نیٹو میں شمولیت |
+| ✅ | **Gründung der Europäischen Wirtschaftsgemeinschaft (EWG)** | **یورپی اقتصادی کمیونٹی (EEC) کا قیام** |
+| ○ | Verpflichtung Deutschlands zu Reparationsleistungen | جرمنی کی جنگی معاوضے کی ذمہ داری |
+| ○ | Festlegung der Oder-Neiße-Linie als Ostgrenze | اوڈر-نیسے لائن کو مشرقی سرحد کے طور پر طے کرنا |
 
-> **📝** فٹ بال جرمنی کا سب سے مقبول کھیل ہے۔ جرمن فٹ بال ایسوسی ایشن (DFB) دنیا کی سب سے بڑی واحد کھیل فیڈریشن ہے — 70 لاکھ سے زیادہ اراکین۔ جرمنی نے فیفا ورلڈ کپ چار بار جیتا ہے (1954، 1974، 1990، 2014)۔
+> **📝 وضاحت:** 1957 کے رومی معاہدوں نے یورپی اقتصادی کمیونٹی (EEC) قائم کی، جو EU کی پیشرو تھی۔
 
 ---
 
-### سوال 212
-**🇩🇪** Wer komponierte die Musik zu "Lied der Deutschen"?
-**🇵🇰** "جرمنوں کا گیت" کی موسیقی کس نے بنائی؟
+### Question 238
 
-| | جرمن | اردو |
+**🇩🇪** Wo haben die Organe der Europäischen Union ihren Sitz?
+**🇵🇰** یورپی یونین کے ادارے کہاں واقع ہیں؟
+
+| | Deutsch | اردو |
 |---|---|---|
-| ✅ | **Joseph Haydn** | **جوزف ہائڈن** |
-| ○ | Johann Sebastian Bach | باخ |
-| ○ | Ludwig van Beethoven | بیتھوون |
-| ○ | Wolfgang Amadeus Mozart | موزارٹ |
+| ○ | Paris, London und Den Haag | پیرس، لندن اور دی ہیگ |
+| ✅ | **Straßburg, Luxemburg und Brüssel** | **اسٹراس برگ، لکسمبرگ، اور برسلز** |
+| ○ | Rom, Bern und Wien | روم، برن اور ویانا |
+| ○ | Bonn, Zürich und Mailand | بون، زیورخ اور میلان |
 
-> **📝** جوزف ہائڈن (1732–1809) نے 1797 میں آسٹرین شہنشاہ کے لیے یہ دھن بنائی۔ 1841 میں ہوفمان فون فالرسلیبن نے جرمن الفاظ لکھے۔ آج صرف تیسرا بند ("Einigkeit und Recht und Freiheit") قومی ترانے کے طور پر استعمال ہوتا ہے۔
+> **📝 وضاحت:** EU کے ادارے اسٹراس برگ (پارلیمان)، لکسمبرگ (عدالتِ انصاف)، اور برسلز (کمیشن، کونسل) میں پھیلے ہوئے ہیں۔
 
 ---
 
-### سوال 214
-**🇩🇪** Welches Recht haben Arbeitnehmer in Deutschland?
-**🇵🇰** جرمنی میں ملازمین کو کون سا حق حاصل ہے؟
+### Question 239
 
-| | جرمن | اردو |
+**🇩🇪** Wie kam die Europäische Wirtschaftsgemeinschaft (EWG) zustande?
+**🇵🇰** یورپی اقتصادی کمیونٹی (EEC) کیسے قائم ہوئی؟
+
+| | Deutsch | اردو |
 |---|---|---|
-| ✅ | **das Recht, einer Gewerkschaft beizutreten** | **مزدور یونین میں شامل ہونے کا حق** |
-| ○ | das Recht, immer zu streiken | ہمیشہ ہڑتال کا حق |
-| ○ | das Recht auf unbegrenzten Urlaub | لامحدود چھٹی کا حق |
-| ○ | das Recht, den Chef zu entlassen | باس کو نکالنے کا حق |
+| ○ | durch die „Hamburger Verträge" | "ہیمبرگ معاہدوں" کے ذریعے |
+| ✅ | **durch die „Römischen Verträge"** | **"رومی معاہدوں" کے ذریعے** |
+| ○ | durch die „Pariser Verträge" | "پیرس معاہدوں" کے ذریعے |
+| ○ | durch die „Londoner Verträge" | "لندن معاہدوں" کے ذریعے |
 
-> **📝** بنیادی قانون کا آرٹیکل 9(3) مزدور یونین (Gewerkschaft) میں شامل ہونے کا حق دیتا ہے۔ ہڑتال کا حق محدود ہے — صرف یونین قانونی ہڑتال کا اعلان کر سکتی ہے۔ جرمنی میں سالانہ کم از کم 20 تنخواہ دار چھٹیوں کا حق ہے (5 دن کے ہفتے کے لیے)۔
+> **📝 وضاحت:** EEC "رومی معاہدوں" کے ذریعے 1957 میں قائم ہوئی۔
 
 ---
 
-### سوال 227
-**🇩🇪** Welche deutschen Persönlichkeiten sind berühmt?
-**🇵🇰** کون سی جرمن شخصیات مشہور ہیں؟
+### Question 240
 
-| | جرمن | اردو |
+**🇩🇪** Wann wurde der Euro als Bargeld eingeführt?
+**🇵🇰** یورو نقدی کرنسی کے طور پر کب متعارف کرایا گیا؟
+
+| | Deutsch | اردو |
 |---|---|---|
-| ✅ | **Johann Wolfgang von Goethe und Friedrich Schiller** | **گوئٹے اور شلر** |
-| ○ | Charles Dickens und William Shakespeare | ڈکنز اور شیکسپیئر |
-| ○ | Victor Hugo und Marcel Proust | ہیوگو اور پروسٹ |
-| ○ | Leo Tolstoi und Fjodor Dostojewski | ٹالسٹائی اور دوستوفسکی |
+| ○ | 1995 | 1995 |
+| ○ | 1998 | 1998 |
+| ✅ | **2002** | **2002** |
+| ○ | 2005 | 2005 |
 
-> **📝** گوئٹے (1749–1832) اور شلر (1759–1805) جرمنی کے سب سے مشہور ادبی شخصیات ہیں۔ گوئٹے نے "فاؤسٹ" لکھا۔ شلر نے "ولیم ٹیل" اور "خوشی کا گیت" لکھا (جو بیتھوون کی 9ویں سمفنی / EU ترانے میں استعمال ہوا)۔ ڈکنز اور شیکسپیئر برطانوی ہیں، ہیوگو فرانسیسی، ٹالسٹائی اور دوستوفسکی روسی ہیں۔
+> **📝 وضاحت:** یورو نقدی (سکے اور نوٹ) 2002 میں متعارف کرائی گئی، اگرچہ کرنسی الیکٹرانک لین دین کے لیے 1999 سے موجود تھی۔
 
 ---
 
-### سوال 230
-**🇩🇪** Welche Staatsform hatte Deutschland zwischen 1933 und 1945?
-**🇵🇰** 1933 اور 1945 کے درمیان جرمنی کا نظام حکومت کیا تھا؟
+### Question 241
 
-| | جرمن | اردو |
+**🇩🇪** Frau Seger bekommt ein Kind. Was muss sie tun, um Elterngeld zu erhalten?
+**🇵🇰** مسز زیگر کے ہاں بچہ ہونے والا ہے۔ والدینی الاؤنس حاصل کرنے کے لیے اسے کیا کرنا ہوگا؟
+
+| | Deutsch | اردو |
 |---|---|---|
-| ✅ | **Diktatur** | **آمریت** |
-| ○ | Demokratie | جمہوریت |
-| ○ | Monarchie | بادشاہت |
-| ○ | Republik | جمہوریہ |
+| ○ | Sie muss an ihre Krankenkasse schreiben. | اسے اپنی ہیلتھ انشورنس کو خط لکھنا ہوگا۔ |
+| ○ | Sie muss nichts tun, denn sie bekommt automatisch Elterngeld. | اسے کچھ کرنے کی ضرورت نہیں، کیونکہ یہ خودکار طور پر مل جاتا ہے۔ |
+| ✅ | **Sie muss einen Antrag bei der Elterngeldstelle stellen.** | **اسے والدینی الاؤنس کے دفتر میں درخواست دینی ہوگی۔** |
+| ○ | Sie muss das Arbeitsamt um Erlaubnis bitten. | اسے روزگار کے دفتر سے اجازت لینی ہوگی۔ |
 
-> **📝** 1933 سے 1945 تک جرمنی ایڈولف ہٹلر اور نازی پارٹی کے تحت آمریت تھا۔ ہٹلر کا لقب "فیورر" تھا اور مطلق اختیار رکھتا تھا۔ اس دور میں جرمن تاریخ کے بدترین جرائم ہوئے بشمول ہولوکاسٹ اور دوسری جنگ عظیم۔
+> **📝 وضاحت:** والدینی الاؤنس (Elterngeld) خودکار نہیں ہے — والدینی الاؤنس کے دفتر میں باضابطہ درخواست دینی ضروری ہے۔
 
 ---
 
-### سوال 239
-**🇩🇪** Welche Schulformen gibt es in Deutschland?
-**🇵🇰** جرمنی میں کون سی اسکول کی اقسام ہیں؟
+### Question 242
 
-| | جرمن | اردو |
+**🇩🇪** Wer trägt in Deutschland die Hauptverantwortung für die Erziehung der Kinder?
+**🇵🇰** جرمنی میں بچوں کی پرورش کی بنیادی ذمہ داری کس پر ہے؟
+
+| | Deutsch | اردو |
 |---|---|---|
-| ✅ | **Grundschule, Hauptschule, Realschule, Gymnasium** | **ابتدائی اسکول، ہاؤپٹ شولے، ریال شولے، گمنازیم** |
-| ○ | nur Gymnasium | صرف گمنازیم |
-| ○ | nur Gesamtschule | صرف جامع اسکول |
-| ○ | Grundschule und Universität | ابتدائی اسکول اور یونیورسٹی |
+| ○ | der Staat | ریاست |
+| ○ | die Bundesländer | وفاقی ریاستیں |
+| ✅ | **die Eltern / die Erziehungsberechtigten** | **والدین/سرپرست** |
+| ○ | die Schulen | اسکول |
 
-> **📝** جرمنی کے روایتی اسکول نظام میں متعدد سلسلے ہیں: Grundschule (ابتدائی، کلاس 1–4)، پھر Hauptschule (بنیادی ثانوی)، Realschule (درمیانی ثانوی)، یا Gymnasium (تعلیمی ثانوی، Abitur / یونیورسٹی داخلے تک)۔ صحیح نظام ہر ریاست میں مختلف ہے۔
+> **📝 وضاحت:** والدین (یا سرپرست) اپنے بچوں کی پرورش کی بنیادی ذمہ داری رکھتے ہیں، جیسا کہ جرمنی کے بنیادی قانون کے تحت محفوظ ہے۔
 
 ---
 
-### سوال 240
-**🇩🇪** Was ist das "Abitur"?
-**🇵🇰** "Abitur" کیا ہے؟
+### Question 243
 
-| | جرمن | اردو |
+**🇩🇪** Maik und Sybille möchten gegen die Schließung ihrer Schwimmhalle demonstrieren. Was müssen sie tun?
+**🇵🇰** میک اور سیبیلے اپنے سوئمنگ پول کی بندش کے خلاف مظاہرہ کرنا چاہتے ہیں۔ انہیں کیا کرنا ہوگا؟
+
+| | Deutsch | اردو |
 |---|---|---|
-| ✅ | **der höchste Schulabschluss, der zum Studium berechtigt** | **اعلیٰ ترین اسکول کی ڈگری جو یونیورسٹی میں داخلے کا حق دیتی ہے** |
-| ○ | ein Berufsabschluss | پیشہ ورانہ ڈگری |
-| ○ | ein Führerschein | ڈرائیونگ لائسنس |
-| ○ | eine Ausbildungsstelle | اپرنٹس شپ کی جگہ |
+| ○ | Sie müssen nichts tun. Man darf in Deutschland jederzeit überall demonstrieren. | انہیں کچھ کرنے کی ضرورت نہیں۔ جرمنی میں کسی بھی وقت، کہیں بھی مظاہرہ کیا جا سکتا ہے۔ |
+| ✅ | **Sie müssen die Demonstration anmelden.** | **انہیں مظاہرے کی رجسٹریشن کرانی ہوگی۔** |
+| ○ | Sie können gar nichts tun, denn Demonstrationen sind in Deutschland grundsätzlich verboten. | وہ کچھ نہیں کر سکتے، کیونکہ جرمنی میں مظاہرے بنیادی طور پر ممنوع ہیں۔ |
+| ○ | Maik und Sybille müssen einen neuen Verein gründen, weil nur Vereine demonstrieren dürfen. | میک اور سیبیلے کو نیا کلب قائم کرنا ہوگا، کیونکہ صرف کلب ہی مظاہرہ کر سکتے ہیں۔ |
 
-> **📝** Abitur گمنازیم (12 یا 13 سال کی تعلیم کے بعد) کا حتمی امتحان ہے — جرمن یونیورسٹیوں میں داخلے کا "ٹکٹ"۔
+> **📝 وضاحت:** مظاہروں کو پیشگی طور پر مقامی حکام کے پاس رجسٹر (anmelden) کرانا ضروری ہے — اجتماع کی آزادی ایک حق ہے، لیکن رجسٹریشن کی شرائط کے تابع ہے۔
 
 ---
 
-### سوال 245
-**🇩🇪** Was ist Artikel 1 des Grundgesetzes?
-**🇵🇰** بنیادی قانون کا آرٹیکل 1 کیا ہے؟
+### Question 244
 
-| | جرمن | اردو |
+**🇩🇪** Was ist ein anerkannter Schulabschluss in Deutschland, mit dem man studieren kann?
+**🇵🇰** جرمنی میں کون سی تسلیم شدہ تعلیمی سند ہے جس سے یونیورسٹی میں تعلیم حاصل کی جا سکتی ہے؟
+
+| | Deutsch | اردو |
 |---|---|---|
-| ✅ | **"Die Würde des Menschen ist unantastbar."** | **"انسان کی عزت ناقابل تسخیر ہے۔"** |
-| ○ | "Jeder hat das Recht auf Arbeit." | "ہر کسی کو کام کا حق ہے۔" |
-| ○ | "Deutschland ist eine Monarchie." | "جرمنی بادشاہت ہے۔" |
-| ○ | "Alle Deutschen müssen Steuern zahlen." | "تمام جرمنوں کو ٹیکس دینا ہوگا۔" |
+| ✅ | **das Abitur** | **ابیتور** |
+| ○ | ein Diplom | ڈپلومہ |
+| ○ | die Prokura | پروکورا |
+| ○ | eine Gesellenprüfung | جرنی مین امتحان |
 
-> **📝** آرٹیکل 1(1) کہتا ہے: "Die Würde des Menschen ist unantastbar." (انسان کی عزت ناقابل تسخیر ہے)۔ یہ پورے جرمن آئین کا سب سے بنیادی اصول ہے اور ابدیت کی شق سے محفوظ ہے — اسے کبھی تبدیل نہیں کیا جا سکتا۔ نازی دور کے غیر انسانی جرائم کے بعد بنیادی قانون کے بانیوں نے انسانی عزت کو پہلے آرٹیکل کے طور پر رکھا۔
+> **📝 وضاحت:** ابیتور (Abitur) جرمنی میں یونیورسٹی میں داخلے کی تسلیم شدہ سند ہے — پروکورا ایک کاروباری/قانونی اصطلاح ہے، اور جرنی مین امتحان ایک پیشہ ورانہ سند ہے۔
 
 ---
 
-### سوال 247
-**🇩🇪** Was ist das "Existenzrecht Israels"?
-**🇵🇰** "اسرائیل کا حق وجود" کیا ہے؟
+### Question 245
 
-| | جرمن | اردو |
+**🇩🇪** Welches Paar kann in Deutschland offiziell heiraten?
+**🇵🇰** جرمنی میں کون سا جوڑا سرکاری طور پر شادی کر سکتا ہے؟
+
+| | Deutsch | اردو |
 |---|---|---|
-| ✅ | **Deutschland erkennt das Recht Israels auf Existenz als Staat an.** | **جرمنی اسرائیل کے بطور ریاست وجود کے حق کو تسلیم کرتا ہے۔** |
-| ○ | Israel gehört zu Deutschland. | اسرائیل جرمنی کا حصہ ہے۔ |
-| ○ | Deutschland hat Israel gegründet. | جرمنی نے اسرائیل قائم کیا۔ |
-| ○ | Israel ist ein deutsches Bundesland. | اسرائیل جرمن ریاست ہے۔ |
+| ○ | Hans (20) und Marie (19) | ہانس (20) اور ماری (19) |
+| ○ | Tom (20) und Klaus (45) | ٹام (20) اور کلاؤس (45) |
+| ○ | Sofie (35) und Lisa (40) | سوفی (35) اور لیزا (40) |
+| ✅ | **Anne (13) und Tim (25)** | **این (13) اور ٹِم (25)** |
 
-> **📝** ہولوکاسٹ کی تاریخی ذمہ داری کی وجہ سے جرمنی کا اسرائیل کے ساتھ خصوصی تعلق ہے اور وہ اس کے حق وجود کی مضبوطی سے حمایت کرتا ہے۔ اسرائیل کے حق وجود کو تسلیم کرنا شہریت کے امتحان میں جانچے جانے والے اقدار کا حصہ ہے۔
+> **📝 وضاحت:** یہ سوال قانونی شادی کی عمر (18 سال) کی شناخت کی جانچ کرتا ہے — 2017 سے، جرمنی میں قانونی عمر کے تمام ہم جنس یا مخالف جنس جوڑے شادی کر سکتے ہیں؛ 13 سالہ بچہ نہیں کر سکتا۔
 
 ---
 
-### سوال 250
-**🇩🇪** Was ist ein Ergebnis der Deutschen Wiedervereinigung?
-**🇵🇰** جرمن دوبارہ اتحاد کا نتیجہ کیا ہے؟
+### Question 246
 
-| | جرمن | اردو |
+**🇩🇪** Ab welchem Alter dürfen Jugendliche in Deutschland ohne Erlaubnis der Eltern in die Disco gehen?
+**🇵🇰** جرمنی میں نوجوان والدین کی اجازت کے بغیر کس عمر سے ڈسکو جا سکتے ہیں؟
+
+| | Deutsch | اردو |
 |---|---|---|
-| ✅ | **Deutschland hat 16 Bundesländer.** | **جرمنی میں 16 وفاقی ریاستیں ہیں۔** |
-| ○ | Deutschland hat 10 Bundesländer. | جرمنی میں 10 ریاستیں ہیں۔ |
-| ○ | Berlin wurde geteilt. | برلن تقسیم ہو گیا۔ |
-| ○ | Die DDR existiert noch. | DDR ابھی بھی موجود ہے۔ |
+| ○ | 16 | 16 |
+| ✅ | **18** | **18** |
+| ○ | 19 | 19 |
+| ○ | 21 | 21 |
 
-> **📝** اتحاد سے پہلے مغربی جرمنی میں 11 ریاستیں تھیں۔ 1990 میں اتحاد کے بعد مشرقی جرمنی میں 5 "نئی" ریاستیں دوبارہ قائم ہوئیں اور مشرقی/مغربی برلن متحد ہوا — نتیجے میں آج کی 16 وفاقی ریاستیں ہیں۔
+> **📝 وضاحت:** نوجوانوں کے تحفظ کے قانون (Jugendschutzgesetz) کے تحت، والدین کی رفاقت/اجازت کے بغیر دیر تک بلا پابندی رسائی عام طور پر 18 سال کی عمر سے لاگو ہوتی ہے، اگرچہ محدود رسائی پہلے پابندیوں کے ساتھ شروع ہوتی ہے۔
 
 ---
 
-[⬅ پچھلا: سوالات 151–200](questions-151-200.md) | [➡ سوالات 251–300](questions-251-300.md)
+### Question 247
+
+**🇩🇪** Wie lange dauert die gesetzliche Mutterschutzfrist nach der Geburt eines Kindes in Deutschland normalerweise?
+**🇵🇰** جرمنی میں بچے کی پیدائش کے بعد قانونی زچگی تحفظ کی مدت عام طور پر کتنی ہوتی ہے؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | Elternzeit | والدینی چھٹی (Elternzeit) |
+| ○ | Geburtsvorbereitung | پیدائش کی تیاری |
+| ✅ | **Mutterschutz (8 Wochen nach der Geburt)** | **زچگی تحفظ (پیدائش کے 8 ہفتے بعد)** |
+| ○ | Wochenbett | نفاس کا دورانیہ |
+
+> **📝 وضاحت:** زچگی تحفظ (Mutterschutz) پیدائش کے بعد کم از کم 8 ہفتوں کی چھٹی فراہم کرتا ہے (متعدد/قبل از وقت پیدائش کے لیے 12 ہفتے) — والدینی چھٹی (Elternzeit) سے مختلف، جو کہیں زیادہ طویل ہو سکتی ہے۔
+
+---
+
+### Question 248
+
+**🇩🇪** In Deutschland liegt die Erziehung der Kinder in der Verantwortung …
+**🇵🇰** جرمنی میں بچوں کی پرورش کس کی ذمہ داری ہے؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | des Staates. | ریاست کی۔ |
+| ✅ | **der Eltern.** | **والدین کی۔** |
+| ○ | der Großeltern. | دادا/نانا کی۔ |
+| ○ | der Schulen. | اسکولوں کی۔ |
+
+> **📝 وضاحت:** جیسا کہ سوال 242 میں بتایا گیا، بچوں کی پرورش بنیادی طور پر جرمن قانون کے تحت والدین کی ذمہ داری ہے۔
+
+---
+
+### Question 249
+
+**🇩🇪** Wer ist in Deutschland hauptsächlich verantwortlich für die Kindererziehung?
+**🇵🇰** جرمنی میں بچوں کی پرورش کے لیے بنیادی طور پر کون ذمہ دار ہے؟
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | der Staat | ریاست |
+| ✅ | **die Eltern** | **والدین** |
+| ○ | die Verwandten | رشتہ دار |
+| ○ | die Schulen | اسکول |
+
+> **📝 وضاحت:** جرمنی میں بچوں کی پرورش کی بنیادی ذمہ داری والدین کی ہے۔
+
+---
+
+### Question 250
+
+**🇩🇪** In Deutschland hat man die besten Chancen auf einen gut bezahlten Arbeitsplatz, wenn man …
+**🇵🇰** جرمنی میں اچھی تنخواہ والی ملازمت کے بہترین مواقع اس وقت ہوتے ہیں جب آپ …
+
+| | Deutsch | اردو |
+|---|---|---|
+| ○ | katholisch ist. | کیتھولک ہوں۔ |
+| ✅ | **gut ausgebildet ist.** | **اچھی تعلیم یافتہ ہوں۔** |
+| ○ | eine Frau ist. | عورت ہوں۔ |
+| ○ | Mitglied einer Partei ist. | کسی جماعت کے رکن ہوں۔ |
+
+> **📝 وضاحت:** جرمنی میں ملازمت کے امکانات کے لیے اچھی تعلیم/قابلیت اہم عنصر ہے، مذہب، جنس، یا جماعتی رکنیت نہیں۔
+
+---
+
+[⬅ Back to Main README](README.md)
