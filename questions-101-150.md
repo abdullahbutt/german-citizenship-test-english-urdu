@@ -1,774 +1,807 @@
-# الأسئلة العامة — الجزء الثالث (101–150)
-
-[⬅ العودة](README.md)
+[⬅ Back to Main README](README.md)
 
 ---
 
 ### Question 101
 
-**🇩🇪 Deutsch:** Was ist eine kommunale Aufgabe in Deutschland?
-**🇸🇦 عربي:** ما هي مهمة بلدية في ألمانيا؟
+**🇩🇪** Gewerkschaften sind Interessenverbände der …
+**🇸🇦** النقابات هي جمعيات مصالح لـ …
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ✅ | **Trinkwasserversorgung** | **توفير مياه الشرب** |
-| ○ | Verteidigung | الدفاع الوطني |
-| ○ | Außenpolitik | السياسة الخارجية |
-| ○ | Polizeirecht | قانون الشرطة |
+| ○ | Jugendlichen. | الشباب. |
+| ✅ | **Arbeitnehmer und Arbeitnehmerinnen.** | **الموظفين.** |
+| ○ | Rentner und Rentnerinnen. | المتقاعدين. |
+| ○ | Arbeitgeber und Arbeitgeberinnen. | أصحاب العمل. |
 
-> **📝** من مهام البلديات في ألمانيا توفير الخدمات الأساسية كمياه الشرب والصرف الصحي والطرق المحلية والمدارس الابتدائية والمكتبات. الدفاع والسياسة الخارجية مسؤوليات فيدرالية.
+> **📝 الشرح:** تمثل النقابات (Gewerkschaften) مصالح الموظفين (العمال)، وتتفاوض مع أصحاب العمل حول الأجور وظروف العمل.
 
 ---
 
 ### Question 102
 
-**🇩🇪 Deutsch:** Wer wird bei den Kommunalwahlen gewählt?
-**🇸🇦 عربي:** من يُنتخب في الانتخابات البلدية؟
+**🇩🇪** Womit kann man in der Bundesrepublik Deutschland geehrt werden, wenn man auf politischem, wirtschaftlichem, kulturellem, geistigem oder sozialem Gebiet eine besondere Leistung erbracht hat? Mit dem …
+**🇸🇦** بأي شيء يمكن تكريم شخص في ألمانيا لإنجاز خاص في المجال السياسي أو الاقتصادي أو الثقافي أو الفكري أو الاجتماعي؟
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ✅ | **der Bürgermeister / die Bürgermeisterin** | **رئيس البلدية** |
-| ○ | der Bundespräsident | الرئيس الفيدرالي |
-| ○ | der Bundeskanzler | المستشار الفيدرالي |
-| ○ | der Ministerpräsident | رئيس وزراء الولاية |
+| ○ | Bundesadler. | النسر الاتحادي. |
+| ✅ | **Bundesverdienstkreuz.** | **وسام الاستحقاق الاتحادي.** |
+| ○ | Vaterländischen Verdienstorden. | وسام الاستحقاق الوطني. |
+| ○ | Ehrentitel „Held der Deutschen Demokratischen Republik". | اللقب الفخري "بطل جمهورية ألمانيا الديمقراطية". |
 
-> **📝** في الانتخابات البلدية يُنتخب رئيس البلدية (Bürgermeister) وأعضاء المجلس البلدي. هذه الانتخابات تهم المواطنين مباشرةً لأنها تؤثر في الخدمات اليومية.
+> **📝 الشرح:** وسام الاستحقاق الاتحادي (Bundesverdienstkreuz) هو أعلى وسام في ألمانيا للإنجازات المتميزة؛ أما الخيارات الأخرى فهي إما رموز وليست أوسمة، أو تعود لجمهورية ألمانيا الديمقراطية السابقة.
 
 ---
 
 ### Question 103
 
-**🇩🇪 Deutsch:** Wie viel Prozent der Zweitstimmen muss eine Partei mindestens bekommen, um in den Bundestag einzuziehen?
-**🇸🇦 عربي:** ما الحد الأدنى من أصوات الدرجة الثانية للدخول إلى البوندستاغ؟
+**🇩🇪** Was wird in Deutschland als „Ampelkoalition“ bezeichnet? Die Zusammenarbeit …
+**🇸🇦** ماذا يُسمى "ائتلاف إشارة المرور" في ألمانيا؟ التعاون …
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ○ | 3 % | 3% |
-| ✅ | **5 %** | **5%** |
-| ○ | 10 % | 10% |
-| ○ | 15 % | 15% |
+| ○ | der Bundestagsfraktionen von CDU und CSU | بين كتلتي CDU وCSU البرلمانيتين |
+| ✅ | **von SPD, FDP und Bündnis 90/Die Grünen in einer Regierung** | **بين SPD وFDP وتحالف 90/الخضر في حكومة واحدة** |
+| ○ | von CSU, Die Linke und Bündnis 90/Die Grünen in einer Regierung | بين CSU وDie Linke وتحالف 90/الخضر في حكومة واحدة |
+| ○ | der Bundestagsfraktionen von CDU und SPD | بين كتلتي CDU وSPD البرلمانيتين |
 
-> **📝** قاعدة الخمسة بالمئة (Fünf-Prozent-Hürde) تمنع الأحزاب الصغيرة من الدخول إلى البوندستاغ ما لم تنل 5% من الأصوات أو ثلاثة مقاعد مباشرة. هذا يضمن استقرار الحكومة.
+> **📝 الشرح:** يشير "ائتلاف إشارة المرور" (Ampelkoalition) إلى حكومة تضم SPD (أحمر)، وFDP (أصفر)، وتحالف 90/الخضر (أخضر) — بما يتوافق مع ألوان إشارة المرور.
 
 ---
 
 ### Question 104
 
-**🇩🇪 Deutsch:** Was passiert, wenn man in Deutschland gegen ein Gesetz verstößt?
-**🇸🇦 عربي:** ماذا يحدث إذا خالفت القانون في ألمانيا؟
+**🇩🇪** Eine Frau in Deutschland verliert ihre Arbeit. Was darf nicht der Grund für diese Entlassung sein?
+**🇸🇦** تفقد امرأة في ألمانيا وظيفتها. ما الذي لا يجوز أن يكون سببًا لهذا الفصل؟
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ○ | Man kommt immer ins Gefängnis. | تذهب دائمًا إلى السجن. |
-| ✅ | **Man muss mit einer Strafe rechnen.** | **يجب أن تتوقع عقوبة.** |
-| ○ | Nichts. | لا شيء. |
-| ○ | Man muss das Land verlassen. | يجب أن تغادر البلاد. |
+| ○ | Die Frau ist lange krank und arbeitsunfähig. | المرأة مريضة لفترة طويلة وغير قادرة على العمل. |
+| ○ | Die Frau kam oft zu spät zur Arbeit. | كانت المرأة تتأخر كثيرًا عن العمل. |
+| ○ | Die Frau erledigt private Sachen während der Arbeitszeit. | تقوم المرأة بأمور شخصية أثناء ساعات العمل. |
+| ✅ | **Die Frau bekommt ein Kind und ihr Chef weiß das.** | **المرأة حامل وصاحب العمل يعلم بذلك.** |
 
-> **📝** مخالفة القانون في ألمانيا تستوجب عقوبة قد تكون غرامة مالية أو حكمًا بالسجن حسب خطورة الجريمة. الجهل بالقانون لا يُعفي من المسؤولية.
+> **📝 الشرح:** الحمل محمي قانونيًا في ألمانيا (Mutterschutz) — فصل امرأة بسبب إنجابها طفلاً أمر غير قانوني، بخلاف الأسباب السلوكية الأخرى المذكورة.
 
 ---
 
 ### Question 105
 
-**🇩🇪 Deutsch:** Was ist eine Aufgabe der Polizei in Deutschland?
-**🇸🇦 عربي:** ما مهمة الشرطة في ألمانيا؟
+**🇩🇪** Was ist eine Aufgabe von Wahlhelfern / Wahlhelferinnen in Deutschland?
+**🇸🇦** ما هي إحدى مهام مساعدي الانتخابات في ألمانيا؟
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ○ | Gesetze machen | سنّ القوانين |
-| ✅ | **die öffentliche Sicherheit und Ordnung gewährleisten** | **ضمان الأمن والنظام العام** |
-| ○ | Richter ernennen | تعيين القضاة |
-| ○ | Steuern erheben | جمع الضرائب |
+| ○ | Sie helfen alten Menschen bei der Stimmabgabe in der Wahlkabine. | يساعدون كبار السن على الإدلاء بأصواتهم في مقصورة التصويت. |
+| ○ | Sie schreiben die Wahlbenachrichtigungen vor der Wahl. | يكتبون إشعارات التصويت قبل الانتخابات. |
+| ○ | Sie geben Zwischenergebnisse an die Medien weiter. | ينقلون النتائج المؤقتة إلى وسائل الإعلام. |
+| ✅ | **Sie zählen die Stimmen nach dem Ende der Wahl.** | **يقومون بفرز الأصوات بعد انتهاء الانتخابات.** |
 
-> **📝** مهمة الشرطة الأساسية ضمان الأمن والنظام العام والتحقيق في الجرائم وحماية المواطنين. الشرطة في ألمانيا تتبع في الغالب الولايات وليس الحكومة الفيدرالية.
+> **📝 الشرح:** مساعدو الانتخابات (Wahlhelfer) متطوعون تتمثل مهمتهم الرئيسية في فرز الأصوات بعد إغلاق الاقتراع — فهم لا يكتبون الإشعارات الرسمية ولا يطلعون وسائل الإعلام.
 
 ---
 
 ### Question 106
 
-**🇩🇪 Deutsch:** Was bedeutet "Rechtsstaatlichkeit" in Deutschland?
-**🇸🇦 عربي:** ماذا يعني "سيادة القانون" (Rechtsstaatlichkeit) في ألمانيا؟
+**🇩🇪** In Deutschland helfen ehrenamtliche Wahlhelfer und Wahlhelferinnen bei den Wahlen. Was ist eine Aufgabe von Wahlhelfern / Wahlhelferinnen?
+**🇸🇦** في ألمانيا، يساعد متطوعون في الانتخابات. ما هي إحدى مهام مساعدي الانتخابات؟
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ✅ | **Alle, auch der Staat, müssen sich an die Gesetze halten.** | **الجميع بمن فيهم الدولة ملزمون باتباع القانون.** |
-| ○ | Der Staat steht über dem Gesetz. | الدولة فوق القانون. |
-| ○ | Nur Bürger müssen Gesetze befolgen. | فقط المواطنون ملزمون باتباع القوانين. |
-| ○ | Gesetze gelten nur für Ausländer. | القوانين تنطبق على الأجانب فقط. |
+| ○ | Sie helfen Kindern und alten Menschen beim Wählen. | يساعدون الأطفال وكبار السن على التصويت. |
+| ○ | Sie schreiben Karten und Briefe mit der Angabe des Wahllokals. | يكتبون بطاقات ورسائل تحدد مركز الاقتراع. |
+| ○ | Sie geben Zwischenergebnisse an Journalisten weiter. | ينقلون النتائج المؤقتة إلى الصحفيين. |
+| ✅ | **Sie zählen die Stimmen nach dem Ende der Wahl.** | **يقومون بفرز الأصوات بعد انتهاء الانتخابات.** |
 
-> **📝** مبدأ سيادة القانون (Rechtsstaatlichkeit) يعني أن الجميع — بما فيهم الدولة وأجهزتها — ملزمون باحترام القانون. هذا يحمي المواطنين من تعسف السلطة.
+> **📝 الشرح:** كما هو الحال مع مساعدي الانتخابات الآخرين، مهمتهم الأساسية هي فرز الأصوات بعد انتهاء الاقتراع — وليس كتابة الإشعارات أو إطلاع الصحفيين.
 
 ---
 
 ### Question 107
 
-**🇩🇪 Deutsch:** Was ist die "Ewigkeitsklausel" des Grundgesetzes?
-**🇸🇦 عربي:** ما "البند الأبدي" (Ewigkeitsklausel) في القانون الأساسي؟
+**🇩🇪** Für wie viele Jahre wird der Bundestag in Deutschland gewählt?
+**🇸🇦** لكم عدد السنوات يُنتخب البوندستاغ في ألمانيا؟
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ✅ | **Bestimmte Grundsätze des Grundgesetzes dürfen nicht verändert werden.** | **مبادئ معينة في القانون الأساسي لا يمكن تعديلها أبدًا.** |
-| ○ | Das Grundgesetz gilt für immer ohne jede Änderung. | القانون الأساسي يسري إلى الأبد دون أي تعديل. |
-| ○ | Der Bundeskanzler regiert für immer. | المستشار يحكم إلى الأبد. |
-| ○ | Deutschland darf nie eine neue Verfassung bekommen. | لا يمكن لألمانيا أبدًا وضع دستور جديد. |
+| ○ | 2 Jahre | سنتان |
+| ✅ | **4 Jahre** | **4 سنوات** |
+| ○ | 6 Jahre | 6 سنوات |
+| ○ | 8 Jahre | 8 سنوات |
 
-> **📝** المادة 79 الفقرة 3 من القانون الأساسي (البند الأبدي) تحظر تعديل المبادئ الجوهرية كالكرامة الإنسانية والبنية الفيدرالية ومبادئ الديمقراطية. هذا يحمي من التحول نحو الاستبداد.
+> **📝 الشرح:** مدة ولاية البوندستاغ (Legislaturperiode) هي 4 سنوات.
 
 ---
 
 ### Question 108
 
-**🇩🇪 Deutsch:** Was bedeutet "Gewaltenteilung"?
-**🇸🇦 عربي:** ما معنى "الفصل بين السلطات"؟
+**🇩🇪** Bei einer Bundestagswahl in Deutschland darf jeder wählen, der …
+**🇸🇦** في انتخابات البوندستاغ في ألمانيا، يجوز لكل من …
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ✅ | **Die Staatsgewalt ist aufgeteilt in Legislative, Exekutive und Judikative.** | **سلطة الدولة مقسّمة بين التشريعية والتنفيذية والقضائية.** |
-| ○ | Alle Macht liegt beim Bundeskanzler. | جميع السلطات بيد المستشار. |
-| ○ | Die Polizei macht die Gesetze. | الشرطة تسنّ القوانين. |
-| ○ | Die Richter regieren das Land. | القضاة يحكمون البلاد. |
+| ○ | in der Bundesrepublik Deutschland wohnt und wählen möchte. | يقيم في ألمانيا ويرغب في التصويت. |
+| ✅ | **Bürger / Bürgerin der Bundesrepublik Deutschland ist und mindestens 18 Jahre alt ist.** | **مواطن ألماني ويبلغ 18 عامًا على الأقل.** |
+| ○ | seit mindestens 3 Jahren in der Bundesrepublik Deutschland lebt. | يقيم في ألمانيا منذ 3 سنوات على الأقل. |
+| ○ | Bürger / Bürgerin der Bundesrepublik Deutschland ist und mindestens 21 Jahre alt ist. | مواطن ألماني ويبلغ 21 عامًا على الأقل. |
 
-> **📝** الفصل بين السلطات (Gewaltenteilung) يوزّع سلطة الدولة على ثلاث جهات مستقلة: التشريعية (البرلمان)، والتنفيذية (الحكومة)، والقضائية (المحاكم). هذا يمنع الاستبداد ويكفل المساءلة.
+> **📝 الشرح:** فقط المواطنون الألمان البالغون 18 عامًا فأكثر يمكنهم التصويت في انتخابات البوندستاغ — الإقامة وحدها لا تكفي.
 
 ---
 
 ### Question 109
 
-**🇩🇪 Deutsch:** Was gehört nicht zu den Aufgaben des Bundespräsidenten?
-**🇸🇦 عربي:** ما الذي لا يدخل في صلاحيات الرئيس الفيدرالي؟
+**🇩🇪** Wie oft gibt es normalerweise Bundestagswahlen in Deutschland?
+**🇸🇦** كم مرة تُجرى الانتخابات الاتحادية عادةً في ألمانيا؟
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ○ | Gesetze unterschreiben | توقيع القوانين |
-| ○ | den Bundestag auflösen | حل البوندستاغ |
-| ✅ | **Richtlinien der Politik bestimmen** | **تحديد توجهات السياسة العامة** |
-| ○ | den Bundeskanzler ernennen | تعيين المستشار |
+| ○ | alle drei Jahre | كل ثلاث سنوات |
+| ✅ | **alle vier Jahre** | **كل أربع سنوات** |
+| ○ | alle fünf Jahre | كل خمس سنوات |
+| ○ | alle sechs Jahre | كل ست سنوات |
 
-> **📝** تحديد توجهات السياسة (Richtlinienkompetenz) هو صلاحية خاصة بالمستشار الفيدرالي وليس الرئيس. الرئيس الفيدرالي له دور تشريفي وتمثيلي في المقام الأول.
+> **📝 الشرح:** تُجرى الانتخابات الاتحادية عادة كل أربع سنوات، بما يتوافق مع مدة ولاية البوندستاغ.
 
 ---
 
 ### Question 110
 
-**🇩🇪 Deutsch:** Welche Partei gehörte nicht zu den langjährigen Parteien in Deutschland?
-**🇸🇦 عربي:** أيٌّ من الأحزاب التالية لم يكن من الأحزاب الراسخة تاريخيًا في ألمانيا؟
+**🇩🇪** Für wie viele Jahre wird der Bundestag in Deutschland gewählt?
+**🇸🇦** لكم عدد السنوات يُنتخب البوندستاغ في ألمانيا؟
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ○ | CDU | CDU |
-| ○ | SPD | SPD |
-| ✅ | **PDS** | **PDS** |
-| ○ | FDP | FDP |
+| ○ | 2 Jahre | سنتان |
+| ○ | 3 Jahre | 3 سنوات |
+| ✅ | **4 Jahre** | **4 سنوات** |
+| ○ | 5 Jahre | 5 سنوات |
 
-> **📝** حزب PDS (الحزب الديمقراطي الاشتراكي) هو خلف حزب SED الحاكم في ألمانيا الشرقية. تأسّس بعد الوحدة عام 1990 وتحوّل لاحقًا إلى حزب اليسار (Die Linke)، خلافًا لـCDU وSPD وFDP التي أحزاب راسخة من زمن طويل.
+> **📝 الشرح:** كما في السؤال 107، مدة ولاية البوندستاغ هي 4 سنوات.
 
 ---
 
 ### Question 111
 
-**🇩🇪 Deutsch:** Welche Handlungen mit Bezug auf den Staat Israel sind in Deutschland verboten?
-**🇸🇦 عربي:** ما الأفعال المتعلقة بإسرائيل المحظورة في ألمانيا؟
+**🇩🇪** Welche Handlungen mit Bezug auf den Staat Israel sind in Deutschland verboten?
+**🇸🇦** ما الأفعال المتعلقة بإسرائيل المحظورة في ألمانيا؟
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
 | ○ | die Politik Israels öffentlich kritisieren | انتقاد السياسة الإسرائيلية علنًا |
 | ○ | das Aufhängen einer israelischen Flagge auf dem Privatgrundstück | رفع العلم الإسرائيلي على ممتلكات خاصة |
 | ○ | eine Diskussion über die Politik Israels | نقاش عام حول سياسات إسرائيل |
 | ✅ | **der öffentliche Aufruf zur Vernichtung Israels** | **الدعوة العلنية إلى إبادة إسرائيل** |
 
-> **📝** الدعوة العلنية إلى إبادة إسرائيل أو إنكار حقها في الوجود مجرَّمة في ألمانيا. أما انتقاد سياسات الحكومة الإسرائيلية فهو حرية رأي مكفولة. ألمانيا تُميّز بين النقد المشروع ومعاداة السامية.
+> **📝 الشرح:** الدعوة العلنية إلى إبادة إسرائيل أو إنكار حقها في الوجود مجرَّمة في ألمانيا. أما انتقاد سياسات الحكومة الإسرائيلية فهو حرية رأي مكفولة. ألمانيا تُميّز بين النقد المشروع ومعاداة السامية.
 
 ---
 
 ### Question 112
 
-**🇩🇪 Deutsch:** Wie heißt die politische Vereinigung von CDU und CSU?
-**🇸🇦 عربي:** ما اسم التحالف السياسي بين CDU وCSU؟
+**🇩🇪** Die Wahlen in Deutschland sind …
+**🇸🇦** الانتخابات في ألمانيا …
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ○ | Koalition | ائتلاف |
-| ✅ | **Union** | **اتحاد (Union)** |
-| ○ | Fraktion | كتلة برلمانية |
-| ○ | Föderation | فيدرالية |
+| ○ | speziell. | خاصة. |
+| ✅ | **geheim.** | **سرية.** |
+| ○ | berufsbezogen. | مرتبطة بالمهنة. |
+| ○ | geschlechtsabhängig. | مرتبطة بالجنس. |
 
-> **📝** التحالف بين CDU (الاتحاد الديمقراطي المسيحي) وCSU (الاتحاد الاجتماعي المسيحي البافاري) يُعرف بالاتحاد (Union). CSU موجود في بافاريا فقط بينما CDU في باقي الولايات.
+> **📝 الشرح:** الانتخابات الألمانية سرية (geheim) — وهي أحد المبادئ الانتخابية الخمسة الرئيسية (عامة، مباشرة، حرة، متساوية، سرية).
 
 ---
 
 ### Question 113
 
-**🇩🇪 Deutsch:** Wer gehört zu den Verfassungsorganen Deutschlands?
-**🇸🇦 عربي:** أيٌّ من التالي يُعدّ من المؤسسات الدستورية في ألمانيا؟
+**🇩🇪** Wahlen in Deutschland gewinnt die Partei, die …
+**🇸🇦** في ألمانيا، يفوز بالانتخابات الحزب الذي …
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ○ | der TÜV | TÜV (هيئة الفحص التقني) |
-| ✅ | **der Bundestag** | **البوندستاغ** |
-| ○ | das Arbeitsamt | مكتب العمل |
-| ○ | das Gesundheitsamt | مكتب الصحة |
+| ✅ | **die meisten Stimmen bekommt.** | **يحصل على أكبر عدد من الأصوات.** |
+| ○ | die meisten Männer mehrheitlich gewählt haben. | صوّت له معظم الرجال. |
+| ○ | die meisten Stimmen bei den Arbeitern / Arbeiterinnen bekommen hat. | حصل على أكبر عدد من أصوات العمال. |
+| ○ | die meisten Erststimmen für ihren Kanzlerkandidaten / ihre Kanzlerkandidatin erhalten hat. | حصل على أكبر عدد من الأصوات الأولى لمرشحه للمستشارية. |
 
-> **📝** البوندستاغ من المؤسسات الدستورية (Verfassungsorgane) إلى جانب البوندسرات والرئيس الفيدرالي والحكومة الفيدرالية والمحكمة الدستورية. TÜV ومكتب العمل مؤسسات إدارية وليست دستورية.
+> **📝 الشرح:** يفوز الحزب (أو الائتلاف) الذي يحصل على أكبر عدد إجمالي من الأصوات — وليس بناءً على فئة سكانية معينة أو نوع تصويت واحد.
 
 ---
 
 ### Question 114
 
-**🇩🇪 Deutsch:** Wofür ist der Bundesrat zuständig?
-**🇸🇦 عربي:** ما صلاحيات البوندسرات؟
+**🇩🇪** An demokratischen Wahlen in Deutschland teilzunehmen ist …
+**🇸🇦** المشاركة في الانتخابات الديمقراطية في ألمانيا هي …
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ✅ | **Vertretung der Bundesländer** | **تمثيل الولايات الفيدرالية** |
-| ○ | Wahl des Bundeskanzlers | انتخاب المستشار |
-| ○ | Kontrolle des Militärs | الإشراف على الجيش |
-| ○ | Wahl des Bundespräsidenten | انتخاب الرئيس الفيدرالي |
+| ○ | eine Pflicht. | واجب. |
+| ✅ | **ein Recht.** | **حق.** |
+| ○ | ein Zwang. | إجبار. |
+| ○ | eine Last. | عبء. |
 
-> **📝** البوندسرات يمثّل حكومات الولايات الـ16 على المستوى الفيدرالي. يشارك في التشريع ويمنح أو يرفض موافقته على القوانين التي تؤثر في صلاحيات الولايات.
+> **📝 الشرح:** التصويت في ألمانيا حق (Recht)، وليس التزامًا قانونيًا — بخلاف بعض الدول التي يكون فيها التصويت إلزاميًا.
 
 ---
 
 ### Question 115
 
-**🇩🇪 Deutsch:** Was muss man tun, wenn man einen Brief von einem Gericht bekommt?
-**🇸🇦 عربي:** ماذا يجب أن تفعل إذا وصلك خطاب من المحكمة؟
+**🇩🇪** Was bedeutet „aktives Wahlrecht" in Deutschland?
+**🇸🇦** ماذا يعني "حق التصويت الفعلي" في ألمانيا؟
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ✅ | **Den Brief öffnen, lesen und die Fristen beachten.** | **افتح الخطاب واقرأه وراعِ المواعيد النهائية.** |
-| ○ | Den Brief wegwerfen. | اطرح الخطاب. |
-| ○ | Den Brief ungeöffnet zurückschicken. | أعد الخطاب دون فتحه. |
-| ○ | Einen Freund bitten, den Brief zu öffnen. | اطلب من صديق فتح الخطاب. |
+| ○ | Man kann gewählt werden. | يمكن انتخاب الشخص (كمرشح). |
+| ○ | Man muss wählen gehen. | يجب على الشخص الذهاب للتصويت. |
+| ✅ | **Man kann wählen.** | **يمكن للشخص التصويت.** |
+| ○ | Man muss zur Auszählung der Stimmen gehen. | يجب على الشخص حضور عملية فرز الأصوات. |
 
-> **📝** خطابات المحاكم في ألمانيا جدية للغاية. يجب فتحها فور وصولها ومراعاة المواعيد النهائية. تجاهلها قد يُفضي إلى صدور حكم غيابي ضدك. عند الحاجة استشر محاميًا.
+> **📝 الشرح:** يعني "حق التصويت الفعلي" (aktives Wahlrecht) الحق في التصويت — بخلاف "حق التصويت السلبي" (الحق في الترشح).
 
 ---
 
 ### Question 116
 
-**🇩🇪 Deutsch:** Was ist eine "Petition"?
-**🇸🇦 عربي:** ما "العريضة" (Petition) في ألمانيا؟
+**🇩🇪** Wenn Sie bei einer Bundestagswahl in Deutschland wählen dürfen, heißt das …
+**🇸🇦** إذا كان مسموحًا لك بالتصويت في انتخابات البوندستاغ في ألمانيا، فهذا يُسمى …
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ✅ | **eine Beschwerde / ein Antrag an das Parlament** | **شكوى أو طلب مقدَّم إلى البرلمان** |
-| ○ | eine Klage vor Gericht | دعوى قضائية |
-| ○ | ein Wahlzettel | ورقة اقتراع |
-| ○ | eine Steuererklärung | إقرار ضريبي |
+| ○ | aktive Wahlkampagne. | حملة انتخابية فعّالة. |
+| ○ | aktives Wahlverfahren. | إجراء انتخابي فعّال. |
+| ○ | aktiver Wahlkampf. | حملة انتخابية نشطة. |
+| ✅ | **aktives Wahlrecht.** | **حق التصويت الفعلي.** |
 
-> **📝** العريضة (Petition) حق مكفول في المادة 17 من القانون الأساسي. يحق لكل شخص تقديم عريضة إلى البرلمان أو الجهات الحكومية. لجنة العرائض في البوندستاغ تنظر فيها وتردّ عليها.
+> **📝 الشرح:** يُسمى الحق في التصويت نفسه حق التصويت الفعلي (aktives Wahlrecht).
 
 ---
 
 ### Question 117
 
-**🇩🇪 Deutsch:** Wo sitzt das Bundesverfassungsgericht?
-**🇸🇦 عربي:** أين تقع المحكمة الدستورية الفيدرالية؟
+**🇩🇪** Wie viel Prozent der Zweitstimmen müssen Parteien mindestens bekommen, um in den Deutschen Bundestag gewählt zu werden?
+**🇸🇦** ما هي النسبة المئوية الدنيا من الأصوات الثانية التي يجب أن يحصل عليها الحزب لدخول البوندستاغ؟
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ○ | Berlin | برلين |
-| ○ | Bonn | بون |
-| ✅ | **Karlsruhe** | **كارلسروه** |
-| ○ | München | ميونيخ |
+| ○ | 3 % | 3% |
+| ○ | 4 % | 4% |
+| ✅ | **5 %** | **5%** |
+| ○ | 6 % | 6% |
 
-> **📝** المحكمة الدستورية الفيدرالية (Bundesverfassungsgericht) مقرها في كارلسروه. تُعدّ الهيئة القضائية العليا في ألمانيا وتفسّر القانون الأساسي وتراجع دستورية القوانين.
+> **📝 الشرح:** تتطلب عتبة الـ5% (5%-Hürde) أن يفوز الحزب بنسبة 5% على الأقل من الأصوات الثانية على مستوى البلاد (أو 3 مقاعد دوائر مباشرة) لدخول البوندستاغ.
 
 ---
 
 ### Question 118
 
-**🇩🇪 Deutsch:** Wer darf bei den rund 40 jüdischen Makkabi-Sportvereinen Mitglied werden?
-**🇸🇦 عربي:** من يحق له الانضمام إلى أندية ماكابي الرياضية اليهودية الأربعين تقريبًا في ألمانيا؟
+**🇩🇪** Wer darf bei den rund 40 jüdischen Makkabi-Sportvereinen Mitglied werden?
+**🇸🇦** من يحق له الانضمام إلى أندية ماكابي الرياضية اليهودية الأربعين تقريبًا في ألمانيا؟
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
 | ○ | nur Deutsche | الألمان فقط |
 | ○ | nur Israelis | الإسرائيليون فقط |
 | ○ | nur religiöse Menschen | المتدينون فقط |
 | ✅ | **alle Menschen** | **الجميع** |
 
-> **📝** أندية ماكابي اليهودية مفتوحة للجميع بصرف النظر عن الديانة أو الجنسية. هذا مثال على الانفتاح الذي تتيحه الديمقراطية الألمانية وحرية الجمعيات.
+> **📝 الشرح:** أندية ماكابي اليهودية مفتوحة للجميع بصرف النظر عن الديانة أو الجنسية. هذا مثال على الانفتاح الذي تتيحه الديمقراطية الألمانية وحرية الجمعيات.
 
 ---
 
 ### Question 119
 
-**🇩🇪 Deutsch:** Welches Gericht ist in Deutschland für verfassungsrechtliche Fragen zuständig?
-**🇸🇦 عربي:** أيٌّ من المحاكم يختص بالمسائل الدستورية في ألمانيا؟
+**🇩🇪** Wahlen in Deutschland sind frei. Was bedeutet das?
+**🇸🇦** الانتخابات في ألمانيا حرة. ماذا يعني ذلك؟
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ○ | Amtsgericht | محكمة المقاطعة |
-| ○ | Landgericht | المحكمة الإقليمية |
-| ○ | Bundesgerichtshof | محكمة العدل الفيدرالية |
-| ✅ | **Bundesverfassungsgericht** | **المحكمة الدستورية الفيدرالية** |
+| ○ | Alle verurteilten Straftäter / Straftäterinnen dürfen nicht wählen. | لا يجوز لجميع المجرمين المدانين التصويت. |
+| ○ | Wenn ich wählen gehen möchte, muss mein Arbeitgeber / meine Arbeitgeberin mir frei geben. | إذا أردت التصويت، يجب على صاحب العمل منحي إجازة. |
+| ✅ | **Jede Person kann ohne Zwang entscheiden, ob sie wählen möchte und wen sie wählen möchte.** | **يمكن لكل شخص أن يقرر دون إكراه ما إذا كان سيصوت ولمن.** |
+| ○ | Ich kann frei entscheiden, wo ich wählen gehen möchte. | يمكنني أن أقرر بحرية أين أذهب للتصويت. |
 
-> **📝** المحكمة الدستورية الفيدرالية هي الجهة الوحيدة المختصة بالفصل في المسائل الدستورية. يمكن للمواطنين رفع شكاوى دستورية أمامها عند الاعتقاد بانتهاك حقوقهم الأساسية.
+> **📝 الشرح:** تعني الانتخابات "الحرة" أن يقرر الناخبون دون إكراه التصويت ولمن يصوتون — وليس اختيار مكان الاقتراع أو التزامات صاحب العمل.
 
 ---
 
 ### Question 120
 
-**🇩🇪 Deutsch:** Deutschland ist Mitglied der EU. Wann wurde die Europäische Wirtschaftsgemeinschaft (EWG) gegründet?
-**🇸🇦 عربي:** متى تأسست الجماعة الاقتصادية الأوروبية (EWG)؟
+**🇩🇪** Das Wahlsystem in Deutschland ist ein …
+**🇸🇦** النظام الانتخابي في ألمانيا هو …
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ○ | 1__(9)__49 | 1949 |
-| ✅ | **1957** | **1957** |
-| ○ | 1__(9)__63 | 1963 |
-| ○ | 1__(9)__72 | 1972 |
+| ○ | Zensuswahlrecht. | حق اقتراع قائم على التعداد. |
+| ○ | Dreiklassenwahlrecht. | نظام التصويت الطبقي الثلاثي. |
+| ✅ | **Mehrheits- und Verhältniswahlrecht.** | **نظام تمثيل الأغلبية والنسبية.** |
+| ○ | allgemeines Männerwahlrecht. | حق اقتراع عام للذكور. |
 
-> **📝** تأسست الجماعة الاقتصادية الأوروبية عام 1957 بمعاهدة روما. كانت في البداية تضم ست دول ثم توسّعت لتصبح الاتحاد الأوروبي في معاهدة ماستريخت عام 1993.
+> **📝 الشرح:** تستخدم ألمانيا نظامًا نسبيًا مختلطًا يجمع بين التصويت بالأغلبية (Erststimme، الدائرة المباشرة) والتمثيل النسبي (Zweitstimme، قوائم الأحزاب).
 
 ---
 
 ### Question 121
 
-**🇩🇪 Deutsch:** Was ist die Europäische Union?
-**🇸🇦 عربي:** ما الاتحاد الأوروبي؟
+**🇩🇪** Eine Partei möchte in den Deutschen Bundestag. Sie muss aber einen Mindestanteil an Wählerstimmen haben. Das heißt …
+**🇸🇦** يريد حزب دخول البوندستاغ الألماني. لكن يجب أن يحصل على حد أدنى من دعم الناخبين. يُسمى ذلك …
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ✅ | **ein wirtschaftlicher und politischer Zusammenschluss europäischer Staaten** | **اتحاد اقتصادي وسياسي للدول الأوروبية** |
-| ○ | ein Militärbündnis | تحالف عسكري |
-| ○ | ein Sportverband | رابطة رياضية |
-| ○ | eine Religionsgemeinschaft | جماعة دينية |
+| ✅ | **5 %-Hürde.** | **عتبة الـ5%.** |
+| ○ | Zulassungsgrenze. | حد القبول. |
+| ○ | Basiswert. | القيمة الأساسية. |
+| ○ | Richtlinie. | التوجيه. |
 
-> **📝** الاتحاد الأوروبي تأسّس لتعزيز السلام والتعاون الاقتصادي وحرية التنقل بين الدول الأعضاء. يضم حاليًا 27 دولة ويملك قوانين ومؤسسات مشتركة.
+> **📝 الشرح:** يُسمى هذا الحد الأدنى من الأصوات المطلوبة بعتبة الـ5% (5%-Hürde).
 
 ---
 
 ### Question 122
 
-**🇩🇪 Deutsch:** Was ist kein EU-Mitgliedsstaat?
-**🇸🇦 عربي:** أيٌّ من الدول التالية ليست عضوًا في الاتحاد الأوروبي؟
+**🇩🇪** Welchem Grundsatz unterliegen Wahlen in Deutschland? Wahlen in Deutschland sind …
+**🇸🇦** ما المبدأ الذي تخضع له الانتخابات في ألمانيا؟ الانتخابات في ألمانيا …
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ○ | Frankreich | فرنسا |
-| ○ | Italien | إيطاليا |
-| ✅ | **die Türkei** | **تركيا** |
-| ○ | Spanien | إسبانيا |
+| ✅ | **frei, gleich, geheim.** | **حرة، متساوية، سرية.** |
+| ○ | offen, sicher, frei. | علنية، آمنة، حرة. |
+| ○ | geschlossen, gleich, sicher. | مغلقة، متساوية، آمنة. |
+| ○ | sicher, offen, freiwillig. | آمنة، علنية، طوعية. |
 
-> **📝** تركيا ليست عضوًا في الاتحاد الأوروبي رغم أن مفاوضات الانضمام جرت تاريخيًا. جميع الدول الأخرى المذكورة أعضاء في الاتحاد.
+> **📝 الشرح:** تتبع الانتخابات الألمانية خمسة مبادئ: عامة، مباشرة، حرة، متساوية، وسرية — وقد اختُصرت هنا إلى حرة ومتساوية وسرية.
 
 ---
 
 ### Question 123
 
-**🇩🇪 Deutsch:** Wer darf bei Kommunalwahlen in Deutschland wählen?
-**🇸🇦 عربي:** من يحق له التصويت في الانتخابات البلدية في ألمانيا؟
+**🇩🇪** Was ist in Deutschland die „5 %-Hürde"?
+**🇸🇦** ما هي "عتبة الـ5%" في ألمانيا؟
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ○ | nur Deutsche | الألمان فقط |
-| ✅ | **Deutsche und EU-Bürger/innen** | **الألمان ومواطنو الاتحاد الأوروبي** |
-| ○ | alle Ausländer | جميع الأجانب |
-| ○ | nur Männer | الرجال فقط |
+| ○ | Abstimmungsregelung im Bundestag für kleine Parteien | قاعدة تصويت في البوندستاغ للأحزاب الصغيرة |
+| ○ | Anwesenheitskontrolle im Bundestag für Abstimmungen | فحص الحضور في البوندستاغ للتصويت |
+| ✅ | **Mindestanteil an Wählerstimmen, um ins Parlament zu kommen** | **الحد الأدنى من أصوات الناخبين المطلوب لدخول البرلمان** |
+| ○ | Anwesenheitskontrolle im Bundesrat für Abstimmungen | فحص الحضور في البوندسرات للتصويت |
 
-> **📝** في الانتخابات البلدية يحق لمواطني الاتحاد الأوروبي المقيمين في ألمانيا التصويت إلى جانب المواطنين الألمان. هذا لا ينطبق على الانتخابات الفيدرالية المقتصرة على الألمان.
+> **📝 الشرح:** عتبة الـ5% هي الحد الأدنى من نسبة الأصوات (5%) التي يحتاجها الحزب على مستوى البلاد لدخول البرلمان.
 
 ---
 
 ### Question 124
 
-**🇩🇪 Deutsch:** Man darf in Deutschland nicht …
-**🇸🇦 عربي:** ما الذي لا يُسمح به في ألمانيا؟
+**🇩🇪** Die Bundestagswahl in Deutschland ist die Wahl …
+**🇸🇦** انتخابات البوندستاغ في ألمانيا هي انتخاب …
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ○ | einen Verein gründen | تأسيس جمعية |
-| ○ | eine Partei gründen | تأسيس حزب سياسي |
-| ✅ | **den Holocaust leugnen** | **إنكار الهولوكوست** |
-| ○ | die Regierung kritisieren | انتقاد الحكومة |
+| ○ | des Bundeskanzlers / der Bundeskanzlerin. | المستشار الاتحادي. |
+| ○ | der Parlamente der Länder. | برلمانات الولايات. |
+| ✅ | **des Parlaments für Deutschland.** | **برلمان ألمانيا.** |
+| ○ | des Bundespräsidenten / der Bundespräsidentin. | الرئيس الاتحادي. |
 
-> **📝** إنكار الهولوكوست جريمة يُعاقب عليها القانون الألماني بالسجن حتى خمس سنوات. أما انتقاد الحكومة وتأسيس الأحزاب والجمعيات فحقوق مكفولة دستوريًا.
+> **📝 الشرح:** تنتخب انتخابات البوندستاغ البرلمان الوطني الألماني (البوندستاغ نفسه)، وليس المستشار أو الرئيس مباشرة.
 
 ---
 
 ### Question 125
 
-**🇩🇪 Deutsch:** Welches Land ist ein Nachbarland von Deutschland?
-**🇸🇦 عربي:** أيٌّ من الدول التالية تُعدّ جارةً لألمانيا؟
+**🇩🇪** In einer Demokratie ist eine Funktion von regelmäßigen Wahlen, …
+**🇸🇦** في الديمقراطية، من وظائف الانتخابات المنتظمة …
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ○ | Spanien | إسبانيا |
-| ○ | Bulgarien | بلغاريا |
-| ✅ | **Polen** | **بولندا** |
-| ○ | Großbritannien | بريطانيا العظمى |
+| ○ | die Bürger und Bürgerinnen zu zwingen, ihre Stimme abzugeben. | إجبار المواطنين على الإدلاء بأصواتهم. |
+| ✅ | **nach dem Willen der Wählermehrheit den Wechsel der Regierung zu ermöglichen.** | **إتاحة تغيير الحكومة وفقًا لإرادة أغلبية الناخبين.** |
+| ○ | im Land bestehende Gesetze beizubehalten. | الحفاظ على القوانين القائمة في البلاد. |
+| ○ | den Armen mehr Macht zu geben. | منح الفقراء سلطة أكبر. |
 
-> **📝** ألمانيا تحدّها تسع دول: الدنمارك وهولندا وبلجيكا ولوكسمبورغ وفرنسا وسويسرا والنمسا وتشيكيا وبولندا.
+> **📝 الشرح:** تتيح الانتخابات المنتظمة تغييرًا سلميًا للحكومة بناءً على إرادة أغلبية الناخبين — وهي وظيفة ديمقراطية أساسية.
 
 ---
 
 ### Question 126
 
-**🇩🇪 Deutsch:** Wie heißt das Parlament für ganz Deutschland?
-**🇸🇦 عربي:** ما اسم البرلمان الوطني في ألمانيا؟
+**🇩🇪** Was bekommen wahlberechtigte Bürger und Bürgerinnen in Deutschland vor einer Wahl?
+**🇸🇦** ماذا يتلقى الناخبون المؤهلون في ألمانيا قبل الانتخابات؟
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ✅ | **Bundestag** | **البوندستاغ** |
-| ○ | Landtag | البرلمان الولائي (Landtag) |
-| ○ | Bundesrat | البوندسرات |
-| ○ | Bundesversammlung | الجمعية الفيدرالية |
+| ✅ | **eine Wahlbenachrichtigung von der Gemeinde** | **إشعار تصويت من البلدية** |
+| ○ | eine Wahlerlaubnis vom Bundespräsidenten / von der Bundespräsidentin | تصريح تصويت من الرئيس الاتحادي |
+| ○ | eine Benachrichtigung von der Bundesversammlung | إشعار من الجمعية الاتحادية |
+| ○ | eine Benachrichtigung vom Pfarramt | إشعار من مكتب الأبرشية |
 
-> **📝** البوندستاغ هو البرلمان الوطني في ألمانيا، يُنتخَب كل أربع سنوات. يُصادق على القوانين وينتخب المستشار ويُراقب الحكومة.
+> **📝 الشرح:** يتلقى الناخبون المؤهلون إشعار تصويت (Wahlbenachrichtigung) من بلديتهم المحلية قبل الانتخابات.
 
 ---
 
 ### Question 127
 
-**🇩🇪 Deutsch:** Was bedeutet "passives Wahlrecht"?
-**🇸🇦 عربي:** ما معنى "حق الترشح السلبي" (passives Wahlrecht)؟
+**🇩🇪** Warum gibt es die 5 %-Hürde im Wahlgesetz der Bundesrepublik Deutschland? Es gibt sie, weil …
+**🇸🇦** لماذا توجد عتبة الـ5% في القانون الانتخابي الألماني؟ توجد لأن …
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ✅ | **Man darf sich selbst zur Wahl stellen.** | **يحق لك الترشح لمنصب انتخابي.** |
-| ○ | Man muss wählen gehen. | يجب عليك التصويت. |
-| ○ | Man darf nicht wählen. | لا يحق لك التصويت. |
-| ○ | Man hat kein Wahlrecht. | لا حق انتخابي لك. |
+| ○ | die Programme von vielen kleinen Parteien viele Gemeinsamkeiten haben. | برامج العديد من الأحزاب الصغيرة تتشابه كثيرًا. |
+| ○ | die Bürger und Bürgerinnen bei vielen kleinen Parteien die Orientierung verlieren können. | يمكن أن يفقد المواطنون التوجه مع وجود العديد من الأحزاب الصغيرة. |
+| ✅ | **viele kleine Parteien die Regierungsbildung erschweren.** | **العديد من الأحزاب الصغيرة تصعّب تشكيل الحكومة.** |
+| ○ | die kleinen Parteien nicht so viel Geld haben, um die Politiker und Politikerinnen zu bezahlen. | لا تملك الأحزاب الصغيرة ما يكفي من المال لدفع رواتب السياسيين. |
 
-> **📝** حق الترشح السلبي يعني حق الشخص في الترشح لمنصب انتخابي. أما حق التصويت (aktives Wahlrecht) فهو حق الاختيار بين المرشحين.
+> **📝 الشرح:** توجد هذه العتبة لمنع التفتت الحزبي المفرط، الذي جعل تاريخيًا تشكيل حكومات مستقرة أمرًا صعبًا (كما في جمهورية فايمار).
 
 ---
 
 ### Question 128
 
-**🇩🇪 Deutsch:** In Deutschland gilt Religionsfreiheit. Was bedeutet das?
-**🇸🇦 عربي:** حرية الدين مكفولة في ألمانيا. ما معنى ذلك؟
+**🇩🇪** Parlamentsmitglieder, die von den Bürgern und Bürgerinnen gewählt werden, nennt man …
+**🇸🇦** يُسمى أعضاء البرلمان الذين ينتخبهم المواطنون …
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ✅ | **Jeder Mensch darf seinen Glauben frei leben und auch keiner Religion angehören.** | **يحق لكل شخص ممارسة دينه بحرية أو عدم الانتماء لأي دين.** |
-| ○ | Man darf nur in der Kirche beten. | يُسمح بالصلاة في الكنيسة فقط. |
-| ○ | Der Staat bestimmt die Religion. | تحدّد الدولة الدين. |
-| ○ | Alle müssen an Gott glauben. | يجب على الجميع الإيمان بالله. |
+| ✅ | **Abgeordnete.** | **النواب.** |
+| ○ | Kanzler / Kanzlerinnen. | مستشارون. |
+| ○ | Botschafter / Botschafterinnen. | سفراء. |
+| ○ | Ministerpräsidenten / Ministerpräsidentinnen. | رؤساء الوزراء. |
 
-> **📝** المادة 4 من القانون الأساسي تكفل حرية الوجدان والإيمان والدين. يحق للجميع ممارسة دينهم أو عدم الانتماء لأي دين. الدولة لا تتدخل في الشأن الديني.
+> **📝 الشرح:** يُسمى أعضاء البرلمان المنتخبون بـ Abgeordnete (النواب).
 
 ---
 
 ### Question 129
 
-**🇩🇪 Deutsch:** Was bedeutet die "Unabhängigkeit der Gerichte"?
-**🇸🇦 عربي:** ما معنى "استقلالية القضاء"؟
+**🇩🇪** Vom Volk gewählt wird in Deutschland …
+**🇸🇦** في ألمانيا، ينتخب الشعب مباشرة …
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ✅ | **Richter sind unabhängig und nur dem Gesetz verpflichtet.** | **القضاة مستقلون ولا يخضعون إلا للقانون.** |
-| ○ | Gerichte müssen die Regierung unterstützen. | على المحاكم دعم الحكومة. |
-| ○ | Gerichte können von Politikern kontrolliert werden. | تتبع المحاكم الحزب الحاكم. |
-| ○ | Richter müssen Parteimitglieder sein. | المستشار يعيّن القضاة وبإمكانه عزلهم. |
+| ○ | der Bundeskanzler / die Bundeskanzlerin. | المستشار الاتحادي. |
+| ○ | der Ministerpräsident / die Ministerpräsidentin eines Bundeslandes. | رئيس وزراء إحدى الولايات. |
+| ✅ | **der Bundestag.** | **البوندستاغ.** |
+| ○ | der Bundespräsident / die Bundespräsidentin. | الرئيس الاتحادي. |
 
-> **📝** استقلالية القضاء (Unabhängigkeit der Gerichte) تعني أن القضاة لا يخضعون لتوجيهات الحكومة أو البرلمان، بل فقط للقانون. هذا ركيزة أساسية في دولة القانون.
+> **📝 الشرح:** ينتخب المواطنون البوندستاغ مباشرة؛ أما المستشار ورؤساء وزراء الولايات والرئيس الاتحادي فيُنتخبون بشكل غير مباشر عبر هيئات أخرى.
 
 ---
 
 ### Question 130
 
-**🇩🇪 Deutsch:** Was ist die deutsche Währung?
-**🇸🇦 عربي:** ما العملة الألمانية؟
+**🇩🇪** Welcher Stimmzettel wäre bei einer Bundestagswahl gültig?
+**🇸🇦** أي ورقة اقتراع تكون صالحة في انتخابات البوندستاغ؟
 
-| | Deutsch | عربي |
+![Question 130](../images/130.png)
+
+| | Deutsch | العربية |
 |---|---|---|
-| ○ | D-Mark | مارك ألماني |
-| ✅ | **Euro** | **يورو** |
-| ○ | Dollar | دولار |
-| ○ | Pfund | جنيه |
+| ✅ | **1** | **1** |
+| ○ | 2 | 2 |
+| ○ | 3 | 3 |
+| ○ | 4 | 4 |
 
-> **📝** اليورو عملة ألمانيا منذ عام 2002. قبل ذلك كانت العملة المارك الألماني (D-Mark). ألمانيا من أوائل الدول التي اعتمدت اليورو.
+> **📝 الشرح:** تحتوي ورقة الاقتراع الصالحة على علامة واحدة بالضبط في عمود الصوت الأول وعلامة واحدة في عمود الصوت الثاني — أي نمط تحديد آخر يُبطل الورقة.
+
+---
+
+### Question 131
+
+**🇩🇪** In Deutschland ist ein Bürgermeister / eine Bürgermeisterin …
+**🇸🇦** في ألمانيا، عمدة البلدة هو …
+
+| | Deutsch | العربية |
+|---|---|---|
+| ○ | der Leiter / die Leiterin einer Schule. | رئيس مدرسة. |
+| ○ | der Chef / die Chefin einer Bank. | رئيس بنك. |
+| ✅ | **das Oberhaupt einer Gemeinde.** | **رئيس بلدية.** |
+| ○ | der / die Vorsitzende einer Partei. | رئيس حزب سياسي. |
+
+> **📝 الشرح:** العمدة هو رئيس البلدية (Gemeinde) — وليس رئيس مدرسة أو بنك أو حزب سياسي.
+
+---
+
+### Question 132
+
+**🇩🇪** Viele Menschen in Deutschland arbeiten in ihrer Freizeit ehrenamtlich. Was bedeutet das?
+**🇸🇦** يتطوع الكثير من الناس في ألمانيا في أوقات فراغهم. ماذا يعني ذلك؟
+
+| | Deutsch | العربية |
+|---|---|---|
+| ○ | Sie arbeiten als Soldaten / Soldatinnen. | يعملون كجنود. |
+| ✅ | **Sie arbeiten freiwillig und unbezahlt in Vereinen und Verbänden.** | **يعملون طوعًا وبدون أجر في النوادي والجمعيات.** |
+| ○ | Sie arbeiten in der Bundesregierung. | يعملون في الحكومة الاتحادية. |
+| ○ | Sie arbeiten in einem Krankenhaus und verdienen dabei Geld. | يعملون في مستشفى ويكسبون المال. |
+
+> **📝 الشرح:** يعني العمل التطوعي (Ehrenamtliche) العمل بدون أجر في النوادي أو الجمعيات أو المؤسسات الخيرية — وهي ممارسة واسعة الانتشار ومقدَّرة في المجتمع الألماني.
 
 ---
 
 ### Question 133
 
-**🇩🇪 Deutsch:** Welche Parteien gehören zu den "Volksparteien" in Deutschland?
-**🇸🇦 عربي:** أيٌّ من التالي "أحزاب شعبية" (Volksparteien) في ألمانيا؟
+**🇩🇪** Was ist bei Bundestags- und Landtagswahlen in Deutschland erlaubt?
+**🇸🇦** ما المسموح به في انتخابات البوندستاغ والبرلمانات الولائية في ألمانيا؟
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ✅ | **CDU/CSU und SPD** | **CDU/CSU وSPD** |
-| ○ | FDP und Grüne | FDP والخضر |
-| ○ | Die Linke und AfD | اليسار وAfD |
-| ○ | CDU und FDP | CDU وFDP |
+| ○ | Der Ehemann wählt für seine Frau mit. | يصوّت الزوج نيابة عن زوجته أيضًا. |
+| ✅ | **Man kann durch Briefwahl seine Stimme abgeben.** | **يمكن التصويت عبر البريد.** |
+| ○ | Man kann am Wahltag telefonisch seine Stimme abgeben. | يمكن التصويت هاتفيًا يوم الانتخاب. |
+| ○ | Kinder ab dem Alter von 14 Jahren dürfen wählen. | يجوز للأطفال من سن 14 التصويت. |
 
-> **📝** "الأحزاب الشعبية" تستقطب شريحة واسعة من الناخبين. CDU/CSU وSPD كانتا تاريخيًا الحزبين الرئيسيين اللذين تناوبا على قيادة الحكومة الفيدرالية.
+> **📝 الشرح:** التصويت البريدي (Briefwahl) وسيلة قانونية وشائعة للتصويت في ألمانيا — أما التصويت الهاتفي، أو التصويت بالوكالة عن الزوج/الزوجة، أو التصويت دون سن 18 فغير مسموح به.
 
 ---
 
 ### Question 134
 
-**🇩🇪 Deutsch:** Wer bestimmt den Kurs der deutschen Außenpolitik?
-**🇸🇦 عربي:** من يحدّد مسار السياسة الخارجية الألمانية؟
+**🇩🇪** Man will die Buslinie abschaffen, mit der Sie immer zur Arbeit fahren. Was können Sie machen, um die Buslinie zu erhalten?
+**🇸🇦** يريد أحدهم إلغاء خط الحافلات الذي تستخدمه دائمًا للذهاب إلى العمل. ماذا يمكنك فعله للحفاظ عليه؟
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ✅ | **der Bundeskanzler / die Bundeskanzlerin** | **المستشار الفيدرالي** |
-| ○ | der Bundespräsident | الرئيس الفيدرالي |
-| ○ | der Außenminister | وزير الخارجية |
-| ○ | der Verteidigungsminister | وزير الدفاع |
+| ✅ | **Ich beteilige mich an einer Bürgerinitiative für die Erhaltung der Buslinie oder gründe selber eine Initiative.** | **أشارك في مبادرة مواطنين للحفاظ على خط الحافلات أو أبدأ واحدة بنفسي.** |
+| ○ | Ich werde Mitglied in einem Sportverein und trainiere Rad fahren. | أنضم إلى نادٍ رياضي وأتدرب على ركوب الدراجات. |
+| ○ | Ich wende mich an das Finanzamt, weil ich als Steuerzahler / Steuerzahlerin ein Recht auf die Buslinie habe. | أتواصل مع مكتب الضرائب لأنني كدافع ضرائب لدي حق في خط الحافلات. |
+| ○ | Ich schreibe einen Brief an das Forstamt der Gemeinde. | أكتب رسالة إلى مكتب الغابات في البلدية. |
 
-> **📝** المستشار الفيدرالي (Bundeskanzler/in) هو من يحدّد توجهات السياسة العامة بما فيها السياسة الخارجية (Richtlinienkompetenz). وزير الخارجية ينفّذ هذه السياسة.
+> **📝 الشرح:** الانضمام إلى مبادرة مواطنين (Bürgerinitiative) أو تأسيسها هو الطريقة المعترف بها والفعّالة للدفاع عن القضايا المحلية مثل النقل العام في ألمانيا.
 
 ---
 
 ### Question 135
 
-**🇩🇪 Deutsch:** Wie lange dauert eine Legislaturperiode des Deutschen Bundestages?
-**🇸🇦 عربي:** ما مدة الدورة التشريعية للبوندستاغ الألماني؟
+**🇩🇪** Wen vertreten die Gewerkschaften in Deutschland?
+**🇸🇦** من تمثل النقابات في ألمانيا؟
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ✅ | **4 Jahre** | **4 سنوات** |
-| ○ | 3 Jahre | 3 سنوات |
-| ○ | 5 Jahre | 5 سنوات |
-| ○ | 6 Jahre | 6 سنوات |
+| ○ | große Unternehmen | الشركات الكبرى |
+| ○ | kleine Unternehmen | الشركات الصغيرة |
+| ○ | Selbstständige | العاملون لحسابهم الخاص |
+| ✅ | **Arbeitnehmer und Arbeitnehmerinnen** | **الموظفون** |
 
-> **📝** الدورة التشريعية للبوندستاغ أربع سنوات. وقد يُحلّ قبل انتهاء مدته في ظروف استثنائية كفقدان ثقة البرلمان بالحكومة.
+> **📝 الشرح:** تمثل النقابات الموظفين (العمال)، وتتفاوض نيابة عنهم مع أصحاب العمل — وليس الشركات أو العاملين لحسابهم الخاص.
 
 ---
 
 ### Question 136
 
-**🇩🇪 Deutsch:** Der Bundesrat wirkt bei der Gesetzgebung des Bundes mit. Was__(s)__ ist__(t)____(r)__ichtig?
-**🇸🇦 عربي:** البوندسرات يشارك في التشريع الفيدرالي. ما الصحيح؟
+**🇩🇪** Sie gehen in Deutschland zum Arbeitsgericht bei …
+**🇸🇦** في ألمانيا، تذهب إلى محكمة العمل في حالة …
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ✅ | **Der Bundesrat__(t)__ __(m)__uss__(s)__ __(b)__ei__(b)__estimmten__(n)__ __(G)__esetzen__(n)__ __(z)__ustimmen.** | **يجب على البوندسرات الموافقة على بعض القوانين.** |
-| ○ | Der Bundesrat wählt den Bundeskanzler. | البوندسرات ينتخب المستشار. |
-| ○ | Der Bundesrat__(t)__ __(e)__ntscheidet über Strafverfahren. | البوندسرات يفصل في القضايا الجنائية. |
-| ○ | Der Bundesrat bestätigt Wahlergebnisse. | البوندسرات يُصادق على نتائج الانتخابات. |
+| ○ | falscher Nebenkostenabrechnung. | فاتورة نفقات إضافية خاطئة. |
+| ✅ | **ungerechtfertigter Kündigung durch Ihren Chef / Ihre Chefin.** | **فصل غير مبرر من قبل رب العمل.** |
+| ○ | Problemen mit den Nachbarn / Nachbarinnen. | مشاكل مع الجيران. |
+| ○ | Schwierigkeiten nach einem Verkehrsunfall. | صعوبات بعد حادث مروري. |
 
-> **📝** البوندسرات يجب موافقته على القوانين التي تمسّ صلاحيات الولايات. في حال خلاف بين البوندستاغ والبوندسرات يُشكَّل مجلس الوساطة (Vermittlungsausschuss).
+> **📝 الشرح:** تتعامل محاكم العمل (Arbeitsgerichte) مع نزاعات العمل مثل الفصل غير المبرر — وليس فواتير الخدمات أو نزاعات الجيران أو حوادث المرور.
 
 ---
 
 ### Question 137
 
-**🇩🇪 Deutsch:** Wie heißen die beiden Kammern des deutschen Parlaments?
-**🇸🇦 عربي:** ما اسم غرفتَي البرلمان الألماني؟
+**🇩🇪** Welches Gericht ist in Deutschland bei Konflikten in der Arbeitswelt zuständig?
+**🇸🇦** أي محكمة مسؤولة عن نزاعات مكان العمل في ألمانيا؟
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ✅ | **Bundestag und Bundesrat** | **البوندستاغ والبوندسرات** |
-| ○ | Abgeordnetenhaus und Senat | مجلس النواب ومجلس الشيوخ |
-| ○ | Bundeskammer und Länderkammer | غرفة الاتحاد وغرفة الولايات |
-| ○ | Volkskammer und Länderkammer | مجلس الشعب وغرفة الولايات |
+| ○ | das Familiengericht | محكمة الأسرة |
+| ○ | das Strafgericht | المحكمة الجنائية |
+| ✅ | **das Arbeitsgericht** | **محكمة العمل** |
+| ○ | das Amtsgericht | المحكمة المحلية |
 
-> **📝** يتكوّن البرلمان الألماني من غرفتين: البوندستاغ (يمثّل المواطنين) والبوندسرات (يمثّل الولايات). معًا يُشكّلان النظام التشريعي الفيدرالي.
+> **📝 الشرح:** تتعامل محكمة العمل (Arbeitsgericht) تحديدًا مع نزاعات مكان العمل والتوظيف.
 
 ---
 
 ### Question 138
 
-**🇩🇪 Deutsch:** Wer leitet eine Sitzung des Deutschen Bundestages?
-**🇸🇦 عربي:** من يترأس جلسة البوندستاغ الألماني؟
+**🇩🇪** Was kann ich in Deutschland machen, wenn mir mein Arbeitgeber / meine Arbeitgeberin zu Unrecht gekündigt hat?
+**🇸🇦** ماذا يمكنني فعله في ألمانيا إذا فصلني صاحب العمل ظلمًا؟
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ✅ | **der Bundestagspräsident / die Bundestagspräsidentin** | **رئيس البوندستاغ** |
-| ○ | der Bundeskanzler | المستشار |
-| ○ | der Bundespräsident | الرئيس الفيدرالي |
-| ○ | der Bundesratspräsident | رئيس البوندسرات |
+| ○ | weiter arbeiten und freundlich zum Chef / zur Chefin sein | مواصلة العمل والتصرف بلطف مع رب العمل |
+| ○ | ein Mahnverfahren gegen den Arbeitgeber / die Arbeitgeberin führen | رفع إجراء مطالبة مالية ضد صاحب العمل |
+| ✅ | **Kündigungsschutzklage erheben** | **رفع دعوى الحماية من الفصل** |
+| ○ | den Arbeitgeber / die Arbeitgeberin bei der Polizei anzeigen | إبلاغ الشرطة عن صاحب العمل |
 
-> **📝** رئيس البوندستاغ (Bundestagspräsident/in) يترأس الجلسات ويسيّر العمل البرلماني. من المقرر أن يشغل هذا المنصب عضو من الحزب الأكبر تقليديًا.
+> **📝 الشرح:** الحل القانوني الصحيح هو رفع دعوى الحماية من الفصل (Kündigungsschutzklage) في محكمة العمل — وليس بلاغًا للشرطة أو مطالبة مالية.
 
 ---
 
 ### Question 139
 
-**🇩🇪 Deutsch:** Wann wurde der Euro in Deutschland eingeführt?
-**🇸🇦 عربي:** متى دخل اليورو حيّز التداول في ألمانيا؟
+**🇩🇪** Wann kommt es in Deutschland zu einem Prozess vor Gericht? Wenn jemand …
+**🇸🇦** متى تحدث محاكمة في ألمانيا؟ عندما …
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ✅ | **2002** | **2002** |
-| ○ | 1995 | 1995 |
-| ○ | 1998 | 1998 |
-| ○ | 2005 | 2005 |
+| ○ | zu einer anderen Religion übertritt. | يعتنق دينًا آخر. |
+| ✅ | **eine Straftat begangen hat und angeklagt wird.** | **يرتكب جريمة ويُتهم بها.** |
+| ○ | eine andere Meinung als die der Regierung vertritt. | يحمل رأيًا مختلفًا عن الحكومة. |
+| ○ | sein Auto falsch geparkt hat und es abgeschleppt wird. | يوقف سيارته بشكل خاطئ ويتم سحبها. |
 
-> **📝** دخلت الأوراق النقدية ومسكوكات اليورو حيّز التداول في الأول من يناير 2002. أما أسعار الصرف فقد ثُبِّتت عام 1999.
+> **📝 الشرح:** تحدث المحاكمة الجنائية عندما يرتكب شخص جريمة ويُتهم بها — وليس بسبب تغيير الدين أو اختلاف الرأي السياسي أو مخالفات وقوف السيارات.
 
 ---
 
 ### Question 140
 
-**🇩🇪 Deutsch:** Die__(e)__ __(E)__U-Flagge hat 12 Sterne. Stehen__(n)____(s)__ie für die Zahl der Mitgliedsstaaten?
-**🇸🇦 عربي:** علم الاتحاد الأوروبي فيه 12 نجمة. هل تمثّل عدد الدول الأعضاء؟
+**🇩🇪** Was macht ein Schöffe / eine Schöffin in Deutschland? Er / Sie …
+**🇸🇦** ماذا يفعل القاضي الشعبي في ألمانيا؟ …
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ✅ | **Nein — die 12 Sterne stehen für Einheit und Harmonie.** | **لا — النجوم الـ12 ترمز إلى الوحدة والانسجام.** |
-| ○ | Ja — für die 12 Gründungsmitglieder. | نعم — للأعضاء الـ12 المؤسسين. |
-| ○ | Ja — für die aktuelle Mitgliederzahl. | نعم — للعدد الراهن للأعضاء. |
-| ○ | Die Sterne haben keine Bedeutung. | النجوم بلا معنى. |
+| ✅ | **entscheidet mit Richtern / Richterinnen über Schuld und Strafe.** | **يقرر مع القضاة الذنب والعقوبة.** |
+| ○ | gibt Bürgern / Bürgerinnen rechtlichen Rat. | يقدم المشورة القانونية للمواطنين. |
+| ○ | stellt Urkunden aus. | يصدر الوثائق الرسمية. |
+| ○ | verteidigt den Angeklagten / die Angeklagte. | يدافع عن المتهم. |
 
-> **📝** النجوم الـ12 في علم الاتحاد الأوروبي ثابتة العدد وترمز إلى الوحدة والانسجام والكمال، لا إلى عدد الدول الأعضاء.
+> **📝 الشرح:** القاضي الشعبي (Schöffe/in) هو مواطن متطوع يجلس إلى جانب القضاة المحترفين ويصوّت على الذنب والعقوبة — وليس مستشارًا قانونيًا أو محامي دفاع.
 
 ---
 
 ### Question 141
 
-**🇩🇪 Deutsch:** Was ist ein Grundrecht?
-**🇸🇦 عربي:** ما حق أساسي من الحقوق المكفولة في ألمانيا؟
+**🇩🇪** Wer berät in Deutschland Personen bei Rechtsfragen und vertritt sie vor Gericht?
+**🇸🇦** من الذي يقدم المشورة القانونية للناس ويمثلهم أمام المحكمة في ألمانيا؟
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ✅ | **Versammlungsfreiheit** | **حرية التجمع** |
-| ○ | Autofahren | قيادة السيارة |
-| ○ | Alkoholkonsum | شرب الكحول |
-| ○ | Rauchen | التدخين |
+| ✅ | **ein Rechtsanwalt / eine Rechtsanwältin** | **محامٍ** |
+| ○ | ein Richter / eine Richterin | قاضٍ |
+| ○ | ein Schöffe / eine Schöffin | قاضٍ شعبي |
+| ○ | ein Staatsanwalt / eine Staatsanwältin | مدعٍ عام |
 
-> **📝** حرية التجمع (Versammlungsfreiheit) حق أساسي مكفول بالمادة 8 من القانون الأساسي. قيادة السيارة وشرب الكحول والتدخين حقوق قانونية لكنها ليست حقوقًا أساسية دستورية.
+> **📝 الشرح:** يقدم المحامي (Rechtsanwalt) المشورة لموكليه ويمثلهم قانونيًا — بينما يلعب القضاة والقضاة الشعبيون والمدعون العامون أدوارًا مختلفة ومحايدة في المحكمة.
 
 ---
 
 ### Question 142
 
-**🇩🇪 Deutsch:** Wozu fordert das Grundgesetz auf?
-**🇸🇦 عربي:** ما الذي يدعو إليه القانون الأساسي؟
+**🇩🇪** Was ist die Hauptaufgabe eines Richters / einer Richterin in Deutschland? Ein Richter / eine Richterin …
+**🇸🇦** ما هي المهمة الرئيسية للقاضي في ألمانيا؟ …
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ✅ | **die Gleichberechtigung von Frauen und Männern** | **المساواة في الحقوق بين المرأة والرجل** |
-| ○ | die Bevorzugung von Männern | تفضيل الرجال |
-| ○ | getrennte Schulen für Jungen und Mädchen | مدارس منفصلة للبنين والبنات |
-| ○ | die Unterordnung der Frau | إخضاع المرأة |
+| ○ | vertritt Bürger und Bürgerinnen vor einem Gericht. | يمثل المواطنين أمام المحكمة. |
+| ✅ | **arbeitet an einem Gericht und spricht Urteile.** | **يعمل في محكمة ويصدر الأحكام.** |
+| ○ | ändert Gesetze. | يغيّر القوانين. |
+| ○ | betreut Jugendliche vor Gericht. | يرعى الأحداث في المحكمة. |
 
-> **📝** المادة 3 الفقرة 2 من القانون الأساسي تنص صراحةً على أن الرجال والنساء متساوون. الدولة ملزمة بالعمل على تحقيق المساواة الفعلية ومكافحة التمييز.
+> **📝 الشرح:** الدور الرئيسي للقاضي هو العمل في المحكمة وإصدار الأحكام — وليس تمثيل المواطنين أو تغيير القوانين أو العمل كأخصائي حالات للأحداث.
 
 ---
 
 ### Question 143
 
-**🇩🇪 Deutsch:** Wenn man etwas gekauft hat und es zurückgeben möchte — was gilt?
-**🇸🇦 عربي:** اشتريت شيئًا وتريد إعادته — ما الذي ينطبق؟
+**🇩🇪** Ein Richter / eine Richterin in Deutschland gehört zur …
+**🇸🇦** ينتمي القاضي في ألمانيا إلى …
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ✅ | **Es gibt gesetzliche Regeln und Fristen.** | **هناك قواعد قانونية ومواعيد نهائية.** |
-| ○ | Man kann alles jederzeit zurückgeben. | يمكنك إعادة كل شيء في أي وقت. |
-| ○ | Man kann nie etwas zurückgeben. | لا يمكنك إعادة أي شيء. |
-| ○ | Nur teure Sachen können zurückgegeben werden. | الأشياء الباهظة فقط يمكن إعادتها. |
+| ✅ | **Judikative.** | **السلطة القضائية.** |
+| ○ | Exekutive. | السلطة التنفيذية. |
+| ○ | Operative. | الفرع التنفيذي العملياتي. |
+| ○ | Legislative. | السلطة التشريعية. |
 
-> **📝** في ألمانيا ثمة قواعد قانونية للإعادة. بموجب Gewährleistung (ضمان قانوني) يحق لك الإعادة في حال وجود عيوب خلال سنتين. أما الإعادة الطوعية للمنتجات السليمة فتخضع لسياسة المتجر.
+> **📝 الشرح:** ينتمي القضاة إلى السلطة القضائية (Judikative)، الفرع الثالث لسلطة الدولة إلى جانب التنفيذية والتشريعية.
 
 ---
 
 ### Question 144
 
-**🇩🇪 Deutsch:** Was bedeutet "Gleichberechtigung"?
-**🇸🇦 عربي:** ما معنى "المساواة في الحقوق"؟
+**🇩🇪** Ein Richter / eine Richterin gehört in Deutschland zur …
+**🇸🇦** ينتمي القاضي في ألمانيا إلى …
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ✅ | **Frauen und Männer haben die gleichen Rechte.** | **للمرأة والرجل الحقوق ذاتها.** |
-| ○ | Alle haben gleich viel Geld. | للجميع المال ذاته. |
-| ○ | Alle haben den gleichen Beruf. | للجميع المهنة ذاتها. |
-| ○ | Alle Menschen sind gleich groß. | جميع البشر بالطول ذاته. |
+| ○ | vollziehenden Gewalt. | السلطة التنفيذية. |
+| ✅ | **rechtsprechenden Gewalt.** | **السلطة القضائية.** |
+| ○ | planenden Gewalt. | سلطة التخطيط. |
+| ○ | gesetzgebenden Gewalt. | السلطة التشريعية. |
 
-> **📝** المساواة في الحقوق (Gleichberechtigung) تعني أن النساء والرجال يتمتعون بالحقوق القانونية ذاتها في جميع المجالات. هذا المبدأ مكفول في القانون الأساسي الألماني.
+> **📝 الشرح:** ينتمي القضاة إلى السلطة القضائية (rechtsprechende Gewalt) — سلطة تفسير القانون وتطبيقه.
 
 ---
 
 ### Question 145
 
-**🇩🇪 Deutsch:** Was ist ein deutsches Gesetz zum Schutz der Kinder?
-**🇸🇦 عربي:** ما قانون ألماني يحمي الأطفال؟
+**🇩🇪** Was ist ein deutsches Gesetz zum Schutz der Kinder?
+**🇸🇦** ما قانون ألماني يحمي الأطفال؟
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
 | ✅ | **Kinder dürfen nicht geschlagen werden.** | **يُحظر ضرب الأطفال.** |
 | ○ | Kinder dürfen keine Süßigkeiten essen. | لا يحق للأطفال أكل الحلوى. |
 | ○ | Kinder müssen jeden Tag Sport treiben. | يجب على الأطفال ممارسة الرياضة يوميًا. |
 | ○ | Kinder dürfen nicht allein spielen. | لا يحق للأطفال اللعب بمفردهم. |
 
-> **📝** يُحظر ضرب الأطفال في ألمانيا. القانون الألماني يمنع جميع أشكال العقاب البدني منذ عام 2000. كل طفل له الحق في التنشئة خالية من العنف.
+> **📝 الشرح:** يُحظر ضرب الأطفال في ألمانيا. القانون الألماني يمنع جميع أشكال العقاب البدني منذ عام 2000. كل طفل له الحق في التنشئة خالية من العنف.
 
 ---
 
 ### Question 146
 
-**🇩🇪 Deutsch:** In Deutschland ist es erlaubt, dass man …
-**🇸🇦 عربي:** ما الذي يُسمح به في ألمانيا؟
+**🇩🇪** Wie nennt man in Deutschland ein Verfahren vor einem Gericht?
+**🇸🇦** ماذا تُسمى الإجراءات أمام المحكمة في ألمانيا؟
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ✅ | **verschiedene Religionen nebeneinander leben.** | **تعايش أديان مختلفة جنبًا إلى جنب.** |
-| ○ | einen Anderen zur Heirat zwingt. | إكراه شخص ما على الزواج. |
-| ○ | seine Kinder schlägt. | ضرب الأطفال. |
-| ○ | Frauen zwingt, ein Kopftuch zu tragen. | إجبار النساء على ارتداء الحجاب. |
+| ○ | Programm | برنامج |
+| ○ | Prozedur | إجراء |
+| ○ | Protokoll | محضر |
+| ✅ | **Prozess** | **دعوى قضائية** |
 
-> **📝** حرية الدين تضمن حق تعايش الأديان المختلفة في ألمانيا. في المقابل الإكراه على الزواج وضرب الأطفال وإجبار النساء على ارتداء الحجاب محظورة قانونًا.
+> **📝 الشرح:** تُسمى الإجراءات القضائية بـ Prozess (دعوى قضائية) بالألمانية.
 
 ---
 
 ### Question 147
 
-**🇩🇪 Deutsch:** Zwei Frauen möchten heiraten. Was gilt in Deutschland?
-**🇸🇦 عربي:** امرأتان تريدان الزواج. ما الذي ينطبق في ألمانيا؟
+**🇩🇪** Was ist die Arbeit eines Richters / einer Richterin in Deutschland?
+**🇸🇦** ما هو عمل القاضي في ألمانيا؟
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ✅ | **Sie können heiraten.** | **يمكنهما الزواج.** |
-| ○ | Das ist verboten. | هذا محظور. |
-| ○ | Das geht nur mit besonderer Genehmigung. | يستلزم إذنًا خاصًا فقط. |
-| ○ | Nur in einer Kirche. | في الكنيسة فقط. |
+| ○ | Deutschland regieren | حكم ألمانيا |
+| ✅ | **Recht sprechen** | **إصدار الأحكام** |
+| ○ | Pläne erstellen | وضع الخطط |
+| ○ | Gesetze erlassen | سنّ القوانين |
 
-> **📝** زواج المثليين أصبح قانونيًا في ألمانيا منذ أكتوبر 2017. يتمتع الزوجان من نفس الجنس بنفس الحقوق القانونية للأزواج من الجنسين المختلفين.
+> **📝 الشرح:** عمل القاضي هو إصدار الأحكام (Recht sprechen) — وليس الحكم أو التشريع.
 
 ---
 
 ### Question 148
 
-**🇩🇪 Deutsch:** Wenn ein Ehepartner in Deutschland stirbt, was bekommt der andere automatisch?
-**🇸🇦 عربي:** إذا توفي أحد الزوجين في ألمانيا، ما الذي يحصل عليه الزوج الآخر تلقائيًا؟
+**🇩🇪** Was ist eine Aufgabe der Polizei in Deutschland?
+**🇸🇦** ما هي إحدى مهام الشرطة في ألمانيا؟
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ✅ | **einen Teil des Erbes** | **نصيبًا من الإرث** |
-| ○ | das gesamte Vermögen | كامل التركة |
-| ○ | nichts | لا شيء |
-| ○ | nur das Haus | المنزل فقط |
+| ○ | das Land zu verteidigen | الدفاع عن البلاد |
+| ○ | die Bürgerinnen und Bürger abzuhören | التنصت على المواطنين |
+| ○ | die Gesetze zu beschließen | سنّ القوانين |
+| ✅ | **die Einhaltung von Gesetzen zu überwachen** | **مراقبة الامتثال للقوانين** |
 
-> **📝** بموجب قانون الإرث الألماني يحصل الزوج الباقي تلقائيًا على نصيب من الإرث. حجم النصيب يعتمد على وجود ورثة آخرين كالأبناء والوالدين. يمكن تحديد الإرث بوصية.
+> **📝 الشرح:** مراقبة الامتثال للقوانين هي المهمة الأساسية للشرطة — أما الدفاع عن البلاد فمهمة الجيش، وسنّ القوانين مهمة البرلمان.
 
 ---
 
 ### Question 149
 
-**🇩🇪 Deutsch:** Was ist ein Beispiel für antisemitisches Verhalten?
-**🇸🇦 عربي:** ما مثال على السلوك المعادي للسامية؟
+**🇩🇪** Was ist ein Beispiel für antisemitisches Verhalten?
+**🇸🇦** ما مثال على السلوك المعادي للسامية؟
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
 | ○ | ein jüdisches Fest besuchen | زيارة مهرجان يهودي |
 | ○ | die israelische Regierung kritisieren | انتقاد الحكومة الإسرائيلية |
 | ✅ | **den Holocaust leugnen** | **إنكار الهولوكوست** |
 | ○ | gegen Juden Fußball spielen | لعب كرة القدم ضد فريق يهودي |
 
-> **📝** إنكار الهولوكوست من أبرز أشكال معاداة السامية وهو جريمة في ألمانيا. أما انتقاد سياسات الحكومة الإسرائيلية فهو حرية رأي مشروعة طالما كان نقدًا سياسيًا لا عداوةً عرقية.
+> **📝 الشرح:** إنكار الهولوكوست من أبرز أشكال معاداة السامية وهو جريمة في ألمانيا. أما انتقاد سياسات الحكومة الإسرائيلية فهو حرية رأي مشروعة طالما كان نقدًا سياسيًا لا عداوةً عرقية.
 
 ---
 
 ### Question 150
 
-**🇩🇪 Deutsch:** Welche Nummer hat der polizeiliche Notruf in Deutschland?
-**🇸🇦 عربي:** ما رقم طوارئ الشرطة في ألمانيا؟
+**🇩🇪** Ein Gerichtsschöffe / eine Gerichtsschöffin in Deutschland ist …
+**🇸🇦** القاضي الشعبي في ألمانيا هو …
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ✅ | **110** | **110** |
-| ○ | 112 | 112 |
-| ○ | 911 | 911 |
-| ○ | 999 | 999 |
+| ○ | der Stellvertreter / die Stellvertreterin des Stadtoberhaupts. | نائب رئيس المدينة. |
+| ✅ | **ein ehrenamtlicher Richter / eine ehrenamtliche Richterin.** | **قاضٍ متطوع (فخري).** |
+| ○ | ein Mitglied eines Gemeinderats. | عضو في مجلس بلدي. |
+| ○ | eine Person, die Jura studiert hat. | شخص درس القانون. |
 
-> **📝** رقم الشرطة الطارئ في ألمانيا 110، ويعمل على مدار الساعة طوال أيام الأسبوع. أما رقم 112 فهو لإسعاف الحوادث والحرائق.
+> **📝 الشرح:** القاضي الشعبي (Gerichtsschöffe) هو قاضٍ متطوع فخري — لا يتطلب شهادة في القانون، بخلاف القضاة المحترفين.
 
 ---
 
+[⬅ Back to Main README](README.md)

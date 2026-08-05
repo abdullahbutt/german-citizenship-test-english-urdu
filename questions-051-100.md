@@ -1,407 +1,809 @@
-# الأسئلة العامة — الجزء الثاني (الأسئلة 51–100)
-## التاريخ الألماني والمجتمع والسياسة الخارجية
-
-[⬅ العودة](README.md)
+[⬅ Back to Main README](README.md)
 
 ---
 
 ### Question 51
 
-**🇩🇪 Deutsch:** Zu einem demokratischen Rechtsstaat gehört es nicht, dass …
-**🇸🇦 عربي:** ما الذي لا ينتمي إلى دولة ديمقراطية قائمة على سيادة القانون؟
+**🇩🇪** Zu einem demokratischen Rechtsstaat gehört es nicht, dass …
+**🇸🇦** ما الذي لا ينتمي إلى دولة ديمقراطية قائمة على سيادة القانون؟
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
 | ○ | Menschen sich kritisch über die Regierung äußern können. | حكومة تسنّ قوانين دون موافقة البرلمان. |
 | ○ | Bürger friedlich demonstrieren gehen dürfen. | انتخابات حرة ونزيهة. |
 | ✅ | **Menschen von einer Privatpolizei ohne Grund verhaftet werden.** | **استقلال القضاء.** |
 | ○ | jemand ein Verbrechen begeht und deshalb verhaftet wird. | صون الحقوق الأساسية. |
 
-> **📝** في دولة القانون الديمقراطية لا يجوز للحكومة سنّ قوانين دون موافقة البرلمان. الانتخابات الحرة والقضاء المستقل وصون الحقوق الأساسية مقوّمات أساسية.
+> **📝 الشرح:** في دولة القانون الديمقراطية لا يجوز للحكومة سنّ قوانين دون موافقة البرلمان. الانتخابات الحرة والقضاء المستقل وصون الحقوق الأساسية مقوّمات أساسية.
 
 ---
 
 ### Question 52
 
-**🇩🇪 Deutsch:** Was bedeutet "Volkssouveränität"? Alle Staatsgewalt geht vom …
-**🇸🇦 عربي:** من يُدافع عن حقوق الأطفال في ألمانيا؟
+**🇩🇪** Was bedeutet "Volkssouveränität"? Alle Staatsgewalt geht vom …
+**🇸🇦** من يُدافع عن حقوق الأطفال في ألمانيا؟
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
 | ✅ | **Volke aus.** | **الشرطة الفيدرالية.** |
 | ○ | Bundestag aus. | منظمات حقوق الأطفال وبعضها له وضع رسمي. |
 | ○ | preußischen König aus. | وزارة الخارجية. |
 | ○ | Bundesverfassungsgericht aus. | المحاكم الجزائية فقط. |
 
-> **📝** تتعدد مؤسسات حماية الطفل في ألمانيا. ثمة مفوّض اتحادي لحقوق الطفل، وخدمات الشباب (Jugendamt) التي تُقدم الدعم وتحمي الأطفال من الإيذاء.
+> **📝 الشرح:** تتعدد مؤسسات حماية الطفل في ألمانيا. ثمة مفوّض اتحادي لحقوق الطفل، وخدمات الشباب (Jugendamt) التي تُقدم الدعم وتحمي الأطفال من الإيذاء.
 
 ---
 
 ### Question 53
 
-**🇩🇪 Deutsch:** Was bedeutet "Rechtsstaat" in Deutschland?
-**🇸🇦 عربي:** ما واجب الدولة الألمانية تجاه البيئة وفق القانون الأساسي؟
+**🇩🇪** Was bedeutet "Rechtsstaat" in Deutschland?
+**🇸🇦** ما واجب الدولة الألمانية تجاه البيئة وفق القانون الأساسي؟
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
 | ○ | Der Staat hat Recht. | لا توجد أي أحكام بيئية في الدستور. |
 | ○ | Es gibt nur rechte Parteien. | الدولة ملزمة بحماية البيئة والحفاظ على الموارد الطبيعية. |
 | ○ | Die Bürgerinnen und Bürger entscheiden über Gesetze. | حماية البيئة مهمة القطاع الخاص وحده. |
 | ✅ | **Der Staat muss die Gesetze einhalten.** | **البيئة مسؤولية الاتحاد الأوروبي فحسب.** |
 
-> **📝** بعد تعديل 1994 أصبحت حماية البيئة هدفًا دستوريًا في المادة 20a من القانون الأساسي. الدولة ملزمة بحماية الأسس الطبيعية للحياة والحيوانات للأجيال القادمة.
+> **📝 الشرح:** بعد تعديل 1994 أصبحت حماية البيئة هدفًا دستوريًا في المادة 20a من القانون الأساسي. الدولة ملزمة بحماية الأسس الطبيعية للحياة والحيوانات للأجيال القادمة.
 
 ---
 
 ### Question 54
 
-**🇩🇪 Deutsch:** Was ist keine staatliche Gewalt in Deutschland?
-**🇸🇦 عربي:** ما المقصود بمبدأ "الحكومة الاتحادية" (Föderalismus) في ألمانيا؟
+**🇩🇪** Was ist keine staatliche Gewalt in Deutschland?
+**🇸🇦** أي مما يلي ليس فرعًا من فروع سلطة الدولة في ألمانيا؟
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ○ | Legislative | وجود حكومة مركزية تتحكم في كل شيء. |
-| ○ | Judikative | توزيع السلطة بين الحكومة الفيدرالية وحكومات الولايات. |
-| ✅ | **Exekutive** | **الولايات مستقلة تمامًا عن الحكومة الفيدرالية.** |
-| ○ | Federative | ألمانيا دولة بسيطة لا ولايات فيها. |
+| ○ | Legislative | السلطة التشريعية |
+| ○ | Judikative | السلطة القضائية |
+| ○ | Exekutive | السلطة التنفيذية |
+| ✅ | **Direktive** | **التوجيهية** |
 
-> **📝** الفيدرالية تعني توزيع السلطة بين المستوى الفيدرالي ومستوى الولايات. لكل ولاية برلمانها وحكومتها. الشؤون التعليمية والشرطة والمسائل الثقافية في معظمها من صلاحيات الولايات.
+> **📝 الشرح:** تنقسم سلطة الدولة في ألمانيا إلى ثلاث سلطات: التشريعية (سن القوانين)، والتنفيذية (Exekutive، تطبيق القوانين)، والقضائية (Judikative، تفسير القوانين). أما "Direktive" فليست فرعًا حقيقيًا من فروع الحكومة — وهي الإجابة الخادعة في هذا السؤال.
 
 ---
 
 ### Question 55
 
-**🇩🇪 Deutsch:** Was ist die "__(5%-Hürde)__" bei der Wahl zum Deutschen Bundestag?
-**🇸🇦 عربي:** ما الحد الأدنى لسن التصويت في الانتخابات الفيدرالية الألمانية؟
+**🇩🇪** Was zeigt dieses Bild?
+**🇸🇦** ماذا تُظهر هذه الصورة؟
 
-| | Deutsch | عربي |
+![Question 55](../images/55.png)
+
+| | Deutsch | العربية |
 |---|---|---|
-| ○ | Abst__(i)__mmungsregelung__(en)__ im__(m)__ Bundestag__(g)__ für__(r)__ neue Gesetze | 16 |
-| ✅ | **Parteien__(,)__ die__(e)____(w)__eniger als 5 % aller Zweitstimmen__(n)__ erhalten__(,)__ können nicht in den Bundestag einziehen.** | **18** |
-| ○ | __(H)__öchstalter__(r)__ für__(r)__ Kandidaten__(n)__ | 21 |
-| ○ | __(M)__indestanzahl der Mitglieder in einer Partei | 25 |
+| ✅ | **den Bundestagssitz in Berlin** | **مقر البوندستاغ في برلين** |
+| ○ | das Bundesverfassungsgericht in Karlsruhe | المحكمة الدستورية الاتحادية في كارلسروه |
+| ○ | das Bundesratsgebäude in Berlin | مبنى البوندسرات في برلين |
+| ○ | das Bundeskanzleramt in Berlin | مكتب المستشارية الاتحادية في برلين |
 
-> **📝** الحد الأدنى لسن التصويت في الانتخابات الفيدرالية 18 عامًا. في بعض الانتخابات على مستوى الولايات والبلديات يُسمح بالتصويت ابتداءً من 16 عامًا.
+> **📝 الشرح:** تُظهر الصورة مبنى الرايخستاغ في برلين، الذي يضم البوندستاغ الألماني (البرلمان الاتحادي) — ويُعرف بقبته الزجاجية.
 
 ---
 
 ### Question 56
 
-**🇩🇪 Deutsch:** Wer wählt den Bundeskanzler/die Bundeskanzlerin in Deutschland?
-**🇸🇦 عربي:** ما الذي يُمثّله البرلمان الأوروبي؟
+**🇩🇪** Welches Amt gehört in Deutschland zur Gemeindeverwaltung?
+**🇸🇦** أي مكتب ينتمي إلى الإدارة البلدية في ألمانيا؟
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ○ | das Volk | مواطنو الدول الأعضاء في الاتحاد الأوروبي. |
-| ○ | die Bundesversammlung | حكومات دول الاتحاد الأوروبي. |
-| ✅ | **der Bundestag** | **شركات الاتحاد الأوروبي.** |
-| ○ | die Bundesregierung | الجيش الأوروبي. |
+| ○ | Pfarramt | مكتب الأبرشية |
+| ✅ | **Ordnungsamt** | **مكتب النظام العام** |
+| ○ | Finanzamt | مكتب الضرائب |
+| ○ | Auswärtiges Amt | وزارة الخارجية الاتحادية |
 
-> **📝** البرلمان الأوروبي يُمثّل مواطني الدول الأعضاء الـ27 في الاتحاد الأوروبي. يُنتخَب كل خمس سنوات بالاقتراع المباشر. يُشارك في سنّ القوانين الأوروبية واعتماد ميزانية الاتحاد.
+> **📝 الشرح:** مكتب النظام العام (Ordnungsamt) هيئة بلدية مسؤولة عن النظام العام المحلي. أما مكتب الأبرشية فديني، ومكتب الضرائب تابع للولاية، ووزارة الخارجية اتحادية — وليست أي منها بلدية.
 
 ---
 
 ### Question 57
 
-**🇩🇪 Deutsch:** Welche Aufgabe hat der Bundesrat?
-**🇸🇦 عربي:** ما الجهة التي تُدير الاتحاد الأوروبي؟
+**🇩🇪** Wer wird meistens zum Präsidenten / zur Präsidentin des Deutschen Bundestages gewählt?
+**🇸🇦** من الذي يُنتخب عادة رئيسًا للبوندستاغ الألماني؟
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ○ | Er__(r)____(w)__ählt den Bundeskanzler/die Bundeskanzlerin. | البنك المركزي الأوروبي وحده. |
-| ○ | Er__(r)__ __(e)__ntscheidet__(t)__ über__(r)__ die Anlage__(e)____(v)__on__(B)__undesstraßen. | البرلمان الأوروبي والمفوضية الأوروبية ومجلس الاتحاد الأوروبي معًا. |
-| ○ | Er__(r)__ __(k)__ontrolliert__(t)__ den__(n)____(G)__eheimdienst. | رؤساء دول الاتحاد فقط. |
-| ✅ | **Er__(r)__ __(v)__ertritt die Bundesländer.** | **منظمة الأمم المتحدة.** |
+| ○ | der / die älteste Abgeordnete im Parlament | أكبر عضو سنًا في البرلمان |
+| ○ | der Ministerpräsident / die Ministerpräsidentin des größten Bundeslandes | رئيس وزراء أكبر ولاية |
+| ✅ | **ein Abgeordneter / eine Abgeordnete der stärksten Fraktion** | **عضو من أقوى كتلة برلمانية** |
+| ○ | ein ehemaliger Bundeskanzler / eine ehemalige Bundeskanzlerin | مستشار اتحادي سابق |
 
-> **📝** يُدار الاتحاد الأوروبي عبر مؤسسات متعددة: البرلمان الأوروبي (يمثّل المواطنين)، والمفوضية الأوروبية (الذراع التنفيذية)، ومجلس الاتحاد (يمثّل الحكومات)، والمحكمة الأوروبية للعدل.
+> **📝 الشرح:** بحسب العرف، يكون رئيس البوندستاغ عضوًا من أقوى كتلة برلمانية، وليس بالضرورة أكبر عضو سنًا أو مستشارًا سابقًا.
 
 ---
 
 ### Question 58
 
-**🇩🇪 Deutsch:** Wer__(r)__ __(v)__ertritt die Bundesrepublik Deutschland nach außen?
-**🇸🇦 عربي:** ما الذي تمثّله نجوم علم الاتحاد الأوروبي؟
+**🇩🇪** Wer ernennt in Deutschland die Minister / die Ministerinnen der Bundesregierung?
+**🇸🇦** من الذي يعيّن وزراء الحكومة الاتحادية في ألمانيا؟
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ✅ | **der Bundespräsident/die Bundespräsidentin** | **عدد الدول الأعضاء.** |
-| ○ | der Bundesratspräsident/die Bundesratspräsidentin | التضامن والاتحاد بين شعوب أوروبا. عددها 12 دومًا. |
-| ○ | der Bundestagspräsident/die Bundestagspräsidentin | سنوات تأسيس الاتحاد. |
-| ○ | der Bundeskanzler/die Bundeskanzlerin | دول مؤسسة الاتحاد. |
+| ○ | der Präsident / die Präsidentin des Bundesverfassungsgerichtes | رئيس المحكمة الدستورية الاتحادية |
+| ✅ | **der Bundespräsident / die Bundespräsidentin** | **الرئيس الاتحادي** |
+| ○ | der Bundesratspräsident / die Bundesratspräsidentin | رئيس البوندسرات |
+| ○ | der Bundestagspräsident / die Bundestagspräsidentin | رئيس البوندستاغ |
 
-> **📝** نجوم العلم الأوروبي الـ12 ترمز إلى الوحدة والتضامن والانسجام بين شعوب أوروبا. عددها ثابت 12 ولا علاقة له بعدد الدول الأعضاء.
+> **📝 الشرح:** يقوم الرئيس الاتحادي رسميًا بتعيين وإقالة الوزراء الاتحاديين بناءً على اقتراح المستشار.
 
 ---
 
 ### Question 59
 
-**🇩🇪 Deutsch:** Welche Städte haben die größten jüdischen Gemeinden in Deutschland?
-**🇸🇦 عربي:** أي الدول ليست من الدول المؤسسة للاتحاد الأوروبي؟
+**🇩🇪** Vor wie vielen Jahren gab es erstmals eine jüdische Gemeinde auf dem Gebiet des heutigen Deutschlands?
+**🇸🇦** منذ كم سنة وُجدت أول جماعة يهودية على أراضي ألمانيا الحالية؟
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ✅ | **Berlin und München** | **فرنسا** |
-| ○ | Hamburg und Essen | إيطاليا |
-| ○ | Nürnberg und Stuttgart | إسبانيا |
-| ○ | Worms und Speyer | ألمانيا الغربية |
+| ○ | vor etwa 300 Jahren | منذ حوالي 300 سنة |
+| ○ | vor etwa 700 Jahren | منذ حوالي 700 سنة |
+| ○ | vor etwa 1150 Jahren | منذ حوالي 1150 سنة |
+| ✅ | **vor etwa 1700 Jahren** | **منذ حوالي 1700 سنة** |
 
-> **📝** الدول المؤسسة لما أصبح الاتحاد الأوروبي (الجماعة الاقتصادية الأوروبية 1957) هي ألمانيا الغربية وفرنسا وإيطاليا وبلجيكا وهولندا ولوكسمبورغ. انضمت إسبانيا عام 1986.
+> **📝 الشرح:** توجد جماعات يهودية في الأراضي الألمانية منذ حوالي 1700 عام، وتعود أقدم الأدلة الموثقة إلى مدينة كولونيا في العصر الروماني عام 321م — من أقدم المستوطنات اليهودية في أوروبا شمال جبال الألب.
 
 ---
 
 ### Question 60
 
-**🇩🇪 Deutsch:** Welches Amt__(t)____(h)__at__(t)____(k)__eine__(n)__ politische__(n)__ Macht__(t)__ in Deutschland?
-**🇸🇦 عربي:** ما اليورو؟
+**🇩🇪** In Deutschland gehören der Bundestag und der Bundesrat zur …
+**🇸🇦** في ألمانيا، ينتمي البوندستاغ والبوندسرات إلى …
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ✅ | **der Bundespräsident/die Bundespräsidentin** | **عملة ألمانيا القديمة.** |
-| ○ | der Bundeskanzler/die Bundeskanzlerin | العملة المشتركة لكثير من دول الاتحاد الأوروبي. |
-| ○ | ein__(e)__ Bundesminister/eine Bundesministerin | عملة بنك الاستثمار الأوروبي. |
-| ○ | ein__(e)__ Ministerpräsident/eine Ministerpräsidentin eines Bundeslandes | عملة مخصصة للتجارة الدولية فقط. |
+| ○ | Exekutive. | السلطة التنفيذية. |
+| ✅ | **Legislative.** | **السلطة التشريعية.** |
+| ○ | Direktive. | التوجيهية. |
+| ○ | Judikative. | السلطة القضائية. |
 
-> **📝** اليورو العملة الرسمية لمنطقة اليورو التي تضم 20 دولة من دول الاتحاد الأوروبي. استُحدث عام 1999 وطُرحت مسكوكاته وأوراقه النقدية عام 2002. ألمانيا كانت ضمن أوائل الدول المعتمِدة له.
+> **📝 الشرح:** البوندستاغ والبوندسرات كلاهما هيئتان تشريعيتان — يسنّان القوانين، بخلاف السلطة التنفيذية (الحكومة) أو القضائية (المحاكم).
 
 ---
 
 ### Question 61
 
-**🇩🇪 Deutsch:** Wer__(r)__ __(b)__estimmt in Deutschland die Richtlinien der Politik?
-**🇸🇦 عربي:** أي الدول لا تنتمي إلى الاتحاد الأوروبي؟
+**🇩🇪** Was bedeutet „Volkssouveränität“?
+**🇸🇦** ماذا تعني "سيادة الشعب"؟
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ○ | der Bundestag | فرنسا |
-| ✅ | **der Bundeskanzler/die Bundeskanzlerin** | **بولندا** |
-| ○ | der Bundesrat | النرويج |
-| ○ | der Bundespräsident/die Bundespräsidentin | إسبانيا |
+| ○ | Der König / die Königin herrscht über das Volk. | يحكم الملك/الملكة الشعب. |
+| ○ | Das Bundesverfassungsgericht steht über der Verfassung. | المحكمة الدستورية الاتحادية فوق الدستور. |
+| ○ | Die Interessenverbände üben die Souveränität zusammen mit der Regierung aus. | تمارس جماعات المصالح السيادة مع الحكومة. |
+| ✅ | **Die Staatsgewalt geht vom Volke aus.** | **تنبع سلطة الدولة من الشعب.** |
 
-> **📝** النرويج ليست عضوًا في الاتحاد الأوروبي رغم اقترابها منه جغرافيًا وثقافيًا. تربطها به علاقات عبر المنطقة الاقتصادية الأوروبية (EEA). رفضت النرويج الانضمام في استفتاءين.
+> **📝 الشرح:** سيادة الشعب، المنصوص عليها في المادة 20 من القانون الأساسي، تعني أن جميع سلطة الدولة مستمدة من الشعب، وتُمارَس عبر الانتخابات والاستفتاءات.
 
 ---
 
 ### Question 62
 
-**🇩🇪 Deutsch:** Wie nennt man__(n)__ die__(e)____(W)__ahlen zum Deutschen Bundestag?
-**🇸🇦 عربي:** ما المادة 3 من القانون الأساسي الألماني؟
+**🇩🇪** Wenn das Parlament eines deutschen Bundeslandes gewählt wird, nennt man das …
+**🇸🇦** عندما يُنتخب برلمان ولاية ألمانية، يُسمى ذلك …
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ○ | __(L)__andtagswahlen | حق الاقتراع. |
-| ✅ | **Bundestagswahl** | **المساواة أمام القانون وحظر التمييز.** |
-| ○ | Europawahl | حق التقاضي. |
-| ○ | Kommunalwahl | حرية السفر. |
+| ○ | Kommunalwahl. | انتخابات بلدية. |
+| ✅ | **Landtagswahl.** | **انتخابات البرلمان الولائي.** |
+| ○ | Europawahl. | انتخابات أوروبية. |
+| ○ | Bundestagswahl. | انتخابات اتحادية. |
 
-> **📝** المادة 3 من القانون الأساسي تكفل المساواة أمام القانون وتحظر التمييز بسبب الجنس أو النسب أو العرق أو اللغة أو الوطن أو الأصل أو الدين أو المعتقد السياسي.
+> **📝 الشرح:** يُسمى انتخاب البرلمان الولائي (Landtag) بـ Landtagswahl، ويختلف عن الانتخابات البلدية أو الأوروبية أو الاتحادية.
 
 ---
 
 ### Question 63
 
-**🇩🇪 Deutsch:** Was__(s)__ __(p)__assiert in Deutschland, wenn man__(n)__ __(b)__ei einer Bundestagswahl__(l)__ seine Stimme__(e)__ nicht abgibt?
-**🇸🇦 عربي:** ما إحدى نتائج سقوط جدار برلين عام 1989؟
+**🇩🇪** Was gehört in Deutschland nicht zur Exekutive?
+**🇸🇦** ما الذي لا ينتمي إلى السلطة التنفيذية في ألمانيا؟
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ○ | Man__(n)__ __(m)__uss eine Strafe bezahlen. | انضمام ألمانيا إلى الاتحاد الأوروبي. |
-| ○ | Man__(n)__ __(b)__ekommt__(t)____(e)__inen Brief vom Bundestag. | الطريق نحو توحيد ألمانيا عام 1990. |
-| ✅ | **Es__(s)__ __(p)__assiert nichts,__(,)__ __(d)__ie Wahl ist freiwillig.** | **إنشاء الاتحاد الأوروبي.** |
-| ○ | Man__(n)__ __(d)__arf nicht mehr wählen gehen. | انضمام ألمانيا إلى الناتو. |
+| ○ | die Polizei | الشرطة |
+| ✅ | **die Gerichte** | **المحاكم** |
+| ○ | das Finanzamt | مكتب الضرائب |
+| ○ | die Ministerien | الوزارات |
 
-> **📝** سقوط جدار برلين في نوفمبر 1989 مهّد لإعادة توحيد ألمانيا في أكتوبر 1990. كان رمزًا لنهاية الحرب الباردة وانتصار الحرية على الاستبداد.
+> **📝 الشرح:** تنتمي المحاكم إلى السلطة القضائية، وليس التنفيذية. أما الشرطة ومكتب الضرائب والوزارات فكلها جزء من السلطة التنفيذية.
 
 ---
 
 ### Question 64
 
-**🇩🇪 Deutsch:** Wie__(e)__ __(v)__iele Stimmen hat man__(n)__ bei einer Bundestagswahl?
-**🇸🇦 عربي:** ما مبدأ المساواة بين الرجل والمرأة في ألمانيا؟
+**🇩🇪** Die Bundesrepublik Deutschland ist heute gegliedert in …
+**🇸🇦** تنقسم جمهورية ألمانيا الاتحادية اليوم إلى …
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ○ | 1 | مكفول بالمادة 3 من القانون الأساسي ويحظر التمييز بسبب الجنس. |
-| ✅ | **2** | **مستحسَن لكنه غير مُقنَّن.** |
-| ○ | 3 | ينطبق في العمل فحسب دون الحياة الخاصة. |
-| ○ | 4 | لا ينطبق إلا على العاملين في الحكومة. |
+| ○ | vier Besatzungszonen. | أربع مناطق احتلال. |
+| ○ | einen Oststaat und einen Weststaat. | دولة شرقية ودولة غربية. |
+| ○ | 16 Kantone. | 16 كانتونًا. |
+| ✅ | **Bund, Länder und Kommunen.** | **الاتحاد والولايات والبلديات.** |
 
-> **📝** المادة 3 الفقرة 2 من القانون الأساسي تنص: "الرجل والمرأة متساويان". حظر التمييز بسبب الجنس يشمل حياة العمل والمجتمع والأسرة، مع استمرار الجهود لمعالجة الفجوات القائمة.
+> **📝 الشرح:** يتكون الهيكل الإداري لألمانيا من ثلاثة مستويات: الحكومة الاتحادية (Bund)، والولايات الـ16 (Länder)، والبلديات المحلية (Kommunen).
 
 ---
 
 ### Question 65
 
-**🇩🇪 Deutsch:** Ab welchem Alter darf man in Deutschland bei der Bundestagswahl wählen?
-**🇸🇦 عربي:** في أي عام صدر القانون الأساسي الألماني؟
+**🇩🇪** Es gehört nicht zu den Aufgaben des Deutschen Bundestages, …
+**🇸🇦** ليس من مهام البوندستاغ الألماني …
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ○ | 16 | 1945 |
-| ✅ | **18** | **1947** |
-| ○ | 21 | 1949 |
-| ○ | 25 | 1955 |
+| ○ | Gesetze zu entwerfen. | صياغة القوانين. |
+| ○ | die Bundesregierung zu kontrollieren. | مراقبة الحكومة الاتحادية. |
+| ○ | den Bundeskanzler / die Bundeskanzlerin zu wählen. | انتخاب المستشار الاتحادي. |
+| ✅ | **das Bundeskabinett zu bilden.** | **تشكيل مجلس الوزراء الاتحادي.** |
 
-> **📝** صدر القانون الأساسي الألماني في 23 مايو 1949. أُسِّس ليكون دستورًا مؤقتًا لألمانيا الغربية، غير أنه بعد توحيد 1990 أصبح الدستور الدائم لكل ألمانيا.
+> **📝 الشرح:** تشكيل مجلس الوزراء هو مهمة المستشار، وليس البوندستاغ. يقوم البوندستاغ بصياغة القوانين وانتخاب المستشار ومراقبة الحكومة.
 
 ---
 
 ### Question 66
 
-**🇩🇪 Deutsch:** Seit wann gibt es jüdisches Leben auf dem Gebiet des heutigen Deutschlands?
-**🇸🇦 عربي:** ما الجنسية المطلوبة للانتخاب في الانتخابات الفيدرالية الألمانية؟
+**🇩🇪** Welche Städte haben die größten jüdischen Gemeinden in Deutschland?
+**🇸🇦** أي مدن تضم أكبر الجماعات اليهودية في ألمانيا؟
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ○ | seit ungefähr 100 Jahren | تكفي الإقامة الدائمة. |
-| ○ | seit ungefähr 500 Jahren | الجنسية الألمانية. |
-| ○ | seit ungefähr 1200 Jahren | تكفي أي جنسية أوروبية. |
-| ✅ | **seit mehr als 1700 Jahren** | **لا يُشترط الجنسية.** |
+| ✅ | **Berlin und München** | **برلين وميونخ** |
+| ○ | Hamburg und Essen | هامبورغ وإيسن |
+| ○ | Nürnberg und Stuttgart | نورمبرغ وشتوتغارت |
+| ○ | Worms und Speyer | فورمس وشباير |
 
-> **📝** حق الاقتراع في الانتخابات الفيدرالية مقصور على حاملي الجنسية الألمانية البالغين 18 عامًا فأكثر. مواطنو الاتحاد الأوروبي يحق لهم التصويت في انتخابات البلديات والبرلمان الأوروبي.
+> **📝 الشرح:** تضم برلين وميونخ اليوم أكبر الجماعات اليهودية في ألمانيا، مما يعكس أنماط الهجرة بعد إعادة التوحيد وبعد الحقبة السوفيتية.
 
 ---
 
 ### Question 67
 
-**🇩🇪 Deutsch:** Welche Aussage zu Wahlen in Deutschland ist richtig?
-**🇸🇦 عربي:** ما المقصود بـ"الولاء الدستوري" في ألمانيا؟
+**🇩🇪** Was ist in Deutschland vor allem eine Aufgabe der Bundesländer?
+**🇸🇦** ما هي المهمة الرئيسية للولايات في ألمانيا؟
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ✅ | **Wahlen__(n)__ __(s)__ind__(d)__ __(a)__llgemein__(,)__ __(u)__nmittelbar__(,)__ __(f)__rei__(,)__ __(g)__leich und geheim.** | **الالتزام بدفع الضرائب.** |
-| ○ | Das__(s)__ __(W)__ahlergebnis__(s)__ muss__(s)____(v)__on der Regierung__(g)__ __(b)__estätigt werden. | التزام موظفي الدولة بالوقوف إلى جانب النظام الديمقراطي الحر. |
-| ○ | Es__(s)__ __(d)__arf__(f)__ __(n)__ur__(r)__ __(e)__ine__(e)__ __(P)__artei__(i)__ __(a)__ntreten. | الخدمة العسكرية الإلزامية. |
-| ○ | Alle__(e)__ __(P)__arteien__(n)__ __(m)__üssen__(n)__ __(d)__as__(s)__ __(g)__leiche Programm haben. | احترام العلم والنشيد الوطني. |
+| ○ | Verteidigungspolitik | السياسة الدفاعية |
+| ○ | Außenpolitik | السياسة الخارجية |
+| ○ | Wirtschaftspolitik | السياسة الاقتصادية |
+| ✅ | **Schulpolitik** | **سياسة التعليم** |
 
-> **📝** "الولاء الدستوري" أو الديمقراطية الدفاعية يعني أن الموظفين الحكوميين في ألمانيا ملزمون بالدفاع عن النظام الديمقراطي الحر. يُمكن حظر الأحزاب التي تهدّده، كما حدث في خمسينيات القرن الماضي.
+> **📝 الشرح:** تُعد سياسة التعليم من مسؤولية الولايات بشكل رئيسي، بخلاف الدفاع والشؤون الخارجية ومعظم السياسة الاقتصادية التي هي شؤون اتحادية.
 
 ---
 
 ### Question 68
 
-**🇩🇪 Deutsch:** Bei einer demokratischen Wahl in Deutschland …
-**🇸🇦 عربي:** ما هي الهيئة التي تمتلك السلطة التشريعية في ألمانيا؟
+**🇩🇪** Warum kontrolliert der Staat in Deutschland das Schulwesen?
+**🇸🇦** لماذا تراقب الدولة النظام المدرسي في ألمانيا؟
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ○ | __(k)__ann__(n)__ __(m)__an__(n)__ __(n)__ur__(r)__ __(p)__er__(r)__ __(B)__rief__(f)__ __(w)__ählen. | المستشار الفيدرالي وحده. |
-| ✅ | **__(i)__st__(t)__ __(d)__ie__(e)__ __(W)__ahl geheim.** | **البوندستاغ والبوندسرات مشتركَين.** |
-| ○ | __(m)__uss__(s)__ __(m)__an__(n)__ __(s)__einen__(n)__ __(N)__amen auf den Stimmzettel schreiben. | الرئيس الفيدرالي. |
-| ○ | __(g)__ibt__(t)__ __(e)__s__(s)__ __(k)__eine__(e)__ __(W)__ahlkabinen. | المحكمة الدستورية. |
+| ○ | weil es in Deutschland nur staatliche Schulen gibt | لأنه لا توجد سوى مدارس حكومية في ألمانيا |
+| ○ | weil alle Schüler und Schülerinnen einen Schulabschluss haben müssen | لأن جميع الطلاب يجب أن يحصلوا على شهادة مدرسية |
+| ○ | weil es in den Bundesländern verschiedene Schulen gibt | لأن هناك مدارس مختلفة في الولايات |
+| ✅ | **weil es nach dem Grundgesetz seine Aufgabe ist** | **لأنها مسؤولية الدولة بموجب القانون الأساسي** |
 
-> **📝** السلطة التشريعية في ألمانيا تتمثّل في البوندستاغ والبوندسرات. يُقرّ البوندستاغ القوانين، وتلك المتعلقة بالولايات تستلزم موافقة البوندسرات.
+> **📝 الشرح:** تُعد الرقابة الحكومية على المدارس واجبًا دستوريًا بموجب القانون الأساسي، لضمان جودة التعليم ومعاييره في جميع أنحاء البلاد.
 
 ---
 
 ### Question 69
 
-**🇩🇪 Deutsch:** Wann__(n)__ __(f)__inden in Deutschland normalerweise Bundestagswahlen statt?
-**🇸🇦 عربي:** أيٌّ من هذه الحقوق لا يُعدّ حقًا أساسيًا في القانون الأساسي الألماني؟
+**🇩🇪** Die Bundesrepublik Deutschland hat einen dreistufigen Verwaltungsaufbau. Wie heißt die unterste politische Stufe?
+**🇸🇦** تتكون ألمانيا من هيكل إداري ثلاثي المستويات. ما اسم أدنى مستوى سياسي؟
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ○ | alle 3 Jahre | حرية الرأي. |
-| ✅ | **alle 4 Jahre** | **حق إنهاء حياة الآخرين.** |
-| ○ | alle 5 Jahre | حرية الدين. |
-| ○ | alle 6 Jahre | حق الاجتماع. |
+| ○ | Stadträte | المجالس البلدية |
+| ○ | Landräte | مديرو المقاطعات |
+| ✅ | **Gemeinden** | **البلديات** |
+| ○ | Bezirksämter | مكاتب المقاطعات |
 
-> **📝** القانون الأساسي يكفل حرية الرأي والدين والاجتماع وغيرها من الحقوق الأساسية. لكنه لا يكفل حق إنهاء حياة الآخرين؛ بل يُجرّم القتل العمد.
+> **📝 الشرح:** تُشكّل البلديات (Gemeinden) أدنى مستوى إداري وسياسي في الهيكل الألماني الثلاثي المكون من الاتحاد والولايات والبلديات.
 
 ---
 
 ### Question 70
 
-**🇩🇪 Deutsch:** Die__(e)__ __(d)__eutschen__(n)__ __(B)__undesländer__(r)__ __(h)__aben__(n)__ __(e)__igene__(e)__ …
-**🇸🇦 عربي:** ما الذي يُمثّله اللون الذهبي (الأصفر) في العلم الألماني؟
+**🇩🇪** Der deutsche Bundespräsident Gustav Heinemann gibt Helmut Schmidt 1974 die Ernennungsurkunde zum deutschen Bundeskanzler. Was gehört zu den Aufgaben des deutschen Bundespräsidenten / der deutschen Bundespräsidentin?
+**🇸🇦** في عام 1974، يقدم الرئيس الألماني غوستاف هاينمان لهيلموت شميت شهادة تعيينه مستشارًا اتحاديًا. ما هي إحدى مهام الرئيس الاتحادي الألماني؟
 
-| | Deutsch | عربي |
+![Question 70](../images/70.png)
+
+| | Deutsch | العربية |
 |---|---|---|
-| ✅ | **__(R)__egierungen__(,)__ __(P)__arlamente und Gerichte.** | **أسقفية الكنيسة الألمانية.** |
-| ○ | __(G)__renztruppen. | الثروات الطبيعية لألمانيا. |
-| ○ | __(G)__eheimdienste. | يُعدّ جزءًا من ألوان العلم الموروثة تاريخيًا دون دلالة رسمية محددة. |
-| ○ | __(Z)__oll-__(und)__ __(P)__asskontrollen. | حقول القمح الألمانية. |
+| ○ | Er / Sie führt die Regierungsgeschäfte. | يدير الشؤون الحكومية اليومية. |
+| ○ | Er / Sie kontrolliert die Regierungspartei. | يراقب الحزب الحاكم. |
+| ○ | Er / Sie wählt die Minister / Ministerinnen aus. | يختار الوزراء. |
+| ✅ | **Er / Sie schlägt den Kanzler / die Kanzlerin zur Wahl vor.** | **يقترح المستشار للانتخاب.** |
 
-> **📝** الألوان الثلاثة للعلم الألماني (الأسود والأحمر والذهبي) موروثة من ملابس المتطوعين الألمان إبان الحروب النابليونية. ارتبطت بالوحدة الوطنية والحرية وليس لكل لون تعريف رسمي محدد.
+> **📝 الشرح:** يقترح الرئيس الاتحادي مرشحًا لمنصب المستشار لينتخبه البوندستاغ، ويعيّن رسميًا المستشار والوزراء — لكنه لا يدير الحكومة بنفسه.
 
 ---
 
 ### Question 71
 
-**🇩🇪 Deutsch:** Für__(r)__ __(w)__elche__(e)__ __(A)__ufgabe ist die Bundesregierung__(g)__ __(i)__n Deutschland nicht zuständig?
-**🇸🇦 عربي:** ما المشكلة الأساسية لجمهورية فايمار التي أفضت إلى انهيارها؟
+**🇩🇪** Wo hält sich der deutsche Bundeskanzler / die deutsche Bundeskanzlerin am häufigsten auf? Am häufigsten ist er / sie …
+**🇸🇦** أين يوجد المستشار الاتحادي الألماني في أغلب الأحيان؟ يكون في الغالب …
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ○ | Außenpolitik | ضعف الجيش الألماني. |
-| ✅ | **Schulpolitik** | **الأزمة الاقتصادية والاستقطاب السياسي وصعود النازية.** |
-| ○ | Verteidigung | غزو خارجي. |
-| ○ | Umweltpolitik | خلاف ديني. |
+| ○ | in Bonn, weil sich dort das Bundeskanzleramt und der Bundestag befinden. | في بون، لأن المستشارية والبوندستاغ موجودان هناك. |
+| ✅ | **in Berlin, weil sich dort das Bundeskanzleramt und der Bundestag befinden.** | **في برلين، لأن المستشارية والبوندستاغ موجودان هناك.** |
+| ○ | auf Schloss Meseberg, dem Gästehaus der Bundesregierung, um Staatsgäste zu empfangen. | في قصر ميزيبيرغ، دار ضيافة الحكومة، لاستقبال ضيوف الدولة. |
+| ○ | auf Schloss Bellevue, dem Amtssitz des Bundespräsidenten / der Bundespräsidentin, um Staatsgäste zu empfangen. | في قصر بيلفو، المقر الرسمي للرئيس، لاستقبال ضيوف الدولة. |
 
-> **📝** عانت جمهورية فايمار من ضعف بنيوي وتضخم مفرط وأزمة اقتصادية حادة وصراعات حزبية متصاعدة أتاحت لهتلر الوصول إلى السلطة عام 1933 ونهاية الجمهورية.
+> **📝 الشرح:** منذ انتقال الحكومة من بون إلى برلين عام 1999، يتواجد المستشار غالبًا في برلين، حيث تقع المستشارية والبوندستاغ.
 
 ---
 
 ### Question 72
 
-**🇩🇪 Deutsch:** Wie heißt die__(e)__ __(p)__arlamentarische__(e)__ __(O)__pposition im Deutschen Bundestag?
-**🇸🇦 عربي:** ما اللجنة الاستشارية الخاصة بالموظفين في ألمانيا؟
+**🇩🇪** Wie heißt der jetzige Bundeskanzler / die jetzige Bundeskanzlerin von Deutschland?
+**🇸🇦** ما اسم المستشار الاتحادي الألماني الحالي؟
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ✅ | **die Opposition** | **Betriebsrat (مجلس العمل).** |
-| ○ | die Koalition | Bundesrat (المجلس الفيدرالي). |
-| ○ | die Mehrheit | Wirtschaftsrat (المجلس الاقتصادي). |
-| ○ | die Minderheit | Sozialrat (المجلس الاجتماعي). |
+| ○ | Gerhard Schröder | غيرهارد شرودر |
+| ○ | Angela Merkel | أنجيلا ميركل |
+| ○ | Ursula von der Leyen | أورسولا فون دير لايين |
+| ✅ | **Friedrich Merz** | **فريدريش ميرتس** |
 
-> **📝** Betriebsrat (مجلس العمل) هو الهيئة المنتخبة التي تمثّل الموظفين داخل المنشآت التي تضم خمسة عمال فأكثر. يُتيح المشاركة في القرارات المتعلقة بظروف العمل.
+> **📝 الشرح:** فريدريش ميرتس (الاتحاد المسيحي الديمقراطي) هو المستشار الاتحادي منذ عام 2025. ملاحظة: هذا سؤال متعلق بالأحداث الجارية يتم تحديثه دوريًا في الاختبار الحقيقي — تحقق دائمًا من شاغل المنصب الحالي قبل الامتحان.
 
 ---
 
 ### Question 73
 
-**🇩🇪 Deutsch:** Welchen__(n)__ __(B)__undeskanzler__(r)__ hatte Deutschland__(d)__ nie?
-**🇸🇦 عربي:** ما "يوم إعادة توحيد ألمانيا"؟
+**🇩🇪** Die beiden größten Fraktionen im Deutschen Bundestag heißen zurzeit …
+**🇸🇦** ما اسم أكبر كتلتين برلمانيتين حاليًا في البوندستاغ الألماني؟
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ○ | __(K)__onrad Adenauer | 9 نوفمبر. |
-| ✅ | **Thomas de Maizière** | **3 أكتوبر.** |
-| ○ | Gerhard Schröder | 23 مايو. |
-| ○ | Helmut Kohl | 12 سبتمبر. |
+| ✅ | **CDU/CSU und AfD.** | **الاتحاد المسيحي وحزب البديل من أجل ألمانيا.** |
+| ○ | Die Linke und Bündnis 90/Die Grünen. | دي لينكه وتحالف 90/الخضر. |
+| ○ | Bündnis 90/Die Grünen und SPD. | تحالف 90/الخضر والحزب الديمقراطي الاجتماعي. |
+| ○ | Die Linke und CDU/CSU. | دي لينكه والاتحاد المسيحي. |
 
-> **📝** يُحتفَل بيوم إعادة التوحيد الألماني في 3 أكتوبر من كل عام، إذ أُعلن الاندماج الرسمي بين ألمانيا الشرقية والغربية في هذا التاريخ عام 1990.
+> **📝 الشرح:** بعد الانتخابات الاتحادية لعام 2025، أصبح الاتحاد المسيحي وحزب البديل من أجل ألمانيا أكبر كتلتين برلمانيتين. ملاحظة: هذا سؤال متعلق بالأحداث الجارية — تحقق قبل الامتحان لأن مراكز الأحزاب تتغير مع كل انتخابات.
 
 ---
 
 ### Question 74
 
-**🇩🇪 Deutsch:** Wie__(e)__ __(h)__eißt die __(B)__undeskanzlerin/der Bundeskanzler in Deutschland?
-**🇸🇦 عربي:** ما الهيئة التي تمثّل مصالح ألمانيا في الاتحاد الأوروبي؟
+**🇩🇪** Wie heißt das Parlament für ganz Deutschland?
+**🇸🇦** ما اسم برلمان ألمانيا بأكملها؟
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ○ | (varies) | البرلمان الأوروبي. |
-| ○ | (varies) | مجلس الاتحاد الأوروبي / المجلس الأوروبي. |
-| ✅ | **(Current Chancellor at time of test)** | **المحكمة الأوروبية للعدل.** |
-| ○ | (varies) | البنك المركزي الأوروبي. |
+| ○ | Bundesversammlung | الجمعية الاتحادية |
+| ○ | Volkskammer | مجلس الشعب |
+| ✅ | **Bundestag** | **البوندستاغ** |
+| ○ | Bundesgerichtshof | محكمة العدل الاتحادية |
 
-> **📝** تمثّل ألمانيا مصالحها في الاتحاد الأوروبي عبر مجلس الاتحاد الأوروبي (حيث يجتمع الوزراء) والمجلس الأوروبي (على مستوى رؤساء الحكومات) وأعضاء البرلمان الأوروبي المنتخبين.
+> **📝 الشرح:** البوندستاغ هو البرلمان الوطني لألمانيا. أما الجمعية الاتحادية فتجتمع فقط لانتخاب الرئيس، ومجلس الشعب كان برلمان ألمانيا الشرقية السابق، ومحكمة العدل الاتحادية هي محكمة.
 
 ---
 
 ### Question 75
 
-**🇩🇪 Deutsch:** Wie__(e)__ __(h)__eißt der/die Bundespräsident/in in Deutschland?
-**🇸🇦 عربي:** ما الذي يُمثّله شعار "Für Mensch und Umwelt" (للإنسان والبيئة) في ألمانيا؟
+**🇩🇪** Wie heißt Deutschlands heutiges Staatsoberhaupt?
+**🇸🇦** ما اسم رئيس دولة ألمانيا الحالي؟
 
-| | Deutsch | عربي |
+| | Deutsch | العربية |
 |---|---|---|
-| ○ | (varies) | جمعية بيئية خيرية. |
-| ✅ | **(Current President at time of test)** | **الهيئة الاتحادية لحماية البيئة.** |
-| ○ | (varies) | شعار حزب الخضر الألماني. |
-| ○ | (varies) | برنامج حكومي للرعاية الاجتماعية. |
+| ✅ | **Frank-Walter Steinmeier** | **فرانك فالتر شتاينماير** |
+| ○ | Bärbel Bas | باربل باس |
+| ○ | Bodo Ramelow | بودو راميلو |
+| ○ | Joachim Gauck | يواخيم غاوك |
 
-> **📝** هذا الشعار شعار المكتب الاتحادي لحماية البيئة والسلامة النووية (BfR) وليس شعار حزب الخضر. الوكالة الفيدرالية للبيئة (Umweltbundesamt) تحمي البيئة وتُقدم الاستشارات للحكومة.
+> **📝 الشرح:** فرانك فالتر شتاينماير هو الرئيس الاتحادي لألمانيا (رئيس الدولة). ملاحظة: هذا سؤال متعلق بالأحداث الجارية — تحقق من شاغل المنصب الحالي قبل الامتحان.
 
 ---
 
+### Question 76
+
+**🇩🇪** Was bedeutet die Abkürzung CDU in Deutschland?
+**🇸🇦** ماذا يعني اختصار CDU في ألمانيا؟
+
+| | Deutsch | العربية |
+|---|---|---|
+| ○ | Christliche Deutsche Union | الاتحاد الألماني المسيحي |
+| ○ | Club Deutscher Unternehmer | نادي رواد الأعمال الألمان |
+| ○ | Christlicher Deutscher Umweltschutz | الحماية البيئية الألمانية المسيحية |
+| ✅ | **Christlich Demokratische Union** | **الاتحاد الديمقراطي المسيحي** |
+
+> **📝 الشرح:** يعني CDU الاتحاد الديمقراطي المسيحي (Christlich Demokratische Union)، أحد أكبر الأحزاب السياسية في ألمانيا.
+
+---
+
+### Question 77
+
+**🇩🇪** Was ist die Bundeswehr?
+**🇸🇦** ما هي البوندسفير؟
+
+| | Deutsch | العربية |
+|---|---|---|
+| ○ | die deutsche Polizei | الشرطة الألمانية |
+| ○ | ein deutscher Hafen | ميناء ألماني |
+| ○ | eine deutsche Bürgerinitiative | مبادرة مواطنين ألمانية |
+| ✅ | **die deutsche Armee** | **الجيش الألماني** |
+
+> **📝 الشرح:** البوندسفير هي القوات المسلحة الألمانية (الجيش)، وليست الشرطة أو ميناءً أو مجموعة مواطنين.
+
+---
+
+### Question 78
+
+**🇩🇪** Was bedeutet die Abkürzung SPD?
+**🇸🇦** ماذا يعني اختصار SPD؟
+
+| | Deutsch | العربية |
+|---|---|---|
+| ○ | Sozialistische Partei Deutschlands | الحزب الاشتراكي الألماني |
+| ○ | Sozialpolitische Partei Deutschlands | حزب السياسة الاجتماعية الألماني |
+| ✅ | **Sozialdemokratische Partei Deutschlands** | **الحزب الديمقراطي الاجتماعي الألماني** |
+| ○ | Sozialgerechte Partei Deutschlands | حزب العدالة الاجتماعية الألماني |
+
+> **📝 الشرح:** يعني SPD الحزب الديمقراطي الاجتماعي الألماني (Sozialdemokratische Partei Deutschlands)، أحد أقدم وأكبر الأحزاب في ألمانيا.
+
+---
+
+### Question 79
+
+**🇩🇪** Was bedeutet die Abkürzung FDP in Deutschland?
+**🇸🇦** ماذا يعني اختصار FDP في ألمانيا؟
+
+| | Deutsch | العربية |
+|---|---|---|
+| ○ | Friedliche Demonstrative Partei | الحزب التظاهري السلمي |
+| ○ | Freie Deutschland Partei | حزب ألمانيا الحرة |
+| ○ | Führende Demokratische Partei | الحزب الديمقراطي الرائد |
+| ✅ | **Freie Demokratische Partei** | **الحزب الديمقراطي الحر** |
+
+> **📝 الشرح:** يعني FDP الحزب الديمقراطي الحر (Freie Demokratische Partei)، وهو حزب ليبرالي في ألمانيا.
+
+---
+
+### Question 80
+
+**🇩🇪** Welches Gericht in Deutschland ist zuständig für die Auslegung des Grundgesetzes?
+**🇸🇦** أي محكمة في ألمانيا مسؤولة عن تفسير القانون الأساسي؟
+
+| | Deutsch | العربية |
+|---|---|---|
+| ○ | Oberlandesgericht | محكمة الاستئناف الإقليمية العليا |
+| ○ | Amtsgericht | المحكمة المحلية |
+| ✅ | **Bundesverfassungsgericht** | **المحكمة الدستورية الاتحادية** |
+| ○ | Verwaltungsgericht | المحكمة الإدارية |
+
+> **📝 الشرح:** المحكمة الدستورية الاتحادية، الواقعة في كارلسروه، مسؤولة عن تفسير القانون الأساسي ومراجعة دستورية القوانين.
+
+---
+
+### Question 81
+
+**🇩🇪** Wer wählt den Bundeskanzler / die Bundeskanzlerin in Deutschland?
+**🇸🇦** من ينتخب المستشار الاتحادي في ألمانيا؟
+
+| | Deutsch | العربية |
+|---|---|---|
+| ○ | der Bundesrat | البوندسرات |
+| ○ | die Bundesversammlung | الجمعية الاتحادية |
+| ○ | das Volk | الشعب |
+| ✅ | **der Bundestag** | **البوندستاغ** |
+
+> **📝 الشرح:** ينتخب البوندستاغ المستشار الاتحادي بناءً على اقتراح الرئيس الاتحادي — وليس الشعب مباشرة أو البوندسرات أو الجمعية الاتحادية (التي تنتخب الرئيس فقط).
+
+---
+
+### Question 82
+
+**🇩🇪** Wer leitet das deutsche Bundeskabinett?
+**🇸🇦** من يرأس مجلس الوزراء الاتحادي الألماني؟
+
+| | Deutsch | العربية |
+|---|---|---|
+| ○ | der Bundestagspräsident / die Bundestagspräsidentin | رئيس البوندستاغ |
+| ○ | der Bundespräsident / die Bundespräsidentin | الرئيس الاتحادي |
+| ✅ | **der Bundeskanzler / die Bundeskanzlerin** | **المستشار الاتحادي** |
+| ○ | der Bundesratspräsident / die Bundesratspräsidentin | رئيس البوندسرات |
+
+> **📝 الشرح:** يرأس المستشار الاتحادي مجلس الوزراء الاتحادي ويحدد التوجهات السياسية العامة (Richtlinienkompetenz).
+
+---
+
+### Question 83
+
+**🇩🇪** Wer wählt den deutschen Bundeskanzler / die deutsche Bundeskanzlerin?
+**🇸🇦** من ينتخب المستشار الاتحادي الألماني؟
+
+| | Deutsch | العربية |
+|---|---|---|
+| ○ | das Volk | الشعب |
+| ○ | die Bundesversammlung | الجمعية الاتحادية |
+| ✅ | **der Bundestag** | **البوندستاغ** |
+| ○ | die Bundesregierung | الحكومة الاتحادية |
+
+> **📝 الشرح:** ينتخب البوندستاغ المستشار الاتحادي — ولا يصوت الألمان مباشرة لاختيار المستشار.
+
+---
+
+### Question 84
+
+**🇩🇪** Welche Hauptaufgabe hat der deutsche Bundespräsident / die deutsche Bundespräsidentin? Er / Sie …
+**🇸🇦** ما هي المهمة الرئيسية للرئيس الاتحادي الألماني؟ …
+
+| | Deutsch | العربية |
+|---|---|---|
+| ○ | regiert das Land. | يحكم البلاد. |
+| ○ | entwirft die Gesetze. | يصيغ القوانين. |
+| ✅ | **repräsentiert das Land.** | **يمثل البلاد.** |
+| ○ | überwacht die Einhaltung der Gesetze. | يشرف على الامتثال للقوانين. |
+
+> **📝 الشرح:** الدور الرئيسي للرئيس الاتحادي هو تمثيلي (رئيس دولة شرفي إلى حد كبير) — أما الحكم فيتولاه المستشار، وصياغة القوانين يتولاها البوندستاغ.
+
+---
+
+### Question 85
+
+**🇩🇪** Wer bildet den deutschen Bundesrat?
+**🇸🇦** من يشكل البوندسرات الألماني؟
+
+| | Deutsch | العربية |
+|---|---|---|
+| ○ | die Abgeordneten des Bundestages | أعضاء البوندستاغ |
+| ○ | die Minister und Ministerinnen der Bundesregierung | وزراء الحكومة الاتحادية |
+| ✅ | **die Regierungsvertreter der Bundesländer** | **ممثلو حكومات الولايات** |
+| ○ | die Parteimitglieder | أعضاء الأحزاب |
+
+> **📝 الشرح:** يتكون البوندسرات من ممثلي حكومات الولايات (Länder)، ويمثل المصالح الإقليمية في التشريع الاتحادي.
+
+---
+
+### Question 86
+
+**🇩🇪** Wer wählt in Deutschland den Bundespräsidenten / die Bundespräsidentin?
+**🇸🇦** من ينتخب الرئيس الاتحادي في ألمانيا؟
+
+| | Deutsch | العربية |
+|---|---|---|
+| ✅ | **die Bundesversammlung** | **الجمعية الاتحادية** |
+| ○ | der Bundesrat | البوندسرات |
+| ○ | das Bundesparlament | البرلمان الاتحادي |
+| ○ | das Bundesverfassungsgericht | المحكمة الدستورية الاتحادية |
+
+> **📝 الشرح:** تنتخب الجمعية الاتحادية (Bundesversammlung) — وهي هيئة خاصة من أعضاء البوندستاغ ومندوبي الولايات — الرئيس الاتحادي كل خمس سنوات.
+
+---
+
+### Question 87
+
+**🇩🇪** Wer ist das Staatsoberhaupt der Bundesrepublik Deutschland?
+**🇸🇦** من هو رئيس دولة جمهورية ألمانيا الاتحادية؟
+
+| | Deutsch | العربية |
+|---|---|---|
+| ○ | der Bundeskanzler / die Bundeskanzlerin | المستشار الاتحادي |
+| ✅ | **der Bundespräsident / die Bundespräsidentin** | **الرئيس الاتحادي** |
+| ○ | der Bundesratspräsident / die Bundesratspräsidentin | رئيس البوندسرات |
+| ○ | der Bundestagspräsident / die Bundestagspräsidentin | رئيس البوندستاغ |
+
+> **📝 الشرح:** الرئيس الاتحادي هو رئيس دولة ألمانيا، وهو منصب شرفي إلى حد كبير، ويختلف عن المستشار الذي يرأس الحكومة.
+
+---
+
+### Question 88
+
+**🇩🇪** Die parlamentarische Opposition im Deutschen Bundestag …
+**🇸🇦** المعارضة البرلمانية في البوندستاغ الألماني …
+
+| | Deutsch | العربية |
+|---|---|---|
+| ✅ | **kontrolliert die Regierung.** | **تراقب الحكومة.** |
+| ○ | entscheidet, wer Bundesminister / Bundesministerin wird. | تقرر من يصبح وزيرًا اتحاديًا. |
+| ○ | bestimmt, wer im Bundesrat sitzt. | تحدد من يجلس في البوندسرات. |
+| ○ | schlägt die Regierungschefs / Regierungschefinnen der Länder vor. | تقترح رؤساء حكومات الولايات. |
+
+> **📝 الشرح:** الدور الرئيسي للمعارضة البرلمانية هو مراقبة الحكومة وفحص أدائها — فهي لا تعيّن الوزراء ولا تحدد قيادة البوندسرات أو الولايات.
+
+---
+
+### Question 89
+
+**🇩🇪** Wie nennt man in Deutschland die Vereinigung von Abgeordneten einer Partei im Parlament?
+**🇸🇦** ماذا يُسمى تجمع أعضاء حزب ما في البرلمان في ألمانيا؟
+
+| | Deutsch | العربية |
+|---|---|---|
+| ○ | Verband | جمعية |
+| ○ | Ältestenrat | مجلس الشيوخ |
+| ✅ | **Fraktion** | **الكتلة البرلمانية** |
+| ○ | Opposition | المعارضة |
+
+> **📝 الشرح:** الكتلة البرلمانية (Fraktion) هي المجموعة البرلمانية التي يشكلها أعضاء الحزب نفسه (أو أحزاب متحالفة) في البوندستاغ.
+
+---
+
+### Question 90
+
+**🇩🇪** Die deutschen Bundesländer wirken an der Gesetzgebung des Bundes mit durch …
+**🇸🇦** تشارك الولايات الألمانية في التشريع الاتحادي من خلال …
+
+| | Deutsch | العربية |
+|---|---|---|
+| ✅ | **den Bundesrat.** | **البوندسرات.** |
+| ○ | die Bundesversammlung. | الجمعية الاتحادية. |
+| ○ | den Bundestag. | البوندستاغ. |
+| ○ | die Bundesregierung. | الحكومة الاتحادية. |
+
+> **📝 الشرح:** البوندسرات هو المجلس الذي تشارك من خلاله الولايات في التشريع الاتحادي، مما يمنحها صوتًا في التشريع الوطني.
+
+---
+
+### Question 91
+
+**🇩🇪** In Deutschland kann ein Regierungswechsel in einem Bundesland Auswirkungen auf die Bundespolitik haben. Das Regieren wird …
+**🇸🇦** في ألمانيا، يمكن أن يؤثر تغيير الحكومة في إحدى الولايات على السياسة الاتحادية. يصبح الحكم …
+
+| | Deutsch | العربية |
+|---|---|---|
+| ○ | schwieriger, wenn sich dadurch die Mehrheit im Bundestag ändert. | أصعب، إذا تغيّرت بذلك الأغلبية في البوندستاغ. |
+| ○ | leichter, wenn dadurch neue Parteien in den Bundesrat kommen. | أسهل، إذا دخلت أحزاب جديدة إلى البوندسرات. |
+| ✅ | **schwieriger, wenn dadurch die Mehrheit im Bundesrat verändert wird.** | **أصعب، إذا تغيّرت بذلك الأغلبية في البوندسرات.** |
+| ○ | leichter, wenn es sich um ein reiches Bundesland handelt. | أسهل، إذا كانت ولاية غنية. |
+
+> **📝 الشرح:** بما أن حكومات الولايات تجلس في البوندسرات، فإن تغيّر نتائج انتخابات ولاية ما قد يغيّر أغلبية البوندسرات، مما يجعل الحكم الاتحادي أصعب إذا كسبت المعارضة أرضية هناك.
+
+---
+
+### Question 92
+
+**🇩🇪** Was bedeutet die Abkürzung CSU in Deutschland?
+**🇸🇦** ماذا يعني اختصار CSU في ألمانيا؟
+
+| | Deutsch | العربية |
+|---|---|---|
+| ○ | Christlich Sichere Union | الاتحاد المسيحي الآمن |
+| ○ | Christlich Süddeutsche Union | اتحاد جنوب ألمانيا المسيحي |
+| ○ | Christlich Sozialer Unternehmerverband | جمعية رواد الأعمال الاجتماعية المسيحية |
+| ✅ | **Christlich Soziale Union** | **الاتحاد الاجتماعي المسيحي** |
+
+> **📝 الشرح:** يعني CSU الاتحاد الاجتماعي المسيحي (Christlich Soziale Union)، وهو الحزب الشقيق للـCDU، ويعمل حصريًا في بافاريا.
+
+---
+
+### Question 93
+
+**🇩🇪** Je mehr „Zweitstimmen“ eine Partei bei einer Bundestagswahl bekommt, desto …
+**🇸🇦** كلما حصل حزب ما على المزيد من "الأصوات الثانية" في الانتخابات الاتحادية، …
+
+| | Deutsch | العربية |
+|---|---|---|
+| ✅ | **mehr Sitze erhält die Partei im Parlament.** | **سيحصل على مقاعد أكثر في البرلمان.** |
+| ○ | weniger Erststimmen kann sie haben. | سيحصل على أصوات أولى أقل. |
+| ○ | mehr Direktkandidaten der Partei ziehen ins Parlament ein. | سيدخل مرشحوها المباشرون البرلمان بأعداد أكبر. |
+| ○ | größer ist das Risiko, eine Koalition bilden zu müssen. | سيزداد خطر الاضطرار لتشكيل ائتلاف. |
+
+> **📝 الشرح:** يحدد الصوت الثاني (Zweitstimme) الحصة الإجمالية لكل حزب من مقاعد البوندستاغ — كلما زادت الأصوات الثانية، زاد إجمالي المقاعد.
+
+---
+
+### Question 94
+
+**🇩🇪** Ab welchem Alter darf man in Deutschland an der Wahl zum Deutschen Bundestag teilnehmen?
+**🇸🇦** من أي عمر يمكن المشاركة في انتخابات البوندستاغ الألماني؟
+
+| | Deutsch | العربية |
+|---|---|---|
+| ○ | 16 | 16 |
+| ✅ | **18** | **18** |
+| ○ | 21 | 21 |
+| ○ | 23 | 23 |
+
+> **📝 الشرح:** الحد الأدنى لسن التصويت في الانتخابات الاتحادية (البوندستاغ) في ألمانيا هو 18 عامًا.
+
+---
+
+### Question 95
+
+**🇩🇪** Was gilt für die meisten Kinder in Deutschland?
+**🇸🇦** ما الذي ينطبق على معظم الأطفال في ألمانيا؟
+
+| | Deutsch | العربية |
+|---|---|---|
+| ○ | Wahlpflicht | التصويت الإلزامي |
+| ✅ | **Schulpflicht** | **التعليم الإلزامي** |
+| ○ | Schweigepflicht | واجب الكتمان |
+| ○ | Religionspflicht | إلزامية الدين |
+
+> **📝 الشرح:** ينطبق التعليم الإلزامي (Schulpflicht) على جميع الأطفال تقريبًا في ألمانيا — أما التصويت والكتمان والدين فليست إلزامية للأطفال.
+
+---
+
+### Question 96
+
+**🇩🇪** Wie kann jemand, der den Holocaust leugnet, bestraft werden?
+**🇸🇦** كيف يمكن معاقبة شخص ينكر الهولوكوست؟
+
+| | Deutsch | العربية |
+|---|---|---|
+| ○ | Kürzung sozialer Leistungen | خفض الإعانات الاجتماعية |
+| ○ | bis zu 100 Sozialstunden | حتى 100 ساعة من الخدمة المجتمعية |
+| ○ | gar nicht, Holocaustleugnung ist erlaubt | لا شيء، إنكار الهولوكوست مسموح |
+| ✅ | **mit Freiheitsstrafe bis zu fünf Jahren oder mit Geldstrafe** | **بالسجن حتى خمس سنوات أو بغرامة مالية** |
+
+> **📝 الشرح:** يُعاقَب إنكار الهولوكوست في ألمانيا بموجب المادة 130 من قانون العقوبات بالسجن حتى خمس سنوات أو بغرامة مالية، حيث يُعد جريمة جنائية.
+
+---
+
+### Question 97
+
+**🇩🇪** Was bezahlt man in Deutschland automatisch, wenn man fest angestellt ist?
+**🇸🇦** ماذا يدفع الشخص تلقائيًا في ألمانيا عندما يكون موظفًا بشكل دائم؟
+
+| | Deutsch | العربية |
+|---|---|---|
+| ✅ | **Sozialversicherung** | **التأمين الاجتماعي** |
+| ○ | Sozialhilfe | المساعدة الاجتماعية |
+| ○ | Kindergeld | إعانة الطفل |
+| ○ | Wohngeld | إعانة السكن |
+
+> **📝 الشرح:** يدفع الموظفون الدائمون تلقائيًا اشتراكات في التأمين الاجتماعي (Sozialversicherung) — الذي يغطي الصحة والمعاش والبطالة والرعاية طويلة الأمد.
+
+---
+
+### Question 98
+
+**🇩🇪** Wenn Abgeordnete im Deutschen Bundestag ihre Fraktion wechseln, ...
+**🇸🇦** عندما يغيّر أعضاء البوندستاغ الألماني كتلتهم البرلمانية، …
+
+| | Deutsch | العربية |
+|---|---|---|
+| ✅ | **kann die Regierung ihre Mehrheit verlieren.** | **يمكن أن تفقد الحكومة أغلبيتها.** |
+| ○ | dürfen sie nicht mehr an den Sitzungen des Parlaments teilnehmen. | لا يمكنهم بعد ذلك حضور جلسات البرلمان. |
+| ○ | muss der Bundespräsident / die Bundespräsidentin zuvor sein / ihr Einverständnis geben. | يجب على الرئيس الاتحادي الموافقة أولاً. |
+| ○ | dürfen die Wähler / Wählerinnen dieser Abgeordneten noch einmal wählen. | يمكن لناخبي هؤلاء الأعضاء التصويت مرة أخرى. |
+
+> **📝 الشرح:** إذا غيّر عدد كافٍ من النواب كتلتهم، يمكن أن يفقد الائتلاف الحاكم أغلبيته البرلمانية، لأن الائتلافات تعتمد على عدد معين من المقاعد.
+
+---
+
+### Question 99
+
+**🇩🇪** Wer bezahlt in Deutschland die Sozialversicherungen?
+**🇸🇦** من يدفع اشتراكات التأمين الاجتماعي في ألمانيا؟
+
+| | Deutsch | العربية |
+|---|---|---|
+| ✅ | **Arbeitgeber / Arbeitgeberinnen und Arbeitnehmer / Arbeitnehmerinnen** | **أصحاب العمل والموظفون** |
+| ○ | nur Arbeitnehmer / Arbeitnehmerinnen | الموظفون فقط |
+| ○ | alle Staatsangehörigen | جميع المواطنين |
+| ○ | nur Arbeitgeber / Arbeitgeberinnen | أصحاب العمل فقط |
+
+> **📝 الشرح:** تُقسّم اشتراكات التأمين الاجتماعي بين أصحاب العمل والموظفين، حيث يدفع كل طرف نحو النصف.
+
+---
+
+### Question 100
+
+**🇩🇪** Was gehört nicht zur gesetzlichen Sozialversicherung?
+**🇸🇦** ما الذي لا ينتمي إلى التأمين الاجتماعي القانوني؟
+
+| | Deutsch | العربية |
+|---|---|---|
+| ○ | die gesetzliche Rentenversicherung | تأمين المعاش القانوني |
+| ✅ | **die Lebensversicherung** | **التأمين على الحياة** |
+| ○ | die Arbeitslosenversicherung | تأمين البطالة |
+| ○ | die Pflegeversicherung | تأمين الرعاية طويلة الأمد |
+
+> **📝 الشرح:** التأمين على الحياة منتج خاص/اختياري، وليس جزءًا من نظام التأمين الاجتماعي القانوني الألماني (المعاش، البطالة، الصحة، والرعاية طويلة الأمد).
+
+---
+
+[⬅ Back to Main README](README.md)
