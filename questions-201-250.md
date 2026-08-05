@@ -395,17 +395,17 @@
 
 ### Question 225
 
-**🇩🇪 Deutsch:** Welches Land gehört nicht zur Europäischen Union?
-**🇬🇧 English:** Which country does not belong to the European Union?
+**🇩🇪 Deutsch:** In welchem anderen Land gibt es eine große deutschsprachige Bevölkerung?
+**🇬🇧 English:** In which other country is there a large German-speaking population?
 
 | | Deutsch | English |
 |---|---|---|
 | ○ | Tschechien | Czech Republic |
-| ✅ | **Norwegen** | **Norway** |
+| ○ | Norwegen | Norway |
 | ○ | Spanien | Spain |
-| ○ | Österreich | Austria |
+| ✅ | **Österreich** | **Austria** |
 
-> **📝 Explanation:** Norway is NOT an EU member (though part of the EEA/Schengen) — Czech Republic, Spain, and Austria are all EU members.
+> **📝 Explanation:** Austria has a large German-speaking population, as German is its official language.
 
 ---
 
@@ -655,17 +655,17 @@
 
 ### Question 241
 
-**🇩🇪 Deutsch:** Wer bekommt in Deutschland Elterngeld?
-**🇬🇧 English:** Who receives parental allowance in Germany?
+**🇩🇪 Deutsch:** Frau Seger bekommt ein Kind. Was muss sie tun, um Elterngeld zu erhalten?
+**🇬🇧 English:** Mrs. Seger is having a baby. What must she do to receive parental allowance?
 
 | | Deutsch | English |
 |---|---|---|
-| ○ | nur die Mutter | only the mother |
-| ○ | nur der Vater | only the father |
-| ✅ | **Eltern, die sich um ihr Kind kümmern und weniger oder gar nicht arbeiten** | **parents who care for their child and work less or not at all** |
-| ○ | nur Alleinerziehende | only single parents |
+| ○ | Sie muss an ihre Krankenkasse schreiben. | She must write to her health insurance provider. |
+| ○ | Sie muss nichts tun, denn sie bekommt automatisch Elterngeld. | She doesn't need to do anything, since she receives it automatically. |
+| ✅ | **Sie muss einen Antrag bei der Elterngeldstelle stellen.** | **She must file an application with the parental allowance office.** |
+| ○ | Sie muss das Arbeitsamt um Erlaubnis bitten. | She must ask the employment office for permission. |
 
-> **📝 Explanation:** Elterngeld (parental allowance) is available to either parent who reduces work to care for their child — not limited to mothers, fathers, or single parents alone.
+> **📝 Explanation:** Parental allowance (Elterngeld) is not automatic — a formal application must be filed with the Elterngeldstelle.
 
 ---
 
@@ -783,33 +783,33 @@
 
 ### Question 249
 
-**🇩🇪 Deutsch:** Eine Frau kann in Deutschland Bundeskanzlerin werden, unabhängig davon, ob sie …
-**🇬🇧 English:** A woman in Germany can become Chancellor, regardless of whether she …
+**🇩🇪 Deutsch:** Wer ist in Deutschland hauptsächlich verantwortlich für die Kindererziehung?
+**🇬🇧 English:** Who is primarily responsible for raising children in Germany?
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **katholisch ist.** | **is Catholic.** |
-| ○ | gut ausgebildet ist. | is well-educated. |
-| ○ | eine Frau ist. | is a woman. |
-| ○ | Mitglied einer Partei ist. | is a member of a party. |
+| ○ | der Staat | the state |
+| ✅ | **die Eltern** | **the parents** |
+| ○ | die Verwandten | relatives |
+| ○ | die Schulen | the schools |
 
-> **📝 Explanation:** Gender equality means a woman's religion (e.g., Catholic or not) doesn't affect her eligibility to become Chancellor — unlike party membership, which is practically necessary.
+> **📝 Explanation:** Parents hold the primary responsibility for raising their children in Germany.
 
 ---
 
 ### Question 250
 
-**🇩🇪 Deutsch:** Warum ist in Deutschland das Recht auf Unversehrtheit der eigenen Wohnung wichtig?
-**🇬🇧 English:** Why is the right to inviolability of one's own home important in Germany?
+**🇩🇪 Deutsch:** In Deutschland hat man die besten Chancen auf einen gut bezahlten Arbeitsplatz, wenn man …
+**🇬🇧 English:** In Germany, you have the best chances of a well-paid job if you …
 
 | | Deutsch | English |
 |---|---|---|
-| ○ | weil man dann keine Miete zahlen muss. | because then one doesn't have to pay rent. |
-| ✅ | **weil dadurch niemand ohne Erlaubnis eindringen darf.** | **because it prevents anyone from entering without permission.** |
-| ○ | weil man dann keine Nachbarn haben muss. | because then one doesn't have to have neighbors. |
-| ○ | weil der Staat dann das Haus kaufen muss. | because then the state must buy the house. |
+| ○ | katholisch ist. | are Catholic. |
+| ✅ | **gut ausgebildet ist.** | **are well-educated.** |
+| ○ | eine Frau ist. | are a woman. |
+| ○ | Mitglied einer Partei ist. | are a member of a party. |
 
-> **📝 Explanation:** The inviolability of the home (Unverletzlichkeit der Wohnung) protects citizens from unauthorized entry or searches, a key privacy right under the Basic Law.
+> **📝 Explanation:** Good education/qualifications are the key factor for job prospects in Germany, not religion, gender, or party membership.
 
 ---
 

@@ -56,16 +56,16 @@
 ### Question 54
 
 **🇩🇪 Deutsch:** Was ist keine staatliche Gewalt in Deutschland?
-**🇬🇧 English:** Which is NOT a branch of government in Germany?
+**🇬🇧 English:** Which is NOT a branch of state power in Germany?
 
 | | Deutsch | English |
 |---|---|---|
 | ○ | Legislative | Legislative |
 | ○ | Judikative | Judiciary |
-| ✅ | **Exekutive** | **Executive** |
-| ○ | Federative | Federative |
+| ○ | Exekutive | Executive |
+| ✅ | **Direktive** | **Directive** |
 
-> **📝 Explanation:** Wait — this is a tricky question. Germany has three branches of government: Legislative (law-making), Executive (Exekutive — law-enforcing), and Judiciary (Judikative — law-interpreting). The "Federative" is NOT one of the three branches of state power. The Executive IS a real branch. The correct answer is "Federative" as it is not a recognized branch of government in Germany.
+> **📝 Explanation:** Germany's state power is divided into three branches: Legislative (law-making), Executive (Exekutive, law-enforcing), and Judiciary (Judikative, law-interpreting). "Direktive" is not a real branch of government — it is the trick answer.
 
 ---
 

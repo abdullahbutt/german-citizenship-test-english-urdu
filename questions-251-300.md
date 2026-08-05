@@ -39,17 +39,17 @@
 
 ### Question 253
 
-**🇩🇪 Deutsch:** Wo meldet man in Deutschland eine Eheschließung an?
-**🇬🇧 English:** Where does one register a marriage in Germany?
+**🇩🇪 Deutsch:** Wo müssen Sie sich anmelden, wenn Sie in Deutschland umziehen?
+**🇬🇧 English:** Where must you register when you move within Germany?
 
 | | Deutsch | English |
 |---|---|---|
-| ○ | beim Einwohnermeldeamt | at the residents' registration office |
-| ✅ | **beim Standesamt** | **at the civil registry office** |
+| ✅ | **beim Einwohnermeldeamt** | **at the residents' registration office** |
+| ○ | beim Standesamt | at the civil registry office |
 | ○ | beim Ordnungsamt | at the public order office |
 | ○ | beim Gewerbeamt | at the trade office |
 
-> **📝 Explanation:** Marriages are registered at the Standesamt (civil registry office), which handles births, marriages, and deaths.
+> **📝 Explanation:** You must register your new address at the Einwohnermeldeamt (residents' registration office) whenever you move.
 
 ---
 
@@ -135,17 +135,17 @@
 
 ### Question 259
 
-**🇩🇪 Deutsch:** Wofür braucht man in Deutschland unter anderem die Rentenversicherungsnummer?
-**🇬🇧 English:** What is the pension insurance number needed for, among other things, in Germany?
+**🇩🇪 Deutsch:** Das Berufsinformationszentrum BIZ bei der Bundesagentur für Arbeit in Deutschland hilft bei der …
+**🇬🇧 English:** The Vocational Information Centre (BIZ) at the Federal Employment Agency helps with …
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **Rentenberechnung.** | **Pension calculation.** |
-| ○ | Lehrstellensuche. | Apprenticeship search. |
-| ○ | Steuererklärung. | Tax return. |
-| ○ | Krankenversicherung. | Health insurance. |
+| ○ | Rentenberechnung. | pension calculation. |
+| ✅ | **Lehrstellensuche.** | **finding an apprenticeship.** |
+| ○ | Steuererklärung. | tax returns. |
+| ○ | Krankenversicherung. | health insurance. |
 
-> **📝 Explanation:** The pension insurance number is essential for calculating one's future pension benefits based on lifetime contributions.
+> **📝 Explanation:** The BIZ helps people, especially young people, find apprenticeships and explore career options.
 
 ---
 
@@ -199,17 +199,17 @@
 
 ### Question 263
 
-**🇩🇪 Deutsch:** Wie werden Kinder in Deutschland bestraft, wenn sie eine Straftat begehen?
-**🇬🇧 English:** How are children punished in Germany if they commit a crime?
+**🇩🇪 Deutsch:** In Deutschland sind Jugendliche ab 14 Jahren strafmündig. Das bedeutet: Jugendliche, die 14 Jahre und älter sind und gegen Strafgesetze verstoßen, …
+**🇬🇧 English:** In Germany, young people are criminally responsible from age 14. This means young people 14 and older who break criminal law …
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **Kinder unter 14 Jahren werden nicht strafrechtlich verfolgt.** | **Children under 14 are not criminally prosecuted.** |
-| ○ | werden wie Erwachsene behandelt. | they are treated like adults. |
-| ○ | teilen die Strafe mit ihren Eltern. | they share the punishment with their parents. |
-| ○ | werden immer freigesprochen. | they are always acquitted. |
+| ✅ | **werden bestraft.** | **are punished.** |
+| ○ | werden wie Erwachsene behandelt. | are treated like adults. |
+| ○ | teilen die Strafe mit ihren Eltern. | share the punishment with their parents. |
+| ○ | werden nicht bestraft. | are not punished. |
 
-> **📝 Explanation:** In Germany, children under 14 are considered not criminally responsible (strafunmündig) and cannot be prosecuted — special juvenile law applies from age 14.
+> **📝 Explanation:** From age 14, young people are criminally responsible (strafmündig) in Germany and can be punished — though under separate juvenile law, not treated exactly like adults.
 
 ---
 
@@ -295,17 +295,17 @@
 
 ### Question 269
 
-**🇩🇪 Deutsch:** Was bekommen Kinder in vielen deutschen Gemeinden während der Sommerferien?
-**🇬🇧 English:** What do children in many German municipalities receive during summer vacation?
+**🇩🇪 Deutsch:** In Deutschland haben Kinder ab dem Alter von drei Jahren bis zur Ersteinschulung einen Anspruch auf …
+**🇬🇧 English:** In Germany, children from age three until starting school are entitled to …
 
 | | Deutsch | English |
 |---|---|---|
 | ○ | monatliches Taschengeld. | monthly pocket money. |
-| ✅ | **einen Ferienpass.** | **a vacation pass (discount card for activities).** |
-| ○ | einen Platz in einem Sportverein. | a spot in a sports club. |
-| ○ | einen Kindergartenplatz. | a kindergarten spot. |
+| ✅ | **einen Kindergartenplatz.** | **a kindergarten place.** |
+| ○ | einen Platz in einem Sportverein. | a place in a sports club. |
+| ○ | einen Ferienpass. | a vacation pass. |
 
-> **📝 Explanation:** Many German municipalities offer a Ferienpass (vacation pass), giving children discounted or free access to activities and attractions during school breaks.
+> **📝 Explanation:** Children in Germany have a legal right to a kindergarten place from age three until they start school.
 
 ---
 
@@ -327,33 +327,33 @@
 
 ### Question 271
 
-**🇩🇪 Deutsch:** Was machen viele Menschen in Deutschland an Halloween?
-**🇬🇧 English:** What do many people in Germany do on Halloween?
+**🇩🇪 Deutsch:** Was ist in Deutschland ein Brauch zu Weihnachten?
+**🇬🇧 English:** What is a Christmas custom in Germany?
 
 | | Deutsch | English |
 |---|---|---|
 | ○ | bunte Eier verstecken | hide colorful eggs |
-| ○ | einen Tannenbaum schmücken | decorate a fir tree |
-| ✅ | **sich mit Masken und Kostümen verkleiden** | **dress up in masks and costumes** |
+| ✅ | **einen Tannenbaum schmücken** | **decorate a fir tree** |
+| ○ | sich mit Masken und Kostümen verkleiden | dress up in masks and costumes |
 | ○ | Kürbisse vor die Tür stellen | place pumpkins in front of the door |
 
-> **📝 Explanation:** Halloween, though originally American/Celtic, has become popular in Germany, with people dressing up in costumes and masks.
+> **📝 Explanation:** Decorating a fir tree (Tannenbaum) is a classic German Christmas tradition.
 
 ---
 
 ### Question 272
 
-**🇩🇪 Deutsch:** Was gehört heutzutage auch zu einer Familie in Deutschland?
-**🇬🇧 English:** What also counts as a family in Germany today?
+**🇩🇪 Deutsch:** Welche Lebensform ist in Deutschland nicht erlaubt?
+**🇬🇧 English:** Which living arrangement is NOT allowed in Germany?
 
 | | Deutsch | English |
 |---|---|---|
 | ○ | Mann und Frau sind geschieden und leben mit neuen Partnern zusammen. | A man and woman are divorced and live with new partners. |
 | ○ | Zwei Frauen leben zusammen. | Two women live together. |
 | ○ | Ein allein erziehender Vater lebt mit seinen zwei Kindern zusammen. | A single father lives with his two children. |
-| ✅ | **alle der genannten Beispiele** | **all of the mentioned examples** |
+| ✅ | **Ein Mann ist mit zwei Frauen zur selben Zeit verheiratet.** | **A man is married to two women at the same time.** |
 
-> **📝 Explanation:** Modern German society recognizes diverse family forms — patchwork families, same-sex couples, and single parents — as all constituting a family.
+> **📝 Explanation:** Germany practices monogamy — being married to two people at once (polygamy) is not legally allowed, unlike the other listed living arrangements which are all legal.
 
 ---
 
@@ -391,17 +391,17 @@
 
 ### Question 275
 
-**🇩🇪 Deutsch:** Was braucht ein Kind in Deutschland, um in einer psychologischen Beratungsstelle behandelt zu werden, wenn es noch nicht volljährig ist?
-**🇬🇧 English:** What does a minor child in Germany need to be treated at a psychological counseling center?
+**🇩🇪 Deutsch:** Was braucht man in Deutschland für eine Ehescheidung?
+**🇬🇧 English:** What do you need for a divorce in Germany?
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **die Einwilligung der Eltern** | **parental consent** |
+| ○ | die Einwilligung der Eltern | parental consent |
 | ○ | ein Attest eines Arztes / einer Ärztin | a doctor's certificate |
-| ○ | die Einwilligung der Kinder | the child's own consent |
-| ○ | die Unterstützung eines Anwalts / einer Anwältin | support from a lawyer |
+| ○ | die Einwilligung der Kinder | the children's consent |
+| ✅ | **die Unterstützung eines Anwalts / einer Anwältin** | **support from a lawyer** |
 
-> **📝 Explanation:** As a minor, parental consent (Einwilligung der Eltern) is generally required for psychological treatment.
+> **📝 Explanation:** A divorce in Germany requires a lawyer, since only a lawyer can file the divorce petition with the family court.
 
 ---
 
@@ -647,17 +647,17 @@
 
 ### Question 291
 
-**🇩🇪 Deutsch:** Was machen viele Kinder in Deutschland an Halloween?
-**🇬🇧 English:** What do many children in Germany do on Halloween?
+**🇩🇪 Deutsch:** Warum muss man in Deutschland bei der Steuererklärung aufschreiben, ob man zu einer Kirche gehört oder nicht?
+**🇬🇧 English:** Why must you state on your tax return in Germany whether you belong to a church or not?
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **Kürbisse vor die Tür stellen** | **place pumpkins in front of the door** |
-| ○ | einen Tannenbaum schmücken | decorate a fir tree |
-| ○ | Eier bemalen | paint eggs |
-| ○ | Raketen in die Luft schießen | shoot fireworks into the air |
+| ○ | das ist für die Statistik in Deutschland wichtig. | it is important for statistics in Germany. |
+| ✅ | **es gibt eine Kirchensteuer, die an die Einkommen- und Lohnsteuer geknüpft ist.** | **there is a church tax linked to income and wage tax.** |
+| ○ | man mehr Steuern zahlen muss, wenn man nicht zu einer Kirche gehört. | you must pay more tax if you don't belong to a church. |
+| ○ | die Kirche für die Steuererklärung verantwortlich ist. | the church is responsible for the tax return. |
 
-> **📝 Explanation:** Placing carved pumpkins (Kürbisse) outside is a common Halloween custom adopted in Germany.
+> **📝 Explanation:** Germany collects a church tax (Kirchensteuer) that is calculated as a percentage of income/wage tax for registered church members, hence the need to declare church membership.
 
 ---
 
@@ -695,17 +695,17 @@
 
 ### Question 294
 
-**🇩🇪 Deutsch:** Der 1. Mai ist in Deutschland ein …
-**🇬🇧 English:** May 1 is in Germany a …
+**🇩🇪 Deutsch:** Pfingsten ist ein …
+**🇬🇧 English:** Pentecost (Pfingsten) is a …
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **gesetzlicher Feiertag (Tag der Arbeit).** | **statutory holiday (Labor Day).** |
-| ○ | deutscher Gedenktag. | German memorial day. |
+| ✅ | **christlicher Feiertag.** | **Christian holiday.** |
+| ○ | deutscher Gedenktag. | German day of remembrance. |
 | ○ | internationaler Trauertag. | international day of mourning. |
 | ○ | bayerischer Brauch. | Bavarian custom. |
 
-> **📝 Explanation:** May 1 (Tag der Arbeit) is a statutory public holiday in Germany, celebrating labor and workers' rights.
+> **📝 Explanation:** Pfingsten (Pentecost) is a Christian holiday celebrated 50 days after Easter.
 
 ---
 
@@ -727,49 +727,49 @@
 
 ### Question 296
 
-**🇩🇪 Deutsch:** Welcher jüdische Feiertag erinnert an die Bewahrung der Juden vor der Vernichtung im persischen Reich?
-**🇬🇧 English:** Which Jewish holiday commemorates the Jews' deliverance from destruction in the Persian Empire?
+**🇩🇪 Deutsch:** In Deutschland nennt man die letzten vier Wochen vor Weihnachten …
+**🇬🇧 English:** In Germany, the last four weeks before Christmas are called …
 
 | | Deutsch | English |
 |---|---|---|
 | ○ | den Buß- und Bettag. | the Day of Repentance and Prayer. |
 | ○ | das Erntedankfest. | the Harvest Festival. |
-| ○ | die Adventszeit. | Advent. |
-| ✅ | **Purim.** | **Purim.** |
+| ✅ | **die Adventszeit.** | **Advent.** |
+| ○ | Allerheiligen. | All Saints' Day. |
 
-> **📝 Explanation:** Purim commemorates the Jewish people's deliverance from a planned massacre in ancient Persia, as told in the Book of Esther.
+> **📝 Explanation:** The four weeks before Christmas are called Advent (Adventszeit) in Germany.
 
 ---
 
 ### Question 297
 
-**🇩🇪 Deutsch:** Aus welchem Kontinent stammen die meisten Zuwanderer und Zuwanderinnen in Deutschland?
-**🇬🇧 English:** From which continent do most immigrants to Germany originate?
+**🇩🇪 Deutsch:** Aus welchem Land sind die meisten Migranten / Migrantinnen nach Deutschland gekommen?
+**🇬🇧 English:** From which country have most migrants to Germany come?
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **Europa** | **Europe** |
-| ○ | Afrika | Africa |
-| ○ | Asien | Asia |
-| ○ | Südamerika | South America |
+| ○ | Italien | Italy |
+| ○ | Polen | Poland |
+| ○ | Marokko | Morocco |
+| ✅ | **Türkei** | **Turkey** |
 
-> **📝 Explanation:** Most immigrants to Germany historically and currently come from other European countries (e.g., Turkey, Poland, Romania, and EU free-movement migration).
+> **📝 Explanation:** Turkey is historically the largest source country of migrants to Germany, following the 1961 labor recruitment agreement.
 
 ---
 
 ### Question 298
 
-**🇩🇪 Deutsch:** Aus welchen Ländern kamen in den 1960er Jahren die meisten „Gastarbeiter" nach Deutschland?
-**🇬🇧 English:** From which countries did most "guest workers" come to Germany in the 1960s?
+**🇩🇪 Deutsch:** In der DDR lebten vor allem Migranten aus …
+**🇬🇧 English:** In the GDR, migrants mainly came from …
 
 | | Deutsch | English |
 |---|---|---|
-| ○ | Vietnam, Polen, Mosambik. | Vietnam, Poland, Mozambique. |
+| ✅ | **Vietnam, Polen, Mosambik.** | **Vietnam, Poland, Mozambique.** |
 | ○ | Frankreich, Rumänien, Somalia. | France, Romania, Somalia. |
-| ✅ | **Türkei, Italien, Griechenland.** | **Turkey, Italy, Greece.** |
+| ○ | Chile, Ungarn, Simbabwe. | Chile, Hungary, Zimbabwe. |
 | ○ | Nordkorea, Mexiko, Ägypten. | North Korea, Mexico, Egypt. |
 
-> **📝 Explanation:** Most "Gastarbeiter" (guest workers) recruited in the 1960s came from Turkey, Italy, and Greece under bilateral labor agreements.
+> **📝 Explanation:** The GDR recruited contract workers mainly from fellow socialist/communist-aligned states like Vietnam, Poland, and Mozambique.
 
 ---
 
@@ -791,17 +791,17 @@
 
 ### Question 300
 
-**🇩🇪 Deutsch:** Welches Land war historisch das Herkunftsland der meisten Gastarbeiter und Gastarbeiterinnen in Deutschland?
-**🇬🇧 English:** Which country was historically the main country of origin of guest workers in Germany?
+**🇩🇪 Deutsch:** Aus welchem Land kamen die ersten Gastarbeiter / Gastarbeiterinnen nach Deutschland?
+**🇬🇧 English:** From which country did the first guest workers come to Germany?
 
 | | Deutsch | English |
 |---|---|---|
-| ○ | Italien | Italy |
+| ✅ | **Italien** | **Italy** |
 | ○ | Spanien | Spain |
 | ○ | Portugal | Portugal |
-| ✅ | **Türkei** | **Turkey** |
+| ○ | Türkei | Turkey |
 
-> **📝 Explanation:** Turkey became the largest source country for Gastarbeiter following the 1961 German-Turkish labor recruitment agreement, and Turkish-Germans remain Germany's largest immigrant-background community.
+> **📝 Explanation:** Italy was the first country with which West Germany signed a labor recruitment agreement in 1955, preceding Turkey's 1961 agreement.
 
 ---
 

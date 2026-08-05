@@ -523,17 +523,17 @@
 
 ### Question 183
 
-**🇩🇪 Deutsch:** Wann begann der Zweite Weltkrieg mit dem deutschen Überfall auf Polen?
-**🇬🇧 English:** When did WWII begin with the German invasion of Poland?
+**🇩🇪 Deutsch:** Wann war in der Bundesrepublik Deutschland das „Wirtschaftswunder"?
+**🇬🇧 English:** When was the "economic miracle" (Wirtschaftswunder) in West Germany?
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **am 1. September 1939** | **on September 1, 1939** |
-| ○ | am 1. September 1938 | on September 1, 1938 |
-| ○ | am 1. Januar 1940 | on January 1, 1940 |
-| ○ | am 1. Juni 1941 | on June 1, 1941 |
+| ○ | 40er Jahre | the 1940s |
+| ✅ | **50er Jahre** | **the 1950s** |
+| ○ | 70er Jahre | the 1970s |
+| ○ | 80er Jahre | the 1980s |
 
-> **📝 Explanation:** World War II began on September 1, 1939, when Germany invaded Poland.
+> **📝 Explanation:** West Germany's rapid postwar economic recovery, known as the Wirtschaftswunder, took place mainly in the 1950s.
 
 ---
 

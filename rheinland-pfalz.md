@@ -16,7 +16,7 @@
 | ○ | Bild 3 | Image 3 |
 | ○ | Bild 4 | Image 4 |
 
-> **📝 Explanation:** The correct image shows the official coat of arms of Rhineland-Palatinate.
+> **📝 Explanation:** Rhineland-Palatinate's coat of arms combines a cross, a wheel, and a lion, representing the historic territories of Trier, Mainz, and the Palatinate that were joined to form the state.
 
 ### Question 302 — District
 **🇩🇪** Welches ist ein Landkreis in Rheinland-Pfalz?
@@ -104,12 +104,12 @@
 
 | | Deutsch | English |
 |---|---|---|
-| ○ | Bild 1 | Image 1 |
-| ✅ | **Bild 2** | **Image 2** |
+| ✅ | **Bild 1** | **Image 1** |
+| ○ | Bild 2 | Image 2 |
 | ○ | Bild 3 | Image 3 |
 | ○ | Bild 4 | Image 4 |
 
-> **📝 Explanation:** The map shows the location of Rhineland-Palatinate within Germany.
+> **📝 Explanation:** Rhineland-Palatinate lies in southwestern Germany, bordering France, Luxembourg, and Belgium.
 
 ### Question 309 — Head of Government
 **🇩🇪** Wie nennt man die Regierungschefin/den Regierungschef in Rheinland-Pfalz?

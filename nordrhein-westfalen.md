@@ -16,7 +16,7 @@
 | ○ | Bild 3 | Image 3 |
 | ○ | Bild 4 | Image 4 |
 
-> **📝 Explanation:** The correct image shows the official coat of arms of North Rhine-Westphalia.
+> **📝 Explanation:** North Rhine-Westphalia's coat of arms combines elements representing its constituent historic regions — the Rhineland, Westphalia, and Lippe.
 
 ### Question 302 — District
 **🇩🇪** Welches ist ein Landkreis in Nordrhein-Westfalen?
@@ -104,12 +104,12 @@
 
 | | Deutsch | English |
 |---|---|---|
-| ✅ | **Bild 1** | **Image 1** |
+| ○ | Bild 1 | Image 1 |
 | ○ | Bild 2 | Image 2 |
-| ○ | Bild 3 | Image 3 |
+| ✅ | **Bild 3** | **Image 3** |
 | ○ | Bild 4 | Image 4 |
 
-> **📝 Explanation:** The map shows the location of North Rhine-Westphalia within Germany.
+> **📝 Explanation:** North Rhine-Westphalia is Germany's most populous state, located in the west, bordering the Netherlands and Belgium.
 
 ### Question 309 — Head of Government
 **🇩🇪** Wie nennt man die Regierungschefin/den Regierungschef in Nordrhein-Westfalen?
