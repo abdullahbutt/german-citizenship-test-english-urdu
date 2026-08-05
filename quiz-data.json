@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-04",
+  "version": "2026-08-05",
   "general": [
     {
       "id": 1,
@@ -1966,8 +1966,8 @@
     {
       "id": 54,
       "de": "Was ist keine staatliche Gewalt in Deutschland?",
-      "en": "Which is NOT a branch of government in Germany?",
-      "ur": "Which is NOT a branch of government in Germany?",
+      "en": "Which is NOT a branch of state power in Germany?",
+      "ur": "Which is NOT a branch of state power in Germany?",
       "ar": "ما المقصود بمبدأ \"الحكومة الاتحادية\" (Föderalismus) في ألمانيا؟",
       "options": [
         {
@@ -1989,15 +1989,15 @@
           "ar": "الولايات مستقلة تمامًا عن الحكومة الفيدرالية."
         },
         {
-          "de": "Federative",
-          "en": "Federative",
-          "ur": "Federative",
+          "de": "Direktive",
+          "en": "Directive",
+          "ur": "Directive",
           "ar": "ألمانيا دولة بسيطة لا ولايات فيها."
         }
       ],
-      "correct": 2,
-      "exp_en": "Wait — this is a tricky question. Germany has three branches of government: Legislative (law-making), Executive (Exekutive — law-enforcing), and Judiciary (Judikative — law-interpreting). The \"Federative\" is NOT one of the three branches of state power. The Executive IS a real branch. The correct answer is \"Federative\" as it is not a recognized branch of government in Germany.",
-      "exp_ur": "Wait — this is a tricky question. Germany has three branches of government: Legislative (law-making), Executive (Exekutive — law-enforcing), and Judiciary (Judikative — law-interpreting). The \"Federative\" is NOT one of the three branches of state power. The Executive IS a real branch. The correct answer is \"Federative\" as it is not a recognized branch of government in Germany.",
+      "correct": 3,
+      "exp_en": "Germany's state power is divided into three branches: Legislative (law-making), Executive (Exekutive, law-enforcing), and Judiciary (Judikative, law-interpreting). \"Direktive\" is not a real branch of government — it is the trick answer.",
+      "exp_ur": "Germany's state power is divided into three branches: Legislative (law-making), Executive (Exekutive, law-enforcing), and Judiciary (Judikative, law-interpreting). \"Direktive\" is not a real branch of government — it is the trick answer.",
       "exp_ar": "الفيدرالية تعني توزيع السلطة بين المستوى الفيدرالي ومستوى الولايات. لكل ولاية برلمانها وحكومتها. الشؤون التعليمية والشرطة والمسائل الثقافية في معظمها من صلاحيات الولايات."
     },
     {
@@ -6743,38 +6743,38 @@
     },
     {
       "id": 183,
-      "de": "Wann begann der Zweite Weltkrieg mit dem deutschen Überfall auf Polen?",
-      "en": "When did WWII begin with the German invasion of Poland?",
+      "de": "Wann war in der Bundesrepublik Deutschland das „Wirtschaftswunder\"?",
+      "en": "When was the \"economic miracle\" (Wirtschaftswunder) in West Germany?",
       "ur": "جرمنی کے پولینڈ پر حملے سے دوسری جنگ عظیم کب شروع ہوئی؟",
       "ar": "متى بدأت الحرب العالمية الثانية بالغزو الألماني لبولندا؟",
       "options": [
         {
-          "de": "am 1. September 1939",
-          "en": "on September 1, 1939",
+          "de": "40er Jahre",
+          "en": "the 1940s",
           "ur": "یکم ستمبر 1939",
           "ar": "1 سبتمبر 1939"
         },
         {
-          "de": "am 1. September 1938",
-          "en": "on September 1, 1938",
+          "de": "50er Jahre",
+          "en": "the 1950s",
           "ur": "یکم ستمبر 1938",
           "ar": "1 سبتمبر 1938"
         },
         {
-          "de": "am 1. Januar 1940",
-          "en": "on January 1, 1940",
+          "de": "70er Jahre",
+          "en": "the 1970s",
           "ur": "یکم جنوری 1940",
           "ar": "1 يناير 1940"
         },
         {
-          "de": "am 1. Juni 1941",
-          "en": "on June 1, 1941",
+          "de": "80er Jahre",
+          "en": "the 1980s",
           "ur": "یکم جون 1941",
           "ar": "1 يونيو 1941"
         }
       ],
-      "correct": 0,
-      "exp_en": "World War II began on September 1, 1939, when Germany invaded Poland.",
+      "correct": 1,
+      "exp_en": "West Germany's rapid postwar economic recovery, known as the Wirtschaftswunder, took place mainly in the 1950s.",
       "exp_ur": "دوسری جنگ عظیم یکم ستمبر 1939 کو جرمنی کے پولینڈ پر حملے سے شروع ہوئی۔ برطانیہ اور فرانس نے دو دن بعد جرمنی کے خلاف اعلان جنگ کیا۔ سوویت یونین پر حملہ 22 جون 1941 کو شروع ہوا (آپریشن باربروسا)۔",
       "exp_ar": "في 1 سبتمبر 1939 شنّت ألمانيا النازية هجومًا على بولندا، فردّت بريطانيا وفرنسا بإعلان الحرب على ألمانيا. هذا اليوم هو التاريخ الرسمي لبدء الحرب العالمية الثانية."
     },
@@ -8300,9 +8300,9 @@
     },
     {
       "id": 225,
-      "de": "Welches Land gehört nicht zur Europäischen Union?",
-      "en": "Which country does not belong to the European Union?",
-      "ur": "Which country does not belong to the European Union?",
+      "de": "In welchem anderen Land gibt es eine große deutschsprachige Bevölkerung?",
+      "en": "In which other country is there a large German-speaking population?",
+      "ur": "In which other country is there a large German-speaking population?",
       "ar": "ما إحدى مهام البلديات في ألمانيا؟",
       "options": [
         {
@@ -8330,9 +8330,9 @@
           "ar": "إدارة الجيش"
         }
       ],
-      "correct": 1,
-      "exp_en": "Norway is NOT an EU member (though part of the EEA/Schengen) — Czech Republic, Spain, and Austria are all EU members.",
-      "exp_ur": "Norway is NOT an EU member (though part of the EEA/Schengen) — Czech Republic, Spain, and Austria are all EU members.",
+      "correct": 3,
+      "exp_en": "Austria has a large German-speaking population, as German is its official language.",
+      "exp_ur": "Austria has a large German-speaking population, as German is its official language.",
       "exp_ar": "من مهام البلديات توفير دور الحضانة والمدارس والمواصلات المحلية والمياه والصرف الصحي وإدارة المرافق المحلية."
     },
     {
@@ -8894,39 +8894,39 @@
     },
     {
       "id": 241,
-      "de": "Wer bekommt in Deutschland Elterngeld?",
-      "en": "Who receives parental allowance in Germany?",
-      "ur": "Who receives parental allowance in Germany?",
+      "de": "Frau Seger bekommt ein Kind. Was muss sie tun, um Elterngeld zu erhalten?",
+      "en": "Mrs. Seger is having a baby. What must she do to receive parental allowance?",
+      "ur": "Mrs. Seger is having a baby. What must she do to receive parental allowance?",
       "ar": "ما \"التدريب المهني\" (Ausbildung) في ألمانيا؟",
       "options": [
         {
-          "de": "nur die Mutter",
-          "en": "only the mother",
-          "ur": "only the mother",
+          "de": "Sie muss an ihre Krankenkasse schreiben.",
+          "en": "She must write to her health insurance provider.",
+          "ur": "She must write to her health insurance provider.",
           "ar": "تدريب يجمع التعليم النظري في المدرسة والتطبيق في الشركة"
         },
         {
-          "de": "nur der Vater",
-          "en": "only the father",
-          "ur": "only the father",
+          "de": "Sie muss nichts tun, denn sie bekommt automatisch Elterngeld.",
+          "en": "She doesn't need to do anything, since she receives it automatically.",
+          "ur": "She doesn't need to do anything, since she receives it automatically.",
           "ar": "درجة جامعية"
         },
         {
-          "de": "Eltern, die sich um ihr Kind kümmern und weniger oder gar nicht arbeiten",
-          "en": "parents who care for their child and work less or not at all",
-          "ur": "parents who care for their child and work less or not at all",
+          "de": "Sie muss einen Antrag bei der Elterngeldstelle stellen.",
+          "en": "She must file an application with the parental allowance office.",
+          "ur": "She must file an application with the parental allowance office.",
           "ar": "تدريب داخلي"
         },
         {
-          "de": "nur Alleinerziehende",
-          "en": "only single parents",
-          "ur": "only single parents",
+          "de": "Sie muss das Arbeitsamt um Erlaubnis bitten.",
+          "en": "She must ask the employment office for permission.",
+          "ur": "She must ask the employment office for permission.",
           "ar": "دورة لغوية"
         }
       ],
       "correct": 2,
-      "exp_en": "Elterngeld (parental allowance) is available to either parent who reduces work to care for their child — not limited to mothers, fathers, or single parents alone.",
-      "exp_ur": "Elterngeld (parental allowance) is available to either parent who reduces work to care for their child — not limited to mothers, fathers, or single parents alone.",
+      "exp_en": "Parental allowance (Elterngeld) is not automatic — a formal application must be filed with the Elterngeldstelle.",
+      "exp_ur": "Parental allowance (Elterngeld) is not automatic — a formal application must be filed with the Elterngeldstelle.",
       "exp_ar": "\"الأوسبيلدونغ\" هو نظام التدريب المهني الثنائي الألماني. يستغرق 2-3.5 سنوات ويجمع بين التعليم في المدرسة المهنية والتدريب العملي في الشركة."
     },
     {
@@ -9190,75 +9190,75 @@
     },
     {
       "id": 249,
-      "de": "Eine Frau kann in Deutschland Bundeskanzlerin werden, unabhängig davon, ob sie …",
-      "en": "A woman in Germany can become Chancellor, regardless of whether she …",
-      "ur": "A woman in Germany can become Chancellor, regardless of whether she …",
+      "de": "Wer ist in Deutschland hauptsächlich verantwortlich für die Kindererziehung?",
+      "en": "Who is primarily responsible for raising children in Germany?",
+      "ur": "Who is primarily responsible for raising children in Germany?",
       "ar": "ما واجبات المواطن الألماني؟",
       "options": [
         {
-          "de": "katholisch ist.",
-          "en": "is Catholic.",
-          "ur": "is Catholic.",
+          "de": "der Staat",
+          "en": "the state",
+          "ur": "the state",
           "ar": "احترام القوانين ودفع الضرائب"
         },
         {
-          "de": "gut ausgebildet ist.",
-          "en": "is well-educated.",
-          "ur": "is well-educated.",
+          "de": "die Eltern",
+          "en": "the parents",
+          "ur": "the parents",
           "ar": "الانضمام إلى حزب سياسي"
         },
         {
-          "de": "eine Frau ist.",
-          "en": "is a woman.",
-          "ur": "is a woman.",
+          "de": "die Verwandten",
+          "en": "relatives",
+          "ur": "relatives",
           "ar": "التصويت"
         },
         {
-          "de": "Mitglied einer Partei ist.",
-          "en": "is a member of a party.",
-          "ur": "is a member of a party.",
+          "de": "die Schulen",
+          "en": "the schools",
+          "ur": "the schools",
           "ar": "أداء الخدمة العسكرية"
         }
       ],
-      "correct": 0,
-      "exp_en": "Gender equality means a woman's religion (e.g., Catholic or not) doesn't affect her eligibility to become Chancellor — unlike party membership, which is practically necessary.",
-      "exp_ur": "Gender equality means a woman's religion (e.g., Catholic or not) doesn't affect her eligibility to become Chancellor — unlike party membership, which is practically necessary.",
+      "correct": 1,
+      "exp_en": "Parents hold the primary responsibility for raising their children in Germany.",
+      "exp_ur": "Parents hold the primary responsibility for raising their children in Germany.",
       "exp_ar": "يتعيّن على المواطنين الألمان احترام القوانين ودفع الضرائب. التصويت والخدمة العسكرية حقوق لا واجبات. الخدمة العسكرية الإلزامية مُعلَّقة منذ 2011."
     },
     {
       "id": 250,
-      "de": "Warum ist in Deutschland das Recht auf Unversehrtheit der eigenen Wohnung wichtig?",
-      "en": "Why is the right to inviolability of one's own home important in Germany?",
+      "de": "In Deutschland hat man die besten Chancen auf einen gut bezahlten Arbeitsplatz, wenn man …",
+      "en": "In Germany, you have the best chances of a well-paid job if you …",
       "ur": "جرمن دوبارہ اتحاد کا نتیجہ کیا ہے؟",
       "ar": "ما نتيجة إعادة التوحيد الألماني؟",
       "options": [
         {
-          "de": "weil man dann keine Miete zahlen muss.",
-          "en": "because then one doesn't have to pay rent.",
+          "de": "katholisch ist.",
+          "en": "are Catholic.",
           "ur": "جرمنی میں 16 وفاقی ریاستیں ہیں۔",
           "ar": "ألمانيا تضم 16 ولاية."
         },
         {
-          "de": "weil dadurch niemand ohne Erlaubnis eindringen darf.",
-          "en": "because it prevents anyone from entering without permission.",
+          "de": "gut ausgebildet ist.",
+          "en": "are well-educated.",
           "ur": "جرمنی میں 10 ریاستیں ہیں۔",
           "ar": "ألمانيا تضم 10 ولايات."
         },
         {
-          "de": "weil man dann keine Nachbarn haben muss.",
-          "en": "because then one doesn't have to have neighbors.",
+          "de": "eine Frau ist.",
+          "en": "are a woman.",
           "ur": "برلن تقسیم ہو گیا۔",
           "ar": "انقسمت برلين."
         },
         {
-          "de": "weil der Staat dann das Haus kaufen muss.",
-          "en": "because then the state must buy the house.",
+          "de": "Mitglied einer Partei ist.",
+          "en": "are a member of a party.",
           "ur": "DDR ابھی بھی موجود ہے۔",
           "ar": "ألمانيا الشرقية لا تزال قائمة."
         }
       ],
       "correct": 1,
-      "exp_en": "The inviolability of the home (Unverletzlichkeit der Wohnung) protects citizens from unauthorized entry or searches, a key privacy right under the Basic Law.",
+      "exp_en": "Good education/qualifications are the key factor for job prospects in Germany, not religion, gender, or party membership.",
       "exp_ur": "اتحاد سے پہلے مغربی جرمنی میں 11 ریاستیں تھیں۔ 1990 میں اتحاد کے بعد مشرقی جرمنی میں 5 \"نئی\" ریاستیں دوبارہ قائم ہوئیں اور مشرقی/مغربی برلن متحد ہوا — نتیجے میں آج کی 16 وفاقی ریاستیں ہیں۔",
       "exp_ar": "بعد التوحيد عام 1990 انضمت الولايات الخمس لألمانيا الشرقية (براندنبورغ وساكسونيا وساكسونيا-أنهالت وتورينغن ومكلنبورغ-فوربومرن) وعاصمتهما برلين إلى الجمهورية الاتحادية لتصبح 16 ولاية."
     },
@@ -9338,8 +9338,8 @@
     },
     {
       "id": 253,
-      "de": "Wo meldet man in Deutschland eine Eheschließung an?",
-      "en": "Where does one register a marriage in Germany?",
+      "de": "Wo müssen Sie sich anmelden, wenn Sie in Deutschland umziehen?",
+      "en": "Where must you register when you move within Germany?",
       "ur": "جرمنی میں کم از کم اجرت (Mindestlohn) کیا ہے؟",
       "ar": "ما الحد الأدنى للأجور في ألمانيا؟",
       "options": [
@@ -9368,8 +9368,8 @@
           "ar": "أجر بالساعة يُحدّده القانون كحدٍّ أدنى ملزم لأصحاب العمل"
         }
       ],
-      "correct": 1,
-      "exp_en": "Marriages are registered at the Standesamt (civil registry office), which handles births, marriages, and deaths.",
+      "correct": 0,
+      "exp_en": "You must register your new address at the Einwohnermeldeamt (residents' registration office) whenever you move.",
       "exp_ur": "جرمنی نے 1 جنوری 2015 کو قانونی کم از کم اجرت (Mindestlohn) متعارف کرائی۔ یہ ایک قانونی طور پر مقرر کردہ کم از کم فی گھنٹہ شرح ہے جو تمام آجروں کو ادا کرنی ہوگی۔",
       "exp_ar": "الحد الأدنى للأجور (Mindestlohn) في ألمانيا يُحدَّد قانونيًا. قُرِّر تطبيقه عام 2015، ويُراجَع دوريًا. يُلزم جميع أصحاب العمل بدفعه على الأقل."
     },
@@ -9560,38 +9560,38 @@
     },
     {
       "id": 259,
-      "de": "Wofür braucht man in Deutschland unter anderem die Rentenversicherungsnummer?",
-      "en": "What is the pension insurance number needed for, among other things, in Germany?",
+      "de": "Das Berufsinformationszentrum BIZ bei der Bundesagentur für Arbeit in Deutschland hilft bei der …",
+      "en": "The Vocational Information Centre (BIZ) at the Federal Employment Agency helps with …",
       "ur": "عید الفطر (Zuckerfest) کون سی مذہبی جماعت مناتی ہے؟",
       "ar": "أيٌّ من الجماعات الدينية يحتفل بعيد الفطر؟",
       "options": [
         {
           "de": "Rentenberechnung.",
-          "en": "Pension calculation.",
+          "en": "pension calculation.",
           "ur": "مسلمان",
           "ar": "المسيحيون"
         },
         {
           "de": "Lehrstellensuche.",
-          "en": "Apprenticeship search.",
+          "en": "finding an apprenticeship.",
           "ur": "عیسائی",
           "ar": "المسلمون"
         },
         {
           "de": "Steuererklärung.",
-          "en": "Tax return.",
+          "en": "tax returns.",
           "ur": "یہودی",
           "ar": "اليهود"
         },
         {
           "de": "Krankenversicherung.",
-          "en": "Health insurance.",
+          "en": "health insurance.",
           "ur": "ہندو",
           "ar": "الهندوس"
         }
       ],
-      "correct": 0,
-      "exp_en": "The pension insurance number is essential for calculating one's future pension benefits based on lifetime contributions.",
+      "correct": 1,
+      "exp_en": "The BIZ helps people, especially young people, find apprenticeships and explore career options.",
       "exp_ur": "Zuckerfest (عید الفطر) رمضان کے اختتام کا جشن ہے۔ مسلمان نماز، دعوتوں، اور تحائف دینے سے مناتے ہیں — خاص طور پر بچوں کو مٹھائیاں اور کینڈی (اسی لیے جرمن میں \"Zuckerfest\" یعنی \"مٹھائی کا تہوار\")۔ یہ اسلام کے دو سب سے اہم تہواروں میں سے ایک ہے، دوسرا عید الاضحیٰ (Opferfest) ہے۔",
       "exp_ar": "عيد الفطر يحتفل به المسلمون في نهاية شهر رمضان. هو من أهم الأعياد الإسلامية ويتسم بالتجمع العائلي وتبادل الهدايا والتزاور."
     },
@@ -9708,38 +9708,38 @@
     },
     {
       "id": 263,
-      "de": "Wie werden Kinder in Deutschland bestraft, wenn sie eine Straftat begehen?",
-      "en": "How are children punished in Germany if they commit a crime?",
+      "de": "In Deutschland sind Jugendliche ab 14 Jahren strafmündig. Das bedeutet: Jugendliche, die 14 Jahre und älter sind und gegen Strafgesetze verstoßen, …",
+      "en": "In Germany, young people are criminally responsible from age 14. This means young people 14 and older who break criminal law …",
       "ur": "\"صحافتی آزادی\" کا کیا مطلب ہے؟",
       "ar": "ما معنى \"حرية الصحافة\"؟",
       "options": [
         {
-          "de": "Kinder unter 14 Jahren werden nicht strafrechtlich verfolgt.",
-          "en": "Children under 14 are not criminally prosecuted.",
+          "de": "werden bestraft.",
+          "en": "are punished.",
           "ur": "میڈیا آزادانہ اور بغیر سینسرشپ رپورٹ کر سکتا ہے۔",
           "ar": "وسائل الإعلام تُعبّر بحرية ودون رقابة."
         },
         {
           "de": "werden wie Erwachsene behandelt.",
-          "en": "they are treated like adults.",
+          "en": "are treated like adults.",
           "ur": "اخبارات مفت ہیں۔",
           "ar": "الصحف مجانية."
         },
         {
           "de": "teilen die Strafe mit ihren Eltern.",
-          "en": "they share the punishment with their parents.",
+          "en": "share the punishment with their parents.",
           "ur": "صحافی حکومت طے کرتے ہیں۔",
           "ar": "الصحفيون يُحدّدون الحكومة."
         },
         {
-          "de": "werden immer freigesprochen.",
-          "en": "they are always acquitted.",
+          "de": "werden nicht bestraft.",
+          "en": "are not punished.",
           "ur": "صرف حکومت خبریں پھیلا سکتی ہے۔",
           "ar": "الحكومة فقط تنشر الأخبار."
         }
       ],
       "correct": 0,
-      "exp_en": "In Germany, children under 14 are considered not criminally responsible (strafunmündig) and cannot be prosecuted — special juvenile law applies from age 14.",
+      "exp_en": "From age 14, young people are criminally responsible (strafmündig) in Germany and can be punished — though under separate juvenile law, not treated exactly like adults.",
       "exp_ur": "صحافتی آزادی (بنیادی قانون کا آرٹیکل 5) کا مطلب ہے کہ میڈیا حکومتی سینسرشپ یا کنٹرول کے بغیر آزادانہ رپورٹ کر سکتا ہے۔ \"آزاد صحافت\" کا مطلب مفت اخبارات نہیں ہے۔ صحافت حکومتی اقدامات کی نگرانی کا \"واچ ڈاگ\" کردار ادا کرتی ہے۔",
       "exp_ar": "حرية الصحافة (Pressefreiheit) مكفولة بالمادة 5 من القانون الأساسي. تضمن لوسائل الإعلام حق التقرير دون خضوع للرقابة المسبقة أو التوجيه الحكومي."
     },
@@ -9930,9 +9930,9 @@
     },
     {
       "id": 269,
-      "de": "Was bekommen Kinder in vielen deutschen Gemeinden während der Sommerferien?",
-      "en": "What do children in many German municipalities receive during summer vacation?",
-      "ur": "What do children in many German municipalities receive during summer vacation?",
+      "de": "In Deutschland haben Kinder ab dem Alter von drei Jahren bis zur Ersteinschulung einen Anspruch auf …",
+      "en": "In Germany, children from age three until starting school are entitled to …",
+      "ur": "In Germany, children from age three until starting school are entitled to …",
       "ar": "أذكر ثلاثة أنهار في ألمانيا.",
       "options": [
         {
@@ -9942,27 +9942,27 @@
           "ar": "الراين والإلبه والدانوب"
         },
         {
-          "de": "einen Ferienpass.",
-          "en": "a vacation pass (discount card for activities).",
-          "ur": "a vacation pass (discount card for activities).",
+          "de": "einen Kindergartenplatz.",
+          "en": "a kindergarten place.",
+          "ur": "a kindergarten place.",
           "ar": "التايمز والسين والفولغا"
         },
         {
           "de": "einen Platz in einem Sportverein.",
-          "en": "a spot in a sports club.",
-          "ur": "a spot in a sports club.",
+          "en": "a place in a sports club.",
+          "ur": "a place in a sports club.",
           "ar": "النيل والأمازون والمسيسيبي"
         },
         {
-          "de": "einen Kindergartenplatz.",
-          "en": "a kindergarten spot.",
-          "ur": "a kindergarten spot.",
+          "de": "einen Ferienpass.",
+          "en": "a vacation pass.",
+          "ur": "a vacation pass.",
           "ar": "الرون واللوار والبو"
         }
       ],
       "correct": 1,
-      "exp_en": "Many German municipalities offer a Ferienpass (vacation pass), giving children discounted or free access to activities and attractions during school breaks.",
-      "exp_ur": "Many German municipalities offer a Ferienpass (vacation pass), giving children discounted or free access to activities and attractions during school breaks.",
+      "exp_en": "Children in Germany have a legal right to a kindergarten place from age three until they start school.",
+      "exp_ur": "Children in Germany have a legal right to a kindergarten place from age three until they start school.",
       "exp_ar": "ألمانيا لها شبكة أنهار غنية. أبرزها: الراين (يصبّ في البحر الشمالي)، والإلبه (يصبّ في البحر الشمالي)، والدانوب (يصبّ في البحر الأسود)، والأودر والراين والموزيل."
     },
     {
@@ -10004,8 +10004,8 @@
     },
     {
       "id": 271,
-      "de": "Was machen viele Menschen in Deutschland an Halloween?",
-      "en": "What do many people in Germany do on Halloween?",
+      "de": "Was ist in Deutschland ein Brauch zu Weihnachten?",
+      "en": "What is a Christmas custom in Germany?",
       "ur": "ان گروہوں میں سے کون سے ممالک سبھی جرمنی کے ہمسایہ ممالک ہیں؟",
       "ar": "أيٌّ من المجموعات التالية يضم دولًا حدودية مع ألمانيا حصرًا؟",
       "options": [
@@ -10034,16 +10034,16 @@
           "ar": "فنلندا وسلوفاكيا وكرواتيا"
         }
       ],
-      "correct": 2,
-      "exp_en": "Halloween, though originally American/Celtic, has become popular in Germany, with people dressing up in costumes and masks.",
+      "correct": 1,
+      "exp_en": "Decorating a fir tree (Tannenbaum) is a classic German Christmas tradition.",
       "exp_ur": "جرمنی کے نو ہمسایہ ممالک ہیں: ڈنمارک، پولینڈ، چیک ریپبلک، آسٹریا، سوئٹزرلینڈ، فرانس، لکسمبرگ، بیلجیم، اور نیدرلینڈز۔ فرانس، پولینڈ اور آسٹریا اس فہرست میں شامل ہیں۔",
       "exp_ar": "فرنسا وبولندا والنمسا من الدول التسع التي تحدّ ألمانيا. أما إسبانيا والسويد وفنلندا فلا تشترك مع ألمانيا في حدود برية."
     },
     {
       "id": 272,
-      "de": "Was gehört heutzutage auch zu einer Familie in Deutschland?",
-      "en": "What also counts as a family in Germany today?",
-      "ur": "What also counts as a family in Germany today?",
+      "de": "Welche Lebensform ist in Deutschland nicht erlaubt?",
+      "en": "Which living arrangement is NOT allowed in Germany?",
+      "ur": "Which living arrangement is NOT allowed in Germany?",
       "ar": "ما الممنوع في المدارس الألمانية؟",
       "options": [
         {
@@ -10065,15 +10065,15 @@
           "ar": "الرياضة"
         },
         {
-          "de": "alle der genannten Beispiele",
-          "en": "all of the mentioned examples",
-          "ur": "all of the mentioned examples",
+          "de": "Ein Mann ist mit zwei Frauen zur selben Zeit verheiratet.",
+          "en": "A man is married to two women at the same time.",
+          "ur": "A man is married to two women at the same time.",
           "ar": "الرحلات المدرسية"
         }
       ],
       "correct": 3,
-      "exp_en": "Modern German society recognizes diverse family forms — patchwork families, same-sex couples, and single parents — as all constituting a family.",
-      "exp_ur": "Modern German society recognizes diverse family forms — patchwork families, same-sex couples, and single parents — as all constituting a family.",
+      "exp_en": "Germany practices monogamy — being married to two people at once (polygamy) is not legally allowed, unlike the other listed living arrangements which are all legal.",
+      "exp_ur": "Germany practices monogamy — being married to two people at once (polygamy) is not legally allowed, unlike the other listed living arrangements which are all legal.",
       "exp_ar": "العقاب البدني محظور في جميع المدارس الألمانية. يحق لكل طفل التعليم خاليًا من العنف والإيذاء الجسدي."
     },
     {
@@ -10152,8 +10152,8 @@
     },
     {
       "id": 275,
-      "de": "Was braucht ein Kind in Deutschland, um in einer psychologischen Beratungsstelle behandelt zu werden, wenn es noch nicht volljährig ist?",
-      "en": "What does a minor child in Germany need to be treated at a psychological counseling center?",
+      "de": "Was braucht man in Deutschland für eine Ehescheidung?",
+      "en": "What do you need for a divorce in Germany?",
       "ur": "جرمن فوج (Bundeswehr) کا کیا کام ہے؟",
       "ar": "ما إحدى مهام القوات المسلحة الألمانية (Bundeswehr)؟",
       "options": [
@@ -10171,7 +10171,7 @@
         },
         {
           "de": "die Einwilligung der Kinder",
-          "en": "the child's own consent",
+          "en": "the children's consent",
           "ur": "اسکول تعمیر کرنا",
           "ar": "بناء المدارس"
         },
@@ -10182,8 +10182,8 @@
           "ar": "تنظيم الانتخابات"
         }
       ],
-      "correct": 0,
-      "exp_en": "As a minor, parental consent (Einwilligung der Eltern) is generally required for psychological treatment.",
+      "correct": 3,
+      "exp_en": "A divorce in Germany requires a lawyer, since only a lawyer can file the divorce petition with the family court.",
       "exp_ur": "Bundeswehr (جرمن افواج) 1955 میں قائم ہوئی۔ اس کا بنیادی کام ملکی دفاع ہے۔ 1994 سے Bundeswehr بین الاقوامی امن مشنوں میں بھی حصہ لیتی ہے۔ 2011 میں لازمی فوجی خدمت معطل کی گئی۔",
       "exp_ar": "القوات المسلحة الألمانية (Bundeswehr) أُسِّست عام 1955. مهمتها الدفاع عن ألمانيا وحلف شمال الأطلسي. تشارك أيضًا في مهام حفظ السلام الدولية."
     },
@@ -10744,38 +10744,38 @@
     },
     {
       "id": 291,
-      "de": "Was machen viele Kinder in Deutschland an Halloween?",
-      "en": "What do many children in Germany do on Halloween?",
+      "de": "Warum muss man in Deutschland bei der Steuererklärung aufschreiben, ob man zu einer Kirche gehört oder nicht?",
+      "en": "Why must you state on your tax return in Germany whether you belong to a church or not?",
       "ur": "جرمنی میں گاڑی چلانے کے لیے کیا ہونا ضروری ہے؟",
       "ar": "ماذا يجب أن تمتلك في ألمانيا لقيادة السيارة؟",
       "options": [
         {
-          "de": "Kürbisse vor die Tür stellen",
-          "en": "place pumpkins in front of the door",
+          "de": "das ist für die Statistik in Deutschland wichtig.",
+          "en": "it is important for statistics in Germany.",
           "ur": "ڈرائیونگ لائسنس اور گاڑی کا بیمہ",
           "ar": "رخصة قيادة وتأمين سيارة"
         },
         {
-          "de": "einen Tannenbaum schmücken",
-          "en": "decorate a fir tree",
+          "de": "es gibt eine Kirchensteuer, die an die Einkommen- und Lohnsteuer geknüpft ist.",
+          "en": "there is a church tax linked to income and wage tax.",
           "ur": "صرف شناختی کارڈ",
           "ar": "بطاقة هوية فقط"
         },
         {
-          "de": "Eier bemalen",
-          "en": "paint eggs",
+          "de": "man mehr Steuern zahlen muss, wenn man nicht zu einer Kirche gehört.",
+          "en": "you must pay more tax if you don't belong to a church.",
           "ur": "صرف نقد رقم",
           "ar": "نقود فقط"
         },
         {
-          "de": "Raketen in die Luft schießen",
-          "en": "shoot fireworks into the air",
+          "de": "die Kirche für die Steuererklärung verantwortlich ist.",
+          "en": "the church is responsible for the tax return.",
           "ur": "پارٹی رکنیت",
           "ar": "عضوية في حزب"
         }
       ],
-      "correct": 0,
-      "exp_en": "Placing carved pumpkins (Kürbisse) outside is a common Halloween custom adopted in Germany.",
+      "correct": 1,
+      "exp_en": "Germany collects a church tax (Kirchensteuer) that is calculated as a percentage of income/wage tax for registered church members, hence the need to declare church membership.",
       "exp_ur": "جرمنی میں گاڑی چلانے کے لیے جائز ڈرائیونگ لائسنس اور لازمی بیمہ (Kfz-Haftpflichtversicherung) ضروری ہے۔ گاڑی کا رجسٹریشن (Zulassung) بھی ہونا چاہیے اور باقاعدہ معائنہ (TÜV) بھی۔ بغیر بیمہ گاڑی چلانا مجرمانہ جرم ہے۔",
       "exp_ar": "لقيادة السيارة في ألمانيا يجب امتلاك رخصة قيادة سارية (Führerschein) وتأمين مدني إلزامي على السيارة (Kfz-Haftpflichtversicherung). بدون هذين الشرطين تُعدّ القيادة مخالفة قانونية."
     },
@@ -10855,21 +10855,21 @@
     },
     {
       "id": 294,
-      "de": "Der 1. Mai ist in Deutschland ein …",
-      "en": "May 1 is in Germany a …",
-      "ur": "May 1 is in Germany a …",
+      "de": "Pfingsten ist ein …",
+      "en": "Pentecost (Pfingsten) is a …",
+      "ur": "Pentecost (Pfingsten) is a …",
       "ar": "أيٌّ من الكيانات الألمانية وجد من 1949 حتى 1990؟",
       "options": [
         {
-          "de": "gesetzlicher Feiertag (Tag der Arbeit).",
-          "en": "statutory holiday (Labor Day).",
-          "ur": "statutory holiday (Labor Day).",
+          "de": "christlicher Feiertag.",
+          "en": "Christian holiday.",
+          "ur": "Christian holiday.",
           "ar": "جمهورية ألمانيا الديمقراطية (DDR)"
         },
         {
           "de": "deutscher Gedenktag.",
-          "en": "German memorial day.",
-          "ur": "German memorial day.",
+          "en": "German day of remembrance.",
+          "ur": "German day of remembrance.",
           "ar": "الإمبراطورية الألمانية"
         },
         {
@@ -10886,8 +10886,8 @@
         }
       ],
       "correct": 0,
-      "exp_en": "May 1 (Tag der Arbeit) is a statutory public holiday in Germany, celebrating labor and workers' rights.",
-      "exp_ur": "May 1 (Tag der Arbeit) is a statutory public holiday in Germany, celebrating labor and workers' rights.",
+      "exp_en": "Pfingsten (Pentecost) is a Christian holiday celebrated 50 days after Easter.",
+      "exp_ur": "Pfingsten (Pentecost) is a Christian holiday celebrated 50 days after Easter.",
       "exp_ar": "جمهورية ألمانيا الديمقراطية (DDR) وُجدت من 1949 إلى 1990 في المنطقة السوفيتية. في 3 أكتوبر 1990 انضمت ولاياتها إلى جمهورية ألمانيا الاتحادية."
     },
     {
@@ -10929,9 +10929,9 @@
     },
     {
       "id": 296,
-      "de": "Welcher jüdische Feiertag erinnert an die Bewahrung der Juden vor der Vernichtung im persischen Reich?",
-      "en": "Which Jewish holiday commemorates the Jews' deliverance from destruction in the Persian Empire?",
-      "ur": "Which Jewish holiday commemorates the Jews' deliverance from destruction in the Persian Empire?",
+      "de": "In Deutschland nennt man die letzten vier Wochen vor Weihnachten …",
+      "en": "In Germany, the last four weeks before Christmas are called …",
+      "ur": "In Germany, the last four weeks before Christmas are called …",
       "ar": "ما المقصود بـ\"الحقوق المدنية\" (Bürgerrechte)؟",
       "options": [
         {
@@ -10953,59 +10953,59 @@
           "ar": "حقوق موظفي الدولة"
         },
         {
-          "de": "Purim.",
-          "en": "Purim.",
-          "ur": "Purim.",
+          "de": "Allerheiligen.",
+          "en": "All Saints' Day.",
+          "ur": "All Saints' Day.",
           "ar": "حقوق السياسيين"
         }
       ],
-      "correct": 3,
-      "exp_en": "Purim commemorates the Jewish people's deliverance from a planned massacre in ancient Persia, as told in the Book of Esther.",
-      "exp_ur": "Purim commemorates the Jewish people's deliverance from a planned massacre in ancient Persia, as told in the Book of Esther.",
+      "correct": 2,
+      "exp_en": "The four weeks before Christmas are called Advent (Adventszeit) in Germany.",
+      "exp_ur": "The four weeks before Christmas are called Advent (Adventszeit) in Germany.",
       "exp_ar": "الحقوق المدنية (Bürgerrechte) هي الحقوق الأساسية المقتصرة على المواطنين الألمان كحق التصويت والتوظيف في الخدمة المدنية. أما حقوق الإنسان فتسري على الجميع."
     },
     {
       "id": 297,
-      "de": "Aus welchem Kontinent stammen die meisten Zuwanderer und Zuwanderinnen in Deutschland?",
-      "en": "From which continent do most immigrants to Germany originate?",
-      "ur": "From which continent do most immigrants to Germany originate?",
+      "de": "Aus welchem Land sind die meisten Migranten / Migrantinnen nach Deutschland gekommen?",
+      "en": "From which country have most migrants to Germany come?",
+      "ur": "From which country have most migrants to Germany come?",
       "ar": "ما \"الحد الأدنى للمعيشة\" (Existenzminimum)؟",
       "options": [
         {
-          "de": "Europa",
-          "en": "Europe",
-          "ur": "Europe",
+          "de": "Italien",
+          "en": "Italy",
+          "ur": "Italy",
           "ar": "الحد الأدنى الذي يحتاجه الشخص للعيش"
         },
         {
-          "de": "Afrika",
-          "en": "Africa",
-          "ur": "Africa",
+          "de": "Polen",
+          "en": "Poland",
+          "ur": "Poland",
           "ar": "الحد الأدنى للأجور"
         },
         {
-          "de": "Asien",
-          "en": "Asia",
-          "ur": "Asia",
+          "de": "Marokko",
+          "en": "Morocco",
+          "ur": "Morocco",
           "ar": "الضريبة القصوى"
         },
         {
-          "de": "Südamerika",
-          "en": "South America",
-          "ur": "South America",
+          "de": "Türkei",
+          "en": "Turkey",
+          "ur": "Turkey",
           "ar": "متوسط الراتب"
         }
       ],
-      "correct": 0,
-      "exp_en": "Most immigrants to Germany historically and currently come from other European countries (e.g., Turkey, Poland, Romania, and EU free-movement migration).",
-      "exp_ur": "Most immigrants to Germany historically and currently come from other European countries (e.g., Turkey, Poland, Romania, and EU free-movement migration).",
+      "correct": 3,
+      "exp_en": "Turkey is historically the largest source country of migrants to Germany, following the 1961 labor recruitment agreement.",
+      "exp_ur": "Turkey is historically the largest source country of migrants to Germany, following the 1961 labor recruitment agreement.",
       "exp_ar": "\"الحد الأدنى للمعيشة\" هو المبلغ اللازم لتغطية الاحتياجات الأساسية من طعام ومسكن وملبس. في ألمانيا هذا الحد معفى من الضريبة وتوفّر الدولة دعمًا للذين يعيشون دونه."
     },
     {
       "id": 298,
-      "de": "Aus welchen Ländern kamen in den 1960er Jahren die meisten „Gastarbeiter\" nach Deutschland?",
-      "en": "From which countries did most \"guest workers\" come to Germany in the 1960s?",
-      "ur": "From which countries did most \"guest workers\" come to Germany in the 1960s?",
+      "de": "In der DDR lebten vor allem Migranten aus …",
+      "en": "In the GDR, migrants mainly came from …",
+      "ur": "In the GDR, migrants mainly came from …",
       "ar": "ما مهمة مكتب حماية الدستور؟",
       "options": [
         {
@@ -11021,9 +11021,9 @@
           "ar": "جمع الضرائب"
         },
         {
-          "de": "Türkei, Italien, Griechenland.",
-          "en": "Turkey, Italy, Greece.",
-          "ur": "Turkey, Italy, Greece.",
+          "de": "Chile, Ungarn, Simbabwe.",
+          "en": "Chile, Hungary, Zimbabwe.",
+          "ur": "Chile, Hungary, Zimbabwe.",
           "ar": "تنظيم الانتخابات"
         },
         {
@@ -11033,9 +11033,9 @@
           "ar": "حراسة المباني"
         }
       ],
-      "correct": 2,
-      "exp_en": "Most \"Gastarbeiter\" (guest workers) recruited in the 1960s came from Turkey, Italy, and Greece under bilateral labor agreements.",
-      "exp_ur": "Most \"Gastarbeiter\" (guest workers) recruited in the 1960s came from Turkey, Italy, and Greece under bilateral labor agreements.",
+      "correct": 0,
+      "exp_en": "The GDR recruited contract workers mainly from fellow socialist/communist-aligned states like Vietnam, Poland, and Mozambique.",
+      "exp_ur": "The GDR recruited contract workers mainly from fellow socialist/communist-aligned states like Vietnam, Poland, and Mozambique.",
       "exp_ar": "مكتب حماية الدستور (Verfassungsschutz) جهاز استخباراتي داخلي يرصد التهديدات للنظام الديمقراطي الحر من تطرّف وتجسس وإرهاب."
     },
     {
@@ -11077,8 +11077,8 @@
     },
     {
       "id": 300,
-      "de": "Welches Land war historisch das Herkunftsland der meisten Gastarbeiter und Gastarbeiterinnen in Deutschland?",
-      "en": "Which country was historically the main country of origin of guest workers in Germany?",
+      "de": "Aus welchem Land kamen die ersten Gastarbeiter / Gastarbeiterinnen nach Deutschland?",
+      "en": "From which country did the first guest workers come to Germany?",
       "ur": "جرمن سماجی بیمے کے پانچ ستون کیا ہیں؟",
       "ar": "ما الأعمدة الخمسة للتأمين الاجتماعي الألماني؟",
       "options": [
@@ -11107,8 +11107,8 @@
           "ar": "النار والبرد والمسؤولية والقانوني والزجاج"
         }
       ],
-      "correct": 3,
-      "exp_en": "Turkey became the largest source country for Gastarbeiter following the 1961 German-Turkish labor recruitment agreement, and Turkish-Germans remain Germany's largest immigrant-background community.",
+      "correct": 0,
+      "exp_en": "Italy was the first country with which West Germany signed a labor recruitment agreement in 1955, preceding Turkey's 1961 agreement.",
       "exp_ur": "جرمنی کے سماجی بیمے کے پانچ لازمی ستون: صحت کا بیمہ (Krankenversicherung)، پنشن بیمہ (Rentenversicherung)، بے روزگاری بیمہ (Arbeitslosenversicherung)، نگہداشت بیمہ (Pflegeversicherung، 1995 میں شامل)، اور حادثے کا بیمہ (Unfallversicherung، صرف مالک ادا کرتا ہے)۔ یہ نظام اوٹو فون بسمارک نے 1880 کی دہائی میں شروع کیا اور دنیا بھر کے سماجی تحفظ کے نظاموں کا نمونہ ہے۔",
       "exp_ar": "منظومة الضمان الاجتماعي الألمانية تقوم على خمسة أعمدة: التأمين الصحي (Krankenversicherung)، وتأمين المعاشات (Rentenversicherung)، وتأمين البطالة (Arbeitslosenversicherung)، وتأمين الرعاية (Pflegeversicherung)، وتأمين الحوادث (Unfallversicherung)."
     }
@@ -14584,7 +14584,7 @@
             }
           ],
           "correct": 1,
-          "exp_en": "The correct image shows the official coat of arms of North Rhine-Westphalia.",
+          "exp_en": "North Rhine-Westphalia's coat of arms combines elements representing its constituent historic regions — the Rhineland, Westphalia, and Lippe.",
           "exp_ur": "درست تصویر نارتھ رائن-ویسٹفیلیا کا سرکاری نشان دکھاتی ہے۔",
           "exp_ar": "تُظهر الصورة الصحيحة الشعار الرسمي لولاية شمال الراين-وستفاليا."
         },
@@ -14843,8 +14843,8 @@
               "ar": "الصورة 4"
             }
           ],
-          "correct": 0,
-          "exp_en": "The map shows the location of North Rhine-Westphalia within Germany.",
+          "correct": 2,
+          "exp_en": "North Rhine-Westphalia is Germany's most populous state, located in the west, bordering the Netherlands and Belgium.",
           "exp_ur": "نقشہ جرمنی میں نارتھ رائن-ویسٹفیلیا کے محلِ وقوع کو دکھاتا ہے۔",
           "exp_ar": "توضح الخريطة موقع ولاية شمال الراين-وستفاليا داخل ألمانيا."
         },
@@ -14965,7 +14965,7 @@
             }
           ],
           "correct": 0,
-          "exp_en": "The correct image shows the official coat of arms of Rhineland-Palatinate.",
+          "exp_en": "Rhineland-Palatinate's coat of arms combines a cross, a wheel, and a lion, representing the historic territories of Trier, Mainz, and the Palatinate that were joined to form the state.",
           "exp_ur": "درست تصویر رائن لینڈ-پیلیٹینیٹ کا سرکاری نشان دکھاتی ہے۔",
           "exp_ar": "تُظهر الصورة الصحيحة الشعار الرسمي لولاية رينانيا-بالاتينات."
         },
@@ -15224,8 +15224,8 @@
               "ar": "الصورة 4"
             }
           ],
-          "correct": 1,
-          "exp_en": "The map shows the location of Rhineland-Palatinate within Germany.",
+          "correct": 0,
+          "exp_en": "Rhineland-Palatinate lies in southwestern Germany, bordering France, Luxembourg, and Belgium.",
           "exp_ur": "نقشہ جرمنی میں رائن لینڈ-پیلیٹینیٹ کے محلِ وقوع کو دکھاتا ہے۔",
           "exp_ar": "توضح الخريطة موقع ولاية رينانيا-بالاتينات داخل ألمانيا."
         },
