@@ -16,7 +16,7 @@
 | ✅ | **Bild 3** | **Image 3** |
 | ○ | Bild 4 | Image 4 |
 
-> **📝 Explanation:** The correct image shows the official coat of arms of Lower Saxony.
+> **📝 Explanation:** Lower Saxony's coat of arms shows a white (silver) rearing horse on a red shield — the Saxon Steed, a widely recognized symbol of the historic Saxon region.
 
 ### Question 302 — District
 **🇩🇪** Welches ist ein Landkreis in Niedersachsen?
@@ -109,7 +109,7 @@
 | ○ | Bild 3 | Image 3 |
 | ○ | Bild 4 | Image 4 |
 
-> **📝 Explanation:** The map shows the location of Lower Saxony within Germany.
+> **📝 Explanation:** Lower Saxony lies in northwestern Germany, bordering the Netherlands as well as several other German states.
 
 ### Question 309 — Head of Government
 **🇩🇪** Wie nennt man die Regierungschefin/den Regierungschef in Niedersachsen?

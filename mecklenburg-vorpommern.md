@@ -16,7 +16,7 @@
 | ✅ | **Bild 3** | **Image 3** |
 | ○ | Bild 4 | Image 4 |
 
-> **📝 Explanation:** The correct image shows the official coat of arms of Mecklenburg-Western Pomerania.
+> **📝 Explanation:** The coat of arms of Mecklenburg-Western Pomerania features a crowned bull's head, an emblem drawn from the historic Duchy of Mecklenburg.
 
 ### Question 302 — District
 **🇩🇪** Welches ist ein Landkreis in Mecklenburg-Vorpommern?
@@ -109,7 +109,7 @@
 | ✅ | **Bild 3** | **Image 3** |
 | ○ | Bild 4 | Image 4 |
 
-> **📝 Explanation:** The map shows the location of Mecklenburg-Western Pomerania within Germany.
+> **📝 Explanation:** Mecklenburg-Western Pomerania lies in northeastern Germany along the Baltic Sea coast, bordering Poland.
 
 ### Question 309 — Head of Government
 **🇩🇪** Wie nennt man die Regierungschefin/den Regierungschef in Mecklenburg-Vorpommern?

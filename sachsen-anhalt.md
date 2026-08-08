@@ -16,7 +16,7 @@
 | ○ | Bild 3 | Image 3 |
 | ✅ | **Bild 4** | **Image 4** |
 
-> **📝 Explanation:** The correct image shows the official coat of arms of Saxony-Anhalt.
+> **📝 Explanation:** Saxony-Anhalt's coat of arms combines a black bear and other historic regional emblems reflecting the territories merged to form the state after 1945.
 
 ### Question 302 — District
 **🇩🇪** Welches ist ein Landkreis in Sachsen-Anhalt?
@@ -109,7 +109,7 @@
 | ✅ | **Bild 3** | **Image 3** |
 | ○ | Bild 4 | Image 4 |
 
-> **📝 Explanation:** The map shows the location of Saxony-Anhalt within Germany.
+> **📝 Explanation:** Saxony-Anhalt lies in central-eastern Germany, home to landmarks such as the Wittenberg Castle Church associated with Martin Luther.
 
 ### Question 309 — Head of Government
 **🇩🇪** Wie nennt man die Regierungschefin/den Regierungschef in Sachsen-Anhalt?

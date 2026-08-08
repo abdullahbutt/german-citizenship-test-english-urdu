@@ -16,7 +16,7 @@
 | ○ | Bild 3 | Image 3 |
 | ○ | Bild 4 | Image 4 |
 
-> **📝 Explanation:** The correct image shows the official coat of arms of Bavaria (Bayern).
+> **📝 Explanation:** Bavaria's coat of arms is best known for its white-and-blue diamond pattern (Rautenwappen), representing the historic House of Wittelsbach.
 
 ### Question 302 — District
 **🇩🇪** Welches ist ein Landkreis in Bayern?
@@ -109,7 +109,7 @@
 | ○ | Bild 3 | Image 3 |
 | ✅ | **Bild 4** | **Image 4** |
 
-> **📝 Explanation:** The map shows the location of Bavaria (Bayern) within Germany.
+> **📝 Explanation:** Bavaria is Germany's largest state by area, located in the southeast, bordering Austria and the Czech Republic as well as several other German states.
 
 ### Question 309 — Head of Government
 **🇩🇪** Wie nennt man die Regierungschefin/den Regierungschef in Bayern?

@@ -16,7 +16,7 @@
 | ○ | Bild 3 | Image 3 |
 | ○ | Bild 4 | Image 4 |
 
-> **📝 Explanation:** The correct image shows the official coat of arms of Hamburg.
+> **📝 Explanation:** Hamburg's coat of arms depicts a white castle gate with towers on a red shield, symbolizing the city's historic status as a fortified Hanseatic trading center.
 
 ### Question 302 — District
 **🇩🇪** Welches ist ein Bezirk von Hamburg?
@@ -109,7 +109,7 @@
 | ✅ | **Bild 3** | **Image 3** |
 | ○ | Bild 4 | Image 4 |
 
-> **📝 Explanation:** The map shows the location of Hamburg within Germany.
+> **📝 Explanation:** Hamburg is a city-state in northern Germany, surrounded by the states of Schleswig-Holstein and Lower Saxony.
 
 ### Question 309 — Head of Government
 **🇩🇪** Wie nennt man die Regierungschefin/den Regierungschef des Stadtstaates Hamburg?

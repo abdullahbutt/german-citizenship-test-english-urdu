@@ -16,7 +16,7 @@
 | ○ | Bild 3 | Image 3 |
 | ✅ | **Bild 4** | **Image 4** |
 
-> **📝 Explanation:** The correct image shows the official coat of arms of Thuringia (Thüringen).
+> **📝 Explanation:** Thuringia's coat of arms shows a red-and-white striped lion, known as the Ludovingian Lion, tracing back to the medieval Landgraves of Thuringia.
 
 ### Question 302 — District
 **🇩🇪** Welches ist ein Landkreis in Thüringen?
@@ -109,7 +109,7 @@
 | ○ | Bild 3 | Image 3 |
 | ○ | Bild 4 | Image 4 |
 
-> **📝 Explanation:** The map shows the location of Thuringia (Thüringen) within Germany.
+> **📝 Explanation:** Thuringia lies in central Germany and is often called the "green heart of Germany" due to its extensive forests.
 
 ### Question 309 — Head of Government
 **🇩🇪** Wie nennt man die Regierungschefin/den Regierungschef in Thüringen?

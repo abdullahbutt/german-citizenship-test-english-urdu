@@ -16,7 +16,7 @@
 | ○ | Bild 3 | Image 3 |
 | ✅ | **Bild 4** | **Image 4** |
 
-> **📝 Explanation:** The correct image shows the official coat of arms of Saarland.
+> **📝 Explanation:** The Saarland's coat of arms combines symbols of the historic territories that were joined to form the state, reflecting its complex regional history between France and Germany.
 
 ### Question 302 — District
 **🇩🇪** Welches ist ein Landkreis im Saarland?
@@ -109,7 +109,7 @@
 | ○ | Bild 3 | Image 3 |
 | ○ | Bild 4 | Image 4 |
 
-> **📝 Explanation:** The map shows the location of Saarland within Germany.
+> **📝 Explanation:** The Saarland is Germany's smallest area state (excluding the city-states), located in the southwest, bordering France and Luxembourg.
 
 ### Question 309 — Head of Government
 **🇩🇪** Wie nennt man die Regierungschefin/den Regierungschef im Saarland?

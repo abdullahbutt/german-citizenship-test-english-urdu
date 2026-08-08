@@ -16,7 +16,7 @@
 | ○ | Bild 3 | Image 3 |
 | ○ | Bild 4 | Image 4 |
 
-> **📝 Explanation:** The correct image shows the official coat of arms of Baden-Württemberg.
+> **📝 Explanation:** The coat of arms of Baden-Württemberg shows three black lions on a gold shield, a symbol inherited from the medieval Staufer dynasty that once ruled the region.
 
 ### Question 302 — District
 **🇩🇪** Welches ist ein Landkreis in Baden-Württemberg?
@@ -109,7 +109,7 @@
 | ○ | Bild 3 | Image 3 |
 | ○ | Bild 4 | Image 4 |
 
-> **📝 Explanation:** The map shows the location of Baden-Württemberg within Germany.
+> **📝 Explanation:** Baden-Württemberg is located in southwestern Germany, bordering France and Switzerland as well as Bavaria, Hesse, and Rhineland-Palatinate.
 
 ### Question 309 — Head of Government
 **🇩🇪** Wie nennt man die Regierungschefin/den Regierungschef in Baden-Württemberg?

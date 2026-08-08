@@ -16,7 +16,7 @@
 | ○ | Bild 3 | Image 3 |
 | ✅ | **Bild 4** | **Image 4** |
 
-> **📝 Explanation:** The correct image shows the official coat of arms of Brandenburg.
+> **📝 Explanation:** Brandenburg's coat of arms shows a red eagle on a white/silver shield, symbolizing the historic Margraviate of Brandenburg.
 
 ### Question 302 — District
 **🇩🇪** Welches ist ein Landkreis in Brandenburg?
@@ -109,7 +109,7 @@
 | ○ | Bild 3 | Image 3 |
 | ✅ | **Bild 4** | **Image 4** |
 
-> **📝 Explanation:** The map shows the location of Brandenburg within Germany.
+> **📝 Explanation:** Brandenburg surrounds the city-state of Berlin and lies in northeastern Germany, bordering Poland.
 
 ### Question 309 — Head of Government
 **🇩🇪** Wie nennt man die Regierungschefin/den Regierungschef in Brandenburg?

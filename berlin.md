@@ -16,7 +16,7 @@
 | ○ | Bild 3 | Image 3 |
 | ✅ | **Bild 4** | **Image 4** |
 
-> **📝 Explanation:** The correct image shows the official coat of arms of Berlin.
+> **📝 Explanation:** Berlin's coat of arms features a black bear on a white/silver shield, a symbol long associated with the city.
 
 ### Question 302 — District
 **🇩🇪** Welches ist ein Bezirk von Berlin?
@@ -109,7 +109,7 @@
 | ○ | Bild 3 | Image 3 |
 | ✅ | **Bild 4** | **Image 4** |
 
-> **📝 Explanation:** The map shows the location of Berlin within Germany.
+> **📝 Explanation:** Berlin is a city-state entirely surrounded by the state of Brandenburg in northeastern Germany.
 
 ### Question 309 — Head of Government
 **🇩🇪** Wie nennt man die Regierungschefin/den Regierungschef des Stadtstaates Berlin?

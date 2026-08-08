@@ -16,7 +16,7 @@
 | ○ | Bild 3 | Image 3 |
 | ✅ | **Bild 4** | **Image 4** |
 
-> **📝 Explanation:** The correct image shows the official coat of arms of Saxony (Sachsen).
+> **📝 Explanation:** Saxony's coat of arms features a black-and-gold striped shield (the Rautenkranz), a symbol tracing back to the historic Wettin dynasty.
 
 ### Question 302 — District
 **🇩🇪** Welches ist ein Landkreis in Sachsen?
@@ -109,7 +109,7 @@
 | ○ | Bild 3 | Image 3 |
 | ✅ | **Bild 4** | **Image 4** |
 
-> **📝 Explanation:** The map shows the location of Saxony (Sachsen) within Germany.
+> **📝 Explanation:** Saxony lies in eastern Germany, bordering Poland and the Czech Republic.
 
 ### Question 309 — Head of Government
 **🇩🇪** Wie nennt man die Regierungschefin/den Regierungschef in Sachsen?

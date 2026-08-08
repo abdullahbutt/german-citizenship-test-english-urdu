@@ -16,7 +16,7 @@
 | ✅ | **Bild 3** | **Image 3** |
 | ○ | Bild 4 | Image 4 |
 
-> **📝 Explanation:** The correct image shows the official coat of arms of Bremen.
+> **📝 Explanation:** Bremen's coat of arms features the "Bremen Key" — a silver key on a red shield — symbolizing the city's historic role as a free Hanseatic trading port.
 
 ### Question 302 — District
 **🇩🇪** Welches ist ein Bezirk von Bremen?
@@ -109,7 +109,7 @@
 | ○ | Bild 3 | Image 3 |
 | ○ | Bild 4 | Image 4 |
 
-> **📝 Explanation:** The map shows the location of Bremen within Germany.
+> **📝 Explanation:** Bremen is a small city-state made up of two enclaves entirely surrounded by Lower Saxony in northwestern Germany.
 
 ### Question 309 — Head of Government
 **🇩🇪** Wie nennt man die Regierungschefin/den Regierungschef des Stadtstaates Bremen?

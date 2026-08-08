@@ -16,7 +16,7 @@
 | ✅ | **Bild 3** | **Image 3** |
 | ○ | Bild 4 | Image 4 |
 
-> **📝 Explanation:** The correct image shows the official coat of arms of Schleswig-Holstein.
+> **📝 Explanation:** Schleswig-Holstein's coat of arms combines a nettle leaf and two blue lions, symbols of the historic Duchies of Schleswig and Holstein.
 
 ### Question 302 — District
 **🇩🇪** Welches ist ein Landkreis in Schleswig-Holstein?
@@ -109,7 +109,7 @@
 | ○ | Bild 3 | Image 3 |
 | ○ | Bild 4 | Image 4 |
 
-> **📝 Explanation:** The map shows the location of Schleswig-Holstein within Germany.
+> **📝 Explanation:** Schleswig-Holstein is Germany's northernmost state, bordering Denmark.
 
 ### Question 309 — Head of Government
 **🇩🇪** Wie nennt man die Regierungschefin/den Regierungschef in Schleswig-Holstein?
