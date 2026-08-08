@@ -67,6 +67,28 @@ try {
     const total = Object.values(STATE_EXPLANATIONS).reduce((sum, qs) => sum + Object.keys(qs).length, 0);
     console.log(`[state-explanations] loaded ${total} state-question entries`);
 } catch(e) { /* file optional */ }
+
+// State-question text + options (DE/TR/RU) — same [state_slug][qid][lang]
+// keying as STATE_EXPLANATIONS, since ids 301-310 repeat across all 16 states
+// with different content. Each entry is { q, opts: [4 strings] }.
+let STATE_QUESTIONS = {};
+try {
+    STATE_QUESTIONS = JSON.parse(fs.readFileSync(path.join(ROOT, 'state-questions.json'), 'utf8'));
+    const total = Object.values(STATE_QUESTIONS).reduce((sum, qs) => sum + Object.keys(qs).length, 0);
+    console.log(`[state-questions] loaded ${total} state-question translation entries`);
+} catch(e) { /* file optional */ }
+
+// State sub-heading labels ("Coat of Arms", "District", ... in the H3 after
+// the question number) translated per language. Same 10 labels for every
+// state, in question order 301-310.
+const STATE_SUBHEADING_LABELS = {
+    de: ['Wappen', 'Landkreis', 'Landtagswahlperiode', 'Wahlalter', 'Landesflagge',
+         'Politische Bildung', 'Landeshauptstadt', 'Kartenlage', 'Regierungschef/in', 'Ministerien'],
+    tr: ['Arma', 'İlçe', 'Eyalet Meclisi Dönemi', 'Seçmen Yaşı', 'Eyalet Bayrağı',
+         'Siyasi Eğitim', 'Eyalet Başkenti', 'Harita Konumu', 'Hükümet Başkanı', 'Bakanlıklar'],
+    ru: ['Герб', 'Округ', 'Срок полномочий ландтага', 'Возраст голосования', 'Флаг земли',
+         'Гражданское образование', 'Столица земли', 'Расположение на карте', 'Глава правительства', 'Министерства'],
+};
 const SOURCES = {
     en: path.join(ROOT, 'sources', 'english'),
     ur: path.join(ROOT, 'sources', 'urdu'),
@@ -2883,6 +2905,65 @@ function buildLang(lang) {
                 }
             );
         }
+
+        // State sub-heading labels (DE/TR/RU): "Question 301 — Coat of Arms"
+        // → "Frage 301 — Wappen" / "Soru 301 — Arma" / "Вопрос 301 — Герб".
+        // Same 10 labels, in order, for every state — matched positionally
+        // by each question's position (301=index 0 .. 310=index 9) rather
+        // than by the English text itself, so this doesn't depend on exactly
+        // matching old wording.
+        if (['de', 'tr', 'ru'].includes(lang) && STATE_SUBHEADING_LABELS[lang] && slug !== 'index') {
+            const labels = STATE_SUBHEADING_LABELS[lang];
+            bodyHtml = bodyHtml.replace(
+                /(<h3 id="q-(\d+)">[^—<]*—\s*)([^<]*)(<\/h3>)/g,
+                (match, prefix, qid, oldLabel, suffix) => {
+                    const n = parseInt(qid, 10);
+                    if (n < 301 || n > 310) return match; // only state questions
+                    const label = labels[n - 301];
+                    if (!label) return match;
+                    return `${prefix}${label}${suffix}`;
+                }
+            );
+        }
+
+        // State-question text + options (TR/RU only — DE pages show German
+        // as the base "Deutsch" column already, so no second column is
+        // needed there). Mirrors the STATE_EXPLANATIONS override above:
+        // disambiguates id 301-310 by state slug, since injectBilingualTable's
+        // flat QUESTIONS_MAP intentionally skips ids > 300 (see its own guard).
+        if (['tr', 'ru'].includes(lang) && STATE_QUESTIONS[slug] && slug !== 'index') {
+            const langLabel = lang === 'tr' ? 'Türkçe' : 'Русский';
+            const flagClass = lang === 'tr' ? 'fi-tr' : 'fi-ru';
+            const countryName = lang === 'tr' ? 'Türkiye' : 'Russia';
+            const overrides = STATE_QUESTIONS[slug];
+
+            const BLOCK_RE = /(<h3 id="q-(\d+)">[^<]*<\/h3>)((?:(?!<h3 id=)[\s\S])*?)(<div class="table-wrap"><table>[\s\S]*?<\/table><\/div>)/g;
+            bodyHtml = bodyHtml.replace(BLOCK_RE, (match, h3, qid, between, table) => {
+                const n = parseInt(qid, 10);
+                if (n < 301 || n > 310) return match;
+                const entry = overrides[qid];
+                if (!entry || !entry[lang] || !entry[lang].q || !entry[lang].opts) return match;
+                const { q: translatedQ, opts: translatedOpts } = entry[lang];
+
+                const translatedQpara = `<p><strong><span class="fi ${flagClass}" role="img" aria-label="${countryName}" title="${countryName}"></span> ${langLabel}:</strong> ${translatedQ}</p>`;
+                const newBetween = between.replace(/(<p><strong>[\s\S]*?<\/strong>[\s\S]*?<\/p>)/, `$1${translatedQpara}`);
+
+                let optIndex = 0;
+                const newTable = table
+                    .replace(/<th>Deutsch<\/th>/, `<th>Deutsch</th><th>${langLabel}</th>`)
+                    .replace(/(<tr>[\s\S]*?<\/tr>)/g, (rowFull) => {
+                        if (rowFull.includes('<th>')) return rowFull;
+                        const translation = translatedOpts[optIndex] || '';
+                        optIndex++;
+                        const isCorrect = /<strong>/.test(rowFull);
+                        const translatedCell = isCorrect ? `<td><strong>${translation}</strong></td>` : `<td>${translation}</td>`;
+                        return rowFull.replace(/<\/tr>$/, `${translatedCell}</tr>`);
+                    });
+
+                return `${h3}${newBetween}${newTable}`;
+            });
+        }
+
         // Rewrite internal .md links for the static site:
         //   README.md   → index.html  (per-language home)
         //   anything.md → anything.html

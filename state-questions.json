@@ -1,0 +1,3234 @@
+{
+  "baden-wuerttemberg": {
+    "301": {
+      "tr": {
+        "q": "Baden-Württemberg Eyaleti'nin arması hangisidir?",
+        "opts": [
+          "Resim 1",
+          "Resim 2",
+          "Resim 3",
+          "Resim 4"
+        ]
+      },
+      "ru": {
+        "q": "Какой герб принадлежит земле Баден-Вюртемберг?",
+        "opts": [
+          "Изображение 1",
+          "Изображение 2",
+          "Изображение 3",
+          "Изображение 4"
+        ]
+      }
+    },
+    "302": {
+      "tr": {
+        "q": "Baden-Württemberg'de hangisi bir ilçedir?",
+        "opts": [
+          "Mecklenburgische Seenplatte",
+          "Neckar-Odenwald-Kreis",
+          "Kuzey Frizya",
+          "Altötting"
+        ]
+      },
+      "ru": {
+        "q": "Какой из них является округом в Баден-Вюртемберге?",
+        "opts": [
+          "Мекленбургское поозерье",
+          "Неккар-Оденвальд",
+          "Северная Фризия",
+          "Альтёттинг"
+        ]
+      }
+    },
+    "303": {
+      "tr": {
+        "q": "Baden-Württemberg eyalet meclisi kaç yıl için seçilir?",
+        "opts": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      },
+      "ru": {
+        "q": "На сколько лет избирается ландтаг земли Баден-Вюртемберг?",
+        "opts": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      }
+    },
+    "304": {
+      "tr": {
+        "q": "Baden-Württemberg'de yerel seçimlerde kaç yaşından itibaren oy kullanılabilir?",
+        "opts": [
+          "14",
+          "16",
+          "18",
+          "20"
+        ]
+      },
+      "ru": {
+        "q": "С какого возраста можно голосовать на местных выборах в Баден-Вюртемберге?",
+        "opts": [
+          "14",
+          "16",
+          "18",
+          "20"
+        ]
+      }
+    },
+    "305": {
+      "tr": {
+        "q": "Baden-Württemberg eyalet bayrağının renkleri nelerdir?",
+        "opts": [
+          "mavi-beyaz-kırmızı",
+          "siyah-altın",
+          "beyaz-mavi",
+          "yeşil-beyaz-kırmızı"
+        ]
+      },
+      "ru": {
+        "q": "Какие цвета имеет флаг земли Баден-Вюртемберг?",
+        "opts": [
+          "сине-бело-красный",
+          "чёрно-золотой",
+          "бело-синий",
+          "зелёно-бело-красный"
+        ]
+      }
+    },
+    "306": {
+      "tr": {
+        "q": "Baden-Württemberg'de siyasi konular hakkında nereden bilgi alabilirsiniz?",
+        "opts": [
+          "belediye düzen dairesinde",
+          "tüketici merkezinde",
+          "Eyalet Siyasi Eğitim Merkezi'nde",
+          "kiliselerde"
+        ]
+      },
+      "ru": {
+        "q": "Где можно получить информацию о политических темах в Баден-Вюртемберге?",
+        "opts": [
+          "в отделе общественного порядка общины",
+          "в центре защиты прав потребителей",
+          "в земельном центре политического образования",
+          "в церквях"
+        ]
+      }
+    },
+    "307": {
+      "tr": {
+        "q": "Baden-Württemberg eyaletinin başkentinin adı …",
+        "opts": [
+          "Heidelberg.",
+          "Stuttgart.",
+          "Karlsruhe.",
+          "Mannheim."
+        ]
+      },
+      "ru": {
+        "q": "Столица земли Баден-Вюртемберг называется …",
+        "opts": [
+          "Гейдельберг.",
+          "Штутгарт.",
+          "Карлсруэ.",
+          "Мангейм."
+        ]
+      }
+    },
+    "308": {
+      "tr": {
+        "q": "Baden-Württemberg hangi (işaretli) eyalettir?",
+        "opts": [
+          "Resim 1",
+          "Resim 2",
+          "Resim 3",
+          "Resim 4"
+        ]
+      },
+      "ru": {
+        "q": "Какая (выделенная) земля — это Баден-Вюртемберг?",
+        "opts": [
+          "Изображение 1",
+          "Изображение 2",
+          "Изображение 3",
+          "Изображение 4"
+        ]
+      }
+    },
+    "309": {
+      "tr": {
+        "q": "Baden-Württemberg'de hükümet başkanına ne denir?",
+        "opts": [
+          "Birinci Bakan",
+          "Başbakan",
+          "Belediye Başkanı",
+          "Eyalet Başbakanı (Ministerpräsident)"
+        ]
+      },
+      "ru": {
+        "q": "Как называется глава правительства в Баден-Вюртемберге?",
+        "opts": [
+          "Первый министр",
+          "Премьер-министр",
+          "Бургомистр",
+          "Премьер-министр земли (Ministerpräsident)"
+        ]
+      }
+    },
+    "310": {
+      "tr": {
+        "q": "Baden-Württemberg'de hangi bakanlık yoktur?",
+        "opts": [
+          "Maliye Bakanı",
+          "Adalet Bakanı",
+          "İçişleri Bakanı",
+          "Dışişleri Bakanı"
+        ]
+      },
+      "ru": {
+        "q": "Какого министра нет в Баден-Вюртемберге?",
+        "opts": [
+          "министр финансов",
+          "министр юстиции",
+          "министр внутренних дел",
+          "министр иностранных дел"
+        ]
+      }
+    }
+  },
+  "bayern": {
+    "301": {
+      "tr": {
+        "q": "Bavyera Eyaleti'nin arması hangisidir?",
+        "opts": [
+          "Resim 1",
+          "Resim 2",
+          "Resim 3",
+          "Resim 4"
+        ]
+      },
+      "ru": {
+        "q": "Какой герб принадлежит земле Бавария?",
+        "opts": [
+          "Изображение 1",
+          "Изображение 2",
+          "Изображение 3",
+          "Изображение 4"
+        ]
+      }
+    },
+    "302": {
+      "tr": {
+        "q": "Bavyera'de hangisi bir ilçedir?",
+        "opts": [
+          "Prignitz",
+          "Rhein-Sieg-Kreis",
+          "Kuzey Frizya",
+          "Altötting"
+        ]
+      },
+      "ru": {
+        "q": "Какой из них является округом в Баварии?",
+        "opts": [
+          "Пригниц",
+          "Рейн-Зиг",
+          "Северная Фризия",
+          "Альтёттинг"
+        ]
+      }
+    },
+    "303": {
+      "tr": {
+        "q": "Bavyera eyalet meclisi kaç yıl için seçilir?",
+        "opts": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      },
+      "ru": {
+        "q": "На сколько лет избирается ландтаг земли Бавария?",
+        "opts": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      }
+    },
+    "304": {
+      "tr": {
+        "q": "Bavyera'de yerel seçimlerde kaç yaşından itibaren oy kullanılabilir?",
+        "opts": [
+          "14",
+          "16",
+          "18",
+          "20"
+        ]
+      },
+      "ru": {
+        "q": "С какого возраста можно голосовать на местных выборах в Баварии?",
+        "opts": [
+          "14",
+          "16",
+          "18",
+          "20"
+        ]
+      }
+    },
+    "305": {
+      "tr": {
+        "q": "Bavyera eyalet bayrağının renkleri nelerdir?",
+        "opts": [
+          "mavi-beyaz-kırmızı",
+          "beyaz-mavi",
+          "yeşil-beyaz-kırmızı",
+          "siyah-sarı"
+        ]
+      },
+      "ru": {
+        "q": "Какие цвета имеет флаг земли Бавария?",
+        "opts": [
+          "сине-бело-красный",
+          "бело-синий",
+          "зелёно-бело-красный",
+          "чёрно-жёлтый"
+        ]
+      }
+    },
+    "306": {
+      "tr": {
+        "q": "Bavyera'de siyasi konular hakkında nereden bilgi alabilirsiniz?",
+        "opts": [
+          "belediye düzen dairesinde",
+          "Eyalet Siyasi Eğitim Merkezi'nde",
+          "tüketici merkezinde",
+          "kiliselerde"
+        ]
+      },
+      "ru": {
+        "q": "Где можно получить информацию о политических темах в Баварии?",
+        "opts": [
+          "в отделе общественного порядка общины",
+          "в земельном центре политического образования",
+          "в центре защиты прав потребителей",
+          "в церквях"
+        ]
+      }
+    },
+    "307": {
+      "tr": {
+        "q": "Bavyera eyaletinin başkentinin adı …",
+        "opts": [
+          "Ingolstadt.",
+          "Regensburg.",
+          "Nürnberg.",
+          "Münih."
+        ]
+      },
+      "ru": {
+        "q": "Столица земли Бавария называется …",
+        "opts": [
+          "Ингольштадт.",
+          "Регенсбург.",
+          "Нюрнберг.",
+          "Мюнхен."
+        ]
+      }
+    },
+    "308": {
+      "tr": {
+        "q": "Bavyera hangi (işaretli) eyalettir?",
+        "opts": [
+          "Resim 1",
+          "Resim 2",
+          "Resim 3",
+          "Resim 4"
+        ]
+      },
+      "ru": {
+        "q": "Какая (выделенная) земля — это Бавария?",
+        "opts": [
+          "Изображение 1",
+          "Изображение 2",
+          "Изображение 3",
+          "Изображение 4"
+        ]
+      }
+    },
+    "309": {
+      "tr": {
+        "q": "Bavyera'de hükümet başkanına ne denir?",
+        "opts": [
+          "Birinci Bakan",
+          "Başbakan",
+          "Belediye Başkanı",
+          "Eyalet Başbakanı (Ministerpräsident)"
+        ]
+      },
+      "ru": {
+        "q": "Как называется глава правительства в Баварии?",
+        "opts": [
+          "Первый министр",
+          "Премьер-министр",
+          "Бургомистр",
+          "Премьер-министр земли (Ministerpräsident)"
+        ]
+      }
+    },
+    "310": {
+      "tr": {
+        "q": "Bavyera'de hangi bakanlık yoktur?",
+        "opts": [
+          "Adalet Bakanı",
+          "Dışişleri Bakanı",
+          "Maliye Bakanı",
+          "İçişleri Bakanı"
+        ]
+      },
+      "ru": {
+        "q": "Какого министра нет в Баварии?",
+        "opts": [
+          "министр юстиции",
+          "министр иностранных дел",
+          "министр финансов",
+          "министр внутренних дел"
+        ]
+      }
+    }
+  },
+  "berlin": {
+    "301": {
+      "tr": {
+        "q": "Berlin Eyaleti'nin arması hangisidir?",
+        "opts": [
+          "Resim 1",
+          "Resim 2",
+          "Resim 3",
+          "Resim 4"
+        ]
+      },
+      "ru": {
+        "q": "Какой герб принадлежит земле Берлин?",
+        "opts": [
+          "Изображение 1",
+          "Изображение 2",
+          "Изображение 3",
+          "Изображение 4"
+        ]
+      }
+    },
+    "302": {
+      "tr": {
+        "q": "Berlin'de hangisi bir ilçedir?",
+        "opts": [
+          "Altona",
+          "Prignitz",
+          "Pankow",
+          "Mecklenburgische Seenplatte"
+        ]
+      },
+      "ru": {
+        "q": "Какой из них является округом в Берлине?",
+        "opts": [
+          "Альтона",
+          "Пригниц",
+          "Панков",
+          "Мекленбургское поозерье"
+        ]
+      }
+    },
+    "303": {
+      "tr": {
+        "q": "Berlin eyalet meclisi kaç yıl için seçilir?",
+        "opts": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      },
+      "ru": {
+        "q": "На сколько лет избирается ландтаг земли Берлин?",
+        "opts": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      }
+    },
+    "304": {
+      "tr": {
+        "q": "Berlin'de yerel seçimlerde kaç yaşından itibaren oy kullanılabilir?",
+        "opts": [
+          "14",
+          "16",
+          "18",
+          "20"
+        ]
+      },
+      "ru": {
+        "q": "С какого возраста можно голосовать на местных выборах в Берлине?",
+        "opts": [
+          "14",
+          "16",
+          "18",
+          "20"
+        ]
+      }
+    },
+    "305": {
+      "tr": {
+        "q": "Berlin eyalet bayrağının renkleri nelerdir?",
+        "opts": [
+          "mavi-beyaz-kırmızı",
+          "beyaz-kırmızı",
+          "yeşil-beyaz-kırmızı",
+          "siyah-altın"
+        ]
+      },
+      "ru": {
+        "q": "Какие цвета имеет флаг земли Берлин?",
+        "opts": [
+          "сине-бело-красный",
+          "бело-красный",
+          "зелёно-бело-красный",
+          "чёрно-золотой"
+        ]
+      }
+    },
+    "306": {
+      "tr": {
+        "q": "Berlin'de siyasi konular hakkında nereden bilgi alabilirsiniz?",
+        "opts": [
+          "belediye düzen dairesinde",
+          "kiliselerde",
+          "tüketici merkezinde",
+          "Eyalet Siyasi Eğitim Merkezi'nde"
+        ]
+      },
+      "ru": {
+        "q": "Где можно получить информацию о политических темах в Берлине?",
+        "opts": [
+          "в отделе общественного порядка общины",
+          "в церквях",
+          "в центре защиты прав потребителей",
+          "в земельном центре политического образования"
+        ]
+      }
+    },
+    "307": {
+      "tr": {
+        "q": "Hangi eyalet bir şehir-eyaletidir?",
+        "opts": [
+          "Berlin",
+          "Saarland",
+          "Brandenburg",
+          "Hessen"
+        ]
+      },
+      "ru": {
+        "q": "Какая земля является городом-землёй?",
+        "opts": [
+          "Берлин",
+          "Саар",
+          "Бранденбург",
+          "Гессен"
+        ]
+      }
+    },
+    "308": {
+      "tr": {
+        "q": "Berlin hangi (işaretli) eyalettir?",
+        "opts": [
+          "Resim 1",
+          "Resim 2",
+          "Resim 3",
+          "Resim 4"
+        ]
+      },
+      "ru": {
+        "q": "Какая (выделенная) земля — это Берлин?",
+        "opts": [
+          "Изображение 1",
+          "Изображение 2",
+          "Изображение 3",
+          "Изображение 4"
+        ]
+      }
+    },
+    "309": {
+      "tr": {
+        "q": "Berlin'de hükümet başkanına ne denir?",
+        "opts": [
+          "Eyalet Başbakanı (Ministerpräsident)",
+          "Büyükşehir Belediye Başkanı",
+          "Senato Başkanı",
+          "Yönetici Belediye Başkanı"
+        ]
+      },
+      "ru": {
+        "q": "Как называется глава правительства в Берлине?",
+        "opts": [
+          "Премьер-министр земли (Ministerpräsident)",
+          "Обер-бургомистр",
+          "Президент Сената",
+          "Правящий бургомистр"
+        ]
+      }
+    },
+    "310": {
+      "tr": {
+        "q": "Berlin'de hangi senatörlük yoktur?",
+        "opts": [
+          "Mali Senatör",
+          "İçişleri Senatörü",
+          "Dış İlişkiler Senatörü",
+          "Adalet Senatörü"
+        ]
+      },
+      "ru": {
+        "q": "Какого сенатора нет в Берлине?",
+        "opts": [
+          "сенатор по финансам",
+          "сенатор внутренних дел",
+          "сенатор по внешним связям",
+          "сенатор юстиции"
+        ]
+      }
+    }
+  },
+  "brandenburg": {
+    "301": {
+      "tr": {
+        "q": "Brandenburg Eyaleti'nin arması hangisidir?",
+        "opts": [
+          "Resim 1",
+          "Resim 2",
+          "Resim 3",
+          "Resim 4"
+        ]
+      },
+      "ru": {
+        "q": "Какой герб принадлежит земле Бранденбург?",
+        "opts": [
+          "Изображение 1",
+          "Изображение 2",
+          "Изображение 3",
+          "Изображение 4"
+        ]
+      }
+    },
+    "302": {
+      "tr": {
+        "q": "Brandenburg'de hangisi bir ilçedir?",
+        "opts": [
+          "Prignitz",
+          "Rhein-Sieg-Kreis",
+          "Vogtland",
+          "Amberg-Sulzbach"
+        ]
+      },
+      "ru": {
+        "q": "Какой из них является округом в Бранденбурге?",
+        "opts": [
+          "Пригниц",
+          "Рейн-Зиг",
+          "Фогтланд",
+          "Амберг-Зульцбах"
+        ]
+      }
+    },
+    "303": {
+      "tr": {
+        "q": "Brandenburg eyalet meclisi kaç yıl için seçilir?",
+        "opts": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      },
+      "ru": {
+        "q": "На сколько лет избирается ландтаг земли Бранденбург?",
+        "opts": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      }
+    },
+    "304": {
+      "tr": {
+        "q": "Brandenburg'de yerel seçimlerde kaç yaşından itibaren oy kullanılabilir?",
+        "opts": [
+          "14",
+          "16",
+          "18",
+          "20"
+        ]
+      },
+      "ru": {
+        "q": "С какого возраста можно голосовать на местных выборах в Бранденбурге?",
+        "opts": [
+          "14",
+          "16",
+          "18",
+          "20"
+        ]
+      }
+    },
+    "305": {
+      "tr": {
+        "q": "Brandenburg eyalet bayrağının renkleri nelerdir?",
+        "opts": [
+          "mavi-beyaz-kırmızı",
+          "kırmızı-beyaz",
+          "yeşil-beyaz-kırmızı",
+          "siyah-sarı"
+        ]
+      },
+      "ru": {
+        "q": "Какие цвета имеет флаг земли Бранденбург?",
+        "opts": [
+          "сине-бело-красный",
+          "красно-белый",
+          "зелёно-бело-красный",
+          "чёрно-жёлтый"
+        ]
+      }
+    },
+    "306": {
+      "tr": {
+        "q": "Brandenburg'de siyasi konular hakkında nereden bilgi alabilirsiniz?",
+        "opts": [
+          "kiliselerde",
+          "tüketici merkezinde",
+          "Eyalet Siyasi Eğitim Merkezi'nde",
+          "belediye düzen dairesinde"
+        ]
+      },
+      "ru": {
+        "q": "Где можно получить информацию о политических темах в Бранденбурге?",
+        "opts": [
+          "в церквях",
+          "в центре защиты прав потребителей",
+          "в земельном центре политического образования",
+          "в отделе общественного порядка общины"
+        ]
+      }
+    },
+    "307": {
+      "tr": {
+        "q": "Brandenburg eyaletinin başkentinin adı …",
+        "opts": [
+          "Potsdam.",
+          "Cottbus.",
+          "Brandenburg (şehir).",
+          "Frankfurt (Oder)."
+        ]
+      },
+      "ru": {
+        "q": "Столица земли Бранденбург называется …",
+        "opts": [
+          "Потсдам.",
+          "Котбус.",
+          "Бранденбург (город).",
+          "Франкфурт-на-Одере."
+        ]
+      }
+    },
+    "308": {
+      "tr": {
+        "q": "Brandenburg hangi (işaretli) eyalettir?",
+        "opts": [
+          "Resim 1",
+          "Resim 2",
+          "Resim 3",
+          "Resim 4"
+        ]
+      },
+      "ru": {
+        "q": "Какая (выделенная) земля — это Бранденбург?",
+        "opts": [
+          "Изображение 1",
+          "Изображение 2",
+          "Изображение 3",
+          "Изображение 4"
+        ]
+      }
+    },
+    "309": {
+      "tr": {
+        "q": "Brandenburg'de hükümet başkanına ne denir?",
+        "opts": [
+          "Birinci Bakan",
+          "Başbakan",
+          "Belediye Başkanı",
+          "Eyalet Başbakanı (Ministerpräsident)"
+        ]
+      },
+      "ru": {
+        "q": "Как называется глава правительства в Бранденбурге?",
+        "opts": [
+          "Первый министр",
+          "Премьер-министр",
+          "Бургомистр",
+          "Премьер-министр земли (Ministerpräsident)"
+        ]
+      }
+    },
+    "310": {
+      "tr": {
+        "q": "Brandenburg'de hangi bakanlık yoktur?",
+        "opts": [
+          "Adalet Bakanı",
+          "Dışişleri Bakanı",
+          "Maliye Bakanı",
+          "İçişleri Bakanı"
+        ]
+      },
+      "ru": {
+        "q": "Какого министра нет в Бранденбурге?",
+        "opts": [
+          "министр юстиции",
+          "министр иностранных дел",
+          "министр финансов",
+          "министр внутренних дел"
+        ]
+      }
+    }
+  },
+  "bremen": {
+    "301": {
+      "tr": {
+        "q": "Bremen Eyaleti'nin arması hangisidir?",
+        "opts": [
+          "Resim 1",
+          "Resim 2",
+          "Resim 3",
+          "Resim 4"
+        ]
+      },
+      "ru": {
+        "q": "Какой герб принадлежит земле Бремен?",
+        "opts": [
+          "Изображение 1",
+          "Изображение 2",
+          "Изображение 3",
+          "Изображение 4"
+        ]
+      }
+    },
+    "302": {
+      "tr": {
+        "q": "Bremen'de hangisi bir ilçedir?",
+        "opts": [
+          "Altona",
+          "Hemelingen",
+          "Pankow",
+          "Mecklenburgische Seenplatte"
+        ]
+      },
+      "ru": {
+        "q": "Какой из них является округом в Бремене?",
+        "opts": [
+          "Альтона",
+          "Хемелинген",
+          "Панков",
+          "Мекленбургское поозерье"
+        ]
+      }
+    },
+    "303": {
+      "tr": {
+        "q": "Bremen eyalet meclisi kaç yıl için seçilir?",
+        "opts": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      },
+      "ru": {
+        "q": "На сколько лет избирается ландтаг земли Бремен?",
+        "opts": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      }
+    },
+    "304": {
+      "tr": {
+        "q": "Bremen'de yerel seçimlerde kaç yaşından itibaren oy kullanılabilir?",
+        "opts": [
+          "14",
+          "16",
+          "18",
+          "20"
+        ]
+      },
+      "ru": {
+        "q": "С какого возраста можно голосовать на местных выборах в Бремене?",
+        "opts": [
+          "14",
+          "16",
+          "18",
+          "20"
+        ]
+      }
+    },
+    "305": {
+      "tr": {
+        "q": "Bremen eyalet bayrağının renkleri nelerdir?",
+        "opts": [
+          "mavi-beyaz-kırmızı",
+          "kırmızı-beyaz",
+          "yeşil-beyaz-kırmızı",
+          "siyah-altın"
+        ]
+      },
+      "ru": {
+        "q": "Какие цвета имеет флаг земли Бремен?",
+        "opts": [
+          "сине-бело-красный",
+          "красно-белый",
+          "зелёно-бело-красный",
+          "чёрно-золотой"
+        ]
+      }
+    },
+    "306": {
+      "tr": {
+        "q": "Bremen'de siyasi konular hakkında nereden bilgi alabilirsiniz?",
+        "opts": [
+          "belediye düzen dairesinde",
+          "Eyalet Siyasi Eğitim Merkezi'nde",
+          "kiliselerde",
+          "tüketici merkezinde"
+        ]
+      },
+      "ru": {
+        "q": "Где можно получить информацию о политических темах в Бремене?",
+        "opts": [
+          "в отделе общественного порядка общины",
+          "в земельном центре политического образования",
+          "в церквях",
+          "в центре защиты прав потребителей"
+        ]
+      }
+    },
+    "307": {
+      "tr": {
+        "q": "Hangi eyalet bir şehir-eyaletidir?",
+        "opts": [
+          "Bremen",
+          "Münih",
+          "Bavyera",
+          "Frankfurt"
+        ]
+      },
+      "ru": {
+        "q": "Какая земля является городом-землёй?",
+        "opts": [
+          "Бремен",
+          "Мюнхен",
+          "Бавария",
+          "Франкфурт"
+        ]
+      }
+    },
+    "308": {
+      "tr": {
+        "q": "Bremen hangi (işaretli) eyalettir?",
+        "opts": [
+          "Resim 1",
+          "Resim 2",
+          "Resim 3",
+          "Resim 4"
+        ]
+      },
+      "ru": {
+        "q": "Какая (выделенная) земля — это Бремен?",
+        "opts": [
+          "Изображение 1",
+          "Изображение 2",
+          "Изображение 3",
+          "Изображение 4"
+        ]
+      }
+    },
+    "309": {
+      "tr": {
+        "q": "Bremen'de hükümet başkanına ne denir?",
+        "opts": [
+          "Eyalet Başbakanı (Ministerpräsident)",
+          "Birinci Belediye Başkanı",
+          "Senato Başkanı",
+          "Yönetici Belediye Başkanı"
+        ]
+      },
+      "ru": {
+        "q": "Как называется глава правительства в Бремене?",
+        "opts": [
+          "Премьер-министр земли (Ministerpräsident)",
+          "Первый бургомистр",
+          "Президент Сената",
+          "Правящий бургомистр"
+        ]
+      }
+    },
+    "310": {
+      "tr": {
+        "q": "Bremen'de hangi senatörlük yoktur?",
+        "opts": [
+          "Dış İlişkiler Senatörü",
+          "Mali Senatör",
+          "Adalet Senatörü",
+          "İçişleri Senatörü"
+        ]
+      },
+      "ru": {
+        "q": "Какого сенатора нет в Бремене?",
+        "opts": [
+          "сенатор по внешним связям",
+          "сенатор по финансам",
+          "сенатор юстиции",
+          "сенатор внутренних дел"
+        ]
+      }
+    }
+  },
+  "hamburg": {
+    "301": {
+      "tr": {
+        "q": "Hamburg Eyaleti'nin arması hangisidir?",
+        "opts": [
+          "Resim 1",
+          "Resim 2",
+          "Resim 3",
+          "Resim 4"
+        ]
+      },
+      "ru": {
+        "q": "Какой герб принадлежит земле Гамбург?",
+        "opts": [
+          "Изображение 1",
+          "Изображение 2",
+          "Изображение 3",
+          "Изображение 4"
+        ]
+      }
+    },
+    "302": {
+      "tr": {
+        "q": "Hamburg'de hangisi bir ilçedir?",
+        "opts": [
+          "Altona",
+          "Hemelingen",
+          "Pankow",
+          "Mecklenburgische Seenplatte"
+        ]
+      },
+      "ru": {
+        "q": "Какой из них является округом в Гамбурге?",
+        "opts": [
+          "Альтона",
+          "Хемелинген",
+          "Панков",
+          "Мекленбургское поозерье"
+        ]
+      }
+    },
+    "303": {
+      "tr": {
+        "q": "Hamburg eyalet meclisi kaç yıl için seçilir?",
+        "opts": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      },
+      "ru": {
+        "q": "На сколько лет избирается ландтаг земли Гамбург?",
+        "opts": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      }
+    },
+    "304": {
+      "tr": {
+        "q": "Hamburg'de yerel seçimlerde kaç yaşından itibaren oy kullanılabilir?",
+        "opts": [
+          "14",
+          "16",
+          "18",
+          "20"
+        ]
+      },
+      "ru": {
+        "q": "С какого возраста можно голосовать на местных выборах в Гамбурге?",
+        "opts": [
+          "14",
+          "16",
+          "18",
+          "20"
+        ]
+      }
+    },
+    "305": {
+      "tr": {
+        "q": "Hamburg eyalet bayrağının renkleri nelerdir?",
+        "opts": [
+          "mavi-beyaz-kırmızı",
+          "beyaz-kırmızı",
+          "yeşil-beyaz-kırmızı",
+          "siyah-sarı"
+        ]
+      },
+      "ru": {
+        "q": "Какие цвета имеет флаг земли Гамбург?",
+        "opts": [
+          "сине-бело-красный",
+          "бело-красный",
+          "зелёно-бело-красный",
+          "чёрно-жёлтый"
+        ]
+      }
+    },
+    "306": {
+      "tr": {
+        "q": "Hamburg'de siyasi konular hakkında nereden bilgi alabilirsiniz?",
+        "opts": [
+          "belediye düzen dairesinde",
+          "tüketici merkezinde",
+          "kiliselerde",
+          "Eyalet Siyasi Eğitim Merkezi'nde"
+        ]
+      },
+      "ru": {
+        "q": "Где можно получить информацию о политических темах в Гамбурге?",
+        "opts": [
+          "в отделе общественного порядка общины",
+          "в центре защиты прав потребителей",
+          "в церквях",
+          "в земельном центре политического образования"
+        ]
+      }
+    },
+    "307": {
+      "tr": {
+        "q": "Hangi eyalet bir şehir-eyaletidir?",
+        "opts": [
+          "Hamburg",
+          "Saksonya",
+          "Bavyera",
+          "Thüringen"
+        ]
+      },
+      "ru": {
+        "q": "Какая земля является городом-землёй?",
+        "opts": [
+          "Гамбург",
+          "Саксония",
+          "Бавария",
+          "Тюрингия"
+        ]
+      }
+    },
+    "308": {
+      "tr": {
+        "q": "Hamburg hangi (işaretli) eyalettir?",
+        "opts": [
+          "Resim 1",
+          "Resim 2",
+          "Resim 3",
+          "Resim 4"
+        ]
+      },
+      "ru": {
+        "q": "Какая (выделенная) земля — это Гамбург?",
+        "opts": [
+          "Изображение 1",
+          "Изображение 2",
+          "Изображение 3",
+          "Изображение 4"
+        ]
+      }
+    },
+    "309": {
+      "tr": {
+        "q": "Hamburg'de hükümet başkanına ne denir?",
+        "opts": [
+          "Eyalet Başbakanı (Ministerpräsident)",
+          "Birinci Belediye Başkanı",
+          "Yönetici Senatör",
+          "Büyükşehir Belediye Başkanı"
+        ]
+      },
+      "ru": {
+        "q": "Как называется глава правительства в Гамбурге?",
+        "opts": [
+          "Премьер-министр земли (Ministerpräsident)",
+          "Первый бургомистр",
+          "Правящий сенатор",
+          "Обер-бургомистр"
+        ]
+      }
+    },
+    "310": {
+      "tr": {
+        "q": "Hamburg'de hangi senatörlük yoktur?",
+        "opts": [
+          "Adalet Senatörü",
+          "Dış İlişkiler Senatörü",
+          "Mali Senatör",
+          "İçişleri Senatörü"
+        ]
+      },
+      "ru": {
+        "q": "Какого сенатора нет в Гамбурге?",
+        "opts": [
+          "сенатор юстиции",
+          "сенатор по внешним связям",
+          "сенатор по финансам",
+          "сенатор внутренних дел"
+        ]
+      }
+    }
+  },
+  "hessen": {
+    "301": {
+      "tr": {
+        "q": "Hessen Eyaleti'nin arması hangisidir?",
+        "opts": [
+          "Resim 1",
+          "Resim 2",
+          "Resim 3",
+          "Resim 4"
+        ]
+      },
+      "ru": {
+        "q": "Какой герб принадлежит земле Гессен?",
+        "opts": [
+          "Изображение 1",
+          "Изображение 2",
+          "Изображение 3",
+          "Изображение 4"
+        ]
+      }
+    },
+    "302": {
+      "tr": {
+        "q": "Hessen'de hangisi bir ilçedir?",
+        "opts": [
+          "Ammerland",
+          "Altötting",
+          "Prignitz",
+          "Main-Taunus-Kreis"
+        ]
+      },
+      "ru": {
+        "q": "Какой из них является округом в Гессене?",
+        "opts": [
+          "Аммерланд",
+          "Альтёттинг",
+          "Пригниц",
+          "Майн-Таунус"
+        ]
+      }
+    },
+    "303": {
+      "tr": {
+        "q": "Hessen eyalet meclisi kaç yıl için seçilir?",
+        "opts": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      },
+      "ru": {
+        "q": "На сколько лет избирается ландтаг земли Гессен?",
+        "opts": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      }
+    },
+    "304": {
+      "tr": {
+        "q": "Hessen'de yerel seçimlerde kaç yaşından itibaren oy kullanılabilir?",
+        "opts": [
+          "14",
+          "16",
+          "18",
+          "20"
+        ]
+      },
+      "ru": {
+        "q": "С какого возраста можно голосовать на местных выборах в Гессене?",
+        "opts": [
+          "14",
+          "16",
+          "18",
+          "20"
+        ]
+      }
+    },
+    "305": {
+      "tr": {
+        "q": "Hessen eyalet bayrağının renkleri nelerdir?",
+        "opts": [
+          "mavi-beyaz-kırmızı",
+          "kırmızı-beyaz",
+          "siyah-altın",
+          "yeşil-beyaz-kırmızı"
+        ]
+      },
+      "ru": {
+        "q": "Какие цвета имеет флаг земли Гессен?",
+        "opts": [
+          "сине-бело-красный",
+          "красно-белый",
+          "чёрно-золотой",
+          "зелёно-бело-красный"
+        ]
+      }
+    },
+    "306": {
+      "tr": {
+        "q": "Hessen'de siyasi konular hakkında nereden bilgi alabilirsiniz?",
+        "opts": [
+          "Eyalet Siyasi Eğitim Merkezi'nde",
+          "tüketici merkezinde",
+          "belediye düzen dairesinde",
+          "kiliselerde"
+        ]
+      },
+      "ru": {
+        "q": "Где можно получить информацию о политических темах в Гессене?",
+        "opts": [
+          "в земельном центре политического образования",
+          "в центре защиты прав потребителей",
+          "в отделе общественного порядка общины",
+          "в церквях"
+        ]
+      }
+    },
+    "307": {
+      "tr": {
+        "q": "Hessen eyaletinin başkentinin adı …",
+        "opts": [
+          "Kassel.",
+          "Darmstadt.",
+          "Frankfurt.",
+          "Wiesbaden."
+        ]
+      },
+      "ru": {
+        "q": "Столица земли Гессен называется …",
+        "opts": [
+          "Кассель.",
+          "Дармштадт.",
+          "Франкфурт.",
+          "Висбаден."
+        ]
+      }
+    },
+    "308": {
+      "tr": {
+        "q": "Hessen hangi (işaretli) eyalettir?",
+        "opts": [
+          "Resim 1",
+          "Resim 2",
+          "Resim 3",
+          "Resim 4"
+        ]
+      },
+      "ru": {
+        "q": "Какая (выделенная) земля — это Гессен?",
+        "opts": [
+          "Изображение 1",
+          "Изображение 2",
+          "Изображение 3",
+          "Изображение 4"
+        ]
+      }
+    },
+    "309": {
+      "tr": {
+        "q": "Hessen'de hükümet başkanına ne denir?",
+        "opts": [
+          "Birinci Bakan",
+          "Başbakan",
+          "Belediye Başkanı",
+          "Eyalet Başbakanı (Ministerpräsident)"
+        ]
+      },
+      "ru": {
+        "q": "Как называется глава правительства в Гессене?",
+        "opts": [
+          "Первый министр",
+          "Премьер-министр",
+          "Бургомистр",
+          "Премьер-министр земли (Ministerpräsident)"
+        ]
+      }
+    },
+    "310": {
+      "tr": {
+        "q": "Hessen'de hangi bakanlık yoktur?",
+        "opts": [
+          "Adalet Bakanı",
+          "Dışişleri Bakanı",
+          "Maliye Bakanı",
+          "İçişleri Bakanı"
+        ]
+      },
+      "ru": {
+        "q": "Какого министра нет в Гессене?",
+        "opts": [
+          "министр юстиции",
+          "министр иностранных дел",
+          "министр финансов",
+          "министр внутренних дел"
+        ]
+      }
+    }
+  },
+  "mecklenburg-vorpommern": {
+    "301": {
+      "tr": {
+        "q": "Mecklenburg-Vorpommern Eyaleti'nin arması hangisidir?",
+        "opts": [
+          "Resim 1",
+          "Resim 2",
+          "Resim 3",
+          "Resim 4"
+        ]
+      },
+      "ru": {
+        "q": "Какой герб принадлежит земле Мекленбург-Передняя Померания?",
+        "opts": [
+          "Изображение 1",
+          "Изображение 2",
+          "Изображение 3",
+          "Изображение 4"
+        ]
+      }
+    },
+    "302": {
+      "tr": {
+        "q": "Mecklenburg-Vorpommern'de hangisi bir ilçedir?",
+        "opts": [
+          "Prignitz",
+          "Mecklenburgische Seenplatte",
+          "Vogtland",
+          "Rhein-Sieg-Kreis"
+        ]
+      },
+      "ru": {
+        "q": "Какой из них является округом в Мекленбурге-Передней Померании?",
+        "opts": [
+          "Пригниц",
+          "Мекленбургское поозерье",
+          "Фогтланд",
+          "Рейн-Зиг"
+        ]
+      }
+    },
+    "303": {
+      "tr": {
+        "q": "Mecklenburg-Vorpommern eyalet meclisi kaç yıl için seçilir?",
+        "opts": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      },
+      "ru": {
+        "q": "На сколько лет избирается ландтаг земли Мекленбург-Передняя Померания?",
+        "opts": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      }
+    },
+    "304": {
+      "tr": {
+        "q": "Mecklenburg-Vorpommern'de yerel seçimlerde kaç yaşından itibaren oy kullanılabilir?",
+        "opts": [
+          "14",
+          "16",
+          "18",
+          "20"
+        ]
+      },
+      "ru": {
+        "q": "С какого возраста можно голосовать на местных выборах в Мекленбурге-Передней Померании?",
+        "opts": [
+          "14",
+          "16",
+          "18",
+          "20"
+        ]
+      }
+    },
+    "305": {
+      "tr": {
+        "q": "Mecklenburg-Vorpommern eyalet bayrağının renkleri nelerdir?",
+        "opts": [
+          "siyah-kırmızı-altın",
+          "mavi-beyaz-sarı-kırmızı",
+          "yeşil-beyaz-kırmızı",
+          "siyah-sarı"
+        ]
+      },
+      "ru": {
+        "q": "Какие цвета имеет флаг земли Мекленбург-Передняя Померания?",
+        "opts": [
+          "чёрно-красно-золотой",
+          "сине-бело-жёлто-красный",
+          "зелёно-бело-красный",
+          "чёрно-жёлтый"
+        ]
+      }
+    },
+    "306": {
+      "tr": {
+        "q": "Mecklenburg-Vorpommern'de siyasi konular hakkında nereden bilgi alabilirsiniz?",
+        "opts": [
+          "Eyalet Siyasi Eğitim Merkezi'nde",
+          "kiliselerde",
+          "belediye düzen dairesinde",
+          "tüketici merkezinde"
+        ]
+      },
+      "ru": {
+        "q": "Где можно получить информацию о политических темах в Мекленбурге-Передней Померании?",
+        "opts": [
+          "в земельном центре политического образования",
+          "в церквях",
+          "в отделе общественного порядка общины",
+          "в центре защиты прав потребителей"
+        ]
+      }
+    },
+    "307": {
+      "tr": {
+        "q": "Mecklenburg-Vorpommern eyaletinin başkentinin adı …",
+        "opts": [
+          "Greifswald.",
+          "Schwerin.",
+          "Rostock.",
+          "Wismar."
+        ]
+      },
+      "ru": {
+        "q": "Столица земли Мекленбург-Передняя Померания называется …",
+        "opts": [
+          "Грайфсвальд.",
+          "Шверин.",
+          "Росток.",
+          "Висмар."
+        ]
+      }
+    },
+    "308": {
+      "tr": {
+        "q": "Mecklenburg-Vorpommern hangi (işaretli) eyalettir?",
+        "opts": [
+          "Resim 1",
+          "Resim 2",
+          "Resim 3",
+          "Resim 4"
+        ]
+      },
+      "ru": {
+        "q": "Какая (выделенная) земля — это Мекленбург-Передняя Померания?",
+        "opts": [
+          "Изображение 1",
+          "Изображение 2",
+          "Изображение 3",
+          "Изображение 4"
+        ]
+      }
+    },
+    "309": {
+      "tr": {
+        "q": "Mecklenburg-Vorpommern'de hükümet başkanına ne denir?",
+        "opts": [
+          "Birinci Bakan",
+          "Başbakan",
+          "Belediye Başkanı",
+          "Eyalet Başbakanı (Ministerpräsident)"
+        ]
+      },
+      "ru": {
+        "q": "Как называется глава правительства в Мекленбурге-Передней Померании?",
+        "opts": [
+          "Первый министр",
+          "Премьер-министр",
+          "Бургомистр",
+          "Премьер-министр земли (Ministerpräsident)"
+        ]
+      }
+    },
+    "310": {
+      "tr": {
+        "q": "Mecklenburg-Vorpommern'de hangi bakanlık yoktur?",
+        "opts": [
+          "Adalet Bakanı",
+          "Dışişleri Bakanı",
+          "Maliye Bakanı",
+          "İçişleri Bakanı"
+        ]
+      },
+      "ru": {
+        "q": "Какого министра нет в Мекленбурге-Передней Померании?",
+        "opts": [
+          "министр юстиции",
+          "министр иностранных дел",
+          "министр финансов",
+          "министр внутренних дел"
+        ]
+      }
+    }
+  },
+  "niedersachsen": {
+    "301": {
+      "tr": {
+        "q": "Aşağı Saksonya Eyaleti'nin arması hangisidir?",
+        "opts": [
+          "Resim 1",
+          "Resim 2",
+          "Resim 3",
+          "Resim 4"
+        ]
+      },
+      "ru": {
+        "q": "Какой герб принадлежит земле Нижняя Саксония?",
+        "opts": [
+          "Изображение 1",
+          "Изображение 2",
+          "Изображение 3",
+          "Изображение 4"
+        ]
+      }
+    },
+    "302": {
+      "tr": {
+        "q": "Aşağı Saksonya'de hangisi bir ilçedir?",
+        "opts": [
+          "Ammerland",
+          "Rhein-Sieg-Kreis",
+          "Kuzey Frizya",
+          "Vogtland"
+        ]
+      },
+      "ru": {
+        "q": "Какой из них является округом в Нижней Саксонии?",
+        "opts": [
+          "Аммерланд",
+          "Рейн-Зиг",
+          "Северная Фризия",
+          "Фогтланд"
+        ]
+      }
+    },
+    "303": {
+      "tr": {
+        "q": "Aşağı Saksonya eyalet meclisi kaç yıl için seçilir?",
+        "opts": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      },
+      "ru": {
+        "q": "На сколько лет избирается ландтаг земли Нижняя Саксония?",
+        "opts": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      }
+    },
+    "304": {
+      "tr": {
+        "q": "Aşağı Saksonya'de yerel seçimlerde kaç yaşından itibaren oy kullanılabilir?",
+        "opts": [
+          "14",
+          "16",
+          "18",
+          "20"
+        ]
+      },
+      "ru": {
+        "q": "С какого возраста можно голосовать на местных выборах в Нижней Саксонии?",
+        "opts": [
+          "14",
+          "16",
+          "18",
+          "20"
+        ]
+      }
+    },
+    "305": {
+      "tr": {
+        "q": "Aşağı Saksonya eyalet bayrağının renkleri nelerdir?",
+        "opts": [
+          "beyaz-mavi",
+          "siyah-kırmızı-altın",
+          "siyah-sarı",
+          "yeşil-beyaz-kırmızı"
+        ]
+      },
+      "ru": {
+        "q": "Какие цвета имеет флаг земли Нижняя Саксония?",
+        "opts": [
+          "бело-синий",
+          "чёрно-красно-золотой",
+          "чёрно-жёлтый",
+          "зелёно-бело-красный"
+        ]
+      }
+    },
+    "306": {
+      "tr": {
+        "q": "Aşağı Saksonya'de siyasi konular hakkında nereden bilgi alabilirsiniz?",
+        "opts": [
+          "Eyalet Siyasi Eğitim Merkezi'nde",
+          "belediye düzen dairesinde",
+          "tüketici merkezinde",
+          "kiliselerde"
+        ]
+      },
+      "ru": {
+        "q": "Где можно получить информацию о политических темах в Нижней Саксонии?",
+        "opts": [
+          "в земельном центре политического образования",
+          "в отделе общественного порядка общины",
+          "в центре защиты прав потребителей",
+          "в церквях"
+        ]
+      }
+    },
+    "307": {
+      "tr": {
+        "q": "Aşağı Saksonya eyaletinin başkentinin adı …",
+        "opts": [
+          "Hannover.",
+          "Braunschweig.",
+          "Wolfsburg.",
+          "Osnabrück."
+        ]
+      },
+      "ru": {
+        "q": "Столица земли Нижняя Саксония называется …",
+        "opts": [
+          "Ганновер.",
+          "Брауншвейг.",
+          "Вольфсбург.",
+          "Оснабрюк."
+        ]
+      }
+    },
+    "308": {
+      "tr": {
+        "q": "Aşağı Saksonya hangi (işaretli) eyalettir?",
+        "opts": [
+          "Resim 1",
+          "Resim 2",
+          "Resim 3",
+          "Resim 4"
+        ]
+      },
+      "ru": {
+        "q": "Какая (выделенная) земля — это Нижняя Саксония?",
+        "opts": [
+          "Изображение 1",
+          "Изображение 2",
+          "Изображение 3",
+          "Изображение 4"
+        ]
+      }
+    },
+    "309": {
+      "tr": {
+        "q": "Aşağı Saksonya'de hükümet başkanına ne denir?",
+        "opts": [
+          "Birinci Bakan",
+          "Başbakan",
+          "Belediye Başkanı",
+          "Eyalet Başbakanı (Ministerpräsident)"
+        ]
+      },
+      "ru": {
+        "q": "Как называется глава правительства в Нижней Саксонии?",
+        "opts": [
+          "Первый министр",
+          "Премьер-министр",
+          "Бургомистр",
+          "Премьер-министр земли (Ministerpräsident)"
+        ]
+      }
+    },
+    "310": {
+      "tr": {
+        "q": "Aşağı Saksonya'de hangi bakanlık yoktur?",
+        "opts": [
+          "Adalet Bakanı",
+          "Dışişleri Bakanı",
+          "Maliye Bakanı",
+          "İçişleri Bakanı"
+        ]
+      },
+      "ru": {
+        "q": "Какого министра нет в Нижней Саксонии?",
+        "opts": [
+          "министр юстиции",
+          "министр иностранных дел",
+          "министр финансов",
+          "министр внутренних дел"
+        ]
+      }
+    }
+  },
+  "nordrhein-westfalen": {
+    "301": {
+      "tr": {
+        "q": "Kuzey Ren-Vestfalya Eyaleti'nin arması hangisidir?",
+        "opts": [
+          "Resim 1",
+          "Resim 2",
+          "Resim 3",
+          "Resim 4"
+        ]
+      },
+      "ru": {
+        "q": "Какой герб принадлежит земле Северный Рейн-Вестфалия?",
+        "opts": [
+          "Изображение 1",
+          "Изображение 2",
+          "Изображение 3",
+          "Изображение 4"
+        ]
+      }
+    },
+    "302": {
+      "tr": {
+        "q": "Kuzey Ren-Vestfalya'de hangisi bir ilçedir?",
+        "opts": [
+          "Ammerland",
+          "Rhein-Sieg-Kreis",
+          "Kuzey Frizya",
+          "Vogtland"
+        ]
+      },
+      "ru": {
+        "q": "Какой из них является округом в Северном Рейне-Вестфалии?",
+        "opts": [
+          "Аммерланд",
+          "Рейн-Зиг",
+          "Северная Фризия",
+          "Фогтланд"
+        ]
+      }
+    },
+    "303": {
+      "tr": {
+        "q": "Kuzey Ren-Vestfalya eyalet meclisi kaç yıl için seçilir?",
+        "opts": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      },
+      "ru": {
+        "q": "На сколько лет избирается ландтаг земли Северный Рейн-Вестфалия?",
+        "opts": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      }
+    },
+    "304": {
+      "tr": {
+        "q": "Kuzey Ren-Vestfalya'de yerel seçimlerde kaç yaşından itibaren oy kullanılabilir?",
+        "opts": [
+          "14",
+          "16",
+          "18",
+          "20"
+        ]
+      },
+      "ru": {
+        "q": "С какого возраста можно голосовать на местных выборах в Северном Рейне-Вестфалии?",
+        "opts": [
+          "14",
+          "16",
+          "18",
+          "20"
+        ]
+      }
+    },
+    "305": {
+      "tr": {
+        "q": "Kuzey Ren-Vestfalya eyalet bayrağının renkleri nelerdir?",
+        "opts": [
+          "kırmızı-beyaz",
+          "yeşil-beyaz-kırmızı",
+          "siyah-altın",
+          "mavi-beyaz-kırmızı"
+        ]
+      },
+      "ru": {
+        "q": "Какие цвета имеет флаг земли Северный Рейн-Вестфалия?",
+        "opts": [
+          "красно-белый",
+          "зелёно-бело-красный",
+          "чёрно-золотой",
+          "сине-бело-красный"
+        ]
+      }
+    },
+    "306": {
+      "tr": {
+        "q": "Kuzey Ren-Vestfalya'de siyasi konular hakkında nereden bilgi alabilirsiniz?",
+        "opts": [
+          "kiliselerde",
+          "belediye düzen dairesinde",
+          "tüketici merkezinde",
+          "Eyalet Siyasi Eğitim Merkezi'nde"
+        ]
+      },
+      "ru": {
+        "q": "Где можно получить информацию о политических темах в Северном Рейне-Вестфалии?",
+        "opts": [
+          "в церквях",
+          "в отделе общественного порядка общины",
+          "в центре защиты прав потребителей",
+          "в земельном центре политического образования"
+        ]
+      }
+    },
+    "307": {
+      "tr": {
+        "q": "Kuzey Ren-Vestfalya eyaletinin başkentinin adı …",
+        "opts": [
+          "Köln.",
+          "Bonn.",
+          "Düsseldorf.",
+          "Dortmund."
+        ]
+      },
+      "ru": {
+        "q": "Столица земли Северный Рейн-Вестфалия называется …",
+        "opts": [
+          "Кёльн.",
+          "Бонн.",
+          "Дюссельдорф.",
+          "Дортмунд."
+        ]
+      }
+    },
+    "308": {
+      "tr": {
+        "q": "Kuzey Ren-Vestfalya hangi (işaretli) eyalettir?",
+        "opts": [
+          "Resim 1",
+          "Resim 2",
+          "Resim 3",
+          "Resim 4"
+        ]
+      },
+      "ru": {
+        "q": "Какая (выделенная) земля — это Северный Рейн-Вестфалия?",
+        "opts": [
+          "Изображение 1",
+          "Изображение 2",
+          "Изображение 3",
+          "Изображение 4"
+        ]
+      }
+    },
+    "309": {
+      "tr": {
+        "q": "Kuzey Ren-Vestfalya'de hükümet başkanına ne denir?",
+        "opts": [
+          "Birinci Bakan",
+          "Başbakan",
+          "Belediye Başkanı",
+          "Eyalet Başbakanı (Ministerpräsident)"
+        ]
+      },
+      "ru": {
+        "q": "Как называется глава правительства в Северном Рейне-Вестфалии?",
+        "opts": [
+          "Первый министр",
+          "Премьер-министр",
+          "Бургомистр",
+          "Премьер-министр земли (Ministerpräsident)"
+        ]
+      }
+    },
+    "310": {
+      "tr": {
+        "q": "Kuzey Ren-Vestfalya'de hangi bakanlık yoktur?",
+        "opts": [
+          "Adalet Bakanı",
+          "Dışişleri Bakanı",
+          "Maliye Bakanı",
+          "İçişleri Bakanı"
+        ]
+      },
+      "ru": {
+        "q": "Какого министра нет в Северном Рейне-Вестфалии?",
+        "opts": [
+          "министр юстиции",
+          "министр иностранных дел",
+          "министр финансов",
+          "министр внутренних дел"
+        ]
+      }
+    }
+  },
+  "rheinland-pfalz": {
+    "301": {
+      "tr": {
+        "q": "Ren-Palatinate Eyaleti'nin arması hangisidir?",
+        "opts": [
+          "Resim 1",
+          "Resim 2",
+          "Resim 3",
+          "Resim 4"
+        ]
+      },
+      "ru": {
+        "q": "Какой герб принадлежит земле Рейнланд-Пфальц?",
+        "opts": [
+          "Изображение 1",
+          "Изображение 2",
+          "Изображение 3",
+          "Изображение 4"
+        ]
+      }
+    },
+    "302": {
+      "tr": {
+        "q": "Ren-Palatinate'de hangisi bir ilçedir?",
+        "opts": [
+          "Westerwald",
+          "Altötting",
+          "Emsland",
+          "Prignitz"
+        ]
+      },
+      "ru": {
+        "q": "Какой из них является округом в Рейнланд-Пфальце?",
+        "opts": [
+          "Вестервальд",
+          "Альтёттинг",
+          "Эмсланд",
+          "Пригниц"
+        ]
+      }
+    },
+    "303": {
+      "tr": {
+        "q": "Ren-Palatinate eyalet meclisi kaç yıl için seçilir?",
+        "opts": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      },
+      "ru": {
+        "q": "На сколько лет избирается ландтаг земли Рейнланд-Пфальц?",
+        "opts": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      }
+    },
+    "304": {
+      "tr": {
+        "q": "Ren-Palatinate'de yerel seçimlerde kaç yaşından itibaren oy kullanılabilir?",
+        "opts": [
+          "14",
+          "16",
+          "18",
+          "20"
+        ]
+      },
+      "ru": {
+        "q": "С какого возраста можно голосовать на местных выборах в Рейнланд-Пфальце?",
+        "opts": [
+          "14",
+          "16",
+          "18",
+          "20"
+        ]
+      }
+    },
+    "305": {
+      "tr": {
+        "q": "Ren-Palatinate eyalet bayrağının renkleri nelerdir?",
+        "opts": [
+          "beyaz-kırmızı",
+          "siyah-kırmızı-altın",
+          "siyah-sarı",
+          "yeşil-beyaz-kırmızı"
+        ]
+      },
+      "ru": {
+        "q": "Какие цвета имеет флаг земли Рейнланд-Пфальц?",
+        "opts": [
+          "бело-красный",
+          "чёрно-красно-золотой",
+          "чёрно-жёлтый",
+          "зелёно-бело-красный"
+        ]
+      }
+    },
+    "306": {
+      "tr": {
+        "q": "Ren-Palatinate'de siyasi konular hakkında nereden bilgi alabilirsiniz?",
+        "opts": [
+          "kiliselerde",
+          "tüketici merkezinde",
+          "belediye düzen dairesinde",
+          "Eyalet Siyasi Eğitim Merkezi'nde"
+        ]
+      },
+      "ru": {
+        "q": "Где можно получить информацию о политических темах в Рейнланд-Пфальце?",
+        "opts": [
+          "в церквях",
+          "в центре защиты прав потребителей",
+          "в отделе общественного порядка общины",
+          "в земельном центре политического образования"
+        ]
+      }
+    },
+    "307": {
+      "tr": {
+        "q": "Ren-Palatinate eyaletinin başkentinin adı …",
+        "opts": [
+          "Mainz.",
+          "Kaiserslautern.",
+          "Ludwigshafen.",
+          "Koblenz."
+        ]
+      },
+      "ru": {
+        "q": "Столица земли Рейнланд-Пфальц называется …",
+        "opts": [
+          "Майнц.",
+          "Кайзерслаутерн.",
+          "Людвигсхафен.",
+          "Кобленц."
+        ]
+      }
+    },
+    "308": {
+      "tr": {
+        "q": "Ren-Palatinate hangi (işaretli) eyalettir?",
+        "opts": [
+          "Resim 1",
+          "Resim 2",
+          "Resim 3",
+          "Resim 4"
+        ]
+      },
+      "ru": {
+        "q": "Какая (выделенная) земля — это Рейнланд-Пфальц?",
+        "opts": [
+          "Изображение 1",
+          "Изображение 2",
+          "Изображение 3",
+          "Изображение 4"
+        ]
+      }
+    },
+    "309": {
+      "tr": {
+        "q": "Ren-Palatinate'de hükümet başkanına ne denir?",
+        "opts": [
+          "Birinci Bakan",
+          "Başbakan",
+          "Belediye Başkanı",
+          "Eyalet Başbakanı (Ministerpräsident)"
+        ]
+      },
+      "ru": {
+        "q": "Как называется глава правительства в Рейнланд-Пфальце?",
+        "opts": [
+          "Первый министр",
+          "Премьер-министр",
+          "Бургомистр",
+          "Премьер-министр земли (Ministerpräsident)"
+        ]
+      }
+    },
+    "310": {
+      "tr": {
+        "q": "Ren-Palatinate'de hangi bakanlık yoktur?",
+        "opts": [
+          "Adalet Bakanı",
+          "Dışişleri Bakanı",
+          "Maliye Bakanı",
+          "İçişleri Bakanı"
+        ]
+      },
+      "ru": {
+        "q": "Какого министра нет в Рейнланд-Пфальце?",
+        "opts": [
+          "министр юстиции",
+          "министр иностранных дел",
+          "министр финансов",
+          "министр внутренних дел"
+        ]
+      }
+    }
+  },
+  "saarland": {
+    "301": {
+      "tr": {
+        "q": "Saarland Eyaleti'nin arması hangisidir?",
+        "opts": [
+          "Resim 1",
+          "Resim 2",
+          "Resim 3",
+          "Resim 4"
+        ]
+      },
+      "ru": {
+        "q": "Какой герб принадлежит земле Саар?",
+        "opts": [
+          "Изображение 1",
+          "Изображение 2",
+          "Изображение 3",
+          "Изображение 4"
+        ]
+      }
+    },
+    "302": {
+      "tr": {
+        "q": "Saarland'de hangisi bir ilçedir?",
+        "opts": [
+          "Mecklenburgische Seenplatte",
+          "Altötting",
+          "Neunkirchen",
+          "Rhein-Sieg-Kreis"
+        ]
+      },
+      "ru": {
+        "q": "Какой из них является округом в Сааре?",
+        "opts": [
+          "Мекленбургское поозерье",
+          "Альтёттинг",
+          "Нойнкирхен",
+          "Рейн-Зиг"
+        ]
+      }
+    },
+    "303": {
+      "tr": {
+        "q": "Saarland eyalet meclisi kaç yıl için seçilir?",
+        "opts": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      },
+      "ru": {
+        "q": "На сколько лет избирается ландтаг земли Саар?",
+        "opts": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      }
+    },
+    "304": {
+      "tr": {
+        "q": "Saarland'de yerel seçimlerde kaç yaşından itibaren oy kullanılabilir?",
+        "opts": [
+          "14",
+          "16",
+          "18",
+          "20"
+        ]
+      },
+      "ru": {
+        "q": "С какого возраста можно голосовать на местных выборах в Сааре?",
+        "opts": [
+          "14",
+          "16",
+          "18",
+          "20"
+        ]
+      }
+    },
+    "305": {
+      "tr": {
+        "q": "Saarland eyalet bayrağının renkleri nelerdir?",
+        "opts": [
+          "beyaz-mavi",
+          "siyah-kırmızı-altın",
+          "siyah-sarı",
+          "yeşil-beyaz-kırmızı"
+        ]
+      },
+      "ru": {
+        "q": "Какие цвета имеет флаг земли Саар?",
+        "opts": [
+          "бело-синий",
+          "чёрно-красно-золотой",
+          "чёрно-жёлтый",
+          "зелёно-бело-красный"
+        ]
+      }
+    },
+    "306": {
+      "tr": {
+        "q": "Saarland'de siyasi konular hakkında nereden bilgi alabilirsiniz?",
+        "opts": [
+          "kiliselerde",
+          "Eyalet Siyasi Eğitim Merkezi'nde",
+          "tüketici merkezinde",
+          "belediye düzen dairesinde"
+        ]
+      },
+      "ru": {
+        "q": "Где можно получить информацию о политических темах в Сааре?",
+        "opts": [
+          "в церквях",
+          "в земельном центре политического образования",
+          "в центре защиты прав потребителей",
+          "в отделе общественного порядка общины"
+        ]
+      }
+    },
+    "307": {
+      "tr": {
+        "q": "Saarland eyaletinin başkentinin adı …",
+        "opts": [
+          "Neunkirchen.",
+          "Homburg.",
+          "Saarbrücken.",
+          "Völklingen."
+        ]
+      },
+      "ru": {
+        "q": "Столица земли Саар называется …",
+        "opts": [
+          "Нойнкирхен.",
+          "Хомбург.",
+          "Саарбрюккен.",
+          "Фёльклинген."
+        ]
+      }
+    },
+    "308": {
+      "tr": {
+        "q": "Saarland hangi (işaretli) eyalettir?",
+        "opts": [
+          "Resim 1",
+          "Resim 2",
+          "Resim 3",
+          "Resim 4"
+        ]
+      },
+      "ru": {
+        "q": "Какая (выделенная) земля — это Саар?",
+        "opts": [
+          "Изображение 1",
+          "Изображение 2",
+          "Изображение 3",
+          "Изображение 4"
+        ]
+      }
+    },
+    "309": {
+      "tr": {
+        "q": "Saarland'de hükümet başkanına ne denir?",
+        "opts": [
+          "Birinci Bakan",
+          "Başbakan",
+          "Belediye Başkanı",
+          "Eyalet Başbakanı (Ministerpräsident)"
+        ]
+      },
+      "ru": {
+        "q": "Как называется глава правительства в Сааре?",
+        "opts": [
+          "Первый министр",
+          "Премьер-министр",
+          "Бургомистр",
+          "Премьер-министр земли (Ministerpräsident)"
+        ]
+      }
+    },
+    "310": {
+      "tr": {
+        "q": "Saarland'de hangi bakanlık yoktur?",
+        "opts": [
+          "Adalet Bakanı",
+          "Dışişleri Bakanı",
+          "Maliye Bakanı",
+          "İçişleri Bakanı"
+        ]
+      },
+      "ru": {
+        "q": "Какого министра нет в Сааре?",
+        "opts": [
+          "министр юстиции",
+          "министр иностранных дел",
+          "министр финансов",
+          "министр внутренних дел"
+        ]
+      }
+    }
+  },
+  "sachsen": {
+    "301": {
+      "tr": {
+        "q": "Saksonya Eyaleti'nin arması hangisidir?",
+        "opts": [
+          "Resim 1",
+          "Resim 2",
+          "Resim 3",
+          "Resim 4"
+        ]
+      },
+      "ru": {
+        "q": "Какой герб принадлежит земле Саксония?",
+        "opts": [
+          "Изображение 1",
+          "Изображение 2",
+          "Изображение 3",
+          "Изображение 4"
+        ]
+      }
+    },
+    "302": {
+      "tr": {
+        "q": "Saksonya'de hangisi bir ilçedir?",
+        "opts": [
+          "Vogtland",
+          "Altötting",
+          "Uckermark",
+          "Kuzey Frizya"
+        ]
+      },
+      "ru": {
+        "q": "Какой из них является округом в Саксонии?",
+        "opts": [
+          "Фогтланд",
+          "Альтёттинг",
+          "Уккермарк",
+          "Северная Фризия"
+        ]
+      }
+    },
+    "303": {
+      "tr": {
+        "q": "Saksonya eyalet meclisi kaç yıl için seçilir?",
+        "opts": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      },
+      "ru": {
+        "q": "На сколько лет избирается ландтаг земли Саксония?",
+        "opts": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      }
+    },
+    "304": {
+      "tr": {
+        "q": "Saksonya'de yerel seçimlerde kaç yaşından itibaren oy kullanılabilir?",
+        "opts": [
+          "14",
+          "16",
+          "18",
+          "20"
+        ]
+      },
+      "ru": {
+        "q": "С какого возраста можно голосовать на местных выборах в Саксонии?",
+        "opts": [
+          "14",
+          "16",
+          "18",
+          "20"
+        ]
+      }
+    },
+    "305": {
+      "tr": {
+        "q": "Saksonya eyalet bayrağının renkleri nelerdir?",
+        "opts": [
+          "mavi-beyaz-kırmızı",
+          "beyaz-yeşil",
+          "yeşil-beyaz-kırmızı",
+          "siyah-sarı"
+        ]
+      },
+      "ru": {
+        "q": "Какие цвета имеет флаг земли Саксония?",
+        "opts": [
+          "сине-бело-красный",
+          "бело-зелёный",
+          "зелёно-бело-красный",
+          "чёрно-жёлтый"
+        ]
+      }
+    },
+    "306": {
+      "tr": {
+        "q": "Saksonya'de siyasi konular hakkında nereden bilgi alabilirsiniz?",
+        "opts": [
+          "Eyalet Siyasi Eğitim Merkezi'nde",
+          "belediye düzen dairesinde",
+          "kiliselerde",
+          "tüketici merkezinde"
+        ]
+      },
+      "ru": {
+        "q": "Где можно получить информацию о политических темах в Саксонии?",
+        "opts": [
+          "в земельном центре политического образования",
+          "в отделе общественного порядка общины",
+          "в церквях",
+          "в центре защиты прав потребителей"
+        ]
+      }
+    },
+    "307": {
+      "tr": {
+        "q": "Saksonya eyaletinin başkentinin adı …",
+        "opts": [
+          "Leipzig.",
+          "Chemnitz.",
+          "Dresden.",
+          "Görlitz."
+        ]
+      },
+      "ru": {
+        "q": "Столица земли Саксония называется …",
+        "opts": [
+          "Лейпциг.",
+          "Хемниц.",
+          "Дрезден.",
+          "Гёрлиц."
+        ]
+      }
+    },
+    "308": {
+      "tr": {
+        "q": "Saksonya hangi (işaretli) eyalettir?",
+        "opts": [
+          "Resim 1",
+          "Resim 2",
+          "Resim 3",
+          "Resim 4"
+        ]
+      },
+      "ru": {
+        "q": "Какая (выделенная) земля — это Саксония?",
+        "opts": [
+          "Изображение 1",
+          "Изображение 2",
+          "Изображение 3",
+          "Изображение 4"
+        ]
+      }
+    },
+    "309": {
+      "tr": {
+        "q": "Saksonya'de hükümet başkanına ne denir?",
+        "opts": [
+          "Birinci Bakan",
+          "Başbakan",
+          "Belediye Başkanı",
+          "Eyalet Başbakanı (Ministerpräsident)"
+        ]
+      },
+      "ru": {
+        "q": "Как называется глава правительства в Саксонии?",
+        "opts": [
+          "Первый министр",
+          "Премьер-министр",
+          "Бургомистр",
+          "Премьер-министр земли (Ministerpräsident)"
+        ]
+      }
+    },
+    "310": {
+      "tr": {
+        "q": "Saksonya'de hangi bakanlık yoktur?",
+        "opts": [
+          "Adalet Bakanı",
+          "Dışişleri Bakanı",
+          "Maliye Bakanı",
+          "İçişleri Bakanı"
+        ]
+      },
+      "ru": {
+        "q": "Какого министра нет в Саксонии?",
+        "opts": [
+          "министр юстиции",
+          "министр иностранных дел",
+          "министр финансов",
+          "министр внутренних дел"
+        ]
+      }
+    }
+  },
+  "sachsen-anhalt": {
+    "301": {
+      "tr": {
+        "q": "Saksonya-Anhalt Eyaleti'nin arması hangisidir?",
+        "opts": [
+          "Resim 1",
+          "Resim 2",
+          "Resim 3",
+          "Resim 4"
+        ]
+      },
+      "ru": {
+        "q": "Какой герб принадлежит земле Саксония-Анхальт?",
+        "opts": [
+          "Изображение 1",
+          "Изображение 2",
+          "Изображение 3",
+          "Изображение 4"
+        ]
+      }
+    },
+    "302": {
+      "tr": {
+        "q": "Saksonya-Anhalt'de hangisi bir ilçedir?",
+        "opts": [
+          "Ammerland",
+          "Altötting",
+          "Uckermark",
+          "Börde"
+        ]
+      },
+      "ru": {
+        "q": "Какой из них является округом в Саксонии-Анхальт?",
+        "opts": [
+          "Аммерланд",
+          "Альтёттинг",
+          "Уккермарк",
+          "Бёрде"
+        ]
+      }
+    },
+    "303": {
+      "tr": {
+        "q": "Saksonya-Anhalt eyalet meclisi kaç yıl için seçilir?",
+        "opts": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      },
+      "ru": {
+        "q": "На сколько лет избирается ландтаг земли Саксония-Анхальт?",
+        "opts": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      }
+    },
+    "304": {
+      "tr": {
+        "q": "Saksonya-Anhalt'de yerel seçimlerde kaç yaşından itibaren oy kullanılabilir?",
+        "opts": [
+          "14",
+          "16",
+          "18",
+          "20"
+        ]
+      },
+      "ru": {
+        "q": "С какого возраста можно голосовать на местных выборах в Саксонии-Анхальт?",
+        "opts": [
+          "14",
+          "16",
+          "18",
+          "20"
+        ]
+      }
+    },
+    "305": {
+      "tr": {
+        "q": "Saksonya-Anhalt eyalet bayrağının renkleri nelerdir?",
+        "opts": [
+          "mavi-beyaz-kırmızı",
+          "sarı-siyah",
+          "yeşil-beyaz-kırmızı",
+          "beyaz-kırmızı"
+        ]
+      },
+      "ru": {
+        "q": "Какие цвета имеет флаг земли Саксония-Анхальт?",
+        "opts": [
+          "сине-бело-красный",
+          "жёлто-чёрный",
+          "зелёно-бело-красный",
+          "бело-красный"
+        ]
+      }
+    },
+    "306": {
+      "tr": {
+        "q": "Saksonya-Anhalt'de siyasi konular hakkında nereden bilgi alabilirsiniz?",
+        "opts": [
+          "kiliselerde",
+          "Eyalet Siyasi Eğitim Merkezi'nde",
+          "belediye düzen dairesinde",
+          "tüketici merkezinde"
+        ]
+      },
+      "ru": {
+        "q": "Где можно получить информацию о политических темах в Саксонии-Анхальт?",
+        "opts": [
+          "в церквях",
+          "в земельном центре политического образования",
+          "в отделе общественного порядка общины",
+          "в центре защиты прав потребителей"
+        ]
+      }
+    },
+    "307": {
+      "tr": {
+        "q": "Saksonya-Anhalt eyaletinin başkentinin adı …",
+        "opts": [
+          "Halle.",
+          "Dessau.",
+          "Magdeburg.",
+          "Wittenberg."
+        ]
+      },
+      "ru": {
+        "q": "Столица земли Саксония-Анхальт называется …",
+        "opts": [
+          "Галле.",
+          "Дессау.",
+          "Магдебург.",
+          "Виттенберг."
+        ]
+      }
+    },
+    "308": {
+      "tr": {
+        "q": "Saksonya-Anhalt hangi (işaretli) eyalettir?",
+        "opts": [
+          "Resim 1",
+          "Resim 2",
+          "Resim 3",
+          "Resim 4"
+        ]
+      },
+      "ru": {
+        "q": "Какая (выделенная) земля — это Саксония-Анхальт?",
+        "opts": [
+          "Изображение 1",
+          "Изображение 2",
+          "Изображение 3",
+          "Изображение 4"
+        ]
+      }
+    },
+    "309": {
+      "tr": {
+        "q": "Saksonya-Anhalt'de hükümet başkanına ne denir?",
+        "opts": [
+          "Birinci Bakan",
+          "Başbakan",
+          "Belediye Başkanı",
+          "Eyalet Başbakanı (Ministerpräsident)"
+        ]
+      },
+      "ru": {
+        "q": "Как называется глава правительства в Саксонии-Анхальт?",
+        "opts": [
+          "Первый министр",
+          "Премьер-министр",
+          "Бургомистр",
+          "Премьер-министр земли (Ministerpräsident)"
+        ]
+      }
+    },
+    "310": {
+      "tr": {
+        "q": "Saksonya-Anhalt'de hangi bakanlık yoktur?",
+        "opts": [
+          "Adalet Bakanı",
+          "Dışişleri Bakanı",
+          "Maliye Bakanı",
+          "İçişleri Bakanı"
+        ]
+      },
+      "ru": {
+        "q": "Какого министра нет в Саксонии-Анхальт?",
+        "opts": [
+          "министр юстиции",
+          "министр иностранных дел",
+          "министр финансов",
+          "министр внутренних дел"
+        ]
+      }
+    }
+  },
+  "schleswig-holstein": {
+    "301": {
+      "tr": {
+        "q": "Schleswig-Holstein Eyaleti'nin arması hangisidir?",
+        "opts": [
+          "Resim 1",
+          "Resim 2",
+          "Resim 3",
+          "Resim 4"
+        ]
+      },
+      "ru": {
+        "q": "Какой герб принадлежит земле Шлезвиг-Гольштейн?",
+        "opts": [
+          "Изображение 1",
+          "Изображение 2",
+          "Изображение 3",
+          "Изображение 4"
+        ]
+      }
+    },
+    "302": {
+      "tr": {
+        "q": "Schleswig-Holstein'de hangisi bir ilçedir?",
+        "opts": [
+          "Ammerland",
+          "Mecklenburgische Seenplatte",
+          "Kuzey Frizya",
+          "Rhein-Sieg-Kreis"
+        ]
+      },
+      "ru": {
+        "q": "Какой из них является округом в Шлезвиг-Гольштейне?",
+        "opts": [
+          "Аммерланд",
+          "Мекленбургское поозерье",
+          "Северная Фризия",
+          "Рейн-Зиг"
+        ]
+      }
+    },
+    "303": {
+      "tr": {
+        "q": "Schleswig-Holstein eyalet meclisi kaç yıl için seçilir?",
+        "opts": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      },
+      "ru": {
+        "q": "На сколько лет избирается ландтаг земли Шлезвиг-Гольштейн?",
+        "opts": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      }
+    },
+    "304": {
+      "tr": {
+        "q": "Schleswig-Holstein'de yerel seçimlerde kaç yaşından itibaren oy kullanılabilir?",
+        "opts": [
+          "14",
+          "16",
+          "18",
+          "20"
+        ]
+      },
+      "ru": {
+        "q": "С какого возраста можно голосовать на местных выборах в Шлезвиг-Гольштейне?",
+        "opts": [
+          "14",
+          "16",
+          "18",
+          "20"
+        ]
+      }
+    },
+    "305": {
+      "tr": {
+        "q": "Schleswig-Holstein eyalet bayrağının renkleri nelerdir?",
+        "opts": [
+          "beyaz-mavi",
+          "mavi-beyaz-kırmızı",
+          "beyaz-kırmızı",
+          "yeşil-beyaz-kırmızı"
+        ]
+      },
+      "ru": {
+        "q": "Какие цвета имеет флаг земли Шлезвиг-Гольштейн?",
+        "opts": [
+          "бело-синий",
+          "сине-бело-красный",
+          "бело-красный",
+          "зелёно-бело-красный"
+        ]
+      }
+    },
+    "306": {
+      "tr": {
+        "q": "Schleswig-Holstein'de siyasi konular hakkında nereden bilgi alabilirsiniz?",
+        "opts": [
+          "tüketici merkezinde",
+          "belediye düzen dairesinde",
+          "Eyalet Siyasi Eğitim Görevlisi'nde",
+          "kiliselerde"
+        ]
+      },
+      "ru": {
+        "q": "Где можно получить информацию о политических темах в Шлезвиг-Гольштейне?",
+        "opts": [
+          "в центре защиты прав потребителей",
+          "в отделе общественного порядка общины",
+          "у земельного уполномоченного по политическому образованию",
+          "в церквях"
+        ]
+      }
+    },
+    "307": {
+      "tr": {
+        "q": "Schleswig-Holstein eyaletinin başkentinin adı …",
+        "opts": [
+          "Husum.",
+          "Flensburg.",
+          "Lübeck.",
+          "Kiel."
+        ]
+      },
+      "ru": {
+        "q": "Столица земли Шлезвиг-Гольштейн называется …",
+        "opts": [
+          "Хузум.",
+          "Фленсбург.",
+          "Любек.",
+          "Киль."
+        ]
+      }
+    },
+    "308": {
+      "tr": {
+        "q": "Schleswig-Holstein hangi (işaretli) eyalettir?",
+        "opts": [
+          "Resim 1",
+          "Resim 2",
+          "Resim 3",
+          "Resim 4"
+        ]
+      },
+      "ru": {
+        "q": "Какая (выделенная) земля — это Шлезвиг-Гольштейн?",
+        "opts": [
+          "Изображение 1",
+          "Изображение 2",
+          "Изображение 3",
+          "Изображение 4"
+        ]
+      }
+    },
+    "309": {
+      "tr": {
+        "q": "Schleswig-Holstein'de hükümet başkanına ne denir?",
+        "opts": [
+          "Birinci Bakan",
+          "Başbakan",
+          "Belediye Başkanı",
+          "Eyalet Başbakanı (Ministerpräsident)"
+        ]
+      },
+      "ru": {
+        "q": "Как называется глава правительства в Шлезвиг-Гольштейне?",
+        "opts": [
+          "Первый министр",
+          "Премьер-министр",
+          "Бургомистр",
+          "Премьер-министр земли (Ministerpräsident)"
+        ]
+      }
+    },
+    "310": {
+      "tr": {
+        "q": "Schleswig-Holstein'de hangi bakanlık yoktur?",
+        "opts": [
+          "Adalet Bakanı",
+          "Dışişleri Bakanı",
+          "Maliye Bakanı",
+          "İçişleri Bakanı"
+        ]
+      },
+      "ru": {
+        "q": "Какого министра нет в Шлезвиг-Гольштейне?",
+        "opts": [
+          "министр юстиции",
+          "министр иностранных дел",
+          "министр финансов",
+          "министр внутренних дел"
+        ]
+      }
+    }
+  },
+  "thueringen": {
+    "301": {
+      "tr": {
+        "q": "Thüringen Eyaleti'nin arması hangisidir?",
+        "opts": [
+          "Resim 1",
+          "Resim 2",
+          "Resim 3",
+          "Resim 4"
+        ]
+      },
+      "ru": {
+        "q": "Какой герб принадлежит земле Тюрингия?",
+        "opts": [
+          "Изображение 1",
+          "Изображение 2",
+          "Изображение 3",
+          "Изображение 4"
+        ]
+      }
+    },
+    "302": {
+      "tr": {
+        "q": "Thüringen'de hangisi bir ilçedir?",
+        "opts": [
+          "Ammerland",
+          "Altötting",
+          "Kuzey Frizya",
+          "Wartburgkreis"
+        ]
+      },
+      "ru": {
+        "q": "Какой из них является округом в Тюрингии?",
+        "opts": [
+          "Аммерланд",
+          "Альтёттинг",
+          "Северная Фризия",
+          "Вартбург"
+        ]
+      }
+    },
+    "303": {
+      "tr": {
+        "q": "Thüringen eyalet meclisi kaç yıl için seçilir?",
+        "opts": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      },
+      "ru": {
+        "q": "На сколько лет избирается ландтаг земли Тюрингия?",
+        "opts": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      }
+    },
+    "304": {
+      "tr": {
+        "q": "Thüringen'de yerel seçimlerde kaç yaşından itibaren oy kullanılabilir?",
+        "opts": [
+          "14",
+          "16",
+          "18",
+          "20"
+        ]
+      },
+      "ru": {
+        "q": "С какого возраста можно голосовать на местных выборах в Тюрингии?",
+        "opts": [
+          "14",
+          "16",
+          "18",
+          "20"
+        ]
+      }
+    },
+    "305": {
+      "tr": {
+        "q": "Thüringen eyalet bayrağının renkleri nelerdir?",
+        "opts": [
+          "mavi-beyaz-kırmızı",
+          "beyaz-kırmızı",
+          "yeşil-beyaz-kırmızı",
+          "siyah-altın"
+        ]
+      },
+      "ru": {
+        "q": "Какие цвета имеет флаг земли Тюрингия?",
+        "opts": [
+          "сине-бело-красный",
+          "бело-красный",
+          "зелёно-бело-красный",
+          "чёрно-золотой"
+        ]
+      }
+    },
+    "306": {
+      "tr": {
+        "q": "Thüringen'de siyasi konular hakkında nereden bilgi alabilirsiniz?",
+        "opts": [
+          "kiliselerde",
+          "tüketici merkezinde",
+          "Eyalet Siyasi Eğitim Merkezi'nde",
+          "belediye düzen dairesinde"
+        ]
+      },
+      "ru": {
+        "q": "Где можно получить информацию о политических темах в Тюрингии?",
+        "opts": [
+          "в церквях",
+          "в центре защиты прав потребителей",
+          "в земельном центре политического образования",
+          "в отделе общественного порядка общины"
+        ]
+      }
+    },
+    "307": {
+      "tr": {
+        "q": "Thüringen eyaletinin başkentinin adı …",
+        "opts": [
+          "Eisenach.",
+          "Erfurt.",
+          "Gera.",
+          "Jena."
+        ]
+      },
+      "ru": {
+        "q": "Столица земли Тюрингия называется …",
+        "opts": [
+          "Айзенах.",
+          "Эрфурт.",
+          "Гера.",
+          "Йена."
+        ]
+      }
+    },
+    "308": {
+      "tr": {
+        "q": "Thüringen hangi (işaretli) eyalettir?",
+        "opts": [
+          "Resim 1",
+          "Resim 2",
+          "Resim 3",
+          "Resim 4"
+        ]
+      },
+      "ru": {
+        "q": "Какая (выделенная) земля — это Тюрингия?",
+        "opts": [
+          "Изображение 1",
+          "Изображение 2",
+          "Изображение 3",
+          "Изображение 4"
+        ]
+      }
+    },
+    "309": {
+      "tr": {
+        "q": "Thüringen'de hükümet başkanına ne denir?",
+        "opts": [
+          "Birinci Bakan",
+          "Başbakan",
+          "Belediye Başkanı",
+          "Eyalet Başbakanı (Ministerpräsident)"
+        ]
+      },
+      "ru": {
+        "q": "Как называется глава правительства в Тюрингии?",
+        "opts": [
+          "Первый министр",
+          "Премьер-министр",
+          "Бургомистр",
+          "Премьер-министр земли (Ministerpräsident)"
+        ]
+      }
+    },
+    "310": {
+      "tr": {
+        "q": "Thüringen'de hangi bakanlık yoktur?",
+        "opts": [
+          "Adalet Bakanı",
+          "Dışişleri Bakanı",
+          "Maliye Bakanı",
+          "İçişleri Bakanı"
+        ]
+      },
+      "ru": {
+        "q": "Какого министра нет в Тюрингии?",
+        "opts": [
+          "министр юстиции",
+          "министр иностранных дел",
+          "министр финансов",
+          "министр внутренних дел"
+        ]
+      }
+    }
+  }
+}

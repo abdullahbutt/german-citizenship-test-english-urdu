@@ -29,6 +29,26 @@
       "de": "Wichtige Fakten: Das Parlament heißt „Landtag\" (in Stuttgart). BW grenzt an Frankreich und die Schweiz. Wichtige Städte: Stuttgart, Karlsruhe, Mannheim, Freiburg, Heidelberg, Ulm. Bekannt für den Schwarzwald, Autos (Mercedes, Porsche) und seine starke Wirtschaft.",
       "tr": "Önemli bilgiler: Parlamento \"Landtag\" olarak adlandırılır (Stuttgart'ta). BW, Fransa ve İsviçre ile sınır komşusudur. Önemli şehirler: Stuttgart, Karlsruhe, Mannheim, Freiburg, Heidelberg, Ulm. Schwarzwald (Kara Orman), otomobiller (Mercedes, Porsche) ve güçlü ekonomisiyle tanınır.",
       "ru": "Ключевые факты: парламент называется «Landtag» (в Штутгарте). Баден-Вюртемберг граничит с Францией и Швейцарией. Важные города: Штутгарт, Карлсруэ, Мангейм, Фрайбург, Гейдельберг, Ульм. Известен Шварцвальдом, автомобилями (Mercedes, Porsche) и сильной экономикой."
+    },
+    "307": {
+      "de": "Stuttgart ist die Landeshauptstadt von Baden-Württemberg.",
+      "tr": "Stuttgart, Baden-Württemberg'nin başkentidir.",
+      "ru": "Stuttgart — столица земли Баден-Вюртемберг."
+    },
+    "308": {
+      "de": "Die Karte zeigt die Lage von Baden-Württemberg innerhalb Deutschlands.",
+      "tr": "Harita, Baden-Württemberg'nin Almanya içindeki konumunu gösterir.",
+      "ru": "На карте показано расположение земли Баден-Вюртемберг в составе Германии."
+    },
+    "309": {
+      "de": "Das Oberhaupt der Regierung in Baden-Württemberg trägt den Titel Ministerpräsidentin/Ministerpräsident.",
+      "tr": "Baden-Württemberg'de hükümet başkanı Ministerpräsidentin/Ministerpräsident unvanını taşır.",
+      "ru": "Глава правительства в Баден-Вюртемберг носит титул «Ministerpräsidentin/Ministerpräsident»."
+    },
+    "310": {
+      "de": "Die Außenpolitik ist in Deutschland Bundessache, keine Landessache — deshalb hat kein Bundesland, auch Baden-Württemberg nicht, einen eigenen Außenminister bzw. eine eigene Außenministerin.",
+      "tr": "Almanya'da dış politika eyalet değil federal bir konudur — bu yüzden Baden-Württemberg dahil hiçbir eyaletin kendi Dışişleri Bakanı yoktur.",
+      "ru": "Внешняя политика в Германии — федеральная, а не земельная компетенция, поэтому ни в одной немецкой земле, в том числе в Баден-Вюртемберг, нет собственного министра иностранных дел."
     }
   },
   "bayern": {
@@ -41,6 +61,46 @@
       "de": "München ist die Landeshauptstadt von Bayern.",
       "tr": "Münih (München), Bavyera'nın başkentidir.",
       "ru": "Мюнхен (München) — столица Баварии."
+    },
+    "302": {
+      "de": "Altötting liegt in Bayern; die anderen Optionen sind Landkreise bzw. Bezirke in anderen Bundesländern.",
+      "tr": "Altötting, Bavyera'de bulunur; diğer seçenekler farklı eyaletlerdeki ilçelerdir.",
+      "ru": "Altötting находится в Баварии; остальные варианты — округа в других землях."
+    },
+    "304": {
+      "de": "In Bayern liegt das Mindestwahlalter bei Kommunalwahlen bei 18.",
+      "tr": "Bavyera'de yerel seçimlerde asgari oy kullanma yaşı 18'dır.",
+      "ru": "В Баварии минимальный возраст для голосования на местных выборах составляет 18."
+    },
+    "305": {
+      "de": "Die Landesflagge von Bayern ist weiß-blau.",
+      "tr": "Bavyera eyalet bayrağı weiß-blau renklerindedir.",
+      "ru": "Флаг земли Баварии — weiß-blau."
+    },
+    "306": {
+      "de": "Politische Informationen erhält man in Bayern bei der Landeszentrale für politische Bildung.",
+      "tr": "Bavyera'de siyasi bilgi bei der Landeszentrale für politische Bildung edinilebilir.",
+      "ru": "Политическую информацию в Баварии можно получить bei der Landeszentrale für politische Bildung."
+    },
+    "307": {
+      "de": "München ist die Landeshauptstadt von Bayern.",
+      "tr": "München, Bavyera'nin başkentidir.",
+      "ru": "München — столица земли Баварии."
+    },
+    "308": {
+      "de": "Die Karte zeigt die Lage von Bayern innerhalb Deutschlands.",
+      "tr": "Harita, Bavyera'nin Almanya içindeki konumunu gösterir.",
+      "ru": "На карте показано расположение земли Баварии в составе Германии."
+    },
+    "309": {
+      "de": "Das Oberhaupt der Regierung in Bayern trägt den Titel Ministerpräsidentin/Ministerpräsident.",
+      "tr": "Bavyera'de hükümet başkanı Ministerpräsidentin/Ministerpräsident unvanını taşır.",
+      "ru": "Глава правительства в Баварии носит титул «Ministerpräsidentin/Ministerpräsident»."
+    },
+    "310": {
+      "de": "Die Außenpolitik ist in Deutschland Bundessache, keine Landessache — deshalb hat kein Bundesland, auch Bayern nicht, einen eigenen Außenminister bzw. eine eigene Außenministerin.",
+      "tr": "Almanya'da dış politika eyalet değil federal bir konudur — bu yüzden Bavyera dahil hiçbir eyaletin kendi Dışişleri Bakanı yoktur.",
+      "ru": "Внешняя политика в Германии — федеральная, а не земельная компетенция, поэтому ни в одной немецкой земле, в том числе в Баварии, нет собственного министра иностранных дел."
     }
   },
   "berlin": {
@@ -53,6 +113,46 @@
       "de": "Berlin (zugleich Hauptstadt und Bundesland) ist die Landeshauptstadt von Berlin.",
       "tr": "Berlin (hem başkent hem eyalet), Berlin'in başkentidir.",
       "ru": "Берлин (одновременно столица и земля) является столицей земли Берлин."
+    },
+    "302": {
+      "de": "Pankow liegt in Berlin; die anderen Optionen sind Landkreise bzw. Bezirke in anderen Bundesländern.",
+      "tr": "Pankow, Berlin'de bulunur; diğer seçenekler farklı eyaletlerdeki ilçelerdir.",
+      "ru": "Pankow находится в Берлине; остальные варианты — округа в других землях."
+    },
+    "304": {
+      "de": "In Berlin liegt das Mindestwahlalter bei Kommunalwahlen bei 16.",
+      "tr": "Berlin'de yerel seçimlerde asgari oy kullanma yaşı 16'dır.",
+      "ru": "В Берлине минимальный возраст для голосования на местных выборах составляет 16."
+    },
+    "305": {
+      "de": "Die Landesflagge von Berlin ist weiß-rot.",
+      "tr": "Berlin eyalet bayrağı weiß-rot renklerindedir.",
+      "ru": "Флаг земли Берлине — weiß-rot."
+    },
+    "306": {
+      "de": "Politische Informationen erhält man in Berlin bei der Landeszentrale für politische Bildung.",
+      "tr": "Berlin'de siyasi bilgi bei der Landeszentrale für politische Bildung edinilebilir.",
+      "ru": "Политическую информацию в Берлине можно получить bei der Landeszentrale für politische Bildung."
+    },
+    "307": {
+      "de": "Berlin ist die Landeshauptstadt von Berlin.",
+      "tr": "Berlin, Berlin'nin başkentidir.",
+      "ru": "Berlin — столица земли Берлине."
+    },
+    "308": {
+      "de": "Die Karte zeigt die Lage von Berlin innerhalb Deutschlands.",
+      "tr": "Harita, Berlin'nin Almanya içindeki konumunu gösterir.",
+      "ru": "На карте показано расположение земли Берлине в составе Германии."
+    },
+    "309": {
+      "de": "Das Oberhaupt der Regierung in Berlin trägt den Titel Regierender Bürgermeister/Regierende Bürgermeisterin.",
+      "tr": "Berlin'de hükümet başkanı Regierender Bürgermeister/Regierende Bürgermeisterin unvanını taşır.",
+      "ru": "Глава правительства в Берлине носит титул «Regierender Bürgermeister/Regierende Bürgermeisterin»."
+    },
+    "310": {
+      "de": "Die Außenpolitik ist in Deutschland Bundessache, keine Landessache — deshalb hat kein Bundesland, auch Berlin nicht, einen eigenen Außenminister bzw. eine eigene Außenministerin.",
+      "tr": "Almanya'da dış politika eyalet değil federal bir konudur — bu yüzden Berlin dahil hiçbir eyaletin kendi Dışişleri Bakanı yoktur.",
+      "ru": "Внешняя политика в Германии — федеральная, а не земельная компетенция, поэтому ни в одной немецкой земле, в том числе в Берлине, нет собственного министра иностранных дел."
     }
   },
   "brandenburg": {
@@ -65,6 +165,46 @@
       "de": "Potsdam ist die Landeshauptstadt von Brandenburg.",
       "tr": "Potsdam, Brandenburg'un başkentidir.",
       "ru": "Потсдам — столица земли Бранденбург."
+    },
+    "302": {
+      "de": "Prignitz liegt in Brandenburg; die anderen Optionen sind Landkreise bzw. Bezirke in anderen Bundesländern.",
+      "tr": "Prignitz, Brandenburg'de bulunur; diğer seçenekler farklı eyaletlerdeki ilçelerdir.",
+      "ru": "Prignitz находится в Бранденбурге; остальные варианты — округа в других землях."
+    },
+    "304": {
+      "de": "In Brandenburg liegt das Mindestwahlalter bei Kommunalwahlen bei 16.",
+      "tr": "Brandenburg'de yerel seçimlerde asgari oy kullanma yaşı 16'dır.",
+      "ru": "В Бранденбурге минимальный возраст для голосования на местных выборах составляет 16."
+    },
+    "305": {
+      "de": "Die Landesflagge von Brandenburg ist rot-weiß.",
+      "tr": "Brandenburg eyalet bayrağı rot-weiß renklerindedir.",
+      "ru": "Флаг земли Бранденбурге — rot-weiß."
+    },
+    "306": {
+      "de": "Politische Informationen erhält man in Brandenburg bei der Landeszentrale für politische Bildung.",
+      "tr": "Brandenburg'de siyasi bilgi bei der Landeszentrale für politische Bildung edinilebilir.",
+      "ru": "Политическую информацию в Бранденбурге можно получить bei der Landeszentrale für politische Bildung."
+    },
+    "307": {
+      "de": "Potsdam ist die Landeshauptstadt von Brandenburg.",
+      "tr": "Potsdam, Brandenburg'nin başkentidir.",
+      "ru": "Potsdam — столица земли Бранденбурге."
+    },
+    "308": {
+      "de": "Die Karte zeigt die Lage von Brandenburg innerhalb Deutschlands.",
+      "tr": "Harita, Brandenburg'nin Almanya içindeki konumunu gösterir.",
+      "ru": "На карте показано расположение земли Бранденбурге в составе Германии."
+    },
+    "309": {
+      "de": "Das Oberhaupt der Regierung in Brandenburg trägt den Titel Ministerpräsidentin/Ministerpräsident.",
+      "tr": "Brandenburg'de hükümet başkanı Ministerpräsidentin/Ministerpräsident unvanını taşır.",
+      "ru": "Глава правительства в Бранденбурге носит титул «Ministerpräsidentin/Ministerpräsident»."
+    },
+    "310": {
+      "de": "Die Außenpolitik ist in Deutschland Bundessache, keine Landessache — deshalb hat kein Bundesland, auch Brandenburg nicht, einen eigenen Außenminister bzw. eine eigene Außenministerin.",
+      "tr": "Almanya'da dış politika eyalet değil federal bir konudur — bu yüzden Brandenburg dahil hiçbir eyaletin kendi Dışişleri Bakanı yoktur.",
+      "ru": "Внешняя политика в Германии — федеральная, а не земельная компетенция, поэтому ни в одной немецкой земле, в том числе в Бранденбурге, нет собственного министра иностранных дел."
     }
   },
   "bremen": {
@@ -77,6 +217,46 @@
       "de": "Bremen ist die Landeshauptstadt von Bremen.",
       "tr": "Bremen, Bremen eyaletinin başkentidir.",
       "ru": "Бремен — столица земли Бремен."
+    },
+    "302": {
+      "de": "Hemelingen liegt in Bremen; die anderen Optionen sind Landkreise bzw. Bezirke in anderen Bundesländern.",
+      "tr": "Hemelingen, Bremen'de bulunur; diğer seçenekler farklı eyaletlerdeki ilçelerdir.",
+      "ru": "Hemelingen находится в Бремене; остальные варианты — округа в других землях."
+    },
+    "304": {
+      "de": "In Bremen liegt das Mindestwahlalter bei Kommunalwahlen bei 16.",
+      "tr": "Bremen'de yerel seçimlerde asgari oy kullanma yaşı 16'dır.",
+      "ru": "В Бремене минимальный возраст для голосования на местных выборах составляет 16."
+    },
+    "305": {
+      "de": "Die Landesflagge von Bremen ist rot-weiß.",
+      "tr": "Bremen eyalet bayrağı rot-weiß renklerindedir.",
+      "ru": "Флаг земли Бремене — rot-weiß."
+    },
+    "306": {
+      "de": "Politische Informationen erhält man in Bremen bei der Landeszentrale für politische Bildung.",
+      "tr": "Bremen'de siyasi bilgi bei der Landeszentrale für politische Bildung edinilebilir.",
+      "ru": "Политическую информацию в Бремене можно получить bei der Landeszentrale für politische Bildung."
+    },
+    "307": {
+      "de": "Bremen ist die Landeshauptstadt von Bremen.",
+      "tr": "Bremen, Bremen'nin başkentidir.",
+      "ru": "Bremen — столица земли Бремене."
+    },
+    "308": {
+      "de": "Die Karte zeigt die Lage von Bremen innerhalb Deutschlands.",
+      "tr": "Harita, Bremen'nin Almanya içindeki konumunu gösterir.",
+      "ru": "На карте показано расположение земли Бремене в составе Германии."
+    },
+    "309": {
+      "de": "Das Oberhaupt der Regierung in Bremen trägt den Titel Präsidentin/Präsident des Senates.",
+      "tr": "Bremen'de hükümet başkanı Präsidentin/Präsident des Senates unvanını taşır.",
+      "ru": "Глава правительства в Бремене носит титул «Präsidentin/Präsident des Senates»."
+    },
+    "310": {
+      "de": "Die Außenpolitik ist in Deutschland Bundessache, keine Landessache — deshalb hat kein Bundesland, auch Bremen nicht, einen eigenen Außenminister bzw. eine eigene Außenministerin.",
+      "tr": "Almanya'da dış politika eyalet değil federal bir konudur — bu yüzden Bremen dahil hiçbir eyaletin kendi Dışişleri Bakanı yoktur.",
+      "ru": "Внешняя политика в Германии — федеральная, а не земельная компетенция, поэтому ни в одной немецкой земле, в том числе в Бремене, нет собственного министра иностранных дел."
     }
   },
   "hamburg": {
@@ -89,6 +269,46 @@
       "de": "Hamburg (zugleich Stadt und Bundesland) ist die Landeshauptstadt von Hamburg.",
       "tr": "Hamburg (hem şehir hem eyalet), Hamburg'un başkentidir.",
       "ru": "Гамбург (одновременно город и земля) является столицей земли Гамбург."
+    },
+    "302": {
+      "de": "Altona liegt in Hamburg; die anderen Optionen sind Landkreise bzw. Bezirke in anderen Bundesländern.",
+      "tr": "Altona, Hamburg'de bulunur; diğer seçenekler farklı eyaletlerdeki ilçelerdir.",
+      "ru": "Altona находится в Гамбурге; остальные варианты — округа в других землях."
+    },
+    "304": {
+      "de": "In Hamburg liegt das Mindestwahlalter bei Kommunalwahlen bei 16.",
+      "tr": "Hamburg'de yerel seçimlerde asgari oy kullanma yaşı 16'dır.",
+      "ru": "В Гамбурге минимальный возраст для голосования на местных выборах составляет 16."
+    },
+    "305": {
+      "de": "Die Landesflagge von Hamburg ist weiß-rot.",
+      "tr": "Hamburg eyalet bayrağı weiß-rot renklerindedir.",
+      "ru": "Флаг земли Гамбурге — weiß-rot."
+    },
+    "306": {
+      "de": "Politische Informationen erhält man in Hamburg bei der Landeszentrale für politische Bildung.",
+      "tr": "Hamburg'de siyasi bilgi bei der Landeszentrale für politische Bildung edinilebilir.",
+      "ru": "Политическую информацию в Гамбурге можно получить bei der Landeszentrale für politische Bildung."
+    },
+    "307": {
+      "de": "Hamburg ist die Landeshauptstadt von Hamburg.",
+      "tr": "Hamburg, Hamburg'nin başkentidir.",
+      "ru": "Hamburg — столица земли Гамбурге."
+    },
+    "308": {
+      "de": "Die Karte zeigt die Lage von Hamburg innerhalb Deutschlands.",
+      "tr": "Harita, Hamburg'nin Almanya içindeki konumunu gösterir.",
+      "ru": "На карте показано расположение земли Гамбурге в составе Германии."
+    },
+    "309": {
+      "de": "Das Oberhaupt der Regierung in Hamburg trägt den Titel Erste Bürgermeisterin/Erster Bürgermeister.",
+      "tr": "Hamburg'de hükümet başkanı Erste Bürgermeisterin/Erster Bürgermeister unvanını taşır.",
+      "ru": "Глава правительства в Гамбурге носит титул «Erste Bürgermeisterin/Erster Bürgermeister»."
+    },
+    "310": {
+      "de": "Die Außenpolitik ist in Deutschland Bundessache, keine Landessache — deshalb hat kein Bundesland, auch Hamburg nicht, einen eigenen Außenminister bzw. eine eigene Außenministerin.",
+      "tr": "Almanya'da dış politika eyalet değil federal bir konudur — bu yüzden Hamburg dahil hiçbir eyaletin kendi Dışişleri Bakanı yoktur.",
+      "ru": "Внешняя политика в Германии — федеральная, а не земельная компетенция, поэтому ни в одной немецкой земле, в том числе в Гамбурге, нет собственного министра иностранных дел."
     }
   },
   "hessen": {
@@ -101,6 +321,46 @@
       "de": "Wiesbaden ist die Landeshauptstadt von Hessen.",
       "tr": "Wiesbaden, Hessen'in başkentidir.",
       "ru": "Висбаден — столица земли Гессен."
+    },
+    "302": {
+      "de": "Main-Taunus-Kreis liegt in Hessen; die anderen Optionen sind Landkreise bzw. Bezirke in anderen Bundesländern.",
+      "tr": "Main-Taunus-Kreis, Hessen'de bulunur; diğer seçenekler farklı eyaletlerdeki ilçelerdir.",
+      "ru": "Main-Taunus-Kreis находится в Гессене; остальные варианты — округа в других землях."
+    },
+    "304": {
+      "de": "In Hessen liegt das Mindestwahlalter bei Kommunalwahlen bei 18.",
+      "tr": "Hessen'de yerel seçimlerde asgari oy kullanma yaşı 18'dır.",
+      "ru": "В Гессене минимальный возраст для голосования на местных выборах составляет 18."
+    },
+    "305": {
+      "de": "Die Landesflagge von Hessen ist rot-weiß.",
+      "tr": "Hessen eyalet bayrağı rot-weiß renklerindedir.",
+      "ru": "Флаг земли Гессене — rot-weiß."
+    },
+    "306": {
+      "de": "Politische Informationen erhält man in Hessen bei der Landeszentrale für politische Bildung.",
+      "tr": "Hessen'de siyasi bilgi bei der Landeszentrale für politische Bildung edinilebilir.",
+      "ru": "Политическую информацию в Гессене можно получить bei der Landeszentrale für politische Bildung."
+    },
+    "307": {
+      "de": "Wiesbaden ist die Landeshauptstadt von Hessen.",
+      "tr": "Wiesbaden, Hessen'nin başkentidir.",
+      "ru": "Wiesbaden — столица земли Гессене."
+    },
+    "308": {
+      "de": "Die Karte zeigt die Lage von Hessen innerhalb Deutschlands.",
+      "tr": "Harita, Hessen'nin Almanya içindeki konumunu gösterir.",
+      "ru": "На карте показано расположение земли Гессене в составе Германии."
+    },
+    "309": {
+      "de": "Das Oberhaupt der Regierung in Hessen trägt den Titel Ministerpräsident / Ministerpräsidentin.",
+      "tr": "Hessen'de hükümet başkanı Ministerpräsident / Ministerpräsidentin unvanını taşır.",
+      "ru": "Глава правительства в Гессене носит титул «Ministerpräsident / Ministerpräsidentin»."
+    },
+    "310": {
+      "de": "Die Außenpolitik ist in Deutschland Bundessache, keine Landessache — deshalb hat kein Bundesland, auch Hessen nicht, einen eigenen Außenminister bzw. eine eigene Außenministerin.",
+      "tr": "Almanya'da dış politika eyalet değil federal bir konudur — bu yüzden Hessen dahil hiçbir eyaletin kendi Dışişleri Bakanı yoktur.",
+      "ru": "Внешняя политика в Германии — федеральная, а не земельная компетенция, поэтому ни в одной немецкой земле, в том числе в Гессене, нет собственного министра иностранных дел."
     }
   },
   "mecklenburg-vorpommern": {
@@ -113,6 +373,46 @@
       "de": "Schwerin ist die Landeshauptstadt von Mecklenburg-Vorpommern.",
       "tr": "Schwerin, Mecklenburg-Vorpommern'in başkentidir.",
       "ru": "Шверин — столица земли Мекленбург-Передняя Померания."
+    },
+    "302": {
+      "de": "Mecklenburgische Seenplatte liegt in Mecklenburg-Vorpommern; die anderen Optionen sind Landkreise bzw. Bezirke in anderen Bundesländern.",
+      "tr": "Mecklenburgische Seenplatte, Mecklenburg-Vorpommern'de bulunur; diğer seçenekler farklı eyaletlerdeki ilçelerdir.",
+      "ru": "Mecklenburgische Seenplatte находится в Мекленбурге-Передней Померании; остальные варианты — округа в других землях."
+    },
+    "304": {
+      "de": "In Mecklenburg-Vorpommern liegt das Mindestwahlalter bei Kommunalwahlen bei 16.",
+      "tr": "Mecklenburg-Vorpommern'de yerel seçimlerde asgari oy kullanma yaşı 16'dır.",
+      "ru": "В Мекленбурге-Передней Померании минимальный возраст для голосования на местных выборах составляет 16."
+    },
+    "305": {
+      "de": "Die Landesflagge von Mecklenburg-Vorpommern ist blau-weiß-gelb-rot.",
+      "tr": "Mecklenburg-Vorpommern eyalet bayrağı blau-weiß-gelb-rot renklerindedir.",
+      "ru": "Флаг земли Мекленбурге-Передней Померании — blau-weiß-gelb-rot."
+    },
+    "306": {
+      "de": "Politische Informationen erhält man in Mecklenburg-Vorpommern bei der Landeszentrale für politische Bildung.",
+      "tr": "Mecklenburg-Vorpommern'de siyasi bilgi bei der Landeszentrale für politische Bildung edinilebilir.",
+      "ru": "Политическую информацию в Мекленбурге-Передней Померании можно получить bei der Landeszentrale für politische Bildung."
+    },
+    "307": {
+      "de": "Schwerin ist die Landeshauptstadt von Mecklenburg-Vorpommern.",
+      "tr": "Schwerin, Mecklenburg-Vorpommern'nin başkentidir.",
+      "ru": "Schwerin — столица земли Мекленбурге-Передней Померании."
+    },
+    "308": {
+      "de": "Die Karte zeigt die Lage von Mecklenburg-Vorpommern innerhalb Deutschlands.",
+      "tr": "Harita, Mecklenburg-Vorpommern'nin Almanya içindeki konumunu gösterir.",
+      "ru": "На карте показано расположение земли Мекленбурге-Передней Померании в составе Германии."
+    },
+    "309": {
+      "de": "Das Oberhaupt der Regierung in Mecklenburg-Vorpommern trägt den Titel Ministerpräsidentin/Ministerpräsident.",
+      "tr": "Mecklenburg-Vorpommern'de hükümet başkanı Ministerpräsidentin/Ministerpräsident unvanını taşır.",
+      "ru": "Глава правительства в Мекленбурге-Передней Померании носит титул «Ministerpräsidentin/Ministerpräsident»."
+    },
+    "310": {
+      "de": "Die Außenpolitik ist in Deutschland Bundessache, keine Landessache — deshalb hat kein Bundesland, auch Mecklenburg-Vorpommern nicht, einen eigenen Außenminister bzw. eine eigene Außenministerin.",
+      "tr": "Almanya'da dış politika eyalet değil federal bir konudur — bu yüzden Mecklenburg-Vorpommern dahil hiçbir eyaletin kendi Dışişleri Bakanı yoktur.",
+      "ru": "Внешняя политика в Германии — федеральная, а не земельная компетенция, поэтому ни в одной немецкой земле, в том числе в Мекленбурге-Передней Померании, нет собственного министра иностранных дел."
     }
   },
   "niedersachsen": {
@@ -125,6 +425,46 @@
       "de": "Hannover ist die Landeshauptstadt von Niedersachsen.",
       "tr": "Hannover, Aşağı Saksonya'nın başkentidir.",
       "ru": "Ганновер — столица земли Нижняя Саксония."
+    },
+    "302": {
+      "de": "Ammerland liegt in Niedersachsen; die anderen Optionen sind Landkreise bzw. Bezirke in anderen Bundesländern.",
+      "tr": "Ammerland, Aşağı Saksonya'de bulunur; diğer seçenekler farklı eyaletlerdeki ilçelerdir.",
+      "ru": "Ammerland находится в Нижней Саксонии; остальные варианты — округа в других землях."
+    },
+    "304": {
+      "de": "In Niedersachsen liegt das Mindestwahlalter bei Kommunalwahlen bei 16.",
+      "tr": "Aşağı Saksonya'de yerel seçimlerde asgari oy kullanma yaşı 16'dır.",
+      "ru": "В Нижней Саксонии минимальный возраст для голосования на местных выборах составляет 16."
+    },
+    "305": {
+      "de": "Die Landesflagge von Niedersachsen ist schwarz-rot-gold.",
+      "tr": "Aşağı Saksonya eyalet bayrağı schwarz-rot-gold renklerindedir.",
+      "ru": "Флаг земли Нижней Саксонии — schwarz-rot-gold."
+    },
+    "306": {
+      "de": "Politische Informationen erhält man in Niedersachsen bei der Landeszentrale für politische Bildung.",
+      "tr": "Aşağı Saksonya'de siyasi bilgi bei der Landeszentrale für politische Bildung edinilebilir.",
+      "ru": "Политическую информацию в Нижней Саксонии можно получить bei der Landeszentrale für politische Bildung."
+    },
+    "307": {
+      "de": "Hannover ist die Landeshauptstadt von Niedersachsen.",
+      "tr": "Hannover, Aşağı Saksonya'nin başkentidir.",
+      "ru": "Hannover — столица земли Нижней Саксонии."
+    },
+    "308": {
+      "de": "Die Karte zeigt die Lage von Niedersachsen innerhalb Deutschlands.",
+      "tr": "Harita, Aşağı Saksonya'nin Almanya içindeki konumunu gösterir.",
+      "ru": "На карте показано расположение земли Нижней Саксонии в составе Германии."
+    },
+    "309": {
+      "de": "Das Oberhaupt der Regierung in Niedersachsen trägt den Titel Ministerpräsidentin/Ministerpräsident.",
+      "tr": "Aşağı Saksonya'de hükümet başkanı Ministerpräsidentin/Ministerpräsident unvanını taşır.",
+      "ru": "Глава правительства в Нижней Саксонии носит титул «Ministerpräsidentin/Ministerpräsident»."
+    },
+    "310": {
+      "de": "Die Außenpolitik ist in Deutschland Bundessache, keine Landessache — deshalb hat kein Bundesland, auch Niedersachsen nicht, einen eigenen Außenminister bzw. eine eigene Außenministerin.",
+      "tr": "Almanya'da dış politika eyalet değil federal bir konudur — bu yüzden Aşağı Saksonya dahil hiçbir eyaletin kendi Dışişleri Bakanı yoktur.",
+      "ru": "Внешняя политика в Германии — федеральная, а не земельная компетенция, поэтому ни в одной немецкой земле, в том числе в Нижней Саксонии, нет собственного министра иностранных дел."
     }
   },
   "nordrhein-westfalen": {
@@ -189,6 +529,46 @@
       "de": "Mainz ist die Landeshauptstadt von Rheinland-Pfalz.",
       "tr": "Mainz, Rheinland-Pfalz'ın başkentidir.",
       "ru": "Майнц — столица земли Рейнланд-Пфальц."
+    },
+    "302": {
+      "de": "Westerwaldkreis liegt in Rheinland-Pfalz; die anderen Optionen sind Landkreise bzw. Bezirke in anderen Bundesländern.",
+      "tr": "Westerwaldkreis, Ren-Palatinate'de bulunur; diğer seçenekler farklı eyaletlerdeki ilçelerdir.",
+      "ru": "Westerwaldkreis находится в Рейнланд-Пфальце; остальные варианты — округа в других землях."
+    },
+    "304": {
+      "de": "In Rheinland-Pfalz liegt das Mindestwahlalter bei Kommunalwahlen bei 18.",
+      "tr": "Ren-Palatinate'de yerel seçimlerde asgari oy kullanma yaşı 18'dır.",
+      "ru": "В Рейнланд-Пфальце минимальный возраст для голосования на местных выборах составляет 18."
+    },
+    "305": {
+      "de": "Die Landesflagge von Rheinland-Pfalz ist schwarz-rot-gold.",
+      "tr": "Ren-Palatinate eyalet bayrağı schwarz-rot-gold renklerindedir.",
+      "ru": "Флаг земли Рейнланд-Пфальце — schwarz-rot-gold."
+    },
+    "306": {
+      "de": "Politische Informationen erhält man in Rheinland-Pfalz bei der Landeszentrale für politische Bildung.",
+      "tr": "Ren-Palatinate'de siyasi bilgi bei der Landeszentrale für politische Bildung edinilebilir.",
+      "ru": "Политическую информацию в Рейнланд-Пфальце можно получить bei der Landeszentrale für politische Bildung."
+    },
+    "307": {
+      "de": "Mainz ist die Landeshauptstadt von Rheinland-Pfalz.",
+      "tr": "Mainz, Ren-Palatinate'nin başkentidir.",
+      "ru": "Mainz — столица земли Рейнланд-Пфальце."
+    },
+    "308": {
+      "de": "Die Karte zeigt die Lage von Rheinland-Pfalz innerhalb Deutschlands.",
+      "tr": "Harita, Ren-Palatinate'nin Almanya içindeki konumunu gösterir.",
+      "ru": "На карте показано расположение земли Рейнланд-Пфальце в составе Германии."
+    },
+    "309": {
+      "de": "Das Oberhaupt der Regierung in Rheinland-Pfalz trägt den Titel Ministerpräsidentin/Ministerpräsident.",
+      "tr": "Ren-Palatinate'de hükümet başkanı Ministerpräsidentin/Ministerpräsident unvanını taşır.",
+      "ru": "Глава правительства в Рейнланд-Пфальце носит титул «Ministerpräsidentin/Ministerpräsident»."
+    },
+    "310": {
+      "de": "Die Außenpolitik ist in Deutschland Bundessache, keine Landessache — deshalb hat kein Bundesland, auch Rheinland-Pfalz nicht, einen eigenen Außenminister bzw. eine eigene Außenministerin.",
+      "tr": "Almanya'da dış politika eyalet değil federal bir konudur — bu yüzden Ren-Palatinate dahil hiçbir eyaletin kendi Dışişleri Bakanı yoktur.",
+      "ru": "Внешняя политика в Германии — федеральная, а не земельная компетенция, поэтому ни в одной немецкой земле, в том числе в Рейнланд-Пфальце, нет собственного министра иностранных дел."
     }
   },
   "saarland": {
@@ -201,6 +581,46 @@
       "de": "Saarbrücken ist die Landeshauptstadt des Saarlandes.",
       "tr": "Saarbrücken, Saarland'ın başkentidir.",
       "ru": "Саарбрюккен — столица земли Саар."
+    },
+    "302": {
+      "de": "Neunkirchen liegt in Saarland; die anderen Optionen sind Landkreise bzw. Bezirke in anderen Bundesländern.",
+      "tr": "Neunkirchen, Saarland'de bulunur; diğer seçenekler farklı eyaletlerdeki ilçelerdir.",
+      "ru": "Neunkirchen находится в Сааре; остальные варианты — округа в других землях."
+    },
+    "304": {
+      "de": "In Saarland liegt das Mindestwahlalter bei Kommunalwahlen bei 18.",
+      "tr": "Saarland'de yerel seçimlerde asgari oy kullanma yaşı 18'dır.",
+      "ru": "В Сааре минимальный возраст для голосования на местных выборах составляет 18."
+    },
+    "305": {
+      "de": "Die Landesflagge von Saarland ist schwarz-rot-gold.",
+      "tr": "Saarland eyalet bayrağı schwarz-rot-gold renklerindedir.",
+      "ru": "Флаг земли Сааре — schwarz-rot-gold."
+    },
+    "306": {
+      "de": "Politische Informationen erhält man in Saarland bei der Landeszentrale für politische Bildung.",
+      "tr": "Saarland'de siyasi bilgi bei der Landeszentrale für politische Bildung edinilebilir.",
+      "ru": "Политическую информацию в Сааре можно получить bei der Landeszentrale für politische Bildung."
+    },
+    "307": {
+      "de": "Saarbrücken ist die Landeshauptstadt von Saarland.",
+      "tr": "Saarbrücken, Saarland'nin başkentidir.",
+      "ru": "Saarbrücken — столица земли Сааре."
+    },
+    "308": {
+      "de": "Die Karte zeigt die Lage von Saarland innerhalb Deutschlands.",
+      "tr": "Harita, Saarland'nin Almanya içindeki konumunu gösterir.",
+      "ru": "На карте показано расположение земли Сааре в составе Германии."
+    },
+    "309": {
+      "de": "Das Oberhaupt der Regierung in Saarland trägt den Titel Ministerpräsidentin/Ministerpräsident.",
+      "tr": "Saarland'de hükümet başkanı Ministerpräsidentin/Ministerpräsident unvanını taşır.",
+      "ru": "Глава правительства в Сааре носит титул «Ministerpräsidentin/Ministerpräsident»."
+    },
+    "310": {
+      "de": "Die Außenpolitik ist in Deutschland Bundessache, keine Landessache — deshalb hat kein Bundesland, auch Saarland nicht, einen eigenen Außenminister bzw. eine eigene Außenministerin.",
+      "tr": "Almanya'da dış politika eyalet değil federal bir konudur — bu yüzden Saarland dahil hiçbir eyaletin kendi Dışişleri Bakanı yoktur.",
+      "ru": "Внешняя политика в Германии — федеральная, а не земельная компетенция, поэтому ни в одной немецкой земле, в том числе в Сааре, нет собственного министра иностранных дел."
     }
   },
   "sachsen": {
@@ -213,6 +633,46 @@
       "de": "Dresden ist die Landeshauptstadt von Sachsen.",
       "tr": "Dresden, Saksonya'nın başkentidir.",
       "ru": "Дрезден — столица земли Саксония."
+    },
+    "302": {
+      "de": "Vogtlandkreis liegt in Sachsen; die anderen Optionen sind Landkreise bzw. Bezirke in anderen Bundesländern.",
+      "tr": "Vogtlandkreis, Saksonya'de bulunur; diğer seçenekler farklı eyaletlerdeki ilçelerdir.",
+      "ru": "Vogtlandkreis находится в Саксонии; остальные варианты — округа в других землях."
+    },
+    "304": {
+      "de": "In Sachsen liegt das Mindestwahlalter bei Kommunalwahlen bei 18.",
+      "tr": "Saksonya'de yerel seçimlerde asgari oy kullanma yaşı 18'dır.",
+      "ru": "В Саксонии минимальный возраст для голосования на местных выборах составляет 18."
+    },
+    "305": {
+      "de": "Die Landesflagge von Sachsen ist weiß-grün.",
+      "tr": "Saksonya eyalet bayrağı weiß-grün renklerindedir.",
+      "ru": "Флаг земли Саксонии — weiß-grün."
+    },
+    "306": {
+      "de": "Politische Informationen erhält man in Sachsen bei der Landeszentrale für politische Bildung.",
+      "tr": "Saksonya'de siyasi bilgi bei der Landeszentrale für politische Bildung edinilebilir.",
+      "ru": "Политическую информацию в Саксонии можно получить bei der Landeszentrale für politische Bildung."
+    },
+    "307": {
+      "de": "Dresden ist die Landeshauptstadt von Sachsen.",
+      "tr": "Dresden, Saksonya'nin başkentidir.",
+      "ru": "Dresden — столица земли Саксонии."
+    },
+    "308": {
+      "de": "Die Karte zeigt die Lage von Sachsen innerhalb Deutschlands.",
+      "tr": "Harita, Saksonya'nin Almanya içindeki konumunu gösterir.",
+      "ru": "На карте показано расположение земли Саксонии в составе Германии."
+    },
+    "309": {
+      "de": "Das Oberhaupt der Regierung in Sachsen trägt den Titel Ministerpräsidentin/Ministerpräsident.",
+      "tr": "Saksonya'de hükümet başkanı Ministerpräsidentin/Ministerpräsident unvanını taşır.",
+      "ru": "Глава правительства в Саксонии носит титул «Ministerpräsidentin/Ministerpräsident»."
+    },
+    "310": {
+      "de": "Die Außenpolitik ist in Deutschland Bundessache, keine Landessache — deshalb hat kein Bundesland, auch Sachsen nicht, einen eigenen Außenminister bzw. eine eigene Außenministerin.",
+      "tr": "Almanya'da dış politika eyalet değil federal bir konudur — bu yüzden Saksonya dahil hiçbir eyaletin kendi Dışişleri Bakanı yoktur.",
+      "ru": "Внешняя политика в Германии — федеральная, а не земельная компетенция, поэтому ни в одной немецкой земле, в том числе в Саксонии, нет собственного министра иностранных дел."
     }
   },
   "sachsen-anhalt": {
@@ -225,6 +685,46 @@
       "de": "Magdeburg ist die Landeshauptstadt von Sachsen-Anhalt.",
       "tr": "Magdeburg, Saksonya-Anhalt'ın başkentidir.",
       "ru": "Магдебург — столица земли Саксония-Анхальт."
+    },
+    "302": {
+      "de": "Börde liegt in Sachsen-Anhalt; die anderen Optionen sind Landkreise bzw. Bezirke in anderen Bundesländern.",
+      "tr": "Börde, Saksonya-Anhalt'de bulunur; diğer seçenekler farklı eyaletlerdeki ilçelerdir.",
+      "ru": "Börde находится в Саксонии-Анхальт; остальные варианты — округа в других землях."
+    },
+    "304": {
+      "de": "In Sachsen-Anhalt liegt das Mindestwahlalter bei Kommunalwahlen bei 16.",
+      "tr": "Saksonya-Anhalt'de yerel seçimlerde asgari oy kullanma yaşı 16'dır.",
+      "ru": "В Саксонии-Анхальт минимальный возраст для голосования на местных выборах составляет 16."
+    },
+    "305": {
+      "de": "Die Landesflagge von Sachsen-Anhalt ist gelb-schwarz.",
+      "tr": "Saksonya-Anhalt eyalet bayrağı gelb-schwarz renklerindedir.",
+      "ru": "Флаг земли Саксонии-Анхальт — gelb-schwarz."
+    },
+    "306": {
+      "de": "Politische Informationen erhält man in Sachsen-Anhalt bei der Landeszentrale für politische Bildung.",
+      "tr": "Saksonya-Anhalt'de siyasi bilgi bei der Landeszentrale für politische Bildung edinilebilir.",
+      "ru": "Политическую информацию в Саксонии-Анхальт можно получить bei der Landeszentrale für politische Bildung."
+    },
+    "307": {
+      "de": "Magdeburg ist die Landeshauptstadt von Sachsen-Anhalt.",
+      "tr": "Magdeburg, Saksonya-Anhalt'nin başkentidir.",
+      "ru": "Magdeburg — столица земли Саксонии-Анхальт."
+    },
+    "308": {
+      "de": "Die Karte zeigt die Lage von Sachsen-Anhalt innerhalb Deutschlands.",
+      "tr": "Harita, Saksonya-Anhalt'nin Almanya içindeki konumunu gösterir.",
+      "ru": "На карте показано расположение земли Саксонии-Анхальт в составе Германии."
+    },
+    "309": {
+      "de": "Das Oberhaupt der Regierung in Sachsen-Anhalt trägt den Titel Ministerpräsidentin/Ministerpräsident.",
+      "tr": "Saksonya-Anhalt'de hükümet başkanı Ministerpräsidentin/Ministerpräsident unvanını taşır.",
+      "ru": "Глава правительства в Саксонии-Анхальт носит титул «Ministerpräsidentin/Ministerpräsident»."
+    },
+    "310": {
+      "de": "Die Außenpolitik ist in Deutschland Bundessache, keine Landessache — deshalb hat kein Bundesland, auch Sachsen-Anhalt nicht, einen eigenen Außenminister bzw. eine eigene Außenministerin.",
+      "tr": "Almanya'da dış politika eyalet değil federal bir konudur — bu yüzden Saksonya-Anhalt dahil hiçbir eyaletin kendi Dışişleri Bakanı yoktur.",
+      "ru": "Внешняя политика в Германии — федеральная, а не земельная компетенция, поэтому ни в одной немецкой земле, в том числе в Саксонии-Анхальт, нет собственного министра иностранных дел."
     }
   },
   "schleswig-holstein": {
@@ -237,6 +737,46 @@
       "de": "Kiel ist die Landeshauptstadt von Schleswig-Holstein.",
       "tr": "Kiel, Schleswig-Holstein'ın başkentidir.",
       "ru": "Киль — столица земли Шлезвиг-Гольштейн."
+    },
+    "302": {
+      "de": "Nordfriesland liegt in Schleswig-Holstein; die anderen Optionen sind Landkreise bzw. Bezirke in anderen Bundesländern.",
+      "tr": "Nordfriesland, Schleswig-Holstein'de bulunur; diğer seçenekler farklı eyaletlerdeki ilçelerdir.",
+      "ru": "Nordfriesland находится в Шлезвиг-Гольштейне; остальные варианты — округа в других землях."
+    },
+    "304": {
+      "de": "In Schleswig-Holstein liegt das Mindestwahlalter bei Kommunalwahlen bei 16.",
+      "tr": "Schleswig-Holstein'de yerel seçimlerde asgari oy kullanma yaşı 16'dır.",
+      "ru": "В Шлезвиг-Гольштейне минимальный возраст для голосования на местных выборах составляет 16."
+    },
+    "305": {
+      "de": "Die Landesflagge von Schleswig-Holstein ist blau-weiß-rot.",
+      "tr": "Schleswig-Holstein eyalet bayrağı blau-weiß-rot renklerindedir.",
+      "ru": "Флаг земли Шлезвиг-Гольштейне — blau-weiß-rot."
+    },
+    "306": {
+      "de": "Politische Informationen erhält man in Schleswig-Holstein beim / bei der Landesbeauftragten für politische Bildung.",
+      "tr": "Schleswig-Holstein'de siyasi bilgi beim / bei der Landesbeauftragten für politische Bildung edinilebilir.",
+      "ru": "Политическую информацию в Шлезвиг-Гольштейне можно получить beim / bei der Landesbeauftragten für politische Bildung."
+    },
+    "307": {
+      "de": "Kiel ist die Landeshauptstadt von Schleswig-Holstein.",
+      "tr": "Kiel, Schleswig-Holstein'nin başkentidir.",
+      "ru": "Kiel — столица земли Шлезвиг-Гольштейне."
+    },
+    "308": {
+      "de": "Die Karte zeigt die Lage von Schleswig-Holstein innerhalb Deutschlands.",
+      "tr": "Harita, Schleswig-Holstein'nin Almanya içindeki konumunu gösterir.",
+      "ru": "На карте показано расположение земли Шлезвиг-Гольштейне в составе Германии."
+    },
+    "309": {
+      "de": "Das Oberhaupt der Regierung in Schleswig-Holstein trägt den Titel Ministerpräsidentin/Ministerpräsident.",
+      "tr": "Schleswig-Holstein'de hükümet başkanı Ministerpräsidentin/Ministerpräsident unvanını taşır.",
+      "ru": "Глава правительства в Шлезвиг-Гольштейне носит титул «Ministerpräsidentin/Ministerpräsident»."
+    },
+    "310": {
+      "de": "Die Außenpolitik ist in Deutschland Bundessache, keine Landessache — deshalb hat kein Bundesland, auch Schleswig-Holstein nicht, einen eigenen Außenminister bzw. eine eigene Außenministerin.",
+      "tr": "Almanya'da dış politika eyalet değil federal bir konudur — bu yüzden Schleswig-Holstein dahil hiçbir eyaletin kendi Dışişleri Bakanı yoktur.",
+      "ru": "Внешняя политика в Германии — федеральная, а не земельная компетенция, поэтому ни в одной немецкой земле, в том числе в Шлезвиг-Гольштейне, нет собственного министра иностранных дел."
     }
   },
   "thueringen": {
@@ -249,6 +789,46 @@
       "de": "Erfurt ist die Landeshauptstadt von Thüringen.",
       "tr": "Erfurt, Türingya'nın başkentidir.",
       "ru": "Эрфурт — столица земли Тюрингия."
+    },
+    "302": {
+      "de": "Wartburgkreis liegt in Thüringen; die anderen Optionen sind Landkreise bzw. Bezirke in anderen Bundesländern.",
+      "tr": "Wartburgkreis, Thüringen'de bulunur; diğer seçenekler farklı eyaletlerdeki ilçelerdir.",
+      "ru": "Wartburgkreis находится в Тюрингии; остальные варианты — округа в других землях."
+    },
+    "304": {
+      "de": "In Thüringen liegt das Mindestwahlalter bei Kommunalwahlen bei 16.",
+      "tr": "Thüringen'de yerel seçimlerde asgari oy kullanma yaşı 16'dır.",
+      "ru": "В Тюрингии минимальный возраст для голосования на местных выборах составляет 16."
+    },
+    "305": {
+      "de": "Die Landesflagge von Thüringen ist weiß-rot.",
+      "tr": "Thüringen eyalet bayrağı weiß-rot renklerindedir.",
+      "ru": "Флаг земли Тюрингии — weiß-rot."
+    },
+    "306": {
+      "de": "Politische Informationen erhält man in Thüringen bei der Landeszentrale für politische Bildung.",
+      "tr": "Thüringen'de siyasi bilgi bei der Landeszentrale für politische Bildung edinilebilir.",
+      "ru": "Политическую информацию в Тюрингии можно получить bei der Landeszentrale für politische Bildung."
+    },
+    "307": {
+      "de": "Erfurt ist die Landeshauptstadt von Thüringen.",
+      "tr": "Erfurt, Thüringen'nin başkentidir.",
+      "ru": "Erfurt — столица земли Тюрингии."
+    },
+    "308": {
+      "de": "Die Karte zeigt die Lage von Thüringen innerhalb Deutschlands.",
+      "tr": "Harita, Thüringen'nin Almanya içindeki konumunu gösterir.",
+      "ru": "На карте показано расположение земли Тюрингии в составе Германии."
+    },
+    "309": {
+      "de": "Das Oberhaupt der Regierung in Thüringen trägt den Titel Ministerpräsidentin/Ministerpräsident.",
+      "tr": "Thüringen'de hükümet başkanı Ministerpräsidentin/Ministerpräsident unvanını taşır.",
+      "ru": "Глава правительства в Тюрингии носит титул «Ministerpräsidentin/Ministerpräsident»."
+    },
+    "310": {
+      "de": "Die Außenpolitik ist in Deutschland Bundessache, keine Landessache — deshalb hat kein Bundesland, auch Thüringen nicht, einen eigenen Außenminister bzw. eine eigene Außenministerin.",
+      "tr": "Almanya'da dış politika eyalet değil federal bir konudur — bu yüzden Thüringen dahil hiçbir eyaletin kendi Dışişleri Bakanı yoktur.",
+      "ru": "Внешняя политика в Германии — федеральная, а не земельная компетенция, поэтому ни в одной немецкой земле, в том числе в Тюрингии, нет собственного министра иностранных дел."
     }
   }
 }
