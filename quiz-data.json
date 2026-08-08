@@ -11155,7 +11155,7 @@
             }
           ],
           "correct": 0,
-          "exp_en": "The correct image shows the official coat of arms of Baden-Württemberg.",
+          "exp_en": "The coat of arms of Baden-Württemberg shows three black lions on a gold shield, a symbol inherited from the medieval Staufer dynasty that once ruled the region.",
           "exp_ur": "درست تصویر باڈن-ورٹمبرگ کا سرکاری نشان دکھاتی ہے۔",
           "exp_ar": "تُظهر الصورة الصحيحة الشعار الرسمي لولاية بادن-فورتمبيرغ."
         },
@@ -11415,7 +11415,7 @@
             }
           ],
           "correct": 1,
-          "exp_en": "The map shows the location of Baden-Württemberg within Germany.",
+          "exp_en": "Baden-Württemberg is located in southwestern Germany, bordering France and Switzerland as well as Bavaria, Hesse, and Rhineland-Palatinate.",
           "exp_ur": "نقشہ جرمنی میں باڈن-ورٹمبرگ کے محلِ وقوع کو دکھاتا ہے۔",
           "exp_ar": "توضح الخريطة موقع ولاية بادن-فورتمبيرغ داخل ألمانيا."
         },
@@ -11536,7 +11536,7 @@
             }
           ],
           "correct": 1,
-          "exp_en": "The correct image shows the official coat of arms of Bavaria (Bayern).",
+          "exp_en": "Bavaria's coat of arms is best known for its white-and-blue diamond pattern (Rautenwappen), representing the historic House of Wittelsbach.",
           "exp_ur": "درست تصویر باویریا کا سرکاری نشان دکھاتی ہے۔",
           "exp_ar": "تُظهر الصورة الصحيحة الشعار الرسمي لولاية بافاريا."
         },
@@ -11796,7 +11796,7 @@
             }
           ],
           "correct": 3,
-          "exp_en": "The map shows the location of Bavaria (Bayern) within Germany.",
+          "exp_en": "Bavaria is Germany's largest state by area, located in the southeast, bordering Austria and the Czech Republic as well as several other German states.",
           "exp_ur": "نقشہ جرمنی میں باویریا کے محلِ وقوع کو دکھاتا ہے۔",
           "exp_ar": "توضح الخريطة موقع ولاية بافاريا داخل ألمانيا."
         },
@@ -11917,7 +11917,7 @@
             }
           ],
           "correct": 3,
-          "exp_en": "The correct image shows the official coat of arms of Berlin.",
+          "exp_en": "Berlin's coat of arms features a black bear on a white/silver shield, a symbol long associated with the city.",
           "exp_ur": "درست تصویر برلن کا سرکاری نشان دکھاتی ہے۔",
           "exp_ar": "تُظهر الصورة الصحيحة الشعار الرسمي لولاية برلين."
         },
@@ -12177,7 +12177,7 @@
             }
           ],
           "correct": 3,
-          "exp_en": "The map shows the location of Berlin within Germany.",
+          "exp_en": "Berlin is a city-state entirely surrounded by the state of Brandenburg in northeastern Germany.",
           "exp_ur": "نقشہ جرمنی میں برلن کے محلِ وقوع کو دکھاتا ہے۔",
           "exp_ar": "توضح الخريطة موقع ولاية برلين داخل ألمانيا."
         },
@@ -12298,7 +12298,7 @@
             }
           ],
           "correct": 3,
-          "exp_en": "The correct image shows the official coat of arms of Brandenburg.",
+          "exp_en": "Brandenburg's coat of arms shows a red eagle on a white/silver shield, symbolizing the historic Margraviate of Brandenburg.",
           "exp_ur": "درست تصویر برانڈن برگ کا سرکاری نشان دکھاتی ہے۔",
           "exp_ar": "تُظهر الصورة الصحيحة الشعار الرسمي لولاية براندنبورغ."
         },
@@ -12558,7 +12558,7 @@
             }
           ],
           "correct": 3,
-          "exp_en": "The map shows the location of Brandenburg within Germany.",
+          "exp_en": "Brandenburg surrounds the city-state of Berlin and lies in northeastern Germany, bordering Poland.",
           "exp_ur": "نقشہ جرمنی میں برانڈن برگ کے محلِ وقوع کو دکھاتا ہے۔",
           "exp_ar": "توضح الخريطة موقع ولاية براندنبورغ داخل ألمانيا."
         },
@@ -12679,7 +12679,7 @@
             }
           ],
           "correct": 2,
-          "exp_en": "The correct image shows the official coat of arms of Bremen.",
+          "exp_en": "Bremen's coat of arms features the \"Bremen Key\" — a silver key on a red shield — symbolizing the city's historic role as a free Hanseatic trading port.",
           "exp_ur": "درست تصویر بریمن کا سرکاری نشان دکھاتی ہے۔",
           "exp_ar": "تُظهر الصورة الصحيحة الشعار الرسمي لولاية بريمن."
         },
@@ -12939,7 +12939,7 @@
             }
           ],
           "correct": 0,
-          "exp_en": "The map shows the location of Bremen within Germany.",
+          "exp_en": "Bremen is a small city-state made up of two enclaves entirely surrounded by Lower Saxony in northwestern Germany.",
           "exp_ur": "نقشہ جرمنی میں بریمن کے محلِ وقوع کو دکھاتا ہے۔",
           "exp_ar": "توضح الخريطة موقع ولاية بريمن داخل ألمانيا."
         },
@@ -13060,7 +13060,7 @@
             }
           ],
           "correct": 1,
-          "exp_en": "The correct image shows the official coat of arms of Hamburg.",
+          "exp_en": "Hamburg's coat of arms depicts a white castle gate with towers on a red shield, symbolizing the city's historic status as a fortified Hanseatic trading center.",
           "exp_ur": "درست تصویر ہیمبرگ کا سرکاری نشان دکھاتی ہے۔",
           "exp_ar": "تُظهر الصورة الصحيحة الشعار الرسمي لولاية هامبورغ."
         },
@@ -13320,7 +13320,7 @@
             }
           ],
           "correct": 2,
-          "exp_en": "The map shows the location of Hamburg within Germany.",
+          "exp_en": "Hamburg is a city-state in northern Germany, surrounded by the states of Schleswig-Holstein and Lower Saxony.",
           "exp_ur": "نقشہ جرمنی میں ہیمبرگ کے محلِ وقوع کو دکھاتا ہے۔",
           "exp_ar": "توضح الخريطة موقع ولاية هامبورغ داخل ألمانيا."
         },
@@ -13822,7 +13822,7 @@
             }
           ],
           "correct": 2,
-          "exp_en": "The correct image shows the official coat of arms of Mecklenburg-Western Pomerania.",
+          "exp_en": "The coat of arms of Mecklenburg-Western Pomerania features a crowned bull's head, an emblem drawn from the historic Duchy of Mecklenburg.",
           "exp_ur": "درست تصویر میکلن برگ-فوپومرن کا سرکاری نشان دکھاتی ہے۔",
           "exp_ar": "تُظهر الصورة الصحيحة الشعار الرسمي لولاية مكلنبورغ-فوربومرن."
         },
@@ -14082,7 +14082,7 @@
             }
           ],
           "correct": 2,
-          "exp_en": "The map shows the location of Mecklenburg-Western Pomerania within Germany.",
+          "exp_en": "Mecklenburg-Western Pomerania lies in northeastern Germany along the Baltic Sea coast, bordering Poland.",
           "exp_ur": "نقشہ جرمنی میں میکلن برگ-فوپومرن کے محلِ وقوع کو دکھاتا ہے۔",
           "exp_ar": "توضح الخريطة موقع ولاية مكلنبورغ-فوربومرن داخل ألمانيا."
         },
@@ -14203,7 +14203,7 @@
             }
           ],
           "correct": 2,
-          "exp_en": "The correct image shows the official coat of arms of Lower Saxony.",
+          "exp_en": "Lower Saxony's coat of arms shows a white (silver) rearing horse on a red shield — the Saxon Steed, a widely recognized symbol of the historic Saxon region.",
           "exp_ur": "درست تصویر لوئر سیکسنی کا سرکاری نشان دکھاتی ہے۔",
           "exp_ar": "تُظهر الصورة الصحيحة الشعار الرسمي لولاية ساكسونيا السفلى."
         },
@@ -14463,7 +14463,7 @@
             }
           ],
           "correct": 0,
-          "exp_en": "The map shows the location of Lower Saxony within Germany.",
+          "exp_en": "Lower Saxony lies in northwestern Germany, bordering the Netherlands as well as several other German states.",
           "exp_ur": "نقشہ جرمنی میں لوئر سیکسنی کے محلِ وقوع کو دکھاتا ہے۔",
           "exp_ar": "توضح الخريطة موقع ولاية ساكسونيا السفلى داخل ألمانيا."
         },
@@ -15346,7 +15346,7 @@
             }
           ],
           "correct": 3,
-          "exp_en": "The correct image shows the official coat of arms of Saarland.",
+          "exp_en": "The Saarland's coat of arms combines symbols of the historic territories that were joined to form the state, reflecting its complex regional history between France and Germany.",
           "exp_ur": "درست تصویر زارلینڈ کا سرکاری نشان دکھاتی ہے۔",
           "exp_ar": "تُظهر الصورة الصحيحة الشعار الرسمي لولاية زارلاند."
         },
@@ -15606,7 +15606,7 @@
             }
           ],
           "correct": 1,
-          "exp_en": "The map shows the location of Saarland within Germany.",
+          "exp_en": "The Saarland is Germany's smallest area state (excluding the city-states), located in the southwest, bordering France and Luxembourg.",
           "exp_ur": "نقشہ جرمنی میں زارلینڈ کے محلِ وقوع کو دکھاتا ہے۔",
           "exp_ar": "توضح الخريطة موقع ولاية زارلاند داخل ألمانيا."
         },
@@ -15727,7 +15727,7 @@
             }
           ],
           "correct": 3,
-          "exp_en": "The correct image shows the official coat of arms of Saxony (Sachsen).",
+          "exp_en": "Saxony's coat of arms features a black-and-gold striped shield (the Rautenkranz), a symbol tracing back to the historic Wettin dynasty.",
           "exp_ur": "درست تصویر سیکسنی کا سرکاری نشان دکھاتی ہے۔",
           "exp_ar": "تُظهر الصورة الصحيحة الشعار الرسمي لولاية ساكسونيا."
         },
@@ -15987,7 +15987,7 @@
             }
           ],
           "correct": 3,
-          "exp_en": "The map shows the location of Saxony (Sachsen) within Germany.",
+          "exp_en": "Saxony lies in eastern Germany, bordering Poland and the Czech Republic.",
           "exp_ur": "نقشہ جرمنی میں سیکسنی کے محلِ وقوع کو دکھاتا ہے۔",
           "exp_ar": "توضح الخريطة موقع ولاية ساكسونيا داخل ألمانيا."
         },
@@ -16108,7 +16108,7 @@
             }
           ],
           "correct": 3,
-          "exp_en": "The correct image shows the official coat of arms of Saxony-Anhalt.",
+          "exp_en": "Saxony-Anhalt's coat of arms combines a black bear and other historic regional emblems reflecting the territories merged to form the state after 1945.",
           "exp_ur": "درست تصویر سیکسنی-انہالٹ کا سرکاری نشان دکھاتی ہے۔",
           "exp_ar": "تُظهر الصورة الصحيحة الشعار الرسمي لولاية ساكسونيا أنهالت."
         },
@@ -16368,7 +16368,7 @@
             }
           ],
           "correct": 2,
-          "exp_en": "The map shows the location of Saxony-Anhalt within Germany.",
+          "exp_en": "Saxony-Anhalt lies in central-eastern Germany, home to landmarks such as the Wittenberg Castle Church associated with Martin Luther.",
           "exp_ur": "نقشہ جرمنی میں سیکسنی-انہالٹ کے محلِ وقوع کو دکھاتا ہے۔",
           "exp_ar": "توضح الخريطة موقع ولاية ساكسونيا أنهالت داخل ألمانيا."
         },
@@ -16489,7 +16489,7 @@
             }
           ],
           "correct": 2,
-          "exp_en": "The correct image shows the official coat of arms of Schleswig-Holstein.",
+          "exp_en": "Schleswig-Holstein's coat of arms combines a nettle leaf and two blue lions, symbols of the historic Duchies of Schleswig and Holstein.",
           "exp_ur": "درست تصویر شلیسوگ-ہولشٹائن کا سرکاری نشان دکھاتی ہے۔",
           "exp_ar": "تُظهر الصورة الصحيحة الشعار الرسمي لولاية شليسفيغ-هولشتاين."
         },
@@ -16749,7 +16749,7 @@
             }
           ],
           "correct": 0,
-          "exp_en": "The map shows the location of Schleswig-Holstein within Germany.",
+          "exp_en": "Schleswig-Holstein is Germany's northernmost state, bordering Denmark.",
           "exp_ur": "نقشہ جرمنی میں شلیسوگ-ہولشٹائن کے محلِ وقوع کو دکھاتا ہے۔",
           "exp_ar": "توضح الخريطة موقع ولاية شليسفيغ-هولشتاين داخل ألمانيا."
         },
@@ -16870,7 +16870,7 @@
             }
           ],
           "correct": 3,
-          "exp_en": "The correct image shows the official coat of arms of Thuringia (Thüringen).",
+          "exp_en": "Thuringia's coat of arms shows a red-and-white striped lion, known as the Ludovingian Lion, tracing back to the medieval Landgraves of Thuringia.",
           "exp_ur": "درست تصویر تھیورنگیا کا سرکاری نشان دکھاتی ہے۔",
           "exp_ar": "تُظهر الصورة الصحيحة الشعار الرسمي لولاية تورينغن."
         },
@@ -17130,7 +17130,7 @@
             }
           ],
           "correct": 1,
-          "exp_en": "The map shows the location of Thuringia (Thüringen) within Germany.",
+          "exp_en": "Thuringia lies in central Germany and is often called the \"green heart of Germany\" due to its extensive forests.",
           "exp_ur": "نقشہ جرمنی میں تھیورنگیا کے محلِ وقوع کو دکھاتا ہے۔",
           "exp_ar": "توضح الخريطة موقع ولاية تورينغن داخل ألمانيا."
         },
