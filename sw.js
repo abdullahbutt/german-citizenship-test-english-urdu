@@ -13,7 +13,7 @@
 
 // Cache key includes a build timestamp so every deploy invalidates the cache.
 // The build timestamp is replaced at build time by build.js.
-const CACHE_VERSION = '2026-08-09T15-22-45-030Z';
+const CACHE_VERSION = '2026-08-09T15-35-28-693Z';
 const CACHE_NAME = `gct-cache-${CACHE_VERSION}`;
 
 // All same-origin pages to pre-cache on install
@@ -127,6 +127,23 @@ self.addEventListener('fetch', (event) => {
   // needs to fetch fresh copies of these to detect new versions.
   if (url.pathname.endsWith('/sw.js') || url.pathname.endsWith('/manifest.webmanifest')) {
     event.respondWith(fetch(req, { cache: 'no-store' }).catch(() => caches.match(req)));
+    return;
+  }
+
+  // Same for sitemap.xml and robots.txt — these are crawler-facing files
+  // that must always reflect the latest build, never a stale cached copy.
+  // (They're still listed in PRECACHE_URLS above so they work offline as
+  // a fallback, but online they always try the network first.)
+  if (url.pathname.endsWith('/sitemap.xml') || url.pathname.endsWith('/robots.txt')) {
+    event.respondWith(
+      fetch(req, { cache: 'no-store' })
+        .then((response) => {
+          const respClone = response.clone();
+          caches.open(CACHE_NAME).then((cache) => cache.put(req, respClone));
+          return response;
+        })
+        .catch(() => caches.match(req))
+    );
     return;
   }
 

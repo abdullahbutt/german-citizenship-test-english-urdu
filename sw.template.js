@@ -130,6 +130,23 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
+  // Same for sitemap.xml and robots.txt — these are crawler-facing files
+  // that must always reflect the latest build, never a stale cached copy.
+  // (They're still listed in PRECACHE_URLS above so they work offline as
+  // a fallback, but online they always try the network first.)
+  if (url.pathname.endsWith('/sitemap.xml') || url.pathname.endsWith('/robots.txt')) {
+    event.respondWith(
+      fetch(req, { cache: 'no-store' })
+        .then((response) => {
+          const respClone = response.clone();
+          caches.open(CACHE_NAME).then((cache) => cache.put(req, respClone));
+          return response;
+        })
+        .catch(() => caches.match(req))
+    );
+    return;
+  }
+
   // For navigation requests (HTML pages): network-first, fall back to cache.
   // Use { cache: 'no-store' } so the browser HTTP cache doesn't serve stale HTML.
   if (req.mode === 'navigate' || (req.headers.get('accept') || '').includes('text/html')) {
