@@ -3176,6 +3176,17 @@ function main() {
     // Make sure GitHub Pages doesn’t treat this as Jekyll
     fs.writeFileSync(path.join(ROOT, '.nojekyll'), '');
     console.log('\n✓ .nojekyll written');
+    // Also copy favicon.ico to the site root — browsers automatically
+    // request /favicon.ico at the domain root as a legacy fallback,
+    // regardless of the <link rel="icon"> tags in <head>. Having it there
+    // too silences that (harmless but noisy) 404 in the console.
+    const faviconSrc = path.join(ROOT, 'icons', 'favicon.ico');
+    const faviconDest = path.join(ROOT, 'favicon.ico');
+    if (fs.existsSync(faviconSrc)) {
+        fs.copyFileSync(faviconSrc, faviconDest);
+        console.log('✓ favicon.ico copied to site root');
+    }
+
     buildSitemap();
     generateQuizData();
     generateSearchIndex();
