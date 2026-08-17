@@ -277,7 +277,7 @@ const UI = {
         bamfTestCenter: 'BAMF Test Center ↗',
         starLabel: '⭐ Star on GitHub',
         supportBtn: '☕ Buy Me a Coffee',
-        wordfeatherBtn: '📚 Learn Deutsch at wordFeather ↗',
+        wordfeatherBtn: '📚 German Dictionary at wordFeather ↗',
         wfBannerText: 'Preparing for citizenship? Master German vocabulary with wordFeather.',
         wfBannerCta: 'Try it free ↗',
         lastUpdated: 'Last updated',
@@ -320,7 +320,7 @@ const UI = {
         bamfTestCenter: 'BAMF ٹیسٹ سینٹر ↗',
         starLabel: '⭐ GitHub پر اسٹار کریں',
         supportBtn: '☕ مجھے کافی پلائیں',
-        wordfeatherBtn: '📚 wordFeather پر جرمن سیکھیں ↗',
+        wordfeatherBtn: '📚 wordFeather پر جرمن لغت ↗',
         wfBannerText: 'شہریت کی تیاری کر رہے ہیں؟ wordFeather کے ساتھ جرمن الفاظ سیکھیں۔',
         wfBannerCta: 'مفت آزمائیں ↗',
         lastUpdated: 'آخری اپڈیٹ',
@@ -363,7 +363,7 @@ const UI = {
         bamfTestCenter: 'مركز اختبار BAMF ↗',
         starLabel: '⭐ نجّم على GitHub',
         supportBtn: '☕ اشترِ لي فنجان قهوة',
-        wordfeatherBtn: '📚 تعلّم الألمانية في wordFeather ↗',
+        wordfeatherBtn: '📚 قاموس ألماني في wordFeather ↗',
         wfBannerText: 'تستعد للحصول على الجنسية؟ أتقن المفردات الألمانية مع wordFeather.',
         wfBannerCta: 'جرّبه مجانًا ↗',
         lastUpdated: 'آخر تحديث',
@@ -406,7 +406,7 @@ const UI = {
         bamfTestCenter: 'BAMF-Testzentrum ↗',
         starLabel: '⭐ Auf GitHub markieren',
         supportBtn: '☕ Kauf mir einen Kaffee',
-        wordfeatherBtn: '📚 Deutsch lernen bei wordFeather ↗',
+        wordfeatherBtn: '📚 Deutsches Wörterbuch bei wordFeather ↗',
         wfBannerText: 'Bereiten Sie sich auf die Einbürgerung vor? Lernen Sie deutschen Wortschatz mit wordFeather.',
         wfBannerCta: 'Kostenlos testen ↗',
         lastUpdated: 'Zuletzt aktualisiert',
@@ -449,7 +449,7 @@ const UI = {
         bamfTestCenter: 'BAMF Sınav Merkezi ↗',
         starLabel: '⭐ GitHub’da Yıldızla',
         supportBtn: '☕ Bana Bir Kahve Ismarla',
-        wordfeatherBtn: '📚 wordFeather ile Almanca Öğren ↗',
+        wordfeatherBtn: '📚 wordFeather Almanca Sözlük ↗',
         wfBannerText: 'Vatandaşlığa mı hazırlanıyorsunuz? wordFeather ile Almanca kelime dağarcığınızı geliştirin.',
         wfBannerCta: 'Ücretsiz deneyin ↗',
         lastUpdated: 'Son güncelleme',
@@ -492,7 +492,7 @@ const UI = {
         bamfTestCenter: 'Центр сдачи теста BAMF ↗',
         starLabel: '⭐ Отметить на GitHub',
         supportBtn: '☕ Угости меня кофе',
-        wordfeatherBtn: '📚 Учите немецкий на wordFeather ↗',
+        wordfeatherBtn: '📚 Немецкий словарь на wordFeather ↗',
         wfBannerText: 'Готовитесь к получению гражданства? Изучайте немецкую лексику с wordFeather.',
         wfBannerCta: 'Попробовать бесплатно ↗',
         lastUpdated: 'Обновлено',
@@ -521,7 +521,7 @@ const UI = {
 
 const GITHUB_URL = 'https://github.com/abdullahbutt/leben-in-deutschland-test';
 const PAYPAL_URL = 'https://paypal.me/abdullahbuttde';
-const WORDFEATHER_URL = 'https://wordfeather.com';
+const WORDFEATHER_URL = 'https://wordfeather.com/dictionary.html';
 const BAMF_CATALOG_URL = 'https://www.bamf.de/SharedDocs/Anlagen/DE/Integration/Einbuergerung/gesamtfragenkatalog-lebenindeutschland.html';
 const BAMF_TEST_CENTER_URL = 'https://oet.bamf.de/ords/oetut/f?p=514:1::::::';
 const BUILD_DATE = new Date().toISOString().slice(0, 10);
