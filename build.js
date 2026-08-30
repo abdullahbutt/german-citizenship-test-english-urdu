@@ -294,11 +294,11 @@ const UI = {
         pwaIphone: 'iPhone/iPad',
         pwaIphoneSteps: 'Safari → Share ⬆ → Add to Home Screen',
         pwaAndroid: 'Android',
-        pwaAndroidSteps: 'Chrome → ⋮ Menu → Add to Home Screen',
+        pwaAndroidSteps: 'Chrome → ⋮ Menu or address bar → Install app',
         pwaMac: 'macOS',
-        pwaMacSteps: 'Safari → Share → Add to Dock',
+        pwaMacSteps: 'Safari → File menu → Add to Dock',
         pwaWindows: 'Windows',
-        pwaWindowsSteps: 'Edge → Apps → Install this site',
+        pwaWindowsSteps: 'Chrome/Edge → ⊕ icon in address bar → Install',
         pwaClose: 'Close',
         pwaToggle: 'Show/hide install instructions',
     },
@@ -337,11 +337,11 @@ const UI = {
         pwaIphone: 'آئی فون/آئی پیڈ',
         pwaIphoneSteps: 'Safari → Share ⬆ → Add to Home Screen',
         pwaAndroid: 'اینڈرائیڈ',
-        pwaAndroidSteps: 'Chrome → مینو ⋮ → ہوم اسکرین پر شامل کریں',
+        pwaAndroidSteps: 'Chrome → مینو ⋮ یا ایڈریس بار → ایپ انسٹال کریں',
         pwaMac: 'میک او ایس',
-        pwaMacSteps: 'Safari → Share → Dock میں شامل کریں',
+        pwaMacSteps: 'Safari → File مینو → Dock میں شامل کریں',
         pwaWindows: 'ونڈوز',
-        pwaWindowsSteps: 'Edge → Apps → یہ سائٹ انسٹال کریں',
+        pwaWindowsSteps: 'Chrome/Edge → ⊕ آئیکن ایڈریس بار میں → انسٹال کریں',
         pwaClose: 'بند کریں',
         pwaToggle: 'انسٹالیشن ہدایات دکھائیں/چھپائیں',
     },
@@ -380,11 +380,11 @@ const UI = {
         pwaIphone: 'آيفون/آيباد',
         pwaIphoneSteps: 'سفاري ← مشاركة ⬆ ← إضافة إلى الشاشة الرئيسية',
         pwaAndroid: 'أندرويد',
-        pwaAndroidSteps: 'كروم ← القائمة ⋮ ← إضافة إلى الشاشة الرئيسية',
+        pwaAndroidSteps: 'كروم ← القائمة ⋮ أو شريط العنوان ← تثبيت التطبيق',
         pwaMac: 'macOS',
-        pwaMacSteps: 'سفاري ← مشاركة ← إضافة إلى الرصيف (Dock)',
+        pwaMacSteps: 'سفاري ← قائمة File ← إضافة إلى الرصيف (Dock)',
         pwaWindows: 'ويندوز',
-        pwaWindowsSteps: 'إيدج ← التطبيقات ← تثبيت هذا الموقع',
+        pwaWindowsSteps: 'كروم/إيدج ← أيقونة ⊕ في شريط العنوان ← تثبيت',
         pwaClose: 'إغلاق',
         pwaToggle: 'إظهار/إخفاء تعليمات التثبيت',
     },
@@ -423,11 +423,11 @@ const UI = {
         pwaIphone: 'iPhone/iPad',
         pwaIphoneSteps: 'Safari → Teilen ⬆ → Zum Home-Bildschirm',
         pwaAndroid: 'Android',
-        pwaAndroidSteps: 'Chrome → ⋮ Menü → Zum Startbildschirm hinzufügen',
+        pwaAndroidSteps: 'Chrome → ⋮ Menü oder Adressleiste → App installieren',
         pwaMac: 'macOS',
-        pwaMacSteps: 'Safari → Teilen → Zum Dock hinzufügen',
+        pwaMacSteps: 'Safari → Ablage-Menü → Zum Dock hinzufügen',
         pwaWindows: 'Windows',
-        pwaWindowsSteps: 'Edge → Apps → Diese Seite installieren',
+        pwaWindowsSteps: 'Chrome/Edge → ⊕-Symbol in der Adressleiste → Installieren',
         pwaClose: 'Schließen',
         pwaToggle: 'Installationsanleitung ein-/ausblenden',
     },
@@ -466,11 +466,11 @@ const UI = {
         pwaIphone: 'iPhone/iPad',
         pwaIphoneSteps: 'Safari → Paylaş ⬆ → Ana Ekrana Ekle',
         pwaAndroid: 'Android',
-        pwaAndroidSteps: 'Chrome → ⋮ Menü → Ana Ekrana Ekle',
+        pwaAndroidSteps: 'Chrome → ⋮ Menü veya adres çubuğu → Uygulamayı yükle',
         pwaMac: 'macOS',
-        pwaMacSteps: "Safari → Paylaş → Dock'a Ekle",
+        pwaMacSteps: "Safari → Dosya menüsü → Dock'a Ekle",
         pwaWindows: 'Windows',
-        pwaWindowsSteps: 'Edge → Uygulamalar → Bu siteyi yükle',
+        pwaWindowsSteps: 'Chrome/Edge → Adres çubuğundaki ⊕ simgesi → Yükle',
         pwaClose: 'Kapat',
         pwaToggle: 'Yükleme talimatlarını göster/gizle',
     },
@@ -509,11 +509,11 @@ const UI = {
         pwaIphone: 'iPhone/iPad',
         pwaIphoneSteps: 'Safari → Поделиться ⬆ → На экран «Домой»',
         pwaAndroid: 'Android',
-        pwaAndroidSteps: 'Chrome → Меню ⋮ → Добавить на главный экран',
+        pwaAndroidSteps: 'Chrome → Меню ⋮ или адресная строка → Установить приложение',
         pwaMac: 'macOS',
-        pwaMacSteps: 'Safari → Поделиться → Добавить в Dock',
+        pwaMacSteps: 'Safari → Меню «Файл» → Добавить в Dock',
         pwaWindows: 'Windows',
-        pwaWindowsSteps: 'Edge → Приложения → Установить этот сайт',
+        pwaWindowsSteps: 'Chrome/Edge → значок ⊕ в адресной строке → Установить',
         pwaClose: 'Закрыть',
         pwaToggle: 'Показать/скрыть инструкции по установке',
     },
@@ -993,115 +993,80 @@ function renderPwaBar(lang) {
     const ui = UI[lang] || UI.en;
     const dir = (lang === 'ur' || lang === 'ar') ? 'rtl' : 'ltr';
     return `
-    <div class="pwa-bar" id="pwaBar" dir="${dir}">
-        <div class="pwa-bar-header">
-            <span class="pwa-bar-icon">📱</span>
-            <span class="pwa-bar-title">${escapeHtml(ui.pwaTitle)}</span>
-            <button class="pwa-bar-toggle" id="pwaBarToggle" aria-label="${escapeHtml(ui.pwaToggle)}" aria-expanded="false">▼</button>
-            <button class="pwa-bar-close" id="pwaBarClose" aria-label="${escapeHtml(ui.pwaClose)}">×</button>
-        </div>
-        <div class="pwa-bar-grid collapsed" id="pwaBarGrid">
-            <div class="pwa-quad"><span class="pwa-quad-icon">🍎</span><div><b>${escapeHtml(ui.pwaIphone)}</b><br>${escapeHtml(ui.pwaIphoneSteps)}</div></div>
-            <div class="pwa-quad"><span class="pwa-quad-icon">🤖</span><div><b>${escapeHtml(ui.pwaAndroid)}</b><br>${escapeHtml(ui.pwaAndroidSteps)}</div></div>
-            <div class="pwa-quad"><span class="pwa-quad-icon">🖥️</span><div><b>${escapeHtml(ui.pwaMac)}</b><br>${escapeHtml(ui.pwaMacSteps)}</div></div>
-            <div class="pwa-quad"><span class="pwa-quad-icon">🪟</span><div><b>${escapeHtml(ui.pwaWindows)}</b><br>${escapeHtml(ui.pwaWindowsSteps)}</div></div>
+    <div id="installBanner" class="install-banner-wrap" style="display:none;" dir="${dir}">
+        <div class="container">
+            <div class="install-banner">
+                <div class="install-banner-bar">
+                    <span class="install-banner-icon">📱</span>
+                    <span class="install-banner-text">${escapeHtml(ui.pwaTitle)}</span>
+                </div>
+                <button type="button" id="installBannerClose" class="install-banner-close" aria-label="${escapeHtml(ui.pwaClose)}">✕</button>
+                <div id="installBannerPanel" class="install-banner-panel">
+                    <div class="row g-2">
+                        <div class="col-6 col-lg-3">
+                            <div class="install-banner-card"><div class="install-banner-card-title">🍎 ${escapeHtml(ui.pwaIphone)}</div><div>${escapeHtml(ui.pwaIphoneSteps)}</div></div>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <div class="install-banner-card"><div class="install-banner-card-title">🤖 ${escapeHtml(ui.pwaAndroid)}</div><div>${escapeHtml(ui.pwaAndroidSteps)}</div></div>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <div class="install-banner-card"><div class="install-banner-card-title">🖥️ ${escapeHtml(ui.pwaMac)}</div><div>${escapeHtml(ui.pwaMacSteps)}</div></div>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <div class="install-banner-card"><div class="install-banner-card-title">🪟 ${escapeHtml(ui.pwaWindows)}</div><div>${escapeHtml(ui.pwaWindowsSteps)}</div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <style>
-        .pwa-bar {
-            background: linear-gradient(135deg, #1d4ed8 0%, #1e40af 100%);
+        .install-banner-wrap { background: linear-gradient(135deg, #1d4ed8 0%, #7c3aed 100%); color: #fff; }
+        .install-banner { position: relative; padding: .5rem 2.2rem .5rem .25rem; }
+        .install-banner-bar { display: flex; align-items: center; gap: .5rem; width: 100%; padding: .2rem .25rem; font-size: .85rem; }
+        .install-banner-icon { font-size: 1.1rem; line-height: 1; }
+        .install-banner-text { font-weight: 600; flex: 1; }
+        .install-banner-close {
+            position: absolute;
+            ${dir === 'rtl' ? 'left' : 'right'}: .35rem;
+            top: .35rem;
+            background: none;
+            border: none;
             color: #fff;
-            padding: 0.85rem 1.25rem;
-            margin-bottom: 1rem;
-        }
-        [data-bs-theme="dark"] .pwa-bar {
-            background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
-        }
-        .pwa-bar-header {
-            display: flex;
-            align-items: center;
-            gap: 0.6rem;
-            max-width: 900px;
-            margin: 0 auto;
-        }
-        .pwa-bar-icon { font-size: 1.15rem; flex-shrink: 0; }
-        .pwa-bar-title { flex: 1; font-weight: 700; font-size: 0.92rem; }
-        .pwa-bar-toggle, .pwa-bar-close {
-            background: rgba(255,255,255,0.18);
-            border: 0;
-            color: #fff;
-            border-radius: 0.4rem;
-            width: 1.8rem;
-            height: 1.8rem;
+            opacity: .7;
             font-size: 1rem;
             line-height: 1;
             cursor: pointer;
-            flex-shrink: 0;
+            padding: .2rem .4rem;
         }
-        .pwa-bar-toggle:hover, .pwa-bar-close:hover { background: rgba(255,255,255,0.3); }
-        .pwa-bar-grid {
-            max-width: 900px;
-            margin: 0.75rem auto 0;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 0.6rem;
-        }
-        @media (max-width: 560px) {
-            .pwa-bar-grid { grid-template-columns: 1fr; }
-        }
-        .pwa-bar-grid.collapsed { display: none; }
-        .pwa-quad {
-            background: rgba(255,255,255,0.15);
-            border-radius: 0.55rem;
-            padding: 0.6rem 0.85rem;
-            font-size: 0.85rem;
-            display: flex;
-            align-items: flex-start;
-            gap: 0.55rem;
+        .install-banner-close:hover { opacity: 1; }
+        .install-banner-panel { padding-top: .5rem; }
+        .install-banner-card {
+            background: rgba(255,255,255,.15);
+            border-radius: .6rem;
+            padding: .5rem .7rem;
+            font-size: .78rem;
+            line-height: 1.4;
+            height: 100%;
             text-align: ${dir === 'rtl' ? 'right' : 'left'};
         }
-        .pwa-quad-icon { font-size: 1.15rem; flex-shrink: 0; margin-top: 0.05rem; }
-        .pwa-quad b { color: #bfdbfe; }
-        .pwa-bar.pwa-bar-hidden { display: none; }
+        .install-banner-card-title { font-weight: 700; margin-bottom: .15rem; }
     </style>
     <script>
     (function () {
-        var bar = document.getElementById('pwaBar');
-        if (!bar) return;
-        var grid = document.getElementById('pwaBarGrid');
-        var toggleBtn = document.getElementById('pwaBarToggle');
-        var closeBtn = document.getElementById('pwaBarClose');
-
-        // Hide entirely if already dismissed, or already installed (standalone mode)
-        var standalone = window.matchMedia('(display-mode: standalone)').matches
-                       || window.navigator.standalone === true;
+        var KEY = 'leben_install_banner_dismissed';
+        var banner = document.getElementById('installBanner');
+        if (!banner) return;
+        var isStandalone = (window.matchMedia && window.matchMedia('(display-mode: standalone)').matches) || window.navigator.standalone === true;
         var dismissed = false;
-        try { dismissed = localStorage.getItem('pwaBarDismissed') === '1'; } catch (e) {}
-        if (standalone || dismissed) {
-            bar.classList.add('pwa-bar-hidden');
-            return;
-        }
-
-        // Restore collapsed/expanded state — default is COLLAPSED (markup ships collapsed).
-        // Only expand if the person previously explicitly chose to expand it.
-        var wasExpanded = false;
-        try { wasExpanded = localStorage.getItem('pwaBarCollapsed') === '0'; } catch (e) {}
-        if (wasExpanded) {
-            grid.classList.remove('collapsed');
-            toggleBtn.textContent = '▲';
-            toggleBtn.setAttribute('aria-expanded', 'true');
-        }
-
-        toggleBtn.addEventListener('click', function () {
-            var nowCollapsed = grid.classList.toggle('collapsed');
-            toggleBtn.textContent = nowCollapsed ? '▼' : '▲';
-            toggleBtn.setAttribute('aria-expanded', String(!nowCollapsed));
-            try { localStorage.setItem('pwaBarCollapsed', nowCollapsed ? '1' : '0'); } catch (e) {}
-        });
-
-        closeBtn.addEventListener('click', function () {
-            bar.classList.add('pwa-bar-hidden');
-            try { localStorage.setItem('pwaBarDismissed', '1'); } catch (e) {}
+        try { dismissed = localStorage.getItem(KEY) === '1'; } catch (e) {}
+        if (isStandalone || dismissed) return;
+        banner.style.display = 'block';
+        var closeBtn = document.getElementById('installBannerClose');
+        closeBtn.addEventListener('click', function (e) {
+            e.stopPropagation();
+            try { localStorage.setItem(KEY, '1'); } catch (e2) {}
+            banner.style.display = 'none';
         });
     })();
     </script>`;
